@@ -1,7 +1,6 @@
-# Neural Control of Real-World Human Movement
-## 2024 Fall
+# 2025 Spring - Neural Control of Real-World Human Movement
 
-#### Instructor: Jonathan Samir Matthis
+## Instructor: Jonathan Samir Matthis
  **Course Dates**: 06 Jan 2025 - 15 April 2025
  **Course Time**: Mon/Weds 2:50-4:30
  **Course Location**: (on canvas)
