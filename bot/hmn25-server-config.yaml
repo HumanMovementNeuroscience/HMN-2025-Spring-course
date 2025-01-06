@@ -1,0 +1,53 @@
+roles:
+  - name: Bot
+    color: "#FF00FF"
+    hoist: true
+
+  - name: Student
+    color: "#00FF00"
+    hoist: false
+
+  - name: Professor
+    color: "#FF00FF"
+    hoist: false
+
+
+channels:
+  - name: 🤖-prompt-settings
+    type: text
+    topic: "This channel holds the global server-wide prompt/instructions that will be pre-pended to the Bot's System prompt for all coversations in this server"
+    permissionsOverwrites:
+      - roleName: "Student"
+        allow:
+          - "VIEW_CHANNEL"
+          - "READ_MESSAGE_HISTORY"
+        deny:
+          - "SEND_MESSAGES"
+
+
+  - name: neato-channel
+    type: text
+    topic: "This is the neato channel! Neatoooooooooo!"
+    parentCategory: NeatoCategory
+
+  - name: additional-channel
+    type: text
+    topic: "This channel doesn't belong to any category!"
+
+messages:
+  - content: "WoweeZoweeee!"
+    channelName: wow-channel
+    reactions:
+      - "👋"
+      - "✨"
+  - content: "NeatoBEETON!"
+    channelName: neato-channel
+    reactions:
+    - "🐕"
+    - "🐈"
+  - content: "Lookit this msg!"
+    channelName: additional-channel
+    reactions:
+      - "👍"
+      - "👎"
+      - "🤔"
