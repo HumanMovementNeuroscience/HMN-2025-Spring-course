@@ -25,7 +25,7 @@
 | 03 Mar 2025   | Week 9  | SPRING BREAK                      | SPRING BREAK               | SPRING BREAK                    |
 | 10 Mar 2025   | Week 10 | Lecture-7                         | Lab-7                      | 6 - Assignment                  |
 | 17 Mar 2025   | Week 11 | Lecture-8                         | Lab-8                      | 7 - Assignment                  |
-| 24 Mar 2025   | Week 12 | Lecture-9                         | Lab-9                     | Upload Poster by TUES MARCH 25  |
+| 24 Mar 2025   | Week 12 | Lecture-9                         | Lab-9                      | Upload Poster by TUES MARCH 25  |
 | 31 Mar 2025   | Week 13 | Lecture-10                        | Lab-10                     | 8 - Assignment                  |
 | 07 Apr 2025   | Week 14 | POSTER PRESENTATION DAY 1         | POSTER PRESENTATION DAY 2  | 9 - Assignment                  |
 | 14 Apr 2025   | Week 15 | Retrospective                     | Wrap up                    | 10 - Outro /chat                |
