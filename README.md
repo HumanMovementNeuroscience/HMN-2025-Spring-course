@@ -57,7 +57,7 @@ The course promotes interdisciplinary collaboration and introduces modern techni
 
 At the end of the semester, you will present (individually or with a group, depending on your preference) a poster at a Symposium event designed to mimic a poster presentation session at a scientific conference. This Symposium will be attended by all 10+ sections of Biol2299 - It’s super fun! Your poster assignment is the Big Assignment for this course, but don't worry about it. You'll be fine :)  
 
-## Other Assignments
+### Other Assignments
 
 There will also be a number of relatively casual assignments throughout the semester that will be explained as they come up. 
 
