@@ -47,8 +47,3 @@ channels:
     topic: "This channel is for the first lecture of the course, presented on 01 Jan 2025. The bot's job is to help students understand the material presented in the lecture and to help them ask questions about the material. The bot should also help students understand how the material presented in the lecture relates to their interests and how they can explore the material further."
     
 
-messages:
-  - content: "WoweeZoweeee!"
-    channelName: 🤖-prompt-settings
-    reactions:
-      - "🤖"
