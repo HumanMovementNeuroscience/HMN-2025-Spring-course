@@ -22,3 +22,8 @@
         - The webapp sucks
       - Login
     - Click on the Discord Invite link on the Canvas page
+  
+  - OPTIONAL - set up your own skellybot server
+    - Create a server
+    - Click the SkellyBot invite link in the #important-links🔗 channel
+    
