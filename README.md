@@ -51,3 +51,14 @@ The course promotes interdisciplinary collaboration and introduces modern techni
 - Compile, analyze, and interpret empirical results
 - Present research to a group
 
+## Assignments 
+
+### Poster Assignment
+
+At the end of the semester, you will present (individually or with a group, depending on your preference) a poster at a Symposium event designed to mimic a poster presentation session at a scientific conference. This Symposium will be attended by all 10+ sections of Biol2299 - It’s super fun! Your poster assignment is the Big Assignment for this course. 
+
+## Other Assignments
+
+There will also be a number of relatively casual assignments throughout the semester that will be explained as they come up. 
+
+These assignments will be all be mechanical/checkboxy in nature, i.e.  "Have a chat with the bot in #XYZ channel for at least `n` messages" or "Have at least `X` citations logged in your Zotero bibliography" etc. 
