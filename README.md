@@ -7,7 +7,7 @@
 
 ### Course Materials and Resources
 - Discord Server: (Invite on Canvas)
-- Canvas page - [TBA]
+- Canvas page - https://northeastern.instructure.com/courses/201323
 - Course website: [TBA]
 
 ## Schedule Overview
