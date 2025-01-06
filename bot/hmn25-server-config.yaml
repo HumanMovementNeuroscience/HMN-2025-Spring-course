@@ -12,6 +12,29 @@ roles:
     hoist: false
 
 
+
+
+categories:
+  - name: _Text_Channels_
+    position: 0
+    permissionsOverwrites:
+      - roleName: "Student"
+        allow:
+          - "SEND_MESSAGES"
+      - roleName: "Professor"
+        allow:
+          - "SEND_MESSAGES"
+
+  - name: _Assignments_
+    position: 0
+    permissionsOverwrites:
+      - roleName: "Student"
+        allow:
+          - "SEND_MESSAGES"
+      - roleName: "Professor"
+        allow:
+          - "SEND_MESSAGES"
+
 channels:
   - name: 🤖-prompt-settings
     type: text
@@ -24,11 +47,9 @@ channels:
         deny:
           - "SEND_MESSAGES"
 
-
-
-categories:
-  - name: _Text_Channels_
-    position: 0
-    botPromptMessages:
-      - "Only say Wow (and variants) in this category!"
-      - "Wow!"
+  - name: 0-introduction👋
+    type: text
+    parentCategory: _Assignments_
+    topic: "In this channel, students will introduce themselves and talk about their background, interests, and future plans. The bot's job will be to help them get a better sense of how their interests scope into the topic of the course and help them get a better and broader sense of ways they can explore details and related topics to their primary area or areas of interest. The bot should support the student in their inquiries and offer helpful questions for deeper reflection around the topics the student brings up in their introduction."
+    
+  
