@@ -25,29 +25,10 @@ channels:
           - "SEND_MESSAGES"
 
 
-  - name: neato-channel
-    type: text
-    topic: "This is the neato channel! Neatoooooooooo!"
-    parentCategory: NeatoCategory
 
-  - name: additional-channel
-    type: text
-    topic: "This channel doesn't belong to any category!"
-
-messages:
-  - content: "WoweeZoweeee!"
-    channelName: wow-channel
-    reactions:
-      - "👋"
-      - "✨"
-  - content: "NeatoBEETON!"
-    channelName: neato-channel
-    reactions:
-    - "🐕"
-    - "🐈"
-  - content: "Lookit this msg!"
-    channelName: additional-channel
-    reactions:
-      - "👍"
-      - "👎"
-      - "🤔"
+categories:
+  - name: _Text_Channels_
+    position: 0
+    botPromptMessages:
+      - "Only say Wow (and variants) in this category!"
+      - "Wow!"
