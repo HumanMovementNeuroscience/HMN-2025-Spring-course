@@ -21,7 +21,12 @@ categories:
       - roleName: "Student"
         allow:
           - "SEND_MESSAGES"
-      - roleName: "Professor"
+
+
+  - name: _Assignments_
+    position: 0
+    permissionsOverwrites:
+      - roleName: "Student"
         allow:
           - "SEND_MESSAGES"
 
@@ -31,9 +36,7 @@ categories:
       - roleName: "Student"
         allow:
           - "SEND_MESSAGES"
-      - roleName: "Professor"
-        allow:
-          - "SEND_MESSAGES"
+
 
 channels:
   - name: 🤖-prompt-settings
@@ -41,9 +44,6 @@ channels:
     topic: "This channel holds the global server-wide prompt/instructions that will be pre-pended to the Bot's System prompt for all coversations in this server"
     permissionsOverwrites:
       - roleName: "Student"
-        allow:
-          - "VIEW_CHANNEL"
-          - "READ_MESSAGE_HISTORY"
         deny:
           - "SEND_MESSAGES"
 
