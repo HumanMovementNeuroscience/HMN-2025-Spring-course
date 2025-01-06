@@ -30,3 +30,24 @@
 | 07 Apr 2025   | Week 14 | POSTER PRESENTATION DAY 1         | POSTER PRESENTATION DAY 2  | 9 - Assignment                  |
 | 14 Apr 2025   | Week 15 | Retrospective                     | Wrap up                    | 10 - Outro /chat                |
 
+
+## Course Description
+Students will explore the neural basis of natural human behavior in real-world contexts (e.g., [[sports]], [[dance]], or [[everyday-activities]]) by investigating  [[biomechanics]] and  [[neurosciene]] of [[human-movement]]. The course will cover [[philosophical]], [[technological]], and [[scientific]] aspects related to the study of [[natural-behavior]] while emphasizing hands-on, project-based learning. Students will use [[free-open-source-software]], and [[artificial-intelligence]],[[machine-learning]] and [[computer-vision]] driven tools and methods to record human movement in unconstrained environments.
+
+The course promotes interdisciplinary collaboration and introduces modern techniques for decentralized [[project-management]], [[AI-assisted-research-techniques]], and [[Python]]-based programming (No prior programming experience is required). Students will receive training in the use of AI technology for project management and research conduct, including [[literature-review]], [[data-analysis]], [[data-visualization]], and [[presentation-of-results]]. Through experiential learning, students will develop valuable skills in planning and executing technology-driven research projects while examining the impact of structural inequities on scientific inquiry.
+
+    
+## Course Objectives
+- Gain exposure to key concepts related to neural control of human movement.
+- Apply interdisciplinary approaches when collaborating on complex problems.
+- Develop a basic understanding of machine-learning tools for recording human movements.
+- Contribute effectively within a team setting towards achieving common goals.
+- Acquire valuable skills in data analysis or background research.
+
+## Learning Outcomes
+### Design and conduct a research project
+- Develop a research plan
+- Conduct a literature review
+- Compile, analyze, and interpret empirical results
+- Present research to a group
+
