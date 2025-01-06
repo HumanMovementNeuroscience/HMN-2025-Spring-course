@@ -1,4 +1,4 @@
-<!-- Exercise Schema -->
+<!-- Assignment Schema -->
 
 # Title 
 Format `Exercise #{number} - Short title`
@@ -18,4 +18,4 @@ Format `Exercise #{number} - Short title`
 ## Technical instructions
 - Include any relevant technical instructions for completing the exercise.
 
-<!-- End Exercise Schema -->
+<!-- End Assignment Schema -->
