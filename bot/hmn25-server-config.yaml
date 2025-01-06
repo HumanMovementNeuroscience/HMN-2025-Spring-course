@@ -17,25 +17,14 @@ roles:
 categories:
   - name: _Text_Channels_
     position: 0
-    permissionsOverwrites:
-      - roleName: "Student"
-        allow:
-          - "SEND_MESSAGES"
+
 
 
   - name: _Assignments_
     position: 0
-    permissionsOverwrites:
-      - roleName: "Student"
-        allow:
-          - "SEND_MESSAGES"
 
-  - name: _Assignments_
+  - name: _Lectures_
     position: 0
-    permissionsOverwrites:
-      - roleName: "Student"
-        allow:
-          - "SEND_MESSAGES"
 
 
 channels:
@@ -51,5 +40,15 @@ channels:
     type: text
     parentCategory: _Assignments_
     topic: "In this channel, students will introduce themselves and talk about their background, interests, and future plans. The bot's job will be to help them get a better sense of how their interests scope into the topic of the course and help them get a better and broader sense of ways they can explore details and related topics to their primary area or areas of interest. The bot should support the student in their inquiries and offer helpful questions for deeper reflection around the topics the student brings up in their introduction."
-    
   
+  - name: 20260106 - Lecture 1
+    type: text
+    parentCategory: _Lectures_
+    topic: "This channel is for the first lecture of the course, presented on 01 Jan 2025. The bot's job is to help students understand the material presented in the lecture and to help them ask questions about the material. The bot should also help students understand how the material presented in the lecture relates to their interests and how they can explore the material further."
+    
+
+messages:
+  - content: "WoweeZoweeee!"
+    channelName: 🤖-prompt-settings
+    reactions:
+      - "🤖"
