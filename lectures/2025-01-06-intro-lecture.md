@@ -6,8 +6,12 @@
 
 - What this course is
 - Intro to The Situation 
+  - None of this is OK
+  - Tuition is unacceptable/immoral
+  - "Wouldn't be a good trap if you could just walk around it"
+  - Also, AI is happening so... 
+
 - Who I am
-  - What I do
   - Research (laser skeletons)
   - FOSS zealot (freemocap/skellybot)
 - What we're doing here
