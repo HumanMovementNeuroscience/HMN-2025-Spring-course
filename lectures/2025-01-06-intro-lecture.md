@@ -12,8 +12,9 @@
   - Also, AI is happening so... 
 
 - Who I am
-  - Research (laser skeletons)
-  - FOSS zealot (freemocap/skellybot)
+  - Research (laser skeletons) - https://scholar.google.com/citations?user=mjYexjAAAAAJ&hl=en
+  - FOSS zealot (freemocap/skellybot) - https://freemocap.org
+  
 - What we're doing here
   - Course outcomes 
     - Intro to 'proper' science
