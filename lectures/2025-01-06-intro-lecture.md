@@ -26,4 +26,5 @@
   - OPTIONAL - set up your own skellybot server
     - Create a server
     - Click the SkellyBot invite link in the #important-links🔗 channel
-    
+
+## Weekly assignment
