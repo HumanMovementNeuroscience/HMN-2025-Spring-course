@@ -1,10 +1,11 @@
-<!-- Assignment Schema -->
+<!-- End Assignment Schema -->
+# Title (`Assignment #{number} - Short title`)
 
-# Title 
-Format `Exercise #{number} - Short title`
-  
 ## Background
-- Introduce the exercise and its significance within the context of the course
+- Introduce the exercise and its significance within the context of the course.
+
+## Learning Objectives
+- Outline the key learning goals that students should achieve by completing the assignment.
 
 ## Step-by-Step Guide
 - Provide clear, sequential steps for completing the exercise.
@@ -15,7 +16,7 @@ Format `Exercise #{number} - Short title`
 ## Additional Resources
 - Include any relevant supplementary materials or references.
 
-## Technical instructions
+## Technical Instructions
 - Include any relevant technical instructions for completing the exercise.
 
 <!-- End Assignment Schema -->

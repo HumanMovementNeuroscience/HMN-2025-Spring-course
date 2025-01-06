@@ -1,5 +1,7 @@
 # 2025-01-06-intro-lecture
 
+> Weekly Assignment - [Intro chat with the bot](../assignments/1-introduction-chat.md)
+
 ## Planned content
 
 - What this course is
@@ -27,9 +29,7 @@
     - Create a server
     - Click the SkellyBot invite link in the #important-links🔗 channel
 
-## Weekly assignment!
-- Introduce yourself!
-  1. Go to the #introductions channel, 
-  2. Start a chat by typing `/chat` in the channel and pressing ENTER
-  3. Have a conversation with the bot about your interests
-  4. You (the human) must send at LEAST 5 messages
+
+--
+
+Then we'll feed the lecture to the bot and spend the rest of the time playing with the bot and making sure everyone is set up :D
