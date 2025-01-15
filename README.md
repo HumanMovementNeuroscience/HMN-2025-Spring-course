@@ -16,11 +16,11 @@
 | ------------- | ------- | --------------------------------- | -------------------------- | ------------------------------- |
 | 06 Jan 2025   | Week 1  | Intro/Setup                       | HMN Overview               | 0 - Introduction /chat          |
 | 13 Jan 2025   | Week 2  | Library Resources Presentation    | Topic Planning             | 1 - Choosing a Topic            | 
-| 20 Jan 2025   | Week 3  | Lecture-1                         | Lab-1                      | Poster Proposal #1 Due          |
+| 20 Jan 2025   | Week 3  | MLK DAY                           | Lab-1                      | Poster Proposal #1 Due          |
 | 27 Jan 2025   | Week 4  | Lecture-2                         | Lab-2                      | 2 - Assignment                  |
 | 03 Feb 2025   | Week 5  | Lecture-3                         | Lab-3                      | 3 - Assignment                  |
 | 10 Feb 2025   | Week 6  | Lecture-4                         | Lab-4                      | Poster Proposal #2 Due          |
-| 17 Feb 2025   | Week 7  | Lecture-5                         | Lab-5                      | 5 - Assignment                  |
+| 17 Feb 2025   | Week 7  | PRESIDENT DAY                     | Lab-5                      | 5 - Assignment                  |
 | 24 Feb 2025   | Week 8  | Lecture-6                         | Lab-6                      | Poster Due!                     |
 | 03 Mar 2025   | Week 9  | SPRING BREAK                      | SPRING BREAK               | SPRING BREAK                    |
 | 10 Mar 2025   | Week 10 | Lecture-7                         | Lab-7                      | 6 - Assignment                  |
@@ -32,7 +32,7 @@
 
 
 ## Course Description
-Students will explore the neural basis of natural human behavior in real-world contexts (e.g., [[sports]], [[dance]], or [[everyday-activities]]) by investigating  [[biomechanics]] and  [[neurosciene]] of [[human-movement]]. The course will cover [[philosophical]], [[technological]], and [[scientific]] aspects related to the study of [[natural-behavior]] while emphasizing hands-on, project-based learning. Students will use [[free-open-source-software]], and [[artificial-intelligence]],[[machine-learning]] and [[computer-vision]] driven tools and methods to record human movement in unconstrained environments.
+Students will explore the neural basis of natural human behavior in real-world contexts (e.g., [[sports]], [[dance]], or [[everyday-activities]]) by investigating  [[biomechanics]] and  [[neuroscience]] of [[human-movement]]. The course will cover [[philosophical]], [[technological]], and [[scientific]] aspects related to the study of [[natural-behavior]] while emphasizing hands-on, project-based learning. Students will use [[free-open-source-software]], and [[artificial-intelligence]],[[machine-learning]] and [[computer-vision]] driven tools and methods to record human movement in unconstrained environments.
 
 The course promotes interdisciplinary collaboration and introduces modern techniques for decentralized [[project-management]], [[AI-assisted-research-techniques]], and [[Python]]-based programming (No prior programming experience is required). Students will receive training in the use of AI technology for project management and research conduct, including [[literature-review]], [[data-analysis]], [[data-visualization]], and [[presentation-of-results]]. Through experiential learning, students will develop valuable skills in planning and executing technology-driven research projects while examining the impact of structural inequities on scientific inquiry.
 
