@@ -1,0 +1,2004 @@
+00:00 we&amp;#39;re recording now um so to repeat that
+00:04 um the the proper assignment like the
+00:07 the proper proper like poster proposal
+00:09 assignment will be on uh like a one or
+00:13 two sentence right up on the topic area
+00:15 that you&amp;#39;re going to want your poster to
+00:17 be on and a singular citation of a paper
+00:21 that kind of represents what that
+00:24 research what what what that like
+00:27 research in the area that you&amp;#39;re going
+00:28 to be presenting on um um the standard
+00:31 assignment for 22.99 is that you&amp;#39;re
+00:33 supposed to pick a singular paper for
+00:35 the whole semester and then your poster
+00:37 is going to be you presenting just that
+00:39 paper um I think we can go a little bit
+00:42 beyond that if that&amp;#39;s all you want to do
+00:44 that&amp;#39;s totally valid um but I think we
+00:46 can do a little bit more broad of a of
+00:48 an overview um
+00:51 and uh but to keep us kind of honest
+00:54 we&amp;#39;re just I&amp;#39;m going to ask you to to
+00:56 pick a singular paper and then the the
+00:59 bot me mediated conversation will be
+01:02 sort of designed to help you do that so
+01:05 if you you know give it say here&amp;#39;s the
+01:07 topic I want to study um here&amp;#39;s a paper
+01:09 I&amp;#39;m thinking about here&amp;#39;s the abstract
+01:11 um I&amp;#39;ll prompt I&amp;#39;ll make the bot
+01:13 prompted to kind of like ask you the
+01:14 kind of questions um that you know I
+01:17 would ask you if I have the time and
+01:19 energy to kind of sit down and talk
+01:21 about it um behind the curtain when they
+01:24 talk about this class uh the most of
+01:29 what they tell us to do is try to help
+01:31 you guys not pick a review article for
+01:34 your paper and to pick an actual proper
+01:37 like Empirical research article like
+01:39 because it&amp;#39;s really it&amp;#39;s like like if
+01:42 you just go search for papers on a given
+01:44 topic you&amp;#39;re going to find review
+01:45 articles at the top of that list and
+01:46 it&amp;#39;s not always super obvious whether
+01:49 you&amp;#39;re looking at a review article or a
+01:50 book chaper or like an empirical study
+01:54 um so I can tell the bot to help you
+01:57 with that uh and it&amp;#39;ll do things like
+01:59 asking you about the methodologies and
+02:01 topics and stuff like that so just kind
+02:03 of like helping you kind of like parse
+02:05 the very very dense language that an
+02:07 abstract or scientific papers typically
+02:08 written in um and so then there will be
+02:10 some like sort of like simple check boxy
+02:12 style of canvas assignment and then like
+02:15 a Discord server based conversation
+02:18 space there um and those will be
+02:21 ostensibly um do um next week so end of
+02:27 next week meaning 11:59
+02:30 p.m. on Sunday before the following
+02:33 Monday and if you don&amp;#39;t hit that
+02:34 deadline there will be dire
+02:36 consequences um not really but it&amp;#39;s sort
+02:40 of we wanted to keep kind of in that
+02:43 General Cadence that the that we&amp;#39;re all
+02:45 kind of like on the same path
+02:50 um
+02:51 and
+02:53 probably probably by the end of this
+02:56 next week is when the I will have
+03:00 implemented the stuff where the bot will
+03:01 be kind of like keeping track of a
+03:03 profile of your interests and trying to
+03:04 like help in the journey that you will
+03:07 take through this General field
+03:12 um but we&amp;#39;ll see anytime I make a
+03:15 promise about the future just know
+03:17 internally I am
+03:21 screaming
+03:27 um great
+03:37 okay off up okay who cares
+03:47 um yes
+03:50 okay let&amp;#39;s go ahead and get into
+03:54 it
+03:56 um I know what to do
+04:00 methods I realized I forgot um Mo
+04:05 cap tracking
+04:09 Etc
+04:20 okay I also forgot a piece of equipment
+04:23 that I intended to bring today uh so I
+04:25 will use this instead
+04:33 someone doesn&amp;#39;t know how
+04:36 to great that
+04:39 works all
+04:48 righty
+04:50 okay so let us begin the lecture proper
+04:57 um so
+04:59 it&amp;#39;s been nice for the first part of
+05:01 this class kind of seeing you guys
+05:03 talking about your interest in the
+05:06 server you know kind of talking to the
+05:07 bot about what you&amp;#39;re into and what you
+05:09 want to study and things like that um
+05:13 and I I intentionally wanted to have
+05:16 that part happen first before I kind of
+05:18 talk about my own talk too much about my
+05:20 own
+05:21 particular sort of map of this space um
+05:25 because I I didn&amp;#39;t want
+05:27 to uh
+05:30 I wanted to let you guys kind of like
+05:32 think about it for yourselves before I
+05:34 came up and did like the like the
+05:36 traditional Professor thing which is to
+05:38 tell you here&amp;#39;s what this field is and
+05:39 here&amp;#39;s what this means and here&amp;#39;s what
+05:41 the here&amp;#39;s what is on topic here&amp;#39;s what
+05:43 is off topic um because I generally
+05:45 don&amp;#39;t think that that&amp;#39;s how we should
+05:48 think about intellectual inquiry um and
+05:53 the next chunk of time I&amp;#39;m going to give
+05:56 you an overview of this domain of human
+06:01 centered Neuroscience um that is mostly
+06:04 related to my own particular history my
+06:07 own research background my own the
+06:10 studies that I&amp;#39;ve done um and anytime
+06:13 that you you know by the time that you
+06:15 have sort of lived long enough to have
+06:17 Specialties and personal experiences and
+06:20 whatnot you will have sort of charted
+06:22 your own path and trajectory Into the
+06:24 Heart of some field or some domain um
+06:28 and for pretty much all of you you know
+06:30 for everyone that sort of chooses to
+06:32 follow a route kind of like that um you
+06:35 are going to have a sort of unique path
+06:38 like everybody&amp;#39;s path is going to be
+06:39 different and everybody&amp;#39;s sort of the
+06:42 the the topics that are relevant to
+06:44 everybody&amp;#39;s interest will all will be
+06:46 will be different um
+06:49 so I don&amp;#39;t want to present this stuff in
+06:52 the sense that in a sense of saying here
+06:55 is everything that matters here is
+06:56 everything that is relevant to this
+06:58 topic um I I really want to keep it kind
+07:01 of on that like relatively personalized
+07:05 Narrative of these are the topics that
+07:08 are the most important for me to be able
+07:11 to study human human perceptual motor
+07:14 Neuroscience in the ways that I
+07:16 specifically have learned how to do
+07:19 um and sort of talking about that in
+07:22 that Con in that context of like the the
+07:26 the component pieces of my particular
+07:28 specialty um and I think the beauty of
+07:30 using sort of AI mediated Tools in a
+07:35 classroom setting is that in a
+07:37 traditional class the professor kind of
+07:40 like lays out the curriculum lays out
+07:42 the structure lays out the topic area
+07:44 and then you are all kind of constrained
+07:46 to follow that structure um and that&amp;#39;s
+07:49 largely for practical reasons like it&amp;#39;s
+07:51 just it&amp;#39;s just too hard and it requires
+07:53 too much human labor to like really
+07:55 mediate and like sort of navigate the
+07:58 particular um sort of variations of
+08:01 interest of people in a room even even a
+08:04 room that is labeled under a particular
+08:05 course title um but I think with the AI
+08:09 you know limited though it may be it
+08:12 will always do a do its damnedest to
+08:15 sort of make whatever your interests are
+08:18 relevant to the topics that I have
+08:22 mandated it should care about um so as I
+08:25 start going through this stuff uh just
+08:30 encouraging you to really learn to key
+08:33 in to like your own personal feelings of
+08:37 interest in your own personal feelings
+08:38 of like being drawn or snagged or moved
+08:43 by some topic or some domain um and you
+08:48 know if you want to follow the
+08:49 trajectories that I&amp;#39;m doing that&amp;#39;s all
+08:52 well and good but even if you wanted to
+08:54 you wouldn&amp;#39;t it wouldn&amp;#39;t happen that way
+08:56 because that&amp;#39;s not how the world Works
+08:58 um and so as I give this sort of lecture
+09:03 um my main request for you is to just
+09:07 not let your brain turn all the way off
+09:09 I&amp;#39;m going to be talking fast about a lot
+09:11 of sort of topics that are going to be
+09:13 relatively unfamiliar um for some of
+09:15 them they might be the first time you&amp;#39;ve
+09:17 heard about it for some of them you
+09:18 might have heard about it before uh the
+09:21 goal is not to have you understand
+09:23 everything that I&amp;#39;m saying the goal is
+09:25 to just expose you to it um so as I
+09:28 start sort of blah blah bling at you
+09:32 um don&amp;#39;t get too hung up on whether or
+09:35 not you&amp;#39;re following everything just
+09:36 kind of like remember the words as much
+09:38 as you can try to let just try to let it
+09:40 wash over you I promise you nonzero of
+09:44 it will be attaching um and then when we
+09:48 kind of open things back up
+09:50 uh you can start asking the bot asking
+09:54 your neighbors the questions about the
+09:55 parts that were the most interesting to
+09:57 you and the part that I have found the
+10:00 most gratifying about doing this type of
+10:02 a class is the Discovery every time
+10:04 empirically that when I give a lecture
+10:07 on a given topic and then I say to 40
+10:11 students ask the bot about the parts you
+10:13 found most interesting typically what I
+10:15 see from that is 40 different
+10:18 conversations about 40 different topics
+10:20 and that&amp;#39;s really a lot of fun
+10:24 um
+10:25 so with that said let us get get into it
+10:30 um unfortunately
+10:34 I I
+10:36 brought I intended to bring a um like a
+10:39 tablet so I could like draw like stuff
+10:43 with colors um and I brought the tablet
+10:45 but then when I looked for like the the
+10:47 pen part I found I just thrown like this
+10:51 like standard pencil into here which I
+10:53 can&amp;#39;t even I can&amp;#39;t even imagine what was
+10:56 going on when I did that so we&amp;#39;re just
+10:59 doing we&amp;#39;re going to do it old school
+11:01 with unfortunately just a singular color
+11:02 but that&amp;#39;s
+11:04 okay
+11:06 um let&amp;#39;s see move over
+11:12 here
+11:16 so was your
+11:20 fault how dare you okay I&amp;#39;ll just I&amp;#39;ll
+11:24 put it on your bill
+11:28 um um
+11:31 um okay
+11:35 so right so the topic of the course is
+11:38 neuroscience the the department is
+11:39 biology and most of you as biology
+11:42 majors and whatnot have internalized to
+11:47 some degree or another with validity
+11:50 that biology and Neuroscience are things
+11:52 are is is Rel is related to things like
+11:54 cells and neurons and wet lab microscope
+12:00 types of conversations and stuff like
+12:02 that super valid super good topics good
+12:05 things to look at um and all kind of
+12:10 part and parcel with a particular
+12:12 philosophical tradition that is so
+12:15 fundamental to the way that we do
+12:17 scientific research in
+12:20 2025 in Earth um that we often don&amp;#39;t
+12:25 even think about it and that is the
+12:26 concept of reductionism that&amp;#39;s not your
+12:28 way
+12:30 um so reductionism is just sort of a
+12:32 general philosophical approach to the
+12:35 study of the natural world um which
+12:37 tries to break things down into smaller
+12:41 and smaller pieces so that with you can
+12:43 sort of make more and more precise
+12:44 measurements and more more precise
+12:46 topics more more precise investigations
+12:48 but this kind of like sort of like
+12:50 implicit assumption that at some point
+12:53 there will be that by looking at the
+12:54 component pieces of the world you&amp;#39;ll be
+12:57 able to get a sense of the istic view of
+13:00 how everything works um and there&amp;#39;s a
+13:03 lot of validity to that approach but
+13:04 there&amp;#39;s also obviously a lot of
+13:06 limitations to that um because if you&amp;#39;re
+13:08 only looking at the small pieces in
+13:10 isolation you never going to see or
+13:13 you&amp;#39;re going to have a hard time seeing
+13:15 what we call emergent properties which
+13:17 are things that only really come about
+13:19 when you look at the the combination of
+13:21 things at a larger scale than the kind
+13:24 of things you can put into a test tube
+13:26 and under a microscope um the classic
+13:29 example of emergence is traffic um so
+13:32 traffic is a property of cars on a road
+13:36 um but you can never understand traffic
+13:37 by looking at a singular car it&amp;#39;s
+13:39 something that only really comes about
+13:41 when you&amp;#39;re looking at the cars
+13:42 operating in
+13:43 their natural environment
+13:47 um and so you know the the counter to
+13:52 reductionism is what you might call more
+13:55 holism or something like that um
+13:59 but that tends to be the scale that my
+14:04 sort of research domain tends to operate
+14:06 in is I I tend not to be like I look at
+14:09 the research of the people who are doing
+14:11 the highly reduced sort of like
+14:13 electrophysiology studies where they put
+14:15 electrodes into the brains of various
+14:17 animals um fmri where they have people
+14:19 in a tube and they&amp;#39;re looking at the
+14:21 magnetic resonance of their hemoglobin
+14:23 in their brain um but my particular
+14:27 domain of research tends to focus on
+14:29 humans behaving in natural environments
+14:33 doing um the kinds of stuff that we do
+14:36 in our sort of day-to-day lives so you
+14:38 know like throwing things in the air and
+14:40 catching them involves there&amp;#39;s a motor
+14:42 behavior of putting Force into the
+14:44 marker an information gathering phase
+14:48 and then another motor command which if
+14:50 it lines up with the
+14:51 world works out if it doesn&amp;#39;t I drop it
+14:55 um
+14:57 and large sort of trying to understand
+15:01 that behavioral process um in its
+15:05 natural context and then trying to use
+15:08 whatever the best measurements that I
+15:10 can come up with um of those behaviors
+15:13 and then trying to attach them to sort
+15:15 of the more low-level reductionist sort
+15:17 of um fields of inquiry so that we can
+15:21 have a sense of like you know how the
+15:23 things like cells and neurons can lead
+15:26 to complex behaviors like that so I
+15:30 think of it as kind of like it&amp;#39;s almost
+15:31 like a robotics approach so it&amp;#39;s I like
+15:33 to tell people that I studi the part of
+15:35 Neuroscience that overlaps with robotics
+15:38 um because robotics is another field
+15:41 that kind of like keeps you honest in
+15:43 the sense that it&amp;#39;s you make things that
+15:45 move around in the real world so you
+15:47 can&amp;#39;t really cut that many corners so
+15:48 the thing just stops working um and the
+15:52 difference is that the like robots we
+15:56 know how they work because we made them
+15:58 but we they can&amp;#39;t do all the things we
+16:00 want humans we don&amp;#39;t really know how
+16:02 they work but they can do pretty much
+16:03 anything so there&amp;#39;s this kind of
+16:05 combination of those two sort of
+16:07 thinking about the human as like a
+16:09 magical meat robot and trying to study
+16:11 it and understand it from the that
+16:14 perspective um can lead to a lot of
+16:17 useful results um and the nice thing
+16:21 about that is kind of the abstraction
+16:24 away from the biology and from the the
+16:28 the knowledge that it is in fact under
+16:30 the hood cells and neurons and you know
+16:33 membrane potentials and things like that
+16:35 um and thinking about it more in the
+16:37 terms of the things that we can measure
+16:39 um which we will talk about shortly
+16:43 um so let&amp;#39;s
+16:47 talk so speaking of the natural world
+16:50 let&amp;#39;s sort of talk about something
+16:53 which you know is one of the ways to
+16:56 parse out that General topic which is
+16:58 what&amp;#39;s called the perception Action
+17:00 Cycle um
+17:07 so let&amp;#39;s start by drawing a brain I&amp;#39;m
+17:12 trying to draw
+17:14 it I&amp;#39;m
+17:19 draw yes let&amp;#39;s do it like that um so
+17:22 here&amp;#39;s how you draw a
+17:25 brain there you go
+17:32 um
+17:35 the sorry try and you&amp;#39;ll figure it out
+17:40 okay so this is your brain this is a
+17:43 picture of your brain that&amp;#39;s your
+17:45 temporal lobe this is your eye you&amp;#39;re
+17:47 facing that way
+17:51 um and there&amp;#39;s a lot of details that are
+17:54 not being covered here but this is the
+17:55 general shape so here you are that&amp;#39;s
+17:59 your that&amp;#39;s that&amp;#39;s you and you existence
+18:03 in the
+18:04 world
+18:06 and let&amp;#39;s
+18:14 see let&amp;#39;s do this different
+18:22 way there you go that&amp;#39;s you you&amp;#39;re in
+18:26 the world and here here&amp;#39;s your
+18:30 body here&amp;#39;s your eye here&amp;#39;s your mouth
+18:32 and then inside of there that&amp;#39;s your
+18:35 brain not to scale and
+18:40 so as you are in the world you have a
+18:44 very limited awareness
+18:46 of of your given context and the
+18:51 everything that that you know comes in
+18:54 through your senses and well your senses
+18:56 in your memory so let&amp;#39;s think about a
+18:58 particular moment in time where you&amp;#39;re
+19:00 sitting here you have your eye and then
+19:03 you see out
+19:08 here there&amp;#39;s a
+19:10 cat you like cats and so you so the
+19:13 image so light from the sun bounces off
+19:16 the cat and goes into your eye and we&amp;#39;ll
+19:21 talk a lot about eyes we&amp;#39;ll talk about
+19:23 the lens we&amp;#39;ll talk about the retina
+19:25 we&amp;#39;ll talk about the phobia we&amp;#39;ll talk
+19:28 about the optic nerve um but the most
+19:31 the main thing is that
+19:34 their your eye is the place where
+19:36 environmental energy is first absorbed
+19:39 by your nervous system and this
+19:43 moment right here is a very special
+19:46 moment in your perceptual cycle which is
+19:49 the moment of
+19:50 transduction um which is the term for
+19:53 the moment when some form of
+19:56 environmental energy in this case light
+19:59 has gets transduced and converted into
+20:03 neural activity in this particular case
+20:06 in
+20:07 your this is your eye the light goes in
+20:12 it
+20:12 goes into your
+20:14 retina into your phobia which talk
+20:17 plenty about um there&amp;#39;s a
+20:22 particular
+20:24 uh class
+20:26 of molecule called opsin opsins look
+20:30 roughly like this this like you know um
+20:34 what are they called carbons and
+20:35 hydrogens and then the hexagon and then
+20:38 the long the long uh sort of Wiggly tail
+20:41 um the people in Biochemistry this is
+20:44 probably familiar shapes except this is
+20:46 not drawn well and then you have a bunch
+20:48 of these opsins in your eye um and
+20:52 they&amp;#39;re all there&amp;#39;s there&amp;#39;s basically
+20:54 three main ones and they&amp;#39;re sort of
+20:55 they&amp;#39;re all they they&amp;#39;re tuned if you
+20:58 want to use that term to different
+21:00 wavelengths of light and they the nature
+21:02 of them is that when a photon of light
+21:05 hits them they absorb the energy of that
+21:08 Photon and then change shape and I think
+21:11 I actually did this backwards I think
+21:13 they start out with the Kink and then
+21:15 when they absorb the light they
+21:16 straighten out um but whatever happens
+21:19 this absorption of a photon changes the
+21:23 electrochemical properties of the
+21:27 molecule and it goes from being a
+21:30 neutral to a plus one or a minus one or
+21:32 whatever it is um but the point is that
+21:35 the the the light that is coming from
+21:37 the environment bouncing off the cat
+21:40 entering your eye changing the chemical
+21:42 layout of the opson um and happening in
+21:46 the trillions and billions of sort of
+21:48 instances that biology tends to operate
+21:50 in um this changes the polarity and the
+21:56 Electrical uh state
+21:59 of the rods and the cones in your retina
+22:02 which get sort of you know accumulated
+22:04 with ganglia and various sort of other
+22:07 stuff
+22:09 um and leads to a shift in the uh
+22:13 electrical potential in the in that
+22:15 section of your retina that then gets
+22:17 sent in as spikes down your optic nerves
+22:21 neurons are the things that Neuroscience
+22:24 is made of and mostly what neurons do is
+22:27 they Spike they send little electrical
+22:29 pulses and that&amp;#39;s how they communicate
+22:31 that whatever that neuron has tuned to
+22:33 has has occurred um and for a for a for
+22:38 perception for vision it&amp;#39;s this
+22:40 absorption of light into the opson and
+22:43 the and the shift in this polarity and
+22:46 then the change in that electrical state
+22:48 that leads to a change in the
+22:53 um what&amp;#39;s the term
+22:56 uh the spike rate of of a given gangan
+23:00 cell as it is sending its axon down the
+23:04 optic nerve into your um
+23:09 optic the occipital lobe and the the
+23:11 visual cortex
+23:14 um and so we&amp;#39;re going to talk more about
+23:17 this in more detail and more coherence
+23:20 um but the important thing here is that
+23:23 the light that has been absorbed by your
+23:25 eye that is then gets converted through
+23:28 this strange biochemical machine into a
+23:32 pattern of neural
+23:33 activity uh because the neural activity
+23:37 is caused by the light and because the
+23:39 light has been reflected off the object
+23:41 in question there is a general belief
+23:44 and assumption um that that the pattern
+23:48 of neural activity has somehow has some
+23:52 relationship with the object in the real
+23:54 world there&amp;#39;s some statistical
+23:56 correlation there&amp;#39;s some relationship
+23:58 and the pattern of neural activity
+24:00 somehow encodes information about the
+24:03 world that you&amp;#39;re looking at um the
+24:07 nature of that relationship is tenuous
+24:10 and complex um and generally speaking
+24:14 extremely impoverished like the actual
+24:16 information we&amp;#39;re getting in any mo One
+24:17 Moment In Time is far less than you
+24:20 think it would be it&amp;#39;s a lot but the
+24:23 richness of your visual environment for
+24:25 example is very much an illusion based
+24:28 off of your brain&amp;#39;s ability to sort of
+24:30 Cobble together a lot of noisy
+24:32 information to give you something that&amp;#39;s
+24:34 sort of accurate enough to move through
+24:36 the world but often in almost
+24:39 exclusively designed sort of like after
+24:41 the fact um
+24:49 so that&amp;#39;s your brain again um it&amp;#39;s more
+24:52 like a ma brain but that&amp;#39;s fine so your
+24:55 optic so the light comes into your eye
+24:57 gets absorbed by the retina which is on
+24:59 the back of your eye sends a pattern of
+25:01 neural activity down your optic nerve um
+25:05 passes through some subcortical areas
+25:07 and the thalamus and stuff like that
+25:09 which we&amp;#39;ll talk not that much about
+25:11 that part but there is some stuff that
+25:12 happens here um and then projects down
+25:16 to the occipital lobe which is otherwise
+25:18 known as the visual cortex which is in
+25:21 the back of your brain
+25:24 um not super important to know where it
+25:27 is but it&amp;#39;s just just kind of like one
+25:29 of those things like it&amp;#39;s like Vision
+25:31 happens here for in the back for
+25:35 whatever reason
+25:39 um and so this is the place
+25:42 where the first kind of like the first
+25:46 pass of information about your visual
+25:48 environment sort of starts to get
+25:50 computed and it&amp;#39;s mostly in the form of
+25:52 like edges and dark patches light
+25:55 patches you know and stuff like that and
+25:59 once you get from V1 which is primary
+26:02 visual cortex it goes through other
+26:05 stages of processing that lead to sort
+26:10 of more and more
+26:11 complex you know um structures to emerge
+26:15 so like you start with things like edges
+26:19 and then if you have enough edges you
+26:21 can get patches and if you get patches
+26:23 then you can get textures and if you get
+26:25 textures you can get objects and
+26:29 that sort of like each stage of visual
+26:32 processing Builds on the stage before um
+26:35 to sort of eventually lead to the
+26:37 ability to do things like object
+26:39 recognition of like oh that thing out
+26:40 there is a cat there&amp;#39;s a there&amp;#39;s a
+26:42 conversation we can have about like like
+26:45 the the parts of that process that go
+26:48 down this lobe which is your temporal
+26:50 lobe which is here um tends to be the
+26:54 sort of object space of like that&amp;#39;s a
+26:56 desk that&amp;#39;s a computer um and then the
+27:00 part that we tend to care more about in
+27:03 this class is the part that goes up this
+27:07 direction um which tends to be more in
+27:09 tune of using that information to plan
+27:12 your movement out in the world
+27:16 um something that I haven&amp;#39;t said I think
+27:18 yet but probably but is something that
+27:20 bear is repeating is obviously this is a
+27:23 cartoon this is a very abstracted
+27:27 simplified version of a story which if
+27:30 you wanted to tell the whole story you
+27:32 would have to tell a thousand thousand
+27:34 stories of a thousand thousand humans in
+27:36 their Labs recording data getting a
+27:38 bunch of numbers and then making up
+27:41 their own stories and the discussion
+27:42 sections of their own papers about what
+27:45 the different parts mean and then this
+27:47 kind of cartoonified story is the
+27:50 version that tends to make it into the
+27:52 textbooks that we T sort of communicate
+27:54 back to you and sort of try to make
+27:56 sense out of any of it
+27:59 but I think it&amp;#39;s really important that
+28:01 we remember that this is not the real
+28:03 story this is the cartoon and the real
+28:06 story is something that we don&amp;#39;t
+28:08 actually have access to there is no
+28:12 there&amp;#39;s no level like of of class where
+28:16 I can just give you the book that says
+28:18 here is what the visual cortex is
+28:20 actually doing the best I could ever do
+28:22 is just to give you a record of all the
+28:24 empirical measurements that all the
+28:25 humans who have ever investigated this
+28:27 man to put together and then tell you
+28:29 the story that we have collectively
+28:31 decided is the best story that we can
+28:34 come up with for how we think this part
+28:36 of this lumpy pink thing inside of all
+28:39 of our skulls is
+28:40 operating
+28:43 um but yeah but that&amp;#39;s
+28:48 not there is a gap an essential gap
+28:51 between epistemology which is our
+28:54 knowledge of things and metaphysics
+28:57 which is what actually exists uh and the
+29:00 two things never truly touch there is
+29:03 always going to be a difference between
+29:04 knowing something and what that thing
+29:07 actually is and in the history of
+29:10 science we have told many many many
+29:12 stories about what we think is going on
+29:15 in the world and in our bodies and in
+29:16 our goopy bits um and historically over
+29:21 time every single one of those stories
+29:23 on a long enough time scale is proven
+29:25 wrong in some sense everything we
+29:27 currently think think will eventually be
+29:29 proven wrong in some way or another um
+29:32 evidence for that being everything we&amp;#39;ve
+29:34 ever thought up until this point has
+29:35 been proven wrong in some way or another
+29:38 um so as you think there&amp;#39;s something
+29:40 special about today that&amp;#39;s going to keep
+29:42 happening um indefinitely until the sun
+29:45 burns out but the beauty of the
+29:47 scientific process in some sense is that
+29:50 we have this belief that even though
+29:53 everything has been wrong there is a
+29:55 sense that each success of idea is less
+29:58 wrong than the one before it and less
+30:01 wrong means that it allows us to make
+30:03 more precise predictions it allows us to
+30:06 heal sickness better it allows us to
+30:08 build machines that do more exciting
+30:11 things um sometimes those improvements
+30:14 happen by completely throwing around
+30:16 throwing out philosophical sort of like
+30:19 base level beliefs about how certain
+30:20 things work um but yeah it&amp;#39;s a
+30:24 continuous process we&amp;#39;ll talk about it
+30:31 um yes
+30:35 so so here we are in this
+30:37 cycle you the light has bounced off the
+30:40 cat it&amp;#39;s hit your eye it&amp;#39;s been absorbed
+30:42 it&amp;#39;s been transmitted back to your
+30:45 visual cortex um you have identified
+30:49 that it&amp;#39;s a cat and you have a an
+30:52 inbuilt volition that says I like to
+30:55 touch cats great we support this for you
+31:02 so this is the parietal lobe don&amp;#39;t worry
+31:04 about the parietal lobe it&amp;#39;s it&amp;#39;s great
+31:07 but you can worry about it if you want
+31:10 um but the important sort
+31:17 of okay
+31:19 so this back here is your visual cortex
+31:23 um this on the side here roughly
+31:26 speaking is your motor cortex
+31:31 and So eventually you start as you as
+31:34 you look in more and more pictures of
+31:35 the brain you will and you can look at
+31:37 this directly the the the wrinkles and
+31:39 stuff on the brain are not random they
+31:41 are conserved in the same sense that
+31:45 while every face that we have looks very
+31:48 different they generally have two eyes
+31:50 and a nose and a mouth and just in
+31:51 different kind of configurations the
+31:53 wrinkly stuff and the the crevices and
+31:56 bumps and stuff on her brain roughly the
+31:58 same like if you were to crack open all
+31:59 the brains in this room which I don&amp;#39;t
+32:01 recommend um you would find a lot of
+32:04 Correspondence in where the the big um
+32:07 creases and stuff come in um and I am
+32:11 not at the level of that anatomy where I
+32:14 can name them off the top of my head um
+32:17 but I do recognize them in pictures and
+32:19 that&amp;#39;s how you can kind of it&amp;#39;s easy to
+32:22 tell when someone is drawing a brain
+32:24 artistically versus when they&amp;#39;re looking
+32:26 at Anatomy because
+32:29 artists and whatnot often just say oh
+32:30 yeah it&amp;#39;s a bunch of like pink wrinkles
+32:32 and then you just sort of it&amp;#39;s like okay
+32:33 well that&amp;#39;s not that&amp;#39;s not actually how
+32:35 we do but anyways there&amp;#39;s a big one
+32:37 right in the mirror called the central
+32:38 sulcus sulcus is like the crease part
+32:42 and on this side of that sulcus is the
+32:46 somato sensory cortex somat sensation is
+32:49 like basically touch like think that
+32:52 this type of sensation um and on that
+32:55 side is the motor cortex so the n
+32:58 sensory cortex and then the motor cortex
+33:00 and they tend to be paired
+33:03 and you can look up I&amp;#39;ll you we&amp;#39;ll look
+33:06 up the huny LI when we talk about the
+33:08 motor cortex
+33:13 um but I kind of it&amp;#39;s It&amp;#39;s I enjoy this
+33:17 distinction and kind of like there&amp;#39;s
+33:18 these two sides of the brain where on
+33:21 this side of the brain it&amp;#39;s kind of like
+33:23 sensation and sort of the the perception
+33:26 of the world like visual aspects and
+33:28 this the sort of sensory aspects and
+33:31 then on this side of the brain is where
+33:32 we start getting to like motor actions
+33:33 and movements and kind of the outgoing
+33:36 parts of things um and as we sort of
+33:38 keep going forward you eventually get
+33:40 over here to the frontal loes um the
+33:43 frontal lobe is like the big lumpy part
+33:45 in the front that&amp;#39;s the like the the the
+33:47 most human part of the brain all Maman
+33:51 brains are roughly the sort of same
+33:55 anatomically they&amp;#39;re just very fun
+33:58 mirrored into different sort of shapes
+33:59 and sizes like you know rats have a much
+34:02 more pronounced Factory bulb for smell
+34:05 versus their visual cortex and the human
+34:08 brain has a has a lot of extra Anatomy
+34:13 on that frontal lobe area this is
+34:15 thought to be kind of where decision
+34:16 making comes from this is where sort of
+34:18 like language kind of lives and often in
+34:21 it&amp;#39;s um referenced in
+34:24 uh like executive function so that the
+34:27 feeling of like deciding what you want
+34:30 to do this is also where like
+34:32 metacognition happens so if you&amp;#39;re
+34:33 having thoughts about your thoughts like
+34:35 oh yeah I&amp;#39;m angry right now like that&amp;#39;s
+34:37 a that&amp;#39;s a frontal loby area and and
+34:40 just reiterating the point every time I
+34:43 point to a part of the brain and I say
+34:45 this is the part that does this thing a
+34:47 little part of me inside is screaming
+34:51 and dying because none of this is how
+34:54 any of it that like that&amp;#39;s that&amp;#39;s the
+34:56 cartoon that&amp;#39;s not how the real world is
+34:58 set up it&amp;#39;s much more complex than that
+34:59 it&amp;#39;s much noisier than that but it&amp;#39;s if
+35:03 I say this is where executive function
+35:05 happens and I point at the front of the
+35:07 brain and then this is where Vision
+35:08 happens and I point at the back of the
+35:09 brain that statement is more true than
+35:12 if I switch those two things around so
+35:14 just it&amp;#39;s important to reiterate that
+35:17 even though I am telling you these
+35:18 simplified stories these sort of
+35:20 textbook level conversations about how
+35:21 the brain
+35:23 is this is the stuff that if we come
+35:26 back to this class in 250 years we&amp;#39;re
+35:28 going to be saying very very different
+35:30 things but we&amp;#39;ll probably still say
+35:31 something like the vision happens in the
+35:33 back and the cognition happens in the
+35:35 front anyways um from this frontal lobe
+35:39 from the you get sort of the frontal
+35:41 area executive functions then you get
+35:43 your
+35:44 premotor area and somewhere around here
+35:47 is where volitions arise volition is
+35:52 sort of same route as voluntary it&amp;#39;s
+35:55 like the things that you want to do so
+35:56 you see you see the the cat and you say
+35:58 I want to touch the cat here
+36:01 is the cat and look at me I&amp;#39;m touching
+36:05 it and that&amp;#39;s this is what I want to
+36:08 happen and
+36:10 so now you are in this state where
+36:13 here&amp;#39;s your body here here&amp;#39;s your hand
+36:16 there here&amp;#39;s this cat there and here&amp;#39;s
+36:19 this desire that I sure wish that my
+36:20 hand part was on this cat part um and
+36:24 this sort of and now there&amp;#39;s a a gap
+36:27 between
+36:28 the way that the world is in your
+36:29 perception and the way the world that
+36:31 wish the way that you wish the world
+36:32 would be which is that your hand was
+36:33 sort of touching this object okay so
+36:37 those volitions kind
+36:38 of meld
+36:41 with uh the perceptual
+36:45 experience and from this sort of alchemy
+36:50 emerges something resembling a motor
+36:52 plan
+36:54 um we&amp;#39;re going to I&amp;#39;m trying to stop
+36:56 myself from going to some of these
+36:58 details because I am going to have like
+37:00 like we&amp;#39;re going to have a whole lecture
+37:01 about the eye we&amp;#39;re going to have a
+37:02 whole lecture about the motor cortex
+37:03 we&amp;#39;re going to talk about this in more
+37:04 detail I&amp;#39;m just giving the overview
+37:10 uh but
+37:12 um but yeah but this is where we would
+37:14 call
+37:15 something the first time we start seeing
+37:17 something resembling a motor plan
+37:19 there&amp;#39;s a lot of times in the chats
+37:22 y&amp;#39;all have been having where you talk
+37:24 about things like muscle memory um which
+37:26 is the sort of muscle memory is kind of
+37:29 like the uh it&amp;#39;s a term we like to use
+37:32 it&amp;#39;s like a very standard human
+37:34 expression um but it&amp;#39;s also one of the
+37:36 things that like it doesn&amp;#39;t really exist
+37:39 in a physiological sense like your Mo
+37:41 your muscles don&amp;#39;t have memory they&amp;#39;re
+37:43 much simpler object which we will talk
+37:45 about muscles too um usually what you
+37:49 mean when you say muscle memory is motor
+37:51 plan um and as you sort of work on
+37:55 something more and more and you get more
+37:56 expertise more experience that&amp;#39;s the
+37:59 that that what we tend to refer to as
+38:01 motor as muscle memory is really like
+38:03 the motor plans kind of becoming more
+38:05 robust and more sort of locked in
+38:09 um and typically where a lot of that
+38:12 kind of motor planning takes place is
+38:14 not necessarily in the motor
+38:17 cortex um but most of that starts
+38:19 happening
+38:21 in subcortical regions um so if you
+38:25 think about a picture of the brain and
+38:26 you think about the that pink wrinkly
+38:28 thing in your skull that&amp;#39;s T tends to be
+38:31 what we think about that&amp;#39;s your cortex
+38:33 that&amp;#39;s the um
+38:36 neocortex it&amp;#39;s the part where most of
+38:38 the processing happens um which we&amp;#39;ll
+38:42 talk a little about what processing
+38:43 means in this context um but it is I
+38:49 like to I like to talk about this as
+38:51 like that is the it&amp;#39;s like that&amp;#39;s kind
+38:54 of like the the bloom of the rose on the
+38:56 rose bush like when you think about the
+38:59 nervous system and you&amp;#39;re looking at
+39:02 when you&amp;#39;re looking at a rose bush it
+39:04 makes a lot of sense that we tend to
+39:05 focus on the rose like the red thing
+39:08 with petals and that smells nice and we
+39:10 spend a lot of our time focusing on that
+39:12 part of the plant in for very good
+39:13 reason but if you really take a step
+39:15 back and look at it from a b botney
+39:17 point of view it&amp;#39;s mostly Bush and just
+39:20 a little bit of row and I think that&amp;#39;s
+39:24 it&amp;#39;s kind of the same with the way our
+39:26 cortex works
+39:28 um the majority of our central nervous
+39:31 system is not in that cortex it&amp;#39;s in the
+39:33 subcortical regions and among my
+39:37 favorite of those subcortical regions is
+39:39 the cerebellum which it look sort of
+39:41 sits at this looks kind of like this
+39:43 fist shaped thing that sits right below
+39:45 your cortex when you look up pictures of
+39:47 the brain online you&amp;#39;ll see the big pink
+39:49 wrinkly thing you see this kind of more
+39:50 dense sort of like grayish looking thing
+39:52 underneath it um that&amp;#39;s your cerebellum
+39:56 your cerebellum is a very complicated
+39:58 Beast um it contains about 3.5 times as
+40:05 many neurons as the rest of your central
+40:08 nervous system combined um and that
+40:11 number is sort of strangely conserved
+40:13 across different animals like all
+40:15 animals mammals particular just because
+40:17 I don&amp;#39;t know about the other guys um we
+40:20 all have cortex we all have cerebellum
+40:22 we have very different brain to body
+40:24 ratios and different sort of proportions
+40:26 there but in General however big your
+40:28 brain is whatever animal you are your
+40:30 cerebellum is has three and a half times
+40:33 as many neurons as the rest of your
+40:36 cortex
+40:38 um which is one of those things like I I
+40:42 always sort of come back to that it&amp;#39;s
+40:43 sort of like that just seems anytime you
+40:45 find a number in nature that&amp;#39;s conserved
+40:47 across a bunch of different stases it&amp;#39;s
+40:49 just kind of like that seems like an
+40:50 interesting thing I wish I knew more
+40:52 about it um so your
+40:55 cerebellum the part of the reason why
+40:57 has so many more like neurons by by
+40:59 count is that the neurons in associated
+41:01 with it are teensy teensy tiny they are
+41:04 you have granual cells and you have
+41:06 pingi cells
+41:09 um which I W I&amp;#39;m going to look up
+41:12 pictures this because
+41:16 ah uh
+41:18 Peri
+41:21 cells oh do I have internet here
+41:31 yeah yeah preni cells in your cerebellum
+41:37 are like one of the more beautiful parts
+41:42 of the nervous of your of your brain
+41:44 it&amp;#39;s kind of you have the cell body you
+41:47 have the axon and then these are all the
+41:50 synapses and all of there&amp;#39;s thousands
+41:53 upon thousands of them um this picture
+41:55 is famous this was actually taken by
+41:58 not picture but it&amp;#39;s um this is from
+42:00 pinji the guy who sort of like he he
+42:04 created was it oh sorry kahal uh says
+42:07 right there um Ramon kahal
+42:11 who yeah um was part of the sort of
+42:15 group
+42:17 that came up with the staining
+42:19 mechanisms that allowed us to sort of
+42:20 start looking at neurons in their
+42:22 isolation that happened in roughly 1909
+42:24 before that we didn&amp;#39;t really know what
+42:26 neurons were and didn&amp;#39;t know if they
+42:27 were just one big mass or if they were
+42:30 individualized pieces and there was like
+42:31 a big scientific and philosophical
+42:34 debate about are neur is is the brain
+42:36 all one big connected piece or did the
+42:39 like do the do the neurons touch or are
+42:41 they separated from each other and there
+42:45 was Ramon Cal who was arguing in the
+42:47 favor of the synapse Doctrine which said
+42:49 that there was a gap between them and
+42:50 then there I think it was GOI who was
+42:52 arguing in favor of their it&amp;#39;s all
+42:54 touching whatever that was called and
+42:57 then um GOI came up with like a silver
+43:01 nitrate staining process that allowed
+43:04 them to make images like this of looking
+43:06 at cells and
+43:09 ironically by making that staining
+43:11 process prove the Cal side of that
+43:15 argument correct and that they tend not
+43:17 to touch and then they both got both
+43:20 Ramon Cal and GOI got they shared a
+43:23 Nobel Prize but apparently they had such
+43:26 bad blood between them that they both
+43:27 spent their entire speech bashing the
+43:29 other guy um so there you go there you
+43:32 got that
+43:34 um but yeah so
+43:38 your so your cerebellum is consists of
+43:41 preni cells and then granu
+43:46 cells
+43:48 which in comparison look more like this
+43:53 they&amp;#39;re they&amp;#39;re small and they don&amp;#39;t
+43:55 have these super long fibers that sort
+43:58 of go very long distances they&amp;#39;re much
+44:00 more localized they only connect to
+44:02 their immediate neighbors um and the
+44:05 majority of ner of of neurons in your
+44:08 nervous system are these granular cells
+44:10 that live in your cerebellum your
+44:13 cerebellum is a layered thing
+44:17 um like most parts of your brain it&amp;#39;s
+44:20 got kind of like
+44:23 um like the layers tend to operate phog
+44:27 gentically so that on the outside is the
+44:28 newest stuff on the inside is the older
+44:31 stuff um sellum has that structure we
+44:35 may talk about it I&amp;#39;m not sure uh we&amp;#39;ll
+44:37 see it&amp;#39;s one of those things like if
+44:38 enough people talk to the bot and ask
+44:40 about this then I might like I&amp;#39;ll be
+44:42 I&amp;#39;ll be trying to steer the lectures
+44:43 based off the interest of the class um
+44:47 but anyway we&amp;#39;re talking about cats um
+44:50 so light hit the cat hit your eye
+44:53 absorbed in your retina tweaked your
+44:56 opsins triggered a neural
+45:00 Cascade vibrated your visual cortex uh
+45:04 gave you the perception of a cat your
+45:06 volitional desire to touch the cat
+45:09 combined with the knowledge that there&amp;#39;s
+45:11 a cat in front of you and started
+45:14 creating a motor plan which sort of you
+45:16 know this is where the cartoon gets
+45:19 really cartoony because it&amp;#39;s
+45:21 like there&amp;#39;s a lot of controversy about
+45:23 like the different steps of this process
+45:25 but long story short something in the
+45:28 com combination of your motor cortex and
+45:30 your cerebellum which is your cerebellum
+45:32 is largely like a motor based thing like
+45:34 a movement it mostly deals with movement
+45:37 of your body um it&amp;#39;s thought to be
+45:39 related to like tool use um so this this
+45:43 thing that we humans can do where we
+45:45 pick up an object and kind of pretty
+45:47 quickly learn the physics of it um and
+45:51 using it as a tool that has certain sort
+45:53 of characteristics is thought to be like
+45:56 a neoc thing the Neo is the new part
+45:58 it&amp;#39;s on the outside it&amp;#39;s complicated um
+46:03 but there&amp;#39;s a level there&amp;#39;s a
+46:05 hierarchical nature of your motor system
+46:08 where at the at the higher levels where
+46:11 the top is pretty much like the frontal
+46:13 lobe the the the plans are much more
+46:16 abstract so it&amp;#39;s things like I&amp;#39;m thirsty
+46:20 um I want I wish I was drinking water
+46:23 right now uh and then in order for that
+46:27 high level volition to be turned into
+46:28 something that can actually sort of lead
+46:31 me to my goal there has to be this sort
+46:33 of like um pairing down of specificity
+46:37 from that very high level volition uh
+46:40 down to something which at some level is
+46:42 going to have to boil down to muscle fir
+46:45 rings to move my body through space and
+46:48 so as I say oh I wish I had water I see
+46:50 that there&amp;#39;s water over there and
+46:52 somehow that volition is converted into
+46:54 motor commands that move my legs so now
+46:57 my body is in a place that I can move my
+46:58 arm I know how this thing works so I
+47:00 open the
+47:02 thing and I get to drink water
+47:07 um and
+47:09 so that process tends to go you know
+47:13 from the motor cortex then you got the
+47:16 cerebellum then your cerebellum sort of
+47:20 has connections to your brain stem I say
+47:23 connections but they&amp;#39;re really kind of
+47:24 like they&amp;#39;re wrapped around each other
+47:26 um
+47:27 so you have your brain stem your medulla
+47:29 oblongata your ponds um that&amp;#39;s the part
+47:33 of your brain people talk about your
+47:34 Reptilian Brain that&amp;#39;s that&amp;#39;s that part
+47:37 that&amp;#39;s the part that handles things like
+47:40 is my heart beating am I breathing is my
+47:43 temperature within a livable range that
+47:46 tends to be hanging out and controlled
+47:48 at your brain stem um and your brain
+47:51 stem is the start of
+47:53 your spinal cord which is another good
+48:00 friend there we go there you
+48:05 go there you
+48:14 perfect nice still you good job
+48:20 um and so your spinal cord is a part of
+48:25 your central nervous system often times
+48:28 when we think about the spinal cord it&amp;#39;s
+48:30 often kind of it&amp;#39;s It&amp;#39;s given a bad W
+48:33 and we tend even when we look at
+48:34 pictures of like if you Google pictures
+48:36 of the central nervous system you&amp;#39;ll
+48:37 often see pictures that stop here and
+48:39 it&amp;#39;s just sort of like you know cortico
+48:42 centrism sort of just focused on that
+48:44 that rose on the bush and then less to
+48:47 say about you the cerebellum often gets
+48:50 in the picture but we often like cut off
+48:52 where the spine is um but your spine is
+48:55 just as much a part of your nervous
+48:57 system as the rest of it and the
+48:59 specifically the way that we&amp;#39;re going to
+49:00 Define central nervous system as opposed
+49:02 to peripheral nervous system is uh
+49:06 Loosely that the central nervous system
+49:09 is where processing happens um where
+49:12 processing is a very goopy term um that
+49:16 basically means like information is
+49:20 coming in being some sort of conversion
+49:23 is happening which we might call a
+49:25 computation if we wanted to use like a
+49:27 computer analogy
+49:30 um but it information comes in changes
+49:33 form in some way and then information
+49:35 goes out um
+49:39 and
+49:41 the and you&amp;#39;re and the the spine is
+49:45 doing that kind of of processing um at
+49:49 various levels which we will also talk
+49:50 about let me see how we are on time okay
+49:53 on time um
+49:56 but it&amp;#39;s in very find it kind of
+49:58 fascinating ways and there are some
+50:01 stories that we will talk about later in
+50:03 the semester of studies that we aren&amp;#39;t
+50:07 allowed to do anymore um on cats where
+50:10 you can sever the spine like like cut
+50:13 the spine so it no longer connects to
+50:16 the upper part of the brain um and the
+50:19 cat can still do things like walk um
+50:22 because the spine is is housing the the
+50:25 gray matter that that does that handles
+50:28 things like Central pattern generation
+50:30 and reflex responses um or something
+50:33 like a central pattern generator is a
+50:35 thing that handles like the basic
+50:37 rhythmic motion of my legs and the thing
+50:40 that says oh well one foot is going to
+50:42 be in stance and the other one&amp;#39;s going
+50:43 to be in swing and then they&amp;#39;re going to
+50:44 sort of swap off um and a lot of that
+50:47 processing is handled in the spine
+50:50 itself
+50:52 um your spine goes down your spinal cord
+50:57 ends actually around here like right
+50:59 below your thoracic spine I know right
+51:03 um and then the stuff below that is
+51:04 what&amp;#39;s called like the cotus aquinus
+51:07 which is like that&amp;#39;s where it does
+51:09 become more um extension Cordy like and
+51:12 you you start to lose the gray matter
+51:14 and you get the more just like the
+51:16 peripheral nerves that go out to your
+51:19 limbs
+51:22 um yeah the yeah so the peripheral so I
+51:27 also just want to just again make that
+51:28 point that that distinction between
+51:30 central nervous system and peripheral
+51:32 nervous system is the kind of thing that
+51:34 is often stated as like this is a hard
+51:36 delineation um but there&amp;#39;s a lot of gray
+51:40 area there one of the most classic gray
+51:42 areas is the retina um the retina has a
+51:46 lot of neurons on the back of it and
+51:48 there&amp;#39;s layers to it and it&amp;#39;s often
+51:51 described like we think about the retina
+51:54 like the eye sort of like the classical
+51:56 sensory organ um but there&amp;#39;s stuff
+51:59 happening on the back of the retina
+52:01 before anything even leaves on on that
+52:04 optic nerve pass to the brain that
+52:06 really could be considered to be
+52:08 computation um similarly your skin has a
+52:11 lot of connections in it that you know
+52:15 might be doing things that we might
+52:16 consider computation um that&amp;#39;s why like
+52:19 when you get hurt if you like rub rub
+52:21 the thing it doesn&amp;#39;t hurt as much
+52:23 because the ACT the activity of
+52:25 activating sensory organs around the
+52:27 damaged area suppresses the feeling
+52:30 coming from the damaged area and that is
+52:32 all happening at the level of your skin
+52:35 um so just again this this these these
+52:38 names and terms and whatnot this is not
+52:42 like nature is not
+52:44 design divided into pieces with
+52:47 departments and names that&amp;#39;s a thing
+52:49 that we humans did to Nature so that we
+52:52 could have any hope of making any sense
+52:53 of it but anytime we put a name or a
+52:56 label or or a category into nature we&amp;#39;re
+52:59 always going to be making concessions
+53:01 and sort of we&amp;#39;re drawing lines around
+53:03 areas because it allows us to have
+53:05 better conversations about those things
+53:07 but there&amp;#39;s always going to be gray
+53:08 areas and often times it&amp;#39;s those gray
+53:10 areas or the cracks that the that tend
+53:12 to lead us to abandon certain thoughts
+53:15 and go towards
+53:16 others
+53:19 um okay so speaking of the peripheral
+53:22 nervous
+53:24 system um
+53:28 so where I wish had colors
+53:36 uh there you
+53:46 go okay this is your arm that&amp;#39;s these
+53:50 are your bones and your
+53:52 bones are mostly what you are like if
+53:57 we&amp;#39;re thinking about it in terms of like
+53:59 the space that you inhabit like the
+54:01 shape that you are your general sort of
+54:03 ability to move through the world it&amp;#39;s
+54:05 mostly bones um and then all the goop
+54:08 that&amp;#39;s associated with that is sort of
+54:10 the details but the General cookie
+54:12 cutter shape of you as a as a creature
+54:15 is driven by these weird sticks and
+54:17 these weird sticks have weird things
+54:20 attached to them called
+54:23 muscles um
+54:30 and yeah and
+54:33 So eventually one of the things that
+54:36 happens when you thinking about the sort
+54:37 of like more holistic picture of the
+54:39 world and sort of
+54:42 the way that you live in it
+54:45 um
+54:47 is be if you&amp;#39;re in a lab if you&amp;#39;re if
+54:51 you&amp;#39;re living this reductionist life
+54:53 where you&amp;#39;re choosing a particular
+54:54 domain of inquiry um and you&amp;#39;re you&amp;#39;re
+54:57 sort of simplifying and cutting out any
+54:59 extraneous factors that get in your way
+55:00 to to sort of zoom in as far as you can
+55:02 on that particular thing um you get to
+55:06 remove all the parts of the question
+55:08 that you don&amp;#39;t want to look at and so if
+55:10 you&amp;#39;re a neuroscientist you might have
+55:13 you might take the mouse or the rat or
+55:15 the fruit fly or whoever you want to
+55:16 look at into the lab and then just like
+55:19 remove all the parts that you that
+55:20 aren&amp;#39;t Neuroscience so that you can have
+55:22 a better picture of the neurons that you
+55:24 care about when you want to think about
+55:27 when you don&amp;#39;t have that capacity and
+55:29 you want to think about things more
+55:30 generally um you don&amp;#39;t have that um that
+55:33 luxury and so if you want to think about
+55:36 how humans move through the world um and
+55:39 even if you care mostly about the neural
+55:42 aspects of it even if you care mostly
+55:43 about the perceptual aspects of that you
+55:45 are sort of required by the nature of
+55:48 reality to consider things like bones
+55:51 and muscles even though those are not
+55:52 particularly neural objects um because
+55:56 when we move when when our all this
+55:59 weird neural FL flam is eventually going
+56:03 to have to transmit down into something
+56:04 that moves the body through the world
+56:07 and this is where we get to the kind of
+56:08 the robotics y conversation because um
+56:13 this is the part where the neural
+56:14 activity which has been originally
+56:17 transduced into this sensory experience
+56:19 of of vision um all of that sort of
+56:25 combination of things is eventually
+56:27 going to get boiled down here to
+56:29 something that sort of flips that coin
+56:32 around and now the neural activity is
+56:34 going to be converted into environmental
+56:36 energy in this case in the form of
+56:38 mechanical energy so it&amp;#39;s going to
+56:41 squeeze my muscle and my arm is going to
+56:42 move that muscle my arm is going to be
+56:44 move and this is now has there&amp;#39;s an
+56:48 there&amp;#39;s literal like energy in this
+56:51 movement specifically in the form of
+56:53 kinetic energy or you know you know if
+56:57 I&amp;#39;m pulling on a spring or something
+56:59 like that might be mechanical energy
+57:01 like potential energy kinetic energy
+57:02 spring energy that&amp;#39;s the stuff that we
+57:04 get from our muscles and so there&amp;#39;s
+57:06 that&amp;#39;s the whole perception action cycle
+57:08 is this conversion of environmental
+57:10 energy into perceptual neural activity
+57:14 down back into a motor
+57:17 action and so your
+57:19 muscles are
+57:21 weird objects um and a muscle is
+57:25 effectively a variable stiffness spring
+57:29 that&amp;#39;s pretty much what a muscle is
+57:31 muscles only pull your muscle can only
+57:35 pull on things muscles cannot push if
+57:38 when I when it looks like I&amp;#39;m pushing
+57:40 it&amp;#39;s because this muscle is pulling on
+57:42 the tip of that bone so that my arm goes
+57:45 that way and that that&amp;#39;s called
+57:47 extension and then if I want to squeeze
+57:49 this one then I send a motor command
+57:52 down there it fires the motor tendon
+57:55 Union GGI body
+57:58 organs and it says Hey surrounding
+58:01 muscle tissue contract and so this what
+58:05 was originally a fairly Wiggly Soft
+58:07 Spring gets electrified and becomes a
+58:10 rather stiff spring and pulls this joint
+58:13 up and this one there&amp;#39;s they&amp;#39;re paired
+58:17 there&amp;#39;s a
+58:18 flexion uh muscle group and then there&amp;#39;s
+58:21 the extension muscle group and those two
+58:23 things operate in conjunction to to move
+58:27 this degree of freedom and that type
+58:32 of so yeah and so
+58:37 that so the motor plan that comes down
+58:41 from the motor cortex and sort of
+58:42 through the cerebellum if you&amp;#39;re a fancy
+58:45 type of an animal like a human it goes
+58:47 through the corticos spinal tract which
+58:49 goes there is a sort of connection
+58:51 straight from your motor cortex down to
+58:53 your spine bypassing things like your
+58:55 cerebellum
+58:57 all animals have a cortical spinal tract
+58:59 but it&amp;#39;s really um but not to equal
+59:02 degree um and that&amp;#39;s one of the
+59:04 interesting distinctions in the animal
+59:05 kingdom is
+59:07 like this is a fun this is one of my
+59:09 favorite I actually use this question to
+59:11 test like AI models to see how it does
+59:14 at Neuroscience is asking about the
+59:18 cortical spinal tract and how it varies
+59:19 across the animal kingdom because that&amp;#39;s
+59:21 one of the places where the questions
+59:24 get really subtle um and so I can look
+59:27 at how it does at that answer to see
+59:29 like I&amp;#39;m looking at like a local model I
+59:30 can run on my computer like the small
+59:33 ones I I can watch it get the subtle
+59:35 Parts wrong when I ask it that kind of a
+59:37 question so but a lot of stuff I&amp;#39;ve been
+59:39 talking about about how like motor
+59:41 cortex motor commands go through like
+59:43 the cerebellum and the brain stem and
+59:44 stuff like that that is true um but
+59:47 there is also this cortico spinal tract
+59:49 anytime you see one of those big words
+59:51 with an o in the middle just replace the
+59:53 o with a slash so cortico spinal is C
+59:58 cortex SL
+60:00 spinal that just basically go straight
+60:02 from the cortex down to the spine
+60:04 bypassing all the subcortical
+60:06 regions um and it&amp;#39;s what allows us to be
+60:12 to control our individual degrees of
+60:14 freedom of our body directly um as
+60:18 opposed to doing things in like it&amp;#39;s
+60:20 more synergistic way which
+60:22 is way deeper than I want to talk about
+60:24 in this particular lecture cheing that
+60:26 clock it&amp;#39;s killing me um so yeah so here
+60:30 I am I&amp;#39;m so close I&amp;#39;m so ready to almost
+60:32 touch this cat um and I my motor my
+60:37 motor plan which has come down from on
+60:39 high down this sort of hierarchical
+60:42 structure of our motor system has uh
+60:46 taken my awareness of the world and my
+60:50 own body so the vision gives me
+60:53 information about remote parts of the
+60:55 world things I can not touch things that
+60:57 are outside of mine here&amp;#39;s a great word
+60:59 peripersonal space the per personal
+61:01 space is the area that I can touch with
+61:04 my hands um outside of that is a
+61:07 different part of the world that&amp;#39;s kind
+61:10 of happening in the parietal Lo one of
+61:12 my favorite studies is this
+61:14 like they got a monkey Myck monkey and
+61:18 they trained it to grab things on a desk
+61:23 um and then they gave gave it a a
+61:27 temporary lesion so they just like
+61:28 squirt something into the part of the
+61:30 brain that handles that peripersonal
+61:31 perception so that that part of the
+61:33 brain kind of goes offline um and you
+61:36 get what&amp;#39;s called cortical blindness so
+61:38 the monkey sort of loses its ability to
+61:40 to see things cartoon cartoon um in that
+61:43 per personal Zone then they took the
+61:46 monkeys and they train it to use a
+61:47 grabber arm like a little like like claw
+61:51 arm so it now its reach is now farther
+61:53 because it can use this arm and when
+61:55 they ask after they teach it how to use
+61:56 it and they sort of leion that per
+61:59 personal Zone the blind spot increases
+62:03 to include the region that could be
+62:04 reached with the Grabber in addition to
+62:07 the hand um
+62:10 so put that into your worldview and see
+62:13 how it fits
+62:15 um so anyways um here I am I see this
+62:20 cat and I have this awareness of my body
+62:23 a lot of this is sort of call kind of
+62:26 associate that with um proprioception um
+62:30 so like as my arm is out here it is uh
+62:34 putting force on my joints because of
+62:37 the weight of the arm and my body can
+62:39 encode and is aware of those forces and
+62:41 I can use that to kind of be aware of
+62:43 where my arm is I can also see my arm I
+62:45 also have a memory of lifting it up
+62:47 there&amp;#39;s a lot of ways that we know where
+62:48 our bodies are um but I know that it&amp;#39;s
+62:52 here and that if I can make this part
+62:54 move that way um then I&amp;#39;ll have I will
+62:57 have achieved
+62:59 my my my deepest desire of touching this
+63:02 cat
+63:03 um and so there&amp;#39;s there&amp;#39;s a lot of comp
+63:06 complicated stuff about the like we
+63:08 don&amp;#39;t move our body one joint at a time
+63:10 we move it in the sort of like barely
+63:15 sophisticated dance um and a lot of that
+63:18 the breakdown and how we sort of how we
+63:20 choose to to to break down a complex
+63:23 movement across the available joints in
+63:25 the context of the world that&amp;#39;s a a
+63:27 cerebellum thing again cartoons um but
+63:32 let&amp;#39;s pretend like it&amp;#39;s not and so I I
+63:35 relax what is it so I I relax the flexor
+63:41 I
+63:41 tighten the extensor and that puts a
+63:46 torque on this bone which moves my hand
+63:50 here and now I
+63:52 have the reward of cat
+63:57 Sensations under my hand and I have now
+64:00 achieved this this goal of
+64:03 mine
+64:06 um right and so now and now we have and
+64:09 that&amp;#39;s that&amp;#39;s the loop so that&amp;#39;s one
+64:12 path through that perception action Loop
+64:14 because now that the information has
+64:16 gone in been processed been sort of
+64:19 whatever and now that I have moved my
+64:21 body I have now changed the state of the
+64:23 world like my body is in the world so
+64:25 now as I&amp;#39;m perceiving the situation as
+64:27 it stands I&amp;#39;m perceiving something
+64:29 different and now I&amp;#39;m going to go back
+64:30 through that Loop and so of you know you
+64:32 perceive you act and then you take in
+64:35 the information and you kind of like
+64:37 that Loop is tends to be where you live
+64:39 your whole life
+64:42 um and
+64:43 so yeah and so this is kind of the
+64:46 cartoon overview of of the story as it
+64:49 as it holds um I will name some of the
+64:53 uh the fields associated with the things
+64:55 that we talked about
+65:00 um yeah uh generally speaking when we
+65:04 talk
+65:05 about well talking about like the
+65:07 physiology of the eyeball tends to be
+65:09 kind of like optology I guess um uh but
+65:13 that&amp;#39;s that&amp;#39;s more like lens and pupil
+65:15 and like the the goopy Parts um once
+65:18 you&amp;#39;re talking about like the the neural
+65:21 the neural activity aspect of it we tend
+65:23 to call that like visual like visual
+65:26 Neuroscience perceptual
+65:28 Neuroscience because we are such Vision
+65:30 heavy animals as humans often when you
+65:33 hear perceptual we tend to mean visual
+65:37 um but strictly speaking it&amp;#39;s all like
+65:40 anything sensory is perceptual um when
+65:43 we start talking about the parts of the
+65:45 Neuroscience that are moving your body
+65:47 we tend to call that motor Neuroscience
+65:50 you will often hear people talk about
+65:51 perceptual motor Neuroscience which
+65:53 again perceptual motor is the same
+65:55 perceptual SL motor and it&amp;#39;s kind of
+65:58 like it&amp;#39;s this connection and this kind
+65:59 of like this reality that the two parts
+66:02 are um perception in action and
+66:04 perception in motor control they&amp;#39;re sort
+66:06 of intimately
+66:08 linked um oh I should mention this too
+66:11 um in your peripheral nervous system you
+66:16 have peripheral
+66:18 neurons and your peripheral neurons come
+66:20 in two types there is perceptual and
+66:23 there&amp;#39;s motor shockingly
+66:27 and that distinction is is defined by
+66:30 basically which direction the
+66:32 information is Flowing so a motor
+66:34 command goes out from your central
+66:38 nervous system towards your periphery
+66:40 carrying a motor command so this this is
+66:43 a a neuron that&amp;#39;s connected to a you
+66:46 know motor unit in my muscle and if it
+66:49 gets sort of tapped by one of these
+66:51 higher level structures it&amp;#39;s going to
+66:54 get spikes
+66:56 that are telling it to Fire and that
+66:58 will contract the muscle um once I touch
+67:03 the cat what was the object of my plans
+67:08 um there are the the
+67:12 the the the the neurons connected to
+67:14 like the sensory um organs in my hand
+67:19 start firing differently and they send
+67:21 information back down your sensory
+67:24 peripheral nerves peripheral sensory
+67:26 nerves yeah
+67:28 so in your periphery it is just it&amp;#39;s out
+67:31 outward stuff is your motor neurons um
+67:35 inward stuff is your Sensory neurons and
+67:36 that&amp;#39;s kind of the main distinction
+67:38 there um again uh just the word cartoons
+67:42 going on there yeah why are you
+67:46 aware what&amp;#39;s that why you not like
+67:51 aware why are you not
+67:53 aware yeah
+67:56 this is one of I think the
+67:58 most troubling realities of being alive
+68:04 is that and this is also part of the the
+68:07 standard um existential crisis that
+68:10 classes like this tends to give to
+68:11 people so have fun with that um we have
+68:16 a very very thin awareness of what is
+68:21 going on under the hood in our bodies
+68:24 and we have
+68:26 we have some awareness we have some
+68:28 conscious experience of like I&amp;#39;m going
+68:29 to reach out and grab this thing I&amp;#39;m
+68:30 going to oh yeah this feels cool in my
+68:33 hand this feels hard in my hand um
+68:37 but the more you learn about
+68:39 neuroscience and the more you learn
+68:41 about what&amp;#39;s going on in the Hood the
+68:42 more you realize that those sensory that
+68:44 like the cognitive like the the
+68:46 conscious personal experience of having
+68:49 a motor experience um is a really really
+68:53 thin layer on top of a lot of complexity
+68:55 that&amp;#39;s going on and that is
+68:58 unfortunately just like the situation
+69:01 that we are in um remember one time I
+69:04 was in grad
+69:05 school and we were in like a a parking
+69:08 lot my friends and winter waiting to go
+69:10 on a hike or something like that and for
+69:13 some reason this really stuck with me
+69:14 but there was just like a puddle of like
+69:17 dirty water in the middle of the parking
+69:20 lot that had this like really beautiful
+69:23 like oil sheen on top of it and it was
+69:26 just like the sort of fractal iridescent
+69:29 colors just and by the nature of oil
+69:33 it&amp;#39;s just like one molecule thick that
+69:35 is giving this really beautiful like
+69:38 vibrant colorful shape on top of just
+69:43 cold dark murky water and I think about
+69:46 that a lot when I think about the
+69:48 nervous system because it just feels
+69:50 like that is kind of our experience of
+69:52 living in a body is we have this
+69:55 experience that is sort of riding on top
+69:58 of this really deep and
+70:00 complex biological neural complex system
+70:06 and the that conscious Sheen is related
+70:11 to the depths of what&amp;#39;s going on there
+70:13 but we don&amp;#39;t really tend to have access
+70:15 to it like I can&amp;#39;t feel my stomach
+70:18 deciding when it wants to squirt out
+70:20 more enzymes to digest my food and I
+70:23 can&amp;#39;t tell the difference between
+70:26 you know parts of this thing happening
+70:29 and you know like it&amp;#39;s just it&amp;#39;s not
+70:31 really available to me there are once
+70:34 you start learning about the about the
+70:36 bits and pieces you can start kind of
+70:39 mapping on your your conscious
+70:41 experiences to the things that I&amp;#39;m going
+70:43 to be telling you is maybe happening
+70:44 under the hood um one of the ones that&amp;#39;s
+70:47 coming to me right now for whatever
+70:49 reason is like it&amp;#39;s kind of a thing that
+70:51 is known where when when when a person
+70:53 starts lifting weights for the first
+70:54 time if you&amp;#39;ve never been a
+70:56 weightlifting person there&amp;#39;s a a thing
+70:58 that happens where you very quickly like
+71:01 you&amp;#39;ll shoot up the amount of weight
+71:03 that you can lift in a very short amount
+71:04 of time because your body is learning
+71:08 how to fire all of your motor units at
+71:10 once and that&amp;#39;s just the thing that in
+71:12 your general life you just tend not to
+71:13 do and you kind of have to learn how to
+71:15 do that like how to extend like maximal
+71:17 effort
+71:19 and that is something that&amp;#39;s happening
+71:21 at the level of like recruitment of
+71:23 motor units and so if you then if you
+71:26 now go to the gym and you start having
+71:27 that experience you sort of feel oh yeah
+71:29 I&amp;#39;m getting super strong and it&amp;#39;s just
+71:30 kind of like you can map that experience
+71:32 onto this thing I just said about how
+71:34 your motor units work but it&amp;#39;s in but
+71:36 that mapping is in the this like weird
+71:38 cognitive space like it&amp;#39;s not at that
+71:40 level of like deep awareness but then
+71:43 you have to ask like what what would
+71:45 that even look like if it was yeah so
+71:47 over time when you&amp;#39;re like lifting
+71:49 weight why do you hit
+71:51 a because eventually you you&amp;#39;re
+71:53 recruiting all of your motor units and
+71:55 then you just don&amp;#39;t have enough muscle
+71:57 to produce the force so that&amp;#39;s the that
+71:59 beginner spike in performance is you&amp;#39;re
+72:02 not actually growing muscle mass in that
+72:04 period of time you&amp;#39;re just learning how
+72:06 to actually like use all the muscles
+72:08 that you have and then you hit that
+72:09 plateau and it&amp;#39;s like okay well now I&amp;#39;m
+72:11 using I&amp;#39;m firing 100% of my muscle
+72:14 abilities just my muscles aren&amp;#39;t strong
+72:16 enough to actually move my body so and a
+72:18 lot of those sort of plateaus in
+72:20 performance can be sort of tied back to
+72:23 sort of physiological structures that
+72:24 change and like the time courses of of
+72:27 improvement happen that you know like
+72:29 growing more muscle takes time whereas
+72:31 learning how to fire motor units also
+72:34 takes time but not in the same way
+72:37 so a lot of dep there
+72:42 um that area that I was just so speaking
+72:44 of
+72:45 naming I never I&amp;#39;ve never been able to
+72:48 finish a leure before the end of class
+72:53 um that thing were just that little area
+72:56 is kind of often in the area we would
+72:58 call neuromechanics neuromechanics is a
+73:02 relatively new newly named field I would
+73:06 be curious to see if it&amp;#39;s in that
+73:08 mesh uh terminology thing we learned
+73:10 about last time um but neuromechanics
+73:14 neural mechanics um is kind of like at
+73:17 that boundary of neural activity and
+73:21 like and like physics like mechanics um
+73:25 stuff uh so that thing of like firing a
+73:28 motor unit to create a spring force that
+73:30 moves the limb that&amp;#39;s a neuromechanical
+73:33 question um and then like how that
+73:34 connects to like the spinal Central
+73:36 pattern generators you know that&amp;#39;s where
+73:38 it starts to get like is that still
+73:40 neuromechanics is that you know these
+73:41 are murky areas um on the other side of
+73:46 neuromechanics you have biomechanics
+73:48 biomechanics is
+73:49 literally Newton&amp;#39;s Laws as it applies to
+73:54 meat
+73:55 um and we will be talking about that
+73:59 uh to some level of specificity um the
+74:04 not too distant future
+74:06 um let&amp;#39;s
+74:11 see yeah let me let me finish this up
+74:14 and we&amp;#39;ll talk about
+74:16 that um yeah so biome mechanics is
+74:19 related to like just the physics of
+74:21 moving your body um we&amp;#39;re particularly
+74:23 going to talk about
+74:25 descriptions of the body that are that
+74:27 basically remove any conception of
+74:31 biology from them and just thinking
+74:32 about the human as an object that weighs
+74:36 a lot and is balanced on a pretty narrow
+74:40 uh platform and that&amp;#39;s sort of center of
+74:44 mass base of support level of uh
+74:47 description of the human body which we
+74:48 will talk about in some detail pretty
+74:51 soon um another thing I haven&amp;#39;t
+74:54 mentioned but we will talk about to is
+74:55 evolution because all of these systems
+74:58 are evolved systems they all they
+75:00 developed over billions of years um to
+75:06 the form that they currently are and in
+75:08 the same sense of things you can
+75:10 describe the system as it stands right
+75:12 now but you&amp;#39;re always going to be
+75:14 missing some of the story if you don&amp;#39;t
+75:15 think about it in the context of how it
+75:17 emerged um and so I haven&amp;#39;t quite
+75:20 figured
+75:22 out a lot of the things I&amp;#39;m talking
+75:24 about are the things that are going to
+75:25 go into these sort of numbered lectures
+75:28 once I sort of figure out how I want to
+75:30 chop things up um there&amp;#39;s I&amp;#39;m going to
+75:33 be extracting a lot of things from what
+75:35 your conversations are to figure out how
+75:37 to steer that those lectures um there&amp;#39;s
+75:40 some hit points that I&amp;#39;m going to hit no
+75:42 matter what you guys want to do um and
+75:44 evolution is going to be one of those
+75:46 things and
+75:47 specifically for us
+75:49 um it&amp;#39;s going to I&amp;#39;m going to be well I
+75:52 guess talk a little about the evolution
+75:53 of your eye but um I think a lot of my
+75:56 particular interest is in the thing that
+75:59 is often yeah evolution of your your
+76:02 skeleton um like why our skeletons are
+76:05 the particular weird shape that they are
+76:07 how we sort of developed from our
+76:10 Origins as fish that turn into lizards
+76:13 that turn
+76:15 into squirrels that turn into monkeys
+76:17 that turn into Apes that turn into us um
+76:21 because it matters a lot um
+76:26 evolution of our eye is another odd
+76:29 story
+76:31 uh the our retina is backwards in some
+76:34 pretty interesting ways like it&amp;#39;s not
+76:37 it&amp;#39;s like flipped in the direction that
+76:39 you would expect it to be like you would
+76:41 expect that the light sensing aspects of
+76:43 it will be facing towards the light but
+76:46 they&amp;#39;re actually backwards they face
+76:48 back and they kind of have to bounce
+76:50 through and this is thought to be
+76:51 related to like when we crawled out of
+76:53 the ocean and our eyes kind of inverted
+76:56 to
+76:56 allow the same kind of refraction to
+76:59 happen
+77:03 um yeah so uh we didn&amp;#39;t talk in this
+77:06 particular story about eye movements eye
+77:08 movements we will talk about also in
+77:10 some detail um I we have we humans have
+77:14 very mobile eyes that&amp;#39;s a very
+77:16 Cornerstone aspect of our visual system
+77:18 is that our eyes move a lot um it is
+77:22 part of the motor system to be able to
+77:25 move any part of your body including the
+77:26 eyes and that specific area is called
+77:29 ocul motor control oculo eye motor
+77:33 movement oculo motor is sort of stuff
+77:36 related to eye movements um and so
+77:40 things like ocul motor control is
+77:42 obviously very overlapping with things
+77:43 like visual perception and perceptual
+77:45 Neuroscience because as we move our eyes
+77:48 the information on the retina changes
+77:51 and we have to make and we make
+77:52 decisions about where to move our eyes
+77:55 in the same way we make decisions about
+77:56 where to move our our arms but this is
+77:59 also a place that
+78:01 like as like we you can live a whole
+78:04 happy life and like never really think
+78:07 about your eye movements but once you
+78:09 start thinking about your eye movements
+78:10 you&amp;#39;ll realize that it&amp;#39;s I think about
+78:13 it a lot like it&amp;#39;s it feels a lot like
+78:15 breathing to me where usually your
+78:19 breathing is something that just happens
+78:21 on its own but you can control it to
+78:24 some EXT like I can hold my breath I can
+78:26 take a breath I can do that I have
+78:28 volitional control over my breathing in
+78:31 a way that I don&amp;#39;t over my heart um and
+78:35 our eye movements are kind of like that
+78:36 as well like I can choose to look one
+78:38 place or another um I can choose not to
+78:40 look at something um but for the most
+78:44 part for
+78:45 99.9% of my Waking Life my eyes are just
+78:48 kind of doing what they do um and being
+78:51 driven by a combination of a ailable
+78:55 visual information and my desires of the
+78:59 world and sometimes like if I throw
+79:01 something in the air I will look at it
+79:03 and then catch it and there&amp;#39;s a lot of
+79:06 that process that is happening just
+79:09 below that level of conscious awareness
+79:12 um and that I think is a nice enough
+79:14 segue into we&amp;#39;re going to talk about for
+79:17 the last 10 minutes which is methods
+79:21 methodologies um methods is kind of a
+79:24 it&amp;#39;s just just the term that we use
+79:26 for like how in God&amp;#39;s name are you going
+79:29 to study any of this that&amp;#39;s kind of what
+79:30 methods means
+79:33 and generally speaking when we talk
+79:35 about methods we&amp;#39;re talking about
+79:38 um equipment and and ways that we can do
+79:41 empirical measurements of the world that
+79:43 will give us information about parts of
+79:47 the world that we think might we might
+79:48 be able to glean some insight into these
+79:51 deeper weirder aspects of the this is
+79:55 another great term desiderata of our
+79:58 investigation desiderata means that
+80:01 which is desired um and it is a sort of
+80:04 philosophy of science term
+80:06 about what are you trying to figure out
+80:09 you came into this room as a scientist
+80:11 because you have a certain there&amp;#39;s
+80:13 something you want to know more about
+80:14 there&amp;#39;s some part of the world that you
+80:16 want to gain insight into what is that
+80:20 thing and how how can you do it given
+80:23 all the limitations and straints and
+80:25 sort of difficulties of like how the
+80:28 world is um for me in for me in my sort
+80:32 of domain of inquiry um I I use two
+80:37 primary uh research tools map which is
+80:40 sort for motion capture um which is the
+80:43 thing if you see like behind the scenes
+80:46 stuff in movies and video games like the
+80:47 suit with the dots and stuff like that
+80:50 that&amp;#39;s motion capture and that&amp;#39;s
+80:51 basically related to um moving the body
+80:55 like sort of recording the movement of
+80:57 the body um in space and I will
+81:00 be at one of the lab sections I will be
+81:03 showing um I&amp;#39;ll be bringing in some
+81:05 cameras and doing a freeo cap recording
+81:08 which is the open source software that
+81:09 I&amp;#39;ve been building um which is designed
+81:11 to like help um record the body with a
+81:14 high degree of fidelity um like this
+81:17 specific three-dimensional configuration
+81:19 of the body at any given moment in time
+81:21 because you know I would love to be able
+81:23 to study all the Bing activity of the
+81:25 pingi cells and the cerebellum but
+81:27 that&amp;#39;s not available to me in this year
+81:29 of Our Lord
+81:30 2025 um I can&amp;#39;t actually get that
+81:33 measurement and the methods that I could
+81:34 use even if we if we if we could get
+81:36 that from something like fmri which is
+81:38 like the tube that you get the sort of
+81:40 colorful pictures of the brain um in
+81:43 this current moment in technology I
+81:46 can&amp;#39;t use that type of a tool and also
+81:49 have a person out in the world throwing
+81:51 and catching and doing stuff like that
+81:54 um
+81:55 and so we use motion capture as a
+81:58 methodology to record the 3D
+82:01 configuration of the body over time then
+82:04 we use those movements to try to infer
+82:07 while if the if the arm did this and
+82:10 gravity is like that then the muscles
+82:13 must have done this or that in order to
+82:16 produce the forces that generated that
+82:17 movement and then you kind of backtrack
+82:19 from well if the mo if the muscles did
+82:21 this then the spine must have done that
+82:23 and sort of you can use this kind of
+82:25 like this observable aspect of reality
+82:28 which is like the location of the arm
+82:31 measure it to the level of fidelity that
+82:33 you can with the available technology
+82:34 that you have and then use those
+82:37 empirical measurements to try to infer
+82:39 all this weird goopy nonsense of what
+82:41 I&amp;#39;ve been talking about about this part
+82:43 of the brain that part of the brain that
+82:44 part of the brain um the other
+82:46 technology that I tend to use a lot is I
+82:49 can draw on this board ey tracking which
+82:52 everybody loves eye tracking um it&amp;#39;s
+82:54 always a crowd favorite um but that&amp;#39;s
+82:59 another sort of
+83:00 like there&amp;#39;s different tools to use it
+83:03 but mostly these days we use video-
+83:05 based eye trackers which is literally
+83:06 just little cameras pointed at the eye
+83:10 and it&amp;#39;s kind of a a convenient thing
+83:14 that we are as humans um have these
+83:17 highly mobile eyes um that sort of wind
+83:21 up giving this really interesting
+83:23 readout of what my brain wanted to get
+83:27 more information about at each moment in
+83:29 time so if you give me a task like
+83:32 walking over rough terrain or sort of
+83:34 juggling or throwing and catching or
+83:36 something like that um you can look at
+83:39 the movement of my eye and at the very
+83:42 least know the visual information that
+83:45 was available to me in that moment by
+83:47 doing sort of 3D modeling and sort of
+83:49 saying okay the eye moved this way and
+83:51 then this the object was over here and
+83:53 so you know
+83:54 you know based on what I know about the
+83:56 eye I couldn&amp;#39;t see it then or I could
+83:58 see it in my
+84:00 periphery um and then I chose to make a
+84:02 movement that would align my eye so now
+84:04 it&amp;#39;s in my phobia and so you can use
+84:08 just like a camera pointed at the eye to
+84:10 tell the information that was being
+84:13 transmitted into my visual cortex and
+84:15 sort of going down that way which both
+84:17 gives you the information that I had
+84:20 available and more importantly arguably
+84:23 the place that my eyes move to tells me
+84:26 the place that my central nervous system
+84:28 decided I want more information from
+84:30 this part of the world and because those
+84:33 eye movements tend to happen really
+84:35 really fast like you know 150
+84:36 milliseconds per eye movement if you&amp;#39;re
+84:38 doing a difficult task um like well
+84:42 below the level of conscious awareness
+84:43 we can tell stories about what we were
+84:45 doing after the fact but in the moment
+84:47 the eyes just kind of go where they need
+84:49 to go um and so I can tell both what
+84:53 information was available to this weird
+84:55 magical meat robot at any moment in time
+84:57 and I can also look at the decisions
+85:00 that were made of oh I&amp;#39;m going to move
+85:01 my eyes this way and not that way until
+85:05 where my central nervous system desired
+85:08 more information from in the world at
+85:11 any moment in time and so in the by the
+85:13 combination of these things of being
+85:15 able to measure the sort of the
+85:17 perceptual input in the form of eye
+85:19 tracking and the motor output in the
+85:21 form of motion capture um
+85:26 Wei this is my general attempt is to my
+85:30 my general approach to scientific
+85:32 research is to try to combine these two
+85:34 methodologies to give a sense of like
+85:36 get a picture of what&amp;#39;s h of what a
+85:38 given of a what a human is doing in the
+85:40 world as they sort of perform complex
+85:42 actions and then use that weird pile of
+85:46 data that pours out of those machines to
+85:48 give some insight into this stuff often
+85:51 in my particular case
+85:54 in the sort of conversation of science
+85:57 um I I this domain this typ type of
+86:00 research tends to give ecologically
+86:03 valid like like realist like it&amp;#39;s real
+86:05 data of real people doing real stuff but
+86:07 the Fidelity is just limited like
+86:09 there&amp;#39;s only the the accuracy and
+86:11 precision of information that I can
+86:13 provide with these methods is just very
+86:14 very limited relative to someone who&amp;#39;s
+86:16 in a lab pulling out individual neurons
+86:19 and sort of doing all the reductionist
+86:21 work that they can do to get really
+86:22 precise numbers so the so the the
+86:25 sociology of Sciences people like me
+86:28 doing the broad scoke type of research
+86:31 work with people who to the more careful
+86:33 reduction of stuff and ideally we kind
+86:36 of we both work together so that we can
+86:38 tell more complete stories and tell more
+86:40 satisfying cartoon stories of what&amp;#39;s
+86:42 going on for humans to new generations
+86:45 of undergrads every every year or two
+86:51 okay get all that covered no more
+86:55 questions Neuroscience nailed it great
+86:59 cool well actually that&amp;#39;s it as there
+87:01 any um any we do have like three more
+87:04 minutes does anyone have any questions
+87:06 or what&amp;#39;s the word emotional outbursts
+87:09 uh exential
+87:11 crises uh things I wish you wish I&amp;#39;d
+87:13 said more about no one would say
+87:15 anything in this moment in class I
+87:17 appreciate oh you do like the phon thing
+87:22 about the
+87:25 yeah yeah opson opson is that&amp;#39;s the term
+87:29 Ops i n reminded me of
+87:32 like yeah yeah it&amp;#39;s the same I mean
+87:36 plants don&amp;#39;t really have the motor
+87:38 aspect but yeah that&amp;#39;s for the
+87:40 biochemistry people I think it&amp;#39;s the
+87:42 opson is the part that has the more
+87:45 there&amp;#39;s a lot of lot of depth there
+87:46 there&amp;#39;s
+87:47 only it&amp;#39;s it&amp;#39;s like a class of chemical
+87:51 and so you can you can look at that okay
+87:54 um great thank you for showing up um
+87:58 keep an eye on the Discord server
+88:00 Discord server and canvas I&amp;#39;ll make an
+88:02 announcement about the actual
+88:03 assignments going on
+88:05 um and uh yeah see you on m not an
+88:09 assignment to this what&amp;#39;s that so no
+88:11 assign this Sunday no not this Sunday
+88:13 and then I guess Monday is a holiday so
+88:16 I&amp;#39;ll see you in a
+88:18 week yeah someone here told me that
+88:20 which I was it you somebody told me
+88:22 someone told me that there was a holiday
+88:24 yeah thank you appreciate that I
+88:26 probably would have figured it
+88:29 out I didn&amp;#39;t have either one of them
+88:31 yeah I think it was just those two yeah
+88:35 exactly H okay
