@@ -1,6 +1,6 @@
 # 2025-01-06-intro-lecture
 
-> Weekly Assignment - [Intro chat with the bot](../assignments/1-introduction-chat.md)
+> Weekly Assignment - [Intro chat with the bot](../assignments/0-introduction-chat.md)
 
 ## Planned content
 
