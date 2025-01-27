@@ -23,6 +23,6 @@ async function fetchTranscriptWithRetry(videoIdOrUrl) {
 }
 
 // Replace 'VIDEO_ID_OR_URL' with the actual YouTube video ID or URL you want to check
-const videoIdOrUrl = 'https://youtu.be/F4FNNmuAq74';
-
+// const videoIdOrUrl = 'https://youtu.be/F4FNNmuAq74';
+const videoIdOrUrl = 'https://youtu.be/VfSQ43VBG28' //HMN24 - 01 - Intro to Data Collection
 fetchTranscriptWithRetry(videoIdOrUrl);

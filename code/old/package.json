@@ -2,7 +2,7 @@
   "name": "hmn-spring-25",
   "version": "1.0.0",
   "type": "module",
-  "main": "fetchYoutubeTranscript.js",
+  "main": "fetchYoutubeTranscript_w_timer.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
