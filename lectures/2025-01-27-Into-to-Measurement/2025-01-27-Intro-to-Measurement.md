@@ -41,7 +41,7 @@
 
 ## Units
 > They're made up and arbitrary, so it's important we agree on them if we ever want to compare notes
-
+- `Water bottle demo`
 ### Base SI Units 
 - https://en.wikipedia.org/wiki/International_System_of_Units
 - seconds (s, time)
@@ -52,10 +52,8 @@
 - mole (mol, amount)
 - candela (cd, luminance)
 
-### Why the Metric system is cool
-- `Water bottle demo`
-### Why the Imperial system is not actually 100% hot garbage
-- but you're still not allowed to use it (in the sciences)
+
+
 
 ### Derived units 
 - Velocity: Meters per second (m/s)
