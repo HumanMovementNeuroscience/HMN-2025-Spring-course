@@ -62,7 +62,7 @@
     - (e.g. `The ability to do Work`, e.g. `The thing that is conserved when talking about the Conservation of Energy` )
 
 ## Everything you need to know about physics
-- Newton's laws
+- Newton's laws (e.g. cannonball physics - `Juggling ball` example)
     - First law - A body at rest/in motion stays at rest/in motion (Inertia)
     - Second law - Force = Mass * Acceleration (`F=MA`) (or 'orque = MomentOfInertia * AngularAcceleration' for rotation)
     - Third law - For every action, there is an equal and opposite reaction (Action/Reaction force)
@@ -79,9 +79,18 @@
         - Total Mechanical Energy (TME = PE + KE) (Hamiltonian or something? Lagrangian?)
         - In a 'conservative system', TME is constant
 
-## Center of Mass ❤️✨
+
+## Center of Mass (CoM) ❤️✨
+>  "lets collapse this big weird joint angle nonsense into a singular point-mass and go from there?"
 - Holistic approach to study of human movement 
-    - "lets collapse this big weird joint angle nonsense into a singular point-mass and go from there?"
+- Weighted sum of individual components of larger object (or system of objects)
+    - `Weighted Stick example`
+    - Finite Element Theorem/Analysis or something? 
+        -  Things you say about the COM of a system are true of the system itself (or something like that)
+
+
+
+
 - Calculated based on `Anthropometry Tables`
 ![alt text](Anthropometric-segment-length-of-human-body-as-a-function-of-body-height-Winter-2009-5144702.png)
 
