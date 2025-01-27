@@ -39,7 +39,9 @@
 
 
 
-## Units are made up, but 
+## Units
+> They're made up and arbitrary, so it's important we agree on them if we ever want to compare notes
+
 ### Base SI Units 
 - https://en.wikipedia.org/wiki/International_System_of_Units
 - seconds (s, time)
@@ -51,15 +53,19 @@
 - candela (cd, luminance)
 
 ### Why the Metric system is cool
-    - Water bottle thing
+- `Water bottle demo`
 ### Why the Imperial system is not actually 100% hot garbage
-    - but you're still not allowed to use it (in the sciences)
+- but you're still not allowed to use it (in the sciences)
 
 ### Derived units 
 - Velocity: Meters per second (m/s)
 - Force: Newton (N, kg * m * s^-2) 
 - Energy: Joule (J, kg * m^2 * s^-2) 
     - (e.g. `The ability to do Work`, e.g. `The thing that is conserved when talking about the Conservation of Energy` )
+
+### Normalized Units
+- Divide everything by some important measurement to convert everything to that unit
+- e.g. If measuring mass in `kg`, you can divide everything by a person's `bodymass in kg` to convert all the units to `bodymasses`
 
 ## Everything you need to know about physics
 - Newton's laws (e.g. cannonball physics - `Juggling ball` example)
