@@ -39,7 +39,7 @@
 
 
 
-## Units
+## Units are made up, but 
 ### Base SI Units 
 - https://en.wikipedia.org/wiki/International_System_of_Units
 - seconds (s, time)
