@@ -1,6 +1,3 @@
 [submodule "code/code/canvas-botto"]
 	path = code/code/canvas-botto
 	url = https://github.com/jonmatthis/canvas-botto.git
-[submodule "code/canvas-botto"]
-	path = code/canvas-botto
-	url = https://github.com/jonmatthis/canvas-botto.git
