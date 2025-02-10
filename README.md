@@ -18,7 +18,7 @@
 | 13 Jan 2025   | Week 2  | Library Resources Presentation    | Topic Planning             | 1 - Choosing a Topic            | 
 | 20 Jan 2025   | Week 3  | MLK DAY                           | Group thing w/ bot         | Poster Proposal #1 Due          |
 | 27 Jan 2025   | Week 4  | Intro to Measurement              | FreeMoCap In Class Rec     | No assigment                    |
-| 03 Feb 2025   | Week 5  | Lecture-3                         | Lab-3                      | 3 - Assignment                  |
+| 03 Feb 2025   | Week 5  | Look at Balance Data              | Look at Jumping data       | 3 - Exam-like Assignment        |
 | 10 Feb 2025   | Week 6  | Lecture-4                         | Lab-4                      | Poster Proposal #2 Due          |
 | 17 Feb 2025   | Week 7  | PRESIDENT DAY                     | Lab-5                      | 5 - Assignment                  |
 | 24 Feb 2025   | Week 8  | Lecture-6                         | Lab-6                      | Poster Due!                     |
