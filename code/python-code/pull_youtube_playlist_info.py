@@ -208,7 +208,7 @@ def main():
         yaml.dump([v.dict() for v in videos], f, default_flow_style=False)
 
     # Save Markdown
-    with open('playlist_transcripts.md', 'w') as f:
+    with open('playlist_transcripts.md', 'w', encoding='utf-8') as f:
         f.write(generate_markdown(videos))
 
     print(f"Saved data for {len(videos)} videos (YAML + MD)")
