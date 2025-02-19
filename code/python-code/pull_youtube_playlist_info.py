@@ -21,16 +21,16 @@ class VideoMetadata(BaseModel):
     publish_date: str
     channel_id: str
     duration: str
-    likeCount: Optional[str]
-    tags: Optional[str]
+    likeCount: str|None
+    tags: str|None
 
 
 class VideoData(BaseModel):
     video_id: str
     metadata: VideoMetadata
-    transcript: List[TranscriptEntry]
+    transcript: list[TranscriptEntry]
 
-    def chunk_transcript(self, interval_seconds: int = 600) -> List[Dict]:
+    def chunk_transcript(self, interval_seconds: int = 600) -> list[dict]:
         chunks = []
         current_chunk = []
         current_end = interval_seconds
@@ -122,8 +122,8 @@ class YoutubeFetcher:
                 transcript=[TranscriptEntry(
                     text=text,
                     start=float(start),
-                    dur=float(dur)
-                    for start, dur, text in t
+                    dur=float(dur))
+                    for start, dur, text in transcript
                 ]
             )
 
@@ -166,7 +166,7 @@ def format_duration(seconds: float) -> str:
     return f"{int(minutes):02d}:{int(sec):02d}"
 
 
-def generate_markdown(videos: List[VideoData]) -> str:
+def generate_markdown(videos: list[VideoData]) -> str:
     md = ["# YouTube Playlist Transcripts\n"]
 
     for video in videos:
