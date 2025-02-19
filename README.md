@@ -8,6 +8,7 @@
 ### Course Materials and Resources
 - Discord Server: (Invite on Canvas)
 - Canvas page - https://northeastern.instructure.com/courses/201323
+- Youtube playlist - https://www.youtube.com/playlist?list=PLWxH2Ov17q5HDfMBJxD_cE1lowM1cr_BV
 - Course website: [TBA]
 
 ## Schedule Overview
@@ -19,7 +20,7 @@
 | 20 Jan 2025   | Week 3  | MLK DAY                           | Group thing w/ bot         | Poster Proposal #1 Due          |
 | 27 Jan 2025   | Week 4  | Intro to Measurement              | FreeMoCap In Class Rec     | No assigment                    |
 | 03 Feb 2025   | Week 5  | Look at Balance Data              | Look at Jumping data       | 3 - Exam-like Assignment        |
-| 10 Feb 2025   | Week 6  | Lecture-4                         | Lab-4                      | Poster Proposal #2 Due          |
+| 10 Feb 2025   | Week 6  | Scientific Psters and Spinal CPGS | Lab-4                      | Poster Proposal #2 Due          |
 | 17 Feb 2025   | Week 7  | PRESIDENT DAY                     | Lab-5                      | 5 - Assignment                  |
 | 24 Feb 2025   | Week 8  | Lecture-6                         | Lab-6                      | Poster Due!                     |
 | 03 Mar 2025   | Week 9  | SPRING BREAK                      | SPRING BREAK               | SPRING BREAK                    |
