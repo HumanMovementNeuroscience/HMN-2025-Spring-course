@@ -22,13 +22,13 @@
 | 03 Feb 2025   | Week 5  | Look at Balance Data              | Look at Jumping data       | No assigment                    |
 | 10 Feb 2025   | Week 6  | Scientific Psters and Spinal CPGS | Paper state space activity | No assigment                    |
 | 17 Feb 2025   | Week 7  | PRESIDENT DAY                     | Poster Outline activity    | No assigment                    |
-| 24 Feb 2025   | Week 8  | ? - Vision and Eyeballs           | ? - Eye tracking demo      | Exam Chats/Poster Proposal #2  |
+| 24 Feb 2025   | Week 8  | ? - Vision and Eyeballs           | ? - Eye tracking demo      | Exam Chats/Poster Proposal #2   |
 | 03 Mar 2025   | Week 9  | SPRING BREAK                      | SPRING BREAK               | SPRING BREAK                    |
 | 10 Mar 2025   | Week 10 | Lecture-7                         | Lab-7                      | Full Poster Draft Due!          |
-| 17 Mar 2025   | Week 11 | Lecture-8                         | Lab-8                      | 7 - Assignment                  |
+| 17 Mar 2025   | Week 11 | Lecture-8                         | Lab-8                      | No assigment                    |
 | 24 Mar 2025   | Week 12 | Lecture-9                         | Lab-9                      | Upload Poster by TUES MARCH 25  |
-| 31 Mar 2025   | Week 13 | Lecture-10                        | Lab-10                     | 8 - Assignment                  |
-| 07 Apr 2025   | Week 14 | POSTER PRESENTATION DAY 1         | POSTER PRESENTATION DAY 2  | 9 - Assignment                  |
+| 31 Mar 2025   | Week 13 | Lecture-10                        | Lab-10                     | No assigment                    |
+| 07 Apr 2025   | Week 14 | POSTER PRESENTATION DAY 1         | POSTER PRESENTATION DAY 2  | No assigment                    |
 | 14 Apr 2025   | Week 15 | Retrospective                     | Wrap up                    | 10 - Outro /chat                |
 
 
