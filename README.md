@@ -18,18 +18,18 @@
 | 06 Jan 2025   | Week 1  | Intro/Setup                       | HMN Overview               | 0 - Introduction /chat          |
 | 13 Jan 2025   | Week 2  | Library Resources Presentation    | Topic Planning             | 1 - Choosing a Topic            | 
 | 20 Jan 2025   | Week 3  | MLK DAY                           | Group thing w/ bot         | Poster Proposal #1 Due          |
-| 27 Jan 2025   | Week 4  | Intro to Measurement              | FreeMoCap In Class Rec     | No assigment                    |
-| 03 Feb 2025   | Week 5  | Look at Balance Data              | Look at Jumping data       | No assigment                    |
-| 10 Feb 2025   | Week 6  | Scientific Psters and Spinal CPGS | Paper state space activity | No assigment                    |
-| 17 Feb 2025   | Week 7  | PRESIDENT DAY                     | Poster Outline activity    | No assigment                    |
+| 27 Jan 2025   | Week 4  | Intro to Measurement              | FreeMoCap In Class Rec     | No assignment                   |
+| 03 Feb 2025   | Week 5  | Look at Balance Data              | Look at Jumping data       | No assignment                   |
+| 10 Feb 2025   | Week 6  | Scientific Psters and Spinal CPGS | Paper state space activity | No assignment                   |
+| 17 Feb 2025   | Week 7  | PRESIDENT DAY                     | Poster Outline activity    | No assignment                   |
 | 24 Feb 2025   | Week 8  | ? Vision and Eyeballs             | ? Eye tracking demo        | Exam Chats/Poster Proposal #2   |
 | 03 Mar 2025   | Week 9  | SPRING BREAK                      | SPRING BREAK               | SPRING BREAK                    |
 | 10 Mar 2025   | Week 10 | ? Eye tracking data               | ? Bees, Ants, & Dragonflies| Full Poster Draft Due!          |
-| 17 Mar 2025   | Week 11 | ? evolution                       | ? Gap filling              | No assigment                    |
+| 17 Mar 2025   | Week 11 | ? evolution                       | ? Gap filling              | No assignment                   |
 | 24 Mar 2025   | Week 12 | ? My dumb bs                      | ? Poster Prep              | Upload Poster by TUES MARCH 25  |
-| 31 Mar 2025   | Week 13 | ? ans & ptsd                      | ? Poster practice          | No assigment                    |
-| 07 Apr 2025   | Week 14 | POSTER PRESENTATION DAY 1         | POSTER PRESENTATION DAY 2  | No assigment                    |
-| 14 Apr 2025   | Week 15 | Retrospective                     | Wrap up                    | 10 - Outro /chat                |
+| 31 Mar 2025   | Week 13 | ? ans & ptsd                      | ? Poster practice          | No assignment                   |
+| 07 Apr 2025   | Week 14 | POSTER PRESENTATION DAY 1         | POSTER PRESENTATION DAY 2  | No assignment                   |
+| 14 Apr 2025   | Week 15 | Retrospective                     | Wrap up                    | Goodbye Outro /chat             |
 
 
 ## Course Description
