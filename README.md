@@ -27,13 +27,10 @@
 | 10 Mar 2025   | Week 10 | ? Eye tracking data               | ? Bees, Ants, & Dragonflies| Full Poster Draft Due!          |
 | 17 Mar 2025   | Week 11 | ? evolution                       | ? Gap filling              | No assigment                    |
 | 24 Mar 2025   | Week 12 | ? My dumb bs                      | ? Poster Prep              | Upload Poster by TUES MARCH 25  |
-| 31 Mar 2025   | Week 13 | Lecture-10                        | Lab-10                     | No assigment                    |
+| 31 Mar 2025   | Week 13 | ? ans & ptsd                      | ? Poster practice          | No assigment                    |
 | 07 Apr 2025   | Week 14 | POSTER PRESENTATION DAY 1         | POSTER PRESENTATION DAY 2  | No assigment                    |
 | 14 Apr 2025   | Week 15 | Retrospective                     | Wrap up                    | 10 - Outro /chat                |
 
-Possible next lectures
-- ans & ptsd
-- oculomotor control
 
 ## Course Description
 Students will explore the neural basis of natural human behavior in real-world contexts (e.g., [[sports]], [[dance]], or [[everyday-activities]]) by investigating  [[biomechanics]] and  [[neuroscience]] of [[human-movement]]. The course will cover [[philosophical]], [[technological]], and [[scientific]] aspects related to the study of [[natural-behavior]] while emphasizing hands-on, project-based learning. Students will use [[free-open-source-software]], and [[artificial-intelligence]],[[machine-learning]] and [[computer-vision]] driven tools and methods to record human movement in unconstrained environments.
