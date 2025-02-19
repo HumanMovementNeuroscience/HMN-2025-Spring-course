@@ -43,5 +43,5 @@ def download_youtube_playlist(playlist_url: str):
         print(f'An error occurred: {e}')
 
 if __name__ == "__main__":
-    playlist_url = 'https://youtube.com/playlist?list=PLWxH2Ov17q5HDfMBJxD_cE1lowM1cr_BV'
+    playlist_url = 'PLWxH2Ov17q5HDfMBJxD_cE1lowM1cr_BV'
     download_youtube_playlist(playlist_url)
