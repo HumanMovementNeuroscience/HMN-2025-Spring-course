@@ -122,7 +122,7 @@ class YoutubeFetcher:
                     text=text,
                     start=float(start),
                     dur=float(dur)
-                    for start, dur, text in matches
+                    for start, dur, text in t
                 ]
             )
 
