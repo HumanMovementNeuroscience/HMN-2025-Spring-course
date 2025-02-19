@@ -1,10 +1,11 @@
 import json
 import re
-import yaml
-import requests
 from urllib.parse import parse_qs, urlparse
 
+import requests
+import yaml
 from pydantic import BaseModel
+
 
 # --- Pydantic Models ---
 class TranscriptEntry(BaseModel):
@@ -21,8 +22,8 @@ class VideoMetadata(BaseModel):
     publish_date: str
     channel_id: str
     duration: str
-    likeCount: str|None
-    tags: str|None
+    likeCount: str | None
+    tags: str | None
 
 
 class VideoData(BaseModel):
@@ -60,6 +61,8 @@ class VideoData(BaseModel):
             })
 
         return chunks
+
+
 class YoutubeFetcher:
     USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36,gzip(gfe)'
     RE_YOUTUBE = re.compile(
@@ -119,12 +122,9 @@ class YoutubeFetcher:
             return VideoData(
                 video_id=video_id,
                 metadata=VideoMetadata(**metadata),
-                transcript=[TranscriptEntry(
-                    text=text,
-                    start=float(start),
-                    dur=float(dur))
-                    for start, dur, text in transcript
-                ]
+                transcript=[TranscriptEntry(text=entry['text'],
+                                            start=float(entry['start']),
+                                            dur=float(entry['dur'])) for entry in transcript]
             )
 
         except Exception as e:
