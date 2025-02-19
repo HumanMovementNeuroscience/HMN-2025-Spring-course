@@ -235,3 +235,6 @@ def main():
         f.write(generate_markdown(videos))
 
     print(f"Saved data for {len(videos)} videos (YAML + MD)")
+
+if __name__ == "__main__":
+    main()
