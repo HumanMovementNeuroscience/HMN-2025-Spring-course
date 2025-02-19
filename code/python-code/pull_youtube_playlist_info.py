@@ -129,7 +129,7 @@ class YoutubeFetcher:
 
         except Exception as e:
             print(f"Error processing video {video_id}: {e}")
-            return None
+            raise e
 
     @classmethod
     def _get_transcript(cls, html, video_id):
