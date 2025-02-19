@@ -19,12 +19,12 @@
 | 13 Jan 2025   | Week 2  | Library Resources Presentation    | Topic Planning             | 1 - Choosing a Topic            | 
 | 20 Jan 2025   | Week 3  | MLK DAY                           | Group thing w/ bot         | Poster Proposal #1 Due          |
 | 27 Jan 2025   | Week 4  | Intro to Measurement              | FreeMoCap In Class Rec     | No assigment                    |
-| 03 Feb 2025   | Week 5  | Look at Balance Data              | Look at Jumping data       | 3 - Exam-like Assignment        |
-| 10 Feb 2025   | Week 6  | Scientific Psters and Spinal CPGS | Lab-4                      | Poster Proposal #2 Due          |
-| 17 Feb 2025   | Week 7  | PRESIDENT DAY                     | Lab-5                      | 5 - Assignment                  |
-| 24 Feb 2025   | Week 8  | Lecture-6                         | Lab-6                      | Poster Due!                     |
+| 03 Feb 2025   | Week 5  | Look at Balance Data              | Look at Jumping data       | No assigment                    |
+| 10 Feb 2025   | Week 6  | Scientific Psters and Spinal CPGS | Paper state space activity | No assigment                    |
+| 17 Feb 2025   | Week 7  | PRESIDENT DAY                     | Poster Outline activity    | No assigment                    |
+| 24 Feb 2025   | Week 8  | ? - Vision and Eyeballs           | ? - Eye tracking demo      | Exam Chats/Poster Proposal #2  |
 | 03 Mar 2025   | Week 9  | SPRING BREAK                      | SPRING BREAK               | SPRING BREAK                    |
-| 10 Mar 2025   | Week 10 | Lecture-7                         | Lab-7                      | 6 - Assignment                  |
+| 10 Mar 2025   | Week 10 | Lecture-7                         | Lab-7                      | Full Poster Draft Due!          |
 | 17 Mar 2025   | Week 11 | Lecture-8                         | Lab-8                      | 7 - Assignment                  |
 | 24 Mar 2025   | Week 12 | Lecture-9                         | Lab-9                      | Upload Poster by TUES MARCH 25  |
 | 31 Mar 2025   | Week 13 | Lecture-10                        | Lab-10                     | 8 - Assignment                  |
