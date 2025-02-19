@@ -4,6 +4,7 @@ import yaml
 import requests
 from urllib.parse import parse_qs, urlparse
 
+from pydantic import BaseModel
 
 # --- Pydantic Models ---
 class TranscriptEntry(BaseModel):
@@ -159,10 +160,40 @@ class YoutubeFetcher:
         return match.group(1) if match else None
 
 
+# --- New Markdown Generation Functions ---
+def format_duration(seconds: float) -> str:
+    minutes, sec = divmod(seconds, 60)
+    return f"{int(minutes):02d}:{int(sec):02d}"
+
+
+def generate_markdown(videos: List[VideoData]) -> str:
+    md = ["# YouTube Playlist Transcripts\n"]
+
+    for video in videos:
+        # Video Header
+        md.append(f"## {video.metadata.title}\n")
+        md.append(f"**Author**: {video.metadata.author}  \n")
+        md.append(f"**Duration**: {format_duration(float(video.metadata.duration))}  \n")
+        md.append(f"**Published**: {video.metadata.publish_date}  \n")
+        md.append(f"**Views**: {video.metadata.viewCount}  \n\n")
+
+        # Transcript Chunks
+        md.append("### Transcript Summary\n")
+        for chunk in video.chunk_transcript():
+            start_time = format_duration(chunk['start'])
+            end_time = format_duration(chunk['end'])
+            md.append(f"#### {start_time} - {end_time}\n")
+            md.append(f"{chunk['text']}\n\n")
+
+        md.append("---\n")
+
+    return "\n".join(md)
+
+
+# --- Updated Main Function ---
 def main():
     playlist_url = 'https://youtube.com/playlist?list=PLWxH2Ov17q5HDfMBJxD_cE1lowM1cr_BV'
 
-    # Get playlist videos
     fetcher = YoutubeFetcher()
     video_ids = fetcher.get_playlist_videos(playlist_url)
 
@@ -170,17 +201,17 @@ def main():
         print("No videos found in playlist")
         return
 
-    # Process all videos
-    results = []
-    for vid in video_ids:
-        if data := fetcher.get_video_data(vid):
-            results.append(data)
+    videos = [v for vid in video_ids if (v := fetcher.get_video_data(vid)) is not None]
 
-    # Save to YAML
+    # Save YAML
     with open('playlist_data.yaml', 'w') as f:
-        yaml.dump(results, f, default_flow_style=False)
+        yaml.dump([v.dict() for v in videos], f, default_flow_style=False)
 
-    print(f"Saved data for {len(results)} videos")
+    # Save Markdown
+    with open('playlist_transcripts.md', 'w') as f:
+        f.write(generate_markdown(videos))
+
+    print(f"Saved data for {len(videos)} videos (YAML + MD)")
 
 
 if __name__ == "__main__":
