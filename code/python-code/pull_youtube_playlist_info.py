@@ -166,16 +166,34 @@ def format_duration(seconds: float) -> str:
     return f"{int(minutes):02d}:{int(sec):02d}"
 
 
+# ... [Keep all imports and models unchanged] ...
+
 def generate_markdown(videos: list[VideoData]) -> str:
+    def slugify(text: str) -> str:
+        """Convert title to anchor-friendly slug"""
+        slug = re.sub(r'[^\w\s-]', '', text.lower())
+        slug = re.sub(r'[\s_-]+', '-', slug)
+        return slug.strip('-')
+
     md = ["# YouTube Playlist Transcripts\n"]
 
+    # Table of Contents
+    md.append("## Table of Contents\n")
     for video in videos:
-        # Video Header
+        md.append(f"- [{video.metadata.title}](#{slugify(video.metadata.title)})\n")
+    md.append("\n---\n")
+
+    # Video sections sorted chronologically
+    for video in sorted(videos, key=lambda x: x.metadata.publish_date):
+        # Video Header with anchor
+        anchor = slugify(video.metadata.title)
+        md.append(f'<a id="{anchor}"></a>\n')  # Explicit anchor for better compatibility
         md.append(f"## {video.metadata.title}\n")
         md.append(f"**Author**: {video.metadata.author}  \n")
         md.append(f"**Duration**: {format_duration(float(video.metadata.duration))}  \n")
         md.append(f"**Published**: {video.metadata.publish_date}  \n")
-        md.append(f"**Views**: {video.metadata.viewCount}  \n\n")
+        md.append(f"**Views**: {video.metadata.viewCount}  \n")
+        md.append(f"**[Watch Video](https://youtu.be/{video.video_id})**  \n\n")
 
         # Transcript Chunks
         md.append("### Transcript Summary\n")
@@ -184,8 +202,9 @@ def generate_markdown(videos: list[VideoData]) -> str:
             end_time = format_duration(chunk['end'])
             text = chunk['text'].replace('&amp;#39;', "'")
             md.append(f"#### {start_time} - {end_time}\n")
-            md.append(f"{text}\n")
+            md.append(f"{text}\n\n")
 
+        md.append("[Back to Top](#table-of-contents)\n")
         md.append("---\n")
 
     return "\n".join(md)
@@ -204,6 +223,9 @@ def main():
 
     videos = [v for vid in video_ids if (v := fetcher.get_video_data(vid)) is not None]
 
+    # Sort videos by publish date (oldest first)
+    videos.sort(key=lambda x: x.metadata.publish_date)
+
     # Save YAML
     with open('playlist_data.yaml', 'w') as f:
         yaml.dump([v.model_dump() for v in videos], f, default_flow_style=False)
@@ -213,7 +235,3 @@ def main():
         f.write(generate_markdown(videos))
 
     print(f"Saved data for {len(videos)} videos (YAML + MD)")
-
-
-if __name__ == "__main__":
-    main()
