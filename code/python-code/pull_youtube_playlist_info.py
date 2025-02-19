@@ -205,7 +205,7 @@ def main():
 
     # Save YAML
     with open('playlist_data.yaml', 'w') as f:
-        yaml.dump([v.dict() for v in videos], f, default_flow_style=False)
+        yaml.dump([v.model_dump() for v in videos], f, default_flow_style=False)
 
     # Save Markdown
     with open('playlist_transcripts.md', 'w', encoding='utf-8') as f:
