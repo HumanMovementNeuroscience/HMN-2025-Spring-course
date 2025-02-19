@@ -152,7 +152,7 @@ class YoutubeFetcher:
 
         except Exception as e:
             print(f"Transcript error for {video_id}: {e}")
-            return f"Transcript error: {str(e)}"
+            raise e
 
     @staticmethod
     def _extract_metadata(html, key):
