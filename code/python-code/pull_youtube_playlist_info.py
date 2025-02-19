@@ -182,8 +182,9 @@ def generate_markdown(videos: list[VideoData]) -> str:
         for chunk in video.chunk_transcript():
             start_time = format_duration(chunk['start'])
             end_time = format_duration(chunk['end'])
+            text = chunk['text'].replace('&amp;#39;', "'")
             md.append(f"#### {start_time} - {end_time}\n")
-            md.append(f"{chunk['text']}\n\n")
+            md.append(f"{text}\n")
 
         md.append("---\n")
 
