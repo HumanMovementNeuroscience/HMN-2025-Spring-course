@@ -2,7 +2,7 @@ import pytube
 import yaml
 from youtube_transcript_api import YouTubeTranscriptApi
 
-def download_youtube_playlist(playlist_url):
+def download_youtube_playlist(playlist_url: str):
     try:
         playlist = pytube.Playlist(playlist_url)
         print(f'Downloading: {playlist.title}')
