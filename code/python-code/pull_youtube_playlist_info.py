@@ -5,6 +5,60 @@ import requests
 from urllib.parse import parse_qs, urlparse
 
 
+# --- Pydantic Models ---
+class TranscriptEntry(BaseModel):
+    text: str
+    start: float
+    dur: float
+
+
+class VideoMetadata(BaseModel):
+    title: str
+    author: str
+    viewCount: str
+    description: str
+    publish_date: str
+    channel_id: str
+    duration: str
+    likeCount: Optional[str]
+    tags: Optional[str]
+
+
+class VideoData(BaseModel):
+    video_id: str
+    metadata: VideoMetadata
+    transcript: List[TranscriptEntry]
+
+    def chunk_transcript(self, interval_seconds: int = 600) -> List[Dict]:
+        chunks = []
+        current_chunk = []
+        current_end = interval_seconds
+
+        for entry in sorted(self.transcript, key=lambda x: x.start):
+            if entry.start > current_end:
+                # Save current chunk
+                chunk_text = " ".join([e.text for e in current_chunk])
+                chunks.append({
+                    "start": current_end - interval_seconds,
+                    "end": current_end,
+                    "text": chunk_text
+                })
+                # Reset for next chunk
+                current_chunk = [entry]
+                current_end += interval_seconds
+            else:
+                current_chunk.append(entry)
+
+        # Add the final chunk
+        if current_chunk:
+            chunk_text = " ".join([e.text for e in current_chunk])
+            chunks.append({
+                "start": current_end - interval_seconds,
+                "end": current_end,
+                "text": chunk_text
+            })
+
+        return chunks
 class YoutubeFetcher:
     USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36,gzip(gfe)'
     RE_YOUTUBE = re.compile(
@@ -61,11 +115,16 @@ class YoutubeFetcher:
             # Extract transcript
             transcript = cls._get_transcript(html, video_id)
 
-            return {
-                'video_id': video_id,
-                'metadata': metadata,
-                'transcript': transcript
-            }
+            return VideoData(
+                video_id=video_id,
+                metadata=VideoMetadata(**metadata),
+                transcript=[TranscriptEntry(
+                    text=text,
+                    start=float(start),
+                    dur=float(dur)
+                    for start, dur, text in matches
+                ]
+            )
 
         except Exception as e:
             print(f"Error processing video {video_id}: {e}")
