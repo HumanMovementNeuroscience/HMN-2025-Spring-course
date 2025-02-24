@@ -12,7 +12,7 @@
 
 - [HMN25-05 - State spaces, phasic jumping, and FreeMoCap data analysis](#hmn25-05-state-spaces-phasic-jumping-and-freemocap-data-analysis)
 
-- [HMN25-06 - Scientific Posters and Rat Spinal Central Pattern Generators](#hmn25-06-scientific-posters-and-rat-spinal-central-pattern-generators)
+- [HMN25-06 - Scientific Posters and Spinal Central Pattern Generators](#hmn25-06-scientific-posters-and-spinal-central-pattern-generators)
 
 
 ---
@@ -27,7 +27,7 @@
 
 **Published**: 2025-01-15T16:12:10-08:00  
 
-**Views**: 64  
+**Views**: 66  
 
 **[Watch Video](https://youtu.be/F4FNNmuAq74)**  
 
@@ -164,7 +164,7 @@ that you know later and then when you hit Parts it's like wait why how did you g
 
 **Published**: 2025-02-03T15:39:20-08:00  
 
-**Views**: 77  
+**Views**: 79  
 
 **[Watch Video](https://youtu.be/ezeMpNFrZ4c)**  
 
@@ -230,7 +230,7 @@ cranking yeah and now how we going doing that recording data this takes a s now 
 
 **Published**: 2025-02-05T17:06:00-08:00  
 
-**Views**: 81  
+**Views**: 83  
 
 **[Watch Video](https://youtu.be/hCSj2z25rJ8)**  
 
@@ -301,7 +301,7 @@ so I do I hide you I hide you I say I do this yes and I grab I don't think we ne
 
 **Published**: 2025-02-12T08:07:43-08:00  
 
-**Views**: 44  
+**Views**: 46  
 
 **[Watch Video](https://youtu.be/BNCl8gE09rY)**  
 
@@ -362,9 +362,9 @@ th000 neurons in the visual cortex while you're displaying something or another 
 
 ---
 
-<a id="hmn25-06-scientific-posters-and-rat-spinal-central-pattern-generators"></a>
+<a id="hmn25-06-scientific-posters-and-spinal-central-pattern-generators"></a>
 
-## HMN25-06 - Scientific Posters and Rat Spinal Central Pattern Generators
+## HMN25-06 - Scientific Posters and Spinal Central Pattern Generators
 
 **Author**: Jon Matthis  
 
@@ -372,7 +372,7 @@ th000 neurons in the visual cortex while you're displaying something or another 
 
 **Published**: 2025-02-12T21:00:37-08:00  
 
-**Views**: 19  
+**Views**: 27  
 
 **[Watch Video](https://youtu.be/cCBAkRfW8j8)**  
 

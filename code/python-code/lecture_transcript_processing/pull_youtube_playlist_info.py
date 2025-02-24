@@ -1,5 +1,6 @@
 import json
 import re
+from pathlib import Path
 from urllib.parse import parse_qs, urlparse
 
 import requests
@@ -62,6 +63,13 @@ class VideoData(BaseModel):
 
         return chunks
 
+    def get_cleaned_transcript(self):
+        # Convert chunked transcript to a JSON-compatible format
+        return {
+            "video_id": self.video_id,
+            "title": self.metadata.title,
+            "transcript_chunks": self.chunk_transcript()
+        }
 
 class YoutubeFetcher:
     USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36,gzip(gfe)'
@@ -160,13 +168,11 @@ class YoutubeFetcher:
         return match.group(1) if match else None
 
 
-# --- New Markdown Generation Functions ---
+# ---  Markdown Generation Functions ---
 def format_duration(seconds: float) -> str:
     minutes, sec = divmod(seconds, 60)
     return f"{int(minutes):02d}:{int(sec):02d}"
 
-
-# ... [Keep all imports and models unchanged] ...
 
 def generate_markdown(videos: list[VideoData]) -> str:
     def slugify(text: str) -> str:
@@ -209,7 +215,6 @@ def generate_markdown(videos: list[VideoData]) -> str:
 
     return "\n".join(md)
 
-
 # --- Updated Main Function ---
 def main():
     playlist_url = 'https://youtube.com/playlist?list=PLWxH2Ov17q5HDfMBJxD_cE1lowM1cr_BV'
@@ -225,14 +230,18 @@ def main():
 
     # Sort videos by publish date (oldest first)
     videos.sort(key=lambda x: x.metadata.publish_date)
-
+    Path('lecture_transcripts').mkdir(exist_ok=True)
     # Save YAML
-    with open('playlist_data.yaml', 'w') as f:
+    with open('lecture_transcripts/lecture_playlist_data.yaml', 'w') as f:
         yaml.dump([v.model_dump() for v in videos], f, default_flow_style=False)
 
     # Save Markdown
-    with open('playlist_transcripts.md', 'w', encoding='utf-8') as f:
+    with open('lecture_transcripts/lecture_playlist_transcripts.md', 'w', encoding='utf-8') as f:
         f.write(generate_markdown(videos))
+    # Save Cleaned Transcript JSON
+    cleaned_transcripts = [v.get_cleaned_transcript() for v in videos]
+    with open('lecture_transcripts/lecture_cleaned_transcript.json', 'w', encoding='utf-8') as f:
+        json.dump(cleaned_transcripts, f, ensure_ascii=False, indent=4)
 
     print(f"Saved data for {len(videos)} videos (YAML + MD)")
 
