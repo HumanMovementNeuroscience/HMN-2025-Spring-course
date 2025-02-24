@@ -13,7 +13,13 @@ class TranscriptEntry(BaseModel):
     text: str
     start: float
     dur: float
+    end: float|None = None
 
+class CleanedTranscript(BaseModel):
+    video_id: str
+    title: str
+    transcript_chunks: list[TranscriptEntry]
+    full_transcript: str
 
 class VideoMetadata(BaseModel):
     title: str
@@ -32,7 +38,7 @@ class VideoData(BaseModel):
     metadata: VideoMetadata
     transcript: list[TranscriptEntry]
 
-    def chunk_transcript(self, interval_seconds: int = 600) -> list[dict]:
+    def chunk_transcript(self, interval_seconds: int = 600) -> list[TranscriptEntry]:
         chunks = []
         current_chunk = []
         current_end = interval_seconds
@@ -41,11 +47,12 @@ class VideoData(BaseModel):
             if entry.start > current_end:
                 # Save current chunk
                 chunk_text = " ".join([e.text for e in current_chunk])
-                chunks.append({
-                    "start": current_end - interval_seconds,
-                    "end": current_end,
-                    "text": chunk_text
-                })
+                chunks.append(TranscriptEntry(
+                    start= current_end - interval_seconds,
+                    dur= interval_seconds,
+                    end= current_end,
+                    text= chunk_text
+                ))
                 # Reset for next chunk
                 current_chunk = [entry]
                 current_end += interval_seconds
@@ -55,21 +62,23 @@ class VideoData(BaseModel):
         # Add the final chunk
         if current_chunk:
             chunk_text = " ".join([e.text for e in current_chunk])
-            chunks.append({
-                "start": current_end - interval_seconds,
-                "end": current_end,
-                "text": chunk_text
-            })
+            chunks.append(TranscriptEntry(
+                start= current_end - interval_seconds,
+                dur= interval_seconds,
+                end= current_end,
+                text= chunk_text
+            ))
 
         return chunks
 
-    def get_cleaned_transcript(self):
+    def get_cleaned_transcript(self) -> CleanedTranscript:
         # Convert chunked transcript to a JSON-compatible format
-        return {
-            "video_id": self.video_id,
-            "title": self.metadata.title,
-            "transcript_chunks": self.chunk_transcript()
-        }
+        return CleanedTranscript(
+            video_id=self.video_id,
+            title=self.metadata.title,
+            transcript_chunks=self.chunk_transcript(),
+            full_transcript=" ".join([entry.text for entry in self.transcript])
+        )
 
 class YoutubeFetcher:
     USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36,gzip(gfe)'
@@ -204,9 +213,9 @@ def generate_markdown(videos: list[VideoData]) -> str:
         # Transcript Chunks
         md.append("### Transcript Summary\n")
         for chunk in video.chunk_transcript():
-            start_time = format_duration(chunk['start'])
-            end_time = format_duration(chunk['end'])
-            text = chunk['text'].replace('&amp;#39;', "'")
+            start_time = format_duration(chunk.start)
+            end_time = format_duration(chunk.end)
+            text = chunk.text.replace('&amp;#39;', "'")
             md.append(f"#### {start_time} - {end_time}\n")
             md.append(f"{text}\n\n")
 
@@ -239,9 +248,10 @@ def main():
     with open('lecture_transcripts/lecture_playlist_transcripts.md', 'w', encoding='utf-8') as f:
         f.write(generate_markdown(videos))
     # Save Cleaned Transcript JSON
-    cleaned_transcripts = [v.get_cleaned_transcript() for v in videos]
-    with open('lecture_transcripts/lecture_cleaned_transcript.json', 'w', encoding='utf-8') as f:
-        json.dump(cleaned_transcripts, f, ensure_ascii=False, indent=4)
+    chunked_transcripts = [v.get_cleaned_transcript() for v in videos]
+    with open('lecture_transcripts/lecture_chunked_transcript.yaml', 'w', encoding='utf-8') as f:
+        yaml.dump([t.model_dump() for t in chunked_transcripts], f, default_flow_style=False)
+
 
     print(f"Saved data for {len(videos)} videos (YAML + MD)")
 
