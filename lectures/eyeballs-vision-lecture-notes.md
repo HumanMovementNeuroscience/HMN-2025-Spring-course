@@ -1,5 +1,5 @@
 -  light optic cameras
-   - ibn al haytham
+   - ibn al haytham - 7th century (modern) Iraq
    - snels law
    - pinhole camera
 - eyeball physiology
@@ -11,7 +11,7 @@
    - layers - photo receptors, middle, ganglion optic nerve
    - optic chiasm
    - lgn etc
-   - subcl cortical pathways
+   - subcortical pathways
   - eye muscles
   - VOR
   - V1
