@@ -97,7 +97,7 @@ def create_visualizations(pupil_df, filtered_df, analysis_dir):
 def main(recording_path):
     pupil_path = Path(recording_path)
     analysis_dir = pupil_path.parent / "analysis"
-
+    analysis_dir.mkdir(exist_ok=True, parents=True)
     # Process data
     raw_df, filtered_df = process_data(pupil_path)
 
@@ -115,7 +115,7 @@ def main(recording_path):
 
 if __name__ == "__main__":
     # Hardcoded default path
-    DEFAULT_RECORDING_PATH = r"C:\Users\jonma\recordings\2024_10_22\000\exports\000\pupil_positions.csv"
+    DEFAULT_RECORDING_PATH = r"C:\Users\jonma\Sync\pupil_labs_2024-10-22-001\exports\000\pupil_positions.csv"
 
     parser = argparse.ArgumentParser(description='Analyze pupil tracking data')
     parser.add_argument(
