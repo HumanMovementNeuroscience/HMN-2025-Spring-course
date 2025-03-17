@@ -256,76 +256,78 @@ class PupilRecordingViewerMain(BaseModel):
         finally:
             self.recording_handler.close()
 
-
 class CombinedPupilAnalyzer:
     def __init__(self, recording_folder: str, output_path: Optional[Path] = None):
         self.recording_folder = Path(recording_folder)
         self.output_path = output_path or self.recording_folder / "combined_analysis"
         self.output_path.mkdir(exist_ok=True)
+        self.sync_video_path = self.recording_folder / "synchronized_pupil_output_video.mp4"
 
-        # Initialize components from both systems
-        self.video_handler = PupilRecordingHandler.from_folder(recording_folder, MAX_WINDOW_SIZE)
-        self.pupil_df, _ = self._load_and_process_data()
+        # Load pupil data first
+        self.pupil_df = self._load_pupil_data()
 
-        # Video processing variables
-        self.video_frames = []
-        self.timestamps = []
+        # Initialize video handler and create synchronized video if needed
+        self._init_video_processing()
 
-    def _load_and_process_data(self):
-        """Load and align pupil data with video timestamps"""
+    def _load_pupil_data(self):
+        """Load and process pupil position data"""
         pupil_path = self.recording_folder / "exports" / "000" / "pupil_positions.csv"
         pupil_df = pd.read_csv(pupil_path)
         pupil_df = pupil_df[pupil_df["method"] != "2d c++"]
+        return pupil_df
 
-        # Align timestamps with video
-        base_time = min(self.video_handler.world_timestamps[0],
-                        self.video_handler.eye0_timestamps[0],
-                        self.video_handler.eye1_timestamps[0])
-        pupil_df["aligned_time"] = pupil_df["pupil_timestamp"] - base_time
-        return pupil_df, pupil_df
+    def _init_video_processing(self):
+        """Initialize video processing and create synchronized video if needed"""
+        if not self.sync_video_path.exists():
+            logger.info("Synchronized video not found. Creating new synchronized video...")
+            self.video_handler = PupilRecordingHandler.from_folder(str(self.recording_folder), MAX_WINDOW_SIZE)
 
-    def _generate_video_frames(self):
-        """Generate synchronized video frames with timestamps"""
-        self.video_handler.world_frame_index = 0  # Reset frame counter
-        while True:
-            try:
+            # Create synchronized video
+            while True:
                 frame = self.video_handler.create_synchronized_frame(annotate_images=True)
                 if frame is None:
                     break
-                self.video_frames.append(frame)
-                self.timestamps.append(self.video_handler.world_timestamps[self.video_handler.world_frame_index])
-            except Exception as e:
-                logger.error(f"Error generating frame: {e}")
-                break
+
+            self.video_handler.close()
+            logger.info("Finished creating synchronized video")
+        else:
+            logger.info("Using existing synchronized video")
+
+        # Reinitialize video handler for timestamp access
+        self.video_handler = PupilRecordingHandler.from_folder(str(self.recording_folder), MAX_WINDOW_SIZE)
+
+        # Align timestamps
+        base_time = min(self.video_handler.world_timestamps[0],
+                       self.video_handler.eye0_timestamps[0],
+                       self.video_handler.eye1_timestamps[0])
+        self.pupil_df["aligned_time"] = self.pupil_df["pupil_timestamp"] - base_time
+        self.timestamps = self.video_handler.world_timestamps[:self.video_handler.frame_count].tolist()
 
     def create_combined_html(self):
         """Create interactive HTML with video and synchronized plots"""
-        self._generate_video_frames()
-
         # Convert video to base64
-        video_path = self.recording_folder / "synchronized_pupil_output_video.mp4"
-        video_base64 = b64encode(video_path.read_bytes()).decode('utf-8')
+        video_base64 = b64encode(self.sync_video_path.read_bytes()).decode('utf-8')
 
         # Create Plotly figure
         fig = make_subplots(rows=2, cols=1,
-                            row_heights=[0.7, 0.3],
-                            vertical_spacing=0.05,
-                            specs=[[{"type": "scatter"}], [{"type": "scatter"}]])
+                           row_heights=[0.7, 0.3],
+                           vertical_spacing=0.05,
+                           specs=[[{"type": "scatter"}], [{"type": "scatter"}]])
 
         # Add eye movement traces
         fig.add_trace(go.Scatter(x=self.pupil_df["aligned_time"],
-                                 y=self.pupil_df["phi"],
-                                 name="Vertical (phi)"), row=2, col=1)
+                                y=self.pupil_df["phi"],
+                                name="Vertical (phi)"), row=2, col=1)
         fig.add_trace(go.Scatter(x=self.pupil_df["aligned_time"],
-                                 y=self.pupil_df["theta"],
-                                 name="Horizontal (theta)"), row=2, col=1)
+                                y=self.pupil_df["theta"],
+                                name="Horizontal (theta)"), row=2, col=1)
 
         # Add video frame markers
         frame_markers = go.Scatter(x=self.timestamps,
-                                   y=[np.max(self.pupil_df["phi"]) * 1.1] * len(self.timestamps),
-                                   mode='markers',
-                                   marker=dict(size=8, color='red'),
-                                   name="Video Frames")
+                                 y=[np.max(self.pupil_df["phi"]) * 1.1] * len(self.timestamps),
+                                 mode='markers',
+                                 marker=dict(size=8, color='red'),
+                                 name="Video Frames")
         fig.add_trace(frame_markers, row=2, col=1)
 
         # Configure layout
@@ -338,7 +340,7 @@ class CombinedPupilAnalyzer:
             yaxis2=dict(title="Eye Position (degrees)")
         )
 
-        # Create HTML template
+        # Create and save HTML file
         html_content = f"""
         <html>
             <head>
@@ -390,7 +392,7 @@ class CombinedPupilAnalyzer:
                     function updatePlots() {{
                         const currentTime = video.currentTime;
                         const nearestFrame = timestamps.reduce((prev, curr) => {{
-                            return (Math.abs(curr - currentTime) < Math.abs(prev - currentTime) ? curr : prev;
+                            return (Math.abs(curr - currentTime) < Math.abs(prev - currentTime) ? curr : prev);
                         }});
 
                         // Update plot visibility
@@ -406,8 +408,8 @@ class CombinedPupilAnalyzer:
 
         output_file = self.output_path / "combined_analysis.html"
         output_file.write_text(html_content)
+        self.video_handler.close()
         return output_file
-
 
 if __name__ == '__main__':
     PUPIL_RECORDING_PATH = Path(r'C:\Users\jonma\Sync\pupil_labs_2024-10-22-001')
