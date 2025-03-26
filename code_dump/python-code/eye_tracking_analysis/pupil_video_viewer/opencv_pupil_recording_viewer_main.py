@@ -410,11 +410,11 @@ class CombinedPupilAnalyzer:
 
 
 if __name__ == '__main__':
-    PUPIL_RECORDING_PATH = Path(r'C:\Users\jonma\Sync\pupil_labs_2024-10-22-001')
-    # try:
-    #     viewer = PupilRecordingViewerMain.create(pupil_recording_folder=str(PUPIL_RECORDING_PATH))
-    #     viewer.run()
-    # except Exception as e:
-    #     logger.error(f"Fatal error: {str(e)}", exc_info=True)
-    analyzer = CombinedPupilAnalyzer(str(PUPIL_RECORDING_PATH))
-    output_file = analyzer.create_combined_html()
+    PUPIL_RECORDING_PATH = Path(r'C:\Users\jonma\recordings\2025_03_10\001')
+    try:
+        viewer = PupilRecordingViewerMain.create(pupil_recording_folder=str(PUPIL_RECORDING_PATH))
+        viewer.run()
+    except Exception as e:
+        logger.error(f"Fatal error: {str(e)}", exc_info=True)
+    # analyzer = CombinedPupilAnalyzer(str(PUPIL_RECORDING_PATH))
+    # output_file = analyzer.create_combined_html()
