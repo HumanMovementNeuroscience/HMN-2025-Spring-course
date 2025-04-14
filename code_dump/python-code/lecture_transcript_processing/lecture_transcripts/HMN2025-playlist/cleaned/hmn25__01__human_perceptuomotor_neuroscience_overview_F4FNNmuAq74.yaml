@@ -1,0 +1,1593 @@
+full_transcript: "We're recording now. To repeat that, the proper assignment, specifically\
+  \ the poster proposal assignment, will be a one or two sentence write-up on the\
+  \ topic area that you want your poster to focus on, along with a singular citation\
+  \ of a paper that represents the research in that area. \n\nThe standard assignment\
+  \ for 22.99 is for you to pick a singular paper for the whole semester, and your\
+  \ poster will be you presenting just that paper. I think we can go a little beyond\
+  \ that if you want to, but I also think it\u2019s valid to focus on just one paper.\
+  \ However, I would like to keep us honest, so I\u2019m going to ask you to pick\
+  \ a singular paper. The bot-mediated conversation will be designed to help you with\
+  \ that. You can give it your topic, a paper you're considering, and its abstract.\
+  \ I will program the bot to ask you questions similar to what I would if I had the\
+  \ time and energy to discuss it one-on-one. \n\nBehind the scenes, when discussing\
+  \ this class, we are generally advised to help you avoid choosing a review article\
+  \ for your paper and instead focus on a proper empirical research article. When\
+  \ you search for papers on a given topic, review articles often appear at the top\
+  \ of the list, and it\u2019s not always obvious whether you\u2019re looking at a\
+  \ review, a book chapter, or an empirical study. I can direct the bot to assist\
+  \ you with that by asking about methodologies and topics, helping you parse the\
+  \ dense language typically found in abstracts or scientific papers. \n\nThere will\
+  \ also be a simple checkbox-style assignment on Canvas and a Discord server-based\
+  \ conversation space. These will be due next week, meaning 11:59 PM on Sunday before\
+  \ the following Monday. If you don\u2019t meet that deadline, there will be dire\
+  \ consequences. Not really, but we want to maintain a general cadence so that we\u2019\
+  re all on the same path. By the end of next week, I will have... I implemented features\
+  \ where the bot keeps track of a profile of your interests and tries to assist you\
+  \ in the journey you will take through this general field. But we\u2019ll see; anytime\
+  \ I make a promise about the future, just know that internally, I am screaming.\
+  \ Great. Okay, who cares? Yes, let's go ahead and get into it. I know what to do\
+  \ regarding methods, but I realized I forgot something: motion capture tracking,\
+  \ etc. I also forgot a piece of equipment that I intended to bring today, so I will\
+  \ use this instead. It seems someone doesn't know how to use great equipment. That\
+  \ works!\n\nAlrighty, so let us begin the lecture properly. It's been nice for the\
+  \ first part of this class to see you guys talking about your interests in the server,\
+  \ interacting with the bot about what you're into, and what you want to study. I\
+  \ intentionally wanted that part to happen first before I talked too much about\
+  \ my own particular map of this space. I didn\u2019t want to influence you; I wanted\
+  \ you to think about it for yourselves before I came up and did the traditional\
+  \ professor thing, which is to tell you, \"Here\u2019s what this field is, here\u2019\
+  s what this means, here\u2019s what is on-topic, and here\u2019s what is off-topic.\"\
+  \ I generally don't think that's how we should approach intellectual inquiry. In\
+  \ the next chunk of time, I will give you an overview of this domain of human knowledge.\
+  \ Centered neuroscience is mostly related to my own particular history, my own research\
+  \ background, and the studies that I've done. By the time you have lived long enough\
+  \ to develop specialties and personal experiences, you will have charted your own\
+  \ path and trajectory into the heart of some field or domain. For pretty much all\
+  \ of you, everyone who chooses to follow a route like that, you will have a unique\
+  \ path. Each person's path will be different, and the topics that are relevant to\
+  \ everyone\u2019s interests will also be different. \n\nI don't want to present\
+  \ this material as if I am saying, \"Here is everything that matters; here is everything\
+  \ that is relevant to this topic.\" I really want to keep it on a relatively personalized\
+  \ narrative, focusing on the topics that are most important for me to study human\
+  \ perceptual-motor neuroscience in the specific ways I have learned. I will discuss\
+  \ this in the context of the component pieces of my particular specialty. \n\nThe\
+  \ beauty of using AI-mediated tools in a classroom setting is that, in a traditional\
+  \ class, the professor lays out the curriculum, the structure, and the topic area,\
+  \ and then everyone is constrained to follow that structure. This is largely for\
+  \ practical reasons; it is too difficult and requires too much human labor to mediate\
+  \ and navigate the varying interests of people in a room, even one labeled under\
+  \ a specific course title. \n\nHowever, I believe with AI, limited though it may\
+  \ be, it will always do its best to make your interests relevant to the topics that\
+  \ I have mandated it should care about. So as I start going through this material,\
+  \ I encourage you to really tune into your own personal feelings of interest, to\
+  \ notice what draws you in or moves you about a particular topic or domain. If you\
+  \ want to follow the trajectories that I'm presenting, that's all well and good.\
+  \ However, even if you wanted to, it wouldn't happen that way because that's not\
+  \ how the world works. As I give this lecture, keep that in mind. My main request\
+  \ for you is to just not let your brain turn all the way off. I'm going to be talking\
+  \ fast about a lot of topics that may be relatively unfamiliar. For some of them,\
+  \ it might be the first time you've heard about it, and for others, you might have\
+  \ heard about it before. The goal is not to have you understand everything that\
+  \ I'm saying; rather, the goal is to expose you to it. \n\nAs I start talking, don't\
+  \ get too hung up on whether or not you're following everything. Just try to remember\
+  \ the words as much as you can and let it wash over you. I promise you that some\
+  \ of it will stick. When we open things back up, you can start asking questions\
+  \ about the parts that you found most interesting. \n\nWhat I have found most gratifying\
+  \ about doing this type of class is the discovery. Every time I give a lecture on\
+  \ a given topic and then tell 40 students to ask questions about the parts they\
+  \ found most interesting, I typically see 40 different conversations about 40 different\
+  \ topics. That's really a lot of fun. \n\nWith that said, let us get into it. Unfortunately,\
+  \ I intended to bring a tablet so I could draw things with colors, and I brought\
+  \ the tablet, but when I looked for the pen, I found that I had thrown a standard\
+  \ pencil in here instead. I can't even imagine what was going on when I did that,\
+  \ so we'll be doing it the old school way with just one color. But that's okay.\
+  \ \n\nSo, the topic of the course is neuroscience. The department is biology, and\
+  \ most of you, as biology majors, have internalized to some degree that biology\
+  \ and neuroscience are related to things like cells, neurons, and wet lab microscopes.\
+  \ Types of conversations and topics are super valid and important to explore. They\
+  \ are all part and parcel of a particular philosophical tradition that is fundamental\
+  \ to the way we conduct scientific research in 2025 on Earth. This tradition is\
+  \ so ingrained that we often don't even think about it, and that is the concept\
+  \ of reductionism. Reductionism is a general philosophical approach to the study\
+  \ of the natural world that tries to break things down into smaller and smaller\
+  \ pieces. This allows for more precise measurements and more detailed investigations.\
+  \ The implicit assumption is that by analyzing the component parts of the world,\
+  \ we will gain a better understanding of how everything works. There is a lot of\
+  \ validity to that approach, but there are also significant limitations. If you're\
+  \ only examining the smaller pieces in isolation, you will struggle to see what\
+  \ we call emergent properties. These properties only emerge when we observe the\
+  \ combination of parts at a larger scale than what can be contained in a test tube\
+  \ or viewed under a microscope. A classic example of emergence is traffic. Traffic\
+  \ is a property of cars on a road, but you can never understand traffic by looking\
+  \ at just one car. It is only when you observe the cars operating together in their\
+  \ natural environment that you begin to grasp the concept of traffic. The counter\
+  \ to reductionism might be termed holism, which is the scale where my research domain\
+  \ tends to operate. I do not focus on studies involving highly reduced approaches,\
+  \ such as electrophysiology, where electrodes are inserted into the brains of various\
+  \ animals, or fMRI studies where participants are placed in a tube to measure the\
+  \ magnetic resonance of their hemoglobin in their brains. Instead, my research focuses\
+  \ on humans behaving in natural environments and performing the kinds of activities\
+  \ we do in our day-to-day lives. For example, throwing objects into the air and\
+  \ catching them involves motor behavior, applying force to the object, an information-gathering\
+  \ phase, and then executing another motor command. If this command aligns with the\
+  \ world, the action succeeds; if not, the object falls. My research is centered\
+  \ on understanding these complex interactions and behaviors. That behavioral process\
+  \ in its natural context involves using the best measurements I can devise for those\
+  \ behaviors. I try to connect these measurements to the more low-level, reductionist\
+  \ fields of inquiry so that we can understand how elements like cells and neurons\
+  \ can lead to complex behaviors. I think of it as a robotics approach. I like to\
+  \ tell people that I study the part of neuroscience that overlaps with robotics;\
+  \ robotics is a field that keeps you honest in the sense that you create things\
+  \ that move around in the real world. You can't cut corners because if you do, the\
+  \ robot just stops working. The difference is that we know how robots work because\
+  \ we made them, while humans can do things we don't fully understand. This combination\u2014\
+  thinking of humans as magical meat robots\u2014allows us to study and comprehend\
+  \ them from this perspective, which can yield useful insights. The nice thing about\
+  \ this approach is the abstraction away from the biology, even though we know it\
+  \ involves cells, neurons, membrane potentials, and so forth. We think more in terms\
+  \ of the measurable aspects, which we will discuss shortly.\n\nSo, speaking of the\
+  \ natural world, let's talk about something that helps parse out that general topic,\
+  \ which is called the perception-action cycle. Let's start by drawing a brain. I'm\
+  \ trying to draw it... yes, let's do it like this. Here's how you draw a brain.\
+  \ There you go. This is a picture of your brain. That's your temporal lobe, and\
+  \ this is your eye, facing that way. There are many details not covered here, but\
+  \ this is the general shape. So here you are\u2014that's you, and your existence.\
+  \ In the world, let's do this in a different way. There you go. That's you. You're\
+  \ in the world. Here\u2019s your body; here\u2019s your eye; here\u2019s your mouth.\
+  \ And then inside of there, that\u2019s your brain, not to scale. As you are in\
+  \ the world, you have a very limited awareness of your given context, and everything\
+  \ that you know comes in through your senses and your memory.\n\nSo, let\u2019s\
+  \ think about a particular moment in time where you\u2019re sitting here. You have\
+  \ your eye, and then you see out here, there\u2019s a cat. You like cats. So, light\
+  \ from the sun bounces off the cat and goes into your eye. We will talk a lot about\
+  \ eyes; we\u2019ll discuss the lens, the retina, the fovea, and the optic nerve.\
+  \ The main thing to understand is that your eye is the place where environmental\
+  \ energy is first absorbed by your nervous system. This moment right here is a very\
+  \ special moment in your perceptual cycle, which is the moment of transduction.\
+  \ This term refers to the moment when some form of environmental energy, in this\
+  \ case, light, gets transduced and converted into neural activity in your eye. The\
+  \ light goes in, into your retina, into your fovea, which we will talk about plenty.\n\
+  \nThere\u2019s a particular class of molecules called opsin. Opsins look roughly\
+  \ like this: they are made of carbon and hydrogen, forming a hexagon with a long,\
+  \ wiggly tail. People in biochemistry are probably familiar with these shapes, except\
+  \ this is not drawn well. You have a bunch of these opsins in your eye, and there\
+  \ are basically three main ones. They are tuned \u2014 if you want to use that term\
+  \ \u2014 to different wavelengths of light. Wavelengths of light and their nature\
+  \ indicate that when a photon of light hits them, they absorb the energy of that\
+  \ photon and then change shape. I think I actually did this backward; I think they\
+  \ start out with a kink, and then when they absorb the light, they straighten out.\
+  \ However, regardless of the specifics, this absorption of a photon changes the\
+  \ electrochemical properties of the molecule, causing it to transition from being\
+  \ neutral to plus one, minus one, or whatever it is. The point is that the light\
+  \ coming from the environment, bouncing off the cat, entering your eye, changes\
+  \ the chemical layout of the opsin. This occurs in trillions and billions of instances,\
+  \ as biology tends to operate on this scale. This change alters the polarity and\
+  \ electrical state of the rods and cones in your retina, which then get accumulated\
+  \ with ganglia and various other components. This leads to a shift in the electrical\
+  \ potential in that section of your retina, which is then sent as spikes down your\
+  \ optic nerves. Neurons are the fundamental building blocks of neuroscience, and\
+  \ mostly what neurons do is spike; they send little electrical pulses to communicate\
+  \ whatever stimuli they have detected. In the context of perception and vision,\
+  \ the absorption of light into the opsin and the consequent shift in polarity and\
+  \ electrical state ultimately results in changes in the spike rate of a given ganglion\
+  \ cell as it sends its axon down the optic nerve to your occipital lobe and the\
+  \ visual cortex. We will discuss this in more detail and coherence later, but the\
+  \ key takeaway here is that the light absorbed by your eye is subsequently converted\
+  \ through this complex biochemical mechanism into a pattern of neural activity.\
+  \ Since the neural activity is triggered by the light, and because the light has\
+  \ been reflected off the object in question, there is a prevailing belief and assumption\
+  \ that the pattern of neural activity corresponds in some way to the object in the\
+  \ real world. There is some statistical correlation or relationship present in the\
+  \ pattern of neural activity. Somehow, the brain encodes information about the world\
+  \ you're looking at. The nature of that relationship is tenuous and complex, and,\
+  \ generally speaking, extremely impoverished. The actual information we're getting\
+  \ in any moment in time is far less than you think it would be. It's a lot, but\
+  \ the richness of your visual environment, for example, is very much an illusion\
+  \ based on your brain's ability to sort of cobble together a lot of noisy information\
+  \ to give you something that's accurate enough to move through the world, but often\
+  \ in a way that's almost exclusively designed after the fact.\n\nSo, that's your\
+  \ brain again. It's more like a mashup but that's fine. The light comes into your\
+  \ eye, gets absorbed by the retina, which is on the back of your eye. It sends a\
+  \ pattern of neural activity down your optic nerve, passing through some subcortical\
+  \ areas, the thalamus, and so on, which we won't talk about too much. There is some\
+  \ processing that happens in that area.\n\nThen, the information projects down to\
+  \ the occipital lobe, otherwise known as the visual cortex, which is located at\
+  \ the back of your brain. It's not super important to know where it is, but it's\
+  \ just one of those things where vision happens at the back of the brain for whatever\
+  \ reason. This is the place where the first pass of information about your visual\
+  \ environment starts to get computed. This information is mostly in the form of\
+  \ edges, dark patches, light patches, and similar attributes.\n\nOnce you get from\
+  \ V1, which is the primary visual cortex, the information goes through other stages\
+  \ of processing, leading to progressively more complex structures emerging. For\
+  \ example, you start with things like edges, and if you have enough edges, you can\
+  \ discern patches. With patches, you can perceive textures, and with textures, you\
+  \ can recognize objects. Each stage of visual processing builds on the previous\
+  \ stage, eventually leading to the ability to do things like object recognition,\
+  \ such as identifying that something out there is a cat.\n\nThere\u2019s a discussion\
+  \ to be had about the parts of that process that occur in the temporal lobe, which\
+  \ is here. This tends to be the area responsible for identifying objects, like saying,\
+  \ \"That's a desk,\" or, \"That's a computer.\" The part that we tend to care more\
+  \ about in this class is the part that goes in this direction, which tends to be\
+  \ more in tune with using that information to plan your movement out in the world.\
+  \ Something that I haven't said yet, but which is important to repeat, is that this\
+  \ is a cartoon; this is a very abstracted, simplified version of a story. If you\
+  \ wanted to tell the whole story, you would have to recount a thousand stories of\
+  \ a thousand humans in their labs recording data, gathering numbers, and making\
+  \ up their own stories in the discussion sections of their papers about what the\
+  \ different parts mean. This cartoonified story is the version that tends to make\
+  \ it into the textbooks that we communicate back to you in an attempt to make sense\
+  \ of any of it. However, it is really important that we remember this is not the\
+  \ real story; this is the cartoon, and the real story is something to which we do\
+  \ not actually have access. There is no level of class where I can simply give you\
+  \ the book that says, \"Here is what the visual cortex is actually doing.\" The\
+  \ best I could do is provide you with a record of all the empirical measurements\
+  \ that all the researchers who have investigated this topic have put together. Then,\
+  \ I can tell you the story that we have collectively decided is the best account\
+  \ of how we think this part of this lumpy pink matter inside of our skulls operates.\
+  \ But there is an essential gap between epistemology, which is our knowledge of\
+  \ things, and metaphysics, which involves what actually exists. The two concepts\
+  \ never truly touch; there will always be a difference between knowing something\
+  \ and what that thing actually is. Throughout the history of science, we have told\
+  \ many stories about what we think is going on in the world, in our bodies, and\
+  \ in our biological processes. Historically, every single one of those stories has\
+  \ been proven wrong, in some sense, over a long enough time scale. Everything we\
+  \ currently think will eventually be shown to be inaccurate in some way or another.\
+  \ We have evidence for that, given that everything we've ever believed up until\
+  \ this point has been proven wrong in some way. So, if you think there's something\
+  \ special about today that will prevent this from continuing indefinitely until\
+  \ the sun burns out, consider this: the beauty of the scientific process lies in\
+  \ our belief that, despite everything being incorrect, each successive idea is less\
+  \ wrong than the one before it. \"Wrong\" means that it allows us to make more precise\
+  \ predictions. It allows us to heal sickness better. It allows us to build machines\
+  \ that do more exciting things. Sometimes those improvements happen by completely\
+  \ throwing out philosophical base-level beliefs about how certain things work. But\
+  \ yes, it's a continuous process. We'll talk about it. \n\nSo, here we are in this\
+  \ cycle: the light has bounced off the cat, hit your eye, been absorbed, and transmitted\
+  \ back to your visual cortex. You have identified that it's a cat, and you have\
+  \ an inbuilt volition that says, \"I like to touch cats.\" Great, we support this\
+  \ for you. \n\nThis is the parietal lobe. Don't worry about the parietal lobe; it's\
+  \ great, but you can worry about it if you want. The important part\u2014this back\
+  \ here is your visual cortex. This on the side here, roughly speaking, is your motor\
+  \ cortex. Eventually, as you look at more and more pictures of the brain, you will\
+  \ see that the wrinkles and structures on the brain are not random. They are conserved\
+  \ in the same sense that while every face looks very different, they generally have\
+  \ two eyes, a nose, and a mouth in different configurations. \n\nThe wrinkly structures\
+  \ and the crevices and bumps in our brain are roughly the same. If you were to crack\
+  \ open all the brains in this room, which I don't recommend, you would find a lot\
+  \ of correspondence in where the big creases occur. I am not at the level of that\
+  \ anatomy where I can name them off the top of my head, but I do recognize them\
+  \ in pictures. It's easy to tell when someone is drawing a brain artistically versus\
+  \ when they are looking at anatomy because artists often depict it simply as a bunch\
+  \ of pink wrinkles, which is not actually how we do it. \n\nAnyways, there's a big\
+  \ one right in the middle called the central sulcus. A sulcus is like the crease\
+  \ part. On this side of that sulcus is the somatosensory cortex. Somatosensation\
+  \ is basically touch\u2014think of that type of sensation. On the other side is\
+  \ the motor cortex, the sensory cortex, and then the motor cortex.\" They tend to\
+  \ be paired, and you can look up the Huny Li when we talk about the motor cortex.\
+  \ I enjoy this distinction. There are two sides of the brain: on one side, you have\
+  \ sensation and the perception of the world, like visual aspects and sensory aspects;\
+  \ and then on the other side of the brain, we start getting into motor actions and\
+  \ movements, the outgoing parts of things. As we keep going forward, you eventually\
+  \ get to the frontal lobes. The frontal lobe is the big lumpy part in the front;\
+  \ it\u2019s considered the most human part of the brain. All mammal brains are roughly\
+  \ the same anatomically; they're just mirrored into different shapes and sizes.\
+  \ For example, rats have a much more pronounced olfactory bulb for smell versus\
+  \ their visual cortex. The human brain has a lot of extra anatomy in that frontal\
+  \ lobe area. This is thought to be where decision making comes from, where language\
+  \ kind of lives, and is often referenced in discussions about executive function,\
+  \ the feeling of deciding what you want to do. This is also where metacognition\
+  \ happens, so if you're having thoughts about your thoughts, like \u201COh yeah,\
+  \ I\u2019m angry right now,\u201D that\u2019s a frontal lobe area. I'm reiterating\
+  \ the point that every time I point to a part of the brain and say, \u201CThis is\
+  \ the part that does this thing,\u201D a part of me is screaming inside because\
+  \ none of this is how any of it really works. That\u2019s the cartoon; the real\
+  \ world is much more complex and noisier than that. But if I say, \u201CThis is\
+  \ where executive function happens,\u201D and point at the front of the brain, and\
+  \ then say, \u201CThis is where vision happens,\u201D and point at the back of the\
+  \ brain, that statement is more true than if I switch those two things around. It\u2019\
+  s important to reiterate that, even though I am telling you these simplified stories\u2014\
+  these textbook-level conversations about how the brain works\u2014if we come back\
+  \ to this class in 250 years, we're going to be saying very different things, but\
+  \ we\u2019ll probably still agree that vision happens in the back and cognition\
+  \ happens in the front. Anyway, from this frontal lobe, you get the frontal area\
+  \ for executive functions, then you get your premotor area, and somewhere around\
+  \ here is where volition arises. Volition is in the same realm as voluntary actions;\
+  \ it\u2019s about the things you want to do. For instance, you see the cat and say,\
+  \ \u201CI want to touch the cat.\u201D Is the cat. Look at me; I'm touching it,\
+  \ and this is what I want to happen. Now you are in this state where here\u2019\
+  s your body, here\u2019s your hand, and here\u2019s this cat. There's this desire\
+  \ that I wish my hand was on this cat. Now there's a gap between how the world is,\
+  \ according to your perception, and how you wish the world would be, which is that\
+  \ your hand is touching this object. Those volitions meld with the perceptual experience,\
+  \ and from this alchemy emerges something resembling a motor plan. I\u2019m trying\
+  \ to refrain from going into details because we will have a whole lecture about\
+  \ the eye and another lecture about the motor cortex to discuss this in more detail.\
+  \ For now, I\u2019m just giving an overview. This is where we first start to see\
+  \ something resembling a motor plan. Many of you have been discussing concepts like\
+  \ muscle memory in the chats. Muscle memory is a term we commonly use; it\u2019\
+  s a standard human expression. However, physiologically, muscle memory doesn\u2019\
+  t truly exist. Your muscles don\u2019t have memory; they are much simpler objects,\
+  \ which we will also discuss. Usually, when you mention muscle memory, you are referring\
+  \ to a motor plan. As you work on something more and gain expertise and experience,\
+  \ what we tend to call muscle memory is actually the motor plans becoming more robust\
+  \ and more locked in. Typically, much of that motor planning takes place not necessarily\
+  \ in the motor cortex but in subcortical regions. If you think about a picture of\
+  \ the brain, the pink wrinkly structure in your skull is your cortex, specifically\
+  \ the neocortex, which is the part where most processing happens. We will talk a\
+  \ little about what processing means in this context, but I like to describe it\
+  \ as the bloom of the rose on the rose bush when discussing the nervous system.\
+  \ When you're looking at a rose bush, it makes a lot of sense that we tend to focus\
+  \ on the rose, like the red thing with petals that smells nice. We spend a lot of\
+  \ our time focusing on that part of the plant for very good reason. However, if\
+  \ you really take a step back and look at it from a botany point of view, it's mostly\
+  \ bush and just a little bit of rose. I think that's kind of the same with the way\
+  \ our cortex works. The majority of our central nervous system is not in that cortex;\
+  \ it's in the subcortical regions. Among my favorite of those subcortical regions\
+  \ is the cerebellum, which sort of sits at this fist-shaped area right below your\
+  \ cortex. When you look up pictures of the brain online, you'll see the big pink\
+  \ wrinkly thing along with this more dense, grayish-looking structure underneath\
+  \ it. That's your cerebellum. Your cerebellum is a very complicated beast; it contains\
+  \ about 3.5 times as many neurons as the rest of your central nervous system combined.\
+  \ That number is strangely conserved across different animals, particularly mammals.\
+  \ We all have a cortex and a cerebellum, but we have very different brain-to-body\
+  \ ratios and different proportions. However, in general, whatever the size of your\
+  \ brain and whatever animal you are, your cerebellum has three and a half times\
+  \ as many neurons as the rest of your cortex. I always come back to that; it seems\
+  \ interesting that you find this number in nature that's conserved across a bunch\
+  \ of different species. I wish I knew more about it. One part of the reason why\
+  \ the cerebellum has so many more neurons by count is that the neurons associated\
+  \ with it are tiny. You have granule cells and you have Purkinje cells. Let's look\
+  \ up pictures because Purkinje cells in your cerebellum are one of the more beautiful\
+  \ parts of your brain. You have the cell body, the axon, and then there are thousands\
+  \ upon thousands of synapses. This picture is famous; it was actually taken by...\
+  \ Pinji, the guy who created\u2014oh, sorry, Kahal\u2014says right there, Ramon\
+  \ Kahal, who was part of the group that came up with the staining mechanisms that\
+  \ allowed us to start looking at neurons in their isolation. This happened around\
+  \ 1909. Before that, we didn't really know what neurons were; we didn't know if\
+  \ they were just one big mass or if they were individualized pieces. There was a\
+  \ big scientific and philosophical debate about whether the brain is one big connected\
+  \ piece or whether the neurons touch or are separated from each other. Ramon Kahal\
+  \ argued in favor of the synapse doctrine, which said that there was a gap between\
+  \ them. I think it was Golgi who argued in favor of the idea that everything is\
+  \ touching. Golgi developed a silver nitrate staining process that allowed them\
+  \ to make images like this of looking at cells. Ironically, by creating that staining\
+  \ process, he proved Kahal's side of the argument correct\u2014that neurons tend\
+  \ not to touch. They both received a Nobel Prize, but apparently, they had such\
+  \ bad blood between them that they spent their entire acceptance speeches bashing\
+  \ each other.\n\nSo, your cerebellum consists of Purkinje cells and then granule\
+  \ cells, which, in comparison, look more like this. They are small and do not have\
+  \ these super long fibers that extend very long distances; they are much more localized,\
+  \ connecting only to their immediate neighbors. The majority of neurons in your\
+  \ nervous system are these granule cells that reside in your cerebellum. Your cerebellum\
+  \ is layered, like most parts of your brain, with layers that tend to operate phylogenetically.\
+  \ The newest stuff is on the outside, while the older stuff is on the inside. The\
+  \ cerebellum has that structure as well. We may talk about it, but I'm not sure\u2014\
+  \ we'll see. It's one of those things where if enough people ask about it, I might\
+  \ steer the lectures based on the class's interest. But anyway, we're talking about\
+  \ cats. So, when light hits the cat, it hits your eye, is absorbed in your retina,\
+  \ tweaks your opsins, and triggers a neural... Cascade vibrated your visual cortex\
+  \ and gave you the perception of a cat. Your volitional desire to touch the cat,\
+  \ combined with the knowledge that there is a cat in front of you, started creating\
+  \ a motor plan. This is where the process becomes quite complex, as there is a lot\
+  \ of controversy surrounding the different steps involved. Long story short, something\
+  \ in the combination of your motor cortex and your cerebellum, which is largely\
+  \ concerned with movement, plays a significant role. The cerebellum is thought to\
+  \ be related to tool use, which is a capability that humans possess; we can pick\
+  \ up an object and quickly learn the physics of it, utilizing it as a tool with\
+  \ specific characteristics. This ability is often considered a feature of the neocortex,\
+  \ which is the new part of the brain that is complicated and has a hierarchical\
+  \ nature to the motor system. At the higher levels, particularly in the frontal\
+  \ lobe, the plans become much more abstract. These include thoughts like \"I'm thirsty\"\
+  \ or \"I wish I was drinking water right now.\" In order for that high-level volition\
+  \ to result in actions that lead to achieving my goal, there must be a narrowing\
+  \ down of specificity from that high-level volition to commands that will ultimately\
+  \ boil down to muscle firings to move my body through space. So, when I say, \"\
+  Oh, I wish I had water,\" I see that there is water over there, and somehow that\
+  \ volition is converted into motor commands that move my legs. This positions my\
+  \ body so that I can move my arm; I understand how this object works, so I open\
+  \ it and I get to drink water. This process typically moves from the motor cortex,\
+  \ then to the cerebellum, which has connections to the brain stem. These connections\
+  \ can be quite intricate as they are wrapped around each other. The brain stem,\
+  \ including the medulla oblongata and pons, is often referred to as the part of\
+  \ the brain that regulates the so-called reptilian brain. This area handles essential\
+  \ functions such as heart rate, breathing, and regulating body temperature, which\
+  \ are managed at the level of the brain stem. The brain stem is also the beginning\
+  \ of the spinal cord. Friend, there we go. There you go, perfect. Nice, still. Good\
+  \ job. Your spinal cord is a part of your central nervous system. Oftentimes, when\
+  \ we think about the spinal cord, it's given a bad reputation. Even when we look\
+  \ at pictures of the central nervous system, you'll often see images that stop at\
+  \ a certain point, focusing on the brain. The cerebellum often gets included, but\
+  \ we typically cut off where the spine is. However, your spine is just as much a\
+  \ part of your nervous system as the rest of it. \n\nThe way we're going to define\
+  \ the central nervous system, as opposed to the peripheral nervous system, is loosely\
+  \ by saying that the central nervous system is where processing happens. Processing\
+  \ is a somewhat vague term, but it essentially means that information comes in,\
+  \ undergoes some sort of transformation\u2014 which we might call computation if\
+  \ we wanted to use a computer analogy\u2014and then information goes out. The spine\
+  \ is involved in that kind of processing at various levels, which we will discuss\
+  \ further. \n\nIt's fascinating to note that there are stories we will discuss later\
+  \ in the semester about studies that we can't perform anymore on cats. In these\
+  \ studies, you could sever the spine, cutting it off from the upper part of the\
+  \ brain, and the cat could still walk. This is because the spine contains the gray\
+  \ matter that handles functions like central pattern generation and reflex responses.\
+  \ A central pattern generator is responsible for the basic rhythmic movement of\
+  \ the legs, determining when one foot is in stance and the other is in swing, and\
+  \ then coordinating the two. Much of that processing happens within the spine itself.\
+  \ Your spinal cord actually ends just below your thoracic spine, around this area.\
+  \ I know, right? The stuff below that is what's called the cauda equina, which is\
+  \ where it does become more extension-like, and you start to lose the gray matter\
+  \ and get more peripheral nerves that go out to your limbs. I want to emphasize\
+  \ that distinction between the central nervous system and the peripheral nervous\
+  \ system. This is often stated as a hard delineation, but there is a lot of gray\
+  \ area. One of the most classic gray areas is the retina. The retina has many neurons\
+  \ on its back, and there are layers to it. It is often described as the eye, which\
+  \ is the classical sensory organ. However, there is a lot happening on the back\
+  \ of the retina before anything even leaves via the optic nerve to the brain, which\
+  \ could really be considered computation. Similarly, your skin has many connections\
+  \ that might also be doing what we might consider computation. For instance, when\
+  \ you get hurt and you rub the area, it doesn\u2019t hurt as much. This is because\
+  \ the activity of activating sensory organs around the damaged area suppresses the\
+  \ pain coming from that area, and that is all happening at the level of your skin.\
+  \ Again, these names and terms are not how nature is designed; it's not divided\
+  \ into pieces with departments and names. That is something humans created to make\
+  \ sense of nature. However, anytime we put a name or a label or category into nature,\
+  \ we make concessions and draw lines around areas. This allows us to have better\
+  \ conversations about those topics, but there will always be gray areas. Often,\
+  \ it is those gray areas or cracks that lead us to abandon certain thoughts and\
+  \ move toward others. Speaking of the peripheral nervous system, this is your arm.\
+  \ These are your bones, and your bones are mostly what you are, particularly when\
+  \ thinking about it in terms of the space that you inhabit. The shape that you are,\
+  \ your general ability to move through the world, is mostly determined by bones.\
+  \ The additional details, or the \"goop,\" that's associated with that are secondary.\
+  \ The overall cookie-cutter shape of you as a creature is driven by these strange\
+  \ sticks, and these sticks have odd attachments known as muscles. Eventually, when\
+  \ considering the more holistic picture of the world and how you live in it, you\
+  \ encounter a reductionist approach. If you're in a lab, living a reductionist life\
+  \ and choosing a specific domain of inquiry, you simplify and exclude any extraneous\
+  \ factors that may obstruct your focus on that particular topic. This allows you\
+  \ to remove all the parts of the question that you don't want to address. For instance,\
+  \ as a neuroscientist, you might take a mouse, rat, or fruit fly into the lab and\
+  \ eliminate all the elements that aren't relevant to neuroscience, enabling you\
+  \ to concentrate on the neurons that matter to you.\n\nHowever, when you're not\
+  \ restricted by that capacity and want to think more generally, you lose that luxury.\
+  \ If you aim to comprehend how humans move through the world, even if your main\
+  \ concern is the neural or perceptual aspects, you are still compelled by the nature\
+  \ of reality to consider elements like bones and muscles. This is necessary even\
+  \ if those objects aren't primarily neural because the neural activity ultimately\
+  \ needs to be transmitted into something that facilitates bodily movement through\
+  \ the world. This leads us to the conversation about robotics, where neural activity,\
+  \ originally transformed into sensory experiences, like vision, must now be converted\
+  \ into environmental energy\u2014specifically mechanical energy. This transformation\
+  \ means that when my muscles are activated, my arm moves as a result of this energy\
+  \ input. There is literal energy in this movement, specifically in the form of kinetic\
+  \ energy; for example, if I'm pulling on a spring, it may involve mechanical energy\
+  \ as well. Potential energy, kinetic energy, and spring energy are the things we\
+  \ derive from our muscles. The whole perception-action cycle involves the conversion\
+  \ of environmental energy into perceptual neural activity, which then translates\
+  \ back into a motor action. Muscles are peculiar objects; a muscle is effectively\
+  \ a variable stiffness spring. That's essentially what a muscle is. Muscles can\
+  \ only pull; they cannot push. When it looks like I'm pushing, it's because this\
+  \ muscle is pulling on the tip of that bone, allowing my arm to extend. If I want\
+  \ to squeeze, I send a motor command down the nerve to activate the motor unit,\
+  \ which tells the surrounding muscle tissue to contract. What was originally a fairly\
+  \ wiggly, soft spring gets electrified and transforms into a stiff spring that pulls\
+  \ this joint. Muscles operate in pairs: there\u2019s a flexion muscle group and\
+  \ an extension muscle group. Those two groups work together to move a degree of\
+  \ freedom. The motor plan originates from the motor cortex and passes through the\
+  \ cerebellum. For more complex animals, like humans, it goes through the corticospinal\
+  \ tract, which connects the motor cortex directly to the spine, bypassing structures\
+  \ like the cerebellum. All animals have a corticospinal tract, but it does not exist\
+  \ to the same degree across species, which is an interesting distinction in the\
+  \ animal kingdom. I often use this question to test AI models to see how they perform\
+  \ in neuroscience. I ask about the corticospinal tract and its variations across\
+  \ the animal kingdom, as this topic can become quite subtle. I observe how well\
+  \ models handle those nuances. While I've discussed how motor cortex commands travel\
+  \ through the cerebellum and brainstem, it\u2019s essential to remember the corticospinal\
+  \ tract. Whenever you see a lengthy word with an 'o' in the middle, you can replace\
+  \ the 'o' with a slash: corticospinal becomes C/cortex S/L. The spinal system goes\
+  \ straight from the cortex down to the spine, bypassing all the subcortical regions.\
+  \ This allows us to control our individual degrees of freedom of our body directly,\
+  \ as opposed to doing things in a more synergistic way, which is much deeper than\
+  \ I want to discuss in this particular lecture. \n\nSo here I am; I'm so close,\
+  \ almost ready to touch this cat. My motor plan, which comes down from on high through\
+  \ the hierarchical structure of our motor system, has taken my awareness of the\
+  \ world and my own body. Vision provides me information about remote parts of the\
+  \ world\u2014things I cannot touch, things that are outside of my peripersonal space.\
+  \ The peripersonal space is the area I can touch with my hands; outside of that\
+  \ is a different part of the world that\u2019s happening in the parietal lobe. \n\
+  \nOne of my favorite studies involves a monkey that was trained to grab things on\
+  \ a desk. They gave it a temporary lesion by squirting something into the part of\
+  \ the brain that handles peripersonal perception, which caused that part of the\
+  \ brain to go offline. This resulted in what is called cortical blindness, meaning\
+  \ the monkey lost its ability to see things in its peripersonal zone. Then, they\
+  \ trained the monkey to use a grabber arm\u2014like a little claw arm\u2014so its\
+  \ reach extended farther because it could now use this arm. After training, once\
+  \ that peripersonal zone was re-established, the blind spot increased to include\
+  \ the region that could be reached with the grabber arm, in addition to the hand.\
+  \ \n\nConsider that in your worldview and see how it fits. So, here I am; I see\
+  \ this cat, and I have this awareness of my body. A lot of this can be associated\
+  \ with proprioception. As my arm extends, it exerts force on my joints because of\
+  \ its weight. My body can encode this information and is aware of those forces,\
+  \ enabling me to know where my arm is. I can also see my arm, and I have a memory\
+  \ of lifting it up. There are many ways that we know where our bodies are. I know\
+  \ my arm is here, and if I can make this part move that way, then I will have achieved\
+  \ my deepest desire of touching this cat. There\u2019s a lot of complicated stuff\
+  \ about how we don't move our body one joint at a time; we move it in a sort of\
+  \ barely sophisticated dance. A lot of the breakdown and how we choose to break\
+  \ down a complex movement across the available joints happens in the context of\
+  \ the world, which is a cerebellum thing. But let's pretend like it's not. I relax\
+  \ the flexor and tighten the extensor, which puts a torque on this bone and moves\
+  \ my hand here. Now I have the reward of cat sensations under my hand, and I have\
+  \ achieved this goal of mine. That's the loop; that's one path through the perception-action\
+  \ loop. The information has gone in, been processed, and now that I have moved my\
+  \ body, I have changed the state of the world\u2014my body is now in the world.\
+  \ As I perceive the situation as it stands, I'm perceiving something different,\
+  \ and now I'm going to go back through that loop. You perceive, you act, and then\
+  \ you take in the information, and that loop tends to be where you live your whole\
+  \ life. This is kind of the cartoon overview of the story as it holds. I will name\
+  \ some of the fields associated with the things we've talked about. Generally speaking,\
+  \ when we talk about the physiology of the eyeball, it tends to be called optology.\
+  \ But that's more about the lens, pupil, and the goopy parts. When we discuss the\
+  \ neural activity aspect of it, we tend to call that visual neuroscience or perceptual\
+  \ neuroscience. Because humans are such vision-heavy animals, when you hear perceptual,\
+  \ we often mean visual. But strictly speaking, anything sensory is perceptual. When\
+  \ we start talking about the parts of neuroscience that are moving your body, we\
+  \ tend to call that motor neuroscience. You will often hear people talk about perceptual\
+  \ motor neuroscience, which again, perceptual and motor are connected in a way that\
+  \ highlights the reality that these two parts are interlinked. Perception in action\
+  \ and perception in motor control are intimately linked. I should mention that in\
+  \ your peripheral nervous system, you have peripheral neurons that come in two types:\
+  \ perceptual and motor. This distinction is defined by the direction in which information\
+  \ is flowing. A motor command goes out from your central nervous system toward your\
+  \ periphery, carrying a motor command. This neuron is connected to a motor unit\
+  \ in my muscle, and if it gets activated by one of these higher-level structures,\
+  \ it will receive spikes telling it to fire, contracting the muscle. Once I touch\
+  \ the object, the neurons connected to the sensory organs in my hand start firing\
+  \ differently and send information back down the peripheral sensory nerves. So,\
+  \ in your periphery, the outward signals are from your motor neurons, while inward\
+  \ signals are from your sensory neurons; that's the main distinction. \n\nNow, why\
+  \ are we not fully aware? This is one of the most troubling realities of being alive.\
+  \ It also contributes to the existential crises that classes like this tend to provoke.\
+  \ Have fun with that! We have a very thin awareness of what is happening under the\
+  \ hood in our bodies. We possess some awareness and have conscious experiences like,\
+  \ \"I'm going to reach out and grab this thing\" or \"This feels cool in my hand\"\
+  \ or \"This feels hard in my hand.\" However, the more you learn about neuroscience\
+  \ and what's going on beneath the surface, the more you realize that the conscious\
+  \ personal experience of having a motor experience is just a thin layer on top of\
+  \ the complex processes that are truly happening. Unfortunately, that is the situation.\
+  \ that we are in. I remember one time I was in grad school, and we were in a parking\
+  \ lot with my friends in winter, waiting to go on a hike or something like that.\
+  \ For some reason, this really stuck with me. There was a puddle of dirty water\
+  \ in the middle of the parking lot that had this really beautiful oil sheen on top\
+  \ of it. It had these fractal iridescent colors. By the nature of oil, it's only\
+  \ one molecule thick, which creates this very beautiful, vibrant, colorful shape\
+  \ on top of cold, dark, murky water. I think about that a lot when I think about\
+  \ the nervous system because it feels like that is kind of our experience of living\
+  \ in a body. We have this experience that is sort of riding on top of this really\
+  \ deep and complex biological neural system. That conscious sheen is related to\
+  \ the depths of what's going on there, but we don't really tend to have access to\
+  \ it. I can't feel my stomach deciding when it wants to squirt out more enzymes\
+  \ to digest my food, and I can't tell the difference between various things happening.\
+  \ It's just not really available to me. Once you start learning about the bits and\
+  \ pieces, you can begin mapping your conscious experiences to the things I will\
+  \ be telling you that may be happening under the hood. One example that comes to\
+  \ mind is a known phenomenon: when a person starts lifting weights for the first\
+  \ time, if you've never been a weightlifting person, there is a thing that happens\
+  \ where you can very quickly increase the amount of weight you can lift in a short\
+  \ amount of time. This is because your body is learning how to fire all of your\
+  \ motor units at once, which is not something you generally do in your daily life.\
+  \ You have to learn how to exert maximal effort, and that is something that happens\
+  \ at the level of recruiting motor units. So, when you now go to the gym and start\
+  \ having that experience, you might feel, \"Oh yeah, I'm getting super strong.\"\
+  \ You can map that experience onto the motor unit function I just described, but\
+  \ that mapping exists in this weird cognitive space. It's not at the level of deep\
+  \ awareness. You then have to ask, what would that even look like if it was? Over\
+  \ time, when you're lifting weights, why do you hit a plateau? Eventually, you are\
+  \ recruiting all of your motor units, and then you simply don't have enough muscle\
+  \ to produce the force. That's the explanation for that beginner spike in performance.\
+  \ You are not actually growing muscle mass in that period of time; you are just\
+  \ learning how to use all the muscles that you have. Then you hit that plateau,\
+  \ and it's like, okay, well now I am firing 100% of my muscle abilities, but my\
+  \ muscles aren't strong enough to actually move my body. A lot of those plateaus\
+  \ in performance can be tied back to physiological structures that change. The time\
+  \ courses of improvement happen, you know, like growing more muscle takes time,\
+  \ whereas learning how to fire motor units also takes time but not in the same way.\n\
+  \nSo, there is a lot of depth in that area. That area I was just speaking of is\
+  \ often referred to as neuromechanics. Neuromechanics is a relatively newly named\
+  \ field. I would be curious to see if it is in that mesh terminology thing we learned\
+  \ about last time. Neuromechanics, or neural mechanics, lies at the boundary of\
+  \ neural activity and physics\u2014mechanics. For example, firing a motor unit to\
+  \ create a spring force that moves the limb is a neuromechanical question. Then,\
+  \ how that connects to the spinal Central Pattern Generators\u2014this is where\
+  \ it starts to get murky. Is that still neuromechanics? These are unclear areas.\n\
+  \nOn the other side of neuromechanics, you have biomechanics. Biomechanics is literally\
+  \ Newton's Laws as they apply to biological systems, and we will be talking about\
+  \ that to some level of specificity in the not-too-distant future. Let me finish\
+  \ this up, and then we will discuss that.\n\nBiomechanics is related to the physics\
+  \ of moving your body. We will particularly talk about descriptions of the body\
+  \ that essentially remove any conception of biology from them, thinking about the\
+  \ human as an object that weighs a lot and is balanced on a pretty narrow platform.\
+  \ This is sort of a center of mass and base of support level of description of the\
+  \ human body, which we will talk about in some detail pretty soon. Another thing\
+  \ I haven\u2019t mentioned, but we will discuss, is evolution because all of these\
+  \ systems are evolved systems. developed over billions of years to the form that\
+  \ they currently are. In the same sense, you can describe the system as it stands\
+  \ right now, but you're always going to be missing some of the story if you don't\
+  \ think about it in the context of how it emerged. I haven't quite figured out a\
+  \ lot of the things I'm talking about; these are the topics that will go into the\
+  \ numbered lectures once I determine how I want to organize them. I'm going to be\
+  \ extracting a lot of information from your conversations to figure out how to steer\
+  \ those lectures. There are some key points that I will address no matter what you\
+  \ want to do, and evolution is going to be one of those topics. Specifically for\
+  \ us, I'm going to talk a little about the evolution of your eye, but a lot of my\
+  \ particular interest lies in the evolution of your skeleton\u2014why our skeletons\
+  \ have the peculiar shape that they do, and how we developed from our origins as\
+  \ fish that turned into lizards, that turned into squirrels, that turned into monkeys,\
+  \ that turned into apes, and finally into us. This evolutionary process matters\
+  \ a lot. The evolution of our eye is another fascinating story. Our retina is backwards\
+  \ in some interesting ways; it is not oriented in the direction you would expect.\
+  \ You would think that the light-sensing aspects would face towards the light, but\
+  \ they are actually backwards, facing inward. They must bounce through, and this\
+  \ is believed to be related to when we crawled out of the ocean and our eyes kind\
+  \ of inverted to allow the same kind of refraction to happen. We did not discuss\
+  \ eye movements in this particular story, but we will talk about them in detail.\
+  \ We humans have very mobile eyes, which is a cornerstone aspect of our visual system\u2014\
+  our eyes move a lot. This is part of the motor system, which allows us to move any\
+  \ part of our body, including the eyes, and that specific area is called oculomotor\
+  \ control. Oculomotor refers to eye movements, and it overlaps significantly with\
+  \ visual perception and perceptual neuroscience, because as we move our eyes, the\
+  \ information on the retina changes. We have to make decisions about where to move\
+  \ our eyes in the same way that we decide where to move our arms. You can live a\
+  \ whole happy life and never really think about your eye movements, but once you\
+  \ start thinking about them, you'll realize that it's a significant observation.\
+  \ To me, it feels a lot like breathing, where usually your breathing is something\
+  \ that just happens on its own, but you can control it to some extent. I can hold\
+  \ my breath, I can take a breath; I have volitional control over my breathing in\
+  \ a way that I don't over my heart. Our eye movements are kind of like that as well.\
+  \ I can choose to look in one direction or another, and I can choose not to look\
+  \ at something, but for the most part, for 99.9% of my waking life, my eyes are\
+  \ just doing what they do, driven by a combination of available visual information\
+  \ and my desires. Sometimes, if I throw something in the air, I will look at it\
+  \ and then catch it; a lot of that process is happening just below the level of\
+  \ conscious awareness. \n\nI think this is a nice segue into what we\u2019re going\
+  \ to talk about for the last ten minutes, which is methods and methodologies. \"\
+  Methods\" is just the term we use for how, in God's name, we are going to study\
+  \ any of this. Generally speaking, when we talk about methods, we're discussing\
+  \ equipment and ways that we can make empirical measurements of the world that will\
+  \ give us information about parts of the world from which we might glean some insight.\
+  \ These deeper, weirder aspects of our investigation can be referred to as desirata.\
+  \ Desiderata means that which is desired and is a sort of philosophy of science\
+  \ term about what you are trying to figure out. You came into this room as a scientist\
+  \ because there is something you want to know more about\u2014there's some part\
+  \ of the world you want to gain insight into. What is that thing, and how can you\
+  \ study it given all the limitations, constraints, and difficulties of how the world\
+  \ is?\n\nFor me, in my domain of inquiry, I use two primary research tools: motion\
+  \ capture, which is the thing you see in behind-the-scenes footage in movies and\
+  \ video games, where individuals wear suits with dots. That's motion capture, and\
+  \ it's basically related to recording the movements of the body in space. I will\
+  \ be at one of the lab sections, and I will be bringing in some cameras to do a\
+  \ FreeO Cap recording. This is the open-source software that I have been building,\
+  \ which is designed to help record the body with a high degree of fidelity. It captures\
+  \ the specific three-dimensional configuration of the body at any given moment in\
+  \ time. I would love to study all the brain activity of the pinging cells in the\
+  \ cerebellum, but that is not available to me in this year of Our Lord 2025. I can't\
+  \ actually obtain that measurement, and the methods I could use, even if we could\
+  \ get that from something like fMRI\u2014 which is the tube that produces colorful\
+  \ images of the brain\u2014 do not allow me to have a person out in the world throwing\
+  \ and catching and performing other activities simultaneously. Therefore, we use\
+  \ motion capture as a methodology to record the 3D configuration of the body over\
+  \ time. Then, we analyze those movements to infer that if the arm did this, and\
+  \ gravity is acting a certain way, then the muscles must have performed specific\
+  \ actions to generate that movement. We essentially backtrack: if the muscles did\
+  \ this, then the spine must have done that. This process allows us to utilize observable\
+  \ aspects of reality, such as the location of the arm, and measure it to the level\
+  \ of fidelity possible with current technology. We then use these empirical measurements\
+  \ to infer complex functions of various parts of the brain. Another technology I\
+  \ frequently employ is eye tracking, which is always a crowd favorite. There are\
+  \ different tools available, but mainly, we use video-based eye trackers, which\
+  \ are essentially small cameras focused on the eyes. Humans have highly mobile eyes,\
+  \ which provide intriguing insights into what my brain seeks to learn at any given\
+  \ moment. For example, if you give me a task like walking over rough terrain or\
+  \ juggling, you can observe the movements of my eyes and deduce the visual information\
+  \ available to me at that moment by creating a 3D model. If my eye moved this way,\
+  \ and the object was over there, you can ascertain whether I could see it or not\
+  \ at that time. Periphery. Then I chose to make a movement that would align my eye.\
+  \ Now it's in my phobia. You can use a camera pointed at the eye to tell the information\
+  \ that was being transmitted into my visual cortex, sort of going down that way.\
+  \ This gives you the information that I had available, and more importantly, the\
+  \ place that my eyes move to indicates where my central nervous system decided it\
+  \ wanted more information from this part of the world. Because those eye movements\
+  \ tend to happen really fast\u2014around 150 milliseconds per eye movement\u2014\
+  if you're doing a difficult task, this occurs well below the level of conscious\
+  \ awareness. We can tell stories about what we were doing after the fact, but in\
+  \ the moment, the eyes just kind of go where they need to go. I can tell both what\
+  \ information was available to this weird magical meat robot at any moment in time\
+  \ and the decisions that were made about where to move my eyes\u2014this way and\
+  \ not that way\u2014based on where my central nervous system desired more information\
+  \ from in the world at any moment. By combining these aspects of measuring perceptual\
+  \ input in the form of eye tracking and motor output in the form of motion capture,\
+  \ this is my general approach to scientific research. I try to merge these two methodologies\
+  \ to create a picture of what a given human is doing in the world as they perform\
+  \ complex actions. I then use that data that pours out of those machines to gain\
+  \ insights into these processes. Often, in my case, this type of research provides\
+  \ ecologically valid data\u2014realistic data of real people doing real tasks. However,\
+  \ the fidelity is limited; the accuracy and precision of the information that I\
+  \ can provide with these methods are far more restricted compared to someone in\
+  \ a lab who is analyzing individual neurons and engaging in reductionist work to\
+  \ obtain very precise numbers. The sociology of science involves people like me,\
+  \ who do broad-scope research, collaborating with those who focus on careful reduction\
+  \ of data. Ideally, we work together to tell more complete stories and provide more\
+  \ satisfying narratives about what is happening for humans to new generations of\
+  \ undergraduates every couple of years. Okay, is all of that covered? No more questions?\
+  \ Neuroscience nailed it. Great! Well, actually, that's it. We do have three more\
+  \ minutes. Does anyone have any questions or any emotional outbursts, existential\
+  \ crises, or things you wish I had said more about? No one seems to be saying anything\
+  \ in this moment in class. I appreciate\u2014oh, you do like the opson thing? Yeah,\
+  \ opson is the term. Opsin reminded me of\u2014yeah, it's the same. I mean, plants\
+  \ don't really have the motor aspect, but that's for the biochemistry people. I\
+  \ think opson is the part that has more depth. It's a class of chemicals, so you\
+  \ can look at that. \n\nGreat, thank you for showing up. Keep an eye on the Discord\
+  \ server and Canvas. I'll make an announcement about the actual assignments going\
+  \ on. And, yeah, see you on\u2014oh, not an assignment this Sunday. What's that?\
+  \ So, no assignment this Sunday? No, not this Sunday. And then I guess Monday is\
+  \ a holiday, so I'll see you in a week. \n\nYeah, someone here told me that. Was\
+  \ it you? Somebody told me there was a holiday. Yeah, thank you, I appreciate that.\
+  \ I probably would have figured it out, but I didn't have either one of them. I\
+  \ think it was just those two. Yeah, exactly. H."
+title: HMN25 - 01 - Human Perceptuomotor Neuroscience Overview
+transcript_chunks:
+- dur: 180.0
+  end: 180.0
+  start: 0.0
+  text: "We're recording now. To repeat that, the proper assignment, specifically\
+    \ the poster proposal assignment, will be a one or two sentence write-up on the\
+    \ topic area that you want your poster to focus on, along with a singular citation\
+    \ of a paper that represents the research in that area. \n\nThe standard assignment\
+    \ for 22.99 is for you to pick a singular paper for the whole semester, and your\
+    \ poster will be you presenting just that paper. I think we can go a little beyond\
+    \ that if you want to, but I also think it\u2019s valid to focus on just one paper.\
+    \ However, I would like to keep us honest, so I\u2019m going to ask you to pick\
+    \ a singular paper. The bot-mediated conversation will be designed to help you\
+    \ with that. You can give it your topic, a paper you're considering, and its abstract.\
+    \ I will program the bot to ask you questions similar to what I would if I had\
+    \ the time and energy to discuss it one-on-one. \n\nBehind the scenes, when discussing\
+    \ this class, we are generally advised to help you avoid choosing a review article\
+    \ for your paper and instead focus on a proper empirical research article. When\
+    \ you search for papers on a given topic, review articles often appear at the\
+    \ top of the list, and it\u2019s not always obvious whether you\u2019re looking\
+    \ at a review, a book chapter, or an empirical study. I can direct the bot to\
+    \ assist you with that by asking about methodologies and topics, helping you parse\
+    \ the dense language typically found in abstracts or scientific papers. \n\nThere\
+    \ will also be a simple checkbox-style assignment on Canvas and a Discord server-based\
+    \ conversation space. These will be due next week, meaning 11:59 PM on Sunday\
+    \ before the following Monday. If you don\u2019t meet that deadline, there will\
+    \ be dire consequences. Not really, but we want to maintain a general cadence\
+    \ so that we\u2019re all on the same path. By the end of next week, I will have..."
+- dur: 180.0
+  end: 360.0
+  start: 180.0
+  text: "I implemented features where the bot keeps track of a profile of your interests\
+    \ and tries to assist you in the journey you will take through this general field.\
+    \ But we\u2019ll see; anytime I make a promise about the future, just know that\
+    \ internally, I am screaming. Great. Okay, who cares? Yes, let's go ahead and\
+    \ get into it. I know what to do regarding methods, but I realized I forgot something:\
+    \ motion capture tracking, etc. I also forgot a piece of equipment that I intended\
+    \ to bring today, so I will use this instead. It seems someone doesn't know how\
+    \ to use great equipment. That works!\n\nAlrighty, so let us begin the lecture\
+    \ properly. It's been nice for the first part of this class to see you guys talking\
+    \ about your interests in the server, interacting with the bot about what you're\
+    \ into, and what you want to study. I intentionally wanted that part to happen\
+    \ first before I talked too much about my own particular map of this space. I\
+    \ didn\u2019t want to influence you; I wanted you to think about it for yourselves\
+    \ before I came up and did the traditional professor thing, which is to tell you,\
+    \ \"Here\u2019s what this field is, here\u2019s what this means, here\u2019s what\
+    \ is on-topic, and here\u2019s what is off-topic.\" I generally don't think that's\
+    \ how we should approach intellectual inquiry. In the next chunk of time, I will\
+    \ give you an overview of this domain of human knowledge."
+- dur: 180.0
+  end: 540.0
+  start: 360.0
+  text: "Centered neuroscience is mostly related to my own particular history, my\
+    \ own research background, and the studies that I've done. By the time you have\
+    \ lived long enough to develop specialties and personal experiences, you will\
+    \ have charted your own path and trajectory into the heart of some field or domain.\
+    \ For pretty much all of you, everyone who chooses to follow a route like that,\
+    \ you will have a unique path. Each person's path will be different, and the topics\
+    \ that are relevant to everyone\u2019s interests will also be different. \n\n\
+    I don't want to present this material as if I am saying, \"Here is everything\
+    \ that matters; here is everything that is relevant to this topic.\" I really\
+    \ want to keep it on a relatively personalized narrative, focusing on the topics\
+    \ that are most important for me to study human perceptual-motor neuroscience\
+    \ in the specific ways I have learned. I will discuss this in the context of the\
+    \ component pieces of my particular specialty. \n\nThe beauty of using AI-mediated\
+    \ tools in a classroom setting is that, in a traditional class, the professor\
+    \ lays out the curriculum, the structure, and the topic area, and then everyone\
+    \ is constrained to follow that structure. This is largely for practical reasons;\
+    \ it is too difficult and requires too much human labor to mediate and navigate\
+    \ the varying interests of people in a room, even one labeled under a specific\
+    \ course title. \n\nHowever, I believe with AI, limited though it may be, it will\
+    \ always do its best to make your interests relevant to the topics that I have\
+    \ mandated it should care about. So as I start going through this material, I\
+    \ encourage you to really tune into your own personal feelings of interest, to\
+    \ notice what draws you in or moves you about a particular topic or domain. If\
+    \ you want to follow the trajectories that I'm presenting, that's all well and\
+    \ good. However, even if you wanted to, it wouldn't happen that way because that's\
+    \ not how the world works. As I give this lecture, keep that in mind."
+- dur: 180.0
+  end: 720.0
+  start: 540.0
+  text: "My main request for you is to just not let your brain turn all the way off.\
+    \ I'm going to be talking fast about a lot of topics that may be relatively unfamiliar.\
+    \ For some of them, it might be the first time you've heard about it, and for\
+    \ others, you might have heard about it before. The goal is not to have you understand\
+    \ everything that I'm saying; rather, the goal is to expose you to it. \n\nAs\
+    \ I start talking, don't get too hung up on whether or not you're following everything.\
+    \ Just try to remember the words as much as you can and let it wash over you.\
+    \ I promise you that some of it will stick. When we open things back up, you can\
+    \ start asking questions about the parts that you found most interesting. \n\n\
+    What I have found most gratifying about doing this type of class is the discovery.\
+    \ Every time I give a lecture on a given topic and then tell 40 students to ask\
+    \ questions about the parts they found most interesting, I typically see 40 different\
+    \ conversations about 40 different topics. That's really a lot of fun. \n\nWith\
+    \ that said, let us get into it. Unfortunately, I intended to bring a tablet so\
+    \ I could draw things with colors, and I brought the tablet, but when I looked\
+    \ for the pen, I found that I had thrown a standard pencil in here instead. I\
+    \ can't even imagine what was going on when I did that, so we'll be doing it the\
+    \ old school way with just one color. But that's okay. \n\nSo, the topic of the\
+    \ course is neuroscience. The department is biology, and most of you, as biology\
+    \ majors, have internalized to some degree that biology and neuroscience are related\
+    \ to things like cells, neurons, and wet lab microscopes."
+- dur: 180.0
+  end: 900.0
+  start: 720.0
+  text: Types of conversations and topics are super valid and important to explore.
+    They are all part and parcel of a particular philosophical tradition that is fundamental
+    to the way we conduct scientific research in 2025 on Earth. This tradition is
+    so ingrained that we often don't even think about it, and that is the concept
+    of reductionism. Reductionism is a general philosophical approach to the study
+    of the natural world that tries to break things down into smaller and smaller
+    pieces. This allows for more precise measurements and more detailed investigations.
+    The implicit assumption is that by analyzing the component parts of the world,
+    we will gain a better understanding of how everything works. There is a lot of
+    validity to that approach, but there are also significant limitations. If you're
+    only examining the smaller pieces in isolation, you will struggle to see what
+    we call emergent properties. These properties only emerge when we observe the
+    combination of parts at a larger scale than what can be contained in a test tube
+    or viewed under a microscope. A classic example of emergence is traffic. Traffic
+    is a property of cars on a road, but you can never understand traffic by looking
+    at just one car. It is only when you observe the cars operating together in their
+    natural environment that you begin to grasp the concept of traffic. The counter
+    to reductionism might be termed holism, which is the scale where my research domain
+    tends to operate. I do not focus on studies involving highly reduced approaches,
+    such as electrophysiology, where electrodes are inserted into the brains of various
+    animals, or fMRI studies where participants are placed in a tube to measure the
+    magnetic resonance of their hemoglobin in their brains. Instead, my research focuses
+    on humans behaving in natural environments and performing the kinds of activities
+    we do in our day-to-day lives. For example, throwing objects into the air and
+    catching them involves motor behavior, applying force to the object, an information-gathering
+    phase, and then executing another motor command. If this command aligns with the
+    world, the action succeeds; if not, the object falls. My research is centered
+    on understanding these complex interactions and behaviors.
+- dur: 180.0
+  end: 1080.0
+  start: 900.0
+  text: "That behavioral process in its natural context involves using the best measurements\
+    \ I can devise for those behaviors. I try to connect these measurements to the\
+    \ more low-level, reductionist fields of inquiry so that we can understand how\
+    \ elements like cells and neurons can lead to complex behaviors. I think of it\
+    \ as a robotics approach. I like to tell people that I study the part of neuroscience\
+    \ that overlaps with robotics; robotics is a field that keeps you honest in the\
+    \ sense that you create things that move around in the real world. You can't cut\
+    \ corners because if you do, the robot just stops working. The difference is that\
+    \ we know how robots work because we made them, while humans can do things we\
+    \ don't fully understand. This combination\u2014thinking of humans as magical\
+    \ meat robots\u2014allows us to study and comprehend them from this perspective,\
+    \ which can yield useful insights. The nice thing about this approach is the abstraction\
+    \ away from the biology, even though we know it involves cells, neurons, membrane\
+    \ potentials, and so forth. We think more in terms of the measurable aspects,\
+    \ which we will discuss shortly.\n\nSo, speaking of the natural world, let's talk\
+    \ about something that helps parse out that general topic, which is called the\
+    \ perception-action cycle. Let's start by drawing a brain. I'm trying to draw\
+    \ it... yes, let's do it like this. Here's how you draw a brain. There you go.\
+    \ This is a picture of your brain. That's your temporal lobe, and this is your\
+    \ eye, facing that way. There are many details not covered here, but this is the\
+    \ general shape. So here you are\u2014that's you, and your existence."
+- dur: 180.0
+  end: 1260.0
+  start: 1080.0
+  text: "In the world, let's do this in a different way. There you go. That's you.\
+    \ You're in the world. Here\u2019s your body; here\u2019s your eye; here\u2019\
+    s your mouth. And then inside of there, that\u2019s your brain, not to scale.\
+    \ As you are in the world, you have a very limited awareness of your given context,\
+    \ and everything that you know comes in through your senses and your memory.\n\
+    \nSo, let\u2019s think about a particular moment in time where you\u2019re sitting\
+    \ here. You have your eye, and then you see out here, there\u2019s a cat. You\
+    \ like cats. So, light from the sun bounces off the cat and goes into your eye.\
+    \ We will talk a lot about eyes; we\u2019ll discuss the lens, the retina, the\
+    \ fovea, and the optic nerve. The main thing to understand is that your eye is\
+    \ the place where environmental energy is first absorbed by your nervous system.\
+    \ This moment right here is a very special moment in your perceptual cycle, which\
+    \ is the moment of transduction. This term refers to the moment when some form\
+    \ of environmental energy, in this case, light, gets transduced and converted\
+    \ into neural activity in your eye. The light goes in, into your retina, into\
+    \ your fovea, which we will talk about plenty.\n\nThere\u2019s a particular class\
+    \ of molecules called opsin. Opsins look roughly like this: they are made of carbon\
+    \ and hydrogen, forming a hexagon with a long, wiggly tail. People in biochemistry\
+    \ are probably familiar with these shapes, except this is not drawn well. You\
+    \ have a bunch of these opsins in your eye, and there are basically three main\
+    \ ones. They are tuned \u2014 if you want to use that term \u2014 to different\
+    \ wavelengths of light."
+- dur: 180.0
+  end: 1440.0
+  start: 1260.0
+  text: Wavelengths of light and their nature indicate that when a photon of light
+    hits them, they absorb the energy of that photon and then change shape. I think
+    I actually did this backward; I think they start out with a kink, and then when
+    they absorb the light, they straighten out. However, regardless of the specifics,
+    this absorption of a photon changes the electrochemical properties of the molecule,
+    causing it to transition from being neutral to plus one, minus one, or whatever
+    it is. The point is that the light coming from the environment, bouncing off the
+    cat, entering your eye, changes the chemical layout of the opsin. This occurs
+    in trillions and billions of instances, as biology tends to operate on this scale.
+    This change alters the polarity and electrical state of the rods and cones in
+    your retina, which then get accumulated with ganglia and various other components.
+    This leads to a shift in the electrical potential in that section of your retina,
+    which is then sent as spikes down your optic nerves. Neurons are the fundamental
+    building blocks of neuroscience, and mostly what neurons do is spike; they send
+    little electrical pulses to communicate whatever stimuli they have detected. In
+    the context of perception and vision, the absorption of light into the opsin and
+    the consequent shift in polarity and electrical state ultimately results in changes
+    in the spike rate of a given ganglion cell as it sends its axon down the optic
+    nerve to your occipital lobe and the visual cortex. We will discuss this in more
+    detail and coherence later, but the key takeaway here is that the light absorbed
+    by your eye is subsequently converted through this complex biochemical mechanism
+    into a pattern of neural activity. Since the neural activity is triggered by the
+    light, and because the light has been reflected off the object in question, there
+    is a prevailing belief and assumption that the pattern of neural activity corresponds
+    in some way to the object in the real world. There is some statistical correlation
+    or relationship present in the pattern of neural activity.
+- dur: 180.0
+  end: 1620.0
+  start: 1440.0
+  text: "Somehow, the brain encodes information about the world you're looking at.\
+    \ The nature of that relationship is tenuous and complex, and, generally speaking,\
+    \ extremely impoverished. The actual information we're getting in any moment in\
+    \ time is far less than you think it would be. It's a lot, but the richness of\
+    \ your visual environment, for example, is very much an illusion based on your\
+    \ brain's ability to sort of cobble together a lot of noisy information to give\
+    \ you something that's accurate enough to move through the world, but often in\
+    \ a way that's almost exclusively designed after the fact.\n\nSo, that's your\
+    \ brain again. It's more like a mashup but that's fine. The light comes into your\
+    \ eye, gets absorbed by the retina, which is on the back of your eye. It sends\
+    \ a pattern of neural activity down your optic nerve, passing through some subcortical\
+    \ areas, the thalamus, and so on, which we won't talk about too much. There is\
+    \ some processing that happens in that area.\n\nThen, the information projects\
+    \ down to the occipital lobe, otherwise known as the visual cortex, which is located\
+    \ at the back of your brain. It's not super important to know where it is, but\
+    \ it's just one of those things where vision happens at the back of the brain\
+    \ for whatever reason. This is the place where the first pass of information about\
+    \ your visual environment starts to get computed. This information is mostly in\
+    \ the form of edges, dark patches, light patches, and similar attributes.\n\n\
+    Once you get from V1, which is the primary visual cortex, the information goes\
+    \ through other stages of processing, leading to progressively more complex structures\
+    \ emerging. For example, you start with things like edges, and if you have enough\
+    \ edges, you can discern patches. With patches, you can perceive textures, and\
+    \ with textures, you can recognize objects. Each stage of visual processing builds\
+    \ on the previous stage, eventually leading to the ability to do things like object\
+    \ recognition, such as identifying that something out there is a cat.\n\nThere\u2019\
+    s a discussion to be had about the parts of that process that occur in the temporal\
+    \ lobe, which is here. This tends to be the area responsible for identifying objects,\
+    \ like saying, \"That's a desk,\" or, \"That's a computer.\""
+- dur: 180.0
+  end: 1800.0
+  start: 1620.0
+  text: 'The part that we tend to care more about in this class is the part that goes
+    in this direction, which tends to be more in tune with using that information
+    to plan your movement out in the world. Something that I haven''t said yet, but
+    which is important to repeat, is that this is a cartoon; this is a very abstracted,
+    simplified version of a story. If you wanted to tell the whole story, you would
+    have to recount a thousand stories of a thousand humans in their labs recording
+    data, gathering numbers, and making up their own stories in the discussion sections
+    of their papers about what the different parts mean. This cartoonified story is
+    the version that tends to make it into the textbooks that we communicate back
+    to you in an attempt to make sense of any of it. However, it is really important
+    that we remember this is not the real story; this is the cartoon, and the real
+    story is something to which we do not actually have access. There is no level
+    of class where I can simply give you the book that says, "Here is what the visual
+    cortex is actually doing." The best I could do is provide you with a record of
+    all the empirical measurements that all the researchers who have investigated
+    this topic have put together. Then, I can tell you the story that we have collectively
+    decided is the best account of how we think this part of this lumpy pink matter
+    inside of our skulls operates. But there is an essential gap between epistemology,
+    which is our knowledge of things, and metaphysics, which involves what actually
+    exists. The two concepts never truly touch; there will always be a difference
+    between knowing something and what that thing actually is. Throughout the history
+    of science, we have told many stories about what we think is going on in the world,
+    in our bodies, and in our biological processes. Historically, every single one
+    of those stories has been proven wrong, in some sense, over a long enough time
+    scale. Everything we currently think will eventually be shown to be inaccurate
+    in some way or another. We have evidence for that, given that everything we''ve
+    ever believed up until this point has been proven wrong in some way. So, if you
+    think there''s something special about today that will prevent this from continuing
+    indefinitely until the sun burns out, consider this: the beauty of the scientific
+    process lies in our belief that, despite everything being incorrect, each successive
+    idea is less wrong than the one before it.'
+- dur: 180.0
+  end: 1980.0
+  start: 1800.0
+  text: "\"Wrong\" means that it allows us to make more precise predictions. It allows\
+    \ us to heal sickness better. It allows us to build machines that do more exciting\
+    \ things. Sometimes those improvements happen by completely throwing out philosophical\
+    \ base-level beliefs about how certain things work. But yes, it's a continuous\
+    \ process. We'll talk about it. \n\nSo, here we are in this cycle: the light has\
+    \ bounced off the cat, hit your eye, been absorbed, and transmitted back to your\
+    \ visual cortex. You have identified that it's a cat, and you have an inbuilt\
+    \ volition that says, \"I like to touch cats.\" Great, we support this for you.\
+    \ \n\nThis is the parietal lobe. Don't worry about the parietal lobe; it's great,\
+    \ but you can worry about it if you want. The important part\u2014this back here\
+    \ is your visual cortex. This on the side here, roughly speaking, is your motor\
+    \ cortex. Eventually, as you look at more and more pictures of the brain, you\
+    \ will see that the wrinkles and structures on the brain are not random. They\
+    \ are conserved in the same sense that while every face looks very different,\
+    \ they generally have two eyes, a nose, and a mouth in different configurations.\
+    \ \n\nThe wrinkly structures and the crevices and bumps in our brain are roughly\
+    \ the same. If you were to crack open all the brains in this room, which I don't\
+    \ recommend, you would find a lot of correspondence in where the big creases occur.\
+    \ I am not at the level of that anatomy where I can name them off the top of my\
+    \ head, but I do recognize them in pictures. It's easy to tell when someone is\
+    \ drawing a brain artistically versus when they are looking at anatomy because\
+    \ artists often depict it simply as a bunch of pink wrinkles, which is not actually\
+    \ how we do it. \n\nAnyways, there's a big one right in the middle called the\
+    \ central sulcus. A sulcus is like the crease part. On this side of that sulcus\
+    \ is the somatosensory cortex. Somatosensation is basically touch\u2014think of\
+    \ that type of sensation. On the other side is the motor cortex, the sensory cortex,\
+    \ and then the motor cortex.\""
+- dur: 180.0
+  end: 2160.0
+  start: 1980.0
+  text: "They tend to be paired, and you can look up the Huny Li when we talk about\
+    \ the motor cortex. I enjoy this distinction. There are two sides of the brain:\
+    \ on one side, you have sensation and the perception of the world, like visual\
+    \ aspects and sensory aspects; and then on the other side of the brain, we start\
+    \ getting into motor actions and movements, the outgoing parts of things. As we\
+    \ keep going forward, you eventually get to the frontal lobes. The frontal lobe\
+    \ is the big lumpy part in the front; it\u2019s considered the most human part\
+    \ of the brain. All mammal brains are roughly the same anatomically; they're just\
+    \ mirrored into different shapes and sizes. For example, rats have a much more\
+    \ pronounced olfactory bulb for smell versus their visual cortex. The human brain\
+    \ has a lot of extra anatomy in that frontal lobe area. This is thought to be\
+    \ where decision making comes from, where language kind of lives, and is often\
+    \ referenced in discussions about executive function, the feeling of deciding\
+    \ what you want to do. This is also where metacognition happens, so if you're\
+    \ having thoughts about your thoughts, like \u201COh yeah, I\u2019m angry right\
+    \ now,\u201D that\u2019s a frontal lobe area. I'm reiterating the point that every\
+    \ time I point to a part of the brain and say, \u201CThis is the part that does\
+    \ this thing,\u201D a part of me is screaming inside because none of this is how\
+    \ any of it really works. That\u2019s the cartoon; the real world is much more\
+    \ complex and noisier than that. But if I say, \u201CThis is where executive function\
+    \ happens,\u201D and point at the front of the brain, and then say, \u201CThis\
+    \ is where vision happens,\u201D and point at the back of the brain, that statement\
+    \ is more true than if I switch those two things around. It\u2019s important to\
+    \ reiterate that, even though I am telling you these simplified stories\u2014\
+    these textbook-level conversations about how the brain works\u2014if we come back\
+    \ to this class in 250 years, we're going to be saying very different things,\
+    \ but we\u2019ll probably still agree that vision happens in the back and cognition\
+    \ happens in the front. Anyway, from this frontal lobe, you get the frontal area\
+    \ for executive functions, then you get your premotor area, and somewhere around\
+    \ here is where volition arises. Volition is in the same realm as voluntary actions;\
+    \ it\u2019s about the things you want to do. For instance, you see the cat and\
+    \ say, \u201CI want to touch the cat.\u201D"
+- dur: 180.0
+  end: 2340.0
+  start: 2160.0
+  text: "Is the cat. Look at me; I'm touching it, and this is what I want to happen.\
+    \ Now you are in this state where here\u2019s your body, here\u2019s your hand,\
+    \ and here\u2019s this cat. There's this desire that I wish my hand was on this\
+    \ cat. Now there's a gap between how the world is, according to your perception,\
+    \ and how you wish the world would be, which is that your hand is touching this\
+    \ object. Those volitions meld with the perceptual experience, and from this alchemy\
+    \ emerges something resembling a motor plan. I\u2019m trying to refrain from going\
+    \ into details because we will have a whole lecture about the eye and another\
+    \ lecture about the motor cortex to discuss this in more detail. For now, I\u2019\
+    m just giving an overview. This is where we first start to see something resembling\
+    \ a motor plan. Many of you have been discussing concepts like muscle memory in\
+    \ the chats. Muscle memory is a term we commonly use; it\u2019s a standard human\
+    \ expression. However, physiologically, muscle memory doesn\u2019t truly exist.\
+    \ Your muscles don\u2019t have memory; they are much simpler objects, which we\
+    \ will also discuss. Usually, when you mention muscle memory, you are referring\
+    \ to a motor plan. As you work on something more and gain expertise and experience,\
+    \ what we tend to call muscle memory is actually the motor plans becoming more\
+    \ robust and more locked in. Typically, much of that motor planning takes place\
+    \ not necessarily in the motor cortex but in subcortical regions. If you think\
+    \ about a picture of the brain, the pink wrinkly structure in your skull is your\
+    \ cortex, specifically the neocortex, which is the part where most processing\
+    \ happens. We will talk a little about what processing means in this context,\
+    \ but I like to describe it as the bloom of the rose on the rose bush when discussing\
+    \ the nervous system."
+- dur: 180.0
+  end: 2520.0
+  start: 2340.0
+  text: When you're looking at a rose bush, it makes a lot of sense that we tend to
+    focus on the rose, like the red thing with petals that smells nice. We spend a
+    lot of our time focusing on that part of the plant for very good reason. However,
+    if you really take a step back and look at it from a botany point of view, it's
+    mostly bush and just a little bit of rose. I think that's kind of the same with
+    the way our cortex works. The majority of our central nervous system is not in
+    that cortex; it's in the subcortical regions. Among my favorite of those subcortical
+    regions is the cerebellum, which sort of sits at this fist-shaped area right below
+    your cortex. When you look up pictures of the brain online, you'll see the big
+    pink wrinkly thing along with this more dense, grayish-looking structure underneath
+    it. That's your cerebellum. Your cerebellum is a very complicated beast; it contains
+    about 3.5 times as many neurons as the rest of your central nervous system combined.
+    That number is strangely conserved across different animals, particularly mammals.
+    We all have a cortex and a cerebellum, but we have very different brain-to-body
+    ratios and different proportions. However, in general, whatever the size of your
+    brain and whatever animal you are, your cerebellum has three and a half times
+    as many neurons as the rest of your cortex. I always come back to that; it seems
+    interesting that you find this number in nature that's conserved across a bunch
+    of different species. I wish I knew more about it. One part of the reason why
+    the cerebellum has so many more neurons by count is that the neurons associated
+    with it are tiny. You have granule cells and you have Purkinje cells. Let's look
+    up pictures because Purkinje cells in your cerebellum are one of the more beautiful
+    parts of your brain. You have the cell body, the axon, and then there are thousands
+    upon thousands of synapses. This picture is famous; it was actually taken by...
+- dur: 180.0
+  end: 2700.0
+  start: 2520.0
+  text: "Pinji, the guy who created\u2014oh, sorry, Kahal\u2014says right there, Ramon\
+    \ Kahal, who was part of the group that came up with the staining mechanisms that\
+    \ allowed us to start looking at neurons in their isolation. This happened around\
+    \ 1909. Before that, we didn't really know what neurons were; we didn't know if\
+    \ they were just one big mass or if they were individualized pieces. There was\
+    \ a big scientific and philosophical debate about whether the brain is one big\
+    \ connected piece or whether the neurons touch or are separated from each other.\
+    \ Ramon Kahal argued in favor of the synapse doctrine, which said that there was\
+    \ a gap between them. I think it was Golgi who argued in favor of the idea that\
+    \ everything is touching. Golgi developed a silver nitrate staining process that\
+    \ allowed them to make images like this of looking at cells. Ironically, by creating\
+    \ that staining process, he proved Kahal's side of the argument correct\u2014\
+    that neurons tend not to touch. They both received a Nobel Prize, but apparently,\
+    \ they had such bad blood between them that they spent their entire acceptance\
+    \ speeches bashing each other.\n\nSo, your cerebellum consists of Purkinje cells\
+    \ and then granule cells, which, in comparison, look more like this. They are\
+    \ small and do not have these super long fibers that extend very long distances;\
+    \ they are much more localized, connecting only to their immediate neighbors.\
+    \ The majority of neurons in your nervous system are these granule cells that\
+    \ reside in your cerebellum. Your cerebellum is layered, like most parts of your\
+    \ brain, with layers that tend to operate phylogenetically. The newest stuff is\
+    \ on the outside, while the older stuff is on the inside. The cerebellum has that\
+    \ structure as well. We may talk about it, but I'm not sure\u2014 we'll see. It's\
+    \ one of those things where if enough people ask about it, I might steer the lectures\
+    \ based on the class's interest. But anyway, we're talking about cats. So, when\
+    \ light hits the cat, it hits your eye, is absorbed in your retina, tweaks your\
+    \ opsins, and triggers a neural..."
+- dur: 180.0
+  end: 2880.0
+  start: 2700.0
+  text: Cascade vibrated your visual cortex and gave you the perception of a cat.
+    Your volitional desire to touch the cat, combined with the knowledge that there
+    is a cat in front of you, started creating a motor plan. This is where the process
+    becomes quite complex, as there is a lot of controversy surrounding the different
+    steps involved. Long story short, something in the combination of your motor cortex
+    and your cerebellum, which is largely concerned with movement, plays a significant
+    role. The cerebellum is thought to be related to tool use, which is a capability
+    that humans possess; we can pick up an object and quickly learn the physics of
+    it, utilizing it as a tool with specific characteristics. This ability is often
+    considered a feature of the neocortex, which is the new part of the brain that
+    is complicated and has a hierarchical nature to the motor system. At the higher
+    levels, particularly in the frontal lobe, the plans become much more abstract.
+    These include thoughts like "I'm thirsty" or "I wish I was drinking water right
+    now." In order for that high-level volition to result in actions that lead to
+    achieving my goal, there must be a narrowing down of specificity from that high-level
+    volition to commands that will ultimately boil down to muscle firings to move
+    my body through space. So, when I say, "Oh, I wish I had water," I see that there
+    is water over there, and somehow that volition is converted into motor commands
+    that move my legs. This positions my body so that I can move my arm; I understand
+    how this object works, so I open it and I get to drink water. This process typically
+    moves from the motor cortex, then to the cerebellum, which has connections to
+    the brain stem. These connections can be quite intricate as they are wrapped around
+    each other. The brain stem, including the medulla oblongata and pons, is often
+    referred to as the part of the brain that regulates the so-called reptilian brain.
+    This area handles essential functions such as heart rate, breathing, and regulating
+    body temperature, which are managed at the level of the brain stem. The brain
+    stem is also the beginning of the spinal cord.
+- dur: 180.0
+  end: 3060.0
+  start: 2880.0
+  text: "Friend, there we go. There you go, perfect. Nice, still. Good job. Your spinal\
+    \ cord is a part of your central nervous system. Oftentimes, when we think about\
+    \ the spinal cord, it's given a bad reputation. Even when we look at pictures\
+    \ of the central nervous system, you'll often see images that stop at a certain\
+    \ point, focusing on the brain. The cerebellum often gets included, but we typically\
+    \ cut off where the spine is. However, your spine is just as much a part of your\
+    \ nervous system as the rest of it. \n\nThe way we're going to define the central\
+    \ nervous system, as opposed to the peripheral nervous system, is loosely by saying\
+    \ that the central nervous system is where processing happens. Processing is a\
+    \ somewhat vague term, but it essentially means that information comes in, undergoes\
+    \ some sort of transformation\u2014 which we might call computation if we wanted\
+    \ to use a computer analogy\u2014and then information goes out. The spine is involved\
+    \ in that kind of processing at various levels, which we will discuss further.\
+    \ \n\nIt's fascinating to note that there are stories we will discuss later in\
+    \ the semester about studies that we can't perform anymore on cats. In these studies,\
+    \ you could sever the spine, cutting it off from the upper part of the brain,\
+    \ and the cat could still walk. This is because the spine contains the gray matter\
+    \ that handles functions like central pattern generation and reflex responses.\
+    \ A central pattern generator is responsible for the basic rhythmic movement of\
+    \ the legs, determining when one foot is in stance and the other is in swing,\
+    \ and then coordinating the two. Much of that processing happens within the spine\
+    \ itself. Your spinal cord actually ends just below your thoracic spine, around\
+    \ this area. I know, right?"
+- dur: 180.0
+  end: 3240.0
+  start: 3060.0
+  text: "The stuff below that is what's called the cauda equina, which is where it\
+    \ does become more extension-like, and you start to lose the gray matter and get\
+    \ more peripheral nerves that go out to your limbs. I want to emphasize that distinction\
+    \ between the central nervous system and the peripheral nervous system. This is\
+    \ often stated as a hard delineation, but there is a lot of gray area. One of\
+    \ the most classic gray areas is the retina. The retina has many neurons on its\
+    \ back, and there are layers to it. It is often described as the eye, which is\
+    \ the classical sensory organ. However, there is a lot happening on the back of\
+    \ the retina before anything even leaves via the optic nerve to the brain, which\
+    \ could really be considered computation. Similarly, your skin has many connections\
+    \ that might also be doing what we might consider computation. For instance, when\
+    \ you get hurt and you rub the area, it doesn\u2019t hurt as much. This is because\
+    \ the activity of activating sensory organs around the damaged area suppresses\
+    \ the pain coming from that area, and that is all happening at the level of your\
+    \ skin. Again, these names and terms are not how nature is designed; it's not\
+    \ divided into pieces with departments and names. That is something humans created\
+    \ to make sense of nature. However, anytime we put a name or a label or category\
+    \ into nature, we make concessions and draw lines around areas. This allows us\
+    \ to have better conversations about those topics, but there will always be gray\
+    \ areas. Often, it is those gray areas or cracks that lead us to abandon certain\
+    \ thoughts and move toward others. Speaking of the peripheral nervous system,\
+    \ this is your arm. These are your bones, and your bones are mostly what you are,\
+    \ particularly when thinking about it in terms of the space that you inhabit."
+- dur: 180.0
+  end: 3420.0
+  start: 3240.0
+  text: "The shape that you are, your general ability to move through the world, is\
+    \ mostly determined by bones. The additional details, or the \"goop,\" that's\
+    \ associated with that are secondary. The overall cookie-cutter shape of you as\
+    \ a creature is driven by these strange sticks, and these sticks have odd attachments\
+    \ known as muscles. Eventually, when considering the more holistic picture of\
+    \ the world and how you live in it, you encounter a reductionist approach. If\
+    \ you're in a lab, living a reductionist life and choosing a specific domain of\
+    \ inquiry, you simplify and exclude any extraneous factors that may obstruct your\
+    \ focus on that particular topic. This allows you to remove all the parts of the\
+    \ question that you don't want to address. For instance, as a neuroscientist,\
+    \ you might take a mouse, rat, or fruit fly into the lab and eliminate all the\
+    \ elements that aren't relevant to neuroscience, enabling you to concentrate on\
+    \ the neurons that matter to you.\n\nHowever, when you're not restricted by that\
+    \ capacity and want to think more generally, you lose that luxury. If you aim\
+    \ to comprehend how humans move through the world, even if your main concern is\
+    \ the neural or perceptual aspects, you are still compelled by the nature of reality\
+    \ to consider elements like bones and muscles. This is necessary even if those\
+    \ objects aren't primarily neural because the neural activity ultimately needs\
+    \ to be transmitted into something that facilitates bodily movement through the\
+    \ world. This leads us to the conversation about robotics, where neural activity,\
+    \ originally transformed into sensory experiences, like vision, must now be converted\
+    \ into environmental energy\u2014specifically mechanical energy. This transformation\
+    \ means that when my muscles are activated, my arm moves as a result of this energy\
+    \ input. There is literal energy in this movement, specifically in the form of\
+    \ kinetic energy; for example, if I'm pulling on a spring, it may involve mechanical\
+    \ energy as well."
+- dur: 180.0
+  end: 3600.0
+  start: 3420.0
+  text: "Potential energy, kinetic energy, and spring energy are the things we derive\
+    \ from our muscles. The whole perception-action cycle involves the conversion\
+    \ of environmental energy into perceptual neural activity, which then translates\
+    \ back into a motor action. Muscles are peculiar objects; a muscle is effectively\
+    \ a variable stiffness spring. That's essentially what a muscle is. Muscles can\
+    \ only pull; they cannot push. When it looks like I'm pushing, it's because this\
+    \ muscle is pulling on the tip of that bone, allowing my arm to extend. If I want\
+    \ to squeeze, I send a motor command down the nerve to activate the motor unit,\
+    \ which tells the surrounding muscle tissue to contract. What was originally a\
+    \ fairly wiggly, soft spring gets electrified and transforms into a stiff spring\
+    \ that pulls this joint. Muscles operate in pairs: there\u2019s a flexion muscle\
+    \ group and an extension muscle group. Those two groups work together to move\
+    \ a degree of freedom. The motor plan originates from the motor cortex and passes\
+    \ through the cerebellum. For more complex animals, like humans, it goes through\
+    \ the corticospinal tract, which connects the motor cortex directly to the spine,\
+    \ bypassing structures like the cerebellum. All animals have a corticospinal tract,\
+    \ but it does not exist to the same degree across species, which is an interesting\
+    \ distinction in the animal kingdom. I often use this question to test AI models\
+    \ to see how they perform in neuroscience. I ask about the corticospinal tract\
+    \ and its variations across the animal kingdom, as this topic can become quite\
+    \ subtle. I observe how well models handle those nuances. While I've discussed\
+    \ how motor cortex commands travel through the cerebellum and brainstem, it\u2019\
+    s essential to remember the corticospinal tract. Whenever you see a lengthy word\
+    \ with an 'o' in the middle, you can replace the 'o' with a slash: corticospinal\
+    \ becomes C/cortex S/L."
+- dur: 180.0
+  end: 3780.0
+  start: 3600.0
+  text: "The spinal system goes straight from the cortex down to the spine, bypassing\
+    \ all the subcortical regions. This allows us to control our individual degrees\
+    \ of freedom of our body directly, as opposed to doing things in a more synergistic\
+    \ way, which is much deeper than I want to discuss in this particular lecture.\
+    \ \n\nSo here I am; I'm so close, almost ready to touch this cat. My motor plan,\
+    \ which comes down from on high through the hierarchical structure of our motor\
+    \ system, has taken my awareness of the world and my own body. Vision provides\
+    \ me information about remote parts of the world\u2014things I cannot touch, things\
+    \ that are outside of my peripersonal space. The peripersonal space is the area\
+    \ I can touch with my hands; outside of that is a different part of the world\
+    \ that\u2019s happening in the parietal lobe. \n\nOne of my favorite studies involves\
+    \ a monkey that was trained to grab things on a desk. They gave it a temporary\
+    \ lesion by squirting something into the part of the brain that handles peripersonal\
+    \ perception, which caused that part of the brain to go offline. This resulted\
+    \ in what is called cortical blindness, meaning the monkey lost its ability to\
+    \ see things in its peripersonal zone. Then, they trained the monkey to use a\
+    \ grabber arm\u2014like a little claw arm\u2014so its reach extended farther because\
+    \ it could now use this arm. After training, once that peripersonal zone was re-established,\
+    \ the blind spot increased to include the region that could be reached with the\
+    \ grabber arm, in addition to the hand. \n\nConsider that in your worldview and\
+    \ see how it fits. So, here I am; I see this cat, and I have this awareness of\
+    \ my body. A lot of this can be associated with proprioception. As my arm extends,\
+    \ it exerts force on my joints because of its weight. My body can encode this\
+    \ information and is aware of those forces, enabling me to know where my arm is.\
+    \ I can also see my arm, and I have a memory of lifting it up. There are many\
+    \ ways that we know where our bodies are. I know my arm is here, and if I can\
+    \ make this part move that way, then I will have achieved my deepest desire of\
+    \ touching this cat."
+- dur: 180.0
+  end: 3960.0
+  start: 3780.0
+  text: "There\u2019s a lot of complicated stuff about how we don't move our body\
+    \ one joint at a time; we move it in a sort of barely sophisticated dance. A lot\
+    \ of the breakdown and how we choose to break down a complex movement across the\
+    \ available joints happens in the context of the world, which is a cerebellum\
+    \ thing. But let's pretend like it's not. I relax the flexor and tighten the extensor,\
+    \ which puts a torque on this bone and moves my hand here. Now I have the reward\
+    \ of cat sensations under my hand, and I have achieved this goal of mine. That's\
+    \ the loop; that's one path through the perception-action loop. The information\
+    \ has gone in, been processed, and now that I have moved my body, I have changed\
+    \ the state of the world\u2014my body is now in the world. As I perceive the situation\
+    \ as it stands, I'm perceiving something different, and now I'm going to go back\
+    \ through that loop. You perceive, you act, and then you take in the information,\
+    \ and that loop tends to be where you live your whole life. This is kind of the\
+    \ cartoon overview of the story as it holds. I will name some of the fields associated\
+    \ with the things we've talked about. Generally speaking, when we talk about the\
+    \ physiology of the eyeball, it tends to be called optology. But that's more about\
+    \ the lens, pupil, and the goopy parts. When we discuss the neural activity aspect\
+    \ of it, we tend to call that visual neuroscience or perceptual neuroscience.\
+    \ Because humans are such vision-heavy animals, when you hear perceptual, we often\
+    \ mean visual. But strictly speaking, anything sensory is perceptual. When we\
+    \ start talking about the parts of neuroscience that are moving your body, we\
+    \ tend to call that motor neuroscience. You will often hear people talk about\
+    \ perceptual motor neuroscience, which again, perceptual and motor are connected\
+    \ in a way that highlights the reality that these two parts are interlinked."
+- dur: 180.0
+  end: 4140.0
+  start: 3960.0
+  text: "Perception in action and perception in motor control are intimately linked.\
+    \ I should mention that in your peripheral nervous system, you have peripheral\
+    \ neurons that come in two types: perceptual and motor. This distinction is defined\
+    \ by the direction in which information is flowing. A motor command goes out from\
+    \ your central nervous system toward your periphery, carrying a motor command.\
+    \ This neuron is connected to a motor unit in my muscle, and if it gets activated\
+    \ by one of these higher-level structures, it will receive spikes telling it to\
+    \ fire, contracting the muscle. Once I touch the object, the neurons connected\
+    \ to the sensory organs in my hand start firing differently and send information\
+    \ back down the peripheral sensory nerves. So, in your periphery, the outward\
+    \ signals are from your motor neurons, while inward signals are from your sensory\
+    \ neurons; that's the main distinction. \n\nNow, why are we not fully aware? This\
+    \ is one of the most troubling realities of being alive. It also contributes to\
+    \ the existential crises that classes like this tend to provoke. Have fun with\
+    \ that! We have a very thin awareness of what is happening under the hood in our\
+    \ bodies. We possess some awareness and have conscious experiences like, \"I'm\
+    \ going to reach out and grab this thing\" or \"This feels cool in my hand\" or\
+    \ \"This feels hard in my hand.\" However, the more you learn about neuroscience\
+    \ and what's going on beneath the surface, the more you realize that the conscious\
+    \ personal experience of having a motor experience is just a thin layer on top\
+    \ of the complex processes that are truly happening. Unfortunately, that is the\
+    \ situation."
+- dur: 180.0
+  end: 4320.0
+  start: 4140.0
+  text: 'that we are in. I remember one time I was in grad school, and we were in
+    a parking lot with my friends in winter, waiting to go on a hike or something
+    like that. For some reason, this really stuck with me. There was a puddle of dirty
+    water in the middle of the parking lot that had this really beautiful oil sheen
+    on top of it. It had these fractal iridescent colors. By the nature of oil, it''s
+    only one molecule thick, which creates this very beautiful, vibrant, colorful
+    shape on top of cold, dark, murky water. I think about that a lot when I think
+    about the nervous system because it feels like that is kind of our experience
+    of living in a body. We have this experience that is sort of riding on top of
+    this really deep and complex biological neural system. That conscious sheen is
+    related to the depths of what''s going on there, but we don''t really tend to
+    have access to it. I can''t feel my stomach deciding when it wants to squirt out
+    more enzymes to digest my food, and I can''t tell the difference between various
+    things happening. It''s just not really available to me. Once you start learning
+    about the bits and pieces, you can begin mapping your conscious experiences to
+    the things I will be telling you that may be happening under the hood. One example
+    that comes to mind is a known phenomenon: when a person starts lifting weights
+    for the first time, if you''ve never been a weightlifting person, there is a thing
+    that happens where you can very quickly increase the amount of weight you can
+    lift in a short amount of time. This is because your body is learning how to fire
+    all of your motor units at once, which is not something you generally do in your
+    daily life. You have to learn how to exert maximal effort, and that is something
+    that happens at the level of recruiting motor units. So, when you now go to the
+    gym and start having that experience, you might feel, "Oh yeah, I''m getting super
+    strong." You can map that experience onto the motor unit function I just described,
+    but that mapping exists in this weird cognitive space. It''s not at the level
+    of deep awareness. You then have to ask, what would that even look like if it
+    was? Over time, when you''re lifting weights, why do you hit a plateau? Eventually,
+    you are recruiting all of your motor units, and then you simply don''t have enough
+    muscle to produce the force. That''s the explanation for that beginner spike in
+    performance.'
+- dur: 180.0
+  end: 4500.0
+  start: 4320.0
+  text: "You are not actually growing muscle mass in that period of time; you are\
+    \ just learning how to use all the muscles that you have. Then you hit that plateau,\
+    \ and it's like, okay, well now I am firing 100% of my muscle abilities, but my\
+    \ muscles aren't strong enough to actually move my body. A lot of those plateaus\
+    \ in performance can be tied back to physiological structures that change. The\
+    \ time courses of improvement happen, you know, like growing more muscle takes\
+    \ time, whereas learning how to fire motor units also takes time but not in the\
+    \ same way.\n\nSo, there is a lot of depth in that area. That area I was just\
+    \ speaking of is often referred to as neuromechanics. Neuromechanics is a relatively\
+    \ newly named field. I would be curious to see if it is in that mesh terminology\
+    \ thing we learned about last time. Neuromechanics, or neural mechanics, lies\
+    \ at the boundary of neural activity and physics\u2014mechanics. For example,\
+    \ firing a motor unit to create a spring force that moves the limb is a neuromechanical\
+    \ question. Then, how that connects to the spinal Central Pattern Generators\u2014\
+    this is where it starts to get murky. Is that still neuromechanics? These are\
+    \ unclear areas.\n\nOn the other side of neuromechanics, you have biomechanics.\
+    \ Biomechanics is literally Newton's Laws as they apply to biological systems,\
+    \ and we will be talking about that to some level of specificity in the not-too-distant\
+    \ future. Let me finish this up, and then we will discuss that.\n\nBiomechanics\
+    \ is related to the physics of moving your body. We will particularly talk about\
+    \ descriptions of the body that essentially remove any conception of biology from\
+    \ them, thinking about the human as an object that weighs a lot and is balanced\
+    \ on a pretty narrow platform. This is sort of a center of mass and base of support\
+    \ level of description of the human body, which we will talk about in some detail\
+    \ pretty soon. Another thing I haven\u2019t mentioned, but we will discuss, is\
+    \ evolution because all of these systems are evolved systems."
+- dur: 180.0
+  end: 4680.0
+  start: 4500.0
+  text: "developed over billions of years to the form that they currently are. In\
+    \ the same sense, you can describe the system as it stands right now, but you're\
+    \ always going to be missing some of the story if you don't think about it in\
+    \ the context of how it emerged. I haven't quite figured out a lot of the things\
+    \ I'm talking about; these are the topics that will go into the numbered lectures\
+    \ once I determine how I want to organize them. I'm going to be extracting a lot\
+    \ of information from your conversations to figure out how to steer those lectures.\
+    \ There are some key points that I will address no matter what you want to do,\
+    \ and evolution is going to be one of those topics. Specifically for us, I'm going\
+    \ to talk a little about the evolution of your eye, but a lot of my particular\
+    \ interest lies in the evolution of your skeleton\u2014why our skeletons have\
+    \ the peculiar shape that they do, and how we developed from our origins as fish\
+    \ that turned into lizards, that turned into squirrels, that turned into monkeys,\
+    \ that turned into apes, and finally into us. This evolutionary process matters\
+    \ a lot. The evolution of our eye is another fascinating story. Our retina is\
+    \ backwards in some interesting ways; it is not oriented in the direction you\
+    \ would expect. You would think that the light-sensing aspects would face towards\
+    \ the light, but they are actually backwards, facing inward. They must bounce\
+    \ through, and this is believed to be related to when we crawled out of the ocean\
+    \ and our eyes kind of inverted to allow the same kind of refraction to happen.\
+    \ We did not discuss eye movements in this particular story, but we will talk\
+    \ about them in detail. We humans have very mobile eyes, which is a cornerstone\
+    \ aspect of our visual system\u2014our eyes move a lot. This is part of the motor\
+    \ system, which allows us to move any part of our body, including the eyes, and\
+    \ that specific area is called oculomotor control. Oculomotor refers to eye movements,\
+    \ and it overlaps significantly with visual perception and perceptual neuroscience,\
+    \ because as we move our eyes, the information on the retina changes. We have\
+    \ to make decisions about where to move our eyes in the same way that we decide\
+    \ where to move our arms."
+- dur: 180.0
+  end: 4860.0
+  start: 4680.0
+  text: "You can live a whole happy life and never really think about your eye movements,\
+    \ but once you start thinking about them, you'll realize that it's a significant\
+    \ observation. To me, it feels a lot like breathing, where usually your breathing\
+    \ is something that just happens on its own, but you can control it to some extent.\
+    \ I can hold my breath, I can take a breath; I have volitional control over my\
+    \ breathing in a way that I don't over my heart. Our eye movements are kind of\
+    \ like that as well. I can choose to look in one direction or another, and I can\
+    \ choose not to look at something, but for the most part, for 99.9% of my waking\
+    \ life, my eyes are just doing what they do, driven by a combination of available\
+    \ visual information and my desires. Sometimes, if I throw something in the air,\
+    \ I will look at it and then catch it; a lot of that process is happening just\
+    \ below the level of conscious awareness. \n\nI think this is a nice segue into\
+    \ what we\u2019re going to talk about for the last ten minutes, which is methods\
+    \ and methodologies. \"Methods\" is just the term we use for how, in God's name,\
+    \ we are going to study any of this. Generally speaking, when we talk about methods,\
+    \ we're discussing equipment and ways that we can make empirical measurements\
+    \ of the world that will give us information about parts of the world from which\
+    \ we might glean some insight. These deeper, weirder aspects of our investigation\
+    \ can be referred to as desirata. Desiderata means that which is desired and is\
+    \ a sort of philosophy of science term about what you are trying to figure out.\
+    \ You came into this room as a scientist because there is something you want to\
+    \ know more about\u2014there's some part of the world you want to gain insight\
+    \ into. What is that thing, and how can you study it given all the limitations,\
+    \ constraints, and difficulties of how the world is?\n\nFor me, in my domain of\
+    \ inquiry, I use two primary research tools: motion capture, which is the thing\
+    \ you see in behind-the-scenes footage in movies and video games, where individuals\
+    \ wear suits with dots. That's motion capture, and it's basically related to recording\
+    \ the movements of the body in space."
+- dur: 180.0
+  end: 5040.0
+  start: 4860.0
+  text: "I will be at one of the lab sections, and I will be bringing in some cameras\
+    \ to do a FreeO Cap recording. This is the open-source software that I have been\
+    \ building, which is designed to help record the body with a high degree of fidelity.\
+    \ It captures the specific three-dimensional configuration of the body at any\
+    \ given moment in time. I would love to study all the brain activity of the pinging\
+    \ cells in the cerebellum, but that is not available to me in this year of Our\
+    \ Lord 2025. I can't actually obtain that measurement, and the methods I could\
+    \ use, even if we could get that from something like fMRI\u2014 which is the tube\
+    \ that produces colorful images of the brain\u2014 do not allow me to have a person\
+    \ out in the world throwing and catching and performing other activities simultaneously.\
+    \ Therefore, we use motion capture as a methodology to record the 3D configuration\
+    \ of the body over time. Then, we analyze those movements to infer that if the\
+    \ arm did this, and gravity is acting a certain way, then the muscles must have\
+    \ performed specific actions to generate that movement. We essentially backtrack:\
+    \ if the muscles did this, then the spine must have done that. This process allows\
+    \ us to utilize observable aspects of reality, such as the location of the arm,\
+    \ and measure it to the level of fidelity possible with current technology. We\
+    \ then use these empirical measurements to infer complex functions of various\
+    \ parts of the brain. Another technology I frequently employ is eye tracking,\
+    \ which is always a crowd favorite. There are different tools available, but mainly,\
+    \ we use video-based eye trackers, which are essentially small cameras focused\
+    \ on the eyes. Humans have highly mobile eyes, which provide intriguing insights\
+    \ into what my brain seeks to learn at any given moment. For example, if you give\
+    \ me a task like walking over rough terrain or juggling, you can observe the movements\
+    \ of my eyes and deduce the visual information available to me at that moment\
+    \ by creating a 3D model. If my eye moved this way, and the object was over there,\
+    \ you can ascertain whether I could see it or not at that time."
+- dur: 180.0
+  end: 5220.0
+  start: 5040.0
+  text: "Periphery. Then I chose to make a movement that would align my eye. Now it's\
+    \ in my phobia. You can use a camera pointed at the eye to tell the information\
+    \ that was being transmitted into my visual cortex, sort of going down that way.\
+    \ This gives you the information that I had available, and more importantly, the\
+    \ place that my eyes move to indicates where my central nervous system decided\
+    \ it wanted more information from this part of the world. Because those eye movements\
+    \ tend to happen really fast\u2014around 150 milliseconds per eye movement\u2014\
+    if you're doing a difficult task, this occurs well below the level of conscious\
+    \ awareness. We can tell stories about what we were doing after the fact, but\
+    \ in the moment, the eyes just kind of go where they need to go. I can tell both\
+    \ what information was available to this weird magical meat robot at any moment\
+    \ in time and the decisions that were made about where to move my eyes\u2014this\
+    \ way and not that way\u2014based on where my central nervous system desired more\
+    \ information from in the world at any moment. By combining these aspects of measuring\
+    \ perceptual input in the form of eye tracking and motor output in the form of\
+    \ motion capture, this is my general approach to scientific research. I try to\
+    \ merge these two methodologies to create a picture of what a given human is doing\
+    \ in the world as they perform complex actions. I then use that data that pours\
+    \ out of those machines to gain insights into these processes. Often, in my case,\
+    \ this type of research provides ecologically valid data\u2014realistic data of\
+    \ real people doing real tasks. However, the fidelity is limited; the accuracy\
+    \ and precision of the information that I can provide with these methods are far\
+    \ more restricted compared to someone in a lab who is analyzing individual neurons\
+    \ and engaging in reductionist work to obtain very precise numbers. The sociology\
+    \ of science involves people like me, who do broad-scope research, collaborating\
+    \ with those who focus on careful reduction of data. Ideally, we work together\
+    \ to tell more complete stories and provide more satisfying narratives about what\
+    \ is happening for humans to new generations of undergraduates every couple of\
+    \ years. Okay, is all of that covered? No more questions? Neuroscience nailed\
+    \ it. Great! Well, actually, that's it."
+- dur: 180.0
+  end: 5400.0
+  start: 5220.0
+  text: "We do have three more minutes. Does anyone have any questions or any emotional\
+    \ outbursts, existential crises, or things you wish I had said more about? No\
+    \ one seems to be saying anything in this moment in class. I appreciate\u2014\
+    oh, you do like the opson thing? Yeah, opson is the term. Opsin reminded me of\u2014\
+    yeah, it's the same. I mean, plants don't really have the motor aspect, but that's\
+    \ for the biochemistry people. I think opson is the part that has more depth.\
+    \ It's a class of chemicals, so you can look at that. \n\nGreat, thank you for\
+    \ showing up. Keep an eye on the Discord server and Canvas. I'll make an announcement\
+    \ about the actual assignments going on. And, yeah, see you on\u2014oh, not an\
+    \ assignment this Sunday. What's that? So, no assignment this Sunday? No, not\
+    \ this Sunday. And then I guess Monday is a holiday, so I'll see you in a week.\
+    \ \n\nYeah, someone here told me that. Was it you? Somebody told me there was\
+    \ a holiday. Yeah, thank you, I appreciate that. I probably would have figured\
+    \ it out, but I didn't have either one of them. I think it was just those two.\
+    \ Yeah, exactly. H."
+video_id: F4FNNmuAq74

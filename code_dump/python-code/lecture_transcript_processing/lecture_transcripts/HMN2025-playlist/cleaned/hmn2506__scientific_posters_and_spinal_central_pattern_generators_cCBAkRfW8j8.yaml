@@ -1,0 +1,1655 @@
+full_transcript: "Okay, all right. Hello everybody, sorry for the slow start. I was\
+  \ trying to get some stuff downloaded that I should have done at home. So, standard\
+  \ check-in: we are officially in week number six, which is a fine place to be. We\
+  \ have covered a lot of material; I would say we've covered the majority of the\
+  \ hardcore biomechanics content. I almost said the motor control stuff, but I will\
+  \ probably get back to that later.\n\nThis week, we are going to take a little bit\
+  \ of time to discuss some examples of published papers\u2014something that I really\
+  \ like. I have some experience going through a published article and trying to make\
+  \ sense of it. Then, on Wednesday, we'll have a small group assignment to help you\
+  \ all prepare for the exam, which is related to the SL poster proposal. Both of\
+  \ these will be due at the end of this week, probably next week.\n\nSo, I initially\
+  \ got these dates wrong; I will fix that later. The idea is that at this point,\
+  \ I have talked about some of the topic areas, usually in the review. We have spent\
+  \ a good amount of time collecting data in class and sort of eyeballing it\u2014\
+  looking through it and trying to figure out what kind of stories could be told from\
+  \ it. We came in with some basic hypotheses and things like that.\n\nFor the next\
+  \ two periods, which will be three classes since next Monday is a holiday, I want\
+  \ to prepare you all to start thinking about your own chosen topic, whatever that\
+  \ happens to be. We will use the thought processes and mental frameworks that I\
+  \ have been discussing in the context of human body and human movement research\
+  \ based on kinematic motion capture data. So, starting to dig into the topic area\
+  \ you've chosen and thinking more deeply about it is where we are headed. About\
+  \ the methodologies that are used to pursue your topic of interest, I know that\
+  \ the way we gathered that information was a combination of discussing topics and\
+  \ also selecting a paper. The paper part is, technically, the most relevant component\
+  \ to the poster proposal, but I want to make sure it\u2019s framed in the context\
+  \ of my interest in this topic.\n\nSo, I am trying to flesh out the methodologies\
+  \ involved in your area of research\u2014the empirical grounding of it. This includes\
+  \ understanding what methodologies are used, what tools are utilized to collect\
+  \ relevant data for your topic, and how this connects to the conversations we've\
+  \ been having around cameras and motion capture. Specifically, what is the core\
+  \ empirical tool involved? What does it measure, and what units are derived from\
+  \ it? What are the data types and structures that the scientific insights in your\
+  \ area of focus are built upon?\n\nThis will culminate in a follow-up proposal\u2014\
+  Proposal Number Two\u2014which will be a fleshed-out version of the original concept\
+  \ of identifying a paper I care about. I have been considering what kind of mechanism\
+  \ to use for this process. I think it will ultimately be a base-level assignment\
+  \ that will exist on Canvas and in the GitHub repository. This will involve you\
+  \ copy-pasting some text from your profile, which you've been generating, into a\
+  \ chat with the bot that will be prompted in the server.\n\nThe idea is that you'll\
+  \ start with the last relevant piece of text you have regarding your interests and\
+  \ the paper you've chosen. You will take that into a chat space, and the bot will\
+  \ be prompted to ask you about certain layers of the methodology we\u2019ve discussed.\
+  \ At the end of that interaction, you'll ask for a summary, possibly using a prompt\
+  \ that I will provide. Then you'll take that summary and put it into another chat\
+  \ for additional layers of conversation.\n\nThe output of those conversations will\
+  \ resemble the poster proposal, serving as a fleshed-out version of what you are\
+  \ examining. The reason for this structure is that I considered simply creating\
+  \ one chat, like we've been doing, but this approach allows for more depth. This\
+  \ sort of approach does all the necessary tasks, but it starts to get really complicated\
+  \ and enters a space where these types of AI, as implemented here, can\u2019t really\
+  \ function effectively. They are not capable of handling two-part instructions like\
+  \ \"do this and then do that.\" They are just not set up for that. You can set up\
+  \ the code on the back end to handle some tasks automatically, but it is much easier\
+  \ to create two versions of the prompt and provide clear instructions for intelligent\
+  \ humans that say, \"do this and then do that.\" \n\nThe idea is that you'll be\
+  \ preparing yourself for the next conversation, which will also give you some experience\
+  \ in directed prompting and that kind of AI training. The conversations and prompts\
+  \ I\u2019ve set up for you will be based on the lectures I\u2019ve been giving,\
+  \ which are available on the YouTube playlist linked in the server. So, I will be\
+  \ doing something that might not be obvious to you, such as pulling the transcripts\
+  \ from those lectures, extracting the main points, and using that content to guide\
+  \ our discussions. \n\nThat's why I am considering that set of chats as an exam-like\
+  \ object where you\u2019ll have specific tasks to complete. If you don\u2019t complete\
+  \ those tasks, you will receive a lower grade, and it will be cumulative based on\
+  \ previous activities, which I think aligns with the legal definition of a test.\
+  \ \n\nAdditionally, this will prepare you for the Proposal Part, which is another\
+  \ requirement in this class structure. By this week, my aim is to have you hypothetically\
+  \ ready to start working on the actual poster with the level of detail it needs.\
+  \ It\u2019s the lecture material that has delayed me from providing you with anything\
+  \ today. I have all that content ready; it\u2019s just that uploading the videos\
+  \ takes a long time. I had to wait for the last one to upload, which I just put\
+  \ up this morning. I plan to have everything compiled and ready for you by next\
+  \ Wednesday, so we can discuss it in class, and you can ask questions and engage\
+  \ further. \n\nLeading into that, hypothetically by the end of Week Seven, which\
+  \ is next week, I will spend some time discussing the posters themselves. I will\
+  \ upload some templates into the server and ensure they are available in the relevant\
+  \ location on campus soon. But before I proceed, does anyone have any questions\
+  \ so far? Sort of like concerns about stress levels, there are things that if you\
+  \ knew, you would feel more comfortable about your status here. Someone sent me\
+  \ an email asking about the poster structure itself, and that's what we're going\
+  \ to talk about today. Great, okay. \n\nSo, the poster itself\u2014these are just\
+  \ some examples that I found from previous courses taught. This is made more difficult\
+  \ because I don't have PowerPoint on this computer, but that's okay. We have that\
+  \ one. This is a PowerPoint slide. It is akin to PowerPoint or Google Slides. I\
+  \ think it's equivalent to Keynote on Mac. I'm sure a lot of you have PowerPoint\
+  \ slides in it. Long story short, the nice thing about something like PowerPoint\
+  \ is that it is a vector-based art tool. \n\nThis means that these visuals are defined\
+  \ not by pixels on an image\u2014like most images where, if you zoom in on them,\
+  \ you start to see the pixels\u2014but rather vector-based graphics are not like\
+  \ that. They are defined mathematically. For example, this curve here is not defined\
+  \ as a set of dots; it\u2019s defined as a mathematical definition of how to draw\
+  \ this shape. Everything on the PowerPoint page is defined in this way. \n\nThe\
+  \ advantage is that you can zoom it up infinitely, and you'll never see the pixels\
+  \ because it is not based on pixels. The opposite of vector-based is raster-based,\
+  \ which applies to most images. If you take a screenshot and zoom in, you can only\
+  \ zoom in to the level of the resolution of the image. Therefore, most posters are\
+  \ made with a vector-based visualization method. \n\nI would say PowerPoint is like\
+  \ the entry-level version of that or an equivalent of PowerPoint. For the vast majority\
+  \ of you, I would say almost all of you, except for someone who has a really specific\
+  \ interest in design, I recommend using PowerPoint or Google Slides. Just create\
+  \ a single page, a single slide that has information about your poster. If you're\
+  \ feeling fancy and want to do the professional version of this, the main professional\
+  \ vector graphics editor is Adobe Illustrator. You all have free access to the Adobe\
+  \ Creative Suite through your Northeastern email. If you need help with access,\
+  \ just ask someone other than me how to get it. You can download Creative Cloud\
+  \ and log in with your Northeastern account. However, you need to go to a specific\
+  \ website and submit a request for a license. Unfortunately, this process takes\
+  \ about a day or two. If you're interested, you can proceed with that.\n\nThere's\
+  \ also Inkscape, which is a free alternative to Adobe Illustrator. I have used it,\
+  \ and it has improved over time. When I was in graduate school, it wasn't very good,\
+  \ and I wouldn't have considered it a viable alternative. However, I think for basic\
+  \ usage, it might be helpful. Just don't expect it to be at the same level as Illustrator.\
+  \ Realistically, if you're new to this area, you probably won't be using professional-level\
+  \ tools, so giving it a shot might be worthwhile.\n\nRegardless of what you choose,\
+  \ the work you'll be doing to prepare the content for the poster will be independent\
+  \ of the software you use. If you try something fancy and later decide you don't\
+  \ want to go that route, you can always convert it later.\n\nNow, what should go\
+  \ on the poster itself? A poster is essentially a distillation of a paper, which\
+  \ I believe is the best way to think about it for our class. However, this doesn't\
+  \ mean a poster can't be other things. The default purpose of a poster is to represent\
+  \ a particular study, typically one that you are conducting. You will take it to\
+  \ a conference, display it, and hope people come by to talk to you about it. I showed\
+  \ you some pictures of scientific conference poster sessions, which illustrate the\
+  \ structure we are mimicking here.\n\nAt the end of the semester, around the week\
+  \ of April 7th, there will be a poster session for all the inquiries classes. You\
+  \ will be assigned one of the days for your presentation. You will present your\
+  \ poster alongside half of the students from each other class. If you aren't presenting,\
+  \ your assignment will be to circulate and engage with the other posters. You know\
+  \ a certain number of posters from this class and a certain number of posters from\
+  \ the other classes, so you can get the experience of what that sort of process\
+  \ looks like and feels like. Yeah, so like I said before and I'll say it again,\
+  \ there\u2019s the default version of the assignment and then there\u2019s the part\
+  \ of the assignment where you can do whatever else you want to do. So, I'm mostly\
+  \ going to be talking about the default assignment, which is to pick a paper and\
+  \ present that paper as if you were a person. I don\u2019t know if the other class\
+  \ has specific guidelines on whether you need to role-play as a grad student in\
+  \ the lab or if you can just present your paper in the third person. But yeah, you\
+  \ also have the option to add more citations if you want or talk about other topics.\
+  \ If you want to use any of the data that we covered in this class as part of your\
+  \ poster, we can set that up. Basically, any of the data that you've seen before,\
+  \ before April 7th, I\u2019ll have that available where you can pull screenshots\
+  \ and discuss it. If you want to experience using actual data that you've been a\
+  \ part of as part of your presentation, that's a viable option. So, in terms of\
+  \ how to put the poster together, if you're taking a paper or topic area, how do\
+  \ you actually create a poster? There are instructions about that, which I think\
+  \ might include some instructions from other classes. The basic idea is that you\u2019\
+  re not supposed to include all the information from the paper on the poster. You\
+  \ don't want to have what we affectionately call a wall of text poster. We all know\
+  \ what it feels like to be confronted with a big wall of text; it's not fun, and\
+  \ it isn't helpful for you as a person coming in. Something that really needs to\
+  \ be driven home, repeatedly, is that the scientific process is primarily a process\
+  \ of communication. If you're... When you are sitting alone in your lab, collecting\
+  \ data and running numbers, and never actually show it to anybody else, you're not\
+  \ really doing science. You're more like investigating and playing around with data.\
+  \ The process of science is fundamentally a process of communication. Presenting\
+  \ a poster or writing a paper is the traditional method for communicating science\
+  \ to others. Presenting a poster at a conference, in a sense, unofficially counts\
+  \ as a peer-review type of session. However, you can't claim that it's a peer-reviewed\
+  \ poster. You are, in fact, getting your work reviewed by your peers, meaning that\
+  \ others in the field will look at what you've done and have the opportunity to\
+  \ point out mistakes. This peer feedback is a cornerstone of scientific practice.\
+  \ \n\nI'm speaking from a somewhat jaded perspective, so I will describe this process\
+  \ in idealized terms. When you are translating your research into a poster, your\
+  \ job is to distill the information. You are the person who understands the project\
+  \ better than anyone else. If it\u2019s your research project, you likely comprehend\
+  \ the intricate details better than anyone else in the world. The individuals you\
+  \ communicate with will only have a few minutes, maybe 5 to 10 minutes at most,\
+  \ to engage with your work. If you look at events like the Society for Neuroscience\
+  \ meeting, there are thousands of posters. As an attendee, you can't possibly see\
+  \ them all. You will approach a specific area and engage with a select number of\
+  \ posters, spending only a short amount of time on each. So, you'll come up to a\
+  \ poster and ask about it, and your job as the presenter is to explain what the\
+  \ study was about and what the findings were. Ideally, this can be communicated\
+  \ in a way that someone listening could understand the study from start to finish\
+  \ in about 3 to 5 minutes. They should leave with a basic understanding of your\
+  \ study, such as what was done and what the results were. If you've done well, they\
+  \ will be able to summarize your research without needing to know all the intricate\
+  \ details. Therefore, there is a specific strategy involved in what you include\
+  \ on your poster. The key takeaways that the person walks away with should align\
+  \ with the main conclusions you want them to remember. In a study, you can present\
+  \ the same information in five different ways, allowing the person to walk away\
+  \ with five different beliefs. Hopefully, these beliefs will not be incoherent or\
+  \ inconsistent. You can focus on various aspects and ensure that you're packaging\
+  \ the information in a way that will make it understandable and memorable. Ideally,\
+  \ when they reflect on the study, they should say that it was about this person\
+  \ doing this thing and finding this result, which should align with your beliefs\
+  \ about the study.\n\nNow, I mentioned what would happen if the person stands there\
+  \ politely and doesn't say anything, which sometimes occurs. Typically, that's not\
+  \ necessarily an insult; especially at conferences, people may be tired and just\
+  \ want to grasp the main points. However, in general, in academia and the sciences,\
+  \ if someone starts to criticize your work, pulling it apart and picking at the\
+  \ details, it\u2019s actually a compliment. They care enough about your work to\
+  \ engage with it and ask questions. This can be off-putting, particularly for students\
+  \ who are accustomed to receiving grades, but when I ask a lot of questions, it's\
+  \ because I want to know more. I am invested in using my time, energy, and focus\
+  \ to do what I was trained to do as a scientist: peer review research by looking\
+  \ for problems and mistakes. My goal isn't to target those mistakes maliciously\
+  \ but to understand what\u2019s going on and ensure that the research is sound,\
+  \ as we aim to create new knowledge.\n\nThis brings me to the second part of the\
+  \ strategy. When you're presenting a poster, please do not just read the content\
+  \ to the person; that's not engaging for anyone. Instead, present it at a high level\
+  \ so that when the person asks questions, you have the answers ready. Even if you\
+  \ zip through your presentation and move past certain elements, there's a learning\
+  \ curve. The first time you present something, you might be surprised by the questions\
+  \ you receive; however, after a few conversations, you'll find that 90% of the questions\
+  \ tend to be predictable. Therefore, you should be prepared to answer those questions\
+  \ based on the data on your paper. For instance, I wouldn\u2019t want to spend time\
+  \ talking about the specifics, like how deep the water was in the maze or the exact\
+  \ dimensions of the apparatus, but if someone asks how deep it was, I should be\
+  \ ready to provide that answer without them even needing to ask. For that question,\
+  \ they can just look at the picture and get that themselves. Similarly, with a lot\
+  \ of the methods, that's often where you put details that you wouldn't necessarily\
+  \ say. You could mention, \"Oh yeah, we have this rat doing this thing in this maze,\"\
+  \ but the details are there so the person can just kind of skim them and understand\
+  \ the answer. I will say that there should be some kind of methods section, which\
+  \ should include a visual representation of what you actually did in the study.\
+  \ This is a good example because I know, by looking at this, that you examined mice\
+  \ in a water bucket with a camera. You could easily have skipped this type of information,\
+  \ saying, \"Oh yeah, you have this with a camera,\" and I know there were three\
+  \ conditions: one was a sham, meaning they didn't do anything; one was injured;\
+  \ and one was whatever this condition is. Now I have a sense of what it is that\
+  \ you actually did. \n\nIt's really easy, when you know something too well, to skip\
+  \ the parts. I call it skipping Step Zero. The immediate questions that anyone coming\
+  \ in would ask are often the first things you forget to explain when you get into\
+  \ the details. For example, you can show the results, but I could be halfway into\
+  \ my conversation, and then the person asks, \"Wait, are these mice, are they rats,\
+  \ are they fruit flies, are they on a treadmill, are these C. elegans?\" They start\
+  \ asking questions that show it\u2019s clear they don\u2019t even know basic aspects\
+  \ of what I did, which was standing in a room with mice in a water bath. \n\nTherefore,\
+  \ the methods section should always include something that clearly explains what\
+  \ that is. In my preference, this is typically figure one in whatever paper you're\
+  \ looking at. This isn't always the case, but I think this is true for papers as\
+  \ well. Figure one or something very close to figure one should be some kind of\
+  \ picture that clarifies what you're actually doing, and the results should have\
+  \ some representation of the data that was recorded. Generally, you want there to\
+  \ be some nice harmony here. \n\nThis is also typically where it's your job to choose\
+  \ the most important data. For many papers\u2014and certainly for numerous studies\u2014\
+  you produce a lot of data and various visualizations showing different aspects related\
+  \ to the data you recorded. Whatever paper you choose could have five, six, ten,\
+  \ or more figures of data in it, but your job is to understand what the main figure\
+  \ is, what the main result is. If I can only show one or two results from this,\
+  \ you have to figure out what those are. In your paper, the results should support\
+  \ the conclusions, and keep your directions clear if that is appropriate for the\
+  \ study itself. The introduction is typically an explanation of why the study was\
+  \ conducted. This section is where you can include citations, indicating, for example,\
+  \ that you conducted the study in relation to another study with different findings.\
+  \ You might say that previous papers suggested a certain effect is true, and therefore\
+  \ you conducted this study to test that effect. Breaking the study down into research\
+  \ questions and hypotheses is fine, but it is not necessary for every study. It\u2019\
+  s important to delineate those elements if they are present.\n\nThen, include a\
+  \ method section that describes what you did, followed by a data representation\
+  \ that highlights the main results. Finally, provide a conclusion that reflects\
+  \ what you believe to be true based on the study. This part articulates the new\
+  \ proposed fact about the world that your research suggests. You should hope that\
+  \ after going through this journey, the readers will also believe your conclusions,\
+  \ agreeing that the ideas you present seem reasonable and well-supported. If enough\
+  \ people are convinced by your narrative, it may become considered a \"scientific\
+  \ fact,\" which should always be approached with caution, as scientific facts can\
+  \ be proven wrong over time. Nevertheless, we strive to do our best at the moment.\n\
+  \nGenerally speaking, you'll rarely read a poster to someone directly. If it\u2019\
+  s your poster, don\u2019t read it aloud\u2014find another way to engage with your\
+  \ audience. The intention behind the poster is to ensure that if someone reads it\
+  \ from start to finish, they will understand the story you are attempting to convey.\
+  \ During your actual presentation, the poster serves as an aid for you in explaining\
+  \ your work. It helps you remember what you need to discuss and provides you with\
+  \ data to reference. This process entails using representative data, which is strategically\
+  \ selected data highlighted in your presentation, along with some measure of the\
+  \ statistical analysis conducted on that data. As a researcher, you have the responsibility\
+  \ to ensure that you are trustworthy and that your methods are credible. Appropriately\
+  \ documented, you are allowed to look at the big body of data that you have and\
+  \ pick a particular recording that is representative of what you're trying to show.\
+  \ In this case, they put mice in a water bucket, and then they had to learn where\
+  \ the platform was so they could get out of the water. In our case, we were doing\
+  \ tasks like the jumping task or the standing task. For the standing task, we recorded\
+  \ 25 different participants, and each of them did 10 different repetitions, which\
+  \ amounts to around 200 trials. You can go in and pick one trial or even one section\
+  \ of one trial that exemplifies the effect you\u2019re trying to show. Then, clean\
+  \ that up and state that it represents data from a subject in the participant study.\
+  \ However, without additional support, this is anecdotal; you are merely picking\
+  \ one from a set of a thousand options and saying this is the one that looks like\
+  \ the story you\u2019re trying to tell. That's not really evidence on its own. Therefore,\
+  \ you want to back that up by having some kind of statistical measure that looks\
+  \ at all 1,000 trials you conducted, appropriately comparing subjects to subjects\
+  \ and conditions to conditions. This is where you start having statistical power\
+  \ and statistically supported statements. This data provides the real grounding\
+  \ for knowledge generation. It is beneficial to pair both approaches because the\
+  \ representative subject data helps to clarify your points, whereas the statistical\
+  \ data shows that this is a phenomenon that occurs in general. However, results\
+  \ will always vary based on the studies that you are conducting.\n\nYou will want\
+  \ to see posters. Generally, if you walk around a department in the school, you\
+  \ will see posters on the walls. People typically display their favorite posters\
+  \ outside their labs. You can walk around and take a look at what they look like,\
+  \ getting a sense of the various styles available and the choices made. You will\
+  \ observe some posters with a lot of words and others with very few. I recommend\
+  \ just doing that\u2014take whatever hours you want to walk through the different\
+  \ departments of the school, and you will typically find posters on the walls that\
+  \ you can examine. Different conferences have different poster sizes. I've attended\
+  \ some where the posters are 6 feet by 4 feet, which is very large, and others where\
+  \ they're 3 feet by 3 feet, which is very small. I want to say that our posters\
+  \ are 24 by 36 inches, which is about this big, but I can't recall for certain.\
+  \ I'll look that up because it's relevant information to have. However, this primarily\
+  \ affects the font size you use. Again, with the vector scale stuff, the actual\
+  \ size shouldn't matter too much. You want to ensure that the font size is readable\
+  \ and not oppressive. \n\nAlso, just Google \"scientific poster,\" and you'll find\
+  \ a lot of examples. There are many layers of explication and tutorials on how to\
+  \ create a good poster, which will all be relevant here. The exception is that you\
+  \ won't be writing the paper yourself; a lot of this will involve copy-pasting from\
+  \ the paper itself. Just get the figure and put it up; then, the section in the\
+  \ bottom right will be where you put your citations, which will be generated from\
+  \ Zotero or whatever else you choose. \n\nSo, we will go through this together.\
+  \ The poster needs to be uploaded by Tuesday, March 25th. This means you'll upload\
+  \ a PDF that will then be printed. I believe they charge around twenty dollars for\
+  \ this, but I can't remember the exact amount\u2014I will find that number out as\
+  \ well. The upload is due on Monday, two weeks before the actual poster session.\
+  \ This is mostly because the printing office handles hundreds of posters for the\
+  \ course, so we want to ensure they have enough lead time to get everything done,\
+  \ in case anything goes wrong. There will be instructions provided on how to do\
+  \ that and all the necessary details. Additionally, I'll drop these into the Discord\
+  \ server before I post them elsewhere. Canvas is available. Please load up any questions\
+  \ or confusions. Okay, so I create my poster on one paper. I just do that on paper.\
+  \ Are there any others? Not really. The base level assignment\u2014so they had a\
+  \ couple. Was that they only reference it in the introduction? I'm actually looking\
+  \ for that because I can't see where these citations actually happen in the poster.\
+  \ I guess this might be something I can't remember. So I would actually say this\
+  \ may have just been incorrectly done because you're supposed to cite stuff here.\
+  \ But again, for this assignment, it's a little bit weird. The default assumption\
+  \ is that there's only going to be one citation here, and it's the citation of the\
+  \ actual paper where you got the information from. I would still say you should\
+  \ cite it somewhere, either in the introduction or in the conclusions, stating something\
+  \ like, 'this study did this.' You just have the one citation, like CH et al., 2018,\
+  \ cited somewhere in the text. So the default assumption is that it's just the one\
+  \ paper. It\u2019s also the case that as you go into your paper, there might be\
+  \ some other obvious choices to cite. For instance, future directions could mention\
+  \ follow-up studies that were done after this that should be cited. In their introduction,\
+  \ they might say they're doing this because of that other paper, and then you can\
+  \ cite that one too. If you find there's a method used that you don't understand\
+  \ and you go find a review article explaining how that method works and how it's\
+  \ used, that\u2019s a good thing to include as a citation somewhere in your development\
+  \ of the poster. Citations in this context are often used as a sort of rubric\u2014\
+  like you must have this many to make it valid. But that's not how we use it in the\
+  \ real world. You cite stuff that you've used to understand all the work in this\
+  \ poster that I'm presenting and the research I'm presenting. I am building this\
+  \ study and this knowledge on the basis of the materials that I have read before.\
+  \ I am constructing this on other people's work, and because of that, I need to\
+  \ cite it. If you are trying to determine whether you should trust the resource\
+  \ that I am presenting, I must inform you that the information I am providing relies\
+  \ on work that has come before me, and this is that work. Hypothetically, if you\
+  \ truly do not trust someone when they present their data to you, you can go back\
+  \ and review all the sources they depend on. This is where the concept of citation\
+  \ networks comes into play. Any study that has a certain number of citations allows\
+  \ you to navigate through other studies, facilitating exploration of all the empirical\
+  \ work that has been conducted since, at least, the 1800s when tracking this kind\
+  \ of information began.\n\nFor the strict assignment, it is just one requirement.\
+  \ In general, when it comes to posters, the citation process is less formal. Posters\
+  \ are usually treated as a more informal type of presentation. Not always, but some\
+  \ conferences take them quite seriously. However, for those that do, the posters\
+  \ are typically paired with a paper. For instance, you write a six-page paper to\
+  \ accompany a poster, and the poster itself is generally printed just for the conference\
+  \ as a tool for discussion. They usually do not enter the official records of a\
+  \ scientific society or similar formal archives. Hence, they are often treated as\
+  \ much more informal.\n\nThe actual, proper review process takes place at the level\
+  \ of articles and papers. Does that make sense? Are there any other questions, thoughts,\
+  \ or feelings? Cool. I will ensure to plan some time in this two-week period, likely\
+  \ at the beginning of this week. I will schedule something in this timeframe to\
+  \ practice your poster. I will try to do it the week before it is due because often,\
+  \ after creating the poster, you start explaining it and realize that it does not\
+  \ reflect what you intended at all. We can conduct some kind of practice session.\
+  \ The demo run will probably take place this week, so you'll have a chance to go\
+  \ through it with your peers before presenting it in person. It is also absolutely\
+  \ standard experience that when you're presenting a poster for the first time, the\
+  \ first couple of people you present it to get the worst version of the story. Generally\
+  \ speaking, by the end of the session\u2014which can last three to four hours for\
+  \ a lot of conferences\u2014you will have the story of your research down perfectly.\
+  \ If you ever find yourself going to a conference and presenting a poster, I urge\
+  \ you to do yourself the favor of taking notes\u2014voice notes, text notes, whatever\
+  \ you can\u2014about what you've been discussing in your poster, right after the\
+  \ poster session. The story you're trying to tell will never be clearer in your\
+  \ mind than it is after you\u2019ve gone through it multiple times.\n\nThis is relevant\
+  \ within the context of how science operates, particularly from a practical, communal\
+  \ perspective. Often, the purpose of a poster session is not just to present finished\
+  \ work, but to refine your message. Most of the time, when you're presenting at\
+  \ a conference, you're discussing work that is still in progress. Depending on the\
+  \ timeline, ideally, you should be presenting things that are not quite finished\
+  \ yet, meaning they aren't published or peer-reviewed, but rather the paper that\
+  \ you're currently writing. The poster session, in particular, is a really great\
+  \ opportunity to hone the story you're telling.\n\nWhen you\u2019re discussing your\
+  \ methods, for instance, you might describe it a certain way initially, and people\
+  \ don\u2019t really grasp it. Then, you might find a turn of phrase that gives clarity,\
+  \ making it understandable to everyone. That\u2019s the way you want to articulate\
+  \ what you're doing. It's very common, especially for graduate students, to initially\
+  \ provide too much detail. Over time, you'll learn which details can be omitted\
+  \ to help your audience understand the core message with minimal time investment.\
+  \ This skill is crucial as you develop your presentation abilities, especially early\
+  \ on in your academic career when you start presenting research. The amount of time\
+  \ spent discussing a particular area is proportional to the amount of time that\
+  \ was spent working on that area. However, that's almost never what you should do.\
+  \ It's possible that whoever these people are spent a good four to five months trying\
+  \ to figure out how to stop the water from leaking out of the stupid thing. They\
+  \ kept using something that wasn't working until they finally figured out the glue,\
+  \ and then after that, the data just kind of fell out of it. When they give the\
+  \ presentation, they're going to spend the first half of the conversation talking\
+  \ about all the glue they had to use and how they managed to get the water up to\
+  \ the right level. That part shouldn't even be a part of the conversation. Sometimes\
+  \ when I'm giving a presentation, I simply say, 'This slide transition was six months\
+  \ of my life,' and then I just show the result where it worked, omitting the fifteen\
+  \ iterations of failed attempts that I had to go through before I got the version\
+  \ that worked. If the things you did to make it work are interesting, you might\
+  \ want to document them elsewhere, but a poster is almost never the right time for\
+  \ that. There may be a case where someone asks, 'How did you get your stupid thing\
+  \ to fill up? Ours keeps leaking.' That's when you can say, 'Oh yeah, we used this\
+  \ glue and not the other glue.' You can include a very long methods section in the\
+  \ paper you publish, where you can explain why you had to use this glue and not\
+  \ the other one. The process of distillation is really the crux of this assignment.\
+  \ It is your job, as the ambassador of this research study, to make the judgment\
+  \ call about what's the most important part and what narrative we're trying to pursue\
+  \ here. Okay, are we good? Cool. We will have plenty of opportunities to talk about\
+  \ this in your specific cases. Now, with all that said, let's look at a paper. We\
+  \ have approximately forty minutes left, and I'm going to attempt to examine two\
+  \ separate papers, which may not be the best idea because I've already mentioned\
+  \ this is going to have an 'and' in the lecture. However, I love the papers I'm\
+  \ discussing and I really want to dive deeply into them. Nonetheless, I think it's\
+  \ fun to do the quick. Run through. So, we'll do that, and I'll try to keep myself\
+  \ to a particular time. I will also finish up a thought I meant to have about half\
+  \ an hour ago. After we do this sort of aside around the papers, the assignment,\
+  \ and the exam object, we're going to transition into vision stuff, like eyeballs.\
+  \ I'll bring in an eye tracker, and we'll talk more about visual neuroscience. I\
+  \ will record semi-tracking data, similar to how we did before. It's going to have\
+  \ a bit of a different vibe there, just because of the nature of the equipment and\
+  \ the data. But we're going to do vision stuff, which is always fun. Vision, and\
+  \ specifically eye movements, which are technically a part of motor control because\
+  \ it involves muscles, but it's an interesting space there. Okay, so in 20 minutes\
+  \ or less, which will put us at 4:10, I'm going to look up C prot CPG, which is\
+  \ one of those things I forgot for that moment. Storing volary, there we go. In\
+  \ 2012, this used to be a new study; now it's old. That's not that old; it's just\
+  \ over a decade at this point. So, this is a paper published in Science, which is\
+  \ one of the bigger journals out there. There are two journals that are categorically\
+  \ the biggest and most prestigious: Science and Nature. That sort of cultural reality\
+  \ of having a biggest thing is generally toxic and leads to a lot of bad outcomes.\
+  \ Nonetheless, if you see something published in Science or Nature, that's a good\
+  \ and prestigious study. Generally speaking, the more generic the name of the journal\
+  \ is, the more prestigious it is. So, the Portuguese Study of Ankle Prosthetics\
+  \ Research is generally going to be of lower prestige than the Journal of Prosthetics,\
+  \ which will be lower prestige than the Journal of Biology, which leads to Science\
+  \ and Nature being about as big as you can get in that space. Also, Cell is a very\
+  \ good journal for biology.\n\nBecause we are on campus, I can just download this\
+  \ here, but for fun, we're going to go to Scub and input it that way. I'm using\
+  \ this dark reader tool, so I'll turn that off for a normal look. I have about 15\
+  \ minutes to go through this; I probably won\u2019t get to a second article, but\
+  \ we\u2019ll see. This is kind of normal. When you download the PDF, the front page\
+  \ is just kind of like information about the study: title, author list, journal,\
+  \ etc. There are links to things like supporting material and other references that\
+  \ cite this article. With modern papers, typically there's going to be supplemental\
+  \ data or supplemental methods and so forth. Modern contemporary journal articles\
+  \ tend to have very constrained lengths, so the core studies are typically going\
+  \ to be quite short. Unless it's like a journal review or an older paper, that all\
+  \ varies very much by journal. To kind of get around that, they'll often have supplemental\
+  \ materials, so, like, either the methods will not be a part of the word count or\
+  \ you have the opportunity to present additional data there. What I'm going to do\
+  \ now with this study, because I know this study quite well, is give you a high-level\
+  \ overview of this paper that ideally will be fast enough to cover in the next 15\
+  \ minutes, comprehensible enough for you to follow the story despite not being particularly\
+  \ trained in this area, and ideally a fair and honest representation of what was\
+  \ actually done. This way, if you took the time to read the paper in depth and get\
+  \ through all the nitty-gritty, you would come out of it saying, \"Oh yeah, everything\
+  \ that John said about this is an accurate representation.\" I'm creating a cartoon\
+  \ narrative of the study so that I can present it in a way that will stand on its\
+  \ own. If you became an expert in this area and on this paper, ideally you would\
+  \ be able to evaluate my choices of cartoonification and understand why I chose\
+  \ this form of explanation and not some other. This study is about the spinal cord;\
+  \ in particular, it's looking at spinal cord injury and trying to address something\
+  \ like what has been a sort of Holy Grail type of issue for quite some time: the\
+  \ ability to heal spinal cord injuries. When you experience an injury or get into\
+  \ an accident that damages your spinal cord, you may lose control of your limbs\
+  \ below that area. You might lose control of your legs or even your whole body,\
+  \ depending on where that injury occurs. We would really like it if we could correct\
+  \ that in some way, similar to how we can heal a broken ankle or repair damaged\
+  \ muscles or skin. This paper presents the abstract; different journals format this\
+  \ in various ways. This journal doesn't even label it as the abstract; they assume\
+  \ you know that. Sometimes it might be called a summary or referred to by something\
+  \ else. I noticed that on the actual website they're... Giving a sort of high-level\
+  \ summary in addition to the abstract, all the information should, really speaking,\
+  \ be there. This study builds on the application in the space of trying to heal\
+  \ spinal cord injury. However, this study is not looking at patient populations;\
+  \ they are not looking at people who have spinal cord injuries. They are looking\
+  \ specifically at rats. If you look at any of these numbers here, they are the citations,\
+  \ and if you scroll to the end of the paper, they will correspond to the actual\
+  \ citations. These are in science format. Sometimes you\u2019ll see citations in\
+  \ the format of author-year, like Mathis et al. 2019, which is APA format. This\
+  \ is a more engineering style, literally made to be shorter. If you look at these\
+  \ citations, they will reference clinical studies and medical studies, but they\
+  \ are not themselves doing research on humans. This is an application with a basic\
+  \ science motivation where they are trying to increase theoretical understanding,\
+  \ but they are doing it in service of being able to move towards this applied goal.\
+  \ They are building on a history of studies of Central Pattern Generators in mammals.\
+  \ Those Central Pattern Generators exist in pretty much all animals, not necessarily\
+  \ all animals, but many. They generally refer to neural architectures that generate\
+  \ rhythmic activation, which is some sort of metronome type of activity, the basis\
+  \ of a lot of motor behavior and general life. This is a really fun animation of\
+  \ an ant walking with an alternating tripod gait. The red represents one tripod,\
+  \ and the blue represents another tripod. This is how insects operate, and that\u2019\
+  s a rhythmic behavior. Breathing is a rhythmic behavior; most forms of locomotion\
+  \ and flapping are rhythmic behaviors. It\u2019s the kind of thing that is present\
+  \ down to invertebrates like insects and also present up to mammals like us. Spinal\
+  \ central pattern generators, or CPGs, in cats, and this particular study follows\
+  \ a specific branch of ways to study the idea of central pattern generators as they\
+  \ exist in the spines of invertebrates. There is a general question surrounding\
+  \ the presence of CPGs in lower animals. We can study them very carefully in those\
+  \ animals because they are simpler; we can open them up and observe these processes\
+  \ occurring. However, this raises the question of what role these types of neural\
+  \ architectures play in more complex animals, like mammals, which have many more\
+  \ neurons and exhibit more complex behaviors, yet share a similar evolutionary history.\n\
+  \nThis is a video that is quite old, representing a different era regarding animal\
+  \ rights. It shows a cat that has been decerebrated. It is difficult to see, but\
+  \ this is the cat being supported by these wires. The cat has had its spinal cord\
+  \ severed; the brain is here, the cerebellum is here, and then we have the spine\
+  \ and the legs. During this era, they would surgically cut the spinal cord to prevent\
+  \ any information from reaching or coming from the legs to the brain. The legs remain\
+  \ connected to the spinal cord.\n\nThe interesting result here is that if the cat\
+  \ is supported and walking on a treadmill, its hind limbs still engage in rhythmic\
+  \ locomotion. They continue walking due to the sensory-motor loops functioning from\
+  \ the feet through the spine and back. This outcome challenges much of our intuition\
+  \ about how the spine works; we often think of it merely as extension cables leading\
+  \ from the brain down to the muscles. The type of information shows that there is\
+  \ processing happening in the spinal cord, which is a part of the central nervous\
+  \ system. It can handle simple tasks, such as the sensory information coming from\
+  \ the feet. This information is enough to generate the behavior that allows the\
+  \ feet to move. For instance, if I'm being pushed backwards, at a certain point,\
+  \ I should lift up, go forward, and come down again. The two limbs are reciprocally\
+  \ activated by central pattern generators in the spine. This means that a cat can\
+  \ walk despite having no cerebral implant in its spine for the back legs. As the\
+  \ treadmill speeds up, the cat speeds up as well. Just think about that; it seems\
+  \ perturbing and feels wrong. It\u2019s a wild result, and it absolutely is baffling\
+  \ on many levels. This is why I enjoy studying this so much. Often, in empirical\
+  \ investigations, we encounter unexpected results that lead to the best discoveries.\
+  \ Despite the strangeness of this study, it is also well-established; we've known\
+  \ for quite some time about these central pattern generators that govern movement.\
+  \ They handle basic trade-offs, such as the limbs transitioning from stance to swing.\
+  \ Active areas of research have been focused on understanding these spinal central\
+  \ pattern generators\u2014how they operate and the connection between the brain,\
+  \ the upper level of the brain, and the lower level of the spine, including the\
+  \ peripheral nerves. Over time, there have been changes in animal rights regulations.\
+  \ At some point, it was decided that cats should no longer be used in certain types\
+  \ of research. The rules regarding animal ethics have evolved... It's interesting\
+  \ and complicated. I'll talk about them at some point, but there are rules about\
+  \ which animal you're allowed to use for which study. There are some strange designations\
+  \ for higher-level versus lower-level animals. Typically speaking, the closer you\
+  \ get to a human-like animal, the more stringent the standards are. We do still\
+  \ use non-human primates for neuroscience research, but we don't use apes and chimpanzees.\
+  \ If you want to conduct monkey research, you really have to justify that the research\
+  \ needs to be done on a non-human primate. At some point, it was decided that you\
+  \ can't do it on cats anymore, so similar research is now conducted with rats. This\
+  \ particular study was done with rats. By the way, there is a really fun TED Talk\
+  \ about it, where Greg Lut presents in a very smarmy French style, which is a good\
+  \ presentation if you can get past the typical TED Talk format. He does a good job\
+  \ of telling an interesting story. However, the way he tells his story is not the\
+  \ same as how I tell mine. I want to point out that I am narrating this story as\
+  \ I have internalized it; I am a particular individual scientist with a specific\
+  \ background and area of the world I\u2019m trying to make sense of. When I tell\
+  \ you the story about this paper, it will differ from how the authors of the study\
+  \ would tell it or how someone with a different background and interest would present\
+  \ it. There\u2019s this context of narrative that keeps coming up, which feels unexpected\
+  \ in discussions about scientific empirical studies. Remember, this research is\
+  \ all being conducted by humans, and we only remember stories that make sense to\
+  \ us. I\u2019m going to highlight a particular aspect of this study that I found\
+  \ motivating. Since I have a little more time, I also want to discuss the structure\
+  \ of this paper. These are all the authors of the paper, and they all contributed\
+  \ in some way. The person at the front is the first author, who typically serves\
+  \ as the owner of the project\u2014generally a graduate student or a postdoctoral\
+  \ researcher. The last author is often the senior author, which is common, though\
+  \ not always the case. This can be somewhat field-dependent, but in most biology-related\
+  \ neuroscience studies, the last author is typically the person who runs the lab\
+  \ where the study was conducted. The first author is typically the person in the\
+  \ lab who did most of the work. However, this can vary dramatically by paper, by\
+  \ field, and by other factors. If you are in graduate school or a postdoc, you will\
+  \ be considering your first author publications differently from your non-first\
+  \ author publications. The middle authors are typically individuals who contributed\
+  \ in some way but were not the primary researchers of the study.\n\nOnce you start\
+  \ publishing papers, people will begin asking you questions about how many first\
+  \ author publications you have compared to second author publications. Typically,\
+  \ you will have more second author publications than first author publications.\
+  \ When you reach the point of running a lab, people will start asking about how\
+  \ many last author publications you have, which indicates whether you are effectively\
+  \ training others in the work.\n\nThis is very field dependent. For instance, mathematicians\
+  \ publish their papers with authors listed alphabetically, which I find quite interesting.\
+  \ What I am describing here reflects standard cultural practices in contemporary\
+  \ scientific publishing.\n\nIn the citations, you will see numbers corresponding\
+  \ to where the work was completed, often indicating that most of the work was done\
+  \ in Switzerland. There may also be a notation indicating that certain authors contributed\
+  \ equally to the work, though I can assure you that discussions about who gets to\
+  \ be first author often take place despite these notations.\n\nAnother important\
+  \ aspect is the corresponding author. This symbol indicates that if you have questions\
+  \ about the paper, you should contact this specific author. You will find this typically\
+  \ included as well.\n\nFinally, from a structural perspective, there is always going\
+  \ to be an acknowledgment section somewhere in the paper, where authors thank individuals\
+  \ who helped with specific aspects of the work. They should also cite their funding\
+  \ sources, indicating where the money came from. In this case, they list several\
+  \ grants from European research councils. This illustrates the often expensive funding\
+  \ processes, and there will generally be acknowledgments such as thanking the NIH\
+  \ for providing grants or other financial support. Typically, this is another place\
+  \ where you say, \"Hey, thanks for giving me this grant,\" and you mention the grant\
+  \ number. For public grants, which most of these are, you can look up the grant\
+  \ that was written to fund this research and see what they were discussing. This\
+  \ is just another way that people stay connected to the larger community when publishing\
+  \ particular papers. Modern papers also tend to include sections that list out what\
+  \ each author contributed. For example, one author might have helped collect the\
+  \ data while another wrote the manuscript. There will usually be a paragraph or\
+  \ two detailing what each author did to earn their spot on the author list.\n\n\
+  Now, regarding this particular study, this is your Figure One. This style of figure\
+  \ is very common in journals like Science and Nature because those journals are\
+  \ very short and dense. Specifically, this is a report, which generally means the\
+  \ journal has articles that are full-length and reports that are of shorter length,\
+  \ as well as brief communications that fall somewhere in between. This particular\
+  \ report is not the longest format; it's in a shorter form. The entire study is\
+  \ five pages long, including the front page, so there are only four pages of written\
+  \ text. When you look at the supplemental documents, they will typically resemble\
+  \ a Microsoft Word document that has been converted to PDF and can comprise dozens\
+  \ of pages.\n\nThis study features a figure that is very dense, with numerous sub-panels\
+  \ and includes a professional-looking animation or visualization, which is very\
+  \ indicative of this type of journal. In contrast, if you go to more standard journals,\
+  \ like the Journal of Biomechanics or any other specific journal, the figures will\
+  \ generally appear as if a regular person made them rather than a professional graphics\
+  \ design team, which is the case here. When I look at a new paper, I will examine\
+  \ the title and check who wrote it to see if I recognize any names or where they\
+  \ are working. I read the abstract and then skim the paper. I usually start by looking\
+  \ at the figures. I typically do not sit down with a new paper and read it from\
+  \ start to finish like it's a novel; that's not how we usually interrogate scientific\
+  \ papers. It\u2019s kind of like JPEG compression\u2014you skim at different levels\
+  \ to get the full picture and then choose to zone in on different levels of analysis\
+  \ and parts of the paper. Science is not clickbait. When we write a good paper,\
+  \ the title is a summary, the abstract is a summary, and then the paper contains\
+  \ repetitive summaries within it.\n\nSo we\u2019re going to look at this; this is\
+  \ figure one, which will be referenced in the article somewhere. Figure S1 is a\
+  \ supplemental figure. They are even citing figures that are not in the main article;\
+  \ you have to go to the supplemental information to get the results. But this is\
+  \ the first one I\u2019m seeing. Figure 1C represents this figure, and the letters\
+  \ correspond to sections. The figure will always have a caption, which includes\
+  \ a one-sentence summary of what we\u2019re looking at, and then each lettered subsection\
+  \ has a little write-up of what\u2019s going on in that section.\n\nGenerally, figure\
+  \ one should always be a methods figure, and it should ideally have representative\
+  \ data. This one is doing both; it serves as both a methods figure and a representation\
+  \ of representative data. Now, looking at what they were actually doing here: they\
+  \ are examining central pattern generators in mammals, specifically in rats, as\
+  \ they use rats for this study. Their model organism is not focused on rats; they\
+  \ are using rats as a proxy animal. They believe that rats have sufficient complexity\
+  \ that, if we learn something about how something works in a rat, it will be helpful\
+  \ in developing a treatment for humans. I happen to know that, if you look at what\
+  \ this researcher has been up to recently, they have been able to apply these findings\
+  \ in humans. I think they are actually getting to the point where they are restoring\
+  \ voluntary control of locomotion after a paralyzed spinal cord injury. I haven't\
+  \ checked in on them in a couple of years, I guess, but this researcher is one of\
+  \ those leading figures in the field. If you go to the Society for Neuroscience\
+  \ (SFN) meeting, he has several rows of people working in his lab. It\u2019s like\
+  \ a business owner type of scenario, which creates a very different vibe than a\
+  \ lab like mine that has just three people in it. I wouldn't want to run a lab like\
+  \ that; it sounds overwhelming.\n\nSo, the idea was, they took the rats and gave\
+  \ them a surgical spinal cord injury. They performed the surgery and created an\
+  \ injury that damaged their spine and severed all the fibers going to their brain.\
+  \ This is a picture of the central nervous system of a rat. These are the two lobes\
+  \ of the brain, and the spinal cord itself is represented here. The clever part\
+  \ of their approach is that instead of making a single cut across the spine, they\
+  \ made two cuts: one at about 60% of the way through the spine and then a little\
+  \ bit below, creating another cut. This way, all of the fibers that go through this\
+  \ section are severed, but they are not completely removing tissue. There is still\
+  \ hypothetically a path for the fibers to regrow and reconnect. If it were possible\
+  \ for these fibers to kind of regrow and reform, then you could theoretically have\
+  \ recovery potential. A signal comes from here and bypasses these injury points,\
+  \ getting back up to the brain. The idea was that this process is similar to what\
+  \ was shown in the cat video. They performed surgery on these rats, using a scalpel\
+  \ to make cuts in certain areas. In the study, an adult rat received a left lateral\
+  \ hemisection at thoracic vertebrae T7 and a right lateral hemisection at T10. If\
+  \ you understand the terminology, you can see that \u2018hemisection\u2019 means\
+  \ slightly more than half, indicating they went beyond the halfway point. \n\nThey\
+  \ then placed the rat in this little robotic gait entry system. This system resembles\
+  \ the 2012 version of the wire support and treadmill setup used in the cat study.\
+  \ Essentially, they were able to create a mechanism similar to a 3D printer, where\
+  \ the motor control moves over a two-dimensional plane and then lowers to provide\
+  \ support. It supports the rat's partial body weight, ensuring it is not completely\
+  \ off the ground, nor does it bear its full body weight. This setup allows the rat\
+  \ to turn while maintaining body weight support. It consistently detects what is\
+  \ happening and ensures the rat has 10 to 20 percent of its body weight on the ground.\
+  \ As a result, we are not surprised to learn that even after these modifications...\
+  \ The activity is held upright so it walks in a bipedal way, which would be cute\
+  \ if it weren't so mob-like. This is what intact means: not chopped up. The intact\
+  \ animal's behavior looks like this. The trajectories in blue here represent the\
+  \ trajectories of the feet. We are not shocked to learn that even after an injury,\
+  \ they can still walk decently, okay? If you put them in a little robotic device\
+  \ and drag them along, they can walk just fine. There's a complicated electrochemical\
+  \ process that they incorporate into their spine to ensure that the neurons remain\
+  \ active and healthy, firing hard enough to move the limbs. What they found with\
+  \ those cats is that, even though the video you saw was probably right after the\
+  \ surgery was done, typically, the behaviors extinguish over time. After a couple\
+  \ of hours or days, and I think no more than weeks, the cat would stop demonstrating\
+  \ that behavior, and if you put it back on the treadmill, it would just kind of\
+  \ wind up dragging its feet. One of the results they built on from their own lab\
+  \ involved creating a combination of a pharmaceutical cocktail and a specific electrical\
+  \ stimulation pattern. This allows them to keep the deactivated animals performing\
+  \ this movement for a sort of arbitrary amount of time. So, that's the main setup.\
+  \ We have these deactivated animals that can perform this walking task, which is\
+  \ good for them. However, while all of this is cool, none of it is shocking; this\
+  \ is all stuff we already knew when we showed the cat video. The specific goal they\
+  \ are trying to achieve is to restore the animals' ability to initiate walking.\
+  \ Much of the previous work involved dragging them along on a treadmill so they\
+  \ receive the necessary stimulus\u2014the dragging of the feet leads to sensory\
+  \ signals that prompt them to take steps. However, the rat cannot just sit there\
+  \ and decide to start walking forward. They are trying to restore that ability.\
+  \ There's a lot going on in terms of methodology, which has too much depth for me\
+  \ to go into, but I will say they then divided the animals into two groups. One\
+  \ of the groups of animals was in the control condition, which involved training.\
+  \ They would perform surgery on them and provide them with an electrochemical prosthetic\
+  \ that allows them to continue walking. Then, they would put them in a robotic suit\
+  \ and have them complete movement training, taking a series of steps in a row. The\
+  \ other group, which is where the main interesting point of the paper comes in,\
+  \ also underwent a matched amount of training, taking the same number of steps.\
+  \ However, before they began the robotic assistance, the researchers would place\
+  \ chocolate in front of their faces, as rats apparently enjoy chocolate. Seeing\
+  \ the chocolate, the rats would express their desire to it, and then the robot would\
+  \ pull them forward, prompting them to perform the stepping behavior. After completing\
+  \ the task, they were rewarded by being allowed to eat the chocolate that had been\
+  \ presented. Thus, we have two matched groups of rats: one was trained and performed\
+  \ steps using the robotic gantry system, while the other completed the same steps\
+  \ but received a motivating food reward for their actions. In the last two minutes\
+  \ of class, if we examine the results closely, we find that the animals who only\
+  \ engaged in the basic training did not improve; eventually, their behavior became\
+  \ extinguished, and they never regained their capabilities. In contrast, the animals\
+  \ that were rewarded with chocolate experienced a kind of regrowth pattern. Over\
+  \ time, they began to form connections that bypassed the injury site. Eventually,\
+  \ they would see the chocolate and could initiate the stepping behavior on their\
+  \ own, before the robotic gantry pulled them forward. I think that is truly amazing.\
+  \ This process taps into how we move our bodies in the world. It wasn't enough for\
+  \ the control rats to continue stepping, as it lacked connection to their environment.\
+  \ Conversely, those in the chocolate condition had the experience of seeing something\
+  \ desirable in the world\u2014something in front of them that they wanted. They\
+  \ needed to walk to reach it. As they began walking, unaware they were being assisted\
+  \ by a robot, they eventually got to eat the chocolate. This scenario triggers the\
+  \ concept of the dopaminergic reward system, where the brain is flooded with reward\
+  \ chemicals, primarily dopamine, alongside other substances that contribute to this\
+  \ process. It has the effect of reinforcing all the neurons that were just firing.\
+  \ The dopaminergic reward system is kind of how that works. So, it's that connection\
+  \ between that frontal area, that volitional sort of prefrontal cortex aspect, where\
+  \ you think, \"I wish I was over there so I could eat the chocolate.\" Then a bunch\
+  \ of neural activity happens, you get to eat the chocolate, and your brain gets\
+  \ flooded with neurons that say, \"Whatever was just happening, reinforce that.\"\
+  \ This is enough to trigger the regrowth of neurons at the spinal level. That is\
+  \ as much as I'm going to say about this paper. End of class, so thanks for following\
+  \ along, and I'll see you all on Wednesday. We're going to discuss two papers. Someday\
+  \ I'll learn; I'll never learn."
+title: HMN25-06 - Scientific Posters and Spinal Central Pattern Generators
+transcript_chunks:
+- dur: 180.0
+  end: 180.0
+  start: 0.0
+  text: "Okay, all right. Hello everybody, sorry for the slow start. I was trying\
+    \ to get some stuff downloaded that I should have done at home. So, standard check-in:\
+    \ we are officially in week number six, which is a fine place to be. We have covered\
+    \ a lot of material; I would say we've covered the majority of the hardcore biomechanics\
+    \ content. I almost said the motor control stuff, but I will probably get back\
+    \ to that later.\n\nThis week, we are going to take a little bit of time to discuss\
+    \ some examples of published papers\u2014something that I really like. I have\
+    \ some experience going through a published article and trying to make sense of\
+    \ it. Then, on Wednesday, we'll have a small group assignment to help you all\
+    \ prepare for the exam, which is related to the SL poster proposal. Both of these\
+    \ will be due at the end of this week, probably next week.\n\nSo, I initially\
+    \ got these dates wrong; I will fix that later. The idea is that at this point,\
+    \ I have talked about some of the topic areas, usually in the review. We have\
+    \ spent a good amount of time collecting data in class and sort of eyeballing\
+    \ it\u2014looking through it and trying to figure out what kind of stories could\
+    \ be told from it. We came in with some basic hypotheses and things like that.\n\
+    \nFor the next two periods, which will be three classes since next Monday is a\
+    \ holiday, I want to prepare you all to start thinking about your own chosen topic,\
+    \ whatever that happens to be. We will use the thought processes and mental frameworks\
+    \ that I have been discussing in the context of human body and human movement\
+    \ research based on kinematic motion capture data. So, starting to dig into the\
+    \ topic area you've chosen and thinking more deeply about it is where we are headed."
+- dur: 180.0
+  end: 360.0
+  start: 180.0
+  text: "About the methodologies that are used to pursue your topic of interest, I\
+    \ know that the way we gathered that information was a combination of discussing\
+    \ topics and also selecting a paper. The paper part is, technically, the most\
+    \ relevant component to the poster proposal, but I want to make sure it\u2019\
+    s framed in the context of my interest in this topic.\n\nSo, I am trying to flesh\
+    \ out the methodologies involved in your area of research\u2014the empirical grounding\
+    \ of it. This includes understanding what methodologies are used, what tools are\
+    \ utilized to collect relevant data for your topic, and how this connects to the\
+    \ conversations we've been having around cameras and motion capture. Specifically,\
+    \ what is the core empirical tool involved? What does it measure, and what units\
+    \ are derived from it? What are the data types and structures that the scientific\
+    \ insights in your area of focus are built upon?\n\nThis will culminate in a follow-up\
+    \ proposal\u2014Proposal Number Two\u2014which will be a fleshed-out version of\
+    \ the original concept of identifying a paper I care about. I have been considering\
+    \ what kind of mechanism to use for this process. I think it will ultimately be\
+    \ a base-level assignment that will exist on Canvas and in the GitHub repository.\
+    \ This will involve you copy-pasting some text from your profile, which you've\
+    \ been generating, into a chat with the bot that will be prompted in the server.\n\
+    \nThe idea is that you'll start with the last relevant piece of text you have\
+    \ regarding your interests and the paper you've chosen. You will take that into\
+    \ a chat space, and the bot will be prompted to ask you about certain layers of\
+    \ the methodology we\u2019ve discussed. At the end of that interaction, you'll\
+    \ ask for a summary, possibly using a prompt that I will provide. Then you'll\
+    \ take that summary and put it into another chat for additional layers of conversation.\n\
+    \nThe output of those conversations will resemble the poster proposal, serving\
+    \ as a fleshed-out version of what you are examining. The reason for this structure\
+    \ is that I considered simply creating one chat, like we've been doing, but this\
+    \ approach allows for more depth."
+- dur: 180.0
+  end: 540.0
+  start: 360.0
+  text: "This sort of approach does all the necessary tasks, but it starts to get\
+    \ really complicated and enters a space where these types of AI, as implemented\
+    \ here, can\u2019t really function effectively. They are not capable of handling\
+    \ two-part instructions like \"do this and then do that.\" They are just not set\
+    \ up for that. You can set up the code on the back end to handle some tasks automatically,\
+    \ but it is much easier to create two versions of the prompt and provide clear\
+    \ instructions for intelligent humans that say, \"do this and then do that.\"\
+    \ \n\nThe idea is that you'll be preparing yourself for the next conversation,\
+    \ which will also give you some experience in directed prompting and that kind\
+    \ of AI training. The conversations and prompts I\u2019ve set up for you will\
+    \ be based on the lectures I\u2019ve been giving, which are available on the YouTube\
+    \ playlist linked in the server. So, I will be doing something that might not\
+    \ be obvious to you, such as pulling the transcripts from those lectures, extracting\
+    \ the main points, and using that content to guide our discussions. \n\nThat's\
+    \ why I am considering that set of chats as an exam-like object where you\u2019\
+    ll have specific tasks to complete. If you don\u2019t complete those tasks, you\
+    \ will receive a lower grade, and it will be cumulative based on previous activities,\
+    \ which I think aligns with the legal definition of a test. \n\nAdditionally,\
+    \ this will prepare you for the Proposal Part, which is another requirement in\
+    \ this class structure. By this week, my aim is to have you hypothetically ready\
+    \ to start working on the actual poster with the level of detail it needs. It\u2019\
+    s the lecture material that has delayed me from providing you with anything today.\
+    \ I have all that content ready; it\u2019s just that uploading the videos takes\
+    \ a long time. I had to wait for the last one to upload, which I just put up this\
+    \ morning. I plan to have everything compiled and ready for you by next Wednesday,\
+    \ so we can discuss it in class, and you can ask questions and engage further.\
+    \ \n\nLeading into that, hypothetically by the end of Week Seven, which is next\
+    \ week, I will spend some time discussing the posters themselves. I will upload\
+    \ some templates into the server and ensure they are available in the relevant\
+    \ location on campus soon. But before I proceed, does anyone have any questions\
+    \ so far?"
+- dur: 180.0
+  end: 720.0
+  start: 540.0
+  text: "Sort of like concerns about stress levels, there are things that if you knew,\
+    \ you would feel more comfortable about your status here. Someone sent me an email\
+    \ asking about the poster structure itself, and that's what we're going to talk\
+    \ about today. Great, okay. \n\nSo, the poster itself\u2014these are just some\
+    \ examples that I found from previous courses taught. This is made more difficult\
+    \ because I don't have PowerPoint on this computer, but that's okay. We have that\
+    \ one. This is a PowerPoint slide. It is akin to PowerPoint or Google Slides.\
+    \ I think it's equivalent to Keynote on Mac. I'm sure a lot of you have PowerPoint\
+    \ slides in it. Long story short, the nice thing about something like PowerPoint\
+    \ is that it is a vector-based art tool. \n\nThis means that these visuals are\
+    \ defined not by pixels on an image\u2014like most images where, if you zoom in\
+    \ on them, you start to see the pixels\u2014but rather vector-based graphics are\
+    \ not like that. They are defined mathematically. For example, this curve here\
+    \ is not defined as a set of dots; it\u2019s defined as a mathematical definition\
+    \ of how to draw this shape. Everything on the PowerPoint page is defined in this\
+    \ way. \n\nThe advantage is that you can zoom it up infinitely, and you'll never\
+    \ see the pixels because it is not based on pixels. The opposite of vector-based\
+    \ is raster-based, which applies to most images. If you take a screenshot and\
+    \ zoom in, you can only zoom in to the level of the resolution of the image. Therefore,\
+    \ most posters are made with a vector-based visualization method. \n\nI would\
+    \ say PowerPoint is like the entry-level version of that or an equivalent of PowerPoint.\
+    \ For the vast majority of you, I would say almost all of you, except for someone\
+    \ who has a really specific interest in design, I recommend using PowerPoint or\
+    \ Google Slides. Just create a single page, a single slide that has information\
+    \ about your poster. If you're feeling fancy and want to do the professional version\
+    \ of this, the main professional vector graphics editor is Adobe Illustrator.\
+    \ You all have free access to the Adobe Creative Suite through your Northeastern\
+    \ email."
+- dur: 180.0
+  end: 900.0
+  start: 720.0
+  text: 'If you need help with access, just ask someone other than me how to get it.
+    You can download Creative Cloud and log in with your Northeastern account. However,
+    you need to go to a specific website and submit a request for a license. Unfortunately,
+    this process takes about a day or two. If you''re interested, you can proceed
+    with that.
+
+
+    There''s also Inkscape, which is a free alternative to Adobe Illustrator. I have
+    used it, and it has improved over time. When I was in graduate school, it wasn''t
+    very good, and I wouldn''t have considered it a viable alternative. However, I
+    think for basic usage, it might be helpful. Just don''t expect it to be at the
+    same level as Illustrator. Realistically, if you''re new to this area, you probably
+    won''t be using professional-level tools, so giving it a shot might be worthwhile.
+
+
+    Regardless of what you choose, the work you''ll be doing to prepare the content
+    for the poster will be independent of the software you use. If you try something
+    fancy and later decide you don''t want to go that route, you can always convert
+    it later.
+
+
+    Now, what should go on the poster itself? A poster is essentially a distillation
+    of a paper, which I believe is the best way to think about it for our class. However,
+    this doesn''t mean a poster can''t be other things. The default purpose of a poster
+    is to represent a particular study, typically one that you are conducting. You
+    will take it to a conference, display it, and hope people come by to talk to you
+    about it. I showed you some pictures of scientific conference poster sessions,
+    which illustrate the structure we are mimicking here.
+
+
+    At the end of the semester, around the week of April 7th, there will be a poster
+    session for all the inquiries classes. You will be assigned one of the days for
+    your presentation. You will present your poster alongside half of the students
+    from each other class. If you aren''t presenting, your assignment will be to circulate
+    and engage with the other posters.'
+- dur: 180.0
+  end: 1080.0
+  start: 900.0
+  text: "You know a certain number of posters from this class and a certain number\
+    \ of posters from the other classes, so you can get the experience of what that\
+    \ sort of process looks like and feels like. Yeah, so like I said before and I'll\
+    \ say it again, there\u2019s the default version of the assignment and then there\u2019\
+    s the part of the assignment where you can do whatever else you want to do. So,\
+    \ I'm mostly going to be talking about the default assignment, which is to pick\
+    \ a paper and present that paper as if you were a person. I don\u2019t know if\
+    \ the other class has specific guidelines on whether you need to role-play as\
+    \ a grad student in the lab or if you can just present your paper in the third\
+    \ person. But yeah, you also have the option to add more citations if you want\
+    \ or talk about other topics. If you want to use any of the data that we covered\
+    \ in this class as part of your poster, we can set that up. Basically, any of\
+    \ the data that you've seen before, before April 7th, I\u2019ll have that available\
+    \ where you can pull screenshots and discuss it. If you want to experience using\
+    \ actual data that you've been a part of as part of your presentation, that's\
+    \ a viable option. So, in terms of how to put the poster together, if you're taking\
+    \ a paper or topic area, how do you actually create a poster? There are instructions\
+    \ about that, which I think might include some instructions from other classes.\
+    \ The basic idea is that you\u2019re not supposed to include all the information\
+    \ from the paper on the poster. You don't want to have what we affectionately\
+    \ call a wall of text poster. We all know what it feels like to be confronted\
+    \ with a big wall of text; it's not fun, and it isn't helpful for you as a person\
+    \ coming in. Something that really needs to be driven home, repeatedly, is that\
+    \ the scientific process is primarily a process of communication. If you're..."
+- dur: 180.0
+  end: 1260.0
+  start: 1080.0
+  text: "When you are sitting alone in your lab, collecting data and running numbers,\
+    \ and never actually show it to anybody else, you're not really doing science.\
+    \ You're more like investigating and playing around with data. The process of\
+    \ science is fundamentally a process of communication. Presenting a poster or\
+    \ writing a paper is the traditional method for communicating science to others.\
+    \ Presenting a poster at a conference, in a sense, unofficially counts as a peer-review\
+    \ type of session. However, you can't claim that it's a peer-reviewed poster.\
+    \ You are, in fact, getting your work reviewed by your peers, meaning that others\
+    \ in the field will look at what you've done and have the opportunity to point\
+    \ out mistakes. This peer feedback is a cornerstone of scientific practice. \n\
+    \nI'm speaking from a somewhat jaded perspective, so I will describe this process\
+    \ in idealized terms. When you are translating your research into a poster, your\
+    \ job is to distill the information. You are the person who understands the project\
+    \ better than anyone else. If it\u2019s your research project, you likely comprehend\
+    \ the intricate details better than anyone else in the world. The individuals\
+    \ you communicate with will only have a few minutes, maybe 5 to 10 minutes at\
+    \ most, to engage with your work. If you look at events like the Society for Neuroscience\
+    \ meeting, there are thousands of posters. As an attendee, you can't possibly\
+    \ see them all. You will approach a specific area and engage with a select number\
+    \ of posters, spending only a short amount of time on each. So, you'll come up\
+    \ to a poster and ask about it, and your job as the presenter is to explain what\
+    \ the study was about and what the findings were. Ideally, this can be communicated\
+    \ in a way that someone listening could understand the study from start to finish\
+    \ in about 3 to 5 minutes. They should leave with a basic understanding of your\
+    \ study, such as what was done and what the results were. If you've done well,\
+    \ they will be able to summarize your research without needing to know all the\
+    \ intricate details. Therefore, there is a specific strategy involved in what\
+    \ you include on your poster. The key takeaways that the person walks away with\
+    \ should align with the main conclusions you want them to remember."
+- dur: 180.0
+  end: 1440.0
+  start: 1260.0
+  text: "In a study, you can present the same information in five different ways,\
+    \ allowing the person to walk away with five different beliefs. Hopefully, these\
+    \ beliefs will not be incoherent or inconsistent. You can focus on various aspects\
+    \ and ensure that you're packaging the information in a way that will make it\
+    \ understandable and memorable. Ideally, when they reflect on the study, they\
+    \ should say that it was about this person doing this thing and finding this result,\
+    \ which should align with your beliefs about the study.\n\nNow, I mentioned what\
+    \ would happen if the person stands there politely and doesn't say anything, which\
+    \ sometimes occurs. Typically, that's not necessarily an insult; especially at\
+    \ conferences, people may be tired and just want to grasp the main points. However,\
+    \ in general, in academia and the sciences, if someone starts to criticize your\
+    \ work, pulling it apart and picking at the details, it\u2019s actually a compliment.\
+    \ They care enough about your work to engage with it and ask questions. This can\
+    \ be off-putting, particularly for students who are accustomed to receiving grades,\
+    \ but when I ask a lot of questions, it's because I want to know more. I am invested\
+    \ in using my time, energy, and focus to do what I was trained to do as a scientist:\
+    \ peer review research by looking for problems and mistakes. My goal isn't to\
+    \ target those mistakes maliciously but to understand what\u2019s going on and\
+    \ ensure that the research is sound, as we aim to create new knowledge.\n\nThis\
+    \ brings me to the second part of the strategy. When you're presenting a poster,\
+    \ please do not just read the content to the person; that's not engaging for anyone.\
+    \ Instead, present it at a high level so that when the person asks questions,\
+    \ you have the answers ready. Even if you zip through your presentation and move\
+    \ past certain elements, there's a learning curve. The first time you present\
+    \ something, you might be surprised by the questions you receive; however, after\
+    \ a few conversations, you'll find that 90% of the questions tend to be predictable.\
+    \ Therefore, you should be prepared to answer those questions based on the data\
+    \ on your paper. For instance, I wouldn\u2019t want to spend time talking about\
+    \ the specifics, like how deep the water was in the maze or the exact dimensions\
+    \ of the apparatus, but if someone asks how deep it was, I should be ready to\
+    \ provide that answer without them even needing to ask."
+- dur: 180.0
+  end: 1620.0
+  start: 1440.0
+  text: "For that question, they can just look at the picture and get that themselves.\
+    \ Similarly, with a lot of the methods, that's often where you put details that\
+    \ you wouldn't necessarily say. You could mention, \"Oh yeah, we have this rat\
+    \ doing this thing in this maze,\" but the details are there so the person can\
+    \ just kind of skim them and understand the answer. I will say that there should\
+    \ be some kind of methods section, which should include a visual representation\
+    \ of what you actually did in the study. This is a good example because I know,\
+    \ by looking at this, that you examined mice in a water bucket with a camera.\
+    \ You could easily have skipped this type of information, saying, \"Oh yeah, you\
+    \ have this with a camera,\" and I know there were three conditions: one was a\
+    \ sham, meaning they didn't do anything; one was injured; and one was whatever\
+    \ this condition is. Now I have a sense of what it is that you actually did. \n\
+    \nIt's really easy, when you know something too well, to skip the parts. I call\
+    \ it skipping Step Zero. The immediate questions that anyone coming in would ask\
+    \ are often the first things you forget to explain when you get into the details.\
+    \ For example, you can show the results, but I could be halfway into my conversation,\
+    \ and then the person asks, \"Wait, are these mice, are they rats, are they fruit\
+    \ flies, are they on a treadmill, are these C. elegans?\" They start asking questions\
+    \ that show it\u2019s clear they don\u2019t even know basic aspects of what I\
+    \ did, which was standing in a room with mice in a water bath. \n\nTherefore,\
+    \ the methods section should always include something that clearly explains what\
+    \ that is. In my preference, this is typically figure one in whatever paper you're\
+    \ looking at. This isn't always the case, but I think this is true for papers\
+    \ as well. Figure one or something very close to figure one should be some kind\
+    \ of picture that clarifies what you're actually doing, and the results should\
+    \ have some representation of the data that was recorded. Generally, you want\
+    \ there to be some nice harmony here. \n\nThis is also typically where it's your\
+    \ job to choose the most important data. For many papers\u2014and certainly for\
+    \ numerous studies\u2014you produce a lot of data and various visualizations showing\
+    \ different aspects related to the data you recorded. Whatever paper you choose\
+    \ could have five, six, ten, or more figures of data in it, but your job is to\
+    \ understand what the main figure is, what the main result is. If I can only show\
+    \ one or two results from this, you have to figure out what those are."
+- dur: 180.0
+  end: 1800.0
+  start: 1620.0
+  text: "In your paper, the results should support the conclusions, and keep your\
+    \ directions clear if that is appropriate for the study itself. The introduction\
+    \ is typically an explanation of why the study was conducted. This section is\
+    \ where you can include citations, indicating, for example, that you conducted\
+    \ the study in relation to another study with different findings. You might say\
+    \ that previous papers suggested a certain effect is true, and therefore you conducted\
+    \ this study to test that effect. Breaking the study down into research questions\
+    \ and hypotheses is fine, but it is not necessary for every study. It\u2019s important\
+    \ to delineate those elements if they are present.\n\nThen, include a method section\
+    \ that describes what you did, followed by a data representation that highlights\
+    \ the main results. Finally, provide a conclusion that reflects what you believe\
+    \ to be true based on the study. This part articulates the new proposed fact about\
+    \ the world that your research suggests. You should hope that after going through\
+    \ this journey, the readers will also believe your conclusions, agreeing that\
+    \ the ideas you present seem reasonable and well-supported. If enough people are\
+    \ convinced by your narrative, it may become considered a \"scientific fact,\"\
+    \ which should always be approached with caution, as scientific facts can be proven\
+    \ wrong over time. Nevertheless, we strive to do our best at the moment.\n\nGenerally\
+    \ speaking, you'll rarely read a poster to someone directly. If it\u2019s your\
+    \ poster, don\u2019t read it aloud\u2014find another way to engage with your audience.\
+    \ The intention behind the poster is to ensure that if someone reads it from start\
+    \ to finish, they will understand the story you are attempting to convey. During\
+    \ your actual presentation, the poster serves as an aid for you in explaining\
+    \ your work. It helps you remember what you need to discuss and provides you with\
+    \ data to reference. This process entails using representative data, which is\
+    \ strategically selected data highlighted in your presentation, along with some\
+    \ measure of the statistical analysis conducted on that data. As a researcher,\
+    \ you have the responsibility to ensure that you are trustworthy and that your\
+    \ methods are credible."
+- dur: 180.0
+  end: 1980.0
+  start: 1800.0
+  text: "Appropriately documented, you are allowed to look at the big body of data\
+    \ that you have and pick a particular recording that is representative of what\
+    \ you're trying to show. In this case, they put mice in a water bucket, and then\
+    \ they had to learn where the platform was so they could get out of the water.\
+    \ In our case, we were doing tasks like the jumping task or the standing task.\
+    \ For the standing task, we recorded 25 different participants, and each of them\
+    \ did 10 different repetitions, which amounts to around 200 trials. You can go\
+    \ in and pick one trial or even one section of one trial that exemplifies the\
+    \ effect you\u2019re trying to show. Then, clean that up and state that it represents\
+    \ data from a subject in the participant study. However, without additional support,\
+    \ this is anecdotal; you are merely picking one from a set of a thousand options\
+    \ and saying this is the one that looks like the story you\u2019re trying to tell.\
+    \ That's not really evidence on its own. Therefore, you want to back that up by\
+    \ having some kind of statistical measure that looks at all 1,000 trials you conducted,\
+    \ appropriately comparing subjects to subjects and conditions to conditions. This\
+    \ is where you start having statistical power and statistically supported statements.\
+    \ This data provides the real grounding for knowledge generation. It is beneficial\
+    \ to pair both approaches because the representative subject data helps to clarify\
+    \ your points, whereas the statistical data shows that this is a phenomenon that\
+    \ occurs in general. However, results will always vary based on the studies that\
+    \ you are conducting.\n\nYou will want to see posters. Generally, if you walk\
+    \ around a department in the school, you will see posters on the walls. People\
+    \ typically display their favorite posters outside their labs. You can walk around\
+    \ and take a look at what they look like, getting a sense of the various styles\
+    \ available and the choices made. You will observe some posters with a lot of\
+    \ words and others with very few. I recommend just doing that\u2014take whatever\
+    \ hours you want to walk through the different departments of the school, and\
+    \ you will typically find posters on the walls that you can examine."
+- dur: 180.0
+  end: 2160.0
+  start: 1980.0
+  text: "Different conferences have different poster sizes. I've attended some where\
+    \ the posters are 6 feet by 4 feet, which is very large, and others where they're\
+    \ 3 feet by 3 feet, which is very small. I want to say that our posters are 24\
+    \ by 36 inches, which is about this big, but I can't recall for certain. I'll\
+    \ look that up because it's relevant information to have. However, this primarily\
+    \ affects the font size you use. Again, with the vector scale stuff, the actual\
+    \ size shouldn't matter too much. You want to ensure that the font size is readable\
+    \ and not oppressive. \n\nAlso, just Google \"scientific poster,\" and you'll\
+    \ find a lot of examples. There are many layers of explication and tutorials on\
+    \ how to create a good poster, which will all be relevant here. The exception\
+    \ is that you won't be writing the paper yourself; a lot of this will involve\
+    \ copy-pasting from the paper itself. Just get the figure and put it up; then,\
+    \ the section in the bottom right will be where you put your citations, which\
+    \ will be generated from Zotero or whatever else you choose. \n\nSo, we will go\
+    \ through this together. The poster needs to be uploaded by Tuesday, March 25th.\
+    \ This means you'll upload a PDF that will then be printed. I believe they charge\
+    \ around twenty dollars for this, but I can't remember the exact amount\u2014\
+    I will find that number out as well. The upload is due on Monday, two weeks before\
+    \ the actual poster session. This is mostly because the printing office handles\
+    \ hundreds of posters for the course, so we want to ensure they have enough lead\
+    \ time to get everything done, in case anything goes wrong. There will be instructions\
+    \ provided on how to do that and all the necessary details. Additionally, I'll\
+    \ drop these into the Discord server before I post them elsewhere."
+- dur: 180.0
+  end: 2340.0
+  start: 2160.0
+  text: "Canvas is available. Please load up any questions or confusions. Okay, so\
+    \ I create my poster on one paper. I just do that on paper. Are there any others?\
+    \ Not really. The base level assignment\u2014so they had a couple. Was that they\
+    \ only reference it in the introduction? I'm actually looking for that because\
+    \ I can't see where these citations actually happen in the poster. I guess this\
+    \ might be something I can't remember. So I would actually say this may have just\
+    \ been incorrectly done because you're supposed to cite stuff here. But again,\
+    \ for this assignment, it's a little bit weird. The default assumption is that\
+    \ there's only going to be one citation here, and it's the citation of the actual\
+    \ paper where you got the information from. I would still say you should cite\
+    \ it somewhere, either in the introduction or in the conclusions, stating something\
+    \ like, 'this study did this.' You just have the one citation, like CH et al.,\
+    \ 2018, cited somewhere in the text. So the default assumption is that it's just\
+    \ the one paper. It\u2019s also the case that as you go into your paper, there\
+    \ might be some other obvious choices to cite. For instance, future directions\
+    \ could mention follow-up studies that were done after this that should be cited.\
+    \ In their introduction, they might say they're doing this because of that other\
+    \ paper, and then you can cite that one too. If you find there's a method used\
+    \ that you don't understand and you go find a review article explaining how that\
+    \ method works and how it's used, that\u2019s a good thing to include as a citation\
+    \ somewhere in your development of the poster. Citations in this context are often\
+    \ used as a sort of rubric\u2014like you must have this many to make it valid.\
+    \ But that's not how we use it in the real world. You cite stuff that you've used\
+    \ to understand all the work in this poster that I'm presenting and the research\
+    \ I'm presenting."
+- dur: 180.0
+  end: 2520.0
+  start: 2340.0
+  text: 'I am building this study and this knowledge on the basis of the materials
+    that I have read before. I am constructing this on other people''s work, and because
+    of that, I need to cite it. If you are trying to determine whether you should
+    trust the resource that I am presenting, I must inform you that the information
+    I am providing relies on work that has come before me, and this is that work.
+    Hypothetically, if you truly do not trust someone when they present their data
+    to you, you can go back and review all the sources they depend on. This is where
+    the concept of citation networks comes into play. Any study that has a certain
+    number of citations allows you to navigate through other studies, facilitating
+    exploration of all the empirical work that has been conducted since, at least,
+    the 1800s when tracking this kind of information began.
+
+
+    For the strict assignment, it is just one requirement. In general, when it comes
+    to posters, the citation process is less formal. Posters are usually treated as
+    a more informal type of presentation. Not always, but some conferences take them
+    quite seriously. However, for those that do, the posters are typically paired
+    with a paper. For instance, you write a six-page paper to accompany a poster,
+    and the poster itself is generally printed just for the conference as a tool for
+    discussion. They usually do not enter the official records of a scientific society
+    or similar formal archives. Hence, they are often treated as much more informal.
+
+
+    The actual, proper review process takes place at the level of articles and papers.
+    Does that make sense? Are there any other questions, thoughts, or feelings? Cool.
+    I will ensure to plan some time in this two-week period, likely at the beginning
+    of this week. I will schedule something in this timeframe to practice your poster.
+    I will try to do it the week before it is due because often, after creating the
+    poster, you start explaining it and realize that it does not reflect what you
+    intended at all. We can conduct some kind of practice session.'
+- dur: 180.0
+  end: 2700.0
+  start: 2520.0
+  text: "The demo run will probably take place this week, so you'll have a chance\
+    \ to go through it with your peers before presenting it in person. It is also\
+    \ absolutely standard experience that when you're presenting a poster for the\
+    \ first time, the first couple of people you present it to get the worst version\
+    \ of the story. Generally speaking, by the end of the session\u2014which can last\
+    \ three to four hours for a lot of conferences\u2014you will have the story of\
+    \ your research down perfectly. If you ever find yourself going to a conference\
+    \ and presenting a poster, I urge you to do yourself the favor of taking notes\u2014\
+    voice notes, text notes, whatever you can\u2014about what you've been discussing\
+    \ in your poster, right after the poster session. The story you're trying to tell\
+    \ will never be clearer in your mind than it is after you\u2019ve gone through\
+    \ it multiple times.\n\nThis is relevant within the context of how science operates,\
+    \ particularly from a practical, communal perspective. Often, the purpose of a\
+    \ poster session is not just to present finished work, but to refine your message.\
+    \ Most of the time, when you're presenting at a conference, you're discussing\
+    \ work that is still in progress. Depending on the timeline, ideally, you should\
+    \ be presenting things that are not quite finished yet, meaning they aren't published\
+    \ or peer-reviewed, but rather the paper that you're currently writing. The poster\
+    \ session, in particular, is a really great opportunity to hone the story you're\
+    \ telling.\n\nWhen you\u2019re discussing your methods, for instance, you might\
+    \ describe it a certain way initially, and people don\u2019t really grasp it.\
+    \ Then, you might find a turn of phrase that gives clarity, making it understandable\
+    \ to everyone. That\u2019s the way you want to articulate what you're doing. It's\
+    \ very common, especially for graduate students, to initially provide too much\
+    \ detail. Over time, you'll learn which details can be omitted to help your audience\
+    \ understand the core message with minimal time investment. This skill is crucial\
+    \ as you develop your presentation abilities, especially early on in your academic\
+    \ career when you start presenting research."
+- dur: 180.0
+  end: 2880.0
+  start: 2700.0
+  text: The amount of time spent discussing a particular area is proportional to the
+    amount of time that was spent working on that area. However, that's almost never
+    what you should do. It's possible that whoever these people are spent a good four
+    to five months trying to figure out how to stop the water from leaking out of
+    the stupid thing. They kept using something that wasn't working until they finally
+    figured out the glue, and then after that, the data just kind of fell out of it.
+    When they give the presentation, they're going to spend the first half of the
+    conversation talking about all the glue they had to use and how they managed to
+    get the water up to the right level. That part shouldn't even be a part of the
+    conversation. Sometimes when I'm giving a presentation, I simply say, 'This slide
+    transition was six months of my life,' and then I just show the result where it
+    worked, omitting the fifteen iterations of failed attempts that I had to go through
+    before I got the version that worked. If the things you did to make it work are
+    interesting, you might want to document them elsewhere, but a poster is almost
+    never the right time for that. There may be a case where someone asks, 'How did
+    you get your stupid thing to fill up? Ours keeps leaking.' That's when you can
+    say, 'Oh yeah, we used this glue and not the other glue.' You can include a very
+    long methods section in the paper you publish, where you can explain why you had
+    to use this glue and not the other one. The process of distillation is really
+    the crux of this assignment. It is your job, as the ambassador of this research
+    study, to make the judgment call about what's the most important part and what
+    narrative we're trying to pursue here. Okay, are we good? Cool. We will have plenty
+    of opportunities to talk about this in your specific cases. Now, with all that
+    said, let's look at a paper. We have approximately forty minutes left, and I'm
+    going to attempt to examine two separate papers, which may not be the best idea
+    because I've already mentioned this is going to have an 'and' in the lecture.
+    However, I love the papers I'm discussing and I really want to dive deeply into
+    them. Nonetheless, I think it's fun to do the quick.
+- dur: 180.0
+  end: 3060.0
+  start: 2880.0
+  text: Run through. So, we'll do that, and I'll try to keep myself to a particular
+    time. I will also finish up a thought I meant to have about half an hour ago.
+    After we do this sort of aside around the papers, the assignment, and the exam
+    object, we're going to transition into vision stuff, like eyeballs. I'll bring
+    in an eye tracker, and we'll talk more about visual neuroscience. I will record
+    semi-tracking data, similar to how we did before. It's going to have a bit of
+    a different vibe there, just because of the nature of the equipment and the data.
+    But we're going to do vision stuff, which is always fun. Vision, and specifically
+    eye movements, which are technically a part of motor control because it involves
+    muscles, but it's an interesting space there. Okay, so in 20 minutes or less,
+    which will put us at 4:10, I'm going to look up C prot CPG, which is one of those
+    things I forgot for that moment.
+- dur: 180.0
+  end: 3240.0
+  start: 3060.0
+  text: "Storing volary, there we go. In 2012, this used to be a new study; now it's\
+    \ old. That's not that old; it's just over a decade at this point. So, this is\
+    \ a paper published in Science, which is one of the bigger journals out there.\
+    \ There are two journals that are categorically the biggest and most prestigious:\
+    \ Science and Nature. That sort of cultural reality of having a biggest thing\
+    \ is generally toxic and leads to a lot of bad outcomes. Nonetheless, if you see\
+    \ something published in Science or Nature, that's a good and prestigious study.\
+    \ Generally speaking, the more generic the name of the journal is, the more prestigious\
+    \ it is. So, the Portuguese Study of Ankle Prosthetics Research is generally going\
+    \ to be of lower prestige than the Journal of Prosthetics, which will be lower\
+    \ prestige than the Journal of Biology, which leads to Science and Nature being\
+    \ about as big as you can get in that space. Also, Cell is a very good journal\
+    \ for biology.\n\nBecause we are on campus, I can just download this here, but\
+    \ for fun, we're going to go to Scub and input it that way. I'm using this dark\
+    \ reader tool, so I'll turn that off for a normal look. I have about 15 minutes\
+    \ to go through this; I probably won\u2019t get to a second article, but we\u2019\
+    ll see. This is kind of normal. When you download the PDF, the front page is just\
+    \ kind of like information about the study: title, author list, journal, etc.\
+    \ There are links to things like supporting material and other references that\
+    \ cite this article. With modern papers, typically there's going to be supplemental\
+    \ data or supplemental methods and so forth. Modern contemporary journal articles\
+    \ tend to have very constrained lengths, so the core studies are typically going\
+    \ to be quite short."
+- dur: 180.0
+  end: 3420.0
+  start: 3240.0
+  text: 'Unless it''s like a journal review or an older paper, that all varies very
+    much by journal. To kind of get around that, they''ll often have supplemental
+    materials, so, like, either the methods will not be a part of the word count or
+    you have the opportunity to present additional data there. What I''m going to
+    do now with this study, because I know this study quite well, is give you a high-level
+    overview of this paper that ideally will be fast enough to cover in the next 15
+    minutes, comprehensible enough for you to follow the story despite not being particularly
+    trained in this area, and ideally a fair and honest representation of what was
+    actually done. This way, if you took the time to read the paper in depth and get
+    through all the nitty-gritty, you would come out of it saying, "Oh yeah, everything
+    that John said about this is an accurate representation." I''m creating a cartoon
+    narrative of the study so that I can present it in a way that will stand on its
+    own. If you became an expert in this area and on this paper, ideally you would
+    be able to evaluate my choices of cartoonification and understand why I chose
+    this form of explanation and not some other. This study is about the spinal cord;
+    in particular, it''s looking at spinal cord injury and trying to address something
+    like what has been a sort of Holy Grail type of issue for quite some time: the
+    ability to heal spinal cord injuries. When you experience an injury or get into
+    an accident that damages your spinal cord, you may lose control of your limbs
+    below that area. You might lose control of your legs or even your whole body,
+    depending on where that injury occurs. We would really like it if we could correct
+    that in some way, similar to how we can heal a broken ankle or repair damaged
+    muscles or skin. This paper presents the abstract; different journals format this
+    in various ways. This journal doesn''t even label it as the abstract; they assume
+    you know that. Sometimes it might be called a summary or referred to by something
+    else. I noticed that on the actual website they''re...'
+- dur: 180.0
+  end: 3600.0
+  start: 3420.0
+  text: "Giving a sort of high-level summary in addition to the abstract, all the\
+    \ information should, really speaking, be there. This study builds on the application\
+    \ in the space of trying to heal spinal cord injury. However, this study is not\
+    \ looking at patient populations; they are not looking at people who have spinal\
+    \ cord injuries. They are looking specifically at rats. If you look at any of\
+    \ these numbers here, they are the citations, and if you scroll to the end of\
+    \ the paper, they will correspond to the actual citations. These are in science\
+    \ format. Sometimes you\u2019ll see citations in the format of author-year, like\
+    \ Mathis et al. 2019, which is APA format. This is a more engineering style, literally\
+    \ made to be shorter. If you look at these citations, they will reference clinical\
+    \ studies and medical studies, but they are not themselves doing research on humans.\
+    \ This is an application with a basic science motivation where they are trying\
+    \ to increase theoretical understanding, but they are doing it in service of being\
+    \ able to move towards this applied goal. They are building on a history of studies\
+    \ of Central Pattern Generators in mammals. Those Central Pattern Generators exist\
+    \ in pretty much all animals, not necessarily all animals, but many. They generally\
+    \ refer to neural architectures that generate rhythmic activation, which is some\
+    \ sort of metronome type of activity, the basis of a lot of motor behavior and\
+    \ general life. This is a really fun animation of an ant walking with an alternating\
+    \ tripod gait. The red represents one tripod, and the blue represents another\
+    \ tripod. This is how insects operate, and that\u2019s a rhythmic behavior. Breathing\
+    \ is a rhythmic behavior; most forms of locomotion and flapping are rhythmic behaviors.\
+    \ It\u2019s the kind of thing that is present down to invertebrates like insects\
+    \ and also present up to mammals like us."
+- dur: 180.0
+  end: 3780.0
+  start: 3600.0
+  text: 'Spinal central pattern generators, or CPGs, in cats, and this particular
+    study follows a specific branch of ways to study the idea of central pattern generators
+    as they exist in the spines of invertebrates. There is a general question surrounding
+    the presence of CPGs in lower animals. We can study them very carefully in those
+    animals because they are simpler; we can open them up and observe these processes
+    occurring. However, this raises the question of what role these types of neural
+    architectures play in more complex animals, like mammals, which have many more
+    neurons and exhibit more complex behaviors, yet share a similar evolutionary history.
+
+
+    This is a video that is quite old, representing a different era regarding animal
+    rights. It shows a cat that has been decerebrated. It is difficult to see, but
+    this is the cat being supported by these wires. The cat has had its spinal cord
+    severed; the brain is here, the cerebellum is here, and then we have the spine
+    and the legs. During this era, they would surgically cut the spinal cord to prevent
+    any information from reaching or coming from the legs to the brain. The legs remain
+    connected to the spinal cord.
+
+
+    The interesting result here is that if the cat is supported and walking on a treadmill,
+    its hind limbs still engage in rhythmic locomotion. They continue walking due
+    to the sensory-motor loops functioning from the feet through the spine and back.
+    This outcome challenges much of our intuition about how the spine works; we often
+    think of it merely as extension cables leading from the brain down to the muscles.'
+- dur: 180.0
+  end: 3960.0
+  start: 3780.0
+  text: "The type of information shows that there is processing happening in the spinal\
+    \ cord, which is a part of the central nervous system. It can handle simple tasks,\
+    \ such as the sensory information coming from the feet. This information is enough\
+    \ to generate the behavior that allows the feet to move. For instance, if I'm\
+    \ being pushed backwards, at a certain point, I should lift up, go forward, and\
+    \ come down again. The two limbs are reciprocally activated by central pattern\
+    \ generators in the spine. This means that a cat can walk despite having no cerebral\
+    \ implant in its spine for the back legs. As the treadmill speeds up, the cat\
+    \ speeds up as well. Just think about that; it seems perturbing and feels wrong.\
+    \ It\u2019s a wild result, and it absolutely is baffling on many levels. This\
+    \ is why I enjoy studying this so much. Often, in empirical investigations, we\
+    \ encounter unexpected results that lead to the best discoveries. Despite the\
+    \ strangeness of this study, it is also well-established; we've known for quite\
+    \ some time about these central pattern generators that govern movement. They\
+    \ handle basic trade-offs, such as the limbs transitioning from stance to swing.\
+    \ Active areas of research have been focused on understanding these spinal central\
+    \ pattern generators\u2014how they operate and the connection between the brain,\
+    \ the upper level of the brain, and the lower level of the spine, including the\
+    \ peripheral nerves. Over time, there have been changes in animal rights regulations.\
+    \ At some point, it was decided that cats should no longer be used in certain\
+    \ types of research. The rules regarding animal ethics have evolved..."
+- dur: 180.0
+  end: 4140.0
+  start: 3960.0
+  text: "It's interesting and complicated. I'll talk about them at some point, but\
+    \ there are rules about which animal you're allowed to use for which study. There\
+    \ are some strange designations for higher-level versus lower-level animals. Typically\
+    \ speaking, the closer you get to a human-like animal, the more stringent the\
+    \ standards are. We do still use non-human primates for neuroscience research,\
+    \ but we don't use apes and chimpanzees. If you want to conduct monkey research,\
+    \ you really have to justify that the research needs to be done on a non-human\
+    \ primate. At some point, it was decided that you can't do it on cats anymore,\
+    \ so similar research is now conducted with rats. This particular study was done\
+    \ with rats. By the way, there is a really fun TED Talk about it, where Greg Lut\
+    \ presents in a very smarmy French style, which is a good presentation if you\
+    \ can get past the typical TED Talk format. He does a good job of telling an interesting\
+    \ story. However, the way he tells his story is not the same as how I tell mine.\
+    \ I want to point out that I am narrating this story as I have internalized it;\
+    \ I am a particular individual scientist with a specific background and area of\
+    \ the world I\u2019m trying to make sense of. When I tell you the story about\
+    \ this paper, it will differ from how the authors of the study would tell it or\
+    \ how someone with a different background and interest would present it. There\u2019\
+    s this context of narrative that keeps coming up, which feels unexpected in discussions\
+    \ about scientific empirical studies. Remember, this research is all being conducted\
+    \ by humans, and we only remember stories that make sense to us. I\u2019m going\
+    \ to highlight a particular aspect of this study that I found motivating. Since\
+    \ I have a little more time, I also want to discuss the structure of this paper.\
+    \ These are all the authors of the paper, and they all contributed in some way.\
+    \ The person at the front is the first author, who typically serves as the owner\
+    \ of the project\u2014generally a graduate student or a postdoctoral researcher.\
+    \ The last author is often the senior author, which is common, though not always\
+    \ the case. This can be somewhat field-dependent, but in most biology-related\
+    \ neuroscience studies, the last author is typically the person who runs the lab\
+    \ where the study was conducted."
+- dur: 180.0
+  end: 4320.0
+  start: 4140.0
+  text: 'The first author is typically the person in the lab who did most of the work.
+    However, this can vary dramatically by paper, by field, and by other factors.
+    If you are in graduate school or a postdoc, you will be considering your first
+    author publications differently from your non-first author publications. The middle
+    authors are typically individuals who contributed in some way but were not the
+    primary researchers of the study.
+
+
+    Once you start publishing papers, people will begin asking you questions about
+    how many first author publications you have compared to second author publications.
+    Typically, you will have more second author publications than first author publications.
+    When you reach the point of running a lab, people will start asking about how
+    many last author publications you have, which indicates whether you are effectively
+    training others in the work.
+
+
+    This is very field dependent. For instance, mathematicians publish their papers
+    with authors listed alphabetically, which I find quite interesting. What I am
+    describing here reflects standard cultural practices in contemporary scientific
+    publishing.
+
+
+    In the citations, you will see numbers corresponding to where the work was completed,
+    often indicating that most of the work was done in Switzerland. There may also
+    be a notation indicating that certain authors contributed equally to the work,
+    though I can assure you that discussions about who gets to be first author often
+    take place despite these notations.
+
+
+    Another important aspect is the corresponding author. This symbol indicates that
+    if you have questions about the paper, you should contact this specific author.
+    You will find this typically included as well.
+
+
+    Finally, from a structural perspective, there is always going to be an acknowledgment
+    section somewhere in the paper, where authors thank individuals who helped with
+    specific aspects of the work. They should also cite their funding sources, indicating
+    where the money came from. In this case, they list several grants from European
+    research councils. This illustrates the often expensive funding processes, and
+    there will generally be acknowledgments such as thanking the NIH for providing
+    grants or other financial support.'
+- dur: 180.0
+  end: 4500.0
+  start: 4320.0
+  text: 'Typically, this is another place where you say, "Hey, thanks for giving me
+    this grant," and you mention the grant number. For public grants, which most of
+    these are, you can look up the grant that was written to fund this research and
+    see what they were discussing. This is just another way that people stay connected
+    to the larger community when publishing particular papers. Modern papers also
+    tend to include sections that list out what each author contributed. For example,
+    one author might have helped collect the data while another wrote the manuscript.
+    There will usually be a paragraph or two detailing what each author did to earn
+    their spot on the author list.
+
+
+    Now, regarding this particular study, this is your Figure One. This style of figure
+    is very common in journals like Science and Nature because those journals are
+    very short and dense. Specifically, this is a report, which generally means the
+    journal has articles that are full-length and reports that are of shorter length,
+    as well as brief communications that fall somewhere in between. This particular
+    report is not the longest format; it''s in a shorter form. The entire study is
+    five pages long, including the front page, so there are only four pages of written
+    text. When you look at the supplemental documents, they will typically resemble
+    a Microsoft Word document that has been converted to PDF and can comprise dozens
+    of pages.
+
+
+    This study features a figure that is very dense, with numerous sub-panels and
+    includes a professional-looking animation or visualization, which is very indicative
+    of this type of journal. In contrast, if you go to more standard journals, like
+    the Journal of Biomechanics or any other specific journal, the figures will generally
+    appear as if a regular person made them rather than a professional graphics design
+    team, which is the case here.'
+- dur: 180.0
+  end: 4680.0
+  start: 4500.0
+  text: "When I look at a new paper, I will examine the title and check who wrote\
+    \ it to see if I recognize any names or where they are working. I read the abstract\
+    \ and then skim the paper. I usually start by looking at the figures. I typically\
+    \ do not sit down with a new paper and read it from start to finish like it's\
+    \ a novel; that's not how we usually interrogate scientific papers. It\u2019s\
+    \ kind of like JPEG compression\u2014you skim at different levels to get the full\
+    \ picture and then choose to zone in on different levels of analysis and parts\
+    \ of the paper. Science is not clickbait. When we write a good paper, the title\
+    \ is a summary, the abstract is a summary, and then the paper contains repetitive\
+    \ summaries within it.\n\nSo we\u2019re going to look at this; this is figure\
+    \ one, which will be referenced in the article somewhere. Figure S1 is a supplemental\
+    \ figure. They are even citing figures that are not in the main article; you have\
+    \ to go to the supplemental information to get the results. But this is the first\
+    \ one I\u2019m seeing. Figure 1C represents this figure, and the letters correspond\
+    \ to sections. The figure will always have a caption, which includes a one-sentence\
+    \ summary of what we\u2019re looking at, and then each lettered subsection has\
+    \ a little write-up of what\u2019s going on in that section.\n\nGenerally, figure\
+    \ one should always be a methods figure, and it should ideally have representative\
+    \ data. This one is doing both; it serves as both a methods figure and a representation\
+    \ of representative data. Now, looking at what they were actually doing here:\
+    \ they are examining central pattern generators in mammals, specifically in rats,\
+    \ as they use rats for this study."
+- dur: 180.0
+  end: 4860.0
+  start: 4680.0
+  text: "Their model organism is not focused on rats; they are using rats as a proxy\
+    \ animal. They believe that rats have sufficient complexity that, if we learn\
+    \ something about how something works in a rat, it will be helpful in developing\
+    \ a treatment for humans. I happen to know that, if you look at what this researcher\
+    \ has been up to recently, they have been able to apply these findings in humans.\
+    \ I think they are actually getting to the point where they are restoring voluntary\
+    \ control of locomotion after a paralyzed spinal cord injury. I haven't checked\
+    \ in on them in a couple of years, I guess, but this researcher is one of those\
+    \ leading figures in the field. If you go to the Society for Neuroscience (SFN)\
+    \ meeting, he has several rows of people working in his lab. It\u2019s like a\
+    \ business owner type of scenario, which creates a very different vibe than a\
+    \ lab like mine that has just three people in it. I wouldn't want to run a lab\
+    \ like that; it sounds overwhelming.\n\nSo, the idea was, they took the rats and\
+    \ gave them a surgical spinal cord injury. They performed the surgery and created\
+    \ an injury that damaged their spine and severed all the fibers going to their\
+    \ brain. This is a picture of the central nervous system of a rat. These are the\
+    \ two lobes of the brain, and the spinal cord itself is represented here. The\
+    \ clever part of their approach is that instead of making a single cut across\
+    \ the spine, they made two cuts: one at about 60% of the way through the spine\
+    \ and then a little bit below, creating another cut. This way, all of the fibers\
+    \ that go through this section are severed, but they are not completely removing\
+    \ tissue. There is still hypothetically a path for the fibers to regrow and reconnect.\
+    \ If it were possible for these fibers to kind of regrow and reform, then you\
+    \ could theoretically have recovery potential."
+- dur: 180.0
+  end: 5040.0
+  start: 4860.0
+  text: "A signal comes from here and bypasses these injury points, getting back up\
+    \ to the brain. The idea was that this process is similar to what was shown in\
+    \ the cat video. They performed surgery on these rats, using a scalpel to make\
+    \ cuts in certain areas. In the study, an adult rat received a left lateral hemisection\
+    \ at thoracic vertebrae T7 and a right lateral hemisection at T10. If you understand\
+    \ the terminology, you can see that \u2018hemisection\u2019 means slightly more\
+    \ than half, indicating they went beyond the halfway point. \n\nThey then placed\
+    \ the rat in this little robotic gait entry system. This system resembles the\
+    \ 2012 version of the wire support and treadmill setup used in the cat study.\
+    \ Essentially, they were able to create a mechanism similar to a 3D printer, where\
+    \ the motor control moves over a two-dimensional plane and then lowers to provide\
+    \ support. It supports the rat's partial body weight, ensuring it is not completely\
+    \ off the ground, nor does it bear its full body weight. This setup allows the\
+    \ rat to turn while maintaining body weight support. It consistently detects what\
+    \ is happening and ensures the rat has 10 to 20 percent of its body weight on\
+    \ the ground. As a result, we are not surprised to learn that even after these\
+    \ modifications..."
+- dur: 180.0
+  end: 5220.0
+  start: 5040.0
+  text: "The activity is held upright so it walks in a bipedal way, which would be\
+    \ cute if it weren't so mob-like. This is what intact means: not chopped up. The\
+    \ intact animal's behavior looks like this. The trajectories in blue here represent\
+    \ the trajectories of the feet. We are not shocked to learn that even after an\
+    \ injury, they can still walk decently, okay? If you put them in a little robotic\
+    \ device and drag them along, they can walk just fine. There's a complicated electrochemical\
+    \ process that they incorporate into their spine to ensure that the neurons remain\
+    \ active and healthy, firing hard enough to move the limbs. What they found with\
+    \ those cats is that, even though the video you saw was probably right after the\
+    \ surgery was done, typically, the behaviors extinguish over time. After a couple\
+    \ of hours or days, and I think no more than weeks, the cat would stop demonstrating\
+    \ that behavior, and if you put it back on the treadmill, it would just kind of\
+    \ wind up dragging its feet. One of the results they built on from their own lab\
+    \ involved creating a combination of a pharmaceutical cocktail and a specific\
+    \ electrical stimulation pattern. This allows them to keep the deactivated animals\
+    \ performing this movement for a sort of arbitrary amount of time. So, that's\
+    \ the main setup. We have these deactivated animals that can perform this walking\
+    \ task, which is good for them. However, while all of this is cool, none of it\
+    \ is shocking; this is all stuff we already knew when we showed the cat video.\
+    \ The specific goal they are trying to achieve is to restore the animals' ability\
+    \ to initiate walking. Much of the previous work involved dragging them along\
+    \ on a treadmill so they receive the necessary stimulus\u2014the dragging of the\
+    \ feet leads to sensory signals that prompt them to take steps. However, the rat\
+    \ cannot just sit there and decide to start walking forward. They are trying to\
+    \ restore that ability. There's a lot going on in terms of methodology, which\
+    \ has too much depth for me to go into, but I will say they then divided the animals\
+    \ into two groups."
+- dur: 180.0
+  end: 5400.0
+  start: 5220.0
+  text: "One of the groups of animals was in the control condition, which involved\
+    \ training. They would perform surgery on them and provide them with an electrochemical\
+    \ prosthetic that allows them to continue walking. Then, they would put them in\
+    \ a robotic suit and have them complete movement training, taking a series of\
+    \ steps in a row. The other group, which is where the main interesting point of\
+    \ the paper comes in, also underwent a matched amount of training, taking the\
+    \ same number of steps. However, before they began the robotic assistance, the\
+    \ researchers would place chocolate in front of their faces, as rats apparently\
+    \ enjoy chocolate. Seeing the chocolate, the rats would express their desire to\
+    \ it, and then the robot would pull them forward, prompting them to perform the\
+    \ stepping behavior. After completing the task, they were rewarded by being allowed\
+    \ to eat the chocolate that had been presented. Thus, we have two matched groups\
+    \ of rats: one was trained and performed steps using the robotic gantry system,\
+    \ while the other completed the same steps but received a motivating food reward\
+    \ for their actions. In the last two minutes of class, if we examine the results\
+    \ closely, we find that the animals who only engaged in the basic training did\
+    \ not improve; eventually, their behavior became extinguished, and they never\
+    \ regained their capabilities. In contrast, the animals that were rewarded with\
+    \ chocolate experienced a kind of regrowth pattern. Over time, they began to form\
+    \ connections that bypassed the injury site. Eventually, they would see the chocolate\
+    \ and could initiate the stepping behavior on their own, before the robotic gantry\
+    \ pulled them forward. I think that is truly amazing. This process taps into how\
+    \ we move our bodies in the world. It wasn't enough for the control rats to continue\
+    \ stepping, as it lacked connection to their environment. Conversely, those in\
+    \ the chocolate condition had the experience of seeing something desirable in\
+    \ the world\u2014something in front of them that they wanted. They needed to walk\
+    \ to reach it. As they began walking, unaware they were being assisted by a robot,\
+    \ they eventually got to eat the chocolate. This scenario triggers the concept\
+    \ of the dopaminergic reward system, where the brain is flooded with reward chemicals,\
+    \ primarily dopamine, alongside other substances that contribute to this process."
+- dur: 180.0
+  end: 5580.0
+  start: 5400.0
+  text: It has the effect of reinforcing all the neurons that were just firing. The
+    dopaminergic reward system is kind of how that works. So, it's that connection
+    between that frontal area, that volitional sort of prefrontal cortex aspect, where
+    you think, "I wish I was over there so I could eat the chocolate." Then a bunch
+    of neural activity happens, you get to eat the chocolate, and your brain gets
+    flooded with neurons that say, "Whatever was just happening, reinforce that."
+    This is enough to trigger the regrowth of neurons at the spinal level. That is
+    as much as I'm going to say about this paper. End of class, so thanks for following
+    along, and I'll see you all on Wednesday. We're going to discuss two papers. Someday
+    I'll learn; I'll never learn.
+video_id: cCBAkRfW8j8

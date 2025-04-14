@@ -1,0 +1,1923 @@
+full_transcript: okay so uh catching up we are here in week five and slowly catching
+  up to reality I suppose um so last week we recorded some motion capture data involving
+  standing posture and jumps and repeated jumps and that whole good stuff and then
+  um last time on Monday we looked pretty closely into that data um focusing on the
+  sort of like the epistemological chain like the from like the the pipeline from
+  the empirical measurement represented by the video recordings into the sort of like
+  increasingly more complex analyses and sort of you know processes that that produce
+  the data into a format that we could actually start to analyze understand and sort
+  of make some insights about the thing that we care about which in that case was
+  standing posture and looking at the differences between the supported versus the
+  unsupported thing and sort of trying to wrap our head around that way of looking
+  at data um and I hope that was kind of like generally helpful both for like you
+  know this specific type of data but also like that same kind of thought process
+  will be true for any kind of scientific investigation you want to do like at any
+  at some level if you're looking if you're trying to derive knowledge about the world
+  on the basis of some kind of empirical measurement it's going to have some kind
+  of a process that's similar to what we went through last time where there's going
+  to be some tool that is taking some kind of a measurement from the world that measurement
+  will be some super basic sort of like some energy in the world that gets transformed
+  into some quantity that is easy for us to sort of record and take a record of and
+  then generally speaking that data will not be something that you can just look at
+  and then sort of derive anything interesting about the world there's going to have
+  to be some kind of a process of calibration and computation and Analysis and da
+  da da da da and at the end of that sort of sometimes very long computational pipeline
+  you'll be looking at data that will be represented in some way and you'll be trying
+  to generate something resembling knowledge about the world from looking at that
+  so I think the main point I wanted to make last time is just to think about each
+  stage of that process as a sort of a a chain of epistemological grounding um where
+  your ability to trust the outcome of that long pipeline is only as strong as the
+  weakest link in that analysis so if there's some like weird magic step in Step 12
+  of 255 even if every other step in that process is super grounded truth preserving
+  like old school reliable computation if there's some weird step in the middle there
+  everything after that is no longer reliable in terms of like its ability to track
+  reality in the way that we want it to um so today uh I'm going to do sort of two
+  things which is historically a mistake but I think we can do it um I I want to sort
+  of look at just go back into the data and look at the some of the the data that
+  we didn't look at which is the the last condition of the repeated jumping um and
+  show uh a an analysis of that data that have generated in previous years and can
+  look at here um to make a couple of different points both just sort of like that
+  U the different structure of a movement that has that kind of like repetitive phasic
+  kind of aspect to it so as opposed to being standing posture which is a continuous
+  control problem or like a big singular jump which is like a discreet sort of behavior
+  um the repeated jumping has this kind of phasic thing where sort of each stage I
+  see you uh uh each stage sort of sets each step in the phasic process sets you up
+  for the next iteration um and so there's just some different ways of analyzing data
+  like that and there's 's many many many aspects of the natural world that has that
+  sort of property Locomotion running is one of them also like your circadian rhythms
+  and you know like the seasons uh a lot of things have this structure of kind of
+  like a pattern that repeats itself um in a way that's sort of like related to linear
+  time but not directly related so like the seasons is a good example of that actually
+  like the the the year counts up so 24 25 26 um but when comes at its own sort of
+  rate and we'll just look a little bit about that um hopefully that won't take us
+  all that long um and I want to leave the last sort of optimistically hour but possibly
+  less uh to do a little bit of small group work um which I will sort of try to relate
+  to the initial part um where it that will be forming into small groups of roughly
+  uh three three three-ish folks um with the intention of sort of doing some work
+  with the bot to find a a paper which can complement the paper that you've already
+  chosen for your chosen topic and specifically trying to find papers on a similar
+  topic but are that are sort of distinct in some interesting way so you can start
+  looking at sort of different perspectives on your chosen topic um yeah and then
+  I think that will sort of lead us nicely into kind of like the second half of the
+  semester and by the end of next week I want to kind of be getting into the space
+  where you have like a more grounded sense of what the the final poster project is
+  really going to look like and sort of you know have the ability to start hypothetically
+  making movements in that direction realize that there's kind of some weird timing
+  here but don't don't stress too much about those things we'll make it we'll make
+  it work um right yeah anyways just realized that yeah poster do is less of it's
+  it's less of an exclamation point than it appears on the page um this upload poster
+  this is really the hard deadline like you have to upload your poster so they can
+  get printed in time for whatever um everything before that is a little more squishy
+  I try to make this do before spring bake so that you're kind of like free from that
+  responsibility but there's a little bit of like weird squishiness there um okay
+  cool everyone cool with that so far any assignment anxiety yeah good um all right
+  and there will be a sort of we're going to call it an exam for bureaucratic reasons
+  but it's really just going to be another one of these like directed bot-based conversations
+  where specifically I'm going to be extracting all the like the the sort of philosophy
+  of science kinds of aspects of the past several lectures in terms of like units
+  and recordings and empirical this and that and you will have a directed conversation
+  with the AI about connecting those types of thoughts to the particular domain that
+  you've chosen to study um I can't imagine any of you have chosen a topic that won't
+  have some relationship with units and measurement and methodology and stuff like
+  that so um you know it's not going to be something that you can it we're going to
+  call it an exam but you can't really get a grade on it because I think it's unethical
+  to use AI to grade things um for a lot of reasons but we will yeah we'll be fine
+  okay so um I have to start up Discord which could take a second um I did move the
+  recordings from the other week into a Google drive folder so you can download them
+  if you so choose uh I'm not going to really going too deep into that aspect of it
+  um but in the server in the links and resources there's a Google Drive link that
+  will take you to a page which should show something if this loads am I on the internet
+  yeah so these are all the recordings in some strange order uh yeah maybe a different
+  maybe later in the semester I'll talk a little more about how to get it and run
+  it but um for now you can kind of my the the only recommendation I'll make is if
+  you want to look at any of these on your computer your best bet is to download the
+  entire folder so don't download bits and pieces download the the entire folder of
+  a given recording and then open up the blend file with blender and poke around and
+  if you don't know how to use blender there are many many many many many tutorials
+  online on how to do that so you can figure that out on your own okay so with that
+  said you thinking so hard buddy let's take a look at this repeated jumps recording
+  so if you recall let see here so again this is going to come up later but again
+  noticing that the the initial data here is broken garbage because I am not in the
+  scene everything gets this is a very common way that data breaks when you're trying
+  to do 3D stuff with bad input it just all gets squished into a singular line um
+  so this will come up later just notice that the data starts out as garbage and then
+  it sort of snaps into place whenever I walk into the scene and I stand here in that
+  sort of calibration sort of pose and I then start bouncing up and down hide and
+  if we hide this we can look at that and we can grab I think we can [Music] do that
+  [Music] work I never know how to make that work it's fine okay so we gra you we're
+  going to say round frame we're going to do two seconds before and not after and
+  then we going to calculate whole recording then we're going to hide the key frames
+  show custom color make it make it Pink and yeah and so there we go so here I am
+  jumping for some amount of time and I guess let's we'll get to that when we get
+  to that and let's look at the graph editor let's turn so with the standing posture
+  stuff uh I was look we were looking at like the projection of the center of mass
+  onto the floor relative to the base of support and so in that for that task the
+  height of the center of mass is not relevant to that analysis we only really care
+  about where I am where that where that Center of mass position is on the ground
+  plane which we're going to Define as XY and then Z is going to be up in this world
+  um so that balance task X and Y are relevant Dimensions Z is not a relevant dimension
+  for the model of of standing that we're looking at there if we were looking at a
+  more comp complex model of standing that had things like joint angles and stuff
+  like that we might care about the Z axis but because we're living in this sort of
+  hypers simplified world we basically get to throw away the height of the center
+  mass and now we've boiled down this entire complex being data object into two singular
+  points um with something like jumping it's the opposite uh when I'm jumping around
+  we're thinking about that as something like I'm putting Force into the ground that
+  is fighting against gravity and if I put more Force into the ground than I weigh
+  uh where weight is measured in Newton so it's Mass my body mass times gravity gives
+  you my Newton Force if I put more than that Force into the ground I will temporarily
+  leave the ground as gravity sucks that energy away from me I will reach a certain
+  height and then come back to the ground so that behavior is defined relative to
+  this inertial reference plane and specifically inertial reference frame is like
+  basically like code work for the ground is at zero and you know some direction points
+  up and so that jumping Behavior it if I'm jumping here or jumping there or jumping
+  there or jumping there it's the same process either way so in this for this behavior
+  for this task we actually don't care about the X and Y AIS and we only care about
+  the z-axis the vertical axis um if this was a different task I'm like going from
+  Stepping Stones if I'm jumping if the task said jump in place and don't shift around
+  then the ground plane becomes important but if we're just thinking about the base
+  level physics of it the physics are the same in one part of the room or the other
+  all of which is basically a long-winded way of saying that I can turn off the X
+  and Y data from this viewer and normalize that it's not actually what I wanted and
+  what is going on there not sure why that looks like that but okay and we get this
+  nice so this data here so this shows the sort of vertical motion of my center of
+  mass so the x axis here hypothetically is meters um so from except it's upside down
+  why is it upside down I don't know why it's upside down um these units are confusing
+  me a little bit I think it kind of loses track of some of that because it's this
+  is negative .85 and this is negative point9 so that's kind of down but this is yeah
+  that that says this one says 1.43 M which is probably about this high this is one
+  1.8 so let's call this 1.4 um I I could probably jump that seems right um so I don't
+  know why these units are happening this is sort of a thing that I've noted like
+  blender is not a scientific tool blender is an animation artistic tool so sometimes
+  things like oh let's make sure all the the units are correct they're a little more
+  fudgy on that than you would expect from a scientific tool but this is sort of a
+  it's more of a cultural thing than any real like in order to do this type of stuff
+  right they have to be doing the math correctly and they have to be keeping track
+  of units here and there or the other but the user base of this software are more
+  concerned with just like the general shapes of the data and sort of and things were
+  like oh these numbers don't actually match those numbers is first of all almost
+  certainly like a setting that I'm not doing properly but you know a scientific tool
+  wouldn't do this an artistic tool would luckily in this context I similarly don't
+  really care about the values I only care about the shapes um but this is sort of
+  a nice opportunity to look at how this non-dimensionalization so so dropping the
+  X and Y AIS the X and Y data from this plot makes it so that the data becomes this
+  much simpler one-dimensional time series right because the x-axis represents time
+  specifically it represents frame number uh where if you wanted to calculate like
+  the clock time we could convert that using our knowledge of the frame rate and that
+  stuff like that um but if you'll notice as I'm sort of so down here at the bottom
+  of the jump I jump up uh in the actual 3D data I'm kind of Shifting around in space
+  like I'm I'm not bouncing on over the origin the whole time I'm shifting around
+  my X and Y values are changing um but we don't have to care about that if we're
+  just looking at the height so in terms of the mechanics of the situation we could
+  convert this into Newtons by just multiplying by getting the potential energy here
+  and just saying okay the the Z height is height and then Mass doesn't change gravity
+  doesn't change so this if we wanted to convert this plot into a plot of the potential
+  energy of the physical system we could do that by just basically scaling it by by
+  my mass or and the gravity on Earth um at which point you know again and if we did
+  that these numbers would change but the shape would not because there's nothing
+  interesting happening there so there's a lot of things that we could look at here
+  if we had you know more time in research funding and stuff like that um one of which
+  would be like let's assume you know if we were like sports biomechanists and we
+  wanted to know about the force production that leads into jumping you know we might
+  want to look at you know how this sort of phase on the ground can I zoom there more
+  oop so here I am up at the top of the jump um and then as I come down like so looking
+  at the video back there you can tell right around there so I'm off the ground and
+  then this is around this frame is where I hit the ground no wait no that's not right
+  that's the opposite okay right around there so this whole phase here where I'm on
+  the ground this first part you can see I'm kind of I'm compressing like I have a
+  lot of energy in like mechanical energy in the system that has to go somewhere um
+  and so I I bend my legs I'm not I don't have like EMG recording the muscles on my
+  quadriceps and hamstrings or whatever but they're on I promise you that they're
+  on because I don't collapse to the ground my legs just kind of deform a little bit
+  and then I push off and I come back into I go back into the air so this is where
+  I think we've come across the term like neuromechanics before this is kind of at
+  that level we we could ask questions at that level here about like you know how
+  efficient am I as an organism at taking advantage of the fact that the force of
+  gravity is preloading my muscles with all this like nice spring Force then how how
+  efficiently do I utilize that spring force in order to launch myself off the ground
+  for the next jump because clearly when I push off I am using um you know something
+  from on high is sending the signal down to trigger a muscle firing that will allow
+  me to bounce off the ground but unlike that standing high jump thing I don't have
+  to generate all that force on my own I have some of the force from the previous
+  jump preloading my limbs so that when I actually you know take off in the next jump
+  I have the the force from my muscles is going to be presumably sort of like efficiently
+  combined with the spring force from the previous jump which is also you know it
+  gets very complicated very quickly um so yeah like so we could look at sort of you
+  know how efficiently I'm doing that translation from from one jump to the other
+  um we could also look at things like fatigue so if we were looking if we expected
+  that over the course like these jumps look pretty similar but it might be the case
+  that if you looked at the the time between the Peaks it might get longer as I get
+  more tired the the peak height might get a little bit less as I get tired I wasn't
+  really pushing myself all that hard so and it wasn't a particularly long recording
+  um so if those numbers are there they might be more subtle um but there's a lot
+  of sort of potential analyses and potential kind of um just ways of considering
+  this data uh that would not be sort of possible just it's it's only possible because
+  of the sort of repetitive aspect of it and again like I've said before the stuff
+  for bouncing in place is kind of like a proxy for what it would look like if this
+  was like if I was running or or jogging or walking or something one of those kind
+  of repeated sort of behaviors there um and again just kind of like highlighting
+  while this data in the middle looks nice just looking at what bad data looks like
+  sort of because one of the real advantages of this type of data is it is directly
+  coupled and tied to like a thing that we have very very strong intuitions about
+  because it's it's human movement it's video like we kind of have some sense of what
+  that data looks like if this was me a measurement off of an accelerometer if it
+  was a measurement off of an you know Mass spectrometer or something that is less
+  tied to our kind of like you know the part of the world that we tend to operate
+  and have a lot of intuitions about might not be as obvious when the data is like
+  good and viable versus when it's being sort of busted out because the because of
+  some methodological thing so uh so you know just this is just your reminder when
+  you're thinking about data that you always have to be asking the question when you're
+  when you're looking at a data source from a from a piece of equipment or wherever
+  you get it from you always kind of be have to be asking the question am I looking
+  at signal or am I looking at noise signal to noise ratio is kind of like a whole
+  whole other conversation um but this is where kind of like building intuitions building
+  understanding and just really like like having that kind of gut check of like am
+  I looking at something that's worth analysis or am I looking at some sort of noise
+  and bug in the system um and that yeah that figuring that out can be often the challenging
+  part also noticing because this will also come up later this moment here where at
+  some point on my way out there's like a a spike which can also happen where like
+  for one frame everything just jumped over here so there is one data point that is
+  way outside the actual expected range um which will come up in a bit okay that'll
+  make rough sense following along jumping in space get that no one's mind is blown
+  yet okay um okay so let's now now let's look at ways of representing this data that
+  can sort of help us understand and sort of starting to like torture the data into
+  a shape that's more amenable to that kind of like phase based um analysis and for
+  that I'm also going to show you just a little bit of code um this code is on the
+  the course repository now um if you're familiar with python code and particularly
+  Jupiter notebooks it's in there um it's not particularly like well set up for sort
+  of student consumption but it's available it's on there if you want to find it it's
+  in the repo in the Cod fold code folder in the python code folder we're looking
+  at jumping Center of mass and this should run um yeah so I'm not going to go too
+  much into the the Cod code parts of it um I will just first of all will this run
+  no thank you um just kind of just like doing a a quick pass through just interested
+  parties can pay attention uninterested parties can just like wait for the Squigly
+  line some pretty pictures um but you'll hear me talk a lot about just like writing
+  code and doing analysis and doing this and that and just FYI this is what that looks
+  like um so the first thing you do is you you in you install a bunch so this is python
+  code and so the first thing you do is you install a bunch of packages and packages
+  like P are for numerical computations scipi for things like scientific analysis
+  of this that and the other and then plotly is for making the visual plots and squiggly
+  lines and stuff like that um these are all packages that were made by people many
+  many people many of these packages numpy and S cpai to some extent but numpy in
+  particular has a lineage that goes all the way back to the sort of the first history
+  of computing there is always at every point in the history of our actually the history
+  of our sort of like you know long scale civilization but specifically in the computational
+  world there has always been kind of like the de facto best like numerical computation
+  package and I think these days numpy is probably the most widely used at least um
+  in the sort of data analysis World um but this is the one that does like vector
+  or sort of like Matrix computation does linear algebra a lot of like the big number
+  crunching of the world is done sort of in numpy or related types of packages I just
+  want to point these out because this is very easy to skip over it's not relevant
+  particularly to this course but this is one of those places that if you really sit
+  and think about just the the volume of human effort and human labor that went into
+  this import numpy line of code is really staggering like like many thousands of
+  people over decades working very very hard over a very long amount of time to make
+  these things happen and invisibly and for free you can just import all of that labor
+  and now all the stuff that we get to do is built off of that work that was done
+  by these many folks over the history of their own time anyway um this is also a
+  very important stage of every data analysis pipelines life this is loading the data
+  in um and this is literally just the path to the folder on the computer and then
+  specifically the path to the the body 3D data and then the center of mass XYZ data
+  those these are not actually the center the csb uh sort of data uh files that I
+  showed last time but they are equivalent um so this is the part where that data
+  gets into the program it's then the RAM and the memory of the of the system and
+  so when we when we want to look at it this is the part that where the computer has
+  loaded that data in so that those those like big infinite sort of piles of numbers
+  that I was showing last time this is the part where those numbers now enter into
+  the system's memory and now we can sort of look at them uh load that up yeah you
+  can load and look at its shape where this shape is we're looking at the center of
+  mass so it's 1370 by3 so it's 1,370 frames at 30 frames per second three columns
+  so X Y and Z that's and we talk about the shape of the data that's kind of what
+  we're talking about like how many frames how many dimensions if it had rotation
+  so this would have to be six so XYZ position XYZ rotation so this would be 1370
+  by 6 um and what everything is here blah blah blah yeah get different data points
+  there different data points there uh and now this is the part I think I I think
+  I'm have to restart it when I run this I think it's basic enough that it happens
+  um this is now the data has shown up into the system and this is a very basic Bas
+  plot of that um so this is the raw data in like I think it's plotly or something
+  like that um this is the very same data that you see in blender except in a much
+  more impoverished form like one of the main kind of like you know labors and wins
+  of the Primo cap software was figuring out how to adapt the sort of the lowlevel
+  scientific code so it can be shoved into this animation software so that you can
+  do all this nice things and like have all this very easy way of clicking around
+  and showing stuff without having to write the actual code but again because this
+  is an artist tool it's not really set up for doing kind of like deeper layers of
+  analysis um so this is I think it just oh does it just play through yeah so this
+  is sort of this is what most this like for a lot of scientific analysis this would
+  already be pretty good because it's an animation in 3D but you can very easily see
+  how this is sort of not as useful of an interrogatory tool as something like a professional
+  animation software designed for like 3D animations had a very interesting sort of
+  layer of our society because they are artists and they think like artists but it's
+  also super heavy technical like computational 3D math um so that kind of like that
+  boundary layer that is represented by something like blender blender particular
+  being like a free open source software as has that layer of it as well um it's kind
+  of like I think one of the interesting interfaces here um this is also a useful
+  way to sort of confirm to yourself that you've loaded the data correctly that up
+  is in fact this direction very very very common very very easy to load the data
+  in a it's just a snowstorm the dots are flying around all over the place or B this
+  person's jumping like this to the side because you haven't rotated things or you
+  haven't rotated them properly so that Z is up because remember a lot of things we're
+  talking about here assumes that there is a that one of these X y's and Z's is aligned
+  with the gravity Vector but there's nothing in the Raw geometry that has such a
+  thing as gravity cameras don't know what gravity is unless you have a secondary
+  sensor in them which we don't um so this type of thing sort of gets into uh overlap
+  between like on the one hand this is not a like this kind of visualization is not
+  a necessary step of the analysis pipeline but on a very practical level it absolutely
+  is a necessary step to have what we would call observability in your pipeline where
+  the observability is the part where you can just you know you're you're you're crunching
+  big numbers with with fancy code and the observability is a part where it produces
+  something that you can use your your human eyeballs and big human brain to just
+  look at it and say oh yeah that looks right that looks like a person jumping they
+  look like they're oriented with gravity and now because of that I am now confident
+  to move on to the next stages of the of the pipeline and start analyzing data whoever
+  wrote this this is a can't remember who wrote this originally but I always get I
+  always like notice stuff like this like this is the British spelling of analyzing
+  with a s instead of a z so I don't know could have been me could have been someone
+  else hard to say okay so um so we've talked about time series uh this this is not
+  a Time series this is a spatial representation of the data there is actually nothing
+  in this data that tells you what time is if you it just happens to overtime plot
+  the data from the next frame at roughly 30 frames per second so it you can see time
+  in the movement of in in the by looking at it for but there's nothing in this repres
+  this is a spatial representation there's nothing in there sort none of these axes
+  are are T they are x y and z um so we can also we can take that and then we can
+  also represent it in this time series format right so this now we have to split
+  it up so it can be flat we have X Y and Z and then this axis is time again specifically
+  it's frame number so we're not in SI units here we're in we don't this for this
+  to be SI units this would have to be seconds but this is frames um so if you want
+  to convert this to frames multiply this number by 0.033 or something which is the
+  number of seconds per frame right frames per second and then you can do some sort
+  of nonsense and you get seconds per frame and this is one of the weird things about
+  this part of calculus I don't know um is realizing that you can do the same kind
+  of like fraction math for units that you would for numbers and it's like valid to
+  do that so frames per second is you can do that math and get 33 Mill seconds per
+  frame from 30 FPS um yeah right yes so before when I was showing this I had already
+  truncated the end frame to be before the actual end of the of the recording remember
+  when I said to notice this one weird spiky dot at the end of the recording if I
+  don't account for that and I just plot all of the data at some point something on
+  this computer is going to crash um this is what it looks like because it's I just
+  said plot X plot y plot Z relative to the frame number um and it says sure no problem
+  let I'll do that for you and because I'm such a friendly computer I'll be smart
+  about how to do the axes specifically how to do this y AIS so that you can see all
+  the data that you asked me to plot um but there's this huge spiky outlier here that
+  sort of ruins that so this spiky outlier so this this plot goes from zero to 15,000
+  um which I don't know if you remember from last time I did not actually fly 15,000
+  meters into the sky and then back that actually didn't happen oh sorry millimeters
+  so 15,000 millimeters into the sky the this is a Blobby data Spike so I could fix
+  this by sort of using my intuition and saying oh let me let me tell the code to
+  only have the Y limit show this range of numbers but I don't know what that range
+  should be so the other thing I can do is I can go up here and I can say okay the
+  start frame is zero the end frame negative one means just like the last frame um
+  but I can also this is again where the observability comes super helpful uh I can
+  just go into this code and say okay let's see so this first chunk is sloppy data
+  of nothing until let's say frame 118 let's say yeah let's say 150 is when the good
+  the good data starts and it stays pretty good until let's say uh 12 let's say 1213
+  so let's say 150 to 1213 so start frame 150 uh end frame 123 and and then I appli
+  it again instead of looking like that weird spike it looks like this so often times
+  we need do data collection you're you you're trying to like if you're doing data
+  collection you're typically going be doing the same thing over and over again like
+  multiple participants multiple you know conditions multiple days da da da so you
+  really want your pipelines to have as little as possible of you the human have to
+  go in and look at something and sort of figure out like what I just did of like
+  oh let's you frame blah blah blah to frame blah blah blah that's a manual labor
+  step that requires me to like do stuff with my human brain I can't just load the
+  data click go come back tomorrow record new data change the path and then click
+  go I have to look at it and sort of pull out a number then write that down somewhere
+  so you want to minimize those steps but practically speaking there's almost always
+  going to be some amount of that kind of like data cleaning data preparation and
+  so if this was going to be part of a longer study I would have some place to write
+  down for data collection day whatever for participant whatever for condition whatever
+  the start frame is 150 the end frame is 1213 and I would have some place to record
+  those numbers so that as I keep collecting data I will keep I'll be able to keep
+  track of this when I do the main analysis I can know that I'm only getting the good
+  good stuff yeah so it would be it would be really hard to pick a frame number um
+  you could do something more kind of like what we did where like I picked kind of
+  like a duration of time of like I want to do you know 30 seconds and then that would
+  correspond to you know 30 seconds times 30 frames per second it's like 900 frames
+  or something like that but I wouldn't be able to necessarily say like oh on on frame
+  150 to frame 932 you know that's something that you couldn't really do you something
+  that's much more common to do is first of all picking durations and secondly deciding
+  a behavior that will make the data easy to chop out often times in an analytical
+  way so with this if I said okay stand here don't move for five seconds jump jump
+  jump jump jump and at the end stand here don't move for five seconds then in the
+  data when we look back at it there would be these flat spots right here to right
+  here I like didn't wait too long at the end um but this is the kind of thing that
+  would be pretty easy to write some bit of code where you looking at the velocity
+  of the blah blah blah and then just find something that sort of automatically goes
+  through and chunks out the first step from the last step and I would you know at
+  this point in my life I could write that code pretty easily and trust it pretty
+  easily um but that was kind for like a hard-earned ability to do that and also anytime
+  you're doing that like you're always if you record enough data then that automated
+  pipeline is going to work like 90% of the time and then that 10th time it's going
+  to find something weird in the middle and then chop one of your participants data
+  in half and then you're not going to notice that until way too late blah blah blah
+  blah blah so there always there's always a very complex dance between I'm trying
+  to automate every part of this pipeline so I can operate really efficiently versus
+  the most efficient thing I can do is just manually Define these data points for
+  each for each participant and then write it down somewhere and then like have just
+  like another like CSV that just says for a participant one you know condition block
+  two whatever start frame this and frame that and then at the end of each recording
+  session I just write down those numbers and I never have to think about it again
+  I don't have to write any fancy code to do it um sort of there's that's one of those
+  like no answers thing and then if you go to grad school you will uh you will lose
+  significant hours of your life on that sort of like should I automate this or do
+  it manually stage um it's a very classic brain trap that it has no true escape um
+  yeah yeah that's a yeah good question as there are they all okay okay so okay yeah
+  so this part is now so again looking at this as a behavior looking at the X the
+  Y and the Z we can see again that like you know the task is is very well defined
+  in that z-axis um and you can see this nice sort of regularity of the data there
+  and of like you know you in your brain it's like oh yeah there this is some there's
+  something I there's something I can pull out of this like there's enough regularity
+  here that it's there's something that I can pull out scientifically like this this
+  is tractable this type of data there's just there more noisy so there's nothing
+  obvious jumping out like this one oh there's a structure here it's a repeating structure
+  it's like a cyclical thing there's some kind of s cosine nonsense going on I could
+  probably do it's oriented relative to gravity so there's just all these kind of
+  like knobs that I can that you can like sink your scientific teeth into to try to
+  figure out what's going on here whereas these the structure is not quite as obvious
+  you can still see something of the the jumping just in that shape but that might
+  actually be an error elsewhere in the pipeline um but you can see I'm kind of like
+  shifting around um there's nothing super obvious there and there's nothing in the
+  task that really makes these Dimensions important again if you had given me the
+  task of I'm going to put like a penny on the ground and you have to jump up and
+  down only on that Penny then now the deviations from that point in the X and Y become
+  a part of the behavior and maybe you could look at sort of you know how I'm Meandering
+  relative to this and that but in this particular analyses we are going to ignore
+  X and Y and then focus on Z which is vertical height um yeah so this term here kinetics
+  uh this is one of those many kind of like Latin root terms a lot of science is really
+  built on this like let's find two Latin words that sound very similar and then build
+  an entire field on separating them apart um in this in human movement it's kinematics
+  versus kinetics so kinematics is kind of like this stuff it's kind of the kinematics
+  is like related to movement so things like joint angles and position and sort of
+  like body posture um the kind of like the geometry aspects of things is wrapped
+  up in kinematics kinetics is related to forces um so that's where you start thinking
+  things like force placeat and stuff like that um joint torqus and stuff like that
+  and in this case because we're looking at the Z Direction in the vertical which
+  aligns with the sort of kinetic or kinetic potential energy sort of trade-off this
+  kind of when we continue to look at that vertical Dimension that counts as a kinetic
+  analysis because the units are Newtons um yeah so then we clean it up this is a
+  butter filter uh don't stress about that um it just is a smoother and a cleaner
+  and a ask the bot about Butterworth filters um if you're into it one of those like
+  yeah not not this is not the class for that um oh yeah look this is I think I can't
+  remember exactly who wrote this code it wasn't me it was my former lab manager Michael
+  but you can see here time equals 1 over 30 something is now going to come through
+  and convert those frame numbers into seconds because later on we're going to likeit
+  like down here um we're going to be calculating from those Z positions we're going
+  to be calculating Z velocity and Z acceleration and so particularly once you get
+  to things like acceleration you kind of want the units to be second because meters
+  per frame is a measure of velocity but it's not a particularly useful one um well
+  it's useful and that it gives you scale but this is also a hardcoded number so you're
+  just writing the number 30 um this is anytime you you're in code if you see someone
+  writing a specific number like three Z you want to be careful about that like I
+  would prefer to pull the frame rate from the data store somewhere so that way if
+  sometime later I start using 60 frames per second cameras or 120 frames per second
+  cameras I have to go searching for all the places that I wrote the number 30 I want
+  to just be able to pull that out of the data um but in this case we're just kind
+  of playing around so we're fine um what are we doing here normalizing stuff and
+  doing stuff where we get velocity oh yeah oh yeah and this we're getting velocity
+  and acceleration by taking the diff the this this is your Calculus real quick um
+  so X whatever so if this is the time and this is z height dot dot dot dot this is
+  the position in height in space of off the ground you can diff and p. diff is a
+  very very stupid um like it's a dumb dumb calculation that basically just takes
+  the difference so it literally just says okay for frame this one subtract this one
+  from that one subtract this one from that one subtract this one from that one and
+  then instead of having the Z position on each frame you have the difference between
+  each data point and the one that came before it so you have the change in Z position
+  over the duration of time defined by one frame and so that is now Delta if we're
+  doing meters Delta meters over some measure of time that's velocity and that's that's
+  calculus for you um and if you do that same np. diff to the velocity now you're
+  getting change in velocity over a frame duration of time that's acceleration again
+  this is np. diff is the uh numerical derivative I guess like for discrete time intervals
+  that's the same thing when you do calculus you do like the limits and the the smooth
+  this guy um but in computational numerical land we just do that and call it good
+  um and then the integral is the same way you is sort of the opposite thing that
+  anyways um so yeah so then if you plot it again oh we still don't have those numbers
+  I I need to propagate this thing okay that's the plot that's [Music] that um so
+  I want that to be start oh wait 150 in frame equals was it 1200 is or whatever and
+  then total body Center of mass will be start frame to end frame and then all everything
+  if I do that and that would be a smaller number yes that's another really common
+  thing to do accidentally which is uh I I had changed that start and end frame stuff
+  um for the visualization but I hadn't actually clipped out the actual data so when
+  it got to the next part where it was calculating the velocities it was including
+  all those wacky veloc those wacky sort of garbage frames and if you think about
+  velocity is the change in position over the the the unit in time the that one frame
+  where I jumped off to 15,000 mm in back the velocity on that frame is through the
+  roof in the same way because the jump in position is also crazy literally through
+  the roof I suppose um so now if we do this again uh that there you go so now it's
+  more cleaned up um can I look at this and so let's see so let's look at this area
+  right around 400 so this is the Z position so this is that sort of the the height
+  position going on there um this H this is what the velocity of that looks like so
+  roughly aligned there and this is what the Z the acceleration looks like so and
+  then this is what they look like over overlaid so um this is one of those PL places
+  where I think I we're going to get a chance to do this later but like if this was
+  a perfect measurement um then there should be frames like the frames where I'm off
+  the ground the acceleration should be negative 10 m/s down um I'm pretty sure that
+  this actually I can tell you that so so 398 is a peak 398 is down here yeah so this
+  this sort of the low the low part here is the part where I'm in ballistic flight
+  and the fact that there's a little hump there tells you that the data is sort of
+  incorrect in some way either my center of mass is not being calculated perfectly
+  or in this case I think that the the the world is tilted a little bit like the ground
+  plane is not actually flat here it's slightly tilted which I think is also the reason
+  why you're getting the sort of like the jump squiggles are sort of still present
+  in the X and Y because you think about jumping on a a slanted ground plane then
+  even though you're booving up and down in space you're going to sort of see some
+  of that in the x and y axis and I know that because I wrote this code and I know
+  that that is the sort of that part of the code has some slop to it um but but yeah
+  so this is so we can now sort of Chunk this out um and start looking at like using
+  this data can start to like get particular layers of I don't know why I always like
+  anytime I have a plan that involves the word and I should just scrap it and have
+  two things like it's already four o' like we're not have time for the other thing
+  but like are we going to do this and that it's like I I'm starting to recognize
+  it but I don't use it to change my behavior so we'll we'll figure that out um but
+  yeah so using this so for example one of the things you might want to know when
+  you're jumping very very simple dumb analysis is how many times did I jump right
+  if you're just saying say the task was jump as many times as you can in 30 seconds
+  or jump as many times you can until you want to stop or something like that just
+  being able to count these jumps would be something really helpful um you could just
+  go through an eyeball it you just cramp them by hand but that's first of all not
+  going to be very reliable and secondly won't scale like if you're doing a bigger
+  analysis you want to be able to automate that um and yeah various ways of doing
+  that and in this particular case uh I'm pretty sure now this was Michael writing
+  this code um he he's he's identifying uh peaks in that jump as zero Crossings in
+  the velocity um in particular looking at this stage so uh because if you think about
+  the velocity of a curve like this can I zoom in on that um up down so I'm accelerating
+  upwards so it's positive velocity and then I hit the Apex and then I'm going downward
+  so it's negative velocity so there's a zero Crossing there um between positive velocity
+  and negative velocity that corresponds to the peak of that jump and that's nice
+  to have um because if you're trying to identify the peak of this jump you can actually
+  actually looking at this data you can actually do that pretty easily um um but there's
+  always going to be a point like for this data point here like this one's pretty
+  obvious this is probably the one you want to Peak but pick but if you're trying
+  to pick just the highest one like there can be these kind of ambiguous moments because
+  you're looking for like a like a it needs to be a particular number so that's where
+  PL things like converting into something like velocity allows you to look for something
+  like a zero Crossing where the data goes from positive number to a negative number
+  and then that becomes a very easy thing to to pick out of the data um and representing
+  this is also a I think if I re calculate this yeah um here's another quick tip for
+  data visualizations this this is a bad representation of data it's fine and this
+  is him showing okay we using that velocity analysis you can find the peaks of each
+  jump then you can just count the number of those and know how many times you jumped
+  but this yellow on white no one not doing anyone any favors so we are going to go
+  in here this is highle program you see where it says yellow I'm going change that
+  to a different color say magenta magenta magent magenta there we go or let's say
+  red sure um yeah and so now we have the number of steps here just going to say this
+  out loud when you're doing data if you have healthy color vision you will very quickly
+  go to red and green as the colors to se to show two different groups you're not
+  allowed to use red and green 10% of the population is color blind so if you if this
+  if these were green lines with red dots then I my 10% of my audience cannot see
+  that color distinction so think just look for any other so red red blue is good
+  you know blue yellow well not that yellow blue orange anyways uh think about color
+  blind people um this is also a good example of despite the fact that we had that
+  pretty nice algorithm for finding the peaks of those jumps it finds a bunch of jumps
+  right here because it found because the algorithm's kind of dumb it's just looking
+  for zero Crossings and so when I am just standing here you know I'm moving a little
+  bit and it's finding those points and so if we're naive in the way that we do this
+  we're going to count five extra jumps at the beginning that didn't actually occur
+  and then if we wanted to look at an analysis of like okay you know is there is there
+  a fatigue effect where the jumps are getting slower over time let's take the let's
+  look at the the average height of the first half of the jumps and the last half
+  of the jumps if you're not careful then you're going to include these fake jumps
+  in your calculation of mean height and now going to get a really wacky result which
+  is that the first the the average jump height of the first half of the recording
+  is super low and then the second half is super high because you have not appropriately
+  cleaned out the false data here so you know this is one of those things that's super
+  obvious when you're looking at it but less so if you're not careful about how you
+  do your analyses so you would want to have um a different way of clipping off and
+  sort of to the question from before like this is one of those cases too like if
+  I'm writing an automated algorithm to clip off the the beginning and end of the
+  data um it's really hard to write that kind of analysis in a way that's that's going
+  to get this like I can just go through and say oh yeah right it's it's here like
+  you can just look at it and say this is where the data should start and so I can
+  just go through and find that frame whereas if I'm writing some sort of algorithm
+  that's saying oh look for this flat part in the middle how confident am I that I'm
+  going to be able to get it right there and not right there that's going to lead
+  two of these like fake jumps in there alternatively I can have a more robust method
+  for finding those Peaks that has in addition to that like velocity zero Crossing
+  it also just has a minimum threshold height so the thres you have to be above a
+  certain height and doing a zero Crossing for it to count as a jump but then you
+  have to ask the question how do you know what that height is and da da it's whole
+  part of the game we'll figure it out um yes and then again those red stars he yeah
+  so we believe that those red stars correspond to the apex of the jump um and this
+  is that same data in the acceleration space there we go yeah so this little humpy
+  thing at the bottom here is in fact the the ballistic flight phase so this is again
+  showing that there's some sort of Squish in the data um now again from a data visualization
+  perspective uh Michael was not doing you guys any favors because he well he was
+  doing you many many favors I suppose but one of the things he didn't do is maintain
+  a consistent representation of maintain consistent coloring because here he established
+  this sort of like position is red velocity is green acceleration is blue um but
+  then when he plotted it later blue is the default color so he didn't he didn't maintain
+  those colors throughout so this one oh this is actually is this velocity I think
+  that's labeled wrong what is velocity anyways doesn't matter um so that was now
+  velocity which is blue and this is now acceleration which is blue which from a visualization
+  perspective uh there's nothing different about it the shapes aren't different but
+  in terms of like if you're trying to use this data to communicate a particular thing
+  to an audience maintaining those color consistencies can be be really friendly on
+  the brain um but for now we don't have to to worry about it okay so now we get to
+  the a little bit of time the end figure it out okay so now I'm going to take a bit
+  of a a spin here so this is again just a part of the analyses that you can look
+  at all the time so say like you know and these just different ways of interrogating
+  the data putting things into position velocity acceleration and sort of finding
+  these and I think one of the thing that's happening with the with the red stars
+  is finding particular features in say the velocity signal identifying those frame
+  numbers as saying oh this is where the peak of the jump is and then plotting those
+  same points overlaid on different analyses so the red star so it's it's hard to
+  deter in actually yeah so um he didn't so you could have done a similar analysis
+  so this is basically liftoff oh yeah it says right there liftoff um so this Frame
+  or close to it is the the part where the feet left the ground you could do a similar
+  type of analysis to get TouchDown um and that would then tell you that everything
+  between lift off and touchdown is on the ground so now even though we know that
+  the that sort of ballistic data is like not accurate in some way because you know
+  the this wiggle cannot B physics says that didn't happen so if this is there that
+  means there's something wrong with the data representation which is fine um but
+  we could look at if we knew the the the contact portion of the jumps then we then
+  this part of the curve is the place where my nervous system is putting Force into
+  the gra round um this is the part where I'm landing and absorbing force and this
+  is the part where I'm I'm taking off again so using this kind of way of doing the
+  data you could chop out all of those contact phases and sort of do some estimations
+  and analyses of the um the processes going in there um yeah and then you know keep
+  on doing that forever uh uh and then the rest of this starts getting into a place
+  that I find particularly fun and evocative and pretty um which starts to show so
+  everything up until this point even though the behavior as we know has this kind
+  of repetitive phasic structure um we've been representing time linearly um and so
+  by phase I mean just literally like there is a contact phase and there is a flight
+  phase so there's two phases you might or you might chop it up even more than that
+  say the contact phase has two phases there is the compression and then there's the
+  extension phase um you could say that the the flight phase has a as a rising phase
+  and a falling phase but you could also if you wanted to you could chunk out these
+  times and use that to sort of break down the sorry let let me back up a bit so the
+  so we so we know that the behavior has this kind of like phasic kind of cyclic sort
+  of circular type of structure to it but the representation we have here isn't showing
+  that time is progressing linearly from start to end so from time equals z to time
+  equals bigger than zero in that direction so if we wanted to convert that into a
+  more phasic structure that sort of represents that that repeated Behavior more we
+  have to do some some trickery um Step One is identifying um yeah identifying a discrete
+  moment in particular you want of if there's a phasic thing happening like repeating
+  structure you want to have some way of defining the beginning of a phase like what
+  is the what is what is so if we're going from like 0 to Pi 0 to 2 pi we going in
+  a circle or something like that that what is zero in that in that phasic structure
+  with a calendar we have we call that zero January first um that's the time of the
+  calendar where the number resets uh for a clock we call that time midnight it resets
+  and it goes back it goes if you're counting in military time it goes from like 23
+  59 59 back to zero again um in this case it's pretty reasonable to you could pick
+  any number you could pick any point in this but picking that lift off as time equals
+  zero seems like a reasonable place to to do that chopping um so we can go through
+  if we wanted to and take all of these oops take all of these cycles and clip them
+  according to their starting time and then overlay them on top of each other and
+  then you would see you know it would look something what would look like so if you
+  were to Overlay all those jumps on top of each other and call now zero is just this
+  star you would see this kind of repeating structure on top of itself and then sort
+  of then you could try to line things up that way um you can also start representing
+  this stuff in a non-spatial way so this is this is actually a Time series so it's
+  actually not spatial but the the the the skeleton guy and the dot guy those are
+  all kind of spatial representations but when we were talking about representing
+  stuff with plots um I talked about like you know you can do X Y and Z to do you
+  know two dimensions and three dimensions but then at some point I said that some
+  like that using spatial Dimensions to represent the data is not really necessary
+  um you can do any color any number of things on the plot um and you can start representing
+  this okay I'm going to talk about this just so you know this is like this like gets
+  into the kind of like robotics the engineering stuff that like you're unlikely to
+  encounter again for a while unless you seek it out um but uh this starts getting
+  into like State space representation um where if you can Define the the the state
+  of the system in a small number of numbers then you can represent those numbers
+  in a plot and sort of see the relationship between them and so what does that mean
+  exactly let let's think about this in terms of the jumping Behavior and the the
+  numbers that we have decided are important for that behavior so there is this stage
+  where we have to use our big human brains to decide what are the relevant measurable
+  numbers in the system that I'm currently looking at and this one of the jumping
+  has this nice feature where we actually kind of boiled it down to the point where
+  there's only a singular sort of basic number that we really care about and that's
+  the Z position um however we then made these kind of like derived numbers of velocity
+  and acceleration which we also think are very important for understanding the kind
+  of like the physics and the mechanics of this jumping behavior um so if we're thinking
+  about this the the jumping human we want to say okay at any given moment in time
+  what are some numbers that I really want to know about this object that will help
+  me sort of understand what it's doing we can start by saying I want to know the
+  position and I want to know the velocity and we'll get to the acceleration in a
+  second and so and so then just in the same way that if we wanted to plot this spatially
+  we could take the XYZ position of the center mass and put it in some sort of three
+  dimension representation we can also make a plot where the x axis we're going to
+  call position and the y- axis we're going to call velocity and so at any moment
+  in time you can say okay your your Z position is 12 and your velocity is three and
+  so this is your current state at that moment in time then we can look at the next
+  time step and say okay well your position let's see your velocity is positive so
+  your position is going to be up but your velocity is also going to be dropping because
+  you're on the air and so now you're going to be there and so you can go through
+  each frame and sort of identify the state and then put a data put the put the put
+  a point on there and then connect the dots because you know what time is yeah I
+  promise you it's not I think so yeah like there's a lot of things like spatial intuition
+  um we're very good at that um understanding ballistics and understanding velocity
+  like there is this very deep intuitive gut checky level where we are all super super
+  good at that like your ability to like jog up the stairs catch a ball like all of
+  those things it's kind of like so the like the language that you use like are we
+  really really good at calculus it's like no no no we're not all like really good
+  at calculus because calculus is this weird and specific formalism where these all
+  these like rules of like symbols and stuff like that that is but but we are good
+  at what calculus is attempting to represent which is like values that change over
+  time and so this is something that I'm always kind of trying to to present in these
+  types of sort of weird conversations is trying to hit that intuitive level of these
+  things without getting bogged down in the numbers and the math and the sort of like
+  the testable values um I think this is one of like the main the main harms that
+  we do with our stupid way of doing education is because we have this kind of filtration
+  model where education is meant to like filter out people who can't hack it we we
+  present this stuff in a way that's hard on purpose so that we can tell who can pass
+  through the filters that we've arbitrarily defined the stuff um and so people kind
+  of have this sense of like oh the math is hard the the you know calculus is hard
+  these sort of weird values are are difficult um but that's that's something that
+  we did as a society because we're bad at educating on mass or rather I think we've
+  outgrown older forms of education on mass but that's like I said this a couple classes
+  ago like if you're like if you're like oh this makes sense to me you do understand
+  calculus um you may just you may not know all the formalism of it you may not know
+  how to make your Calculus Professor happy um but if if position if change in position
+  over time equals velocity makes sense if change in velocity over time is is acceleration
+  makes sense that is calculus and everything else beyond that is just like weird
+  syntactic formalisms so and it's sort of one of these like you hear roboticist talking
+  about this a lot of like you know here we are with billion dollars wor the military
+  funds trying to make a robot do the most basic thing in the world and then here
+  we and then and yet we have like three and fouryear olds just zipping around a playground
+  doing all this stuff like once you really start this is also kind of like you know
+  human as robot is kind of like a way that I try to make sense of like the the complexity
+  of human Mo movement is this kind of like weird this weird activity of like trying
+  to boil down these really basic really intuitive behaviors and really think about
+  those lowl physics as if you were to build a robot that could do this um and often
+  times you just like like how do we know that this is stable but that is less stable
+  like how do you know that this is this is more likely to fall than that like we
+  all do but actually nailing that down in some way that's interpretable and you know
+  grounded very very difficult this thing's even transparent so like who even knows
+  there's fluids in it Jesus the world is too complicated needs to be simplified um
+  okay so State space right at any moment in time there is a state and if you can
+  Define that state in a small number of numbers then for every moment in time you
+  can put a dot on this thing that represents this is where I am at time equals 12
+  and this is where I am time equals 13 and this is where I am at time equals 14 this
+  is where I am at time equals 16 and so you can basically draw these trajectories
+  in state space that hypothetically represent the relationship between these values
+  and so in particular and so things can kind of emerge from that when you plot that
+  stuff that will sort of highlight intuitions that could be hard to identify in other
+  formats so like we know because have these sort of gut checks of physics and because
+  we've been talking about like ballistic movement and stuff like that that there
+  is a relationship between the position and height and the and the velocity like
+  the Z height and Z position Z velocity are related to each other in some way and
+  so we kind of eyeball it in this time series format but what would it look like
+  if we could just plot position on one axis and velocity on the other axis especially
+  during this type of behavior avior and the answer hypothetically plot this here
+  is that so this I don't know why it's showing up like that so this is this representation
+  for the jump stuff and so and I guess the velocity here is on the x axis and the
+  position is on the Y is on the Z position is on the vertical axis and the pink dots
+  here are the apex of the jump so that's at your highest position and then the hard
+  to see maroon dot here is the the bottom of the jump and then this Green Dot here
+  is the liftoff phase um and so you can see so this is a state space representation
+  because every dot on this curve represents the the state of the center of mass system
+  um at a particular moment in time but it's not a spatial representation there's
+  nothing in space here because the x axis is velocity that's not you can't do that
+  like in space you can kind of cheat but otherwise not but you can see that this
+  this there's something intuitive about this representation this thing that we always
+  that we knew that there's a repeated cycle going on is now represented here and
+  we can see for example that the Peaks are much more lined up than the the liftoffs
+  right because this liftoff is being defined there's something in my nervous system
+  that's deciding this there's something in the the complicated stuff going on here
+  and we could if we really wanted to convert this from a a state space to a proper
+  phase space where now the phase space will be something that actually sort of rotates
+  around the unit circle and has sort of like you know thetas and fi in it and stuff
+  like that um or we could just keep going and make make things even wackier and just
+  keep adding numers because this is a two-dimensional State space but there's obviously
+  way more possible numbers we could bake in to the state of a system remember this
+  thing has probably like 43 numbers you would need to Define its state because it's
+  got you know joint number times three or whatever um but in this case we have an
+  obvious third number and that's acceleration and we believe for good reasons that
+  things like the Z position the Z velocity and Z acceleration are all coupled in
+  some way and lucky for us we have an additional spatial Dimension to plot and this
+  two-dimensional plot can become a threedimensional plot where now the third axis
+  will be acceleration and that I believe will show up here and I really wish this
+  would show make this LLY I don't know how to make that show up I don't know why
+  this is anyways do this yeah there we go and so there oh now we're bouncing around
+  so that's what that looks like uh yeah this is we were getting off of Michael's
+  map too that's where you got question marks there and I wish I could put this in
+  a more visible space but this is one of those so that the the height here is acceleration
+  oh Jesus sure um and so now this is a a 3D State space representation of that repeative
+  jumping behavior um oh I see got this and I wish I had set this up to plot in a
+  bigger format but that's fine I personally really hate Jupiter notebooks but they
+  are useful in some cases uh but yeah so this this is the this this is the thre Dimension
+  this is a three-dimensional State space plot of the center of mass kinetics over
+  this repeated jumping pattern and this if we wanted to we could look and analyze
+  aspects of this shape in similar ways that we would analyze three-dimensional spatial
+  trajectories and say things that may or may not be related to the actual Behavior
+  now for this particular Behavior I kind of think this is where the analysis tends
+  to kind of Peter out like just the quality of the data is not particularly great
+  the the experimental design was had left something to be desired um but I do think
+  that this is sort of like Jesus other than the technical issues um this there's
+  like something beautiful about this and just the way that it represents this kind
+  of like intuitive sense of what was going on in that behavior like you can look
+  at it you can say okay there's a repeated thing happening here there's a cycle that's
+  occurring and I want to know things about that cycle and how that rates relates
+  to some other factors that are going on and what we just went through um in the
+  full class time because that's how it always tends to go um was again a series of
+  analyses all of these analyses by the way on the back end of the other pipeline
+  that we described last time to represent the data in a format that kind of captures
+  that cyclical structure and if we really wanted to we could kind of look at this
+  and other formats and keep going from there um but and because we were so careful
+  and to to maintain that sort of like epistemological chain from the base sort of
+  voltages on the back of the camera through each stage of the pipeline through the
+  magic box step of the of tracking the person in the image and through all the other
+  geometry and computation and you know unit conversion and stuff like that we can
+  believe that there is in in the same sense that we believe that there is some relationship
+  between the image from the camera and the reality of what happens at that point
+  in time now two weeks ago uh where the the organism in question was behaving in
+  space we can believe that the the shape and structure of this representation also
+  has that grounding in this relationship to that behavior that we recorded some weeks
+  ago um yeah and so this type of this sort of State space representation it again
+  like I don't know how much it's going to come up in your daily lives for you know
+  a little while unless you sort of stick into the the the gritty parts of science
+  um but you see this this method for represent representing complex high-dimensional
+  uh data or behaviors or sort of questions in a lot of different places you see it
+  in robotics so oftentimes with robotics if you if you think about like a multi-joint
+  arm and you think about like you know shoulder shoulder angle uh elbow angle wrist
+  angle and you sort of plot those onto this thing then a given arm trajectory will
+  map a given trajectory in that space so even if you have a high-dimensional sort
+  of robotic element um I think these days people are getting people really like um
+  reinforcement learning stuff like that but uh often times like robotic movements
+  are deci are defined Within These sort of State spaces and phase spaces and again
+  there is nothing special about the number three other than that's how many spatial
+  Dimensions we have if we wanted to plot a 45 dimensional State space we could do
+  that we just can't look at it all at the same time and so Robotics trajectories
+  are often plotted in those space spaces you also see it in uh neural data so if
+  you're recording from you know 100 a th000 neurons in the visual cortex while you're
+  displaying something or another to the monkey you might want to know about the the
+  firing of each of those neurons relative to each other so you could again Define
+  a certain State space and say okay for neurons one to 100 you know on the scale
+  from resting firing rate to maximum firing rate where is each neuron in that space
+  if you think about a simple case you only have three neurons if you show a stimulus
+  to the monkey you can look at how the different neurons firing rates relate to each
+  other and look at the structures that come around from these types of plots and
+  sort of try to use that to interpret what's going on at the at the neural level
+  um before we go just I'm going to drop some just jargon terms real quick if you're
+  interested in this stuff poner sections is a is a classic term it's been um it a
+  p a point section is basically if you take a slice through this um this sort of
+  dut shape uh the plunk aray section is sort of like where all those points connect
+  so if you were to basically um take a slice here then the shape of the sort of intersections
+  with that plane would be the plk array section um you could also do like time locking
+  so so this one is just sort of allowed to swing around you could also chop it down
+  so that let's say each of these Green Dots is sort of like slammed to zero and then
+  see how the shape changes often times when you do that like if you align the time
+  base to some relevant sort of feature different things will emerge sometimes things
+  will clean up and sort of condense and you can sort of look at things that way um
+  and yeah this is we when we show up before class and there then the previous class
+  has all like the crazy math on the board that's that's differential equations that's
+  kind of like that's what this stuff starts to get into pretty quickly um but just
+  to be clear I can't do any of that math any of that board math I got nothing on
+  that I can probably write code that does similar things to that board math but if
+  you sat me down and said calculate the integral of some this that or the other like
+  I got I I got nothing you can all probably if any of you have taken a math class
+  in the past five years actually probably not five you're pretty young but if you've
+  taken a math class at this school you could probably math me out of the water on
+  paper um I just never learned how to do that my bachelor's degree is in philosophy
+  um but you can back your way in with the intuition and you can learn the co you
+  can learn how to do it in code and event like the nice thing about math is once
+  you get good enough at it you don't have to do it anymore you can just kind of write
+  the code that does it and the the phase of that process where you actually like
+  I am now back to the point where I I I write the math on paper to help me write
+  the code better but I promise you I wasn't doing that for the first like decade
+  or so that I was converting my life from philosophy major to science person um Okay
+  cool so that's data that's movement data that's probably that's the last moap stuff
+  we're going to look at unless somebody wants to dig deeper into it um I think next
+  week we're going to focus more on the like honing your ideas and I want to end I
+  want to end next week with y'all having like three papers on your topic versus the
+  one um and then probably after that we'll move into vision and eyeballs and I'll
+  bring in an eye tracker and we'll look at my eyeballs and it'll be weird um yeah
+metadata:
+  author: Jon Matthis
+  channel_id: UCOOQxlTCtUz9mr1NPWlJyYQ
+  description: '**Video Title:** 2025 02 05 14 55  \n**Author:** Jon Matthis  \n**Duration:**
+    5633  \n**Date Published:** February 11, 2025  \n\n### One-Sentence Summary\nThe
+    session explores motion capture data analysis, emphasizing the epistemological
+    chain, phasic movements, and state space representation, while preparing students
+    for practical research applications.\n\n### Chapters\n00:00 Introduction and Recap\n00:30
+    Epistemological Chain in Data Analysis\n03:13 Analyzing Repeated Jumping Data\n08:10
+    Data Visualization and Tools\n12:00 Understanding Motion Data\n24:47 Data Cleaning
+    and Signal vs. Noise\n27:02 Python Code for Data Analysis\n35:31 Time Series and
+    Data Representation\n50:01 Velocity and Acceleration Calculations\n72:00 State
+    Space Representation\n88:25 Applications in Robotics and Neural Data\n92:00 Conclusion
+    and Future Topics\n\n### Pull Quotes\n- \'
+  duration: '5633'
+  like_count: ''
+  publish_date: '2025-02-12T08:07:43-08:00'
+  tags: ''
+  title: HMN25-05 - State spaces, phasic jumping, and FreeMoCap data analysis
+  view_count: '55'
+transcript_chunks:
+- dur: 180.0
+  end: 180.0
+  start: 0.0
+  text: okay so uh catching up we are here in week five and slowly catching up to
+    reality I suppose um so last week we recorded some motion capture data involving
+    standing posture and jumps and repeated jumps and that whole good stuff and then
+    um last time on Monday we looked pretty closely into that data um focusing on
+    the sort of like the epistemological chain like the from like the the pipeline
+    from the empirical measurement represented by the video recordings into the sort
+    of like increasingly more complex analyses and sort of you know processes that
+    that produce the data into a format that we could actually start to analyze understand
+    and sort of make some insights about the thing that we care about which in that
+    case was standing posture and looking at the differences between the supported
+    versus the unsupported thing and sort of trying to wrap our head around that way
+    of looking at data um and I hope that was kind of like generally helpful both
+    for like you know this specific type of data but also like that same kind of thought
+    process will be true for any kind of scientific investigation you want to do like
+    at any at some level if you're looking if you're trying to derive knowledge about
+    the world on the basis of some kind of empirical measurement it's going to have
+    some kind of a process that's similar to what we went through last time where
+    there's going to be some tool that is taking some kind of a measurement from the
+    world that measurement will be some super basic sort of like some energy in the
+    world that gets transformed into some quantity that is easy for us to sort of
+    record and take a record of and then generally speaking that data will not be
+    something that you can just look at and then sort of derive anything interesting
+    about the world there's going to have to be some kind of a process of calibration
+    and computation and Analysis and da da da da da and at the end of that sort of
+    sometimes very long computational pipeline you'll be looking at data that will
+    be represented in some way and you'll be trying to generate something resembling
+    knowledge about the world from looking at that so I think the main point I wanted
+    to make last time is just to think about each stage of that process as a sort
+    of a a chain of epistemological grounding um where your ability to trust the outcome
+    of that long pipeline is only as strong as the weakest link in that analysis so
+    if there's some like weird magic step in Step 12 of 255 even if every other step
+    in that process is super grounded truth preserving like old school reliable
+- dur: 180.0
+  end: 360.0
+  start: 180.0
+  text: computation if there's some weird step in the middle there everything after
+    that is no longer reliable in terms of like its ability to track reality in the
+    way that we want it to um so today uh I'm going to do sort of two things which
+    is historically a mistake but I think we can do it um I I want to sort of look
+    at just go back into the data and look at the some of the the data that we didn't
+    look at which is the the last condition of the repeated jumping um and show uh
+    a an analysis of that data that have generated in previous years and can look
+    at here um to make a couple of different points both just sort of like that U
+    the different structure of a movement that has that kind of like repetitive phasic
+    kind of aspect to it so as opposed to being standing posture which is a continuous
+    control problem or like a big singular jump which is like a discreet sort of behavior
+    um the repeated jumping has this kind of phasic thing where sort of each stage
+    I see you uh uh each stage sort of sets each step in the phasic process sets you
+    up for the next iteration um and so there's just some different ways of analyzing
+    data like that and there's 's many many many aspects of the natural world that
+    has that sort of property Locomotion running is one of them also like your circadian
+    rhythms and you know like the seasons uh a lot of things have this structure of
+    kind of like a pattern that repeats itself um in a way that's sort of like related
+    to linear time but not directly related so like the seasons is a good example
+    of that actually like the the the year counts up so 24 25 26 um but when comes
+    at its own sort of rate and we'll just look a little bit about that um hopefully
+    that won't take us all that long um and I want to leave the last sort of optimistically
+    hour but possibly less uh to do a little bit of small group work um which I will
+    sort of try to relate to the initial part um where it that will be forming into
+    small groups of roughly uh three three three-ish folks um with the intention of
+    sort of doing some work with the bot to find a a paper which can complement the
+    paper that you've already chosen for your chosen topic and specifically trying
+    to find papers on a similar topic but are that are sort of distinct in some interesting
+    way so you can start looking at sort of different perspectives on your chosen
+    topic um yeah and then I think that will sort of lead us nicely into kind of like
+    the
+- dur: 180.0
+  end: 540.0
+  start: 360.0
+  text: second half of the semester and by the end of next week I want to kind of
+    be getting into the space where you have like a more grounded sense of what the
+    the final poster project is really going to look like and sort of you know have
+    the ability to start hypothetically making movements in that direction realize
+    that there's kind of some weird timing here but don't don't stress too much about
+    those things we'll make it we'll make it work um right yeah anyways just realized
+    that yeah poster do is less of it's it's less of an exclamation point than it
+    appears on the page um this upload poster this is really the hard deadline like
+    you have to upload your poster so they can get printed in time for whatever um
+    everything before that is a little more squishy I try to make this do before spring
+    bake so that you're kind of like free from that responsibility but there's a little
+    bit of like weird squishiness there um okay cool everyone cool with that so far
+    any assignment anxiety yeah good um all right and there will be a sort of we're
+    going to call it an exam for bureaucratic reasons but it's really just going to
+    be another one of these like directed bot-based conversations where specifically
+    I'm going to be extracting all the like the the sort of philosophy of science
+    kinds of aspects of the past several lectures in terms of like units and recordings
+    and empirical this and that and you will have a directed conversation with the
+    AI about connecting those types of thoughts to the particular domain that you've
+    chosen to study um I can't imagine any of you have chosen a topic that won't have
+    some relationship with units and measurement and methodology and stuff like that
+    so um you know it's not going to be something that you can it we're going to call
+    it an exam but you can't really get a grade on it because I think it's unethical
+    to use AI to grade things um for a lot of reasons but we will yeah we'll be fine
+    okay so um I have to start up Discord which could take a second um I did move
+    the recordings from the other week into a Google drive folder so you can download
+    them if you so choose uh I'm not going to really going too deep into that aspect
+    of it um but in the server in the links and resources there's a Google Drive link
+    that will take you to a page which should show something if this loads am I on
+    the internet yeah so these are all the recordings in some strange order uh yeah
+    maybe a different maybe later in the semester I'll talk a little more about how
+    to get it and run it but um for now you can kind of my the the only
+- dur: 180.0
+  end: 720.0
+  start: 540.0
+  text: recommendation I'll make is if you want to look at any of these on your computer
+    your best bet is to download the entire folder so don't download bits and pieces
+    download the the entire folder of a given recording and then open up the blend
+    file with blender and poke around and if you don't know how to use blender there
+    are many many many many many tutorials online on how to do that so you can figure
+    that out on your own okay so with that said you thinking so hard buddy let's take
+    a look at this repeated jumps recording so if you recall let see here so again
+    this is going to come up later but again noticing that the the initial data here
+    is broken garbage because I am not in the scene everything gets this is a very
+    common way that data breaks when you're trying to do 3D stuff with bad input it
+    just all gets squished into a singular line um so this will come up later just
+    notice that the data starts out as garbage and then it sort of snaps into place
+    whenever I walk into the scene and I stand here in that sort of calibration sort
+    of pose and I then start bouncing up and down hide and if we hide this we can
+    look at that and we can grab I think we can [Music] do that [Music] work I never
+    know how to make that work it's fine okay so we gra you we're going to say round
+    frame we're going to do two seconds before and not after and then we going to
+    calculate whole recording then we're going to hide the key frames show custom
+    color make it make it Pink and yeah and so there we go so
+- dur: 180.0
+  end: 900.0
+  start: 720.0
+  text: here I am jumping for some amount of time and I guess let's we'll get to that
+    when we get to that and let's look at the graph editor let's turn so with the
+    standing posture stuff uh I was look we were looking at like the projection of
+    the center of mass onto the floor relative to the base of support and so in that
+    for that task the height of the center of mass is not relevant to that analysis
+    we only really care about where I am where that where that Center of mass position
+    is on the ground plane which we're going to Define as XY and then Z is going to
+    be up in this world um so that balance task X and Y are relevant Dimensions Z
+    is not a relevant dimension for the model of of standing that we're looking at
+    there if we were looking at a more comp complex model of standing that had things
+    like joint angles and stuff like that we might care about the Z axis but because
+    we're living in this sort of hypers simplified world we basically get to throw
+    away the height of the center mass and now we've boiled down this entire complex
+    being data object into two singular points um with something like jumping it's
+    the opposite uh when I'm jumping around we're thinking about that as something
+    like I'm putting Force into the ground that is fighting against gravity and if
+    I put more Force into the ground than I weigh uh where weight is measured in Newton
+    so it's Mass my body mass times gravity gives you my Newton Force if I put more
+    than that Force into the ground I will temporarily leave the ground as gravity
+    sucks that energy away from me I will reach a certain height and then come back
+    to the ground so that behavior is defined relative to this inertial reference
+    plane and specifically inertial reference frame is like basically like code work
+    for the ground is at zero and you know some direction points up and so that jumping
+    Behavior it if I'm jumping here or jumping there or jumping there or jumping there
+    it's the same process either way so in this for this behavior for this task we
+    actually don't care about the X and Y AIS and we only care about the z-axis the
+    vertical axis um if this was a different task I'm like going from Stepping Stones
+    if I'm jumping if the task said jump in place and don't shift around then the
+    ground plane becomes important but if we're just thinking about the base level
+    physics of it the physics are the same in one part of the room or the other all
+    of which is basically a long-winded way of saying that I can turn off the X and
+    Y data from this viewer and normalize that it's not actually what I wanted and
+- dur: 180.0
+  end: 1080.0
+  start: 900.0
+  text: what is going on there not sure why that looks like that but okay and we get
+    this nice so this data here so this shows the sort of vertical motion of my center
+    of mass so the x axis here hypothetically is meters um so from except it's upside
+    down why is it upside down I don't know why it's upside down um these units are
+    confusing me a little bit I think it kind of loses track of some of that because
+    it's this is negative .85 and this is negative point9 so that's kind of down but
+    this is yeah that that says this one says 1.43 M which is probably about this
+    high this is one 1.8 so let's call this 1.4 um I I could probably jump that seems
+    right um so I don't know why these units are happening this is sort of a thing
+    that I've noted like blender is not a scientific tool blender is an animation
+    artistic tool so sometimes things like oh let's make sure all the the units are
+    correct they're a little more fudgy on that than you would expect from a scientific
+    tool but this is sort of a it's more of a cultural thing than any real like in
+    order to do this type of stuff right they have to be doing the math correctly
+    and they have to be keeping track of units here and there or the other but the
+    user base of this software are more concerned with just like the general shapes
+    of the data and sort of and things were like oh these numbers don't actually match
+    those numbers is first of all almost certainly like a setting that I'm not doing
+    properly but you know a scientific tool wouldn't do this an artistic tool would
+    luckily in this context I similarly don't really care about the values I only
+    care about the shapes um but this is sort of a nice opportunity to look at how
+    this non-dimensionalization so so dropping the X and Y AIS the X and Y data from
+    this plot makes it so that the data becomes this much simpler one-dimensional
+    time series right because the x-axis represents time specifically it represents
+    frame number uh where if you wanted to calculate like the
+- dur: 180.0
+  end: 1260.0
+  start: 1080.0
+  text: clock time we could convert that using our knowledge of the frame rate and
+    that stuff like that um but if you'll notice as I'm sort of so down here at the
+    bottom of the jump I jump up uh in the actual 3D data I'm kind of Shifting around
+    in space like I'm I'm not bouncing on over the origin the whole time I'm shifting
+    around my X and Y values are changing um but we don't have to care about that
+    if we're just looking at the height so in terms of the mechanics of the situation
+    we could convert this into Newtons by just multiplying by getting the potential
+    energy here and just saying okay the the Z height is height and then Mass doesn't
+    change gravity doesn't change so this if we wanted to convert this plot into a
+    plot of the potential energy of the physical system we could do that by just basically
+    scaling it by by my mass or and the gravity on Earth um at which point you know
+    again and if we did that these numbers would change but the shape would not because
+    there's nothing interesting happening there so there's a lot of things that we
+    could look at here if we had you know more time in research funding and stuff
+    like that um one of which would be like let's assume you know if we were like
+    sports biomechanists and we wanted to know about the force production that leads
+    into jumping you know we might want to look at you know how this sort of phase
+    on the ground can I zoom there more oop so here I am up at the top of the jump
+    um and then as I come down like so looking at the video back there you can tell
+    right around there so I'm off the ground and then this is around this frame is
+    where I hit the ground no wait no that's not right that's the opposite okay right
+    around there so this whole phase here where I'm on the ground this first part
+    you can see I'm kind of I'm compressing like I have a lot of energy in like mechanical
+    energy in the system that has to go somewhere um and so I I bend my legs I'm
+- dur: 180.0
+  end: 1440.0
+  start: 1260.0
+  text: not I don't have like EMG recording the muscles on my quadriceps and hamstrings
+    or whatever but they're on I promise you that they're on because I don't collapse
+    to the ground my legs just kind of deform a little bit and then I push off and
+    I come back into I go back into the air so this is where I think we've come across
+    the term like neuromechanics before this is kind of at that level we we could
+    ask questions at that level here about like you know how efficient am I as an
+    organism at taking advantage of the fact that the force of gravity is preloading
+    my muscles with all this like nice spring Force then how how efficiently do I
+    utilize that spring force in order to launch myself off the ground for the next
+    jump because clearly when I push off I am using um you know something from on
+    high is sending the signal down to trigger a muscle firing that will allow me
+    to bounce off the ground but unlike that standing high jump thing I don't have
+    to generate all that force on my own I have some of the force from the previous
+    jump preloading my limbs so that when I actually you know take off in the next
+    jump I have the the force from my muscles is going to be presumably sort of like
+    efficiently combined with the spring force from the previous jump which is also
+    you know it gets very complicated very quickly um so yeah like so we could look
+    at sort of you know how efficiently I'm doing that translation from from one jump
+    to the other um we could also look at things like fatigue so if we were looking
+    if we expected that over the course like these jumps look pretty similar but it
+    might be the case that if you looked at the the time between the Peaks it might
+    get longer as I get more tired the the peak height might get a little bit less
+    as I get tired I wasn't really pushing myself all that hard so and it wasn't a
+    particularly long recording um so if those numbers are there they might be more
+    subtle um but there's a lot of sort of potential analyses and potential kind of
+    um just ways of considering this data uh that would not be sort of possible just
+    it's it's only possible because of the sort of repetitive aspect of it and again
+    like I've said before the stuff for bouncing in place is kind of like a proxy
+    for what it would look like if this was like if I was running or or jogging or
+    walking or something one of those kind of repeated sort of behaviors there um
+    and again just kind of like highlighting while this data in the middle looks nice
+    just looking at what bad data looks like sort of because one
+- dur: 180.0
+  end: 1620.0
+  start: 1440.0
+  text: of the real advantages of this type of data is it is directly coupled and
+    tied to like a thing that we have very very strong intuitions about because it's
+    it's human movement it's video like we kind of have some sense of what that data
+    looks like if this was me a measurement off of an accelerometer if it was a measurement
+    off of an you know Mass spectrometer or something that is less tied to our kind
+    of like you know the part of the world that we tend to operate and have a lot
+    of intuitions about might not be as obvious when the data is like good and viable
+    versus when it's being sort of busted out because the because of some methodological
+    thing so uh so you know just this is just your reminder when you're thinking about
+    data that you always have to be asking the question when you're when you're looking
+    at a data source from a from a piece of equipment or wherever you get it from
+    you always kind of be have to be asking the question am I looking at signal or
+    am I looking at noise signal to noise ratio is kind of like a whole whole other
+    conversation um but this is where kind of like building intuitions building understanding
+    and just really like like having that kind of gut check of like am I looking at
+    something that's worth analysis or am I looking at some sort of noise and bug
+    in the system um and that yeah that figuring that out can be often the challenging
+    part also noticing because this will also come up later this moment here where
+    at some point on my way out there's like a a spike which can also happen where
+    like for one frame everything just jumped over here so there is one data point
+    that is way outside the actual expected range um which will come up in a bit okay
+    that'll make rough sense following along jumping in space get that no one's mind
+    is blown yet okay um okay so let's now now let's look at ways of representing
+    this data that can sort of help us understand and sort of starting to like torture
+    the data into a shape that's more amenable to that kind of like phase based um
+    analysis and for that I'm also going to show you just a little bit of code um
+    this code is on the the course repository now um if you're familiar with python
+    code and particularly Jupiter notebooks it's in there um it's not particularly
+    like well set up for sort of student consumption but it's available it's on there
+    if you want to find it it's in the repo in the Cod fold
+- dur: 180.0
+  end: 1800.0
+  start: 1620.0
+  text: code folder in the python code folder we're looking at jumping Center of mass
+    and this should run um yeah so I'm not going to go too much into the the Cod code
+    parts of it um I will just first of all will this run no thank you um just kind
+    of just like doing a a quick pass through just interested parties can pay attention
+    uninterested parties can just like wait for the Squigly line some pretty pictures
+    um but you'll hear me talk a lot about just like writing code and doing analysis
+    and doing this and that and just FYI this is what that looks like um so the first
+    thing you do is you you in you install a bunch so this is python code and so the
+    first thing you do is you install a bunch of packages and packages like P are
+    for numerical computations scipi for things like scientific analysis of this that
+    and the other and then plotly is for making the visual plots and squiggly lines
+    and stuff like that um these are all packages that were made by people many many
+    people many of these packages numpy and S cpai to some extent but numpy in particular
+    has a lineage that goes all the way back to the sort of the first history of computing
+    there is always at every point in the history of our actually the history of our
+    sort of like you know long scale civilization but specifically in the computational
+    world there has always been kind of like the de facto best like numerical computation
+    package and I think these days numpy is probably the most widely used at least
+    um in the sort of data analysis World um but this is the one that does like vector
+    or sort of like Matrix computation does linear algebra a lot of like the big number
+    crunching of the world is done sort of in numpy or related types of packages I
+    just want to point these out because this is very easy to skip over it's not relevant
+    particularly to this course but this is one of those places that if you really
+    sit and think about just the the volume of human effort and human labor that went
+    into this import numpy line of code is really staggering like like many thousands
+    of people over decades working very very hard over a very long amount of time
+    to make these things happen and invisibly and for free you can just import all
+    of that labor and now all the stuff that we get to do is built off of that work
+    that was done by these many folks over the history of their own time anyway um
+    this is also a very important stage of every data analysis pipelines life this
+    is loading the data in um and this is literally just the path to the folder on
+    the computer and then specifically
+- dur: 180.0
+  end: 1980.0
+  start: 1800.0
+  text: the path to the the body 3D data and then the center of mass XYZ data those
+    these are not actually the center the csb uh sort of data uh files that I showed
+    last time but they are equivalent um so this is the part where that data gets
+    into the program it's then the RAM and the memory of the of the system and so
+    when we when we want to look at it this is the part that where the computer has
+    loaded that data in so that those those like big infinite sort of piles of numbers
+    that I was showing last time this is the part where those numbers now enter into
+    the system's memory and now we can sort of look at them uh load that up yeah you
+    can load and look at its shape where this shape is we're looking at the center
+    of mass so it's 1370 by3 so it's 1,370 frames at 30 frames per second three columns
+    so X Y and Z that's and we talk about the shape of the data that's kind of what
+    we're talking about like how many frames how many dimensions if it had rotation
+    so this would have to be six so XYZ position XYZ rotation so this would be 1370
+    by 6 um and what everything is here blah blah blah yeah get different data points
+    there different data points there uh and now this is the part I think I I think
+    I'm have to restart it when I run this I think it's basic enough that it happens
+    um this is now the data has shown up into the system and this is a very basic
+    Bas plot of that um so this is the raw data in like I think it's plotly or something
+    like that um this is the very same data that you see in blender except in a much
+    more impoverished form like one of the main kind of like you know labors and wins
+    of the Primo cap software was figuring out how to adapt the sort of the lowlevel
+    scientific code so it can be shoved into this animation software so that you can
+    do all this nice things and like have all this very easy way of clicking around
+    and showing stuff without having to write the actual code but again because this
+    is an artist tool it's not really set up for doing kind of like deeper layers
+    of analysis um so this is I think it just oh does it just play through yeah so
+    this is sort of this is what most this like for a lot of scientific analysis this
+    would already be pretty good because it's an animation in 3D but you can very
+    easily
+- dur: 180.0
+  end: 2160.0
+  start: 1980.0
+  text: see how this is sort of not as useful of an interrogatory tool as something
+    like a professional animation software designed for like 3D animations had a very
+    interesting sort of layer of our society because they are artists and they think
+    like artists but it's also super heavy technical like computational 3D math um
+    so that kind of like that boundary layer that is represented by something like
+    blender blender particular being like a free open source software as has that
+    layer of it as well um it's kind of like I think one of the interesting interfaces
+    here um this is also a useful way to sort of confirm to yourself that you've loaded
+    the data correctly that up is in fact this direction very very very common very
+    very easy to load the data in a it's just a snowstorm the dots are flying around
+    all over the place or B this person's jumping like this to the side because you
+    haven't rotated things or you haven't rotated them properly so that Z is up because
+    remember a lot of things we're talking about here assumes that there is a that
+    one of these X y's and Z's is aligned with the gravity Vector but there's nothing
+    in the Raw geometry that has such a thing as gravity cameras don't know what gravity
+    is unless you have a secondary sensor in them which we don't um so this type of
+    thing sort of gets into uh overlap between like on the one hand this is not a
+    like this kind of visualization is not a necessary step of the analysis pipeline
+    but on a very practical level it absolutely is a necessary step to have what we
+    would call observability in your pipeline where the observability is the part
+    where you can just you know you're you're you're crunching big numbers with with
+    fancy code and the observability is a part where it produces something that you
+    can use your your human eyeballs and big human brain to just look at it and say
+    oh yeah that looks right that looks like a person jumping they look like they're
+    oriented with gravity and now because of that I am now confident to move on to
+    the next stages of the of the pipeline and start analyzing data whoever wrote
+    this this is a can't remember who wrote this originally but I always get I always
+    like notice stuff like this like this is the British spelling of analyzing with
+    a s instead of a z so I don't know could have been me could have been someone
+    else hard to say okay so um so we've talked about time series uh this this is
+    not a Time series this is a spatial representation of the data there is actually
+    nothing in this data that tells you what time is if you it just happens to overtime
+    plot the data from the next frame at roughly 30 frames per second so it you can
+    see time in the
+- dur: 180.0
+  end: 2340.0
+  start: 2160.0
+  text: movement of in in the by looking at it for but there's nothing in this repres
+    this is a spatial representation there's nothing in there sort none of these axes
+    are are T they are x y and z um so we can also we can take that and then we can
+    also represent it in this time series format right so this now we have to split
+    it up so it can be flat we have X Y and Z and then this axis is time again specifically
+    it's frame number so we're not in SI units here we're in we don't this for this
+    to be SI units this would have to be seconds but this is frames um so if you want
+    to convert this to frames multiply this number by 0.033 or something which is
+    the number of seconds per frame right frames per second and then you can do some
+    sort of nonsense and you get seconds per frame and this is one of the weird things
+    about this part of calculus I don't know um is realizing that you can do the same
+    kind of like fraction math for units that you would for numbers and it's like
+    valid to do that so frames per second is you can do that math and get 33 Mill
+    seconds per frame from 30 FPS um yeah right yes so before when I was showing this
+    I had already truncated the end frame to be before the actual end of the of the
+    recording remember when I said to notice this one weird spiky dot at the end of
+    the recording if I don't account for that and I just plot all of the data at some
+    point something on this computer is going to crash um this is what it looks like
+    because it's I just said plot X plot y plot Z relative to the frame number um
+    and it says sure no problem let I'll do that for you and because I'm such a friendly
+    computer I'll be smart about how to do the axes specifically how to do this y
+    AIS so that you can see all the data that you asked me to plot um but there's
+    this huge spiky outlier here that sort of ruins that so this spiky outlier so
+    this this plot goes from zero to 15,000 um which I don't know if you remember
+    from last time I did not actually fly 15,000 meters into the sky and then back
+    that actually didn't happen oh sorry millimeters so 15,000 millimeters into the
+    sky the this is a Blobby data Spike so I could fix this by
+- dur: 180.0
+  end: 2520.0
+  start: 2340.0
+  text: sort of using my intuition and saying oh let me let me tell the code to only
+    have the Y limit show this range of numbers but I don't know what that range should
+    be so the other thing I can do is I can go up here and I can say okay the start
+    frame is zero the end frame negative one means just like the last frame um but
+    I can also this is again where the observability comes super helpful uh I can
+    just go into this code and say okay let's see so this first chunk is sloppy data
+    of nothing until let's say frame 118 let's say yeah let's say 150 is when the
+    good the good data starts and it stays pretty good until let's say uh 12 let's
+    say 1213 so let's say 150 to 1213 so start frame 150 uh end frame 123 and and
+    then I appli it again instead of looking like that weird spike it looks like this
+    so often times we need do data collection you're you you're trying to like if
+    you're doing data collection you're typically going be doing the same thing over
+    and over again like multiple participants multiple you know conditions multiple
+    days da da da so you really want your pipelines to have as little as possible
+    of you the human have to go in and look at something and sort of figure out like
+    what I just did of like oh let's you frame blah blah blah to frame blah blah blah
+    that's a manual labor step that requires me to like do stuff with my human brain
+    I can't just load the data click go come back tomorrow record new data change
+    the path and then click go I have to look at it and sort of pull out a number
+    then write that down somewhere so you want to minimize those steps but practically
+    speaking there's almost always going to be some amount of that kind of like data
+    cleaning data preparation and so if this was going to be part of a longer study
+    I would have some place to write down for data collection day whatever for participant
+    whatever for condition whatever the start frame is 150 the end frame is 1213 and
+    I would have some place to record those numbers so that as I keep collecting data
+    I will keep I'll be able to keep track of this when I do the main analysis I can
+    know that I'm only getting the good good stuff yeah so it would be it would be
+    really hard to pick a frame number um you could do something more kind of
+- dur: 180.0
+  end: 2700.0
+  start: 2520.0
+  text: like what we did where like I picked kind of like a duration of time of like
+    I want to do you know 30 seconds and then that would correspond to you know 30
+    seconds times 30 frames per second it's like 900 frames or something like that
+    but I wouldn't be able to necessarily say like oh on on frame 150 to frame 932
+    you know that's something that you couldn't really do you something that's much
+    more common to do is first of all picking durations and secondly deciding a behavior
+    that will make the data easy to chop out often times in an analytical way so with
+    this if I said okay stand here don't move for five seconds jump jump jump jump
+    jump and at the end stand here don't move for five seconds then in the data when
+    we look back at it there would be these flat spots right here to right here I
+    like didn't wait too long at the end um but this is the kind of thing that would
+    be pretty easy to write some bit of code where you looking at the velocity of
+    the blah blah blah and then just find something that sort of automatically goes
+    through and chunks out the first step from the last step and I would you know
+    at this point in my life I could write that code pretty easily and trust it pretty
+    easily um but that was kind for like a hard-earned ability to do that and also
+    anytime you're doing that like you're always if you record enough data then that
+    automated pipeline is going to work like 90% of the time and then that 10th time
+    it's going to find something weird in the middle and then chop one of your participants
+    data in half and then you're not going to notice that until way too late blah
+    blah blah blah blah so there always there's always a very complex dance between
+    I'm trying to automate every part of this pipeline so I can operate really efficiently
+    versus the most efficient thing I can do is just manually Define these data points
+    for each for each participant and then write it down somewhere and then like have
+    just like another like CSV that just says for a participant one you know condition
+    block two whatever start frame this and frame that and then at the end of each
+    recording session I just write down those numbers and I never have to think about
+    it again I don't have to write any fancy code to do it um sort of there's that's
+    one of those like no answers thing and then if you go to grad school you will
+    uh you will lose significant hours of your life on that sort of like should I
+    automate this or do it manually stage um it's a very classic brain trap that it
+    has no true escape um yeah yeah that's a yeah good question as there are they
+    all okay okay
+- dur: 180.0
+  end: 2880.0
+  start: 2700.0
+  text: so okay yeah so this part is now so again looking at this as a behavior looking
+    at the X the Y and the Z we can see again that like you know the task is is very
+    well defined in that z-axis um and you can see this nice sort of regularity of
+    the data there and of like you know you in your brain it's like oh yeah there
+    this is some there's something I there's something I can pull out of this like
+    there's enough regularity here that it's there's something that I can pull out
+    scientifically like this this is tractable this type of data there's just there
+    more noisy so there's nothing obvious jumping out like this one oh there's a structure
+    here it's a repeating structure it's like a cyclical thing there's some kind of
+    s cosine nonsense going on I could probably do it's oriented relative to gravity
+    so there's just all these kind of like knobs that I can that you can like sink
+    your scientific teeth into to try to figure out what's going on here whereas these
+    the structure is not quite as obvious you can still see something of the the jumping
+    just in that shape but that might actually be an error elsewhere in the pipeline
+    um but you can see I'm kind of like shifting around um there's nothing super obvious
+    there and there's nothing in the task that really makes these Dimensions important
+    again if you had given me the task of I'm going to put like a penny on the ground
+    and you have to jump up and down only on that Penny then now the deviations from
+    that point in the X and Y become a part of the behavior and maybe you could look
+    at sort of you know how I'm Meandering relative to this and that but in this particular
+    analyses we are going to ignore X and Y and then focus on Z which is vertical
+    height um yeah so this term here kinetics uh this is one of those many kind of
+    like Latin root terms a lot of science is really built on this like let's find
+    two Latin words that sound very similar and then build an entire field on separating
+    them apart um in this in human movement it's kinematics versus kinetics so kinematics
+    is kind of like this stuff it's kind of the kinematics is like related to movement
+    so things like joint angles and position and sort of like body posture um the
+    kind of like the geometry aspects of things is wrapped up in kinematics kinetics
+    is related to forces um so that's where you start thinking things like force placeat
+    and stuff like that um joint torqus and stuff like that and in this case because
+    we're looking at the Z Direction in the vertical which aligns with the sort of
+    kinetic or kinetic potential energy sort of trade-off this kind of when we continue
+    to look at that vertical Dimension that counts as a kinetic analysis because the
+    units are
+- dur: 180.0
+  end: 3060.0
+  start: 2880.0
+  text: Newtons um yeah so then we clean it up this is a butter filter uh don't stress
+    about that um it just is a smoother and a cleaner and a ask the bot about Butterworth
+    filters um if you're into it one of those like yeah not not this is not the class
+    for that um oh yeah look this is I think I can't remember exactly who wrote this
+    code it wasn't me it was my former lab manager Michael but you can see here time
+    equals 1 over 30 something is now going to come through and convert those frame
+    numbers into seconds because later on we're going to likeit like down here um
+    we're going to be calculating from those Z positions we're going to be calculating
+    Z velocity and Z acceleration and so particularly once you get to things like
+    acceleration you kind of want the units to be second because meters per frame
+    is a measure of velocity but it's not a particularly useful one um well it's useful
+    and that it gives you scale but this is also a hardcoded number so you're just
+    writing the number 30 um this is anytime you you're in code if you see someone
+    writing a specific number like three Z you want to be careful about that like
+    I would prefer to pull the frame rate from the data store somewhere so that way
+    if sometime later I start using 60 frames per second cameras or 120 frames per
+    second cameras I have to go searching for all the places that I wrote the number
+    30 I want to just be able to pull that out of the data um but in this case we're
+    just kind of playing around so we're fine um what are we doing here normalizing
+    stuff and doing stuff where we get velocity oh yeah oh yeah and this we're getting
+    velocity and acceleration by taking the diff the this this is your Calculus real
+    quick um so X whatever so if this is the time and this is z height dot dot dot
+    dot this is the position in height in space of off the ground you can diff and
+    p. diff is a very very stupid um like it's a dumb dumb calculation that basically
+    just takes the difference so it literally just says okay for frame this one subtract
+    this one from that one subtract this one from that one subtract this one from
+    that one and then instead of having the Z position on each frame you have the
+    difference between each data point and the one that came before it so you have
+    the change in Z position over the duration of time defined by one frame and so
+    that is now
+- dur: 180.0
+  end: 3240.0
+  start: 3060.0
+  text: Delta if we're doing meters Delta meters over some measure of time that's
+    velocity and that's that's calculus for you um and if you do that same np. diff
+    to the velocity now you're getting change in velocity over a frame duration of
+    time that's acceleration again this is np. diff is the uh numerical derivative
+    I guess like for discrete time intervals that's the same thing when you do calculus
+    you do like the limits and the the smooth this guy um but in computational numerical
+    land we just do that and call it good um and then the integral is the same way
+    you is sort of the opposite thing that anyways um so yeah so then if you plot
+    it again oh we still don't have those numbers I I need to propagate this thing
+    okay that's the plot that's [Music] that um so I want that to be start oh wait
+    150 in frame equals was it 1200 is or whatever and then total body Center of mass
+    will be start frame to end frame and then all everything if I do that and that
+    would be a smaller number yes that's another really common thing to do accidentally
+    which is uh I I had changed that start and end frame stuff um for the visualization
+    but I hadn't actually clipped out the actual data so when it got to the next part
+    where it was calculating the velocities it was including all those wacky veloc
+    those wacky sort of garbage frames and if you think about velocity is the change
+    in position over the the the unit in time the that one frame where I jumped off
+    to 15,000 mm in back the
+- dur: 180.0
+  end: 3420.0
+  start: 3240.0
+  text: velocity on that frame is through the roof in the same way because the jump
+    in position is also crazy literally through the roof I suppose um so now if we
+    do this again uh that there you go so now it's more cleaned up um can I look at
+    this and so let's see so let's look at this area right around 400 so this is the
+    Z position so this is that sort of the the height position going on there um this
+    H this is what the velocity of that looks like so roughly aligned there and this
+    is what the Z the acceleration looks like so and then this is what they look like
+    over overlaid so um this is one of those PL places where I think I we're going
+    to get a chance to do this later but like if this was a perfect measurement um
+    then there should be frames like the frames where I'm off the ground the acceleration
+    should be negative 10 m/s down um I'm pretty sure that this actually I can tell
+    you that so so 398 is a peak 398 is down here yeah so this this sort of the low
+    the low part here is the part where I'm in ballistic flight and the fact that
+    there's a little hump there tells you that the data is sort of incorrect in some
+    way either my center of mass is not being calculated perfectly or in this case
+    I think that the the the world is tilted a little bit like the ground plane is
+    not actually flat here it's slightly tilted which I think is also the reason why
+    you're getting the sort of like the jump squiggles are sort of still present in
+    the X and Y because you think about jumping on a a slanted ground plane then even
+    though you're booving up and down in space you're going to sort of see some of
+    that in the x and y axis and I know that because I wrote this code and I know
+    that that is the sort of that part of the code has some slop to it um but but
+    yeah so this is so we can now sort of Chunk this
+- dur: 180.0
+  end: 3600.0
+  start: 3420.0
+  text: out um and start looking at like using this data can start to like get particular
+    layers of I don't know why I always like anytime I have a plan that involves the
+    word and I should just scrap it and have two things like it's already four o'
+    like we're not have time for the other thing but like are we going to do this
+    and that it's like I I'm starting to recognize it but I don't use it to change
+    my behavior so we'll we'll figure that out um but yeah so using this so for example
+    one of the things you might want to know when you're jumping very very simple
+    dumb analysis is how many times did I jump right if you're just saying say the
+    task was jump as many times as you can in 30 seconds or jump as many times you
+    can until you want to stop or something like that just being able to count these
+    jumps would be something really helpful um you could just go through an eyeball
+    it you just cramp them by hand but that's first of all not going to be very reliable
+    and secondly won't scale like if you're doing a bigger analysis you want to be
+    able to automate that um and yeah various ways of doing that and in this particular
+    case uh I'm pretty sure now this was Michael writing this code um he he's he's
+    identifying uh peaks in that jump as zero Crossings in the velocity um in particular
+    looking at this stage so uh because if you think about the velocity of a curve
+    like this can I zoom in on that um up down so I'm accelerating upwards so it's
+    positive velocity and then I hit the Apex and then I'm going downward so it's
+    negative velocity so there's a zero Crossing there um between positive velocity
+    and negative velocity that corresponds to the peak of that jump and that's nice
+    to have um because if you're trying to identify the peak of this jump you can
+    actually actually looking at this data you can actually do that pretty easily
+    um um but there's always going to be a point like for this data point here like
+    this one's pretty obvious this is probably the one you want to Peak but pick but
+    if you're trying to pick just the highest one like there can be these kind of
+    ambiguous moments because you're looking for like a like a it needs to be a particular
+    number so that's where PL things like converting into something like velocity
+    allows you to look for something like a zero Crossing where the data goes from
+    positive number to a negative number and then that becomes a very easy thing to
+    to pick out of the data um
+- dur: 180.0
+  end: 3780.0
+  start: 3600.0
+  text: and representing this is also a I think if I re calculate this yeah um here's
+    another quick tip for data visualizations this this is a bad representation of
+    data it's fine and this is him showing okay we using that velocity analysis you
+    can find the peaks of each jump then you can just count the number of those and
+    know how many times you jumped but this yellow on white no one not doing anyone
+    any favors so we are going to go in here this is highle program you see where
+    it says yellow I'm going change that to a different color say magenta magenta
+    magent magenta there we go or let's say red sure um yeah and so now we have the
+    number of steps here just going to say this out loud when you're doing data if
+    you have healthy color vision you will very quickly go to red and green as the
+    colors to se to show two different groups you're not allowed to use red and green
+    10% of the population is color blind so if you if this if these were green lines
+    with red dots then I my 10% of my audience cannot see that color distinction so
+    think just look for any other so red red blue is good you know blue yellow well
+    not that yellow blue orange anyways uh think about color blind people um this
+    is also a good example of despite the fact that we had that pretty nice algorithm
+    for finding the peaks of those jumps it finds a bunch of jumps right here because
+    it found because the algorithm's kind of dumb it's just looking for zero Crossings
+    and so when I am just standing here you know I'm moving a little bit and it's
+    finding those points and so if we're naive in the way that we do this we're going
+    to count five extra jumps at the beginning that didn't actually occur and then
+    if we wanted to look at an analysis of like okay you know is there is there a
+    fatigue effect where the jumps are getting slower over time let's take the let's
+    look at the the average height of the first half of the jumps and the last half
+    of the jumps if you're not careful then you're going to include these fake jumps
+    in your calculation of mean height and now going to get a really wacky result
+    which is that the first the the average jump height of the first half of the recording
+    is super low and then the second half is super high because you have not appropriately
+    cleaned out the false data here so you know this is one of those things that's
+    super obvious when you're looking at it but less so if you're not careful about
+    how you do your analyses so you would want to have um a different way of clipping
+    off and sort of to the question from before like this is one of those cases too
+    like if I'm writing an automated algorithm to clip
+- dur: 180.0
+  end: 3960.0
+  start: 3780.0
+  text: off the the beginning and end of the data um it's really hard to write that
+    kind of analysis in a way that's that's going to get this like I can just go through
+    and say oh yeah right it's it's here like you can just look at it and say this
+    is where the data should start and so I can just go through and find that frame
+    whereas if I'm writing some sort of algorithm that's saying oh look for this flat
+    part in the middle how confident am I that I'm going to be able to get it right
+    there and not right there that's going to lead two of these like fake jumps in
+    there alternatively I can have a more robust method for finding those Peaks that
+    has in addition to that like velocity zero Crossing it also just has a minimum
+    threshold height so the thres you have to be above a certain height and doing
+    a zero Crossing for it to count as a jump but then you have to ask the question
+    how do you know what that height is and da da it's whole part of the game we'll
+    figure it out um yes and then again those red stars he yeah so we believe that
+    those red stars correspond to the apex of the jump um and this is that same data
+    in the acceleration space there we go yeah so this little humpy thing at the bottom
+    here is in fact the the ballistic flight phase so this is again showing that there's
+    some sort of Squish in the data um now again from a data visualization perspective
+    uh Michael was not doing you guys any favors because he well he was doing you
+    many many favors I suppose but one of the things he didn't do is maintain a consistent
+    representation of maintain consistent coloring because here he established this
+    sort of like position is red velocity is green acceleration is blue um but then
+    when he plotted it later blue is the default color so he didn't he didn't maintain
+    those colors throughout so this one oh this is actually is this velocity I think
+    that's labeled wrong what is velocity anyways doesn't matter um so that was now
+    velocity which is blue and this is now acceleration which is blue which from a
+    visualization perspective uh there's nothing different about it the shapes aren't
+    different but in terms of like if you're trying to use this data to communicate
+    a particular thing to an audience maintaining those color consistencies can be
+    be really friendly on the brain um but for now we don't have to to worry about
+    it
+- dur: 180.0
+  end: 4140.0
+  start: 3960.0
+  text: okay so now we get to the a little bit of time the end figure it out okay
+    so now I'm going to take a bit of a a spin here so this is again just a part of
+    the analyses that you can look at all the time so say like you know and these
+    just different ways of interrogating the data putting things into position velocity
+    acceleration and sort of finding these and I think one of the thing that's happening
+    with the with the red stars is finding particular features in say the velocity
+    signal identifying those frame numbers as saying oh this is where the peak of
+    the jump is and then plotting those same points overlaid on different analyses
+    so the red star so it's it's hard to deter in actually yeah so um he didn't so
+    you could have done a similar analysis so this is basically liftoff oh yeah it
+    says right there liftoff um so this Frame or close to it is the the part where
+    the feet left the ground you could do a similar type of analysis to get TouchDown
+    um and that would then tell you that everything between lift off and touchdown
+    is on the ground so now even though we know that the that sort of ballistic data
+    is like not accurate in some way because you know the this wiggle cannot B physics
+    says that didn't happen so if this is there that means there's something wrong
+    with the data representation which is fine um but we could look at if we knew
+    the the the contact portion of the jumps then we then this part of the curve is
+    the place where my nervous system is putting Force into the gra round um this
+    is the part where I'm landing and absorbing force and this is the part where I'm
+    I'm taking off again so using this kind of way of doing the data you could chop
+    out all of those contact phases and sort of do some estimations and analyses of
+    the um the processes going in there um yeah and then you know keep on doing that
+    forever uh uh and then the rest of this starts getting into a place that I find
+    particularly fun and evocative and pretty um which starts to show so everything
+    up until this point even though the behavior as we know has this kind of repetitive
+    phasic structure um we've been representing time linearly um and so by phase I
+    mean just literally like there is a contact phase and there is a flight phase
+    so there's two phases you might or you might chop it up even
+- dur: 180.0
+  end: 4320.0
+  start: 4140.0
+  text: more than that say the contact phase has two phases there is the compression
+    and then there's the extension phase um you could say that the the flight phase
+    has a as a rising phase and a falling phase but you could also if you wanted to
+    you could chunk out these times and use that to sort of break down the sorry let
+    let me back up a bit so the so we so we know that the behavior has this kind of
+    like phasic kind of cyclic sort of circular type of structure to it but the representation
+    we have here isn't showing that time is progressing linearly from start to end
+    so from time equals z to time equals bigger than zero in that direction so if
+    we wanted to convert that into a more phasic structure that sort of represents
+    that that repeated Behavior more we have to do some some trickery um Step One
+    is identifying um yeah identifying a discrete moment in particular you want of
+    if there's a phasic thing happening like repeating structure you want to have
+    some way of defining the beginning of a phase like what is the what is what is
+    so if we're going from like 0 to Pi 0 to 2 pi we going in a circle or something
+    like that that what is zero in that in that phasic structure with a calendar we
+    have we call that zero January first um that's the time of the calendar where
+    the number resets uh for a clock we call that time midnight it resets and it goes
+    back it goes if you're counting in military time it goes from like 23 59 59 back
+    to zero again um in this case it's pretty reasonable to you could pick any number
+    you could pick any point in this but picking that lift off as time equals zero
+    seems like a reasonable place to to do that chopping um so we can go through if
+    we wanted to and take all of these oops take all of these cycles and clip them
+    according to their starting time and then overlay them on top of each other and
+    then you would see you know it would look something what would look like so if
+    you were to Overlay all those jumps on top of each other and call now zero is
+    just this star you would see this kind of repeating structure on top of itself
+    and then sort of then you
+- dur: 180.0
+  end: 4500.0
+  start: 4320.0
+  text: could try to line things up that way um you can also start representing this
+    stuff in a non-spatial way so this is this is actually a Time series so it's actually
+    not spatial but the the the the skeleton guy and the dot guy those are all kind
+    of spatial representations but when we were talking about representing stuff with
+    plots um I talked about like you know you can do X Y and Z to do you know two
+    dimensions and three dimensions but then at some point I said that some like that
+    using spatial Dimensions to represent the data is not really necessary um you
+    can do any color any number of things on the plot um and you can start representing
+    this okay I'm going to talk about this just so you know this is like this like
+    gets into the kind of like robotics the engineering stuff that like you're unlikely
+    to encounter again for a while unless you seek it out um but uh this starts getting
+    into like State space representation um where if you can Define the the the state
+    of the system in a small number of numbers then you can represent those numbers
+    in a plot and sort of see the relationship between them and so what does that
+    mean exactly let let's think about this in terms of the jumping Behavior and the
+    the numbers that we have decided are important for that behavior so there is this
+    stage where we have to use our big human brains to decide what are the relevant
+    measurable numbers in the system that I'm currently looking at and this one of
+    the jumping has this nice feature where we actually kind of boiled it down to
+    the point where there's only a singular sort of basic number that we really care
+    about and that's the Z position um however we then made these kind of like derived
+    numbers of velocity and acceleration which we also think are very important for
+    understanding the kind of like the physics and the mechanics of this jumping behavior
+    um so if we're thinking about this the the jumping human we want to say okay at
+    any given moment in time what are some numbers that I really want to know about
+    this object that will help me sort of understand what it's doing we can start
+    by saying I want to know the position and I want to know the velocity and we'll
+    get to the acceleration in a second and so and so then just in the same way that
+    if we wanted to plot this spatially we could take the XYZ position of the center
+    mass and put it in some sort of three dimension representation we can also make
+    a plot where the x axis we're going to call position and the y- axis we're going
+    to call
+- dur: 180.0
+  end: 4680.0
+  start: 4500.0
+  text: velocity and so at any moment in time you can say okay your your Z position
+    is 12 and your velocity is three and so this is your current state at that moment
+    in time then we can look at the next time step and say okay well your position
+    let's see your velocity is positive so your position is going to be up but your
+    velocity is also going to be dropping because you're on the air and so now you're
+    going to be there and so you can go through each frame and sort of identify the
+    state and then put a data put the put the put a point on there and then connect
+    the dots because you know what time is yeah I promise you it's not I think so
+    yeah like there's a lot of things like spatial intuition um we're very good at
+    that um understanding ballistics and understanding velocity like there is this
+    very deep intuitive gut checky level where we are all super super good at that
+    like your ability to like jog up the stairs catch a ball like all of those things
+    it's kind of like so the like the language that you use like are we really really
+    good at calculus it's like no no no we're not all like really good at calculus
+    because calculus is this weird and specific formalism where these all these like
+    rules of like symbols and stuff like that that is but but we are good at what
+    calculus is attempting to represent which is like values that change over time
+    and so this is something that I'm always kind of trying to to present in these
+    types of sort of weird conversations is trying to hit that intuitive level of
+    these things without getting bogged down in the numbers and the math and the sort
+    of like the testable values um I think this is one of like the main the main harms
+    that we do with our stupid way of doing education is because we have this kind
+    of filtration model where education is meant to like filter out people who can't
+    hack it we we present this stuff in a way that's hard on purpose so that we can
+    tell who can pass through the filters that we've arbitrarily defined the stuff
+    um and so people kind of have this sense of like oh the math is hard the the you
+    know calculus is hard these sort of weird values are are difficult um but that's
+    that's something that we did as a society because we're bad at educating on mass
+    or rather I think we've outgrown older forms of education on mass but that's like
+    I said this a couple classes ago like if you're like if you're like oh this makes
+    sense to me you do understand calculus um you may just you may not know all the
+    formalism of it you may not know how to make your Calculus Professor happy um
+    but if if position if change in position over time
+- dur: 180.0
+  end: 4860.0
+  start: 4680.0
+  text: equals velocity makes sense if change in velocity over time is is acceleration
+    makes sense that is calculus and everything else beyond that is just like weird
+    syntactic formalisms so and it's sort of one of these like you hear roboticist
+    talking about this a lot of like you know here we are with billion dollars wor
+    the military funds trying to make a robot do the most basic thing in the world
+    and then here we and then and yet we have like three and fouryear olds just zipping
+    around a playground doing all this stuff like once you really start this is also
+    kind of like you know human as robot is kind of like a way that I try to make
+    sense of like the the complexity of human Mo movement is this kind of like weird
+    this weird activity of like trying to boil down these really basic really intuitive
+    behaviors and really think about those lowl physics as if you were to build a
+    robot that could do this um and often times you just like like how do we know
+    that this is stable but that is less stable like how do you know that this is
+    this is more likely to fall than that like we all do but actually nailing that
+    down in some way that's interpretable and you know grounded very very difficult
+    this thing's even transparent so like who even knows there's fluids in it Jesus
+    the world is too complicated needs to be simplified um okay so State space right
+    at any moment in time there is a state and if you can Define that state in a small
+    number of numbers then for every moment in time you can put a dot on this thing
+    that represents this is where I am at time equals 12 and this is where I am time
+    equals 13 and this is where I am at time equals 14 this is where I am at time
+    equals 16 and so you can basically draw these trajectories in state space that
+    hypothetically represent the relationship between these values and so in particular
+    and so things can kind of emerge from that when you plot that stuff that will
+    sort of highlight intuitions that could be hard to identify in other formats so
+    like we know because have these sort of gut checks of physics and because we've
+    been talking about like ballistic movement and stuff like that that there is a
+    relationship between the position and height and the and the velocity like the
+    Z height and Z position Z velocity are related to each other in some way and so
+    we kind of eyeball it in this time series format but what would it look like if
+    we could just plot position on one axis and velocity on the other axis especially
+    during this type of behavior avior and the answer
+- dur: 180.0
+  end: 5040.0
+  start: 4860.0
+  text: hypothetically plot this here is that so this I don't know why it's showing
+    up like that so this is this representation for the jump stuff and so and I guess
+    the velocity here is on the x axis and the position is on the Y is on the Z position
+    is on the vertical axis and the pink dots here are the apex of the jump so that's
+    at your highest position and then the hard to see maroon dot here is the the bottom
+    of the jump and then this Green Dot here is the liftoff phase um and so you can
+    see so this is a state space representation because every dot on this curve represents
+    the the state of the center of mass system um at a particular moment in time but
+    it's not a spatial representation there's nothing in space here because the x
+    axis is velocity that's not you can't do that like in space you can kind of cheat
+    but otherwise not but you can see that this this there's something intuitive about
+    this representation this thing that we always that we knew that there's a repeated
+    cycle going on is now represented here and we can see for example that the Peaks
+    are much more lined up than the the liftoffs right because this liftoff is being
+    defined there's something in my nervous system that's deciding this there's something
+    in the the complicated stuff going on here and we could if we really wanted to
+    convert this from a a state space to a proper phase space where now the phase
+    space will be something that actually sort of rotates around the unit circle and
+    has sort of like you know thetas and fi in it and stuff like that um or we could
+    just keep going and make make things even wackier and just keep adding numers
+    because this is a two-dimensional State space but there's obviously way more possible
+    numbers we could bake in to the state of a system remember this thing has probably
+    like 43 numbers you would need to Define its state because it's got you know joint
+    number times three or whatever um but in this case we have an obvious third number
+    and that's acceleration and we believe for good reasons that things like the Z
+    position the Z velocity and Z acceleration are all coupled in some way and lucky
+    for us we have an additional spatial Dimension to plot and this
+- dur: 180.0
+  end: 5220.0
+  start: 5040.0
+  text: two-dimensional plot can become a threedimensional plot where now the third
+    axis will be acceleration and that I believe will show up here and I really wish
+    this would show make this LLY I don't know how to make that show up I don't know
+    why this is anyways do this yeah there we go and so there oh now we're bouncing
+    around so that's what that looks like uh yeah this is we were getting off of Michael's
+    map too that's where you got question marks there and I wish I could put this
+    in a more visible space but this is one of those so that the the height here is
+    acceleration oh Jesus sure um and so now this is a a 3D State space representation
+    of that repeative jumping behavior um oh I see got this and I wish I had set this
+    up to plot in a bigger format but that's fine I personally really hate Jupiter
+    notebooks but they are useful in some cases uh but yeah so this this is the this
+    this is the thre Dimension this is a three-dimensional State space plot of the
+    center of mass kinetics over this repeated jumping pattern and this if we wanted
+    to we could look and analyze aspects of this shape in similar ways that we would
+    analyze three-dimensional spatial trajectories and say things that may or may
+    not be related to the actual Behavior now for this particular Behavior I kind
+    of think this is where the analysis tends to kind of Peter out like just the quality
+    of the data is not particularly great the the experimental design was had left
+    something to be desired um but I do think that this is sort of like Jesus other
+    than the technical issues um this there's like something beautiful about this
+    and just the way that it represents this kind of like intuitive sense of what
+    was going on in that behavior like you can look at it you can say okay there's
+    a repeated thing happening here there's a cycle that's occurring and I want to
+    know things about that cycle and how that rates relates to some other factors
+    that are going on and what we just went
+- dur: 180.0
+  end: 5400.0
+  start: 5220.0
+  text: through um in the full class time because that's how it always tends to go
+    um was again a series of analyses all of these analyses by the way on the back
+    end of the other pipeline that we described last time to represent the data in
+    a format that kind of captures that cyclical structure and if we really wanted
+    to we could kind of look at this and other formats and keep going from there um
+    but and because we were so careful and to to maintain that sort of like epistemological
+    chain from the base sort of voltages on the back of the camera through each stage
+    of the pipeline through the magic box step of the of tracking the person in the
+    image and through all the other geometry and computation and you know unit conversion
+    and stuff like that we can believe that there is in in the same sense that we
+    believe that there is some relationship between the image from the camera and
+    the reality of what happens at that point in time now two weeks ago uh where the
+    the organism in question was behaving in space we can believe that the the shape
+    and structure of this representation also has that grounding in this relationship
+    to that behavior that we recorded some weeks ago um yeah and so this type of this
+    sort of State space representation it again like I don't know how much it's going
+    to come up in your daily lives for you know a little while unless you sort of
+    stick into the the the gritty parts of science um but you see this this method
+    for represent representing complex high-dimensional uh data or behaviors or sort
+    of questions in a lot of different places you see it in robotics so oftentimes
+    with robotics if you if you think about like a multi-joint arm and you think about
+    like you know shoulder shoulder angle uh elbow angle wrist angle and you sort
+    of plot those onto this thing then a given arm trajectory will map a given trajectory
+    in that space so even if you have a high-dimensional sort of robotic element um
+    I think these days people are getting people really like um reinforcement learning
+    stuff like that but uh often times like robotic movements are deci are defined
+    Within These sort of State spaces and phase spaces and again there is nothing
+    special about the number three other than that's how many spatial Dimensions we
+    have if we wanted to plot a 45 dimensional State space we could do that we just
+    can't look at it all at the same time and so Robotics trajectories are often plotted
+    in those space spaces you also see it in uh neural data so if you're recording
+    from you know 100 a
+- dur: 180.0
+  end: 5580.0
+  start: 5400.0
+  text: th000 neurons in the visual cortex while you're displaying something or another
+    to the monkey you might want to know about the the firing of each of those neurons
+    relative to each other so you could again Define a certain State space and say
+    okay for neurons one to 100 you know on the scale from resting firing rate to
+    maximum firing rate where is each neuron in that space if you think about a simple
+    case you only have three neurons if you show a stimulus to the monkey you can
+    look at how the different neurons firing rates relate to each other and look at
+    the structures that come around from these types of plots and sort of try to use
+    that to interpret what's going on at the at the neural level um before we go just
+    I'm going to drop some just jargon terms real quick if you're interested in this
+    stuff poner sections is a is a classic term it's been um it a p a point section
+    is basically if you take a slice through this um this sort of dut shape uh the
+    plunk aray section is sort of like where all those points connect so if you were
+    to basically um take a slice here then the shape of the sort of intersections
+    with that plane would be the plk array section um you could also do like time
+    locking so so this one is just sort of allowed to swing around you could also
+    chop it down so that let's say each of these Green Dots is sort of like slammed
+    to zero and then see how the shape changes often times when you do that like if
+    you align the time base to some relevant sort of feature different things will
+    emerge sometimes things will clean up and sort of condense and you can sort of
+    look at things that way um and yeah this is we when we show up before class and
+    there then the previous class has all like the crazy math on the board that's
+    that's differential equations that's kind of like that's what this stuff starts
+    to get into pretty quickly um but just to be clear I can't do any of that math
+    any of that board math I got nothing on that I can probably write code that does
+    similar things to that board math but if you sat me down and said calculate the
+    integral of some this that or the other like I got I I got nothing you can all
+    probably if any of you have taken a math class in the past five years actually
+    probably not five you're pretty young but if you've taken a math class at this
+    school you could probably math me out of the water on paper um I just never learned
+    how to do that my bachelor's degree is in philosophy um but you can back your
+    way in with the intuition and you can learn the co you can learn how to do it
+    in code and event like the nice thing about math is once you get good enough at
+    it you don't have to do it anymore you can just kind of write the code that does
+    it and the the phase of that process where you actually like I am now back to
+    the point where I I I write the math on
+- dur: 180.0
+  end: 5760.0
+  start: 5580.0
+  text: paper to help me write the code better but I promise you I wasn't doing that
+    for the first like decade or so that I was converting my life from philosophy
+    major to science person um Okay cool so that's data that's movement data that's
+    probably that's the last moap stuff we're going to look at unless somebody wants
+    to dig deeper into it um I think next week we're going to focus more on the like
+    honing your ideas and I want to end I want to end next week with y'all having
+    like three papers on your topic versus the one um and then probably after that
+    we'll move into vision and eyeballs and I'll bring in an eye tracker and we'll
+    look at my eyeballs and it'll be weird um yeah
+video_id: BNCl8gE09rY

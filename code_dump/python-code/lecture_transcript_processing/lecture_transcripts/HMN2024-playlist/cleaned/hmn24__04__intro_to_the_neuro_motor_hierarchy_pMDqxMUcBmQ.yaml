@@ -1,0 +1,1452 @@
+full_transcript: "Okay, hello everybody. Today we're going to talk about actual proper\
+  \ neuroscience, arguably for the first time, which is always an exciting point,\
+  \ especially halfway through the semester. Also, in line with tradition, I realized\
+  \ when I got here that I had taken a bunch of notes and written a lot of stuff up,\
+  \ but then forgot to push it up, so we don't have the most up-to-date material here,\
+  \ but that's fine. Basically, this is the point of the semester where the divergence\
+  \ from the plan becomes more noticeable. We are here roughly, and we did some of\
+  \ the material but not all of it. We haven't talked about eyeballs yet, but we will\
+  \ start discussing vision and related topics probably next time. The evolution material\
+  \ I'll probably combine together, and we'll get to it. The soft goal is, at some\
+  \ point before the end of the semester, to reach a point where I'm talking about\
+  \ my actual proper human science research, which has a lot of different background\
+  \ aspects because it's about visual control of locomotion over rough terrain. So,\
+  \ all of these things kind of come together. We should also have enough time to\
+  \ cover some additional topics toward the end, and I think we'll get there. Now,\
+  \ catching up with where we currently are, we've done some material. While I'm talking,\
+  \ in the server at the top under the resources channel, in the same place we discussed\
+  \ last time, there is a thread called 'server scrape checkpoints.' Click into that.\
+  \ I figured out what was wrong with the last one; it was a simple Windows issue.\
+  \ At some point in its history, Windows decided that 280 characters is as long as\
+  \ a file path ever needs to be or should be, so it throws an error if your path\
+  \ lengths get too long. You can change that setting, but this ZIP file had a long\
+  \ file name, which caused the error. This new 7z is a different form of ZIP that\
+  \ doesn't have that issue. If you want to see where things were last week, this\
+  \ one is the one that's up-to-date up to then. The one from this morning, if you\
+  \ download it and unzip it, will still throw two errors saying the pkl and JSON\
+  \ files are unhappy, but just... Skip those and unpack the rest of it. Try to open\
+  \ it up in Obsidian, and hopefully by the time you get to that point, I will have\
+  \ reached that same point in my conversation. So give that a shot and see how far\
+  \ you get.\n\nA lot of the work we've been doing until now has been on the data\
+  \ and computational side of things. The topic of the course is the neural control\
+  \ of real-world human movement. We've been focusing more up to this point on basic\
+  \ methods, the types of data that can be collected, and the measurements that can\
+  \ be taken, as well as a little bit into the more theoretical aspects.\n\nAll the\
+  \ discussion about full-body center of mass and those simplified models of the body,\
+  \ how it moves around the world, pertains to the study of the neural control of\
+  \ real-world human movement. This essentially emphasizes the kinds of measurements\
+  \ you can take and the empirical investigation involved. We're going to revisit\
+  \ the methods side of things when we talk about vision and bring out the eye tracker\
+  \ for more data analysis.\n\nToday, I want to focus more on the landscape of neural\
+  \ control and motor control. This is a topic I've often found myself referring back\
+  \ to in conversations towards the end of the last parts of previous classes. While\
+  \ it's not directly in the syllabus, I want to discuss the concept of the motor\
+  \ hierarchy as it relates to the neural control of movement. It\u2019s a fundamental\
+  \ aspect of our neural motor systems, arranged hierarchically, with the cortex\u2014\
+  represented by the lumpy pink mass\u2014at the top. Below that are the various subcortical\
+  \ systems, spinal cord, and muscles, with what you might consider the base-level\
+  \ physics of the world at the bottom of that hierarchy.\n\nWe will touch on that,\
+  \ but we won't delve particularly deep into any specific aspect of it because I\
+  \ want to allow enough time for us to split into groups and conduct our own explorations.\
+  \ This time, we will be more organized by presumed topic as we break things down.\
+  \ The room is divided into different parts of this hierarchy we want to discuss\
+  \ today. The idea is to use your collective efforts to flesh out parts of the brief,\
+  \ overview, which I will provide shortly. We'll get to that in a moment. This exploration\
+  \ involves you all contributing to the landscape we've been discussing. We've been\
+  \ playing with it a bit by interacting with the bot and asking it questions about\
+  \ your presumed interests. As the semester has progressed, I have made more updates\
+  \ to the code I use to scrape those conversations from the server and then compile\
+  \ them into a different configuration of AI tools. I am asking a different large\
+  \ language model (LLM) configuration to pull out the topics you all have been asking\
+  \ about in order to create a landscape of your interests.\n\nTo look at that, I\
+  \ assume you have downloaded the zip file and extracted it. If you're on a Mac,\
+  \ it may look slightly different, but by now, I trust you know how to unzip files.\
+  \ If you don\u2019t, ask a neighbor; if they don\u2019t know, just wait and ask\
+  \ me later.\n\nSo, you want to download and extract it into a regular folder anywhere\
+  \ on your computer. At some point, you should have downloaded Obsidian MD, which\
+  \ is free software. When you have it, download and double-click on it. It may look\
+  \ a little different the first time you open it. I can't remember if I've done that\
+  \ on this computer already. For me, it's down here, but again, it may look different\
+  \ on a Mac. Find something that looks like \"Manage Vaults\" or \"Open Vault.\"\
+  \ If you press Control + O, it might give you a screen that looks something like\
+  \ this. The option you want is called \"Open Folder as Vault.\" Obsidian just calls\
+  \ folders vaults for whatever reason. So, open that and navigate to the folder you\
+  \ just extracted. There are a lot of unnecessary subfolders in that zip file, which\
+  \ I figured out this morning. It doesn't matter which one you pick, but just to\
+  \ make it a little cleaner, I'm going to click through the top level into \"AI Processed.\"\
+  \ \n\nThis server scrapes is just the raw data, so it's effectively the markdown\
+  \ file that is attached to the top of each chat. This is basically a folder full\
+  \ of those things, laid out in a similar structure to the server. I'm just going\
+  \ to click through that into \"AI Processed.\" In here, there is a lot of stuff,\
+  \ and you will notice that these folder names correspond to the same categories\
+  \ we have in the actual server. If you click into that, these will correspond to\
+  \ the names of the topics and channels. \n\nI'm getting distracted as I often do.\
+  \ In here, I can select this folder and let Obsidian open it up. It's white for\
+  \ some reason; I don't know why it decided to be in light mode for me, but that's\
+  \ fine enough for now. There is a lot of stuff in here. If you click through this,\
+  \ every now and then, in addition to the raw conversation attached to the bottom,\
+  \ you have links here. If you click on the link, it will take you to that message\
+  \ in the server, probably on the browser version of the server. Up here is an extracted\
+  \ summary of the topics covered in this conversation, which was presumably about\
+  \ tracking and VR, whoever had that conversation. There is a lot of art to figuring\
+  \ out the right way to tell a language model to chew on a big blob of text in order\
+  \ to pull out topics, but in this particular case, I was mostly focused on just...\
+  \ We're getting raw topics covered. I gave it this structure of pulling out a title,\
+  \ an extremely short summary, highlights, a very short summary, a short summary,\
+  \ and a detailed summary, sort of like different levels of abstraction. This approach\
+  \ is meant to help organize the information effectively. Importantly, I also added\
+  \ tags. These tags are in hashtag format, known as Kebab case, which means they\
+  \ use lowercase letters and numbers with hyphens between them. The purpose of the\
+  \ tags is to enable us to click on this little graph view, which presents a visual\
+  \ representation of the data. Each dot corresponds to one of the chats that were\
+  \ had. If we go over to filters and turn on the tags, we can see all the tags that\
+  \ were covered. There are a couple of things to note here. First of all, this is\
+  \ fun; I love this type of thing. There are many options for display. I\u2019m not\
+  \ sure why it\u2019s in light mode, but that\u2019s fine. It could be nice to adjust\
+  \ the text, let the nodes be a little smaller, and have them be less thick. You\
+  \ can navigate around here. The green ones represent the tags, and the black ones\
+  \ represent the notes. I don\u2019t want to belabor this particular point or get\
+  \ too deep into the technical aspects of how to use this kind of tool. Obsidian\
+  \ is nice because there are a lot of tutorials available, so if you're curious about\
+  \ taking notes in this manner and want your general notes to have a cohesive internal\
+  \ structure, just hop on YouTube and search for Obsidian. You\u2019ll find plenty\
+  \ of useful information there. The basic idea is that there are specific tags; for\
+  \ example, the biomechanics tag has been present in many of your conversations.\
+  \ If I click on that, it will show me all the tags that have been discussed. So,\
+  \ you could look up, for instance, the impact of knee injuries on biomechanics.\
+  \ If I click on that, it leads to a conversation that one of you had about knee\
+  \ injuries. Biomechanics is what was discussed here. You can click on this, and\
+  \ it will take you to the server version or the online browser version that has\
+  \ to load up. Yes, so this was Grace\u2014if you're in here, where did you go? Wait,\
+  \ is that the right one? No, it's a different thing. So, biomechanics is very well\
+  \ connected; neuroscience is obviously well connected, and neural control is well\
+  \ connected. There are also some orphans out here that are not connected. Mathematical\
+  \ ambiguity and interpretations can sometimes be caused by conversations that are\
+  \ super short, so there isn't much content there. AI has people-pleaser energy,\
+  \ so if you tell it to summarize something that only contains a greeting followed\
+  \ by nothing else, it will still try to come up with a full summary, even though\
+  \ that's not valid. In this particular case, someone was asking about mathematics\
+  \ or operations or something. Oh, actually, remember how I told you that I was not\
+  \ going to scrape the playground channel? I lied. It is in here because it's easier\
+  \ to not ignore it. Occasionally, some of these conversations are doing their best\
+  \ to pull a reasonable summary out of discussions that are intentionally misleading.\
+  \ So, I will leave that roughly there. Another thing to mention is that you'll notice\
+  \ a lot of these tags are orphan tags; they are only included in one conversation.\
+  \ This thing, sods, is something that will probably be connected more once we finish\
+  \ talking about eye movements. Some of these, like trust, don't need to be a tag\
+  \ in this class. The way I wrote the prompt or didn't do any cleanup afterward allowed\
+  \ it to pull in stuff that really shouldn't be there. Brain-computer interfaces\
+  \ probably should be in there. \"Seeds in body\"\u2014someone was talking about\
+  \ eating plants. I remember that. There are some things here where you can kind\
+  \ of tell that the way the information was extracted impacted the results. It actually\
+  \ didn't do a terrible job this time, but yes, so consciousness. Variations like\
+  \ that should really have the tag \"Consciousness,\" and then anyone else who talked\
+  \ about that, which I know there's at least a couple of you, would get matched in\
+  \ there. This is the case where the way the bot extracted the tags, if that was\
+  \ done more skillfully or carefully, would create a more connected system of topics\
+  \ and content. Some of that is about having more conversations to create more connections;\
+  \ some of it is about making the prompt a little better. And anytime you're doing\
+  \ anything with AI and language generation, there's always a need for a human cleanup\
+  \ step. So, I could go through and clean this up or ask you to clean it up, and\
+  \ maybe we'll do that. We're going to be using music and money. What are you talking\
+  \ about? Yeah, so figuring out how to expand this stuff\u2014y'all can jump in there\
+  \ and look at what your classmates have been talking about. We're going to be doing,\
+  \ in the latter part of the class, a little bit more toward the direction of you\
+  \ all producing more curated blobs of text that are designed to help pull together\
+  \ some of these disparate, disconnected things. I will be continuing, over the course\
+  \ of the semester, to increase the sophistication of this extraction. The idea is\
+  \ to find a way to let all of you have your explorations of this topic cohere into\
+  \ a navigable landscape of this comedically vast topic. I told it\u2014I tried to\
+  \ get it not to do this. I told it not to use names, but this topic is about Caroline's\
+  \ interest in human anatomy and surgery. That should not have been the title; that's\
+  \ a bad title. However, it's not Caroline's fault; that's just the way it is. Being\
+  \ more careful with the prompting would help avoid situations like that, as would\
+  \ keeping the style consistent. Also, just to make it run fast and cheap, this was\
+  \ processed by GPT-3.5, which is not as advanced as GPT-4, but it is very fast and\
+  \ effectively free at this point. With this setup, we're processing a high volume\
+  \ of text, so the cost becomes noticeable if you use the larger models. If you use\
+  \ the bigger models, it would take half an hour to an hour or more to process all\
+  \ these things, whereas with 3.5, it is effectively free and processes in about\
+  \ 30 seconds instead of 30 minutes. Extracting summaries, it's sort of smart enough\
+  \ for that. That's what natural language processing has been doing for like 20 years.\
+  \ However, you do kind of get some dumb behavior where it's like, that's not even\
+  \ the right capitalization. Okay, cool. So, yeah, it makes sense. Great. If it doesn't\
+  \ make sense, that's also fine. If you have technical issues getting it running\
+  \ and reaching the point where you can look at it, we'll handle that in a little\
+  \ bit here. But there's no real obligations for you with this side of the class\
+  \ right now. This is more of an update on my homework and where we're at with it\
+  \ because real work is typically iterative in nature. Okay, so this is the place\
+  \ where, if I had successfully pushed my notes to GitHub, we would be looking at\
+  \ them right now. But they weren't particularly extensive anyway. So I'll take this\
+  \ as an opportunity to show a little bit about how the bot works. With something\
+  \ like the motor hierarchy, which is a well-trodden topic in any class that talks\
+  \ about motor neuroscience, if I ask the bot to give me a lecture outline for the\
+  \ motor hierarchy, it'll provide something good, especially because it already has\
+  \ the syllabus of the class kind of baked into it with that top-level prompt. I\
+  \ have this other channel where I use AI for my own purposes, which you can also\
+  \ create if you want, but we'll talk about that later, or maybe not. In that server,\
+  \ if I wanted to give it a simple preamble, it wouldn't do as effectively as this\
+  \ class is prompted. As good of a job as possible, because this one is already in\
+  \ the context of having the syllabus of the server for the class baked into itself,\
+  \ it does a decent job. Oh, give me the order from highest to lowest, because it\
+  \ did that the other way. Great. So, there you go. Now you have everything you need\
+  \ to know about the motor hierarchy. Not really. This kind of thing, and give me\
+  \ an additional outline about the corticospinal tract. Yeah, that's another area.\
+  \ I wonder if it didn't mention that in the original. Yeah, it did mention it briefly,\
+  \ but this is another kind of thing.\n\nSo, when you're navigating this kind of\
+  \ AI-mediated language space, there's often a balance you want to strike between\
+  \ what I think of as top-down versus bottom-up types of investigations. A bottom-up\
+  \ approach is kind of like giving it a very loose instruction set and just seeing\
+  \ what pops out at you. For example, telling it to tell me about neuroscience will\
+  \ give you a broad-scoped thing, versus more of a top-down approach where you, as\
+  \ the human, give it more structure and say, \u2018No, give me more specifically\
+  \ this type of thing.\u2019 You get different responses that way, and both approaches\
+  \ can be quite useful.\n\nThe analogy, and this is a recurring theme when working\
+  \ with AI, is that often the strategies that work well with AI are also like Funhouse\
+  \ versions of things that generally work when talking to humans, if for no other\
+  \ reason than they were trained on human data. For instance, when we started this\
+  \ course, I said, \u2018Hey, go have an introductory talk. Ask the bot about whatever\
+  \ you want.\u2019 That's a very bottom-up approach. I'm just saying, \u2018Hey,\
+  \ room full of people, ask this thing a bunch of questions based on whatever you\
+  \ are interested in talking about.\u2019 A lot of the early part of this class sort\
+  \ of had that structure. The ones that are kind of driven by lectures are a little\
+  \ more structured, but a lot of the conversations so far have been very bottom-up,\
+  \ meaning that I am not imposing a structure from the top down. The topics that\
+  \ are covered, and that sort of graph that was shown, are a result of that bottom-up\
+  \ type of approach. If we think about the kind of conversations that happened in\
+  \ this channel, this was the one that occurred after the Center of Mass Basis Support\
+  \ lecture last time. I said, \"Hey, now ask the bot questions; have conversations\
+  \ about this lecture.\" That's more structured, but it's still fairly open. This\
+  \ contrasts with the idea of writing a class or writing a paper about a topic.\n\
+  \nWhen you're working with AI and trying to steer it to generate something that\
+  \ relates to your internal state, something you want to bring out into the world,\
+  \ it's often beneficial to swap back and forth between these two modes of thinking.\
+  \ For example, you might say, \"Hey, give me an outline of this topic\" without\
+  \ a bunch of structure, and then take the structure it provides, clean it up, alter\
+  \ it, edit it, and give it back to the AI. You could then say, \"Give me more information\
+  \ about this outline; flesh it out further.\" \n\nOften, it isn't even worth doing\
+  \ that first step if you already know what you're interested in. Just ask specific\
+  \ questions, and you will get specific answers. There are different modes of using\
+  \ this AI, and one thing I\u2019ve mentioned frequently is that one of the best\
+  \ things these AIs are good for is helping you flesh out your unknown unknowns.\
+  \ You might have an interest in a topic, but you don't know enough to identify the\
+  \ parts you have questions about. So, you can ask generally, \"Tell me more about\
+  \ this,\" and the AI will provide a bunch of information. You might find words that\
+  \ are unfamiliar, prompting you to ask about those specific terms, and you can navigate\
+  \ through the topic that way.\n\nHowever, you also want to drive the conversation\
+  \ a bit. Anyway, I mostly asked for this just to have a cheat sheet of the actual\
+  \ parts I wanted to talk about. I always have to do this right. Okay, can I do it\
+  \ like this? I guess I can do that like this. This is the part where I get frustrated\
+  \ with Discord for poor use of space. Okay, so the motor hierarchy broadly speaking\
+  \ corresponds to the organization of responsibilities within your motor cortex.\
+  \ Your motor system, from the high-level abstract thoughts like, \"I'm thirsty,\
+  \ I wish I had water,\" or, \"I'm hungry, I want to eat,\" down to the level of,\
+  \ \"I am trying to put force into the world so that I can move my body in the direction\
+  \ of water or food.\" The way we complete a given task requires a combination of\
+  \ these different levels. If you only think about the motor system as something\
+  \ that is attached to your muscles, applying forces to pick up objects or push on\
+  \ the ground, you will never achieve coordinated behavior as you move towards your\
+  \ goals. At the same time, if you only consider the context of high-order volitional\
+  \ desires, such as preferring fruit to wheat or feeling thirsty after talking a\
+  \ lot, you won't have the goal-driven behaviors necessary for meaningful coordinated\
+  \ movement that produces actual results.\n\nSo, I want to... can I zoom in here?\
+  \ Yeah, sure! I think I did a picture like this at the beginning, but I will try\
+  \ to provide you more of an atlas of these parts and how they connect to each other,\
+  \ working together to flesh out the details. Specifically, today I want you to start\
+  \ looking up papers on these topics and using the bot to help you engage with the\
+  \ deeper content. Shift away from simply asking the raw AI to provide textbook-level\
+  \ information, like if Wikipedia could talk, and start using it more as a tool to\
+  \ navigate waters that are deeper than you can explore on your own.\n\nSo, let's\
+  \ start with the brain. The first thing you should do is draw a brain. Do it roughly\
+  \ like this: it's a brain. Specifically, that's a mammalian brain. Brain. This is\
+  \ not a brain. Someone asked an AI to draw a brain for them; that's not what a brain\
+  \ looks like. This is the inside of a brain. Where are the pictures I'm looking\
+  \ for? They are roughly similar, but the main part that I try to draw when doing\
+  \ that sketch is this part right here, that lumpy part going down. That's your temporal\
+  \ lobe, by your temple. The rest is kind of squiggly. I've mentioned this before,\
+  \ but you eventually start to learn that all these little squishes, folds, and stuff\
+  \ like that, they all have names and they're not random. You can start to distinguish\
+  \ when you see brains in popular media whether they are based on an actual brain\
+  \ or if it\u2019s just someone depicting a bunch of squishy red stuff. Oh, this\
+  \ is the picture I was looking for. So it's all a little bit different; they are\
+  \ all rough and not shaped the same, but they all have this. See? This is not a\
+  \ real brain; it's missing some important parts, which is not great for an actual\
+  \ brain, but that\u2019s fine. This is an object of pure horror. So, there you go.\
+  \ This is your temporal lobe, and this stuff up here is the front. Give yourself\
+  \ some eyeballs, and that sort of goes in\u2014that's forward\u2014which is actually\
+  \ fine for English speakers. We tend to point things the other way, but that's okay.\
+  \ I always, I don\u2019t know; I was raised speaking Arabic, so I learn sometimes\
+  \ right to left, which comes more naturally, and I was like, I don\u2019t know if\
+  \ that\u2019s actually normal or if that\u2019s just... I don\u2019t know. Who cares?\
+  \ So, don\u2019t put that one up. Let's put something like this one. Let\u2019s\
+  \ give us a proper actual brain, please. Oh, yeah, there we go. So this frontal\
+  \ lobe here\u2014all mammals have it. I don't want to talk about other animals'\
+  \ brains here because I don\u2019t know how any of the rest of them work. Birds\
+  \ in particular, I\u2019m very curious about. They can be very intelligent with\
+  \ very different nervous systems, and I don\u2019t know much about that. But the\
+  \ frontal lobe is sort of like the... Traditionally, most human parts of the brain\
+  \ are quite different from those of other animals, often just in terms of raw volume.\
+  \ When comparing to our simpler mammal friends, like cats and rats, the biggest\
+  \ differences tend to be the lack of a very pronounced, bulbous frontal lobe. This\
+  \ part here is roughly the top of the motor hierarchy, which is the frontal lobe's\
+  \ executive function. It is important to understand that when someone is describing\
+  \ the brain, it is always a cartoon version of reality. Reality is often weirder,\
+  \ more abstract, and less understood than anything someone could convey while speaking\
+  \ in a room.\n\nGenerally, it is thought that volitional control originates in the\
+  \ prefrontal cortex. The term volition relates to voluntary action. For instance,\
+  \ if I want to pick up this box, that initial desire represents the volitional aspect.\
+  \ Cartoon-wise, it is believed that these thoughts originate in the prefrontal cortex.\
+  \ This area is where the most abstract form of motor desires begins, relating to\
+  \ wishes such as wanting water or food.\n\nAgain, cartoon-wise, this desire can\
+  \ be seen as passing back through the frontal and prefrontal areas down to the premotor\
+  \ and motor cortex. The part located on either side of your head is what we traditionally\
+  \ call the primary motor cortex, and it would look something like\u2026 This is\
+  \ the part that tends not to get drawn. There we go, that's what I was here for\
+  \ before. Again, cartoon versions of reality are not based on nothing; there's a\
+  \ reason why we draw this cartoon and not some other cartoon. Nothing is as clean\
+  \ as that. The basic trajectory is that those original highly volitional aspects\
+  \ of control get passed through different subregions of the brain. This part is\
+  \ roughly your premotor cortex, which starts to get more specific. By the time you\
+  \ get to the motor cortex, that's where things are thought to start resembling your\
+  \ body. This is, again, another kind of picture that you will see in many textbooks\
+  \ about neuroscience; you may have seen it before. It's also the kind of thing that\
+  \ you will never see in a talk about the motor cortex. The idea represented in this\
+  \ picture is that different parts of your brain handle the movement of different\
+  \ parts of your body. You get this overrepresentation of things like your hands,\
+  \ which have a lot of motor control associated with them, and much less representation\
+  \ of things like your hips and legs, which are more simplified. There\u2019s also\
+  \ an overrepresentation of things like the face because we perform actions like\
+  \ talking. The cartoon version of the story is that the high-level desires, like\
+  \ grabbing a cup of water, get passed down from the high level at the frontal lobes\
+  \ to the more specific areas of the motor cortex, translated into a more body-mapped\
+  \ description of how to move from one place to another. There is this so-called\
+  \ sensory-motor homunculus that sometimes gets drawn to illustrate what you look\
+  \ like on the inside, essentially mapping your body in relation to the cortical\
+  \ magnification of the different parts of your movement. This is clearly the sensory\
+  \ homunculus; if you can't figure out why, that's a lesson for the reader. The idea\
+  \ is that if you were to map out your motor functions... Awareness and your sensory\
+  \ specificity. This is kind of what you would look like. However, this is also the\
+  \ kind of thing that, as I mentioned, there\u2019s the sensory cortex, and the motor\
+  \ cortex is sort of very close to the somatosensory cortex, which is the sensory\
+  \ aspect of things. In the same way that we would move our elbows, wrists, and hands,\
+  \ we also have sensations from those areas, and they are right next to each other.\
+  \ But again, I have seen many talks from many people, often on the topic of motor\
+  \ control and sensorimotor control. The topic of those talks is typically trying\
+  \ to say please stop showing this to students; it is not an accurate representation\
+  \ of reality. However, they often follow that by explaining much more complicated\
+  \ ideas about how it isn't really how it is, but this is the easiest way to discuss\
+  \ things like cortical magnification at the motor and sensory levels. Just understand\
+  \ that it is not a nice, clear, clean map. It is not the type of thing where, oh,\
+  \ here's where your wrist is, here's where your hand is; it's much more complex,\
+  \ much more spread out, and much less organized. However, if you sort of zoom out\
+  \ and squint and turn your head, this cartoon version of reality is a good place\
+  \ to start. This is also the kind of thing where, if you wanted to look up more\
+  \ recent papers about the structure and organization of the motor cortex and sensorimotor\
+  \ cortex, you will find a lot of good stuff from people actually doing that work.\
+  \ It\u2019s also the kind of thing where, if you ask the bot to tell you about this,\
+  \ it will probably give you this basic information, and you might have to push it\
+  \ to clarify if that\u2019s really what people think. The bot might struggle to\
+  \ provide specificity and up-to-date research as it has consumed every textbook,\
+  \ which could make it harder for it to deviate from the cartoonized version of reality\
+  \ we've come to expect from textbooks. If you wanted to push the bot until it breaks,\
+  \ you might try to find a more recent paper on this topic and identify instances\
+  \ where the bot provides information that does not align with current understandings.\
+  \ I had a brief moment of thinking about how that relates to Wikipedia, but I think\
+  \ Wikipedia is famously fast and tends not to hold on to incorrect information for\
+  \ very long. Therefore, Wikipedia would probably offer quicker and more direct summaries\
+  \ of modern thinking. But I'm not entirely sure that\u2019s one of those spots.\
+  \ So anyway, motor hierarchy: here we are, starting in the frontal cortex and going\
+  \ back to the motor cortex. Later, when we talk about... Vision tends to start here\
+  \ in the occipital lobe. There is a sense that this part of the brain is for sensory\
+  \ information, while another part is for higher-level thoughts, abstraction, and\
+  \ motor coordination. Then there's this other part that we don't typically talk\
+  \ about; I don't talk about it. It's more about recognizing objects, like identifying\
+  \ a cup, which relates to memory and context-related thinking. However, I don't\
+  \ know much about that aspect. The motor cortex is located here, and the somatosensory\
+  \ cortex is over there. I remember that the somatosensory cortex is closer to the\
+  \ visual cortex because it relates to vision. They sort of meet in this area. I'm\
+  \ going to continue with this explanation, but just so you know, at this point,\
+  \ there is also a pathway that bypasses the route I'm about to describe that things\
+  \ tend to follow. So we started out saying, \"hey, I wish I had water,\" which gets\
+  \ converted into something like a motor plan in the motor cortex that recognizes,\
+  \ \"oh, there's water right there.\" Let's assume I don't care about the fact that\
+  \ it's not mine; I could reach out and grab it. This action would require taking\
+  \ a couple of steps, moving my arm, and grabbing the object, notwithstanding the\
+  \ complexity of the steps involved. That's a whole other discussion. I think this\
+  \ is also where a lot of questions in the research currently lie; what happens when\
+  \ you have a motor plan that needs to evolve over time? For example, I need to walk\
+  \ over there and then perform a specific behavior. I think this is an area of neuroscience\
+  \ that we still don't understand well. This course's specific focus on the neural\
+  \ control of human movement in the real world touches on aspects of neuroscience\
+  \ that we just don't know much about. If you consider the methods involved, the\
+  \ vast majority of neuroscience and psychological research is conducted with people\
+  \ sitting in chairs, performing tasks on tablets, or doing single joint movements.\
+  \ Our ability to measure the neural activity of humans, and animals in general,\
+  \ while they move around in a space is very limited. We have started to make progress\
+  \ on that over the past decade, but many of the theories we hold are based on research\
+  \ that does not involve animals being able to navigate the world and engage in multi-step\
+  \ processes. So, if you have questions about how that works, ... works. The answer\
+  \ is, we largely don't know. But find some papers, and you might find people who\
+  \ are working on those questions. So, all of this is happening in the cortex, right?\
+  \ The big, lumpy, pink thing on the top. There are a bunch of other parts of your\
+  \ central nervous system that we lump together under the heading of subcortical\
+  \ regions. My personal favorite is the cerebellum, which is this sort of lumpy part\
+  \ down there. The cerebellum, often referred to as the 'little brain', is great.\
+  \ I'm going to talk about that in just a second. But there's another component that\
+  \ I want to at least mention: honorable mentions of a particular piece that sort\
+  \ of lives in the middle. We're doing a side view; all these parts are duplicated\
+  \ on either side. For some reason, the left side of your brain controls the right\
+  \ side of your body. Don't ask me why; it's just how we evolved. But there is this\
+  \ very important part called the basil ganglia. This is particularly interesting\
+  \ for those of you that are interested in things like movement disorders because\
+  \ it's a part that can go wrong in various interesting ways. The idea is that when\
+  \ you have that high-level thought of, 'I want to be holding this box,' and I'm\
+  \ sitting here looking at the box, there are many different ways my body could solve\
+  \ that problem. I could grab it with my dominant hand, or I could grab it with my\
+  \ non-dominant hand. I could grab it with my dominant hand in a weird way, or I\
+  \ could move over here and grab it with my dominant hand. All of these are options\
+  \ that would satisfy that highly volitional desire to be holding this box in my\
+  \ hand. With any kind of network, we often talk about the brain in a kind of serial\
+  \ processing manner, similar to a computer analogy. This aligns with our general\
+  \ approach of describing the nervous system in the context of the most advanced\
+  \ piece of technology that we have. If you go back through history, we tend to always\
+  \ do that. So, anytime you're talking about a network, the thinking is, and again,\
+  \ this is deep into the cartoon version of stories, that when I have the desire\
+  \ to pick up a certain object or pick up a pen, the motor network components that\
+  \ would generate... That action gets activated a little bit, and they get activated\
+  \ to the point where they're sort of engaging in a kind of competition with each\
+  \ other. Motor plan competition, I think, is a term you could look up for that.\
+  \ However, it wouldn't really work if every time I had a thought all the possible\
+  \ options to make that thing happen were activated at the same time. That's where\
+  \ this little superior colliculus comes into play; its presumed role is to suppress\
+  \ your motor commands until they reach a certain threshold of activation. In this\
+  \ very abstract sense, the best motor command wins out, and then that one crosses\
+  \ the threshold and gets triggered to actually move through. In this case, it's\
+  \ closest to my dominant hand. I like using my dominant hand; this is a comfortable\
+  \ strategy, whereas this is not a comfortable strategy. So, this motor command wins\
+  \ the fight between all the possible ways I could solve that problem, and that's\
+  \ the one that occurs. You can talk for days about the details\u2014the substantia\
+  \ nigra and blah, blah, blah. However, the point I wanted to emphasize here is that\
+  \ there are at least two ways that this process could go wrong. One way is that\
+  \ the gating, or suppression, that the superior colliculus does can be too strong,\
+  \ to the point where none of those commands actually make it through the gate. I'm\
+  \ sitting here wanting to move, but I can't actually initiate the action. This way\
+  \ of things going wrong is typically what happens in conditions like Parkinson's\
+  \ disease. Parkinson's disease is complicated, but one family of symptoms includes\
+  \ things like freezing\u2014freezing in gait, freezing in motor commands. People\
+  \ see what they want to do, but they can't initiate the action. This is thought\
+  \ to be related to the superior colliculus over-gating the problem, so none of the\
+  \ available motor commands are able to trip over the gate and actually allow things\
+  \ to initialize. There\u2019s interesting information there. Another way that this\
+  \ can go wrong is what I mentioned before: it would be bad if all the motor commands\
+  \ happened all at once. That's another issue, specifically in a disease called Huntington's\
+  \ disease, which is famously genetically predictable. It's one of those things that\
+  \ is very heritable. If you have a 50/50 chance of inheriting Huntington's disease\
+  \ from a given parent, and if one of your parents has the disease, you have a 25%\
+  \ chance of having it as well. We can analyze your genome to determine whether you\
+  \ have it or not. This situation raises ethically challenging questions, such as\
+  \ what the implications are of having a child if there\u2019s a 25% chance that\
+  \ child will inherit a degenerative disorder. Additionally, what are the ethics\
+  \ surrounding testing for this condition? If you undergo testing, doctors may know\
+  \ whether or not you will develop a degenerative disorder later in life, which leads\
+  \ to difficult conversations. \n\nPeople with Huntington's disease exhibit behaviors\
+  \ where they unintentionally initiate movements. For instance, if you hold a cup\
+  \ with a handle in front of someone with Huntington's disease, they may find it\
+  \ extremely difficult not to reach out and grab it. They perceive the opportunity\
+  \ to grab it, yet their ability to suppress that behavior fails. As a result, they\
+  \ immediately reach out for items they do not intend to grab. \n\nThere is much\
+  \ more to explore regarding this topic, particularly since many of you are interested\
+  \ in movement disorders, which are often related to these issues. Once the motor\
+  \ command has been selected and activated, there is a cascade of activations that\
+  \ occurs from that point. Generally speaking, this activation will move from the\
+  \ brain to the cerebellum, then to the brainstem, and finally into the spinal cord.\n\
+  \nThe cerebellum is a very complex structure, containing roughly 3.5 times as many\
+  \ neurons as the rest of the central nervous system combined. These neurons are\
+  \ typically small, including granular cells, but they serve crucial roles in motor\
+  \ function and coordination. Large neurons called pyramidal cells. I will look at\
+  \ pyramidal cells because they're beautiful. Pyramidal cell neurons are the kind\
+  \ of thing you win Nobel Prizes for; pictures like that back in the 1800s. These\
+  \ are the type of neurons that you get. This might actually be in your motor cortex,\
+  \ but these are highly synaptic\u2014like a massive synaptic forest\u2014where the\
+  \ output of the neuron, whether or not it's spiking, is dependent on this massive\
+  \ network of connections to other parts of your body or other parts of your nervous\
+  \ system.  \nYour cerebellum is thought to be the area that handles motor coordination.\
+  \ That coordination happens at different levels. Most of your nervous system has\
+  \ an inside-out structure where the inner parts of your cerebellum, like the inner\
+  \ parts of your brain, are the most ancient, the oldest part. As you move outward,\
+  \ you get newer evolutionary structures until you reach the neocerebellum, which\
+  \ is the outer part. This structure looks like a lump but is kind of folded up on\
+  \ itself. The neocerebellum is on the outside, and it's thought to be associated\
+  \ with things like tool use. For instance, the fact that I can pick up an object\
+  \ that is not a part of my body and sort of wave it around\u2014now I have sort\
+  \ of internalized some of the physics of this thing. That ability to internalize\
+  \ the physics and utilize external objects as if they were part of my body is thought\
+  \ to be related to the neocerebellum. There's some interesting studies using fMRI\
+  \ where they have people playing with tools, and I always get stuck on these little\
+  \ side quests because I just have to tell the story because it's so interesting.\
+  \ Not all animals can use tools, obviously, but there's a concept in neuroscience\
+  \ called peripersonal space. We tend to chop up the world into spots: out there\
+  \ is far away stuff, and in here is like my actual body part. Then there's the peripersonal\
+  \ space, which is... Close by are areas that I can reach with my current body. Anything\
+  \ that's on this table is considered peripersonal space. If you take a monkey, like\
+  \ a macaque monkey, a non-human primate that we study, you can induce certain types\
+  \ of brain damage that result in various types of blindness. It's possible to get\
+  \ a type of blindness in peripersonal space due to particular damage in a specific\
+  \ area. Essentially, there are things within a certain range of you that you can't\
+  \ see.\n\nThere's a fascinating study where researchers took a macaque and induced\
+  \ a reversible lesion by introducing a chemical in that part of the brain, effectively\
+  \ stopping its function temporarily. After a while, it would recover. They trained\
+  \ the monkey to use a grabber device to reach out and grab items that were farther\
+  \ away than its arm's reach. After the monkey learned to use the grabber arm, when\
+  \ they performed the cortical lesion, its peripersonal space extended to include\
+  \ the areas it could reach with the grabber.\n\nThis presents strange implications\
+  \ regarding how we perceive the world and categorize it into things that are part\
+  \ of us, things that are not part of us, and things we can manipulate directly.\
+  \ For certain types of mammals, the question of what part of the world is our body\
+  \ and what part can we interact with using our body extends to include tools. This\
+  \ concept includes items that aren't necessarily part of our raw biology, which\
+  \ leads us into philosophical territory, especially when we begin to extend the\
+  \ notion of tools from basic items like grabbers and hammers to more complex tools\
+  \ such as laptops, the internet, and large language models. We often prioritize\
+  \ the physical aspects of our interactions, such as making you take tests on pen\
+  \ and paper, even though it might not reflect your true abilities.\n\nThere is a\
+  \ whole concept of embodied cognition that attempts to extend this notion, suggesting\
+  \ that we are essentially ourselves plus our toolset, plus our community of people\
+  \ who can assist us with tasks. This topic can get complicated and philosophical\
+  \ quite quickly. The lower parts of the cerebellum, the older parts, handle things\
+  \ like motor coordination. For example, if I want to flex my arm, there are specific\
+  \ areas involved in that process. You have your extension parts, your muscles. The\
+  \ flexion tends to move you towards the fetal position, while extension tends to\
+  \ move you opposite of that. In order for a movement to be smooth, the flexor and\
+  \ extensor groups have to fire in a very tight temporal loop. If they misfire, you\
+  \ get behaviors similar to those seen in movement disorders, which often display\
+  \ jerky movements. This can come from various places, but it is often associated\
+  \ with misfiring. For example, when I extend my arm, the triceps should engage,\
+  \ and the biceps should be relaxed. However, if the biceps keep firing while I'm\
+  \ trying to extend my arm, it results in a jerkier movement. This is coupled with\
+  \ another type of disorder that can lead to what is colloquially referred to as\
+  \ the 'drunkard's wobble.' In this case, the postural control system may be firing,\
+  \ but it does so slowly, producing a more soupy type of movement. These are just\
+  \ different parts of the cascade of issues that can arise in the motor system. Ataxia\
+  \ is one term associated with this. \n\nRegarding the cerebellum, your brainstem\
+  \ is located below it. Honestly, the brainstem is a part I know the least about.\
+  \ It is associated with sensory integration and is often considered part of a lower-level\
+  \ integration system involving flexor and extensor groups, timing, and sensory information\
+  \ integration\u2014specifically the forces occurring at your joints rather than\
+  \ visual information. If you want to look up how the brain stem interacts with other\
+  \ systems, you can certainly do that, but I don't have much information there. A\
+  \ part I know more about is the spinal cord, which is generally thought of in common\
+  \ terms. Often, when we draw the central nervous system, we illustrate it like this\
+  \ and cut off the spinal cord. This is incorrect; your spinal cord is a part of\
+  \ your central nervous system, and it plays a crucial role in motor control. The\
+  \ spinal cord does not extend all the way down the spinal column, which is the bony\
+  \ part. It stops around here, just below the rib cage. Below that are the peripheral\
+  \ nerves that go in and out to innervate the muscles.\n\nThe structure flips inside\
+  \ out: your cortex has gray matter, which consists of the cell bodies of neurons\
+  \ on the outside, and white matter, which is composed of the axons and glial cells\
+  \ wrapped together on the inside. The spinal cord reverses this arrangement, so\
+  \ the cellular connections are on the outside. The blue area shown here is the same\
+  \ gray matter that is present on the outside of your cortex.\n\nWe are getting down\
+  \ to the very bottom of the motor hierarchy when we talk about the spinal cord.\
+  \ The types of controls at the spinal level are definitely a form of processing,\
+  \ but there is very little abstraction at this level, if any. This is where your\
+  \ spinal cord manages reflexes. For instance, if you ever go to the doctor and they\
+  \ hit your knee, causing it to kick out, they are testing your spinal reflexes.\
+  \ One of the most basic examples is the monosynaptic stretch reflex. When a muscle\
+  \ is stretched, a reflex response makes it contract, which serves as a protective\
+  \ mechanism. When the doctor taps the tendon, it stretches the muscle, sending a\
+  \ signal to the spine prompting the muscle to contract, resulting in the knee-jerk\
+  \ reaction.\n\nHowever, it's not as simple as something that is always active because\
+  \ if that reflex were constantly active, you wouldn't be able to move your leg properly.\
+  \ The reflex needs to be modulated for coordinated movement. When you move, it stretches\
+  \ and then contracts. Your spine handles what's called reflex gating. In order to\
+  \ engage a given motor plan, the reflexes have to be configured in a certain way.\
+  \ The most famous, and my personal favorite, example of this is in the context of\
+  \ the locomotor gait cycle. When you're walking, you're going back and forth between\
+  \ each leg: each leg alternates between stance phase and swing phase. In the stance\
+  \ phase, you're holding the entire weight of your body on a very stiff leg. If you're\
+  \ running, for example, when you impact the ground, you're hitting it with 1.4 times\
+  \ your body weight or more. So, your leg has to be very stiff at that moment when\
+  \ it hits the ground. Someone once asked about the feeling you get when you step\
+  \ off a stair, expecting another stair to be there, but there is one fewer than\
+  \ you expect. You have that unpleasant moment where your limb is prepared for ground\
+  \ contact that is not at the right level.\n\nWhen you're moving back and forth,\
+  \ your legs are transitioning between stance phase and swing phase. In stance phase,\
+  \ your reflexes are adjusted to allow your leg to be very stiff and support the\
+  \ weight of your body. In swing phase, the reflexes are essentially turned off to\
+  \ allow your leg to be more floppy and loose, which lets it swing through and utilize\
+  \ its own momentum to move forward efficiently, without burning excess energy.\n\
+  \nThis transition from stance to swing phase happens roughly every 450 milliseconds,\
+  \ approximately a million times per year for a healthy undergraduate human. This\
+  \ transition occurs at the level of the spine, specifically managed by structures\
+  \ called central pattern generators. These are responsible for the basic rhythmicity\
+  \ of motor control. Most of your motor system is rhythmic in nature, whether you're\
+  \ walking, chewing, or scratching\u2014these actions have a rhythmic aspect.\n\n\
+  The motor hierarchy comes into play to ensure that movements are graceful, coordinated,\
+  \ and smooth, and that they are appropriate for the environment. For instance, when\
+  \ stepping onto a step or stepping down, there is a supervenience that occurs as\
+  \ you interact with the world. Those high-level volitions, those high-level desires,\
+  \ coupled with visual information and sensory information from the world, get translated\
+  \ into a set of instructions for how we should lay out the reflexes. This includes\
+  \ considerations of timing, strength, and the gains of all these reflexes in order\
+  \ to generate movements that are appropriate for the world around us. The idea is\
+  \ that, at the lowest level of the nervous system, these very low-level functions\
+  \ are executed based on instruction sets that come from the top down. However, the\
+  \ signals from the world also go in the other direction, creating a two-way communication\
+  \ that is not symmetric. This is where the concept of hierarchy comes into play.\
+  \ The high-level directives tend to instruct the low-level functions on what to\
+  \ do, but if the low-level functions detect that something has occurred, for instance,\
+  \ if you hit something, the higher-level processes will take that into account and\
+  \ respond appropriately. \n\nI never have enough time to discuss everything, but\
+  \ I will briefly mention that the narrative we've been describing about hierarchy\
+  \ is a general, cartoonized version of the motor hierarchy. This tends to reflect\
+  \ how mammalian nervous systems are organized. I overlooked an aspect concerning\
+  \ muscle synergies; for example, the muscles in my arm work in conjunction rather\
+  \ than being controlled separately. Instead of handling each muscle or degree of\
+  \ freedom individually, they operate at what is called a synergistic level. For\
+  \ most mammals, this is how it works: the high-level functions activate motor plans,\
+  \ which lead to motor hierarchies, and that's generally where this process concludes.\n\
+  \nHowever, for a small subset of animals, specifically tool-using mammals, there\
+  \ is an additional tract known as the corticospinal tract. This tract allows certain\
+  \ parts of the nervous system to bypass the rest and directly innervate the spine.\
+  \ 'Corticospinal' refers to the pathway from the cortex to the spine. I believe\
+  \ this is an area that merits further discussion. What I just said is that I'm roughly\
+  \ exhausting my knowledge on the topic. I think it's an area of very active research\
+  \ in terms of which animals have a corticospinal tract and which ones do not. With\
+  \ biology, it's never a case of a simple yes or no; it's always a matter of degree.\
+  \ It is one of those places that is thought to be related to our ability to be magnificent\
+  \ adaptation engines, where we can control our bodies in essentially arbitrary ways\
+  \ and with a very high level of precision. Fine control is thought to be related,\
+  \ in addition to things like the neocortex, which handles tool-using, also to the\
+  \ corticospinal tract. Think about learning activities like gymnastics, where you're\
+  \ doing something and someone says, \"Oh no, no, not like that; like this.\" Your\
+  \ heel is off by an inch and a half in a certain direction; you change the motor\
+  \ plan based on the words I'm saying to you. I think, when I philosophically and\
+  \ poetically contemplate the nervous system, that it's this type of control that\
+  \ is implicated by things like the corticospinal tract.\n\nI just think that comparing\
+  \ human movement to other types of animal movement, one of the main questions of\
+  \ what makes us different relates to our infinite adaptability relative to most\
+  \ other animals. We'll talk a bit about that in the evolution phase of life. This\
+  \ adaptability extends to your limbs and muscular functions. \n\nOkay, that's about\
+  \ as quick as I can make it. So, anyways, that's roughly speaking about your nervous\
+  \ system, at least the motor control parts of it. I've obviously covered a lot of\
+  \ ground and said a lot of things. For the rest of the class, I guess I'll just\
+  \ let you all be grouped together at this point. I might just have to have a whole\
+  \ classroom discussion. There's so much I want to say to you, but I also want to\
+  \ give you time to explore on your own. We'll figure that out. There's probably\
+  \ not time for coding stuff this time around. I will say let's do roughly what we\
+  \ did last time, where we pop into a channel in the lectures area called 2024 10.\
+  \ Motor hierarchy. I don't know if I spelled \"hierarchy\" correctly, but there\
+  \ you go. Perfect. No questions? Yeah. Just kind of do what we did last time. So,\
+  \ pop open some chats and ask it some questions. What I'll specifically ask you\
+  \ to do this time, which I haven't done in the past, is to follow your heart. If\
+  \ you want to ask more of a high-level question, like, \"Give me the textbook version\
+  \ of the story,\" go ahead and do that. If you want to dive deeper into the nitty-gritty\
+  \ side of things, where the cartoons break down, ask the bot for keywords that you\
+  \ can use in searches like PubMed or Google Scholar to look for papers on the topics\
+  \ it's questioned. Don't ask it for specific papers; it will either give you papers\
+  \ that are old or it will give you papers that don't exist. So, ask it for keywords,\
+  \ and then go search for those papers. You can ask for things like review articles,\
+  \ but just ask it for keywords that you can search for. Then, when you find a paper,\
+  \ copy the entire abstract, paste it into the chat, and ask it to explain that to\
+  \ you. You could read the abstract and figure it out for yourself, but abstracts\
+  \ are necessarily and intentionally extremely dense linguistic blobs. There\u2019\
+  s pretty much no abstract on the planet that you couldn't spend several lifetimes\
+  \ trying to parse out all of the details, all the words, and all the unfamiliar\
+  \ phrases. Let's do that for about 13 minutes. It's not much to get into, so I'm\
+  \ not going to make it an official assignment, but continue this conversation with\
+  \ the bot throughout the day and the week. Just every so often, pop into the chat\
+  \ and ask it a question. I'm not going to necessarily make that an assignment. I'll\
+  \ make assignments later, but anytime you have a thought, pull it out and ask it\
+  \ the question. I will be doing the scrape and pull stuff throughout the week, and\
+  \ I'll do it again before next week. So, if you want to steer what that content\
+  \ is, ask it questions about the things that you care about."
+title: HMN24 - 04 - Intro to the Neuro Motor Hierarchy
+transcript_chunks:
+- dur: 180.0
+  end: 180.0
+  start: 0.0
+  text: Okay, hello everybody. Today we're going to talk about actual proper neuroscience,
+    arguably for the first time, which is always an exciting point, especially halfway
+    through the semester. Also, in line with tradition, I realized when I got here
+    that I had taken a bunch of notes and written a lot of stuff up, but then forgot
+    to push it up, so we don't have the most up-to-date material here, but that's
+    fine. Basically, this is the point of the semester where the divergence from the
+    plan becomes more noticeable. We are here roughly, and we did some of the material
+    but not all of it. We haven't talked about eyeballs yet, but we will start discussing
+    vision and related topics probably next time. The evolution material I'll probably
+    combine together, and we'll get to it. The soft goal is, at some point before
+    the end of the semester, to reach a point where I'm talking about my actual proper
+    human science research, which has a lot of different background aspects because
+    it's about visual control of locomotion over rough terrain. So, all of these things
+    kind of come together. We should also have enough time to cover some additional
+    topics toward the end, and I think we'll get there. Now, catching up with where
+    we currently are, we've done some material. While I'm talking, in the server at
+    the top under the resources channel, in the same place we discussed last time,
+    there is a thread called 'server scrape checkpoints.' Click into that. I figured
+    out what was wrong with the last one; it was a simple Windows issue. At some point
+    in its history, Windows decided that 280 characters is as long as a file path
+    ever needs to be or should be, so it throws an error if your path lengths get
+    too long. You can change that setting, but this ZIP file had a long file name,
+    which caused the error. This new 7z is a different form of ZIP that doesn't have
+    that issue. If you want to see where things were last week, this one is the one
+    that's up-to-date up to then. The one from this morning, if you download it and
+    unzip it, will still throw two errors saying the pkl and JSON files are unhappy,
+    but just...
+- dur: 180.0
+  end: 360.0
+  start: 180.0
+  text: "Skip those and unpack the rest of it. Try to open it up in Obsidian, and\
+    \ hopefully by the time you get to that point, I will have reached that same point\
+    \ in my conversation. So give that a shot and see how far you get.\n\nA lot of\
+    \ the work we've been doing until now has been on the data and computational side\
+    \ of things. The topic of the course is the neural control of real-world human\
+    \ movement. We've been focusing more up to this point on basic methods, the types\
+    \ of data that can be collected, and the measurements that can be taken, as well\
+    \ as a little bit into the more theoretical aspects.\n\nAll the discussion about\
+    \ full-body center of mass and those simplified models of the body, how it moves\
+    \ around the world, pertains to the study of the neural control of real-world\
+    \ human movement. This essentially emphasizes the kinds of measurements you can\
+    \ take and the empirical investigation involved. We're going to revisit the methods\
+    \ side of things when we talk about vision and bring out the eye tracker for more\
+    \ data analysis.\n\nToday, I want to focus more on the landscape of neural control\
+    \ and motor control. This is a topic I've often found myself referring back to\
+    \ in conversations towards the end of the last parts of previous classes. While\
+    \ it's not directly in the syllabus, I want to discuss the concept of the motor\
+    \ hierarchy as it relates to the neural control of movement. It\u2019s a fundamental\
+    \ aspect of our neural motor systems, arranged hierarchically, with the cortex\u2014\
+    represented by the lumpy pink mass\u2014at the top. Below that are the various\
+    \ subcortical systems, spinal cord, and muscles, with what you might consider\
+    \ the base-level physics of the world at the bottom of that hierarchy.\n\nWe will\
+    \ touch on that, but we won't delve particularly deep into any specific aspect\
+    \ of it because I want to allow enough time for us to split into groups and conduct\
+    \ our own explorations. This time, we will be more organized by presumed topic\
+    \ as we break things down."
+- dur: 180.0
+  end: 540.0
+  start: 360.0
+  text: "The room is divided into different parts of this hierarchy we want to discuss\
+    \ today. The idea is to use your collective efforts to flesh out parts of the\
+    \ brief, overview, which I will provide shortly. We'll get to that in a moment.\
+    \ This exploration involves you all contributing to the landscape we've been discussing.\
+    \ We've been playing with it a bit by interacting with the bot and asking it questions\
+    \ about your presumed interests. As the semester has progressed, I have made more\
+    \ updates to the code I use to scrape those conversations from the server and\
+    \ then compile them into a different configuration of AI tools. I am asking a\
+    \ different large language model (LLM) configuration to pull out the topics you\
+    \ all have been asking about in order to create a landscape of your interests.\n\
+    \nTo look at that, I assume you have downloaded the zip file and extracted it.\
+    \ If you're on a Mac, it may look slightly different, but by now, I trust you\
+    \ know how to unzip files. If you don\u2019t, ask a neighbor; if they don\u2019\
+    t know, just wait and ask me later.\n\nSo, you want to download and extract it\
+    \ into a regular folder anywhere on your computer. At some point, you should have\
+    \ downloaded Obsidian MD, which is free software. When you have it, download and\
+    \ double-click on it. It may look a little different the first time you open it.\
+    \ I can't remember if I've done that on this computer already. For me, it's down\
+    \ here, but again, it may look different on a Mac."
+- dur: 180.0
+  end: 720.0
+  start: 540.0
+  text: "Find something that looks like \"Manage Vaults\" or \"Open Vault.\" If you\
+    \ press Control + O, it might give you a screen that looks something like this.\
+    \ The option you want is called \"Open Folder as Vault.\" Obsidian just calls\
+    \ folders vaults for whatever reason. So, open that and navigate to the folder\
+    \ you just extracted. There are a lot of unnecessary subfolders in that zip file,\
+    \ which I figured out this morning. It doesn't matter which one you pick, but\
+    \ just to make it a little cleaner, I'm going to click through the top level into\
+    \ \"AI Processed.\" \n\nThis server scrapes is just the raw data, so it's effectively\
+    \ the markdown file that is attached to the top of each chat. This is basically\
+    \ a folder full of those things, laid out in a similar structure to the server.\
+    \ I'm just going to click through that into \"AI Processed.\" In here, there is\
+    \ a lot of stuff, and you will notice that these folder names correspond to the\
+    \ same categories we have in the actual server. If you click into that, these\
+    \ will correspond to the names of the topics and channels. \n\nI'm getting distracted\
+    \ as I often do. In here, I can select this folder and let Obsidian open it up.\
+    \ It's white for some reason; I don't know why it decided to be in light mode\
+    \ for me, but that's fine enough for now. There is a lot of stuff in here. If\
+    \ you click through this, every now and then, in addition to the raw conversation\
+    \ attached to the bottom, you have links here. If you click on the link, it will\
+    \ take you to that message in the server, probably on the browser version of the\
+    \ server. Up here is an extracted summary of the topics covered in this conversation,\
+    \ which was presumably about tracking and VR, whoever had that conversation. There\
+    \ is a lot of art to figuring out the right way to tell a language model to chew\
+    \ on a big blob of text in order to pull out topics, but in this particular case,\
+    \ I was mostly focused on just..."
+- dur: 180.0
+  end: 900.0
+  start: 720.0
+  text: "We're getting raw topics covered. I gave it this structure of pulling out\
+    \ a title, an extremely short summary, highlights, a very short summary, a short\
+    \ summary, and a detailed summary, sort of like different levels of abstraction.\
+    \ This approach is meant to help organize the information effectively. Importantly,\
+    \ I also added tags. These tags are in hashtag format, known as Kebab case, which\
+    \ means they use lowercase letters and numbers with hyphens between them. The\
+    \ purpose of the tags is to enable us to click on this little graph view, which\
+    \ presents a visual representation of the data. Each dot corresponds to one of\
+    \ the chats that were had. If we go over to filters and turn on the tags, we can\
+    \ see all the tags that were covered. There are a couple of things to note here.\
+    \ First of all, this is fun; I love this type of thing. There are many options\
+    \ for display. I\u2019m not sure why it\u2019s in light mode, but that\u2019s\
+    \ fine. It could be nice to adjust the text, let the nodes be a little smaller,\
+    \ and have them be less thick. You can navigate around here. The green ones represent\
+    \ the tags, and the black ones represent the notes. I don\u2019t want to belabor\
+    \ this particular point or get too deep into the technical aspects of how to use\
+    \ this kind of tool. Obsidian is nice because there are a lot of tutorials available,\
+    \ so if you're curious about taking notes in this manner and want your general\
+    \ notes to have a cohesive internal structure, just hop on YouTube and search\
+    \ for Obsidian. You\u2019ll find plenty of useful information there. The basic\
+    \ idea is that there are specific tags; for example, the biomechanics tag has\
+    \ been present in many of your conversations. If I click on that, it will show\
+    \ me all the tags that have been discussed. So, you could look up, for instance,\
+    \ the impact of knee injuries on biomechanics. If I click on that, it leads to\
+    \ a conversation that one of you had about knee injuries."
+- dur: 180.0
+  end: 1080.0
+  start: 900.0
+  text: "Biomechanics is what was discussed here. You can click on this, and it will\
+    \ take you to the server version or the online browser version that has to load\
+    \ up. Yes, so this was Grace\u2014if you're in here, where did you go? Wait, is\
+    \ that the right one? No, it's a different thing. So, biomechanics is very well\
+    \ connected; neuroscience is obviously well connected, and neural control is well\
+    \ connected. There are also some orphans out here that are not connected. Mathematical\
+    \ ambiguity and interpretations can sometimes be caused by conversations that\
+    \ are super short, so there isn't much content there. AI has people-pleaser energy,\
+    \ so if you tell it to summarize something that only contains a greeting followed\
+    \ by nothing else, it will still try to come up with a full summary, even though\
+    \ that's not valid. In this particular case, someone was asking about mathematics\
+    \ or operations or something. Oh, actually, remember how I told you that I was\
+    \ not going to scrape the playground channel? I lied. It is in here because it's\
+    \ easier to not ignore it. Occasionally, some of these conversations are doing\
+    \ their best to pull a reasonable summary out of discussions that are intentionally\
+    \ misleading. So, I will leave that roughly there. Another thing to mention is\
+    \ that you'll notice a lot of these tags are orphan tags; they are only included\
+    \ in one conversation. This thing, sods, is something that will probably be connected\
+    \ more once we finish talking about eye movements. Some of these, like trust,\
+    \ don't need to be a tag in this class. The way I wrote the prompt or didn't do\
+    \ any cleanup afterward allowed it to pull in stuff that really shouldn't be there.\
+    \ Brain-computer interfaces probably should be in there. \"Seeds in body\"\u2014\
+    someone was talking about eating plants. I remember that. There are some things\
+    \ here where you can kind of tell that the way the information was extracted impacted\
+    \ the results. It actually didn't do a terrible job this time, but yes, so consciousness."
+- dur: 180.0
+  end: 1260.0
+  start: 1080.0
+  text: "Variations like that should really have the tag \"Consciousness,\" and then\
+    \ anyone else who talked about that, which I know there's at least a couple of\
+    \ you, would get matched in there. This is the case where the way the bot extracted\
+    \ the tags, if that was done more skillfully or carefully, would create a more\
+    \ connected system of topics and content. Some of that is about having more conversations\
+    \ to create more connections; some of it is about making the prompt a little better.\
+    \ And anytime you're doing anything with AI and language generation, there's always\
+    \ a need for a human cleanup step. So, I could go through and clean this up or\
+    \ ask you to clean it up, and maybe we'll do that. We're going to be using music\
+    \ and money. What are you talking about? Yeah, so figuring out how to expand this\
+    \ stuff\u2014y'all can jump in there and look at what your classmates have been\
+    \ talking about. We're going to be doing, in the latter part of the class, a little\
+    \ bit more toward the direction of you all producing more curated blobs of text\
+    \ that are designed to help pull together some of these disparate, disconnected\
+    \ things. I will be continuing, over the course of the semester, to increase the\
+    \ sophistication of this extraction. The idea is to find a way to let all of you\
+    \ have your explorations of this topic cohere into a navigable landscape of this\
+    \ comedically vast topic. I told it\u2014I tried to get it not to do this. I told\
+    \ it not to use names, but this topic is about Caroline's interest in human anatomy\
+    \ and surgery. That should not have been the title; that's a bad title. However,\
+    \ it's not Caroline's fault; that's just the way it is. Being more careful with\
+    \ the prompting would help avoid situations like that, as would keeping the style\
+    \ consistent. Also, just to make it run fast and cheap, this was processed by\
+    \ GPT-3.5, which is not as advanced as GPT-4, but it is very fast and effectively\
+    \ free at this point. With this setup, we're processing a high volume of text,\
+    \ so the cost becomes noticeable if you use the larger models. If you use the\
+    \ bigger models, it would take half an hour to an hour or more to process all\
+    \ these things, whereas with 3.5, it is effectively free and processes in about\
+    \ 30 seconds instead of 30 minutes."
+- dur: 180.0
+  end: 1440.0
+  start: 1260.0
+  text: Extracting summaries, it's sort of smart enough for that. That's what natural
+    language processing has been doing for like 20 years. However, you do kind of
+    get some dumb behavior where it's like, that's not even the right capitalization.
+    Okay, cool. So, yeah, it makes sense. Great. If it doesn't make sense, that's
+    also fine. If you have technical issues getting it running and reaching the point
+    where you can look at it, we'll handle that in a little bit here. But there's
+    no real obligations for you with this side of the class right now. This is more
+    of an update on my homework and where we're at with it because real work is typically
+    iterative in nature. Okay, so this is the place where, if I had successfully pushed
+    my notes to GitHub, we would be looking at them right now. But they weren't particularly
+    extensive anyway. So I'll take this as an opportunity to show a little bit about
+    how the bot works. With something like the motor hierarchy, which is a well-trodden
+    topic in any class that talks about motor neuroscience, if I ask the bot to give
+    me a lecture outline for the motor hierarchy, it'll provide something good, especially
+    because it already has the syllabus of the class kind of baked into it with that
+    top-level prompt. I have this other channel where I use AI for my own purposes,
+    which you can also create if you want, but we'll talk about that later, or maybe
+    not. In that server, if I wanted to give it a simple preamble, it wouldn't do
+    as effectively as this class is prompted.
+- dur: 180.0
+  end: 1620.0
+  start: 1440.0
+  text: "As good of a job as possible, because this one is already in the context\
+    \ of having the syllabus of the server for the class baked into itself, it does\
+    \ a decent job. Oh, give me the order from highest to lowest, because it did that\
+    \ the other way. Great. So, there you go. Now you have everything you need to\
+    \ know about the motor hierarchy. Not really. This kind of thing, and give me\
+    \ an additional outline about the corticospinal tract. Yeah, that's another area.\
+    \ I wonder if it didn't mention that in the original. Yeah, it did mention it\
+    \ briefly, but this is another kind of thing.\n\nSo, when you're navigating this\
+    \ kind of AI-mediated language space, there's often a balance you want to strike\
+    \ between what I think of as top-down versus bottom-up types of investigations.\
+    \ A bottom-up approach is kind of like giving it a very loose instruction set\
+    \ and just seeing what pops out at you. For example, telling it to tell me about\
+    \ neuroscience will give you a broad-scoped thing, versus more of a top-down approach\
+    \ where you, as the human, give it more structure and say, \u2018No, give me more\
+    \ specifically this type of thing.\u2019 You get different responses that way,\
+    \ and both approaches can be quite useful.\n\nThe analogy, and this is a recurring\
+    \ theme when working with AI, is that often the strategies that work well with\
+    \ AI are also like Funhouse versions of things that generally work when talking\
+    \ to humans, if for no other reason than they were trained on human data. For\
+    \ instance, when we started this course, I said, \u2018Hey, go have an introductory\
+    \ talk. Ask the bot about whatever you want.\u2019 That's a very bottom-up approach.\
+    \ I'm just saying, \u2018Hey, room full of people, ask this thing a bunch of questions\
+    \ based on whatever you are interested in talking about.\u2019 A lot of the early\
+    \ part of this class sort of had that structure. The ones that are kind of driven\
+    \ by lectures are a little more structured, but a lot of the conversations so\
+    \ far have been very bottom-up, meaning that I am not imposing a structure from\
+    \ the top down. The topics that are covered, and that sort of graph that was shown,\
+    \ are a result of that bottom-up type of approach."
+- dur: 180.0
+  end: 1800.0
+  start: 1620.0
+  text: "If we think about the kind of conversations that happened in this channel,\
+    \ this was the one that occurred after the Center of Mass Basis Support lecture\
+    \ last time. I said, \"Hey, now ask the bot questions; have conversations about\
+    \ this lecture.\" That's more structured, but it's still fairly open. This contrasts\
+    \ with the idea of writing a class or writing a paper about a topic.\n\nWhen you're\
+    \ working with AI and trying to steer it to generate something that relates to\
+    \ your internal state, something you want to bring out into the world, it's often\
+    \ beneficial to swap back and forth between these two modes of thinking. For example,\
+    \ you might say, \"Hey, give me an outline of this topic\" without a bunch of\
+    \ structure, and then take the structure it provides, clean it up, alter it, edit\
+    \ it, and give it back to the AI. You could then say, \"Give me more information\
+    \ about this outline; flesh it out further.\" \n\nOften, it isn't even worth doing\
+    \ that first step if you already know what you're interested in. Just ask specific\
+    \ questions, and you will get specific answers. There are different modes of using\
+    \ this AI, and one thing I\u2019ve mentioned frequently is that one of the best\
+    \ things these AIs are good for is helping you flesh out your unknown unknowns.\
+    \ You might have an interest in a topic, but you don't know enough to identify\
+    \ the parts you have questions about. So, you can ask generally, \"Tell me more\
+    \ about this,\" and the AI will provide a bunch of information. You might find\
+    \ words that are unfamiliar, prompting you to ask about those specific terms,\
+    \ and you can navigate through the topic that way.\n\nHowever, you also want to\
+    \ drive the conversation a bit. Anyway, I mostly asked for this just to have a\
+    \ cheat sheet of the actual parts I wanted to talk about. I always have to do\
+    \ this right. Okay, can I do it like this? I guess I can do that like this. This\
+    \ is the part where I get frustrated with Discord for poor use of space."
+- dur: 180.0
+  end: 1980.0
+  start: 1800.0
+  text: 'Okay, so the motor hierarchy broadly speaking corresponds to the organization
+    of responsibilities within your motor cortex. Your motor system, from the high-level
+    abstract thoughts like, "I''m thirsty, I wish I had water," or, "I''m hungry,
+    I want to eat," down to the level of, "I am trying to put force into the world
+    so that I can move my body in the direction of water or food." The way we complete
+    a given task requires a combination of these different levels. If you only think
+    about the motor system as something that is attached to your muscles, applying
+    forces to pick up objects or push on the ground, you will never achieve coordinated
+    behavior as you move towards your goals. At the same time, if you only consider
+    the context of high-order volitional desires, such as preferring fruit to wheat
+    or feeling thirsty after talking a lot, you won''t have the goal-driven behaviors
+    necessary for meaningful coordinated movement that produces actual results.
+
+
+    So, I want to... can I zoom in here? Yeah, sure! I think I did a picture like
+    this at the beginning, but I will try to provide you more of an atlas of these
+    parts and how they connect to each other, working together to flesh out the details.
+    Specifically, today I want you to start looking up papers on these topics and
+    using the bot to help you engage with the deeper content. Shift away from simply
+    asking the raw AI to provide textbook-level information, like if Wikipedia could
+    talk, and start using it more as a tool to navigate waters that are deeper than
+    you can explore on your own.
+
+
+    So, let''s start with the brain. The first thing you should do is draw a brain.
+    Do it roughly like this: it''s a brain. Specifically, that''s a mammalian brain.'
+- dur: 180.0
+  end: 2160.0
+  start: 1980.0
+  text: "Brain. This is not a brain. Someone asked an AI to draw a brain for them;\
+    \ that's not what a brain looks like. This is the inside of a brain. Where are\
+    \ the pictures I'm looking for? They are roughly similar, but the main part that\
+    \ I try to draw when doing that sketch is this part right here, that lumpy part\
+    \ going down. That's your temporal lobe, by your temple. The rest is kind of squiggly.\
+    \ I've mentioned this before, but you eventually start to learn that all these\
+    \ little squishes, folds, and stuff like that, they all have names and they're\
+    \ not random. You can start to distinguish when you see brains in popular media\
+    \ whether they are based on an actual brain or if it\u2019s just someone depicting\
+    \ a bunch of squishy red stuff. Oh, this is the picture I was looking for. So\
+    \ it's all a little bit different; they are all rough and not shaped the same,\
+    \ but they all have this. See? This is not a real brain; it's missing some important\
+    \ parts, which is not great for an actual brain, but that\u2019s fine. This is\
+    \ an object of pure horror. So, there you go. This is your temporal lobe, and\
+    \ this stuff up here is the front. Give yourself some eyeballs, and that sort\
+    \ of goes in\u2014that's forward\u2014which is actually fine for English speakers.\
+    \ We tend to point things the other way, but that's okay. I always, I don\u2019\
+    t know; I was raised speaking Arabic, so I learn sometimes right to left, which\
+    \ comes more naturally, and I was like, I don\u2019t know if that\u2019s actually\
+    \ normal or if that\u2019s just... I don\u2019t know. Who cares? So, don\u2019\
+    t put that one up. Let's put something like this one. Let\u2019s give us a proper\
+    \ actual brain, please. Oh, yeah, there we go. So this frontal lobe here\u2014\
+    all mammals have it. I don't want to talk about other animals' brains here because\
+    \ I don\u2019t know how any of the rest of them work. Birds in particular, I\u2019\
+    m very curious about. They can be very intelligent with very different nervous\
+    \ systems, and I don\u2019t know much about that. But the frontal lobe is sort\
+    \ of like the..."
+- dur: 180.0
+  end: 2340.0
+  start: 2160.0
+  text: "Traditionally, most human parts of the brain are quite different from those\
+    \ of other animals, often just in terms of raw volume. When comparing to our simpler\
+    \ mammal friends, like cats and rats, the biggest differences tend to be the lack\
+    \ of a very pronounced, bulbous frontal lobe. This part here is roughly the top\
+    \ of the motor hierarchy, which is the frontal lobe's executive function. It is\
+    \ important to understand that when someone is describing the brain, it is always\
+    \ a cartoon version of reality. Reality is often weirder, more abstract, and less\
+    \ understood than anything someone could convey while speaking in a room.\n\n\
+    Generally, it is thought that volitional control originates in the prefrontal\
+    \ cortex. The term volition relates to voluntary action. For instance, if I want\
+    \ to pick up this box, that initial desire represents the volitional aspect. Cartoon-wise,\
+    \ it is believed that these thoughts originate in the prefrontal cortex. This\
+    \ area is where the most abstract form of motor desires begins, relating to wishes\
+    \ such as wanting water or food.\n\nAgain, cartoon-wise, this desire can be seen\
+    \ as passing back through the frontal and prefrontal areas down to the premotor\
+    \ and motor cortex. The part located on either side of your head is what we traditionally\
+    \ call the primary motor cortex, and it would look something like\u2026"
+- dur: 180.0
+  end: 2520.0
+  start: 2340.0
+  text: "This is the part that tends not to get drawn. There we go, that's what I\
+    \ was here for before. Again, cartoon versions of reality are not based on nothing;\
+    \ there's a reason why we draw this cartoon and not some other cartoon. Nothing\
+    \ is as clean as that. The basic trajectory is that those original highly volitional\
+    \ aspects of control get passed through different subregions of the brain. This\
+    \ part is roughly your premotor cortex, which starts to get more specific. By\
+    \ the time you get to the motor cortex, that's where things are thought to start\
+    \ resembling your body. This is, again, another kind of picture that you will\
+    \ see in many textbooks about neuroscience; you may have seen it before. It's\
+    \ also the kind of thing that you will never see in a talk about the motor cortex.\
+    \ The idea represented in this picture is that different parts of your brain handle\
+    \ the movement of different parts of your body. You get this overrepresentation\
+    \ of things like your hands, which have a lot of motor control associated with\
+    \ them, and much less representation of things like your hips and legs, which\
+    \ are more simplified. There\u2019s also an overrepresentation of things like\
+    \ the face because we perform actions like talking. The cartoon version of the\
+    \ story is that the high-level desires, like grabbing a cup of water, get passed\
+    \ down from the high level at the frontal lobes to the more specific areas of\
+    \ the motor cortex, translated into a more body-mapped description of how to move\
+    \ from one place to another. There is this so-called sensory-motor homunculus\
+    \ that sometimes gets drawn to illustrate what you look like on the inside, essentially\
+    \ mapping your body in relation to the cortical magnification of the different\
+    \ parts of your movement. This is clearly the sensory homunculus; if you can't\
+    \ figure out why, that's a lesson for the reader. The idea is that if you were\
+    \ to map out your motor functions..."
+- dur: 180.0
+  end: 2700.0
+  start: 2520.0
+  text: "Awareness and your sensory specificity. This is kind of what you would look\
+    \ like. However, this is also the kind of thing that, as I mentioned, there\u2019\
+    s the sensory cortex, and the motor cortex is sort of very close to the somatosensory\
+    \ cortex, which is the sensory aspect of things. In the same way that we would\
+    \ move our elbows, wrists, and hands, we also have sensations from those areas,\
+    \ and they are right next to each other. But again, I have seen many talks from\
+    \ many people, often on the topic of motor control and sensorimotor control. The\
+    \ topic of those talks is typically trying to say please stop showing this to\
+    \ students; it is not an accurate representation of reality. However, they often\
+    \ follow that by explaining much more complicated ideas about how it isn't really\
+    \ how it is, but this is the easiest way to discuss things like cortical magnification\
+    \ at the motor and sensory levels. Just understand that it is not a nice, clear,\
+    \ clean map. It is not the type of thing where, oh, here's where your wrist is,\
+    \ here's where your hand is; it's much more complex, much more spread out, and\
+    \ much less organized. However, if you sort of zoom out and squint and turn your\
+    \ head, this cartoon version of reality is a good place to start. This is also\
+    \ the kind of thing where, if you wanted to look up more recent papers about the\
+    \ structure and organization of the motor cortex and sensorimotor cortex, you\
+    \ will find a lot of good stuff from people actually doing that work. It\u2019\
+    s also the kind of thing where, if you ask the bot to tell you about this, it\
+    \ will probably give you this basic information, and you might have to push it\
+    \ to clarify if that\u2019s really what people think. The bot might struggle to\
+    \ provide specificity and up-to-date research as it has consumed every textbook,\
+    \ which could make it harder for it to deviate from the cartoonized version of\
+    \ reality we've come to expect from textbooks. If you wanted to push the bot until\
+    \ it breaks, you might try to find a more recent paper on this topic and identify\
+    \ instances where the bot provides information that does not align with current\
+    \ understandings. I had a brief moment of thinking about how that relates to Wikipedia,\
+    \ but I think Wikipedia is famously fast and tends not to hold on to incorrect\
+    \ information for very long. Therefore, Wikipedia would probably offer quicker\
+    \ and more direct summaries of modern thinking. But I'm not entirely sure that\u2019\
+    s one of those spots. So anyway, motor hierarchy: here we are, starting in the\
+    \ frontal cortex and going back to the motor cortex. Later, when we talk about..."
+- dur: 180.0
+  end: 2880.0
+  start: 2700.0
+  text: Vision tends to start here in the occipital lobe. There is a sense that this
+    part of the brain is for sensory information, while another part is for higher-level
+    thoughts, abstraction, and motor coordination. Then there's this other part that
+    we don't typically talk about; I don't talk about it. It's more about recognizing
+    objects, like identifying a cup, which relates to memory and context-related thinking.
+    However, I don't know much about that aspect. The motor cortex is located here,
+    and the somatosensory cortex is over there. I remember that the somatosensory
+    cortex is closer to the visual cortex because it relates to vision. They sort
+    of meet in this area. I'm going to continue with this explanation, but just so
+    you know, at this point, there is also a pathway that bypasses the route I'm about
+    to describe that things tend to follow. So we started out saying, "hey, I wish
+    I had water," which gets converted into something like a motor plan in the motor
+    cortex that recognizes, "oh, there's water right there." Let's assume I don't
+    care about the fact that it's not mine; I could reach out and grab it. This action
+    would require taking a couple of steps, moving my arm, and grabbing the object,
+    notwithstanding the complexity of the steps involved. That's a whole other discussion.
+    I think this is also where a lot of questions in the research currently lie; what
+    happens when you have a motor plan that needs to evolve over time? For example,
+    I need to walk over there and then perform a specific behavior. I think this is
+    an area of neuroscience that we still don't understand well. This course's specific
+    focus on the neural control of human movement in the real world touches on aspects
+    of neuroscience that we just don't know much about. If you consider the methods
+    involved, the vast majority of neuroscience and psychological research is conducted
+    with people sitting in chairs, performing tasks on tablets, or doing single joint
+    movements. Our ability to measure the neural activity of humans, and animals in
+    general, while they move around in a space is very limited. We have started to
+    make progress on that over the past decade, but many of the theories we hold are
+    based on research that does not involve animals being able to navigate the world
+    and engage in multi-step processes. So, if you have questions about how that works,
+    ...
+- dur: 180.0
+  end: 3060.0
+  start: 2880.0
+  text: 'works. The answer is, we largely don''t know. But find some papers, and you
+    might find people who are working on those questions. So, all of this is happening
+    in the cortex, right? The big, lumpy, pink thing on the top. There are a bunch
+    of other parts of your central nervous system that we lump together under the
+    heading of subcortical regions. My personal favorite is the cerebellum, which
+    is this sort of lumpy part down there. The cerebellum, often referred to as the
+    ''little brain'', is great. I''m going to talk about that in just a second. But
+    there''s another component that I want to at least mention: honorable mentions
+    of a particular piece that sort of lives in the middle. We''re doing a side view;
+    all these parts are duplicated on either side. For some reason, the left side
+    of your brain controls the right side of your body. Don''t ask me why; it''s just
+    how we evolved. But there is this very important part called the basil ganglia.
+    This is particularly interesting for those of you that are interested in things
+    like movement disorders because it''s a part that can go wrong in various interesting
+    ways. The idea is that when you have that high-level thought of, ''I want to be
+    holding this box,'' and I''m sitting here looking at the box, there are many different
+    ways my body could solve that problem. I could grab it with my dominant hand,
+    or I could grab it with my non-dominant hand. I could grab it with my dominant
+    hand in a weird way, or I could move over here and grab it with my dominant hand.
+    All of these are options that would satisfy that highly volitional desire to be
+    holding this box in my hand. With any kind of network, we often talk about the
+    brain in a kind of serial processing manner, similar to a computer analogy. This
+    aligns with our general approach of describing the nervous system in the context
+    of the most advanced piece of technology that we have. If you go back through
+    history, we tend to always do that. So, anytime you''re talking about a network,
+    the thinking is, and again, this is deep into the cartoon version of stories,
+    that when I have the desire to pick up a certain object or pick up a pen, the
+    motor network components that would generate...'
+- dur: 180.0
+  end: 3240.0
+  start: 3060.0
+  text: "That action gets activated a little bit, and they get activated to the point\
+    \ where they're sort of engaging in a kind of competition with each other. Motor\
+    \ plan competition, I think, is a term you could look up for that. However, it\
+    \ wouldn't really work if every time I had a thought all the possible options\
+    \ to make that thing happen were activated at the same time. That's where this\
+    \ little superior colliculus comes into play; its presumed role is to suppress\
+    \ your motor commands until they reach a certain threshold of activation. In this\
+    \ very abstract sense, the best motor command wins out, and then that one crosses\
+    \ the threshold and gets triggered to actually move through. In this case, it's\
+    \ closest to my dominant hand. I like using my dominant hand; this is a comfortable\
+    \ strategy, whereas this is not a comfortable strategy. So, this motor command\
+    \ wins the fight between all the possible ways I could solve that problem, and\
+    \ that's the one that occurs. You can talk for days about the details\u2014the\
+    \ substantia nigra and blah, blah, blah. However, the point I wanted to emphasize\
+    \ here is that there are at least two ways that this process could go wrong. One\
+    \ way is that the gating, or suppression, that the superior colliculus does can\
+    \ be too strong, to the point where none of those commands actually make it through\
+    \ the gate. I'm sitting here wanting to move, but I can't actually initiate the\
+    \ action. This way of things going wrong is typically what happens in conditions\
+    \ like Parkinson's disease. Parkinson's disease is complicated, but one family\
+    \ of symptoms includes things like freezing\u2014freezing in gait, freezing in\
+    \ motor commands. People see what they want to do, but they can't initiate the\
+    \ action. This is thought to be related to the superior colliculus over-gating\
+    \ the problem, so none of the available motor commands are able to trip over the\
+    \ gate and actually allow things to initialize. There\u2019s interesting information\
+    \ there. Another way that this can go wrong is what I mentioned before: it would\
+    \ be bad if all the motor commands happened all at once. That's another issue,\
+    \ specifically in a disease called Huntington's disease, which is famously genetically\
+    \ predictable. It's one of those things that is very heritable."
+- dur: 180.0
+  end: 3420.0
+  start: 3240.0
+  text: "If you have a 50/50 chance of inheriting Huntington's disease from a given\
+    \ parent, and if one of your parents has the disease, you have a 25% chance of\
+    \ having it as well. We can analyze your genome to determine whether you have\
+    \ it or not. This situation raises ethically challenging questions, such as what\
+    \ the implications are of having a child if there\u2019s a 25% chance that child\
+    \ will inherit a degenerative disorder. Additionally, what are the ethics surrounding\
+    \ testing for this condition? If you undergo testing, doctors may know whether\
+    \ or not you will develop a degenerative disorder later in life, which leads to\
+    \ difficult conversations. \n\nPeople with Huntington's disease exhibit behaviors\
+    \ where they unintentionally initiate movements. For instance, if you hold a cup\
+    \ with a handle in front of someone with Huntington's disease, they may find it\
+    \ extremely difficult not to reach out and grab it. They perceive the opportunity\
+    \ to grab it, yet their ability to suppress that behavior fails. As a result,\
+    \ they immediately reach out for items they do not intend to grab. \n\nThere is\
+    \ much more to explore regarding this topic, particularly since many of you are\
+    \ interested in movement disorders, which are often related to these issues. Once\
+    \ the motor command has been selected and activated, there is a cascade of activations\
+    \ that occurs from that point. Generally speaking, this activation will move from\
+    \ the brain to the cerebellum, then to the brainstem, and finally into the spinal\
+    \ cord.\n\nThe cerebellum is a very complex structure, containing roughly 3.5\
+    \ times as many neurons as the rest of the central nervous system combined. These\
+    \ neurons are typically small, including granular cells, but they serve crucial\
+    \ roles in motor function and coordination."
+- dur: 180.0
+  end: 3600.0
+  start: 3420.0
+  text: "Large neurons called pyramidal cells. I will look at pyramidal cells because\
+    \ they're beautiful. Pyramidal cell neurons are the kind of thing you win Nobel\
+    \ Prizes for; pictures like that back in the 1800s. These are the type of neurons\
+    \ that you get. This might actually be in your motor cortex, but these are highly\
+    \ synaptic\u2014like a massive synaptic forest\u2014where the output of the neuron,\
+    \ whether or not it's spiking, is dependent on this massive network of connections\
+    \ to other parts of your body or other parts of your nervous system.  \nYour cerebellum\
+    \ is thought to be the area that handles motor coordination. That coordination\
+    \ happens at different levels. Most of your nervous system has an inside-out structure\
+    \ where the inner parts of your cerebellum, like the inner parts of your brain,\
+    \ are the most ancient, the oldest part. As you move outward, you get newer evolutionary\
+    \ structures until you reach the neocerebellum, which is the outer part. This\
+    \ structure looks like a lump but is kind of folded up on itself. The neocerebellum\
+    \ is on the outside, and it's thought to be associated with things like tool use.\
+    \ For instance, the fact that I can pick up an object that is not a part of my\
+    \ body and sort of wave it around\u2014now I have sort of internalized some of\
+    \ the physics of this thing. That ability to internalize the physics and utilize\
+    \ external objects as if they were part of my body is thought to be related to\
+    \ the neocerebellum. There's some interesting studies using fMRI where they have\
+    \ people playing with tools, and I always get stuck on these little side quests\
+    \ because I just have to tell the story because it's so interesting. Not all animals\
+    \ can use tools, obviously, but there's a concept in neuroscience called peripersonal\
+    \ space. We tend to chop up the world into spots: out there is far away stuff,\
+    \ and in here is like my actual body part. Then there's the peripersonal space,\
+    \ which is..."
+- dur: 180.0
+  end: 3780.0
+  start: 3600.0
+  text: 'Close by are areas that I can reach with my current body. Anything that''s
+    on this table is considered peripersonal space. If you take a monkey, like a macaque
+    monkey, a non-human primate that we study, you can induce certain types of brain
+    damage that result in various types of blindness. It''s possible to get a type
+    of blindness in peripersonal space due to particular damage in a specific area.
+    Essentially, there are things within a certain range of you that you can''t see.
+
+
+    There''s a fascinating study where researchers took a macaque and induced a reversible
+    lesion by introducing a chemical in that part of the brain, effectively stopping
+    its function temporarily. After a while, it would recover. They trained the monkey
+    to use a grabber device to reach out and grab items that were farther away than
+    its arm''s reach. After the monkey learned to use the grabber arm, when they performed
+    the cortical lesion, its peripersonal space extended to include the areas it could
+    reach with the grabber.
+
+
+    This presents strange implications regarding how we perceive the world and categorize
+    it into things that are part of us, things that are not part of us, and things
+    we can manipulate directly. For certain types of mammals, the question of what
+    part of the world is our body and what part can we interact with using our body
+    extends to include tools. This concept includes items that aren''t necessarily
+    part of our raw biology, which leads us into philosophical territory, especially
+    when we begin to extend the notion of tools from basic items like grabbers and
+    hammers to more complex tools such as laptops, the internet, and large language
+    models. We often prioritize the physical aspects of our interactions, such as
+    making you take tests on pen and paper, even though it might not reflect your
+    true abilities.
+
+
+    There is a whole concept of embodied cognition that attempts to extend this notion,
+    suggesting that we are essentially ourselves plus our toolset, plus our community
+    of people who can assist us with tasks. This topic can get complicated and philosophical
+    quite quickly. The lower parts of the cerebellum, the older parts, handle things
+    like motor coordination. For example, if I want to flex my arm, there are specific
+    areas involved in that process.'
+- dur: 180.0
+  end: 3960.0
+  start: 3780.0
+  text: "You have your extension parts, your muscles. The flexion tends to move you\
+    \ towards the fetal position, while extension tends to move you opposite of that.\
+    \ In order for a movement to be smooth, the flexor and extensor groups have to\
+    \ fire in a very tight temporal loop. If they misfire, you get behaviors similar\
+    \ to those seen in movement disorders, which often display jerky movements. This\
+    \ can come from various places, but it is often associated with misfiring. For\
+    \ example, when I extend my arm, the triceps should engage, and the biceps should\
+    \ be relaxed. However, if the biceps keep firing while I'm trying to extend my\
+    \ arm, it results in a jerkier movement. This is coupled with another type of\
+    \ disorder that can lead to what is colloquially referred to as the 'drunkard's\
+    \ wobble.' In this case, the postural control system may be firing, but it does\
+    \ so slowly, producing a more soupy type of movement. These are just different\
+    \ parts of the cascade of issues that can arise in the motor system. Ataxia is\
+    \ one term associated with this. \n\nRegarding the cerebellum, your brainstem\
+    \ is located below it. Honestly, the brainstem is a part I know the least about.\
+    \ It is associated with sensory integration and is often considered part of a\
+    \ lower-level integration system involving flexor and extensor groups, timing,\
+    \ and sensory information integration\u2014specifically the forces occurring at\
+    \ your joints rather than visual information. If you want to look up how the brain\
+    \ stem interacts with other systems, you can certainly do that, but I don't have\
+    \ much information there. A part I know more about is the spinal cord, which is\
+    \ generally thought of in common terms."
+- dur: 180.0
+  end: 4140.0
+  start: 3960.0
+  text: 'Often, when we draw the central nervous system, we illustrate it like this
+    and cut off the spinal cord. This is incorrect; your spinal cord is a part of
+    your central nervous system, and it plays a crucial role in motor control. The
+    spinal cord does not extend all the way down the spinal column, which is the bony
+    part. It stops around here, just below the rib cage. Below that are the peripheral
+    nerves that go in and out to innervate the muscles.
+
+
+    The structure flips inside out: your cortex has gray matter, which consists of
+    the cell bodies of neurons on the outside, and white matter, which is composed
+    of the axons and glial cells wrapped together on the inside. The spinal cord reverses
+    this arrangement, so the cellular connections are on the outside. The blue area
+    shown here is the same gray matter that is present on the outside of your cortex.
+
+
+    We are getting down to the very bottom of the motor hierarchy when we talk about
+    the spinal cord. The types of controls at the spinal level are definitely a form
+    of processing, but there is very little abstraction at this level, if any. This
+    is where your spinal cord manages reflexes. For instance, if you ever go to the
+    doctor and they hit your knee, causing it to kick out, they are testing your spinal
+    reflexes. One of the most basic examples is the monosynaptic stretch reflex. When
+    a muscle is stretched, a reflex response makes it contract, which serves as a
+    protective mechanism. When the doctor taps the tendon, it stretches the muscle,
+    sending a signal to the spine prompting the muscle to contract, resulting in the
+    knee-jerk reaction.
+
+
+    However, it''s not as simple as something that is always active because if that
+    reflex were constantly active, you wouldn''t be able to move your leg properly.
+    The reflex needs to be modulated for coordinated movement.'
+- dur: 180.0
+  end: 4320.0
+  start: 4140.0
+  text: "When you move, it stretches and then contracts. Your spine handles what's\
+    \ called reflex gating. In order to engage a given motor plan, the reflexes have\
+    \ to be configured in a certain way. The most famous, and my personal favorite,\
+    \ example of this is in the context of the locomotor gait cycle. When you're walking,\
+    \ you're going back and forth between each leg: each leg alternates between stance\
+    \ phase and swing phase. In the stance phase, you're holding the entire weight\
+    \ of your body on a very stiff leg. If you're running, for example, when you impact\
+    \ the ground, you're hitting it with 1.4 times your body weight or more. So, your\
+    \ leg has to be very stiff at that moment when it hits the ground. Someone once\
+    \ asked about the feeling you get when you step off a stair, expecting another\
+    \ stair to be there, but there is one fewer than you expect. You have that unpleasant\
+    \ moment where your limb is prepared for ground contact that is not at the right\
+    \ level.\n\nWhen you're moving back and forth, your legs are transitioning between\
+    \ stance phase and swing phase. In stance phase, your reflexes are adjusted to\
+    \ allow your leg to be very stiff and support the weight of your body. In swing\
+    \ phase, the reflexes are essentially turned off to allow your leg to be more\
+    \ floppy and loose, which lets it swing through and utilize its own momentum to\
+    \ move forward efficiently, without burning excess energy.\n\nThis transition\
+    \ from stance to swing phase happens roughly every 450 milliseconds, approximately\
+    \ a million times per year for a healthy undergraduate human. This transition\
+    \ occurs at the level of the spine, specifically managed by structures called\
+    \ central pattern generators. These are responsible for the basic rhythmicity\
+    \ of motor control. Most of your motor system is rhythmic in nature, whether you're\
+    \ walking, chewing, or scratching\u2014these actions have a rhythmic aspect.\n\
+    \nThe motor hierarchy comes into play to ensure that movements are graceful, coordinated,\
+    \ and smooth, and that they are appropriate for the environment. For instance,\
+    \ when stepping onto a step or stepping down, there is a supervenience that occurs\
+    \ as you interact with the world."
+- dur: 180.0
+  end: 4500.0
+  start: 4320.0
+  text: "Those high-level volitions, those high-level desires, coupled with visual\
+    \ information and sensory information from the world, get translated into a set\
+    \ of instructions for how we should lay out the reflexes. This includes considerations\
+    \ of timing, strength, and the gains of all these reflexes in order to generate\
+    \ movements that are appropriate for the world around us. The idea is that, at\
+    \ the lowest level of the nervous system, these very low-level functions are executed\
+    \ based on instruction sets that come from the top down. However, the signals\
+    \ from the world also go in the other direction, creating a two-way communication\
+    \ that is not symmetric. This is where the concept of hierarchy comes into play.\
+    \ The high-level directives tend to instruct the low-level functions on what to\
+    \ do, but if the low-level functions detect that something has occurred, for instance,\
+    \ if you hit something, the higher-level processes will take that into account\
+    \ and respond appropriately. \n\nI never have enough time to discuss everything,\
+    \ but I will briefly mention that the narrative we've been describing about hierarchy\
+    \ is a general, cartoonized version of the motor hierarchy. This tends to reflect\
+    \ how mammalian nervous systems are organized. I overlooked an aspect concerning\
+    \ muscle synergies; for example, the muscles in my arm work in conjunction rather\
+    \ than being controlled separately. Instead of handling each muscle or degree\
+    \ of freedom individually, they operate at what is called a synergistic level.\
+    \ For most mammals, this is how it works: the high-level functions activate motor\
+    \ plans, which lead to motor hierarchies, and that's generally where this process\
+    \ concludes.\n\nHowever, for a small subset of animals, specifically tool-using\
+    \ mammals, there is an additional tract known as the corticospinal tract. This\
+    \ tract allows certain parts of the nervous system to bypass the rest and directly\
+    \ innervate the spine. 'Corticospinal' refers to the pathway from the cortex to\
+    \ the spine. I believe this is an area that merits further discussion."
+- dur: 180.0
+  end: 4680.0
+  start: 4500.0
+  text: "What I just said is that I'm roughly exhausting my knowledge on the topic.\
+    \ I think it's an area of very active research in terms of which animals have\
+    \ a corticospinal tract and which ones do not. With biology, it's never a case\
+    \ of a simple yes or no; it's always a matter of degree. It is one of those places\
+    \ that is thought to be related to our ability to be magnificent adaptation engines,\
+    \ where we can control our bodies in essentially arbitrary ways and with a very\
+    \ high level of precision. Fine control is thought to be related, in addition\
+    \ to things like the neocortex, which handles tool-using, also to the corticospinal\
+    \ tract. Think about learning activities like gymnastics, where you're doing something\
+    \ and someone says, \"Oh no, no, not like that; like this.\" Your heel is off\
+    \ by an inch and a half in a certain direction; you change the motor plan based\
+    \ on the words I'm saying to you. I think, when I philosophically and poetically\
+    \ contemplate the nervous system, that it's this type of control that is implicated\
+    \ by things like the corticospinal tract.\n\nI just think that comparing human\
+    \ movement to other types of animal movement, one of the main questions of what\
+    \ makes us different relates to our infinite adaptability relative to most other\
+    \ animals. We'll talk a bit about that in the evolution phase of life. This adaptability\
+    \ extends to your limbs and muscular functions. \n\nOkay, that's about as quick\
+    \ as I can make it. So, anyways, that's roughly speaking about your nervous system,\
+    \ at least the motor control parts of it. I've obviously covered a lot of ground\
+    \ and said a lot of things. For the rest of the class, I guess I'll just let you\
+    \ all be grouped together at this point. I might just have to have a whole classroom\
+    \ discussion. There's so much I want to say to you, but I also want to give you\
+    \ time to explore on your own. We'll figure that out. There's probably not time\
+    \ for coding stuff this time around. I will say let's do roughly what we did last\
+    \ time, where we pop into a channel in the lectures area called 2024 10."
+- dur: 180.0
+  end: 4860.0
+  start: 4680.0
+  text: "Motor hierarchy. I don't know if I spelled \"hierarchy\" correctly, but there\
+    \ you go. Perfect. No questions? Yeah. Just kind of do what we did last time.\
+    \ So, pop open some chats and ask it some questions. What I'll specifically ask\
+    \ you to do this time, which I haven't done in the past, is to follow your heart.\
+    \ If you want to ask more of a high-level question, like, \"Give me the textbook\
+    \ version of the story,\" go ahead and do that. If you want to dive deeper into\
+    \ the nitty-gritty side of things, where the cartoons break down, ask the bot\
+    \ for keywords that you can use in searches like PubMed or Google Scholar to look\
+    \ for papers on the topics it's questioned. Don't ask it for specific papers;\
+    \ it will either give you papers that are old or it will give you papers that\
+    \ don't exist. So, ask it for keywords, and then go search for those papers. You\
+    \ can ask for things like review articles, but just ask it for keywords that you\
+    \ can search for. Then, when you find a paper, copy the entire abstract, paste\
+    \ it into the chat, and ask it to explain that to you. You could read the abstract\
+    \ and figure it out for yourself, but abstracts are necessarily and intentionally\
+    \ extremely dense linguistic blobs. There\u2019s pretty much no abstract on the\
+    \ planet that you couldn't spend several lifetimes trying to parse out all of\
+    \ the details, all the words, and all the unfamiliar phrases. Let's do that for\
+    \ about 13 minutes. It's not much to get into, so I'm not going to make it an\
+    \ official assignment, but continue this conversation with the bot throughout\
+    \ the day and the week. Just every so often, pop into the chat and ask it a question.\
+    \ I'm not going to necessarily make that an assignment. I'll make assignments\
+    \ later, but anytime you have a thought, pull it out and ask it the question.\
+    \ I will be doing the scrape and pull stuff throughout the week, and I'll do it\
+    \ again before next week. So, if you want to steer what that content is, ask it\
+    \ questions about the things that you care about."
+video_id: pMDqxMUcBmQ

@@ -20,7 +20,7 @@ async def main(playlist_url: str, force_refresh: bool = False):
 
         # Extract transcripts from playlist
         yt_processor = YouTubePlaylistExtractor(force_refresh=force_refresh)
-        video_data = yt_processor.extract_playlist_transcripts(playlist_url)
+        video_data = await yt_processor.extract_playlist_transcripts(playlist_url)
         logger.info(f"Processed {len(video_data)} videos from playlist")
 
         # AI processing (if you're keeping this)
@@ -33,6 +33,7 @@ async def main(playlist_url: str, force_refresh: bool = False):
         raise
 
 if __name__ == "__main__":
-    DEFAULT_PLAYLIST = "https://youtube.com/playlist?list=PLWxH2Ov17q5HDfMBJxD_cE1lowM1cr_BV"
+    # DEFAULT_PLAYLIST = "https://youtube.com/playlist?list=PLWxH2Ov17q5HDfMBJxD_cE1lowM1cr_BV" #HMN25
+    DEFAULT_PLAYLIST = "https://youtube.com/playlist?list=PLWxH2Ov17q5HRyRc7_HD5baSYB6kBgsTj" #HMN24
     logger.info(f"Using playlist URL: {DEFAULT_PLAYLIST}")
     asyncio.run(main(playlist_url=DEFAULT_PLAYLIST, force_refresh=True))

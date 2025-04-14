@@ -1,0 +1,1546 @@
+full_transcript: okay hello everybody and welcome to Wednesday um so today is a very
+  special day um because today we're going to do some data collection which is always
+  a very exciting time in any scientist's life when you you you get some numbers you
+  take some recordings and then often times you spend the next like while uh analyzing
+  that data so how it goes matters a lot this is not a particularly High uh high stakes
+  situation but yeah it'll be fun so we're going to do I'm going to try to like finish
+  up what I was talking about last time and then I'm going to set up the cameras and
+  uh do a quick recording do a couple of quick recordings with the free moap softare
+  which I made with my lab over the past six years or so um and then if if all goes
+  well it should pop something out that's worth looking at today um and then I will
+  do some additional fiddling with it and I either have something to say about that
+  on Monday or wait and give myself an extra bit of time and talk about that on Wednesday
+  um so if you're not yeah your job is mostly to just sit and listen and try not to
+  fall asleep but if you fall asleep I understand you're you got a lot going on um
+  so Behold a human person it is roughly speaking this shape see uh this is a complicated
+  shap but it's not nearly as complicated as this weird object um but if we needed
+  to because we are finite beings with finite technology in finite time if we wanted
+  to study this complicated object this the desidera of our research being to understand
+  how humans move through the world eight um you have to make simplifications you
+  have to make assumptions you have to do things like that and so last time I talked
+  about can I do this that works so last time I talked about my personal favorite
+  uh oversimplification of a complex physical object which is to take that object
+  and reduce it down to a single point mass that we call the center of Mass center
+  of mass we often hear it called like center of gravity um which in that term in
+  that meaning uh gravity is sort of meant in like the old school sense of like density
+  uh because density and mass are kind of the same thing in some conceptions um but
+  the the beauty of the center mass is that it's a rather simple thing um the center
+  of mass is the the concept of Center Mass is the thing that's the intuition that
+  says that if I want to balance this stick on my finger I put my finger under two
+  fingers under the midpoint of the the Total distribution of Mass on the thing and
+  it balances there because there's the same amount of pull on this side as there
+  is on that side and if it's a symmetric object the center of mass corresponds to
+  the geometric center of the object itself if it is non that's the wrong direction
+  oh I did that whoops um uh what am I trying to do I'm trying to do that if the weight
+  is non-symmetrically um so linguistically it we tend to like interchange mass and
+  weight language wise um in imperial units we actually don't have a dedicated measure
+  for Mass we just use pounds which is actually a measure of weight weight is a measure
+  of force it's like how much force am I putting into the ground so if you assume
+  that gravity isn't changing mass and weight are interchangeable but just because
+  I spent like an hour and a half last week for on Monday talking about SI units I
+  should specify that when I say weight I typically mean mass in vice versa uh but
+  until we go to the Moon that won't be a problem anyways Center of mass when the
+  weight is non the mass is non uniformly distributed the center of mass is not going
+  to be the same as the geometric center of the object but the same basic idea maintains
+  like there is as much mass on this side of the base of support which is this as
+  there is on that side and so the center of mass of the thing is right around here
+  and so if I wanted to hold this object off of the ground sta I I need the base of
+  support to be under the center of mass of the object itself if I put the center
+  of base of support outside of the center of mass it'll fall in that direction which
+  is not particularly mind-blowing but it is an app description of what balance is
+  at a very s of low level of physics um have a let make sure we have enough time
+  to sort of say all the things I want to say uh should be fine um so last time we
+  also talked about any balls here I didn't bring me um when an object is flying through
+  the air it has this nice ballistic trajectory which is caused by the transduction
+  and exchange between kinetic and potential energy in a gravity well and there's
+  MGH is potential energy 1 12 mv^ s is kinetic energy and even though this object
+  is complicated in its form the trajectory that it takes in the air is exactly the
+  same as it would be if if I was throwing an equivalent mass in a like if if this
+  if you condense this down to like a single lead sphere and I toss it in the air
+  it would follow the same trajectory if I spin it it spins around its Center of mass
+  because it's in a when it's not when it doesn't have anything to push off against
+  you don't have any there's nothing to react there no re no re no reaction force
+  to push you in any direction things balance out and you get sort of simple predictable
+  physical behavior um we also talked very briefly about one of my favorite things
+  which is pendul pendulums pendulums pendul which this is an example of a pendulum
+  you've seen them in various places of your life and it's basically a mass hanging
+  below a standard pendulum is a mass hanging below a pivot point and if without you
+  know if you pull it back and then let it go it'll swing back and forth for quite
+  some time until friction bleeds off enough energy that it will eventually slow down
+  and the reason for that sort of conservative motion is the same kind of transduction
+  between potential and kinetic energy so if you imagine that's a pivot point that's
+  the the Bob the mass of the pendulum let's assume that this string doesn't weigh
+  anything or at the very least it weighs much much much less than this if we wanted
+  to we could also just imagine that if it's shaped if this is the shape you know
+  the center of mass of the thing is still going to be definable mathematically in
+  some place there um but here it is up here and then we let it go it's it's up here
+  at rest so it's kinetic energy equals zero and its potential energy is at let's
+  just say it's Max and then so we let it go and it drops and then it gets to this
+  point here where it's at the lowest point of its swing and at that point its potential
+  energy is at its minimum because it's the lowest it's going to get you could even
+  say the potential energy is zero if you want to talk about it that way um but its
+  kinetic energy is going to be its maximum it's going to be moving the fastest it's
+  going to move here after you drop it and then it's going to be moving so fast that
+  it will have moment momentum because of that whole inertia thing that first law
+  that will carry it up the other side of the Swing until it gets here and then again
+  it will briefly pause kinetic velocity zero kinetic energy zero kinetic energy zero
+  potential energy Max um and then it will then the same process repeats in reverse
+  and as long as there's no way place that the energy can go it will continue like
+  that forever in reality there's always going to be things like friction on points
+  like this there's always going to be things like air resistance that will be bleeding
+  off some of the energy so it will eventually if we if we plot it over time and we
+  plot let's say this is the angle here Theta we want and we drop it from here it'll
+  go like this and then it will slowly we call that damping out if it was a ideal
+  system this would just be like a nice sine wave forever but because there's going
+  to be some bleed due to friction this will be the nice trajectory there so that
+  is a this is what a a standard hanging pendulum and look at it go pendula are very
+  very very very important in the history of science they are sort of part of almost
+  every important measurement in history um like gravitational constants you know
+  Electro kolum Force um apparently there was a time when they used to use the period
+  of a pendulum to do prospecting for iron ore because you can measure the D like
+  the the period of a pendulum very very accurately and it's going to be defined by
+  the density it's like the gravitational constant the gravitational force is a part
+  of that uh equation of motion so apparently they would just like move these very
+  very very precise pendula over parts of the ground where they thought there might
+  be iron ore and then if they measured a change in the period that's an that's a
+  reason to believe that there's a higher density in the column between you and the
+  center of the earth this is I read about this in a book I had a hard time validating
+  verifying that information but nonetheless it's very it's a pendula pendulums very
+  good stuff um pendulums are also a nice example of like that periodic motion I mentioned
+  briefly last time how we think about time there's like the the there's like stopwatch
+  time which always counts up but then there's kind of like wall clock time that resets
+  every so often and with something like an oscillator like this you sort of you're
+  thinking in that phasic sort of like time you know goes from zero to some Maximum
+  and then it like resets and then that's we call that a full cycle many many parts
+  of biology ology have this kind of like phasic behavior um a lot of my research
+  historically has been on Locomotion and that has a lot of pendulums in it um the
+  main one that you would think about with the pendulum is like The Swinging leg um
+  but there's another much more dramatic and Central pendulum which is the inverted
+  pendulum of your sort of standing body so this is a pendulum hanging from a a central
+  Pivot Point um but but you could lift this thing up until it's all the way on top
+  and then have it be up here as an inverted pendulum and at this place uh so at the
+  bottom here this is a stable point because if we just let it run this is where it
+  will wind up this is in the language of dynamical systems um this is called an unstable
+  point because technically speaking if you placed this here precisely at you know
+  the angle of deflection equals zero this would stay it's it would sort of stand
+  up in the same way that this marker stands up on the desk um but the reality but
+  because this is an unstable point a any perturbation from to the left or the right
+  is going to cause it like if you if this is not perfectly straight if it's a little
+  bit off to the right right then gravity is going to pull it down and then it's going
+  to keep pulling it down until it falls down there so you can balance a a p so you
+  can hang a pendulum and it's passively stable gravity does all the work for you
+  you don't have to worry about it um if you have if the pendulum has if the base
+  of support has extent if it's nonzero base of support you can balance it happily
+  on a flat surface and it will also stay there passively forever um but if it's if
+  it's not then you can balance it you then the only way that you can balance it upright
+  is if you are actively controlling it so this is the classic like boom broom trick
+  where you can just like balance something on your hand and you can do it because
+  I'm moving around the base of support to make sure that the that the whole thing
+  never Falls over but I can't so this is all by way of preamble to the recordings
+  we're about to do so if you think about in some idealized pendulum and this is the
+  center of Mass on top of it uh remember we're spending a lot of time thinking about
+  Force equals mass time acceleration um where this is the mass which we're assuming
+  the mass doesn't change so we can sort of assume that Force equals acceleration
+  some approximation um and so if you're you know in the idealized form you manag
+  to standing up here if the projection of the center of mass onto the floor if the
+  distance from that projection from this infimal base of support is zero then it'll
+  be happily standing ight forever um if instead we're off by a little bit and the
+  projection of the center of mass has a distance here from the base of support then
+  in a very intuitive sense that gravity pulls things down Gravely pulling like that
+  and then this distance there will be sort of P pushing the object away so that's
+  why it's unstable because any deflection from zero and it will start to fall and
+  the farther that it falls the more it gets pushed away so it'll be accelerating
+  away from that sort of stable Point um and so if I'm if you're supporting it like
+  the broom then you can make you can fix that by moving around the base of support
+  on the ground um but if you yourself are the pendulum in question and you are you
+  know imagine my center of mass is here and I'm standing on my one little leg if
+  I I can um the only way that I can really have any control over where my body is
+  is by the forces that I'm putting into the ground to my foot um so if we now imagine
+  that's me that's my center of mass this joint here is the only place that I can
+  push into the ground and so if I'm leaning a little bit too far forward I can push
+  with my toe and push myself back if I'm lean a little too far back I can push with
+  my heel not really I can I can lean forward I can do something to try to like change
+  the forces to push myself in that direction but in in general if I'm not if I don't
+  have monkey feet or grippers on my on the ground I can only really push so that
+  means that my center of mass has to stay within this base of support range in order
+  for me to be able to maintain standing posture without doing something dramatic
+  like taking a step that's usually what we can do so if we're assuming that the task
+  is to stand upright without taking a step the goal condition there is the center
+  of mass stays within the base of support so that I can sort of move move around
+  the force I'm pushing into the ground and sort of push my body back and forth to
+  where it needs to go so that is balance and standing posture in a nutshell um all
+  of this that we're doing here it falls under the category of biomechanics anytime
+  you hear anyone talking about like forces and mechanics and Newton's laws and centers
+  of mass and joints and cors and stuff like that you're you're hearing someone talk
+  about biomechanics um but if you think about sort of like zoom out a little bit
+  from those low-level physics and start thinking instead about the you know start
+  thinking about the this physical object now as a biological system with a biological
+  system with muscles and neurons and sensory systems and stuff like that um you can
+  start trying to ask the questions from the sort of neuroscience perspective of how
+  does all of that sort of play out in a a human person with things like joints and
+  muscles and stuff like that so how do I if I'm if I'm because we're very very good
+  at standing up this body configuration with the two feet and the arms that are that
+  are off the ground this is wild in the animal kingdom this is a wild way to be musculos
+  skeletally um pretty much all other mammals are quadrip heads um the only other
+  bipeds out there are birds and most of them fly um the ground birds are arguably
+  better bipeds than we are because they have like 450 million years of evolution
+  on us so uh good for them but generally speaking like for Animals as big as we are
+  to to support your entire body weight of off the ground with Just 2 feet is wacky
+  it's like unpress ented there we really there's no other animals at least in the
+  Maman Kingdom that have um bipedal locomotion kangaroos are a good example but they
+  they can't really walk on two legs when they're when they're moving they can bounce
+  on two legs but when they're when they're in place they sort of you know crawl around
+  on four feet and they use their tails um animals like uh like bears and apes and
+  stuff like that can walk on two feet but they tend to be they're knuckle Walkers
+  um we are I believe I'm always like waiting to be find a counter example but at
+  this point I should probably just accept that there aren't any uh we're like the
+  only obligate bipeds in the Maman Kingdom where obligate bipad means like we really
+  don't have like another option here like we it's bip or nothing um and we are also
+  as far as they can figure out the only animal that has two of the main limbs of
+  the sort of tetrapod this is tetrapod pod shape head two limbs on top two limbs
+  on bottom and and a spine um we the only ones that have really well adapted upper
+  limbs that have nothing to do with Locomotion um even ground Birds they have wings
+  but they tend to kind of suck as appendages go um but we really we gave up a lot
+  to have these like grabbing objects um and the cost was that we had now have to
+  do this sort of gymnastics routine every time we want to get from point A to point
+  B so thinking about this um like the neural bases of bipedalism and standing posture
+  is one of those things that feels like kind of like a baser level of behavior than
+  we tend to think about when we're thinking about the Majesty of human you know neuroscience
+  and biology um but it's really fundamental and it's really core to like what we
+  are as organisms and creatures so I think it's worth consideration here and and
+  yeah yeah and so with that I think we can start transitioning towards like the data
+  collection part of this so if we assume now that we all have the shared desire to
+  understand how we weird bipedal humans manage to stand as effectively as we do stand
+  upright and walk around as effectively as we do um we can start now trying to think
+  of this as empirical scientists and start asking the question of if the if that
+  is if the desired outcome the desera of our research Endeavors is to understand
+  the neural bases of let's say just for Simplicity sake standing posture what are
+  the measurements that we can take and what are the analyses that we can do and that
+  that would give us insight into the underpinnings of that behavior um and there's
+  lot of options um but we're going to do some simplified not some it's not even all
+  that simplified but we're going to take um a full body perspective like you could
+  go in and say oh well I want to figure out the sensitivity like how do we detect
+  our lean angle like is it the vestibular organs in our inner ear is it the pressure
+  under our foot is it the is it the the the proprioceptive forces and our ankles
+  how can we measure the sensitivities of those things how can we sort of understand
+  those circuits what are some other animals we can look at and you can do the kind
+  of like the classic reductive um like biological stuff and start looking at like
+  the the properties of of the muscles and we can you know cut up some cavers and
+  see what's the density of of you know somata sensory organs in the bottom of the
+  feet we can do that kind of like like zooming in on one part of the task um but
+  necessarily doing that will leave out the actual behavior that we care about and
+  what what we would would call the ecologically valid Behavior behavior of the organism
+  in question performing the task that we care about in the real world or something
+  close to the real world that you know is the if we assume we care about standing
+  posture then we care about standing posture in the real world we don't care about
+  standing posture in the lab in some weird artificial environment that we concocted
+  so that we could have something that we could study um we might have to use that
+  to be able to make any progress but secretly we we will feel a little bit sad because
+  we will know that we have created an artificial representation of the thing in question
+  and we are not actually studying the thing itself um so with that said yeah uh I
+  won't go I won't do the whole Biz about this but also jumping exists we're going
+  to course I'm jumping too jumping is kind of like this except instead of like leaning
+  you're you're putting Force into the ground and if you put more Force into the ground
+  then you weigh you'll leave the ground until you have bled off that additional energy
+  and then you'll come back down and do something roughly equivalent to that uh yeah
+  um yeah okay how do you feel about that so far emotionally prepared for what is
+  to come great [Applause] so in a little bit here I have an hour and hour to go which
+  there would be enough time uh spoiler alert I'm going to I'm going to set up some
+  cameras and those cameras are going to allow us to record um full body 3D kinematic
+  data of a human person standing in space this human person is me I would love to
+  do a thing where we like record you guys and do that but like it just the time doesn't
+  really work out um and so this weird confguration of cheap cameras and free software
+  will will give us an approximation of my body uh at 30 frames per second down to
+  some level of precision um at the centimeter scale of precision for my joints and
+  the approximation will be roughly equivalent to this it will tell me roughly where
+  my head was where each body segment was where each joint was and this will be kind
+  of like the this is the data model that will come out of it um and this is where
+  I'm going to start thinking as we go uh and I'm going to record myself doing a couple
+  of behaviors so the first thing I'm going to do is calibrate because I have to do
+  that and I'll tell you about talk about that as it goes um then I'm going to do
+  a standing task so I'm going to stand on two feet then I'm going to stand on one
+  foot and then I'm going to stand on the other foot and then we're going to probably
+  I'll ask someone to pull out a timer we do like 20 30 seconds of standing in each
+  each one so this will be recording one this will be recording two uh sorry 0 1 and
+  then two I'm going to do the same thing doing this different than I've done the
+  past years but I'm going to do the same thing except now I'm going to do the same
+  thing while holding on to a chair so I'll like so I'll start out doing just like
+  freestanding and then next time I'll like lean over and like have my hand on the
+  desk and sort of do the same kinds of tasks um then after that I'm going to do I'm
+  going to take a couple big jumps just jump standing jump as high as I can jump uh
+  and then we'll do another one where I'll do like I'll jump in place for like 30
+  seconds and then at that point that'll be enough recordings um so that yeah so we're
+  going to so this will be so we'll get 1 2 3 four five total recordings which should
+  process in the moment depending on how fast how long it takes set up I may or may
+  not truncate the processing so that we can get through them all um but the your
+  task as you're watching the the show um is just kind of think about these behaviors
+  and think about them relative to the kind of the the biomechanic Center of mass
+  types of uh of conversations we've been having so far and just make some predictions
+  about what these data will look like um and you could think about it at like the
+  full joint level like you know down to the level of like knees and ankles and shoulders
+  and stuff like that um but that can be a little overwhelming so I would also recommend
+  thinking about it just in terms of like if you boiled this whole thing down to just
+  a ground plane a foot and a leg and then a center of mass what would you expect
+  to see like what's going to be the difference between like standing on two legs
+  versus standing on one leg what's gonna be the difference between standing on one
+  leg free versus standing one leg while like leaning on a table uh what's it going
+  to look like when I take a big jump like what's it going to look like when I take
+  a bunch of jumps um and yeah think about it oo make some predictions uh because
+  there's your ability to make predictions about what this is going to go is how you
+  know that you're operating within a theoretical framework they're thinking about
+  there is an assumption that I am making that boiling down the this hyper complex
+  object into a singular 3D Point Mass and and and saying I we'll be able to say things
+  about that we'll be able to predict the motion of that point mass and say things
+  about that point mass that will tell us things about that the global organism um
+  that's a that's a theoretical framework that's a strong bold claim um but we're
+  going to operate within that space and yeah I'm going to try to do this without
+  crashing my computer too uh which is always fun so great has anybody here worked
+  anywhere near motion capture before any like physical therapy or anything like that
+  no yeah so it's one of these things where motion capture like mostly where you will
+  have seen it will be like behind the scenes and of movies and video games and stuff
+  like that um you know a lot of like Lord of the Rings stuff of Golem and smile run
+  running around um all right uh but it has been around and used to study human movement
+  for quite some time um arguably video like the invention of video uh was technically
+  what am I doing here that I got that I have this this yes um and then this so the
+  original like video was created to study horses in motion based off a a barbat uh
+  from Vanderbilt the guy like the robber bearing um about whether or not horses ever
+  was there was ever a point in their Gallop with they at all fourt off the ground
+  so you've probably seen the picture of like this like a bunch of horses old timey
+  video um basically to solve that bet uh Vanderbilt commissioned a photographer to
+  like take a bunch of sequential videos of pictures of a horse in full gallop and
+  was able to show that there is in fact a phase where they're all off the ground
+  where the feet are all off the ground um but in since then motion capture has been
+  used in the study of human movement and clinical stuff um for as long as we've been
+  doing that what am I doing doing this okay uh but also traditionally it's it's not
+  a very common thing to do because it's very very expensive um the motion capture
+  lab I have in Richards invol has like A4 million dollar worth of motion capture
+  equipment in it and it's in a a room that was specifically built for the purpose
+  of doing motion capture and it's you know it's a very good system it's very very
+  precise but it's also a huge pain it to use and it's just it's expensive so the
+  the you know there's the the number of people out there who are studying human movement
+  is much much larger than the number of people can who can afford motion capture
+  so that was kind of a part of the motivation that I had for making this strange
+  system um was basically realizing around 2017 when a software came out called uh
+  open pose that used convolutional neural networks to basically draw a stick figure
+  on a person in a video and I saw that and then sometime later realized that that
+  capacity to basically draw like a 2d skeleton estimate on a person in a scene was
+  kind of enough to build a motion capture system out of um and then you know that
+  was sort of an idea that I had and sort of the thought was yeah that's a cool idea
+  but like I don't know how to write code and that seems like way too much work so
+  I guess I'll never do it and then three years later Co hit and I lost access to
+  my lab for an undef period of time and I also lost faith in the academic system
+  uh pretty much entirely and started like rethinking the idea that using I'm going
+  to have to unplug this camera now um sure I'll turn you off later um yeah I I kind
+  of I started to really doubt the core principle of science which is that the best
+  thing that we can do as scientist is to publish papers in esoteric journals that
+  exploit us for profit um and started thinking about like you know is this Behavior
+  actually making the world a better place and started had the uncomfortable realization
+  that like I don't really think it does like I think it's a good thing to do I think
+  that you know scientists are generally trying to like improve the world um but we're
+  trapped in these systems of of communication that just like it just doesn't serve
+  like it it made sense in the 1800s it just doesn't make sense now so I personally
+  transitioned away from publishing papers and journals and towards using the skills
+  and understandings that I have from my sort of history of scientific research to
+  build tools that people can actually use in their real lives uh so this is one of
+  them um so real quick if you want to look it up Freo cap just Google Freo cap you'll
+  find it freeo cap it's pretty oh I'm not on the internet am I on the internet I
+  am on the internet yeah um hey look people make videos about me uh but yeah you
+  can look it up it was a whole it's been a whole process um and let's get to it so
+  so free mo cap stands for free motion capture it is a markless motion capture system
+  the majority of like traditional motion capture you wind up you wear the spandex
+  with the suits and the reflective dots this is markerless so the idea is to use
+  sort of like the modern sort of uh what's the word the the arising technology of
+  just like computer vision and sort of like the wacky stuff we can do with that to
+  to play the role that the markers used to play in traditional motion capture systems
+  um let's talk a little bit more what that means I'm actually doing it um just go
+  uh the hardest part of making this process the most sophisticated part of The Code
+  by by a mile is the part that connects to the cameras um maybe it shouldn't have
+  been as surprising do this yeah I think that makes sense um so everything is Skelly
+  skelly's the logo it's like a skeleton you see it's like you know kind of how it
+  works uh my personal Journey as a researcher I was a philosopher I got a bachelor
+  degree in philosophy then I started doing more perceptual motor neuroscience and
+  kind of like was studying vision from like a vision science perspective um and was
+  feeling not it felt insufficient it felt like incomplete and it wasn't until I started
+  digging into I started like found my way into some of the more biomechanics approach
+  to movement um that because I was studying visually guided Locomotion in an environment
+  that really didn't have any consideration of like the physics of being an object
+  moving through space um and when I started reading the biomechanics papers was when
+  it a lot of things started to click for me and those papers had a bunch of skeletons
+  in it calm it down guys um and that's why there's skeletons everywhere just because
+  it's sort of like this it's like kind of a joke that I studi Neuroscience from the
+  perspective of a skeleton because that's like physics wise it's mostly skeleton
+  the neural components are really not not really Newton doesn't really notice the
+  Neuroscience parts of it he mostly notices the skeleton anyway anyway um so so this
+  is the latest form of the software um actually it's not uh the the main so the current
+  stage of development of free moap is that the the the core software is a little
+  bit behind the development side of it so we're using the this camera stuff it's
+  very slow for some reason why are we so slow okay there we go oh right I have to
+  turn you off over here okay apologies to oh I guess we can do that so uh turn you
+  off okay there you go um let me shut you down me again so this is one of those places
+  where like all the stuff streaming by is where all the work went and then the outside
+  is quite simple in comparison um reasonably confident that this will work but anytime
+  oh wait that's still okay hopefully that should work better we can hope yeah so
+  as a scientific tool um motion capture is in the very uh crowded space of being
+  a camera based research tool so the environmental energy that we are encoding and
+  recording in this case will be light so light bounces off of me bounces goes through
+  the lens of the camera gets absorbed by the camera sensor which is just a little
+  rectangular silicone wafer silicon wafer whatever whichever one of those is accurate
+  um and yeah and then we will be recording the we will be pulling samples from a
+  light cone from three different locations in space um 30 times per second uh and
+  there's been a lot like a lot a lot like years of my life has been spent uh making
+  sure that the videos that get recorded from these cameras are uh synchronous so
+  as these cameras are pulling as each camera is sort of pulling uh you know frames
+  from its field of view um there's a lot of code under the hood that's making sure
+  that each camera is pulling at close to the same time as the others as possible
+  so we're pulling syn Eyes videos so we talked about the mentioned last time the
+  sort of the concept of like spatio temporal calibration to in recording and sort
+  of that just like the spatial components and the temporal components great the temporal
+  components here are handled by the software so we are going to assume that all the
+  the samples from each camera are synchronized in time to some approximation um so
+  the second part of that is the spatial so let's see so those are all rotated are
+  they rotated the same way they are which is counterclockwise I think that should
+  work did I get that right I got it backwards it's always backwards yeah we here
+  okay good um yeah great so it's not using the space particularly well but don't
+  worry about that so this is so now I'm going to point the cameras so I'm going to
+  stand right here and so I'm going to try to point the cameras that they can all
+  get a good view of that spot all right oh I have that one that's nice we also have
+  that that's nice okay now unfortunately I am I am going to I'll do that later um
+  so the images are a little dark I think that is the the nature of the Beast another
+  part of the of the game here with Freo cap was building the cheapest possible system
+  I could possibly get so intentionally targeting like garbage cameras these are really
+  garbage cameras like they cost $10 is a pop um on the assumption that you know as
+  a researcher buying four GoPros is nothing but if I'm trying to make something that's
+  accessible to the world uh GoPros are expensive um so trying to build it on the
+  cheapest possible Hardware was a part of the game um okay so we're going to have
+  to do uh some projective geometry at some point so I mentioned that we have the
+  temporal synchronization happening through the software um but we are also going
+  to need to know the position of each of these cameras in space we're going to specifically
+  need to know the six degree of Freedom position so XYZ location then XYZ rotation
+  so six total numbers six degrees of freedom um and the way we're going to do that
+  is by way of a calibration routine um that involves a calibration object um this
+  is called a Cho these little markers here are called Aro markers and this is a calibration
+  object which many um you know SC every scientific tool will have some calibration
+  component to it and the typical pattern for calibration is you're use you use the
+  system to measure something that you know the answer to I'm going to use this to
+  measure the position of these Corners in the board because I know that these Corners
+  are all 58 mm apart like I know that these blast squares are 58 millim wide so if
+  I use this system and I record this shape I know what the right answer is so if
+  I if I record the position of the board and I check the numbers and it says yeah
+  these are 58 mm apart then I now have some confidence that the system is working
+  as intended and now I can use it to measure the unknown thing which is the body
+  in space that I'm not going to have any other additional measurement and insight
+  about um so every form of scientific research is going to involve calibration at
+  some point in some cases that calibration is done at the factory when they're where
+  they make the tool um but in this kind of like more hacky DIY world we uh we make
+  do with our own stuff okay how we doing on timeing okay on time all right so recording
+  so basically what this looks like is I take the board and I show it to the cameras
+  and I make sure that each camera has shared views so in this case they can all see
+  it at the same time um oh I'm going to need to turn that off actually uh all right
+  you can look here but I have to turn this off because there's too much light I I
+  was you got to be careful with the light so uh you can look there if you need to
+  um so basically the board the cameras can see the board they have shared views of
+  the board um so they can you can do the kind of the the the actually not so simple
+  math of if I am camera a and I can see the board from this angle and at the same
+  time camera B can see the board and I see it from this angle then camera a must
+  be in this position relative to camera B and vice versa um make sure that works
+  usually when I do this part of the class I bring my grad student in to help me out
+  and this time he was busy so I was like I can do it all on my own and I can do it
+  all on my own but it is definitely one of the cases I was like I sure wish Aaron
+  was here it'd be nice to have an additional nervous system doing this stuff uh so
+  now I'm just manually moving stuff from one folder to another just because of the
+  stage of software it's in um PR what we doing uh you going to run you going to crash
+  did I learn picture anyone ah UV sync okay we may also another traditional so I
+  tested a lot of this but I didn't I'm realizing now I didn't test like every part
+  of it um so we might find ourselves having a little bit more running on trust that
+  I would have preferred okay well as that runs um let's see what are you doing why
+  okay calling the audible so well remember how so uh I will have to process these
+  offline because it's not set up and I don't have the brain space to do the online
+  debugging so this will be a lot more prediction than usual just usually I can make
+  this happen in the same time um but but for now so we've done calibration now we're
+  going to do simple standing so twoot standing one foot and one foot on the left
+  one foot on the right um we would call this a control condition because this is
+  the one where we're not there's nothing will be manipulated in this case um and
+  then we're going to do this sort of manipulation condition which is going to be
+  very similar to this but with this sort of sort of extra factor of I will be supporting
+  myself on a chair or a table or something like that and your I guess I can use this
+  yeah it's that um and then we'll do the jumping stuff so for you know yeah and we're
+  not going to be getting uh we're not going to be getting real time output from this
+  this class unfortunately but that just means that the your mental model of prediction
+  must work across times okay now I unfortunately have to take my shoes off which
+  is fine but I just always feel weird doing it um the main reason if I had been smart
+  I would have at least worn lightly colored socks um but you can see how dark the
+  ground is and you just can't see my feet relative to the ground so I will Tom soyer
+  up my feet now you can't um this is one of the in a real recording I would be like
+  I'd have lights and stuff like that um it's also one of these cases where like it
+  tends to work best like outside in the sun because the sun is very very bright um
+  yeah there you go now you can see my feet um still a bit dark still very dark that
+  one's good okay so one and two are a little dark manual oh it looks better on my
+  screen okay okay so can I have someone can I request a a stopwatch person thank
+  you uh so I'm going to ask for like basically 30 second intervals um so I'll let
+  you know when it's ready to go um I do have to turn this off again and I'll leave
+  that down and all right where is the and I want to be standing like here great all
+  right uh I'll let you know it's not right now so here we go so I'm going to stand
+  here and I guess yeah start it now so this is me standing uh I'm kind of already
+  bored with this so I'm going to lean I'm going to be sort of intentionally in all
+  these cases leaning as far as I can lean sort of within ideally without moving my
+  feet um so I'm leaning all the way to the right and all the way forward uh let me
+  know when we hit 30 there cool no great okay so now I'm on one foot and my Bas of
+  support has now gotten appreciably smaller and I'm wiggling around both for fun
+  and because I'm off balance um so again sort of like just look at like what's happening
+  bodily I'm doing a lot of movement but we have some strong predictions we can make
+  about the position of my center of mass relative to my Bas of support and you make
+  those preditions even stronger thank you um and Y uh when the base of support gets
+  smaller your ability to predict the location of the center of Mass gets better like
+  you have more predictive capacity because it is a more constrained task there are
+  fewer ways that I can successfully complete the task of standing upright when I
+  only have one foot on the ground than I do when I have two feet on the ground and
+  and done [Applause] okay great so with those predictions in mind um how am I going
+  to do this I think I will yeah that works great this is my now my standing stick
+  um so same thing uh sorry I your name stopwatch friend stopwatch friend what's your
+  name isab Isabelle thank you uh same thing now for the let's say let's call this
+  a support condition we're now going to be using like a stick to support myself um
+  outside of my biologically prescribed base of support so we go over here and I will
+  stand for a little bit so just go ahead and start the timer whenever this is just
+  kind of calibration purposes and then now uh I'm going to do the same kind of task
+  of Leaning as far as I can relative to my base of support except now I have this
+  stick to sort of assist me so with the knowledge and theoretical models of human
+  body that you are armed with like how do you think this is going to change that
+  data um so now I'm going to go onto my right foot similarly playing all over the
+  place and let's assume for like when we get this data back you're not going to the
+  stick is not going to be in the data uh we will know that it was there and we'll
+  know that this hand is is mounted to the ground um but if you think about what the
+  data will look like you can have some predictions there and now we switch feet and
+  so again just like think about it what what do you think would be different here
+  it's been a long day it's like standing in place is not the hardest thing in the
+  world but I'm making it difficult and okay cool okay thank you Isabelle um H this
+  next part I hope I don't I hope I don't die on camera but if I do just analyze the
+  data okay okay um so for this one I am going to record I'll say three because that's
+  what I wrote uh but this is going to be standing high jump so I'm going to try to
+  jump as high as I can from a standing place and again think about think about what
+  that will look like think about what it will look like at this level think about
+  what's happening at the physics level where is the force coming from what when it
+  where is it coming from at the the start where is it going at the end what's happening
+  in the middle um what could be measured what could be inferred what additional data
+  will you wish you had um and if I break anything you know you can have questions
+  about that okay uh I don't need a timer for this so record so it goes in here hello
+  I don't want to whack myself there God I used to I used not weigh as much okay and
+  and that's all the knees I have today I ask do a little bit more okay so big jumps
+  discreet jumps pauses in the middle lot of arm swinging and knee torquing this big
+  hip joint doing its thing and some amount of air time some amount of cheating in
+  the air time oo uh okay um see this going to stay on when I do this next part if
+  it does probably this will be more probably be more reliable uh okay okay so now
+  instead of doing sub veral discreet high jumps I'm just going to bounce in place
+  uh and I'll bounce in place for as long as I want to which I'm not going to ask
+  anyone to time it I'm just going to go until I want to stop may do at least 10 and
+  then I'll just go until I'm tired and I'm already tired so we'll see how that goes
+  oh also pointing out I pulled my legs up I pulled the pants up both to expose the
+  nice pale skin below which does well this feels bright to us but our eyes um the
+  human eye is incredibly good at adjusting to changes in luminance so relative to
+  like a sunny day it's basically Pitch Black in here and we're just really really
+  good at adapting to that um but so I exposed my legs both because they are lighter
+  and they are contrasting with the carpet but I'm also trying to give the cameras
+  a view of my knee um as opposed to having it be blocked again like if you're trying
+  if you're trying to predict where my knee is it's going to be way harder if it's
+  being covered by cloth than it is if it's directly exposed so it's not just a fashion
+  statement it's empirically grounded okay so yeah so we'll say we'll call this discret
+  jumps and we'll call this repeated Hops and boun so again thinking about the behavior
+  thinking about the mechanics thinking about the joint torqus thinking about the
+  fatigue where does the energy come from what did I have for dinner last night these
+  are the questions of biology okay I'm not going to drop time it okay so record standing
+  here give that nice calibration of and now we hop okay one 2 3 oh my God there's
+  just so many people looking at me it's fine also I wonder there like are there people
+  below us are they wondering what's happening I don't know how long have I been jumping
+  how many jumps was that I don't know okay I think I think that's playing 10 more
+  okay one two three four five six 7even 8 nine 10 okay done okay great data collected
+  not processed um okay um let me see if I can get this thing running I'll give it
+  one one more College try as they say oh I need to get myself enough time to clean
+  up too okay good all righty so let's see so UV V not that's to look like dot V come
+  on do this from a terminal V uh dot V scrips activate EV sync punch that and free
+  mo cap there SK oh Skelly cam damn it do scripts activate you sync and REM cap huh
+  huh huh huh oh right you can't see anything sorry sort of the fundamental nature
+  of working on anything for any length of time particularly if the thing you're making
+  is something that other people are using uh the version of the thing that other
+  that the people are using is the version that you are like ashamed of because like
+  I the code for this I wrote years ago I've learned so much since then that when
+  I look at this I'm like oh my God I'm so sorry to the world for what I've done to
+  it okay so this is freemo Cap this is the core software um then if I do that I click
+  on that say set active recording yes yes run calibration from active recording run
+  calibration okay so we're now running calibration data um and it's going through
+  I can put my shoes on at least um it's going through and uh detecting the boards
+  in the screen um it'll take a little bit of time but at this point I think we should
+  be able to get like we'll be able to look at something by the end of but before
+  the end of the day which will be good does anyone have any burning questions while
+  we're while the thing is running it's one of those things like I'm sure there are
+  many questions so does can anyone choose one question from the many that are floating
+  around I also made a mistake because I was like talking during this calibration
+  thing so I was like doing it and at some point I was like blah blah blah and then
+  so it's longer than it needs to be uh which is rookie mistake this is the code that
+  I am like currently rewriting like I'm currently uh rebuilding the calibration part
+  of it which will allow it to do much more it'll be faster okay um I guess I could
+  look at the other stuff but I don't really want to do that that feels like cheating
+  like I have recordings from the past but that's that feels like cheating right now
+  um yeah H okay yes okay now this stuff is going through yeah great so now now now
+  you have this object should I can't write now for some reason so camera 0o camera
+  1 camera 2 camera Matrix and then these are the two points that matter rotation
+  1 2 3 translation 1 2 3 camera one is defined to zero so these are the six degrees
+  of freedom that we need for each of the cameras so we now know where all the cameras
+  are these are measured in millimeters and theoretically you know 1 and 1/2 so 1
+  1500 mm is like 1 and 1/2 m th M so they say that they're you know meter to two
+  apart which checks out intuitively so now that we have that uh we can okay I think
+  let's look at the jump the big jump that's the most fun one I think so that was
+  the actually yeah oh it's kind of off screen there but we'll see how that goes uh
+  set is active recording okay these most recent calibration and that probably the
+  shortest too so go ahead and process okay okay so if all goes well do you see my
+  blender you do see my blender great so now what it's doing is it's going through
+  and in each of the videos it's going through frame by frame um so let say if it's
+  a you know a thousand frames of recording which is you know whatever 30 seconds
+  or something less than 30 seconds actually um then for three cameras you have 3,000
+  total images and then in each of those images you have to run through and do the
+  relatively heavy computation of using the convolutional neural network to try to
+  detect where the person is in the screen uh in the recording and that will look
+  oh actually that's from old okay never mind um yeah and so then once you have done
+  that you will have 3,00 two-dimensional estimates of where I was in space coupled
+  with estimates for where each of the cameras were in space and so you can do don't
+  worry about that that's normal um you from so from the the two-dimensional estimates
+  in the images plus the six degree of Freedom positions of the cameras you can triangulate
+  the position of each of those point points by basically just imagining firing a
+  laser so like tracking my elbow from camera 1 2 and three if you imagine you fired
+  a laser from each of those cameras the place where the lasers cross over each other
+  is the position of that object in space um and all of that is going to happen under
+  the hood very very fast and it's all just a bunch of like like that kind of geometry
+  hasn't changed in like a thousand years it's the same stuff that that's like uclid
+  level geometry it's just now being done much much much faster on a strange rectangle
+  of silicone and electricity um but yeah once this pink line oh are we still running
+  oh good we can actually yeah so it looks roughly like that so this is the output
+  from one of the videos so this is so from the perspective of I guess that camera
+  this was the location of my right shoulder that's the left shoulder there's a bunch
+  of points on my face these are hips ankles toes basically tagging all the joint
+  centers in two-dimensional image coordinates um which we can and so yeah so that's
+  all well and good it's useful information but you would have a very difficult time
+  doing any of the the because you don't really have a measurement in this case of
+  like where the ground is like you don't really have a measurement of what up is
+  you have up in the image but you can see that the image is tilted so if you're want
+  to say oh you're moving relative to gravity like if you want to say your balance
+  over your feet those are all terms that happen in the reference frame of like the
+  physics we said we call it the inertial reference frame um and this data is all
+  coming in in camera sensor reference frame this is 0 in image coordinates just the
+  upper left point of the screen and that's 0 meaning the upper left corner of the
+  little silicone wafer the at the back of the camera thing um so converting that
+  into something that is it's very strange that that one is like running so much slower
+  than the others um but to be able to be able to talk about this data in sort of
+  these physically grounded terms that we've been trying to sort of build up uh requires
+  a transfer and sort of a lot of computation to sort of to get this data referenced
+  in a inertial reference frame okay what is going on okay cool um so now the pink
+  lines are gone which means we've done all the 2D estimation and this white much
+  much faster line is doing all of the triangulation so so uh 550,000 data points
+  uh just cranking yeah and now how we going doing that recording data this takes
+  a s now okay yeah it's now saving stuff down to disk and now it will with any luck
+  start cranking yeah come on buddy yeah yes and so now this this part of the code
+  is now sending so at this point we've we've we've we've done the main task we've
+  recorded the PE the person we've done the two-dimensional thing the 3D reconstruction
+  has actually already happened um and now a very important often neglected step is
+  occurring which is converting it into a human into some visualizable format so something
+  that we as humans can look at and make sense of because saving all the data out
+  until like a massive CSV Excel spreadsheet is good but like it's still not a a term
+  that we can really make any sense out of so or a format that we can make sense out
+  of so this is blender which is a 3D animation software and this is where we see
+  if it actually worked well which I feel let's see how it does so I'm not in the
+  screen there we go here I am it's okay so this one is not looking the best so you
+  see this one it's um the image is upside down is it going to it's going to fix oh
+  man there we go so that was actually a nice uh case where this is a good view this
+  is a good view this one it's seeing the skeleton upside down uh so this reconstructive
+  view is not going to look right because a third of the data is flipped upside down
+  and luckily I took a few steps forward and then it fixed itself and so now this
+  is a much better looking skeleton um see time go can't time so now that I know it
+  works I can blame the point um it's a little bit rotated which I can fix later so
+  rotate around X there you go um this pink and blue ball here is the calculated Center
+  of mass um the skeleton is sort of more for visualization than actual data um this
+  these stick figures here those are the rigid bodies that I was talking about so
+  this is the the thigh the upper arm things like that and cool yeah great and so
+  now okay so it's not the best data I've ever gotten in my life it's just very dark
+  in here um um but it's not bad and if I look oops so that is the trajectory of my
+  center of mass in the Z coordinate so the ground plane we're going to call XY up
+  is z um and yeah and so this is a Time series plot we talked about these last time
+  so the x axis is time and then the Y AIS is whatever the the Z value that is the
+  height that's the height of my center of mass above the ground and if you recall
+  so if gravity didn't change my mass didn't change so that means the height tells
+  you my potential energy uh if we assume that this is where I'm this is my standing
+  height we can call that zero if we want to that's zero potential energy and then
+  here we see something interesting happening so before I you've seen this several
+  times now I do got to stop and we're going to talk about this at length next time
+  um but just imagine at like my center of mass level like we have some guess about
+  what this Behavior corres responds to um so think about what is this dip what is
+  this peak and what is this dip again and oops wish I didn't do that come on there
+  we go so there we go that's my lowest point skeleton's kind of screwy uh just because
+  it's a weird View and I'm kind of off screen here um but going to go up and that's
+  the peak that's the apex of the jump that's the highest this is the place my my
+  potential energy is at its highest and my kinetic energy in the in the Z position
+  is zero I'm I am paused at that height um and now I'm coming back down and again
+  the the the data is not the best in the world but you can see that kind of I don't
+  just land with like straight legs I land and I bend into it there's intuitive reasons
+  why but then there's also like deeper biomechanical and biopys and physiological
+  reasons why why this is a lot of energy I have to bleed off and I don't want to
+  Bleed It Off directly into my joints I would rather bleed it off into my soft tissue
+  and let the muscles kind of pull against it so that I don't blow out my Meniscus
+  or something like that um and then I do it again and so this is also kind of a nice
+  example of why the center of mass is such a nice measurement because even in these
+  cases where the data is not that great and the skeleton gets all wble garble in
+  these in these particular moments the overall trajectory is roughly speaking what
+  you would expect it to be so even in context where the data has you know Fidelity
+  issues uh you can still talk about the global data because it's basically a giant
+  smoothing algorithm to just collapse this entire thing down to a singular point
+  we uh and then I really I I got to go but I can't help myself uh in range around
+  frame 3030 calculate the whole thing okay let play so that is is the frame by frame
+  measurement of it you can see this the 3D trajectory oh why did it go oh it's not
+  doing the whole path oh cuz it's much longer than that uh dat paths all paths there
+  you go and here we can even take the whole guy hide him hide him so that is the
+  mechanical estimate of the global Behavior okay I will take my time I'll I'll clean
+  this up um and think about think about the things we talk about make some general
+  predictions um I'm going to make an assignment for y'all for next uh for the next
+  for next week about talking to the bot about predictions around this data stuff
+  and also about just like the concept of units and measurements and how it applies
+  to your particular domain of inquiry um but just you know chew on it with your brain
+metadata:
+  author: Jon Matthis
+  channel_id: UCOOQxlTCtUz9mr1NPWlJyYQ
+  description: (ai gen'd description)\n\nThe session explores the use of Free MoCap
+    for studying human movement, focusing on biomechanics, balance, and the challenges
+    of traditional motion capture systems.\n\n---\n\n**Chapters:**  \n00:00 - Introduction
+    to Data Collection  \n01:46 - Understanding Center of Mass  \n05:36 - Pendulums
+    and Energy Transduction  \n12:00 - Human Balance and Bipedalism  \n25:40 - Motion
+    Capture Technology Overview  \n35:01 - Challenges and Philosophy of Motion Capture  \n45:00
+    - Setting Up Free MoCap System  \n50:00 - Calibration and Data Collection  \n58:02
+    - Practical Demonstration and Data Analysis  \n\n---\n\n**Pull Quotes:**  \n-
+    \
+  duration: '5392'
+  like_count: ''
+  publish_date: '2025-02-03T15:39:20-08:00'
+  tags: ''
+  title: HMN25-03 - FreeMoCap Data Collection
+  view_count: '99'
+transcript_chunks:
+- dur: 180.0
+  end: 180.0
+  start: 0.0
+  text: okay hello everybody and welcome to Wednesday um so today is a very special
+    day um because today we're going to do some data collection which is always a
+    very exciting time in any scientist's life when you you you get some numbers you
+    take some recordings and then often times you spend the next like while uh analyzing
+    that data so how it goes matters a lot this is not a particularly High uh high
+    stakes situation but yeah it'll be fun so we're going to do I'm going to try to
+    like finish up what I was talking about last time and then I'm going to set up
+    the cameras and uh do a quick recording do a couple of quick recordings with the
+    free moap softare which I made with my lab over the past six years or so um and
+    then if if all goes well it should pop something out that's worth looking at today
+    um and then I will do some additional fiddling with it and I either have something
+    to say about that on Monday or wait and give myself an extra bit of time and talk
+    about that on Wednesday um so if you're not yeah your job is mostly to just sit
+    and listen and try not to fall asleep but if you fall asleep I understand you're
+    you got a lot going on um so Behold a human person it is roughly speaking this
+    shape see uh this is a complicated shap but it's not nearly as complicated as
+    this weird object um but if we needed to because we are finite beings with finite
+    technology in finite time if we wanted to study this complicated object this the
+    desidera of our research being to understand how humans move through the world
+    eight um you have to make simplifications you have to make assumptions you have
+    to do things like that and so last time I talked about can I do this that works
+    so last time I talked about my personal favorite uh oversimplification of a complex
+    physical object which is to take that object and reduce it down to a single point
+    mass that we call the center of Mass center of mass we often hear it called like
+    center of gravity um which in that term in that meaning
+- dur: 180.0
+  end: 360.0
+  start: 180.0
+  text: uh gravity is sort of meant in like the old school sense of like density uh
+    because density and mass are kind of the same thing in some conceptions um but
+    the the beauty of the center mass is that it's a rather simple thing um the center
+    of mass is the the concept of Center Mass is the thing that's the intuition that
+    says that if I want to balance this stick on my finger I put my finger under two
+    fingers under the midpoint of the the Total distribution of Mass on the thing
+    and it balances there because there's the same amount of pull on this side as
+    there is on that side and if it's a symmetric object the center of mass corresponds
+    to the geometric center of the object itself if it is non that's the wrong direction
+    oh I did that whoops um uh what am I trying to do I'm trying to do that if the
+    weight is non-symmetrically um so linguistically it we tend to like interchange
+    mass and weight language wise um in imperial units we actually don't have a dedicated
+    measure for Mass we just use pounds which is actually a measure of weight weight
+    is a measure of force it's like how much force am I putting into the ground so
+    if you assume that gravity isn't changing mass and weight are interchangeable
+    but just because I spent like an hour and a half last week for on Monday talking
+    about SI units I should specify that when I say weight I typically mean mass in
+    vice versa uh but until we go to the Moon that won't be a problem anyways Center
+    of mass when the weight is non the mass is non uniformly distributed the center
+    of mass is not going to be the same as the geometric center of the object but
+    the same basic idea maintains like there is as much mass on this side of the base
+    of support which is this as there is on that side and so the center of mass of
+    the thing is right around here and so if I wanted to hold this object off of the
+    ground sta I I need the base of support to be under the center of mass of the
+    object itself if I put the center of base of support outside of the center of
+    mass it'll fall in that direction which is not particularly mind-blowing but it
+    is an app description of what balance is at a very s of low level of physics um
+    have a let make sure we have enough time to sort of say all the things I want
+    to say uh should be fine um so last time we also talked about any balls here I
+    didn't bring me um when an object is flying through the air it has this nice ballistic
+    trajectory
+- dur: 180.0
+  end: 540.0
+  start: 360.0
+  text: which is caused by the transduction and exchange between kinetic and potential
+    energy in a gravity well and there's MGH is potential energy 1 12 mv^ s is kinetic
+    energy and even though this object is complicated in its form the trajectory that
+    it takes in the air is exactly the same as it would be if if I was throwing an
+    equivalent mass in a like if if this if you condense this down to like a single
+    lead sphere and I toss it in the air it would follow the same trajectory if I
+    spin it it spins around its Center of mass because it's in a when it's not when
+    it doesn't have anything to push off against you don't have any there's nothing
+    to react there no re no re no reaction force to push you in any direction things
+    balance out and you get sort of simple predictable physical behavior um we also
+    talked very briefly about one of my favorite things which is pendul pendulums
+    pendulums pendul which this is an example of a pendulum you've seen them in various
+    places of your life and it's basically a mass hanging below a standard pendulum
+    is a mass hanging below a pivot point and if without you know if you pull it back
+    and then let it go it'll swing back and forth for quite some time until friction
+    bleeds off enough energy that it will eventually slow down and the reason for
+    that sort of conservative motion is the same kind of transduction between potential
+    and kinetic energy so if you imagine that's a pivot point that's the the Bob the
+    mass of the pendulum let's assume that this string doesn't weigh anything or at
+    the very least it weighs much much much less than this if we wanted to we could
+    also just imagine that if it's shaped if this is the shape you know the center
+    of mass of the thing is still going to be definable mathematically in some place
+    there um but here it is up here and then we let it go it's it's up here at rest
+    so it's kinetic energy equals zero and its potential energy is at let's just say
+    it's Max and then so we let it go and it drops and then it gets to this point
+    here where it's at the lowest point of its swing and at that point its potential
+    energy is at its minimum because it's the lowest it's going to get you could even
+    say the potential energy is zero if you want to talk about it that way um but
+    its kinetic energy is going to be its maximum it's going to be moving the fastest
+    it's going to move here after you drop it and then it's going to be moving so
+    fast that it will have moment momentum because of that whole inertia
+- dur: 180.0
+  end: 720.0
+  start: 540.0
+  text: thing that first law that will carry it up the other side of the Swing until
+    it gets here and then again it will briefly pause kinetic velocity zero kinetic
+    energy zero kinetic energy zero potential energy Max um and then it will then
+    the same process repeats in reverse and as long as there's no way place that the
+    energy can go it will continue like that forever in reality there's always going
+    to be things like friction on points like this there's always going to be things
+    like air resistance that will be bleeding off some of the energy so it will eventually
+    if we if we plot it over time and we plot let's say this is the angle here Theta
+    we want and we drop it from here it'll go like this and then it will slowly we
+    call that damping out if it was a ideal system this would just be like a nice
+    sine wave forever but because there's going to be some bleed due to friction this
+    will be the nice trajectory there so that is a this is what a a standard hanging
+    pendulum and look at it go pendula are very very very very important in the history
+    of science they are sort of part of almost every important measurement in history
+    um like gravitational constants you know Electro kolum Force um apparently there
+    was a time when they used to use the period of a pendulum to do prospecting for
+    iron ore because you can measure the D like the the period of a pendulum very
+    very accurately and it's going to be defined by the density it's like the gravitational
+    constant the gravitational force is a part of that uh equation of motion so apparently
+    they would just like move these very very very precise pendula over parts of the
+    ground where they thought there might be iron ore and then if they measured a
+    change in the period that's an that's a reason to believe that there's a higher
+    density in the column between you and the center of the earth this is I read about
+    this in a book I had a hard time validating verifying that information but nonetheless
+    it's very it's a pendula pendulums very good stuff um pendulums are also a nice
+    example of like that periodic motion I mentioned briefly last time how we think
+    about time there's like the the there's like stopwatch time which always counts
+    up but then there's kind of like wall clock time that resets every so often and
+    with something like an oscillator like this you sort of you're thinking in that
+    phasic sort of like time you know goes from zero to some Maximum and then it like
+    resets and then that's we call that a full cycle many many parts of biology ology
+    have this kind of like phasic
+- dur: 180.0
+  end: 900.0
+  start: 720.0
+  text: behavior um a lot of my research historically has been on Locomotion and that
+    has a lot of pendulums in it um the main one that you would think about with the
+    pendulum is like The Swinging leg um but there's another much more dramatic and
+    Central pendulum which is the inverted pendulum of your sort of standing body
+    so this is a pendulum hanging from a a central Pivot Point um but but you could
+    lift this thing up until it's all the way on top and then have it be up here as
+    an inverted pendulum and at this place uh so at the bottom here this is a stable
+    point because if we just let it run this is where it will wind up this is in the
+    language of dynamical systems um this is called an unstable point because technically
+    speaking if you placed this here precisely at you know the angle of deflection
+    equals zero this would stay it's it would sort of stand up in the same way that
+    this marker stands up on the desk um but the reality but because this is an unstable
+    point a any perturbation from to the left or the right is going to cause it like
+    if you if this is not perfectly straight if it's a little bit off to the right
+    right then gravity is going to pull it down and then it's going to keep pulling
+    it down until it falls down there so you can balance a a p so you can hang a pendulum
+    and it's passively stable gravity does all the work for you you don't have to
+    worry about it um if you have if the pendulum has if the base of support has extent
+    if it's nonzero base of support you can balance it happily on a flat surface and
+    it will also stay there passively forever um but if it's if it's not then you
+    can balance it you then the only way that you can balance it upright is if you
+    are actively controlling it so this is the classic like boom broom trick where
+    you can just like balance something on your hand and you can do it because I'm
+    moving around the base of support to make sure that the that the whole thing never
+    Falls over but I can't so this is all by way of preamble to the recordings we're
+    about to do so if you think about in some idealized pendulum and this is the center
+    of Mass on top of it uh remember we're spending a lot of time thinking about Force
+    equals mass time acceleration
+- dur: 180.0
+  end: 1080.0
+  start: 900.0
+  text: um where this is the mass which we're assuming the mass doesn't change so
+    we can sort of assume that Force equals acceleration some approximation um and
+    so if you're you know in the idealized form you manag to standing up here if the
+    projection of the center of mass onto the floor if the distance from that projection
+    from this infimal base of support is zero then it'll be happily standing ight
+    forever um if instead we're off by a little bit and the projection of the center
+    of mass has a distance here from the base of support then in a very intuitive
+    sense that gravity pulls things down Gravely pulling like that and then this distance
+    there will be sort of P pushing the object away so that's why it's unstable because
+    any deflection from zero and it will start to fall and the farther that it falls
+    the more it gets pushed away so it'll be accelerating away from that sort of stable
+    Point um and so if I'm if you're supporting it like the broom then you can make
+    you can fix that by moving around the base of support on the ground um but if
+    you yourself are the pendulum in question and you are you know imagine my center
+    of mass is here and I'm standing on my one little leg if I I can um the only way
+    that I can really have any control over where my body is is by the forces that
+    I'm putting into the ground to my foot um so if we now imagine that's me that's
+    my center of mass this joint here is the only place that I can push into the ground
+    and so if I'm leaning a little bit too far forward I can push with my toe and
+    push myself back if I'm lean a little too far back I can push with my heel not
+    really I can I can lean forward I can do something to try to like change the forces
+    to push myself in that direction but in in general if I'm not if I don't have
+    monkey feet or grippers on my on the ground I can only really push so that means
+    that my center of mass has to stay within this base of support range in order
+    for me to be able to maintain standing posture without doing something dramatic
+    like taking a step that's usually what we can do so if we're assuming that the
+    task is to stand upright without taking a step the goal
+- dur: 180.0
+  end: 1260.0
+  start: 1080.0
+  text: condition there is the center of mass stays within the base of support so
+    that I can sort of move move around the force I'm pushing into the ground and
+    sort of push my body back and forth to where it needs to go so that is balance
+    and standing posture in a nutshell um all of this that we're doing here it falls
+    under the category of biomechanics anytime you hear anyone talking about like
+    forces and mechanics and Newton's laws and centers of mass and joints and cors
+    and stuff like that you're you're hearing someone talk about biomechanics um but
+    if you think about sort of like zoom out a little bit from those low-level physics
+    and start thinking instead about the you know start thinking about the this physical
+    object now as a biological system with a biological system with muscles and neurons
+    and sensory systems and stuff like that um you can start trying to ask the questions
+    from the sort of neuroscience perspective of how does all of that sort of play
+    out in a a human person with things like joints and muscles and stuff like that
+    so how do I if I'm if I'm because we're very very good at standing up this body
+    configuration with the two feet and the arms that are that are off the ground
+    this is wild in the animal kingdom this is a wild way to be musculos skeletally
+    um pretty much all other mammals are quadrip heads um the only other bipeds out
+    there are birds and most of them fly um the ground birds are arguably better bipeds
+    than we are because they have like 450 million years of evolution on us so uh
+    good for them but generally speaking like for Animals as big as we are to to support
+    your entire body weight of off the ground with Just 2 feet is wacky it's like
+    unpress ented there we really there's no other animals at least in the Maman Kingdom
+    that have um bipedal locomotion kangaroos are a good example but they they can't
+    really walk on two legs when they're when they're moving they can bounce on two
+    legs but when they're when they're in place they sort of you know crawl around
+    on four feet and they use their tails um animals like uh like bears and apes and
+    stuff like that can walk on two feet but they tend to be they're knuckle Walkers
+    um we are I believe I'm always like waiting to be find a counter example but at
+    this point I should probably just accept that there aren't any uh we're like the
+    only obligate bipeds in the Maman Kingdom where obligate bipad means like we really
+    don't have like another option here like we it's bip or nothing um and we are
+    also as far as they can figure out the only animal that has two of the main limbs
+    of the sort of tetrapod this is tetrapod pod shape head two limbs on top
+- dur: 180.0
+  end: 1440.0
+  start: 1260.0
+  text: two limbs on bottom and and a spine um we the only ones that have really well
+    adapted upper limbs that have nothing to do with Locomotion um even ground Birds
+    they have wings but they tend to kind of suck as appendages go um but we really
+    we gave up a lot to have these like grabbing objects um and the cost was that
+    we had now have to do this sort of gymnastics routine every time we want to get
+    from point A to point B so thinking about this um like the neural bases of bipedalism
+    and standing posture is one of those things that feels like kind of like a baser
+    level of behavior than we tend to think about when we're thinking about the Majesty
+    of human you know neuroscience and biology um but it's really fundamental and
+    it's really core to like what we are as organisms and creatures so I think it's
+    worth consideration here and and yeah yeah and so with that I think we can start
+    transitioning towards like the data collection part of this so if we assume now
+    that we all have the shared desire to understand how we weird bipedal humans manage
+    to stand as effectively as we do stand upright and walk around as effectively
+    as we do um we can start now trying to think of this as empirical scientists and
+    start asking the question of if the if that is if the desired outcome the desera
+    of our research Endeavors is to understand the neural bases of let's say just
+    for Simplicity sake standing posture what are the measurements that we can take
+    and what are the analyses that we can do and that that would give us insight into
+    the underpinnings of that behavior um and there's lot of options um but we're
+    going to do some simplified not some it's not even all that simplified but we're
+    going to take um a full body perspective like you could go in and say oh well
+    I want to figure out the sensitivity like how do we detect our lean angle like
+    is it the vestibular organs in our inner ear is it the pressure under our foot
+    is it the is it the the the proprioceptive forces and our ankles how can we measure
+    the sensitivities of those things how can we sort of understand those circuits
+    what are some other animals we can look at and you can do the kind of like the
+    classic reductive um like biological stuff and start looking at like the the properties
+    of of the muscles and we can you know cut up some cavers and see what's the density
+    of of you know somata sensory organs in the bottom of the feet we can do that
+    kind of like like zooming in on one part of the task um but necessarily doing
+    that will leave out the actual behavior that we care about and what what we would
+    would call the ecologically valid Behavior behavior of
+- dur: 180.0
+  end: 1620.0
+  start: 1440.0
+  text: the organism in question performing the task that we care about in the real
+    world or something close to the real world that you know is the if we assume we
+    care about standing posture then we care about standing posture in the real world
+    we don't care about standing posture in the lab in some weird artificial environment
+    that we concocted so that we could have something that we could study um we might
+    have to use that to be able to make any progress but secretly we we will feel
+    a little bit sad because we will know that we have created an artificial representation
+    of the thing in question and we are not actually studying the thing itself um
+    so with that said yeah uh I won't go I won't do the whole Biz about this but also
+    jumping exists we're going to course I'm jumping too jumping is kind of like this
+    except instead of like leaning you're you're putting Force into the ground and
+    if you put more Force into the ground then you weigh you'll leave the ground until
+    you have bled off that additional energy and then you'll come back down and do
+    something roughly equivalent to that uh yeah um yeah okay how do you feel about
+    that so far emotionally prepared for what is to come great [Applause] so in a
+    little bit here I have an hour and hour to go which there would be enough time
+    uh spoiler alert I'm going to I'm going to set up some cameras and those cameras
+    are going to allow us to record um full body 3D kinematic data of a human person
+    standing in space this human person is me I would love to do a thing where we
+    like record you guys and do that but like it just the time doesn't really work
+    out um and so this weird confguration of cheap cameras and free software will
+    will give us an approximation of my body uh at 30 frames per second down to some
+    level of precision um at the centimeter scale of precision for my joints and the
+    approximation will be roughly equivalent to this it will tell me roughly where
+    my head was where each body segment was where each joint was and this will be
+    kind of like the this is the data model that will come out of it um and this is
+    where I'm going to start thinking as we go uh and I'm going to record myself doing
+    a couple of behaviors so the first thing
+- dur: 180.0
+  end: 1800.0
+  start: 1620.0
+  text: I'm going to do is calibrate because I have to do that and I'll tell you about
+    talk about that as it goes um then I'm going to do a standing task so I'm going
+    to stand on two feet then I'm going to stand on one foot and then I'm going to
+    stand on the other foot and then we're going to probably I'll ask someone to pull
+    out a timer we do like 20 30 seconds of standing in each each one so this will
+    be recording one this will be recording two uh sorry 0 1 and then two I'm going
+    to do the same thing doing this different than I've done the past years but I'm
+    going to do the same thing except now I'm going to do the same thing while holding
+    on to a chair so I'll like so I'll start out doing just like freestanding and
+    then next time I'll like lean over and like have my hand on the desk and sort
+    of do the same kinds of tasks um then after that I'm going to do I'm going to
+    take a couple big jumps just jump standing jump as high as I can jump uh and then
+    we'll do another one where I'll do like I'll jump in place for like 30 seconds
+    and then at that point that'll be enough recordings um so that yeah so we're going
+    to so this will be so we'll get 1 2 3 four five total recordings which should
+    process in the moment depending on how fast how long it takes set up I may or
+    may not truncate the processing so that we can get through them all um but the
+    your task as you're watching the the show um is just kind of think about these
+    behaviors and think about them relative to the kind of the the biomechanic Center
+    of mass types of uh of conversations we've been having so far and just make some
+    predictions about what these data will look like um and you could think about
+    it at like the full joint level like you know down to the level of like knees
+    and ankles and shoulders and stuff like that um but that can be a little overwhelming
+    so I would also recommend thinking about it just in terms of like if you boiled
+    this whole thing down to just a ground plane a foot and a leg and then a center
+    of mass what would you expect to see like what's going to be the difference between
+    like standing on two legs versus standing on one leg what's gonna be the difference
+    between standing on one leg
+- dur: 180.0
+  end: 1980.0
+  start: 1800.0
+  text: free versus standing one leg while like leaning on a table uh what's it going
+    to look like when I take a big jump like what's it going to look like when I take
+    a bunch of jumps um and yeah think about it oo make some predictions uh because
+    there's your ability to make predictions about what this is going to go is how
+    you know that you're operating within a theoretical framework they're thinking
+    about there is an assumption that I am making that boiling down the this hyper
+    complex object into a singular 3D Point Mass and and and saying I we'll be able
+    to say things about that we'll be able to predict the motion of that point mass
+    and say things about that point mass that will tell us things about that the global
+    organism um that's a that's a theoretical framework that's a strong bold claim
+    um but we're going to operate within that space and yeah I'm going to try to do
+    this without crashing my computer too uh which is always fun so great has anybody
+    here worked anywhere near motion capture before any like physical therapy or anything
+    like that no yeah so it's one of these things where motion capture like mostly
+    where you will have seen it will be like behind the scenes and of movies and video
+    games and stuff like that um you know a lot of like Lord of the Rings stuff of
+    Golem and smile run running around um all right uh but it has been around and
+    used to study human movement for quite some time um arguably video like the invention
+    of video uh was technically what am I doing here that I got that I have this this
+    yes um and then this so the original like video was created to study horses in
+    motion based off a a barbat uh from Vanderbilt the guy like the robber bearing
+    um about whether or not horses ever was there was ever a point in their Gallop
+    with they at all fourt off the ground so you've probably seen the
+- dur: 180.0
+  end: 2160.0
+  start: 1980.0
+  text: picture of like this like a bunch of horses old timey video um basically to
+    solve that bet uh Vanderbilt commissioned a photographer to like take a bunch
+    of sequential videos of pictures of a horse in full gallop and was able to show
+    that there is in fact a phase where they're all off the ground where the feet
+    are all off the ground um but in since then motion capture has been used in the
+    study of human movement and clinical stuff um for as long as we've been doing
+    that what am I doing doing this okay uh but also traditionally it's it's not a
+    very common thing to do because it's very very expensive um the motion capture
+    lab I have in Richards invol has like A4 million dollar worth of motion capture
+    equipment in it and it's in a a room that was specifically built for the purpose
+    of doing motion capture and it's you know it's a very good system it's very very
+    precise but it's also a huge pain it to use and it's just it's expensive so the
+    the you know there's the the number of people out there who are studying human
+    movement is much much larger than the number of people can who can afford motion
+    capture so that was kind of a part of the motivation that I had for making this
+    strange system um was basically realizing around 2017 when a software came out
+    called uh open pose that used convolutional neural networks to basically draw
+    a stick figure on a person in a video and I saw that and then sometime later realized
+    that that capacity to basically draw like a 2d skeleton estimate on a person in
+    a scene was kind of enough to build a motion capture system out of um and then
+    you know that was sort of an idea that I had and sort of the thought was yeah
+    that's a cool idea but like I don't know how to write code and that seems like
+    way too much work so I guess I'll never do it and then three years later Co hit
+    and I lost access to my lab for an undef period of time and I also lost faith
+    in the academic system uh pretty much entirely and started like rethinking the
+    idea that using I'm going to have to unplug this camera now um
+- dur: 180.0
+  end: 2340.0
+  start: 2160.0
+  text: sure I'll turn you off later um yeah I I kind of I started to really doubt
+    the core principle of science which is that the best thing that we can do as scientist
+    is to publish papers in esoteric journals that exploit us for profit um and started
+    thinking about like you know is this Behavior actually making the world a better
+    place and started had the uncomfortable realization that like I don't really think
+    it does like I think it's a good thing to do I think that you know scientists
+    are generally trying to like improve the world um but we're trapped in these systems
+    of of communication that just like it just doesn't serve like it it made sense
+    in the 1800s it just doesn't make sense now so I personally transitioned away
+    from publishing papers and journals and towards using the skills and understandings
+    that I have from my sort of history of scientific research to build tools that
+    people can actually use in their real lives uh so this is one of them um so real
+    quick if you want to look it up Freo cap just Google Freo cap you'll find it freeo
+    cap it's pretty oh I'm not on the internet am I on the internet I am on the internet
+    yeah um hey look people make videos about me uh but yeah you can look it up it
+    was a whole it's been a whole process um and let's get to it so so free mo cap
+    stands for free motion capture it is a markless motion capture system the majority
+    of like traditional motion capture you wind up you wear the spandex with the suits
+    and the reflective dots this is markerless so the idea is to use sort of like
+    the modern sort of uh what's the word the the arising technology of just like
+    computer vision and sort of like the wacky stuff we can do with that to to play
+    the role that the markers used to play in traditional motion capture systems um
+    let's talk a little bit more what that means I'm actually doing it um just go
+    uh the hardest part of making this process the most sophisticated part of The
+    Code by by a mile is the part that connects to the cameras um maybe it shouldn't
+    have been as
+- dur: 180.0
+  end: 2520.0
+  start: 2340.0
+  text: surprising do this yeah I think that makes sense um so everything is Skelly
+    skelly's the logo it's like a skeleton you see it's like you know kind of how
+    it works uh my personal Journey as a researcher I was a philosopher I got a bachelor
+    degree in philosophy then I started doing more perceptual motor neuroscience and
+    kind of like was studying vision from like a vision science perspective um and
+    was feeling not it felt insufficient it felt like incomplete and it wasn't until
+    I started digging into I started like found my way into some of the more biomechanics
+    approach to movement um that because I was studying visually guided Locomotion
+    in an environment that really didn't have any consideration of like the physics
+    of being an object moving through space um and when I started reading the biomechanics
+    papers was when it a lot of things started to click for me and those papers had
+    a bunch of skeletons in it calm it down guys um and that's why there's skeletons
+    everywhere just because it's sort of like this it's like kind of a joke that I
+    studi Neuroscience from the perspective of a skeleton because that's like physics
+    wise it's mostly skeleton the neural components are really not not really Newton
+    doesn't really notice the Neuroscience parts of it he mostly notices the skeleton
+    anyway anyway um so so this is the latest form of the software um actually it's
+    not uh the the main so the current stage of development of free moap is that the
+    the the core software is a little bit behind the development side of it so we're
+    using the this camera stuff it's very slow for some reason why are we so slow
+    okay there we go oh right I have to turn you off over here okay apologies to oh
+    I guess we can do that so uh turn you off okay there you go um let me shut you
+    down me again so this is one of those places where like all the stuff streaming
+    by is where all the work went and then the outside is quite simple in comparison
+    um reasonably confident that this will work but anytime oh wait that's
+- dur: 180.0
+  end: 2700.0
+  start: 2520.0
+  text: still okay hopefully that should work better we can hope yeah so as a scientific
+    tool um motion capture is in the very uh crowded space of being a camera based
+    research tool so the environmental energy that we are encoding and recording in
+    this case will be light so light bounces off of me bounces goes through the lens
+    of the camera gets absorbed by the camera sensor which is just a little rectangular
+    silicone wafer silicon wafer whatever whichever one of those is accurate um and
+    yeah and then we will be recording the we will be pulling samples from a light
+    cone from three different locations in space um 30 times per second uh and there's
+    been a lot like a lot a lot like years of my life has been spent uh making sure
+    that the videos that get recorded from these cameras are uh synchronous so as
+    these cameras are pulling as each camera is sort of pulling uh you know frames
+    from its field of view um there's a lot of code under the hood that's making sure
+    that each camera is pulling at close to the same time as the others as possible
+    so we're pulling syn Eyes videos so we talked about the mentioned last time the
+    sort of the concept of like spatio temporal calibration to in recording and sort
+    of that just like the spatial components and the temporal components great the
+    temporal components here are handled by the software so we are going to assume
+    that all the the samples from each camera are synchronized in time to some approximation
+    um so the second part of that is the spatial so let's see so those are all rotated
+    are they rotated the same way they are which is counterclockwise I think that
+    should work did I get that right I got it backwards it's always backwards yeah
+    we here
+- dur: 180.0
+  end: 2880.0
+  start: 2700.0
+  text: okay good um yeah great so it's not using the space particularly well but
+    don't worry about that so this is so now I'm going to point the cameras so I'm
+    going to stand right here and so I'm going to try to point the cameras that they
+    can all get a good view of that spot all right oh I have that one that's nice
+    we also have that that's nice okay now unfortunately I am I am going to I'll do
+    that later um so the images are a little dark I think that is the the nature of
+    the Beast another part of the of the game here with Freo cap was building the
+    cheapest possible system I could possibly get so intentionally targeting like
+    garbage cameras these are really garbage cameras like they cost $10 is a pop um
+    on the assumption that you know as a researcher buying four GoPros is nothing
+    but if I'm trying to make something that's accessible to the world uh GoPros are
+    expensive um so trying to build it on the cheapest possible Hardware was a part
+    of the game um okay so we're going to have to do uh some projective geometry at
+    some point so I mentioned that we have the temporal synchronization happening
+    through the software um but we are also going to need to know the position of
+    each of these cameras in space we're going to specifically need to know the six
+    degree of Freedom position so XYZ location then XYZ rotation so six total numbers
+    six degrees of freedom um and the way we're going to do that is by way of a calibration
+    routine um that involves a calibration object um this is called a Cho these little
+    markers here are called Aro markers and this is a calibration object which many
+    um you know SC every scientific tool will have some calibration component to it
+    and the typical pattern for calibration is you're use you use the system to measure
+    something that you know the answer to I'm going to use this to measure the position
+    of these Corners in the board because I know that these Corners are all 58 mm
+    apart like I know that these blast squares are 58 millim
+- dur: 180.0
+  end: 3060.0
+  start: 2880.0
+  text: wide so if I use this system and I record this shape I know what the right
+    answer is so if I if I record the position of the board and I check the numbers
+    and it says yeah these are 58 mm apart then I now have some confidence that the
+    system is working as intended and now I can use it to measure the unknown thing
+    which is the body in space that I'm not going to have any other additional measurement
+    and insight about um so every form of scientific research is going to involve
+    calibration at some point in some cases that calibration is done at the factory
+    when they're where they make the tool um but in this kind of like more hacky DIY
+    world we uh we make do with our own stuff okay how we doing on timeing okay on
+    time all right so recording so basically what this looks like is I take the board
+    and I show it to the cameras and I make sure that each camera has shared views
+    so in this case they can all see it at the same time um oh I'm going to need to
+    turn that off actually uh all right you can look here but I have to turn this
+    off because there's too much light I I was you got to be careful with the light
+    so uh you can look there if you need to um so basically the board the cameras
+    can see the board they have shared views of the board um so they can you can do
+    the kind of the the the actually not so simple math of if I am camera a and I
+    can see the board from this angle and at the same time camera B can see the board
+    and I see it from this angle then camera a must be in this position relative to
+    camera B and vice versa um make sure that works usually when I do this part of
+    the class I bring my grad student in to help me out and this time he was busy
+    so I was like I can do it all on my own and I can do it all on my own but it is
+    definitely one of the cases I was like I sure wish Aaron was here it'd be nice
+    to have an additional nervous system doing this stuff uh so now I'm just manually
+    moving stuff from one folder to another just because of the stage of software
+    it's in um PR what we doing
+- dur: 180.0
+  end: 3240.0
+  start: 3060.0
+  text: uh you going to run you going to crash did I learn picture anyone ah UV sync
+    okay we may also another traditional so I tested a lot of this but I didn't I'm
+    realizing now I didn't test like every part of it um so we might find ourselves
+    having a little bit more running on trust that I would have preferred okay well
+    as that runs um let's see what are you doing why okay calling the audible so well
+    remember how so uh I will have to process these offline because it's not set up
+    and I don't have the brain space to do the online debugging so this will be a
+    lot more prediction than usual just usually I can make this happen in the same
+    time um but but for now so we've done calibration now we're going to do simple
+    standing so twoot standing one foot and one foot on the left one foot on the right
+    um we would call this a control condition because this is the one where we're
+    not there's nothing will be manipulated in this case um and then we're going to
+    do this sort of manipulation condition which is going to be very similar to this
+    but with this sort of sort of extra factor of I will be supporting myself on a
+    chair or a table or something like that and your I guess I can use this yeah it's
+    that um and then we'll do the jumping stuff so for you know yeah and we're not
+    going to be getting uh we're not going to be getting real time output from this
+    this class unfortunately but that just means that the your mental model of prediction
+    must work across times okay now I unfortunately have to take my shoes off
+- dur: 180.0
+  end: 3420.0
+  start: 3240.0
+  text: which is fine but I just always feel weird doing it um the main reason if
+    I had been smart I would have at least worn lightly colored socks um but you can
+    see how dark the ground is and you just can't see my feet relative to the ground
+    so I will Tom soyer up my feet now you can't um this is one of the in a real recording
+    I would be like I'd have lights and stuff like that um it's also one of these
+    cases where like it tends to work best like outside in the sun because the sun
+    is very very bright um yeah there you go now you can see my feet um still a bit
+    dark still very dark that one's good okay so one and two are a little dark manual
+    oh it looks better on my screen okay okay so can I have someone can I request
+    a a stopwatch person thank you uh so I'm going to ask for like basically 30 second
+    intervals um so I'll let you know when it's ready to go um I do have to turn this
+    off again and I'll leave that down and all right where is the and I want to be
+    standing like here great all right uh I'll let you know it's not right now so
+    here we go so I'm going to stand here and I guess yeah start it now so this is
+    me standing uh I'm kind of already bored with this so I'm going to lean I'm going
+    to be sort of intentionally in all these cases leaning as far as I can lean sort
+    of within ideally without moving my feet um so I'm leaning all the way to the
+    right and all the way forward uh let me know when we hit 30 there cool no great
+    okay so now I'm on one foot and my Bas of support has now gotten appreciably smaller
+    and I'm wiggling around both for fun and because I'm off balance um so again sort
+    of like just
+- dur: 180.0
+  end: 3600.0
+  start: 3420.0
+  text: look at like what's happening bodily I'm doing a lot of movement but we have
+    some strong predictions we can make about the position of my center of mass relative
+    to my Bas of support and you make those preditions even stronger thank you um
+    and Y uh when the base of support gets smaller your ability to predict the location
+    of the center of Mass gets better like you have more predictive capacity because
+    it is a more constrained task there are fewer ways that I can successfully complete
+    the task of standing upright when I only have one foot on the ground than I do
+    when I have two feet on the ground and and done [Applause] okay great so with
+    those predictions in mind um how am I going to do this I think I will yeah that
+    works great this is my now my standing stick um so same thing uh sorry I your
+    name stopwatch friend stopwatch friend what's your name isab Isabelle thank you
+    uh same thing now for the let's say let's call this a support condition we're
+    now going to be using like a stick to support myself um outside of my biologically
+    prescribed base of support so we go over here and I will stand for a little bit
+    so just go ahead and start the timer whenever this is just kind of calibration
+    purposes and then now uh I'm going to do the same kind of task of Leaning as far
+    as I can relative to my base of support except now I have this stick to sort of
+    assist me so with the knowledge and theoretical models of human body that you
+    are armed with like how do you think this is going to change that data um so now
+    I'm going to go onto my right foot similarly playing all over the place and let's
+    assume for like when we get this data back you're not going to the stick is not
+    going to be in the data uh we will know that it was there and we'll know that
+    this hand is is mounted to the ground um but if you think about what the data
+    will look like you can have some predictions there and now we switch feet and
+    so again just like think about it what what do you think would
+- dur: 180.0
+  end: 3780.0
+  start: 3600.0
+  text: be different here it's been a long day it's like standing in place is not
+    the hardest thing in the world but I'm making it difficult and okay cool okay
+    thank you Isabelle um H this next part I hope I don't I hope I don't die on camera
+    but if I do just analyze the data okay okay um so for this one I am going to record
+    I'll say three because that's what I wrote uh but this is going to be standing
+    high jump so I'm going to try to jump as high as I can from a standing place and
+    again think about think about what that will look like think about what it will
+    look like at this level think about what's happening at the physics level where
+    is the force coming from what when it where is it coming from at the the start
+    where is it going at the end what's happening in the middle um what could be measured
+    what could be inferred what additional data will you wish you had um and if I
+    break anything you know you can have questions about that okay uh I don't need
+    a timer for this so record so it goes in here hello I don't want to whack myself
+    there God I used to I used not weigh as much okay and and that's all the knees
+    I have today I ask do a little bit more okay so big jumps discreet jumps pauses
+    in the middle lot of arm swinging and knee torquing this big hip joint doing its
+    thing and some amount of air time some amount of cheating in the air time oo uh
+    okay um
+- dur: 180.0
+  end: 3960.0
+  start: 3780.0
+  text: see this going to stay on when I do this next part if it does probably this
+    will be more probably be more reliable uh okay okay so now instead of doing sub
+    veral discreet high jumps I'm just going to bounce in place uh and I'll bounce
+    in place for as long as I want to which I'm not going to ask anyone to time it
+    I'm just going to go until I want to stop may do at least 10 and then I'll just
+    go until I'm tired and I'm already tired so we'll see how that goes oh also pointing
+    out I pulled my legs up I pulled the pants up both to expose the nice pale skin
+    below which does well this feels bright to us but our eyes um the human eye is
+    incredibly good at adjusting to changes in luminance so relative to like a sunny
+    day it's basically Pitch Black in here and we're just really really good at adapting
+    to that um but so I exposed my legs both because they are lighter and they are
+    contrasting with the carpet but I'm also trying to give the cameras a view of
+    my knee um as opposed to having it be blocked again like if you're trying if you're
+    trying to predict where my knee is it's going to be way harder if it's being covered
+    by cloth than it is if it's directly exposed so it's not just a fashion statement
+    it's empirically grounded okay so yeah so we'll say we'll call this discret jumps
+    and we'll call this repeated Hops and boun so again thinking about the behavior
+    thinking about the mechanics thinking about the joint torqus thinking about the
+    fatigue where does the energy come from what did I have for dinner last night
+    these are the questions of biology okay I'm not going to drop time it okay so
+    record standing here give that nice calibration of and now we hop okay one 2 3
+    oh my God there's just so many people looking at me it's fine also I wonder there
+    like are there people below us are they wondering what's happening I don't know
+    how long have I been jumping how many jumps was that I don't know okay I think
+    I think that's playing 10 more okay one two three four five six 7even 8
+- dur: 180.0
+  end: 4140.0
+  start: 3960.0
+  text: nine 10 okay done okay great data collected not processed um okay um let me
+    see if I can get this thing running I'll give it one one more College try as they
+    say oh I need to get myself enough time to clean up too okay good all righty so
+    let's see so UV V not that's to look like dot V come on do this from a terminal
+    V uh dot V scrips activate EV sync punch that and free mo cap there SK oh Skelly
+    cam damn it
+- dur: 180.0
+  end: 4320.0
+  start: 4140.0
+  text: do scripts activate you sync and REM cap huh huh huh huh oh right you can't
+    see anything sorry sort of the fundamental nature of working on anything for any
+    length of time particularly if the thing you're making is something that other
+    people are using uh the version of the thing that other that the people are using
+    is the version that you are like ashamed of because like I the code for this I
+    wrote years ago I've learned so much since then that when I look at this I'm like
+    oh my God I'm so sorry to the world for what I've done to it okay so this is freemo
+    Cap this is the core software um then if I do that I click on that say set active
+    recording yes yes run calibration from active recording run calibration okay so
+    we're now running calibration data um and it's going through I can put my shoes
+    on at least um it's going through and uh detecting the boards in the screen um
+    it'll take a little bit of time but at this point I think we should be able to
+    get like we'll be able to look at something by the end of but before the end of
+    the day which will be good does anyone have any burning questions while we're
+    while the thing is running it's one of those things like I'm sure there are many
+    questions so does can anyone choose one question from the many that are floating
+    around I also made a mistake because I was like talking during this calibration
+    thing so I was like doing it and at some point I was like blah blah blah and then
+    so it's longer than it needs to be uh which is rookie mistake this is the code
+    that I am like currently rewriting like I'm currently uh rebuilding the calibration
+    part of it which will allow it to do much
+- dur: 180.0
+  end: 4500.0
+  start: 4320.0
+  text: more it'll be faster okay um I guess I could look at the other stuff but I
+    don't really want to do that that feels like cheating like I have recordings from
+    the past but that's that feels like cheating right now um yeah H okay yes okay
+    now this stuff is going through yeah great so now now now you have this object
+    should I can't write now for some reason so camera 0o camera 1 camera 2 camera
+    Matrix and then these are the two points that matter rotation 1 2 3 translation
+    1 2 3 camera one is defined to zero so these are the six degrees of freedom that
+    we need for each of the cameras so we now know where all the cameras are these
+    are measured in millimeters and theoretically you know 1 and 1/2 so 1 1500 mm
+    is like 1 and 1/2 m th M so they say that they're you know meter to two apart
+    which checks out intuitively so now that we have that uh we can okay I think let's
+    look at the jump the big jump that's the most fun one I think so that was the
+    actually yeah oh it's kind of off screen there but we'll see how that goes uh
+    set is active recording okay these most recent calibration and that probably the
+    shortest too so go ahead and process okay okay so if all goes well do you see
+    my blender you do see my blender
+- dur: 180.0
+  end: 4680.0
+  start: 4500.0
+  text: great so now what it's doing is it's going through and in each of the videos
+    it's going through frame by frame um so let say if it's a you know a thousand
+    frames of recording which is you know whatever 30 seconds or something less than
+    30 seconds actually um then for three cameras you have 3,000 total images and
+    then in each of those images you have to run through and do the relatively heavy
+    computation of using the convolutional neural network to try to detect where the
+    person is in the screen uh in the recording and that will look oh actually that's
+    from old okay never mind um yeah and so then once you have done that you will
+    have 3,00 two-dimensional estimates of where I was in space coupled with estimates
+    for where each of the cameras were in space and so you can do don't worry about
+    that that's normal um you from so from the the two-dimensional estimates in the
+    images plus the six degree of Freedom positions of the cameras you can triangulate
+    the position of each of those point points by basically just imagining firing
+    a laser so like tracking my elbow from camera 1 2 and three if you imagine you
+    fired a laser from each of those cameras the place where the lasers cross over
+    each other is the position of that object in space um and all of that is going
+    to happen under the hood very very fast and it's all just a bunch of like like
+    that kind of geometry hasn't changed in like a thousand years it's the same stuff
+    that that's like uclid level geometry it's just now being done much much much
+    faster on a strange rectangle of silicone and electricity um but yeah once this
+    pink line oh are we still running oh good we can actually yeah so it looks roughly
+    like that so this is the output from one of the videos so this is so from the
+    perspective of I guess that camera this was the location of my right shoulder
+    that's the left shoulder there's a bunch of points on my face these are hips ankles
+    toes basically tagging all the joint centers in two-dimensional image coordinates
+- dur: 180.0
+  end: 4860.0
+  start: 4680.0
+  text: um which we can and so yeah so that's all well and good it's useful information
+    but you would have a very difficult time doing any of the the because you don't
+    really have a measurement in this case of like where the ground is like you don't
+    really have a measurement of what up is you have up in the image but you can see
+    that the image is tilted so if you're want to say oh you're moving relative to
+    gravity like if you want to say your balance over your feet those are all terms
+    that happen in the reference frame of like the physics we said we call it the
+    inertial reference frame um and this data is all coming in in camera sensor reference
+    frame this is 0 in image coordinates just the upper left point of the screen and
+    that's 0 meaning the upper left corner of the little silicone wafer the at the
+    back of the camera thing um so converting that into something that is it's very
+    strange that that one is like running so much slower than the others um but to
+    be able to be able to talk about this data in sort of these physically grounded
+    terms that we've been trying to sort of build up uh requires a transfer and sort
+    of a lot of computation to sort of to get this data referenced in a inertial reference
+    frame okay what is going on okay cool um so now the pink lines are gone which
+    means we've done all the 2D estimation and this white much much faster line is
+    doing all of the triangulation so so uh 550,000 data points uh just cranking yeah
+    and now how we going doing that recording data this takes a s now okay yeah it's
+    now saving stuff down to disk and now it will with any luck start cranking yeah
+    come on buddy yeah yes and so now this this part of the code is now sending so
+    at this point we've we've we've we've done the main task we've recorded the PE
+    the person we've done the two-dimensional thing the 3D reconstruction has actually
+    already
+- dur: 180.0
+  end: 5040.0
+  start: 4860.0
+  text: happened um and now a very important often neglected step is occurring which
+    is converting it into a human into some visualizable format so something that
+    we as humans can look at and make sense of because saving all the data out until
+    like a massive CSV Excel spreadsheet is good but like it's still not a a term
+    that we can really make any sense out of so or a format that we can make sense
+    out of so this is blender which is a 3D animation software and this is where we
+    see if it actually worked well which I feel let's see how it does so I'm not in
+    the screen there we go here I am it's okay so this one is not looking the best
+    so you see this one it's um the image is upside down is it going to it's going
+    to fix oh man there we go so that was actually a nice uh case where this is a
+    good view this is a good view this one it's seeing the skeleton upside down uh
+    so this reconstructive view is not going to look right because a third of the
+    data is flipped upside down and luckily I took a few steps forward and then it
+    fixed itself and so now this is a much better looking skeleton um see time go
+    can't time so now that I know it works I can blame the point um it's a little
+    bit rotated which I can fix later so rotate around X there you go um this pink
+    and blue ball here is the calculated Center of mass um the skeleton is sort of
+    more for visualization than actual data um this these stick figures here those
+    are the rigid bodies that I was talking about so this is the the thigh the upper
+    arm things like that and cool yeah great and so now okay so it's not the best
+    data I've ever gotten in my life it's just very dark in here um um but it's not
+    bad and if I
+- dur: 180.0
+  end: 5220.0
+  start: 5040.0
+  text: look oops so that is the trajectory of my center of mass in the Z coordinate
+    so the ground plane we're going to call XY up is z um and yeah and so this is
+    a Time series plot we talked about these last time so the x axis is time and then
+    the Y AIS is whatever the the Z value that is the height that's the height of
+    my center of mass above the ground and if you recall so if gravity didn't change
+    my mass didn't change so that means the height tells you my potential energy uh
+    if we assume that this is where I'm this is my standing height we can call that
+    zero if we want to that's zero potential energy and then here we see something
+    interesting happening so before I you've seen this several times now I do got
+    to stop and we're going to talk about this at length next time um but just imagine
+    at like my center of mass level like we have some guess about what this Behavior
+    corres responds to um so think about what is this dip what is this peak and what
+    is this dip again and oops wish I didn't do that come on there we go so there
+    we go that's my lowest point skeleton's kind of screwy uh just because it's a
+    weird View and I'm kind of off screen here um but going to go up and that's the
+    peak that's the apex of the jump that's the highest this is the place my my potential
+    energy is at its highest and my kinetic energy in the in the Z position is zero
+    I'm I am paused at that height um and now I'm coming back down and again the the
+    the data is not the best in the world but you can see that kind of I don't just
+    land with like straight legs I land and I bend into it there's intuitive reasons
+    why but then there's also like deeper biomechanical and biopys and physiological
+    reasons why why this is a lot of energy I have to bleed off and I don't want to
+    Bleed It Off directly into my joints I would rather bleed it off
+- dur: 180.0
+  end: 5400.0
+  start: 5220.0
+  text: into my soft tissue and let the muscles kind of pull against it so that I
+    don't blow out my Meniscus or something like that um and then I do it again and
+    so this is also kind of a nice example of why the center of mass is such a nice
+    measurement because even in these cases where the data is not that great and the
+    skeleton gets all wble garble in these in these particular moments the overall
+    trajectory is roughly speaking what you would expect it to be so even in context
+    where the data has you know Fidelity issues uh you can still talk about the global
+    data because it's basically a giant smoothing algorithm to just collapse this
+    entire thing down to a singular point we uh and then I really I I got to go but
+    I can't help myself uh in range around frame 3030 calculate the whole thing okay
+    let play so that is is the frame by frame measurement of it you can see this the
+    3D trajectory oh why did it go oh it's not doing the whole path oh cuz it's much
+    longer than that uh dat paths all paths there you go and here we can even take
+    the whole guy hide him hide him so that is the mechanical estimate of the global
+    Behavior okay I will take my time I'll I'll clean this up um and think about think
+    about the things we talk about make some general predictions um I'm going to make
+    an assignment for y'all for next uh for the next for next week about talking to
+    the bot about predictions around this data stuff and also about just like the
+    concept of units and measurements and how it applies to your particular domain
+    of inquiry um but just you know chew on it with your brain
+video_id: ezeMpNFrZ4c

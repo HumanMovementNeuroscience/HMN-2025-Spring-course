@@ -2,7 +2,7 @@ import asyncio
 import logging
 import yaml
 from pathlib import Path
-from typing import List
+from typing import List, Tuple
 
 from .base_processor import BaseProcessor
 from ..cache_stuff import CACHE_DIRS
@@ -19,7 +19,9 @@ class TranscriptCleaner(BaseProcessor):
         logger.info("Starting transcript cleaning")
         raw_files = list(CACHE_DIRS['raw'].glob('*.yaml'))
         processed_transcripts = []
+        tasks = []
 
+        # First load any existing cleaned transcripts that don't need refreshing
         for raw_file in raw_files:
             output_file = CACHE_DIRS['cleaned'] / raw_file.name
             if not self.force_refresh and output_file.exists():
@@ -28,15 +30,32 @@ class TranscriptCleaner(BaseProcessor):
                 processed_transcripts.append(processed)
                 continue
 
+            # Create task for files that need processing
             video_data = VideoTranscript(**yaml.safe_load(raw_file.read_text()))
-            processed = await self.process_transcript(video_data)
-            processed_transcripts.append(processed)
+            tasks.append(self._process_transcript_file(
+                video_data=video_data,
+                output_file=output_file
+            ))
 
+        # Process all remaining transcripts in parallel
+        if tasks:
             CACHE_DIRS['cleaned'].mkdir(exist_ok=True, parents=True)
-            with open(output_file, 'w') as f:
-                yaml.dump(processed.model_dump(), f)
+            results = await asyncio.gather(*tasks)
+            processed_transcripts.extend(results)
 
         return processed_transcripts
+
+    async def _process_transcript_file(self,
+                                      video_data: VideoTranscript,
+                                      output_file: Path) -> ProcessedTranscript:
+        """Process a single transcript file and save the result."""
+        processed = await self.process_transcript(video_data)
+
+        # Save the processed transcript
+        with open(output_file, 'w') as f:
+            yaml.dump(processed.model_dump(), f)
+
+        return processed
 
     async def process_transcript(self, video_data: VideoTranscript) -> ProcessedTranscript:
         """Clean a single video transcript using AI."""

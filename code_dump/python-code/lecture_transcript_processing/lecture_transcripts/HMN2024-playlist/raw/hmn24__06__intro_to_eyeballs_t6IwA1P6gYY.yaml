@@ -1,0 +1,1717 @@
+full_transcript: and recording great hello everybody Welcome to whatever today may
+  bring um yikes so uh let's see a lot of things a lot of sort of technical things
+  that nobody asked for have been partially completed um so today the topic of the
+  day will be eyeballs um specifically like the basic biology Neuroscience of how
+  your eyeballs work and connect to your brain all that kind of stuff um and we're
+  going to get to that but that's that's going to be another kind of like in the spirit
+  of the motor hierarchy thing where I have less prepared because I was making these
+  things um but this is a topic I know a lot about and so this is some some mainly
+  going to be trying to give like a large scale overview of all of the relevant of
+  as many of the relevant parts to Vision as we can get to um and then sort of see
+  where that gets us uh and then next week we'll talk about Evolution and then we'll
+  take stock from there because there's a couple other things I want to get done this
+  semester um at this point in semester y'all are probably wondering about your grades
+  don't worry about your grades just show up check boxes you're fine um the concept
+  of grading is about ordering you relative to your performance relative to your peers
+  and I just don't think that's a valuable form of Education um there's a really awful
+  but very formative paper written in 1970 called higher education as a filter written
+  by Kenneth filter Kenneth no Kenneth arrow with the premise being that what we're
+  supposed to do in higher ed is give you guys a chance to outcompete your peers so
+  that the purchasers of Labor know which one of you are the good ones who are worth
+  the money and uh that in general and that's not what I like doing in my job um I
+  do not care about how you perform relative to each other I don't even know what
+  performance would mean in this context um so don't worry about it talk to the bot
+  as long as you as long as you have like at least a thousand words written in this
+  in the server which I'm pretty sure almost all of you already have um you're fine
+  even that like just that's you'll be fine if if anyone is a problem I'll let you
+  know and say hey just check some boxes so that I don't so I could stand up to audit
+  I guess if I need to As Long As I don't record it and put it online anywhere um
+  yeah so don't stress dear thing uh I'm sure you have plenty of other parts of your
+  life that are adding stress so focus on those um education doesn't have to hurt
+  learning doesn't have to be a painful process if you feel that here doing great
+  okay where are we now so um I did a big refactor of the AI code uh refactor in the
+  context of code and software basically means like redoing it like rewriting it like
+  changing the structure up cleaning things out it was kind of a lot of like code
+  that I wrote Under duress like at sort of like over the past several years in various
+  classes so when there's a very important rule that you unfortunately are also not
+  really prepared they're not it's not really a part of the undergraduate education
+  to focus on things that last for longer than a semester um and you guys are really
+  given this I think pretty awful approach to productivity which is like here's a
+  shortterm hard deadline get it over the case throw it away start again from scratch
+  and if you're going to be working on something you work on it a lot for a long time
+  and then it'll get better and better and blah blah blah that's not really how the
+  world tends to work typically things are much more iterative and you sort of work
+  on the same thing over and over again um and when that happens you can kind of get
+  to this point where you're kind of like blocked by your own work um in software
+  they call it Tech debt like you have a bunch of like slop that you every little
+  sloppy decision you made along the way kind of builds up um and so it's very important
+  to like often just like take a step back and kind of like restart um it's again
+  a very counterintuitive thing that it like like throwing all your work away and
+  starting again from scratch is often a very productive way to live your life because
+  often when you start a project it's more Discovery and then once you kind of know
+  what the structure is recreating it with the end point and the starting point known
+  can often lead to much cleaner work all that is to say um I rewrote the code and
+  now it does some neat stuff um well it does the same things this one of the frustrating
+  about refactoring code it actually has very similar functionality but now it's cleaner
+  you can build off of it and one of the things I built off of it was uh looking per
+  student um so and then some other stuff which I will show you shortly so let's take
+  a quick um quick sort of pass through that do time okay yeah yeah I'm not going
+  to get too into the Weeds on this although we want to uh so most recent server thing
+  same as before just download it here um there might be a couple extra things in
+  the zip file but don't stress about that and so grab that and if you open it now
+  in obsidian uh open folder as a vault paste that go there uh probably actually this
+  one yeah select that it's white always white I don't know why actually not always
+  white always white on this computer when I open a new one while my other computer
+  doesn't do that dark mode because light is effort um okay uh so it's quite similar
+  um to before um the main difference is I also change the way that I do the like
+  the call to open AI to do the AI analysis stuff um and the new way should be cleaner
+  it should like have less slop um hard to tell numerically but just generally should
+  be more robust and also now there's this server there's this little U what's it
+  called folder called by user which is basically I I went through in every chat that
+  your IDE appeared in is sort of smushed into there um I didn't really do any anything
+  beyond that uh and so there's a bunch of files in there they're user idore and like
+  your Discord user ID um uh because the other thing I did is by so with the way that
+  this like weird world of AI text analysis Works um you can kind of do the the scale
+  of the text is you can be pretty like goall about it like you just make kind of
+  a machine to analyze the text you just throw different Blobs of text into it so
+  up until this point the only analysis was done at the chat level so at the level
+  of those threads you were sort of doing summaries and pulling out things that look
+  like this um but part of the refactoring was making it more generic which is often
+  what happens um and so now it's also set up that instead of dropping in a chat I
+  can also drop in like every blob text in a particular category um so this is I'm
+  actually not sure so this is basically like the summary of the text channels category
+  which is not a very exciting one um but the so every folder with a category also
+  has a thing says category index um and this is the summary of everything that happened
+  in that category and then you can also go into individual channels and channel index
+  so it's the same thing so it's kind of this there's this multiscale thing happening
+  here which I think is kind of a very general idea in a lot of the natural world
+  where you have this kind of like the term is like scale-free structure where you
+  can do the same analysis on zoomed in version of the thing as well as the zoomed
+  out version of the thing um so and then yeah and then that does sort of interesting
+  thing to uh yeah so and then by user or know what this is going to look like yeah
+  I don't I don't actually this person see it's like this it looks like this person
+  only has one chat but I don't trust the code enough to trust that so if that is
+  you and you have more we'll probably clean that up um but yeah so theoretically
+  you should be in there so now if you look at the graph view we again get just the
+  white dots of nothing until we add tags and now we get this kind of thing and we
+  can do as well let's see so we can do groups new group and then we look for file
+  colon uh user ID and then we can look for file uh channel channel index actually
+  just do index and we're getting sort of this interesting kind of structure there's
+  still not like a ton of navigability here um largely I think because of H obsidian
+  works but basically actually I can do now a search so I so in the filters I do file
+  colon user ID user is just kind of a generic term for anybody using a thing in this
+  context user kind of means student um I'm also in there uh but yeah so now these
+  so the blue dots here are the chats for a given one of you uh and I think if you
+  just search for your user ID you'll find yourself um and I'll I'll make better ways
+  to navigate this but with oh come on now dang it right so groups file user pink
+  bright pink so theoretically here this is also a place that I wish that I had more
+  control over like what is visible at which point and you know like I wish I could
+  make the tags have less pole than the other ones but that's kind of limitation of
+  uh obsidian but this is a you doing that oh text fate distance be brighter okay
+  Center Force so this is now starting to get at like a map of y'all's actual proper
+  interests so if I hover over one of these pink ones which are the students um this
+  particular person has interest in so things like Neuroscience are obviously very
+  highly connected because everyone has been talking about Neuroscience stuff um and
+  just so again just to be clear this sort of summary of a given person is every single
+  chat all the text of every chat that they have even been tangentially a part of
+  so if you even just sent one message and one in like a 50 message Chat that's all
+  in here um and then it runs through and says hey give me a give me a title give
+  me an extremely short summary give me some highlights give me a very short summary
+  blah blah blah blah blah um so these are the things so for you these are the things
+  that just emerg from the statistics of what you were talking to the machine about
+  um and like lose again damn it that is so annoying a file user user all right it's
+  fine poies to any red green color bind people in the room um so for example good
+  old user 12830 95453 45953 3792 uh has the main tags that came out of them which
+  again like don't if if your favorite thing didn't come out if the thing if like
+  if you don't think this is a good representation of you um just know that it's like
+  the bot's kind of dumb like it it doesn't know like it can't tell if you're excited
+  it can't tell like if it's if it if you said something and it said a bunch of stuff
+  about something you don't care about it can't tell that cuz those words are in the
+  data um so this will person so 53792 is the last digits has an interest has interest
+  in Neuroscience epidemiology public health and hallucinations this is one of those
+  where like that's the only epidemiology which I know isn't true because I know that
+  y'all been talking about that but like pick this person over here um you know so
+  they so they they're now so the motor hierarchy tag is connecting these two people
+  um and you know so like all of these people have said enough about biomechanics
+  that it showed up in their message uh or in their summary um this this one motor
+  control so theoretically um not quite yet but this is kind of a it's a landscape
+  of like an interest map so this is sort of it's different I think like these are
+  not because if your guys are because there's in the the larger scale thing in all
+  of this this is everything that was discussed at all like this was the total conversation
+  and a lot of this could be cleaned up blah blah blah um here the the gray dots are
+  just any chat um but once you start looking at the the statistics of the user based
+  stuff we start to get the things that like hypothetically like if you are going
+  around and every time you're in a chat you mention epidemiology it's going to show
+  up here differently than would show up in the general statistics because we're now
+  grouping by particular factors and that particular factor is roughly one per human
+  um so that's cool uh so we can navigate that and um sort of uh I need to make a
+  better like interface for navigating that but it is technically there uh the other
+  thing that I did is related to this concept so this is this is the place where I'm
+  not going to go down this rabbit hole although I will do it later in the semester
+  um we've talked a bit about 3D space and sort of like objects exist in 3D space
+  and you can have XYZ data and in spatial Dimensions so if you're thinking about
+  data if you have up to three dimensions you can plot that spatially by just putting
+  XYZ as you know length width height or whatever um and so if you have two data points
+  in a three-dimensional space you can measure distances between them um which is
+  you know ukian geometry not particularly exciting or it is exciting but it's probably
+  not it's probably familiar um there's a there's a strange corollary to that in this
+  world of AI natural language processing um that relates to the concept of an embedding
+  um and basically in the same way that each one of those Blobs of text can be attached
+  to uh can we keep run through that summarization scheme you can also get the the
+  embedding of that blob of text within the very high dimensional space of the language
+  that the language model has access to um I'm not going to be able to say this in
+  any way that makes sense in the short in a briefly but basically instead of being
+  like threedimensional things like each blob of text that an AI an open AI B llm
+  processes is embedded in a 1532 dimensional space so 1,53 too and so a given blob
+  of text gets put into that space and the that location in that super high dimensional
+  space has something to do with its meaning and in that space you can also do things
+  like measure distances and see like things that are close together are similar in
+  meaning and things that are far are dissimilar in meaning this is kind of how like
+  search engines work it's a little goopy um but um what that means is that you can
+  take all of the text that was generated and get these embedding vectors which are
+  these 1500 long numbers do some weird math to collapse it down into three dimensions
+  and then look at the sort of space of conversations that we've been having within
+  that sort of strange spatial Dimension um so I did that uh again this is not going
+  to make a ton of sense it's going to make a like a strange abstract kind of sense
+  um but we're going to we'll come back to this and I'll make it a little bit better
+  but basically this this strange orb um one of the many strange orbs I've shown you
+  this semester um but this orb uh represents the sort of the threedimensional projection
+  of the 1500 dimensional vectors associated with with each of the chats that have
+  happened in this class so each one of these little markers and dots represents one
+  chat um and sort of its position and the the the I think how did I do this I think
+  it's color oh I think each each Channel category pair is a unique color symbol pair
+  so all of the blue dots are things that happened in the general text Channel all
+  of the purple squares are the center of mass balance channel in the lectures category
+  and you can see that they kind of they they lump together so the purples are all
+  close to each other um and sort of some of the overlaps are knowable so this or
+  interpretable I guess so this orange is from the motor hierarchy lecture it's a
+  chat about motor hierarchies in basil gangle from the motor hierarchy lecture which
+  shows up here um by the way in the zip file there's an HTML which will open up the
+  sphere part of that it won't do this part because I I don't know how to if that
+  runs from my computer I will figure out how to share that but you can you could
+  if you just open that HTML it'll just be that and it won't have this associated
+  with it um but so this is a chat in that channel about motor hierarchies and Basel
+  ganglia this one right next door to it I don't know what it is but it's going to
+  be similar Huntington's disease and motor control happening in the general text
+  channel so there's like down here I have I this I lost some time to it this morning
+  this is the the Sea of Bot playground um because I I this is I tried to remove it
+  and it caused some problems and so now there's this blob of chats that are not about
+  the topic of the course and you can see they're all kind of like stuffed down here
+  in this like sad little zone so uh I want to remove them because that is like real
+  estate that's not being taken care of um but so this is the general space here is
+  called cluster analysis I'm looking for lumps and clusters and large unstructured
+  data um and the I think the the next phase of this will be to try to clean up some
+  of the technical stuff um but also now that we so this is just the chats but as
+  I just mentioned before um we also have your actual individual Student Self user
+  self so uh it would not be too hard but I wasn't able to do it today um to basically
+  take each of your Associated text gooal and calculate the vector embedding of it
+  and then plop those markers on this sphere um and then you know look for some distance
+  score and say okay students that are within this range of each other have similar
+  interests uh chats that are kind of it would be kind of like if I PL like if one
+  of you popped up here then there would be this sort of group of chats that it's
+  like hey these things are probably relevant to you this is basically like a recommendation
+  system now that I say it out loud it's kind of how like Netflix and stuff works
+  like that um but yeah so uh these are also chats I want to also plot the individ
+  ual messages within the chat um specifically like the what I've been calling couplets
+  which is like you say something and the bot responds so that like two message couplet
+  um would be interesting to put on here um and then yeah sort of this is my my homework
+  assignment of trying to figure out how to basically how to Wrangle the very large
+  unstructured stuff oh another thing I could definitely do um which I've mentioned
+  before it's like do a second pass through cuz right now it's processing each text
+  blob kind of independently um where it's saying you know for for a given blob of
+  text it's like you know just it's extracting all these things independently and
+  specifically it's extracting the tags um independently um which is not really ideal
+  because it means that there's some there's probably some like synonyms happening
+  that could have been the same tag that would lead to better structure uh one second
+  um but yeah so I think if I were to go through and do the first pass get all the
+  tags and then run that through and say hey AI condense these down into like you
+  know 40 or 50 and then replace the ones that are sort of covered so that there's
+  a total of like 50 total tags then this would be a much more sort of structured
+  mess but uh but yeah uh is that hand what's that so the red dots are what happens
+  if I type if I hit groups new group um and I in the in the the group I type file
+  colon user ID um which is basically just coloring all the dots associated with files
+  that have user ID in the name as red um and if I filter by that and I say only show
+  those then this is showing the red dots are the are the the notes damn it I always
+  do that it doesn't remember um and then the green ones are the the tag so the the
+  the hashtag words yes yes so each I checked the number um I didn't check I didn't
+  actually like connect it to your actual ident enties so I don't know which one of
+  these is which but uh that is hypothetically there's one dot per human um and then
+  there's also one dot per markdown file in this by user folder and if I turn on the
+  tags so just view the tags those will show up as green and so the ones that are
+  connecting are ones that are shared so all of these connected red dots the AI says
+  that when I was looking for tags associated with the words these are all people
+  who talked about Neuroscience enough to get a neuroscience tag um and so yeah and
+  the again the there's just the limitations in how there's only so much I can do
+  with the visualization here but um the big ones are ones that are more connected
+  and the small ones are the ones that are like this would be called an orphan because
+  it only has actually not an orphan it's just um it's not a connected thing only
+  only this user has talked about surgery enough for that to be extracted as a tag
+  um so if you're like and what does that all mean it's like I don't know working
+  on that this is part of the joy of Discovery is I don't know either um this whole
+  thing is basically an experiment in like experimental the term is pedagogy which
+  means the teaching of children I don't like that term because it's weird um androgogy
+  is a teaching of adults which I think is when I think about it that distinction
+  is like I think pedagogi is like much more handh holdy and Andre I think of as like
+  I'm going to teach you how to do stuff and then you do that stuff um so it's Andrei
+  is like adults so I don't know so this is basically uh trial four in my continued
+  exploration of how can we use AI to teach better and burn the world to the ground
+  um that's later not out of scope for this class um great okay so uh yeah so you
+  can explore the obsidian stuff um you can also theoretically open this HTML file
+  and it will open partially that sphere um you are supposed to be confused at this
+  point there is not if you're like I don't know what's going on that's correct uh
+  we are exploring and confusion is the proper State when when examining anything
+  related to the Natural World okay oh and if you're a Cody person um this oh you
+  actually may not have this um never mind the the full server data is now 180 gig
+  sorry megabytes of just numbers and letters um which is not currently available
+  to you but I wouldn't really recommend trying to dig through it anyway it's mostly
+  like repeated text and like those many instances of that 1500 uh digit number okay
+  cool so eyeballs right got that um I realized that I actually have a where where'd
+  you go um I have a video of myself wearing an ey tracker from a previous previous
+  life um that I can share a sort of like remind ourselves how eyeballs look um so
+  I have I put a lot of stuff on this YouTube account um John math is it probably
+  Linked In the server somewhere um it's kind of a way for me to communicate with
+  other researchers like the numbers are small but consistent um but there was a time
+  in my life when I was making more internet sort of public appealing stuff and one
+  of them was this video of me playing OverWatch in my living room in Texas that got
+  have 300,000 views um and I think it's like from a different iteration of my life
+  where I was like much worse at making these kind of visuals um but it is is it playing
+  I guess it's playing at full speed so this is same basic eye tracker slightly different
+  visual um and I'm in my apartment in Austin Texas as a post do and I'm calibrating
+  to this little I have a laser pointer so I'm using I'm just looking at that and
+  I calibrated it after the fact and then this is the the data that I wish I had been
+  able to show in real time uh last time uh and it shows the X position so the horizontal
+  position is blue so if I look go left to right it'll go the blue will go up and
+  down and the Orange is y in that direction there and I'm playing a g playing OverWatch
+  is a game where you shoot people with cartoons I don't know um and I'm playing around
+  as roadhog who is a character in that game anyone played OverWatch anyone please
+  thank you great appreciate it um so video games are a really interesting I think
+  just like perceptual motor task because they are like very visually complex but
+  the motor commands are are quite limited and the task is often very well defined
+  like you have a certain this is a competitive game where you have people trying
+  to shoot each other and you go out and so you have this is where the bullets go
+  this is your health bar and these are your abilities they you use them and they
+  cool down um and this particular character is like big and slow and has like a powerful
+  thing here so you can see there's kind of like so the task is very clear of like
+  win the game don't get shot so much that your health goes to zero and then use the
+  abilities to like stay alive um so first of all you're seeing a lot of this I mentioned
+  like people don't blink when they're doing stuff that's hard so all of these kind
+  of gaps here are what's happening before the game really starts and you can see
+  I'm blinking all over the place eventually people will show up and I have to play
+  the game and I start blinking a lot less um so here you have is that yeah so in
+  YouTube you can go frame by frame with period and comma if you didn't know that
+  um so you see kind of like as I'm coming around this corner here I sort of Scot
+  over look through that thing you can see the jumps down here I guess I'm recording
+  this at 30 FPS which is unfortunate so those little jumps are sads um and and so
+  yeah so you see here coming here's a big jump in X and Y at the same time which
+  is a diagonal um so it's going to be positive x negative y so it's going to be I
+  guess in that direction yeah so that's yeah that's so this is the first time I look
+  down here at the ability so this shape is going to become more familiar because
+  this is a diagonal down to this way um and then making a blink during a aod like
+  we do and then this is checking the other side which is the health bar and then
+  back to Center uh we tend to really like our eyes to be in the middle of our head
+  um this is our strong preference so when we're making eye movements in the real
+  world uh there is a pattern that is a stereotype pattern of if I'm trying to redirect
+  my body in a particular direction my eyes will go there then my head will go there
+  and then my body will go there and then I'll move so there's kind of a a trade-off
+  there where the to you want to get the information before you initiate the action
+  and you move the fastest moving things first um but this is yeah then so oops and
+  I'm shooting this guy here see another one of those shapes coming up that's going
+  to be cuz because they tend to start from The Middle um that actually those are
+  positional so that so if the two dots are here and here that's going to be the same
+  place every time so this one is going to be to the same location as that one and
+  this sad you could you know 33 milliseconds per Gap there um so because I think
+  I had already like thrown the hook and so I'm fighting this big scary one and I
+  have to like am I ready can I do it again so I look down uh and then yeah actually
+  that's that same pattern so it's like Center to the bottom left to the yeah and
+  then making these cads here so this four in a row is a big jump happening um so
+  that's 120 milliseconds and you're sort of traveling so that's a big CAD uh the
+  actual image on my retina is blurring when that happens um because of just the movements
+  happening there um okay I'll let let this play a little more here we have one two
+  3 three little sads oh so this is as I'm turning around a corner so another thing
+  I find I've mentioned this before like the amount of information we get in a very
+  small amount of time is enough to change our Behavior so each of these little steps
+  has four dots on it which is again little right about 150 milliseconds which is
+  about as fast as you can move your eyes but enough time to get the information from
+  that part of the visual field and here we are blinking I'm in this empty space I'm
+  like there's nothing going on I have time to Blink um and so now we have also this
+  little curve which the curve I'm not moving my head so it's not v um but I am moving
+  the stick on the controller so the world is moving smoothly and I'm going to be
+  tracking probably whatever this is as that happens nope guess not but uh yeah so
+  running up here then this guy runs out get him shoot him um and so this kind of
+  stuff here like the swoopy things I like small CA like small sort of rolls back
+  um I I started to associate this with it it's kind of like a Vish type of thing
+  V is the head stabilization one um where it's sort of it's not a big CAD it's not
+  even a small CAD um it's a it's more of a tracking behavior um there is some object
+  on the screen that I am tracking smoothly uh and then making these little things
+  little dinky sads here um hard to know exactly what that is but yeah sort of a little
+  those are sometimes called catch-up sods in in the context of smooth Pursuit your
+  eyes can track the thing but sometimes they track it a bit slower so you'll periodically
+  make little catchup cods to sort of like you know I'm tracking this and as it moves
+  over my eye lags behind so I'll jump ahead to get on top of it you can kind of see
+  that happening here as I'm again coming around this corner because I want to shoot
+  this mean Ninja um here's that same pattern again double checking and then I don't
+  need to watch the whole thing necessarily but uh so again so this is this is like
+  this is behavior this is a a task that I performed a visual motor task that I performed
+  at this point several years ago um actually I don't even know when that was 20 some
+  20 something that doesn't start with a two uh and the the the sort of the nature
+  of the data gives us this really interesting insight into the kind of the cognitive
+  task that was being performed um you can see this was something I I had this sort
+  of like vague intuition this intention to like do this for different characters
+  and sort of uh like get different patterns for each of the different sort of like
+  play Styles and stuff like that and it didn't quite work out because for most of
+  the players you're mostly just like staring at the center of the screen the whole
+  time so you don't get the big jumps this guy in particular just because he has huge
+  Health pool and slow coold downs you get that really standard sort of triangle shape
+  that I really enjoy um but it's this interesting thing where like you the ability
+  just like point a camera at your eyes and the screen uh gives you this readout of
+  the physical movements associated with the information gathering process that your
+  visual system is made for and the specific sort of like tying in so yeah here I
+  am blinking a lot um is this is an interesting one little jaggedy bits here this
+  is what it looked like when I was doing those big turns like the this is what that
+  looks like again my head is not actually moving so it's not the same behavior but
+  it is sort of related I am turning in this case but it's kind of like my eye is
+  attaching to a particular part of the world and then sort of Shifting around there
+  and so I'll let this play out because it's only a couple more minutes and I'll just
+  talk over it um but part of the I think like I I I I like approaching the question
+  of how Vision Works from this perspective of looking at it how it's actually used
+  in real life or not real life but sort of simulated real life is an act I was alive
+  I did I did do that um but in that that approach is um very sorry it's hard not
+  to look at it um but the concept of of looking at the going to shad my post-doctoral
+  adviser who taught me how to use an ey tracker and also came up with the idea sort
+  of her her main her name is Mary heho and her main focus is kind of on uh task Dynamics
+  and how the uh so Mary is you know been around for a while I think she's in her
+  70s at this point possibly late '70s um and she kind of was one of the first people
+  to really start trying to study natural behavior um and people moving we won um
+  I think uh right and so notice now too is like now that I'm not now that I'm not
+  engaged so Mary studied natural behavior still does um and when she started studying
+  it in like you know ' 80s uh she had a lot of people telling her that it's not possible
+  like you just you cannot study natural behavior it's too noisy it's not controlled
+  the data you're going to get get the data you're going to get is going to be some
+  messy nonsense and there's not going to be any way to interpret it um because at
+  the time still still now but doubly so back then uh the standard mode of educ of
+  of research was highly controlled experiments people in dark rooms head attached
+  to a vice of some kind um fixating and doing very very simple experiments of like
+  look to the left if the thing is blue look to the right if the thing is red so the
+  idea that Mary was going to try to study people who were less constrained was met
+  with derision um because the idea was that you're not you're never going to be able
+  to get anything meaningful out of data like this that's behavior is too complex
+  and so Mary's idea was to focus on the task Dynamics um which is to basically rather
+  than focusing on the the biological system on its own think about it in the context
+  of what is the task that this organism is trying to actually compete um and what
+  are the things that define success and failure on that task and if we think about
+  things in that context then the data all of a sudden starts to make a lot more sense
+  like if I if I didn't know that the health bar was the health bar was down here
+  and the cool Downs are down here this weird shape that keep showing up would just
+  be a weird shape that keep showing up but because I know the task I can sort of
+  interpret what that is and then if we wanted to we could sort of look at how that
+  corresponds to different sort of this stats and the others um and also start asking
+  questions about like like the speed at which these sods happens H can sort of you
+  know like oh all like the fastest sads are only at this 150 millisecond rate it's
+  like oh well there's people doing the proper Neuroscience that tell us that but
+  you know that if it's moving that fast then that means that the it's more important
+  to get information from multiple places than it is to get really good information
+  from one place um and I wanted to show this thing at the end here so now here that
+  I'm actually not really engaged in a particular task my eye movements are way more
+  all over the place they're far less stereotyped don't see the same shape showing
+  up and if you wanted to you could definitely come up with stories about what I'm
+  looking at looking at but even here in the same exact task same ex same exact environment
+  um you have to start making a bunch of different guesses about why I'm choosing
+  to look one place versus the other because we we always have a task every time you're
+  anywhere you have a task that you're performing um but if the task is not like difficult
+  in time constrained um you're not going to be able to really interpret why I think
+  so it's like you know I like looking at people like looking at faces and I'm looking
+  at his hands people like looking at faces and hands um looking at the rest of the
+  kit and body and whatnot and now it's kind of like looking looking here and so there's
+  a lot of research that kind of tries to interpret data like this of just watching
+  complicated tasks and watching videos and watching people do things um and this
+  is kind of like your pupilometry stuff uh where people you can get the data and
+  you can get the you can you can look at it it's the same data type um but actually
+  interpreting it becomes much more difficult um because you don't actually know the
+  context of what people were doing okay 2:30 12:30 I'm trying to do in time warse
+  let's try to yeah okay so task Dynamics and the study of Neuroscience natural Behavior
+  Mary heho all good terms to look up um and yeah so now let's look so looking at
+  how the the so there's there's kind of these two sides to the question one is like
+  how is the physiological system of of vision used in natural tasks and the other
+  is what is the actual structure of that thing and how do these two sort of How does
+  the structure of the visual system play into to the usage of it in the real world
+  and vice versa um and I think that's probably why I often tend to struggle with
+  like ordering in this class it's like these are all chicken and egg questions like
+  there is no real linear progression that I think makes sense and I think that talking
+  about the physiology absent of the behavior is sort of just as lost as the other
+  way around so um looking so let's think about eyeballs uh should I draw this draw
+  a little bit I I'll get a picture before I draw it why are you going so slow oh
+  it's cuz come on man oh wait yeah so uh open Imes new tab so that's an eyeball that's
+  the side view cutout of the the thing we've been looking at from the front um and
+  the most important thing that you'll notice when you look at human eye tracking
+  data is that we point our eyes at things uh and we move them a lot and we point
+  the the center little cross we tend to put on the thing that we care the most about
+  um where's this line I'm not sure what that line is but this line here so this is
+  called the phobia centralis your phobia is a very important part of your visual
+  system when you point your eyes at something you're pointing this at that thing
+  it is a area of extremely high high density of visual [Music] phobia yeah so your
+  phobia phobia means pit and is basically a place where we've moved the goop out
+  of way so that we have a better view of the actual photo receptors at the eye um
+  I mentioned one point that your eyes are backwards um which is true um rods and
+  cones so we've heard of rods and cones these are the things that are sort of uh
+  let me do this let's let's Zoom back out here okay so you got your eyeball you got
+  your pupil and light comes into the pupil and it'sit the back of your eye um and
+  so the rods and cones are basically like your rods are basically little sticks the
+  cones are a little bit pointier and in inside of them they have um a bunch of things
+  but the most important one okay I got to turn this off I was still running that
+  other thing so the options in your eye are the chemicals that actually respond to
+  the light and they they look like the hexagons your standard standard hexagon with
+  like a sort of long tail coming off of it and you have different types of opsins
+  that respond to different types of light when a photon comes and hits it uh the
+  opson uh changes shape and so one of the sections become what if it kyru or whatever
+  um and sort of changes shape and it gets us kink in it actually think I did this
+  backwards I think it starts with a kink and it straightens out when it absorbs a
+  light but the idea is that the the energy of the photon of the light induces this
+  change in the physical structure the physical chemical chemical structure of the
+  opson and that changes its charge and so that charge is what sort of becomes the
+  neurochemical Cascade that uh Sor the the the the Cascade of neural firings that
+  sort of leads to your perception of light um this is a weird process there's many
+  options there sort of you have short medium and long uh cones that resp that correspond
+  roughly to red blue and green um your rods are don't have the three colors but they
+  only respond to Green um and it's your your night vision is your rods and there's
+  a pereni shift that happens when they're trading off from each it's a whole thing
+  um but the so basically it's this the the lumpy part of the rods and the cones that
+  actually house those opsin in this sort of peaky part here and so you might if you
+  were a reasonable person assume that we would want to point that part the photosensitive
+  part towards where the light comes from um but that is not actually how our eyes
+  are set up um the photo receptors are actually pointing back and then the the wiring
+  that comes off of it uh goes back out through and so when the light is coming in
+  um it has to pass through the the aons of the neurons attached to the RADS and CS
+  rods and cones before it can actually be absorbed um by the by the actual opsins
+  in in your eye um and so that is why the phobia so basically every part of your
+  visual system is worse than it could be um because the light that you were trying
+  to focus has to pass through all of these neuron bodies the of the the the these
+  middle layers that have gangling cells stuff like that there's a whole whole lot
+  going on there the light has to pass through that before it can get to the actual
+  photosensitive area and so the fobia we push that goop to the side so that there's
+  an unobstructed path of the that the light can get through the idea of why this
+  stuff is that way is it's not to be related to when we crawled out of the ocean
+  and our eyes kind of had to we had to carry some water along with us so we could
+  focus the light better and something in that process inverted things I don't really
+  understand that but uh uh cephalopods like squids and octopuses and cuttlefish their
+  I face it's it's faced the right way like their their photo receptors face towards
+  the source of light um there's another sort of troubling aspect of this which is
+  that if all of the wiring coming off of the back of your photo receptors is sort
+  of goes back onto the top of your retina this the thing on the back with the photo
+  seis is called the retina at some point it has to punch back through in order to
+  become the optic nerve that actually takes the data the neural the we call it data
+  who cares the pattern of neural activity associated with the light in the environment
+  has to punch back through your retina in order to get back to the the rest of your
+  nervous system so that means that there is a blind spot on your retina um where
+  you don't have vision and you can find it so if you close your left eye and then
+  look at your um so close your left so right eye open look at a your thumb at arms
+  length and then with your other hand with your thumb up put it like this and then
+  move your thumb to where your knuckle is and it maintain your fixation on that thumb
+  so watch me so I'm looking at the thumb and I'm I never stop looking at the thumb
+  I line up my thumb here and then I move my thumb to where my knuckle was and if
+  you do it right your thumb will disappear okay yeah it's it takes a little practice
+  but for me so if I'm looking at this thumb my thumb is not visible to me right here
+  it's just a empty empty Block in space um so that's another way to do it is just
+  hold your thumbs together um so look at pick your pick the left one so with your
+  right eye um focus on this one and then slowly move the other one out while maintaining
+  fixation on that thumb and it should disappear anyone getting it yeah it just sort
+  of like evaporates it's hard it's hard to maintain fixation on the thing without
+  looking over and also your brain fills in the Gap so you kind of have to notice
+  that it isn't there uh when you're done here just just look up like a blind spot
+  demo and there's some other stuff that will show you there um but it's sort of just
+  one of these main it's like a classic thing to show of this like blind spot where
+  you don't get visual information but you get information from all around it and
+  so but because we have two blind spots and they're not over the same area we we
+  can fill in the gaps and there's interesting research on like if you give people
+  patterns in the blind spot how will the brain fill in the pattern like it because
+  it tends to um and yeah uh so should here's just another example of that so this
+  chunky BET right here is your optic nerve and that's the part that goes from your
+  that takes so you're when you're looking at stuff you're looking at it with your
+  phobia um periperal periperal Vision Wikipedia I'm looking for particular image
+  here um this is roughly speaking your uh field of view for for I think this is per
+  I um in this Central zone right here it's actually not going to be visible here
+  so this is 30 20 10 probably 5 so probably right around this circle here that's
+  roughly speaking your phobia um you also have your fola which is like a smaller
+  area within that space um and then sort of others Z so we have pretty wide vision
+  I mean you know I can see my hands out to here and if I Wile my finger so you can
+  just like interesting games you can play with yourself just kind of like move your
+  hands until you can't see them and then wiggle your fingers and then you can see
+  them because we are more sensitive to Motion in the periphery um and also notice
+  that it's not this is not a circle it's not a ISO like the central part is circular
+  but the whole field of view is laterally oriented because we live in a world that
+  is tends to be laterally oriented um and so our sensitivity is sort of it's not
+  arranged in a sort of circle around our phobia um it is horizontally distributed
+  U we are also Vision oriented Predators so we have a different field of view than
+  if we were um you rodents or equines like goats have the rectangular eyes mice have
+  the eyes that point out to the side um all these cases of like the Ecology of how
+  the animal uses Vision in its ecological niche uh shapes the way that the information
+  that the visual system is set up and as I said before I think I'm not sure if I
+  said it today but it's it Bears repeating that fobia is again roughly the size of
+  your thumbnail at arms length um it takes up roughly 1% of your visual field roughly
+  50% of your visual cortex is devoted to processing the information from that small
+  spot there um so that is that concept is called cortical magnification um and it's
+  kind of why I feel somewhat com comfortable um with these representations that as
+  a as I said like I this circle is roughly the size of the phobia um plus or minus
+  one visual degree um and I think representations like this overemphasize that fobal
+  perspective because we are getting information from the whole thing from the whole
+  field of view um but it is nonetheless I think it's valuable to look at the location
+  of that sort of directed visual Focus because that is basically an indication of
+  this is the part of the visual field that my nervous system wanted information from
+  at this time and I think that concept is very important because it's like I could
+  have looked anywhere and you know but I have to look somewhere and so my cognitive
+  system sort of makes these little decisions about where the information like where
+  in the world do I want to pull information from um and you know if I'm just sitting
+  around you know doing not not so much those decisions are not particularly uh costly
+  but as the task becomes more hard and as the as you sort of start doing more and
+  more complex and difficult Behavior the choices of where to look one place versus
+  the other can be is very um critical uh show this briefly then I'll what we doing
+  on time I won't show this I'll come back to it later in the semester when I we look
+  back at the my main research from this era was like visual control of foot placement
+  and looking at the patterns of path on the ground when you're choosing footholds
+  walking over rough Terrain in that kind of context you only have about you know
+  400 milliseconds per step and you have to find a location on very rough terrain
+  that you're you can support your whole body or you'll fall into a river and break
+  your leg um so that the sort of yeah the niess that there is a aspect where you
+  can um you can get basically a readout of that cognitive question of where in the
+  environment do I want information from um because we are highly fiated IM ey Focus
+  uh Predators we have this nice feature where we can point a camera at the eyeballs
+  do some old school computer vision um to get the pupil Center here and then get
+  a measure both of where the eyes are pointing not not only where the eyes are pointing
+  but where in the environment did my central nervous system want to get information
+  about to complete whatever task it is I'm doing um yeah so I think I can draw fast
+  enough for this the internet is already drawn all the pictures I could care about
+  um optic kaym stop it with the AI so so so you got your eyeballs and you got the
+  optic nerves that come in and there's this part in the middle here where things
+  kind of split apart um and that is called the optic kaym it is optic kaym ioy so
+  Imam was a Islamic scholar in 7 Century uh Iraq um and he discovered optic kaym
+  by doing just old school physiology um so Imam has been called the father of Optics
+  he basically invented Optics he is credited as the person who discovered that light
+  was a thing that you can like measure and do science about like refraction and stuff
+  like that that um and it was later his work was later rediscovered um by good old
+  Des cartez um and translate one of dayarts so dayart you know of cartisian coordinates
+  Fame one of his main things was he was a polyglot he spoke a ton of languages and
+  so a lot of his claim to fame was that he would find these old records written in
+  Arabic and translate them into Latin and then once it's Latin all the Europeans
+  are like wow day cart you're so smart um so this is the model of the eye you can
+  sort of see it's got Vitus humor cornea this was the um so uh the lens so IAM got
+  everything basically right but he didn't understand how the lens worked um so he
+  just had some comment in this thing that there's some probably some Demon that lives
+  in there and bends the light cuz back back in the day when you didn't know what
+  something how something worked you just said the little demon does that part like
+  the rest of it I can do math about um but that part there's some Demon doing stuff
+  um but you can see kind of all these parts and then these uh what's it called um
+  these are like the muscles and stuff like that and yeah and he's on money in Iraq
+  good for him uh iel heam is his Arabic name you'll often see it or alhazen is for
+  some reason the English term um but yeah and so this is a good representation so
+  showing how things split and so there's this distinction between your visual Fields
+  um and how they map to different parts of your brain so this part I will draw because
+  I think it's helpful but um because we tend to think of as like because we have
+  a right eye and a left eye right shocking um godamn okay so that's one eye that's
+  the other eye oops and this is our brain as seen from above um so you have left
+  hemisphere right hemisphere I don't know why this is my text stack is struggling
+  um and so so like there's lateralization in the brain so like your right hand is
+  controlled by your left hemisphere for some for some reason um and so sort of a
+  naive view might be to think that it's just like the same for your eyes like your
+  left eye connects to your right hemisphere um but it is not actually how that works
+  uh because your left hemisphere so your visual cortex is here in the back um and
+  your left hemisphere handles the right visual field not the right eye so if I want
+  to know about the things that are over here um I don't necessarily want to know
+  about what's going on in this eye but as they project let's pretend I move my eyes
+  um they're going to project on so from the right side it's going to project onto
+  the left side of each eyeball and so we need right so this is the right I'm super
+  dyslexic so this is hard uh so the right the projections from the right visual field
+  need to make it to the left visual cortex so these ones can go straight back and
+  these ones have to cross over and so then if you want to know about stuff going
+  on from the left visual field gu I got to figure out how this stupid thing works
+  come on so this is the so this is an object in my left visual field um and that's
+  projecting onto the right side of each eye so that is the left it has to get to
+  the right hemisphere so these ones can go straight back and this one can cross over
+  and that's this crossing over point there that's called that's the optic kaym um
+  the kaym is actually the The Crossing part but the yeah so this is the this is how
+  those literal wiring like the literal likey back in the 7th century was just cutting
+  open heads and looking at where the the the the optic nerve is like a tough thing
+  like if you ever find yourself in a butcher shop or a pig roast and you feel like
+  being like weird and gross you can go check it out um but it's a very fibrous and
+  dense thing so if you just like open up the head and just see where it goes you
+  can see that it splits apart and then crosses over and then these little guys right
+  here are the um is that Thalamus um I think that is a Thalamus which is kind of
+  like a way station all your senses go through the thalamus except for smell uh because
+  smell is chemo sensation sensation of chemicals in the environment the the story
+  is that that's that is the oldest sense that like bacteria have smell because they're
+  detecting chemical gradients and so that is the only one that doesn't go through
+  the whatever the thalamus stuff um but anyways it goes through here this there's
+  we stuff that happens here like motion s sensitivity stuff can happen there the
+  whole thing of you're more sensitive to this or that there's also some tracks that
+  sort of now but so these ones are going to going going back to the visual cortex
+  proper which is the thing that lives on the back of your brain and then this is
+  where you also get actually some of these tracks don't go to your cortex I don't
+  think some of some of them don't even go to the thalamus some of them go like straight
+  into the spine and straight into like they bypass cortex and give you things like
+  the startle response that happen where visual information makes you move and do
+  like ah stuff like that a lot of like balance stuff has subcortical Pathways that
+  bypass the brain and just go straight down to the spine um oh this is a good image
+  this what I was looking for um oh lateral geniculate body my bad um but yeah so
+  this is this is what you will generally see as the visual path but there are subcortical
+  Pathways that bypass all of the the big pink wrinkly bit on top um oh yeah you also
+  have a blind spot because you have a nose like there's just a part of your visual
+  feel that just like never really has anything going on um so that's kind of I find
+  funny um yeah uh subcortical pathways are interesting um and what else do I want
+  to show here I'm kind of trying to checkbox some things here just because the main
+  thing to sort of to remember here is the this concept of visual field kind of quadrants
+  sort of or or not quadrants necess but like just the idea that you're the retina
+  and the visual Fields have kind of a complic ated relationship that is sort of there
+  a lot of mirroring that happens where you see the picture of like now the the tree
+  is upside down because of how lenses work so you can see like the lower visual field
+  here is on the top down there um so there's this sort of spatial correspondence
+  between um there's a bunch of different angles going on here one is the anatomical
+  structure of the eye itself the other is like the visual field relative to your
+  body I guess so like if I'm sitting here moving my eyes around like my visual field
+  kind of moves with my eyes but my visual environment does not so there's sort of
+  complicated playoff there um and that structure is kind of maintained as it gets
+  back into back through this the the the good oldfashioned just physics and Optics
+  and into the weird goopy electric meatloaf um that spatial structure of the visual
+  environment is sort of maintained um in these kind of weird like split apart and
+  stuff like that so that by the time you get back to the V1 visual cortex visual
+  CeX uh what was I look for cortical expansion what am I looking for here um am I
+  not finding this picture I feel like I'm being let down by people who put pictures
+  from Neuroscience books on what am I missing here feel like why am I not being able
+  to find this retinotopic that's retinotopy that's the term I was looking for sorry
+  retinotopy that's the term I was looking for and not able to find um so the the
+  concept the main concept that to think about here is that there is a retinotopic
+  map um kind of similar to the cartoon of the motor the sensory motor culous the
+  horrible guy that lives in your motor cortex who has giant hands and giant mouth
+  because that's where we have our most sensitivity in terms of sensation and movement
+  um there is also a kind of map in your visual cortex that corresponds to your visual
+  field and they're sort of the the cartoons that we draw about it look a lot like
+  this and similar to the horrible man that lives in your head um horrible person
+  that lives in your head and sort of is the sort of the cartoon monster that represents
+  your Sentry motor sensitiv this is also not it's like we love this story it's a
+  great story it's in every textbook um and it's true to a certain extent but the
+  the data looks more goopy than that like it's not this like perfect beautiful map
+  it's like it's it's more of of this type of thing oh was that know this person um
+  and so if you uh so this representation of the brain by the way the the black spots
+  are the are the pits and then the white spots are the tops so you basically take
+  the brain and like expand it out that's what this represents um and so this is stimulating
+  in the visual field and having this not particular not my favorite color map um
+  you can see that there is kind of a a a striation that happens there where there
+  is that different parts tend to correspond to different parts of the visual field
+  um but it is complicated um uh this is a very famous image I think it may have won
+  a Nobel Prize I'm not quite sure but this is showing the um Superior calculus of
+  a monkey and they yeah retinotopic organization and what they did is they were they
+  were they were stimulating in the monkeys so Superior calculus handles eye movements
+  um and they stimulated like little electrical signals to the to the cortex and generated
+  eye movements that sort of mapped that pattern so also in the same way that there's
+  like both the sensory cortex and the motor cortex and they're kind of paired to
+  each other uh the visual perception system and the ocular motor movement system
+  are also kind of paired through these retinotopic Maps um because if I have you
+  know if there's if I'm looking here and there's something in the periphery that
+  I want to see this retinotopic location sort of you know I'm I'm fixating here but
+  there's some bright little shiny thing that shows up in the upper right that is
+  also the coordinates that I need to know to make an eye movement to fixate on that
+  thing so there's this there's a linked map that I've been talking about V1 which
+  is that's the stuff in the back of the brain um that's your perceptual system that
+  is not your ocula motor system that ocul motor system is more spread out and weird
+  um we're going to talk more about that during next class we talk about um we're
+  going to briefly talk about it in the evolution chat um well here's a nice sort
+  of different animals have different sort of shaped visual fields and stuff like
+  that um but yeah so um so yeah so there's kind of a a general sort of like a complicated
+  relationship between the physiology of the eye in terms of the optical characteristics
+  of how the light bends and all that kind of stuff um the physiology of the retina
+  which is the part of your visual the part of your eye that actually responds to
+  like that's the part where you have neurons in your eye like there's an argument
+  that you're that your eyeballs should be considered a part of your censor your central
+  nervous system because even though we think of them as kind of peripheral they're
+  they do computation on the retinal gangan cells um so there is processing that happens
+  like in these the middle layer so if you want to know that's like the term there
+  so in the in the retina you have the photo receptors you have the optic nerve and
+  then you have these like middle layers you have there's like something like 60 some
+  different cell types in the middle layers some of them are connecting uh the neuron
+  the the photo receptors to the the the optic nerve bodies some of them are connecting
+  to each other some of them have long short middle term distances um recently was
+  discovered that some of these middle layer cells are sensitive to light um specifically
+  blue light and they're thought to be related to our circadian rhythms um but there's
+  yeah and then retinol gangan cells retinol gangan gangan cells um yeah so horizontal
+  cells which connect them to each other and so the the there is like processing that
+  happens on here and it has to do with a number of different sort of like like it
+  it's it's a little mysterious about what all is actually happening in there but
+  you it leads to a lot of uh famous Illusions shman grid Illusions uh which for some
+  of y'all with Mac computers will have this in directly available so stuff like this
+  which you may have seen before open image in new tab so each one of these circles
+  is white but as you are looking at one of them the periphery will be dark um Herman
+  grid uh famous illusion that illusion is happening at the level of your retina because
+  of lateral inhibition and sort of in the periphery the the black of the square kind
+  of overlaps with the white so there suppression that happens but only in the periphery
+  because when you're fixating on it your phobia is small enough to have enough resolution
+  there but bunch of weird little Illusions happening there so so yeah 110 I think
+  I think I'll probably leave that brain dump there that's probably enough to enough
+  to chew on um and enough sort of relevant relevant terms there so you got uh the
+  task Dynamics thing in terms of the actual usage you have the the physiology of
+  the eye you have this concept of lateralization and um the optic kaym and the the
+  the retinotopic mapping between your visual fields and your your uh your visual
+  cortex um got the middle layers going on in the strange cacophony of your retina
+  you have the blind spot um you have all the you neurons there um and yeah you have
+  the ocular motor system and in particular if you want to know more about that Superior
+  culus uh which handles the um oculo oculo motor retino topy yes yeah and so like
+  the that relationship between like the retinotopic aspects of your perceptual system
+  and then the retinotopic aspects of your ocul motor system and sort of how those
+  things play together um and none of that has anything to do with movement um I guess
+  IM movements have stuff to do with movement and often times people will talk about
+  eye movements as body movements um and they technically are but the question of
+  sort of how this information actually makes it into your body and actually allows
+  you know like how does the information get from your visual system down to whatever
+  system is handling like throws and catches and stuff like that um we can it has
+  to do with your prial Lo probably prial cortex also has to do with a bunch of subcortical
+  Pathways um and also your the cortical spinal tract which I realiz I I said wrong
+  about that I said like only humans have it it's not true a lot of animals have it
+  it's just that we have it's to greater or lesser extent um so like quadrip PEDs
+  in particular like cats and dogs have a very minimal one and more complex not complex
+  but animals that use their for lims more tend to have more um and uh something else
+  going to say there um and it has to do with sensation it's a it's apparently a direct
+  mapping from your motor cortex cortico spinal tract so it's a direct mapping from
+  your motor cortex down to your spine so you can have like a very short uh synaptic
+  Loop between the sensory information that you get from your body and your motor
+  commands that sort of respond quickly to things that don't have to Route all the
+  way through the weird complex wetwear because that's a very slow route like things
+  that go through the cortex take about 200ish milliseconds to really like get all
+  the the way through and this is that this is the visual representation of how that
+  thing mentioned mentioned before okay um all right I'm going to stop there um and
+  let's do what has now become somewhat stereotype behavior of 2024 D1 D no not- 1105
+  visual neuroscience and um yeah in the 10 minutes we have left uh please just do
+  the thing we've been doing of just pop in there and uh just ask the bot about the
+  stuff that I've been saying I said a lot of stuff on a lot of different many different
+  layers of uh sort of cl cl Clarity um so but you can kind of see how this game is
+  going now like it's it's this is less about trying to get specific high quality
+  text written in there and more an opportunity for me to filter the stuff that I've
+  been saying through your individual nervous system so I can get a sense of where
+  people's interests are and um also as we have learned it tends to gum up when it
+  gets slammed like this so just give it a second to catch up um and let's do that
+  for 10 minutes I've noticed that some of yall are not all the chats come from class
+  time which I appreciate uh so feel free to go and yeah dump dump data into the machine
+  as much as you can and uh yeah I think by the end of the semester we're getting
+  some good some good structures out okay cool
+metadata:
+  author: Jon Matthis
+  channel_id: UCOOQxlTCtUz9mr1NPWlJyYQ
+  description: ''
+  duration: '5239'
+  like_count: ''
+  publish_date: '2024-11-12T06:57:19-08:00'
+  tags: ''
+  title: HMN24 - 06 - Intro to Eyeballs
+  view_count: '69'
+transcript_chunks:
+- dur: 180.0
+  end: 180.0
+  start: 0.0
+  text: and recording great hello everybody Welcome to whatever today may bring um
+    yikes so uh let's see a lot of things a lot of sort of technical things that nobody
+    asked for have been partially completed um so today the topic of the day will
+    be eyeballs um specifically like the basic biology Neuroscience of how your eyeballs
+    work and connect to your brain all that kind of stuff um and we're going to get
+    to that but that's that's going to be another kind of like in the spirit of the
+    motor hierarchy thing where I have less prepared because I was making these things
+    um but this is a topic I know a lot about and so this is some some mainly going
+    to be trying to give like a large scale overview of all of the relevant of as
+    many of the relevant parts to Vision as we can get to um and then sort of see
+    where that gets us uh and then next week we'll talk about Evolution and then we'll
+    take stock from there because there's a couple other things I want to get done
+    this semester um at this point in semester y'all are probably wondering about
+    your grades don't worry about your grades just show up check boxes you're fine
+    um the concept of grading is about ordering you relative to your performance relative
+    to your peers and I just don't think that's a valuable form of Education um there's
+    a really awful but very formative paper written in 1970 called higher education
+    as a filter written by Kenneth filter Kenneth no Kenneth arrow with the premise
+    being that what we're supposed to do in higher ed is give you guys a chance to
+    outcompete your peers so that the purchasers of Labor know which one of you are
+    the good ones who are worth the money and uh that in general and that's not what
+    I like doing in my job um I do not care about how you perform relative to each
+    other I don't even know what performance would mean in this context um so don't
+    worry about it talk to the bot as long as you as long as you have like at least
+    a thousand words written in this in the server which I'm pretty sure almost all
+    of you already have um you're fine even that like just that's you'll be fine if
+    if anyone is a problem I'll let you know and say hey just check some boxes so
+    that I don't so I could stand up to audit I guess if I need to As Long As I don't
+    record it and put it online anywhere um yeah so don't stress dear thing uh I'm
+    sure you have plenty of other parts of your life that are adding stress so focus
+    on those um education doesn't have to hurt learning doesn't have to be a painful
+    process if you feel that here doing great okay where are we
+- dur: 180.0
+  end: 360.0
+  start: 180.0
+  text: now so um I did a big refactor of the AI code uh refactor in the context of
+    code and software basically means like redoing it like rewriting it like changing
+    the structure up cleaning things out it was kind of a lot of like code that I
+    wrote Under duress like at sort of like over the past several years in various
+    classes so when there's a very important rule that you unfortunately are also
+    not really prepared they're not it's not really a part of the undergraduate education
+    to focus on things that last for longer than a semester um and you guys are really
+    given this I think pretty awful approach to productivity which is like here's
+    a shortterm hard deadline get it over the case throw it away start again from
+    scratch and if you're going to be working on something you work on it a lot for
+    a long time and then it'll get better and better and blah blah blah that's not
+    really how the world tends to work typically things are much more iterative and
+    you sort of work on the same thing over and over again um and when that happens
+    you can kind of get to this point where you're kind of like blocked by your own
+    work um in software they call it Tech debt like you have a bunch of like slop
+    that you every little sloppy decision you made along the way kind of builds up
+    um and so it's very important to like often just like take a step back and kind
+    of like restart um it's again a very counterintuitive thing that it like like
+    throwing all your work away and starting again from scratch is often a very productive
+    way to live your life because often when you start a project it's more Discovery
+    and then once you kind of know what the structure is recreating it with the end
+    point and the starting point known can often lead to much cleaner work all that
+    is to say um I rewrote the code and now it does some neat stuff um well it does
+    the same things this one of the frustrating about refactoring code it actually
+    has very similar functionality but now it's cleaner you can build off of it and
+    one of the things I built off of it was uh looking per student um so and then
+    some other stuff which I will show you shortly so let's take a quick um quick
+    sort of pass through that do time okay yeah yeah I'm not going to get too into
+    the Weeds on this although we want to uh so most recent server thing same as before
+    just download it here um there might be a couple extra things in the zip file
+    but don't stress about that and so grab that and if you open it now in obsidian
+    uh open folder as a vault paste that go there
+- dur: 180.0
+  end: 540.0
+  start: 360.0
+  text: uh probably actually this one yeah select that it's white always white I don't
+    know why actually not always white always white on this computer when I open a
+    new one while my other computer doesn't do that dark mode because light is effort
+    um okay uh so it's quite similar um to before um the main difference is I also
+    change the way that I do the like the call to open AI to do the AI analysis stuff
+    um and the new way should be cleaner it should like have less slop um hard to
+    tell numerically but just generally should be more robust and also now there's
+    this server there's this little U what's it called folder called by user which
+    is basically I I went through in every chat that your IDE appeared in is sort
+    of smushed into there um I didn't really do any anything beyond that uh and so
+    there's a bunch of files in there they're user idore and like your Discord user
+    ID um uh because the other thing I did is by so with the way that this like weird
+    world of AI text analysis Works um you can kind of do the the scale of the text
+    is you can be pretty like goall about it like you just make kind of a machine
+    to analyze the text you just throw different Blobs of text into it so up until
+    this point the only analysis was done at the chat level so at the level of those
+    threads you were sort of doing summaries and pulling out things that look like
+    this um but part of the refactoring was making it more generic which is often
+    what happens um and so now it's also set up that instead of dropping in a chat
+    I can also drop in like every blob text in a particular category um so this is
+    I'm actually not sure so this is basically like the summary of the text channels
+    category which is not a very exciting one um but the so every folder with a category
+    also has a thing says category index um and this is the summary of everything
+    that happened in that category and then you can also go into individual channels
+    and channel index so it's the same thing so it's kind of this there's this multiscale
+    thing happening here which I think is kind of a very general idea in a lot of
+    the natural world where you have this kind of like the term is like scale-free
+    structure where you can do the same analysis on zoomed in version of the thing
+    as well as the zoomed out version of the thing um so and then yeah and then that
+    does sort of interesting thing to uh yeah so and then by user or know what this
+    is going to look like yeah I
+- dur: 180.0
+  end: 720.0
+  start: 540.0
+  text: don't I don't actually this person see it's like this it looks like this person
+    only has one chat but I don't trust the code enough to trust that so if that is
+    you and you have more we'll probably clean that up um but yeah so theoretically
+    you should be in there so now if you look at the graph view we again get just
+    the white dots of nothing until we add tags and now we get this kind of thing
+    and we can do as well let's see so we can do groups new group and then we look
+    for file colon uh user ID and then we can look for file uh channel channel index
+    actually just do index and we're getting sort of this interesting kind of structure
+    there's still not like a ton of navigability here um largely I think because of
+    H obsidian works but basically actually I can do now a search so I so in the filters
+    I do file colon user ID user is just kind of a generic term for anybody using
+    a thing in this context user kind of means student um I'm also in there uh but
+    yeah so now these so the blue dots here are the chats for a given one of you uh
+    and I think if you just search for your user ID you'll find yourself um and I'll
+    I'll make better ways to navigate this but with oh come on now dang it right so
+    groups file user pink bright pink so theoretically here this is also a place that
+    I wish that I had more control over like what is visible at which point and you
+    know like I wish I could make the tags have less pole than the other ones but
+    that's kind of limitation of uh obsidian but
+- dur: 180.0
+  end: 900.0
+  start: 720.0
+  text: this is a you doing that oh text fate distance be brighter okay Center Force
+    so this is now starting to get at like a map of y'all's actual proper interests
+    so if I hover over one of these pink ones which are the students um this particular
+    person has interest in so things like Neuroscience are obviously very highly connected
+    because everyone has been talking about Neuroscience stuff um and just so again
+    just to be clear this sort of summary of a given person is every single chat all
+    the text of every chat that they have even been tangentially a part of so if you
+    even just sent one message and one in like a 50 message Chat that's all in here
+    um and then it runs through and says hey give me a give me a title give me an
+    extremely short summary give me some highlights give me a very short summary blah
+    blah blah blah blah um so these are the things so for you these are the things
+    that just emerg from the statistics of what you were talking to the machine about
+    um and like lose again damn it that is so annoying a file user user all right
+    it's fine poies to any red green color bind people in the room um so for example
+    good old user 12830 95453 45953 3792 uh has the main tags that came out of them
+    which again like don't if if your favorite thing didn't come out if the thing
+    if like if you don't think this is a good representation of you um just know that
+    it's like the bot's kind of dumb like it it doesn't know like it can't tell if
+    you're excited it can't tell like if it's if it if you said something and it said
+    a bunch of stuff about something you don't care about it can't tell that cuz those
+    words are in the data um so this will person so 53792 is the last digits has an
+    interest has interest in Neuroscience epidemiology public health and hallucinations
+    this is one of those where like that's the only epidemiology which I know isn't
+    true because I know that y'all been talking about that but like pick this person
+    over here um you know so they so they they're now so the motor hierarchy tag is
+    connecting these two people um and you know so like all of these people
+- dur: 180.0
+  end: 1080.0
+  start: 900.0
+  text: have said enough about biomechanics that it showed up in their message uh
+    or in their summary um this this one motor control so theoretically um not quite
+    yet but this is kind of a it's a landscape of like an interest map so this is
+    sort of it's different I think like these are not because if your guys are because
+    there's in the the larger scale thing in all of this this is everything that was
+    discussed at all like this was the total conversation and a lot of this could
+    be cleaned up blah blah blah um here the the gray dots are just any chat um but
+    once you start looking at the the statistics of the user based stuff we start
+    to get the things that like hypothetically like if you are going around and every
+    time you're in a chat you mention epidemiology it's going to show up here differently
+    than would show up in the general statistics because we're now grouping by particular
+    factors and that particular factor is roughly one per human um so that's cool
+    uh so we can navigate that and um sort of uh I need to make a better like interface
+    for navigating that but it is technically there uh the other thing that I did
+    is related to this concept so this is this is the place where I'm not going to
+    go down this rabbit hole although I will do it later in the semester um we've
+    talked a bit about 3D space and sort of like objects exist in 3D space and you
+    can have XYZ data and in spatial Dimensions so if you're thinking about data if
+    you have up to three dimensions you can plot that spatially by just putting XYZ
+    as you know length width height or whatever um and so if you have two data points
+    in a three-dimensional space you can measure distances between them um which is
+    you know ukian geometry not particularly exciting or it is exciting but it's probably
+    not it's probably familiar um there's a there's a strange corollary to that in
+    this world of AI natural language processing um that relates to the concept of
+    an embedding um and basically in the same way that each one of those Blobs of
+    text can be attached to uh can we keep run through that summarization scheme you
+    can also get the the embedding of that blob of text within the very high dimensional
+    space of the language that the language model has access to um I'm not going to
+    be able to say this in any way that makes sense in the short in a briefly but
+    basically instead of being like threedimensional things like each blob of text
+    that an AI an open AI B llm processes is embedded in a 1532 dimensional space
+    so 1,53 too and so a
+- dur: 180.0
+  end: 1260.0
+  start: 1080.0
+  text: given blob of text gets put into that space and the that location in that
+    super high dimensional space has something to do with its meaning and in that
+    space you can also do things like measure distances and see like things that are
+    close together are similar in meaning and things that are far are dissimilar in
+    meaning this is kind of how like search engines work it's a little goopy um but
+    um what that means is that you can take all of the text that was generated and
+    get these embedding vectors which are these 1500 long numbers do some weird math
+    to collapse it down into three dimensions and then look at the sort of space of
+    conversations that we've been having within that sort of strange spatial Dimension
+    um so I did that uh again this is not going to make a ton of sense it's going
+    to make a like a strange abstract kind of sense um but we're going to we'll come
+    back to this and I'll make it a little bit better but basically this this strange
+    orb um one of the many strange orbs I've shown you this semester um but this orb
+    uh represents the sort of the threedimensional projection of the 1500 dimensional
+    vectors associated with with each of the chats that have happened in this class
+    so each one of these little markers and dots represents one chat um and sort of
+    its position and the the the I think how did I do this I think it's color oh I
+    think each each Channel category pair is a unique color symbol pair so all of
+    the blue dots are things that happened in the general text Channel all of the
+    purple squares are the center of mass balance channel in the lectures category
+    and you can see that they kind of they they lump together so the purples are all
+    close to each other um and sort of some of the overlaps are knowable so this or
+    interpretable I guess so this orange is from the motor hierarchy lecture it's
+    a chat about motor hierarchies in basil gangle from the motor hierarchy lecture
+    which shows up here um by the way in the zip file there's an HTML which will open
+    up the sphere part of that it won't do this part because I I don't know how to
+    if that runs from my computer I will figure out how to share that but you can
+    you could if you just open that HTML it'll just be that and it won't have this
+    associated with it um but so this is a chat in that channel about motor hierarchies
+    and Basel ganglia this one right next door to it I don't know what it is but it's
+    going to be similar Huntington's disease and motor control
+- dur: 180.0
+  end: 1440.0
+  start: 1260.0
+  text: happening in the general text channel so there's like down here I have I this
+    I lost some time to it this morning this is the the Sea of Bot playground um because
+    I I this is I tried to remove it and it caused some problems and so now there's
+    this blob of chats that are not about the topic of the course and you can see
+    they're all kind of like stuffed down here in this like sad little zone so uh
+    I want to remove them because that is like real estate that's not being taken
+    care of um but so this is the general space here is called cluster analysis I'm
+    looking for lumps and clusters and large unstructured data um and the I think
+    the the next phase of this will be to try to clean up some of the technical stuff
+    um but also now that we so this is just the chats but as I just mentioned before
+    um we also have your actual individual Student Self user self so uh it would not
+    be too hard but I wasn't able to do it today um to basically take each of your
+    Associated text gooal and calculate the vector embedding of it and then plop those
+    markers on this sphere um and then you know look for some distance score and say
+    okay students that are within this range of each other have similar interests
+    uh chats that are kind of it would be kind of like if I PL like if one of you
+    popped up here then there would be this sort of group of chats that it's like
+    hey these things are probably relevant to you this is basically like a recommendation
+    system now that I say it out loud it's kind of how like Netflix and stuff works
+    like that um but yeah so uh these are also chats I want to also plot the individ
+    ual messages within the chat um specifically like the what I've been calling couplets
+    which is like you say something and the bot responds so that like two message
+    couplet um would be interesting to put on here um and then yeah sort of this is
+    my my homework assignment of trying to figure out how to basically how to Wrangle
+    the very large unstructured stuff oh another thing I could definitely do um which
+    I've mentioned before it's like do a second pass through cuz right now it's processing
+    each text blob kind of independently um where it's saying you know for for a given
+    blob of text it's like you know just it's extracting all these things independently
+    and specifically it's extracting the tags um independently um which is not really
+    ideal because it means that there's some there's probably some like synonyms happening
+    that could have been the same tag that would lead to better structure uh one second
+    um but
+- dur: 180.0
+  end: 1620.0
+  start: 1440.0
+  text: yeah so I think if I were to go through and do the first pass get all the
+    tags and then run that through and say hey AI condense these down into like you
+    know 40 or 50 and then replace the ones that are sort of covered so that there's
+    a total of like 50 total tags then this would be a much more sort of structured
+    mess but uh but yeah uh is that hand what's that so the red dots are what happens
+    if I type if I hit groups new group um and I in the in the the group I type file
+    colon user ID um which is basically just coloring all the dots associated with
+    files that have user ID in the name as red um and if I filter by that and I say
+    only show those then this is showing the red dots are the are the the notes damn
+    it I always do that it doesn't remember um and then the green ones are the the
+    tag so the the the hashtag words yes yes so each I checked the number um I didn't
+    check I didn't actually like connect it to your actual ident enties so I don't
+    know which one of these is which but uh that is hypothetically there's one dot
+    per human um and then there's also one dot per markdown file in this by user folder
+    and if I turn on the tags so just view the tags those will show up as green and
+    so the ones that are connecting are ones that are shared so all of these connected
+    red dots the AI says that when I was looking for tags associated with the words
+    these are all people who talked about Neuroscience enough to get a neuroscience
+    tag um and so yeah and the again the there's just the limitations in how there's
+    only so much I can do with the visualization here but um the big ones are ones
+    that are more connected and the small ones are the ones that are like this would
+    be called an orphan because it only has actually not an orphan it's just um it's
+    not a connected thing only only this user has talked about surgery enough for
+    that to be extracted as a tag um so if you're like and what does that all mean
+    it's like I don't know working on that this is part of the joy of Discovery is
+    I don't know either um this whole thing is basically an experiment in like experimental
+    the term is pedagogy which means the teaching of children I don't like that term
+    because it's weird um androgogy is a teaching of adults which I think is when
+    I think about it that
+- dur: 180.0
+  end: 1800.0
+  start: 1620.0
+  text: distinction is like I think pedagogi is like much more handh holdy and Andre
+    I think of as like I'm going to teach you how to do stuff and then you do that
+    stuff um so it's Andrei is like adults so I don't know so this is basically uh
+    trial four in my continued exploration of how can we use AI to teach better and
+    burn the world to the ground um that's later not out of scope for this class um
+    great okay so uh yeah so you can explore the obsidian stuff um you can also theoretically
+    open this HTML file and it will open partially that sphere um you are supposed
+    to be confused at this point there is not if you're like I don't know what's going
+    on that's correct uh we are exploring and confusion is the proper State when when
+    examining anything related to the Natural World okay oh and if you're a Cody person
+    um this oh you actually may not have this um never mind the the full server data
+    is now 180 gig sorry megabytes of just numbers and letters um which is not currently
+    available to you but I wouldn't really recommend trying to dig through it anyway
+    it's mostly like repeated text and like those many instances of that 1500 uh digit
+    number okay cool so eyeballs right got that um I realized that I actually have
+    a where where'd you go um I have a video of myself wearing an ey tracker from
+    a previous previous life um that I can share a sort of like remind ourselves how
+    eyeballs look um so I have I put a lot of stuff on this YouTube account um John
+    math is it probably Linked In the server somewhere um it's kind of a way for me
+    to communicate with other researchers like the numbers are small but consistent
+    um but there was a time in my life when I was making more internet sort of public
+    appealing stuff and one of them was this video of me playing OverWatch
+- dur: 180.0
+  end: 1980.0
+  start: 1800.0
+  text: in my living room in Texas that got have 300,000 views um and I think it's
+    like from a different iteration of my life where I was like much worse at making
+    these kind of visuals um but it is is it playing I guess it's playing at full
+    speed so this is same basic eye tracker slightly different visual um and I'm in
+    my apartment in Austin Texas as a post do and I'm calibrating to this little I
+    have a laser pointer so I'm using I'm just looking at that and I calibrated it
+    after the fact and then this is the the data that I wish I had been able to show
+    in real time uh last time uh and it shows the X position so the horizontal position
+    is blue so if I look go left to right it'll go the blue will go up and down and
+    the Orange is y in that direction there and I'm playing a g playing OverWatch
+    is a game where you shoot people with cartoons I don't know um and I'm playing
+    around as roadhog who is a character in that game anyone played OverWatch anyone
+    please thank you great appreciate it um so video games are a really interesting
+    I think just like perceptual motor task because they are like very visually complex
+    but the motor commands are are quite limited and the task is often very well defined
+    like you have a certain this is a competitive game where you have people trying
+    to shoot each other and you go out and so you have this is where the bullets go
+    this is your health bar and these are your abilities they you use them and they
+    cool down um and this particular character is like big and slow and has like a
+    powerful thing here so you can see there's kind of like so the task is very clear
+    of like win the game don't get shot so much that your health goes to zero and
+    then use the abilities to like stay alive um so first of all you're seeing a lot
+    of this I mentioned like people don't blink when they're doing stuff that's hard
+    so all of these kind of gaps here are what's happening before the game really
+    starts and you can see I'm blinking all over the place eventually people will
+    show up and I have to play the game and I start blinking a lot less um so here
+    you have is that yeah so in YouTube you can go frame by frame with period and
+    comma if you didn't know that um so you see kind of like as I'm coming around
+    this corner here I sort of Scot over look through that thing you can see the jumps
+    down here I guess I'm recording this at 30 FPS which is unfortunate so those little
+    jumps are sads um and and so yeah so you see here coming here's a big jump in
+    X and Y at the same time which is a diagonal um so
+- dur: 180.0
+  end: 2160.0
+  start: 1980.0
+  text: it's going to be positive x negative y so it's going to be I guess in that
+    direction yeah so that's yeah that's so this is the first time I look down here
+    at the ability so this shape is going to become more familiar because this is
+    a diagonal down to this way um and then making a blink during a aod like we do
+    and then this is checking the other side which is the health bar and then back
+    to Center uh we tend to really like our eyes to be in the middle of our head um
+    this is our strong preference so when we're making eye movements in the real world
+    uh there is a pattern that is a stereotype pattern of if I'm trying to redirect
+    my body in a particular direction my eyes will go there then my head will go there
+    and then my body will go there and then I'll move so there's kind of a a trade-off
+    there where the to you want to get the information before you initiate the action
+    and you move the fastest moving things first um but this is yeah then so oops
+    and I'm shooting this guy here see another one of those shapes coming up that's
+    going to be cuz because they tend to start from The Middle um that actually those
+    are positional so that so if the two dots are here and here that's going to be
+    the same place every time so this one is going to be to the same location as that
+    one and this sad you could you know 33 milliseconds per Gap there um so because
+    I think I had already like thrown the hook and so I'm fighting this big scary
+    one and I have to like am I ready can I do it again so I look down uh and then
+    yeah actually that's that same pattern so it's like Center to the bottom left
+    to the yeah and then making these cads here so this four in a row is a big jump
+    happening um so that's 120 milliseconds and you're sort of traveling so that's
+    a big CAD uh the actual image on my retina is blurring when that happens um because
+    of just the movements happening there um okay I'll let let this play a little
+    more here we have one two 3 three little sads oh so this is as I'm turning around
+    a corner so another thing I find I've mentioned this before like the amount of
+    information we get in a very small amount of time is enough to change our Behavior
+    so each of these little steps
+- dur: 180.0
+  end: 2340.0
+  start: 2160.0
+  text: has four dots on it which is again little right about 150 milliseconds which
+    is about as fast as you can move your eyes but enough time to get the information
+    from that part of the visual field and here we are blinking I'm in this empty
+    space I'm like there's nothing going on I have time to Blink um and so now we
+    have also this little curve which the curve I'm not moving my head so it's not
+    v um but I am moving the stick on the controller so the world is moving smoothly
+    and I'm going to be tracking probably whatever this is as that happens nope guess
+    not but uh yeah so running up here then this guy runs out get him shoot him um
+    and so this kind of stuff here like the swoopy things I like small CA like small
+    sort of rolls back um I I started to associate this with it it's kind of like
+    a Vish type of thing V is the head stabilization one um where it's sort of it's
+    not a big CAD it's not even a small CAD um it's a it's more of a tracking behavior
+    um there is some object on the screen that I am tracking smoothly uh and then
+    making these little things little dinky sads here um hard to know exactly what
+    that is but yeah sort of a little those are sometimes called catch-up sods in
+    in the context of smooth Pursuit your eyes can track the thing but sometimes they
+    track it a bit slower so you'll periodically make little catchup cods to sort
+    of like you know I'm tracking this and as it moves over my eye lags behind so
+    I'll jump ahead to get on top of it you can kind of see that happening here as
+    I'm again coming around this corner because I want to shoot this mean Ninja um
+    here's that same pattern again double checking and then I don't need to watch
+    the whole thing necessarily but uh so again so this is this is like this is behavior
+    this is a a task that I performed a visual motor task that I performed at this
+    point several years ago um actually I don't even know when that was 20 some 20
+    something that doesn't start with a two uh and the the the sort of the nature
+    of the data gives us this really interesting insight into the kind of the cognitive
+    task that was being performed um you can see this was something I I had this sort
+    of like vague intuition this intention to like do this for different characters
+    and sort of uh like
+- dur: 180.0
+  end: 2520.0
+  start: 2340.0
+  text: get different patterns for each of the different sort of like play Styles
+    and stuff like that and it didn't quite work out because for most of the players
+    you're mostly just like staring at the center of the screen the whole time so
+    you don't get the big jumps this guy in particular just because he has huge Health
+    pool and slow coold downs you get that really standard sort of triangle shape
+    that I really enjoy um but it's this interesting thing where like you the ability
+    just like point a camera at your eyes and the screen uh gives you this readout
+    of the physical movements associated with the information gathering process that
+    your visual system is made for and the specific sort of like tying in so yeah
+    here I am blinking a lot um is this is an interesting one little jaggedy bits
+    here this is what it looked like when I was doing those big turns like the this
+    is what that looks like again my head is not actually moving so it's not the same
+    behavior but it is sort of related I am turning in this case but it's kind of
+    like my eye is attaching to a particular part of the world and then sort of Shifting
+    around there and so I'll let this play out because it's only a couple more minutes
+    and I'll just talk over it um but part of the I think like I I I I like approaching
+    the question of how Vision Works from this perspective of looking at it how it's
+    actually used in real life or not real life but sort of simulated real life is
+    an act I was alive I did I did do that um but in that that approach is um very
+    sorry it's hard not to look at it um but the concept of of looking at the going
+    to shad my post-doctoral adviser who taught me how to use an ey tracker and also
+    came up with the idea sort of her her main her name is Mary heho and her main
+    focus is kind of on uh task Dynamics and how the uh so Mary is you know been around
+    for a while I think she's in her 70s at this point possibly late '70s um and she
+    kind of was one of the first people to really start trying to study natural behavior
+    um and people moving we won um I think uh right and so notice now too is like
+    now that I'm not now that I'm not engaged so Mary studied natural behavior still
+    does um and when she started studying it in like you know ' 80s uh she had a lot
+    of people telling her that it's not possible like you just you cannot study natural
+    behavior it's too noisy it's not controlled the data you're going to get get the
+    data you're going to get is going to be some messy nonsense and there's not going
+    to be any way to interpret it um because at the time still still now but doubly
+    so back then uh the standard mode of educ of of research was highly controlled
+- dur: 180.0
+  end: 2700.0
+  start: 2520.0
+  text: experiments people in dark rooms head attached to a vice of some kind um fixating
+    and doing very very simple experiments of like look to the left if the thing is
+    blue look to the right if the thing is red so the idea that Mary was going to
+    try to study people who were less constrained was met with derision um because
+    the idea was that you're not you're never going to be able to get anything meaningful
+    out of data like this that's behavior is too complex and so Mary's idea was to
+    focus on the task Dynamics um which is to basically rather than focusing on the
+    the biological system on its own think about it in the context of what is the
+    task that this organism is trying to actually compete um and what are the things
+    that define success and failure on that task and if we think about things in that
+    context then the data all of a sudden starts to make a lot more sense like if
+    I if I didn't know that the health bar was the health bar was down here and the
+    cool Downs are down here this weird shape that keep showing up would just be a
+    weird shape that keep showing up but because I know the task I can sort of interpret
+    what that is and then if we wanted to we could sort of look at how that corresponds
+    to different sort of this stats and the others um and also start asking questions
+    about like like the speed at which these sods happens H can sort of you know like
+    oh all like the fastest sads are only at this 150 millisecond rate it's like oh
+    well there's people doing the proper Neuroscience that tell us that but you know
+    that if it's moving that fast then that means that the it's more important to
+    get information from multiple places than it is to get really good information
+    from one place um and I wanted to show this thing at the end here so now here
+    that I'm actually not really engaged in a particular task my eye movements are
+    way more all over the place they're far less stereotyped don't see the same shape
+    showing up and if you wanted to you could definitely come up with stories about
+    what I'm looking at looking at but even here in the same exact task same ex same
+    exact environment um you have to start making a bunch of different guesses about
+    why I'm choosing to look one place versus the other because we we always have
+    a task every time you're anywhere you have a task that you're performing um but
+    if the task is not like difficult in time constrained um you're not going to be
+    able to really interpret why I think so it's like you know I like looking at people
+    like looking at faces and I'm looking at his hands people like looking at faces
+    and hands um looking at the rest of the kit and body and whatnot and now it's
+    kind of like looking looking here and so there's a lot of research that kind of
+    tries to interpret data like this of just watching complicated tasks and watching
+    videos and watching people do things um and this is kind of like your pupilometry
+    stuff uh where people you
+- dur: 180.0
+  end: 2880.0
+  start: 2700.0
+  text: can get the data and you can get the you can you can look at it it's the same
+    data type um but actually interpreting it becomes much more difficult um because
+    you don't actually know the context of what people were doing okay 2:30 12:30
+    I'm trying to do in time warse let's try to yeah okay so task Dynamics and the
+    study of Neuroscience natural Behavior Mary heho all good terms to look up um
+    and yeah so now let's look so looking at how the the so there's there's kind of
+    these two sides to the question one is like how is the physiological system of
+    of vision used in natural tasks and the other is what is the actual structure
+    of that thing and how do these two sort of How does the structure of the visual
+    system play into to the usage of it in the real world and vice versa um and I
+    think that's probably why I often tend to struggle with like ordering in this
+    class it's like these are all chicken and egg questions like there is no real
+    linear progression that I think makes sense and I think that talking about the
+    physiology absent of the behavior is sort of just as lost as the other way around
+    so um looking so let's think about eyeballs uh should I draw this draw a little
+    bit I I'll get a picture before I draw it why are you going so slow oh it's cuz
+    come on man oh wait yeah so uh open Imes new tab so that's an eyeball that's the
+    side view cutout of the the thing we've been looking at from the front um and
+    the most important thing that you'll notice when you look at human eye tracking
+    data is that we point our eyes at things uh and we move them a lot and we point
+    the the center little cross we tend to put on the thing that we care the most
+    about um where's this line I'm not sure what that line is but this line here so
+    this is called the phobia centralis your phobia is a very important part of your
+    visual system when you point your eyes at something you're pointing this at that
+    thing it is a area of extremely high high density of visual
+- dur: 180.0
+  end: 3060.0
+  start: 2880.0
+  text: '[Music] phobia yeah so your phobia phobia means pit and is basically a place
+    where we''ve moved the goop out of way so that we have a better view of the actual
+    photo receptors at the eye um I mentioned one point that your eyes are backwards
+    um which is true um rods and cones so we''ve heard of rods and cones these are
+    the things that are sort of uh let me do this let''s let''s Zoom back out here
+    okay so you got your eyeball you got your pupil and light comes into the pupil
+    and it''sit the back of your eye um and so the rods and cones are basically like
+    your rods are basically little sticks the cones are a little bit pointier and
+    in inside of them they have um a bunch of things but the most important one okay
+    I got to turn this off I was still running that other thing so the options in
+    your eye are the chemicals that actually respond to the light and they they look
+    like the hexagons your standard standard hexagon with like a sort of long tail
+    coming off of it and you have different types of opsins that respond to different
+    types of light when a photon comes and hits it uh the opson uh changes shape and
+    so one of the sections become what if it kyru or whatever um and sort of changes
+    shape and it gets us kink in it actually think I did this backwards I think it
+    starts with a kink and it straightens out when it absorbs a light but the idea
+    is that the the energy of the photon of the light induces this change in the physical
+    structure the physical chemical chemical structure of the opson and that changes
+    its charge and so that charge is what sort of becomes the neurochemical Cascade
+    that uh Sor the the the the Cascade of neural firings that sort of leads to your
+    perception of'
+- dur: 180.0
+  end: 3240.0
+  start: 3060.0
+  text: light um this is a weird process there's many options there sort of you have
+    short medium and long uh cones that resp that correspond roughly to red blue and
+    green um your rods are don't have the three colors but they only respond to Green
+    um and it's your your night vision is your rods and there's a pereni shift that
+    happens when they're trading off from each it's a whole thing um but the so basically
+    it's this the the lumpy part of the rods and the cones that actually house those
+    opsin in this sort of peaky part here and so you might if you were a reasonable
+    person assume that we would want to point that part the photosensitive part towards
+    where the light comes from um but that is not actually how our eyes are set up
+    um the photo receptors are actually pointing back and then the the wiring that
+    comes off of it uh goes back out through and so when the light is coming in um
+    it has to pass through the the aons of the neurons attached to the RADS and CS
+    rods and cones before it can actually be absorbed um by the by the actual opsins
+    in in your eye um and so that is why the phobia so basically every part of your
+    visual system is worse than it could be um because the light that you were trying
+    to focus has to pass through all of these neuron bodies the of the the the these
+    middle layers that have gangling cells stuff like that there's a whole whole lot
+    going on there the light has to pass through that before it can get to the actual
+    photosensitive area and so the fobia we push that goop to the side so that there's
+    an unobstructed path of the that the light can get through the idea of why this
+    stuff is that way is it's not to be related to when we crawled out of the ocean
+    and our eyes kind of had to we had to carry some water along with us so we could
+    focus the light better and something in that process inverted things I don't really
+    understand that but uh uh cephalopods like squids and octopuses and cuttlefish
+    their I face it's it's faced the right way like their their photo receptors face
+    towards the source of light um there's another sort of troubling aspect of this
+    which is that if all of the wiring coming off of the back of your photo receptors
+    is sort of goes back onto the top of your retina this the thing on the back with
+    the photo seis is called the retina at some point
+- dur: 180.0
+  end: 3420.0
+  start: 3240.0
+  text: it has to punch back through in order to become the optic nerve that actually
+    takes the data the neural the we call it data who cares the pattern of neural
+    activity associated with the light in the environment has to punch back through
+    your retina in order to get back to the the rest of your nervous system so that
+    means that there is a blind spot on your retina um where you don't have vision
+    and you can find it so if you close your left eye and then look at your um so
+    close your left so right eye open look at a your thumb at arms length and then
+    with your other hand with your thumb up put it like this and then move your thumb
+    to where your knuckle is and it maintain your fixation on that thumb so watch
+    me so I'm looking at the thumb and I'm I never stop looking at the thumb I line
+    up my thumb here and then I move my thumb to where my knuckle was and if you do
+    it right your thumb will disappear okay yeah it's it takes a little practice but
+    for me so if I'm looking at this thumb my thumb is not visible to me right here
+    it's just a empty empty Block in space um so that's another way to do it is just
+    hold your thumbs together um so look at pick your pick the left one so with your
+    right eye um focus on this one and then slowly move the other one out while maintaining
+    fixation on that thumb and it should disappear anyone getting it yeah it just
+    sort of like evaporates it's hard it's hard to maintain fixation on the thing
+    without looking over and also your brain fills in the Gap so you kind of have
+    to notice that it isn't there uh when you're done here just just look up like
+    a blind spot demo and there's some other stuff that will show you there um but
+    it's sort of just one of these main it's like a classic thing to show of this
+    like blind spot where you don't get visual information but you get information
+    from all around it and so but because we have two blind spots and they're not
+    over the same area we we can fill in the gaps and there's interesting research
+    on like if you give people patterns in the blind spot how will the brain fill
+    in the pattern like it because it tends to um and yeah uh so should here's just
+    another example of that so this chunky BET right here is your optic nerve and
+    that's the part that goes from your that takes so you're when you're looking at
+    stuff you're looking at it with your phobia um
+- dur: 180.0
+  end: 3600.0
+  start: 3420.0
+  text: periperal periperal Vision Wikipedia I'm looking for particular image here
+    um this is roughly speaking your uh field of view for for I think this is per
+    I um in this Central zone right here it's actually not going to be visible here
+    so this is 30 20 10 probably 5 so probably right around this circle here that's
+    roughly speaking your phobia um you also have your fola which is like a smaller
+    area within that space um and then sort of others Z so we have pretty wide vision
+    I mean you know I can see my hands out to here and if I Wile my finger so you
+    can just like interesting games you can play with yourself just kind of like move
+    your hands until you can't see them and then wiggle your fingers and then you
+    can see them because we are more sensitive to Motion in the periphery um and also
+    notice that it's not this is not a circle it's not a ISO like the central part
+    is circular but the whole field of view is laterally oriented because we live
+    in a world that is tends to be laterally oriented um and so our sensitivity is
+    sort of it's not arranged in a sort of circle around our phobia um it is horizontally
+    distributed U we are also Vision oriented Predators so we have a different field
+    of view than if we were um you rodents or equines like goats have the rectangular
+    eyes mice have the eyes that point out to the side um all these cases of like
+    the Ecology of how the animal uses Vision in its ecological niche uh shapes the
+    way that the information that the visual system is set up and as I said before
+    I think I'm not sure if I said it today but it's it Bears repeating that fobia
+    is again roughly the size of your thumbnail at arms length um it takes up roughly
+    1% of your visual field roughly 50% of your visual cortex is devoted to processing
+    the information from that small spot there um so that is that concept is called
+    cortical magnification um and it's kind of why I feel somewhat com comfortable
+    um with these representations that as a as I said like I this circle is roughly
+    the size of the phobia um plus or minus one visual degree um and I think representations
+    like this overemphasize that fobal perspective because we are getting information
+    from the whole thing from the whole field of view um but it is nonetheless I think
+    it's valuable to look at the location of that sort of directed visual Focus because
+    that is basically an indication of this is the part of the visual field that my
+    nervous system wanted information from at this time and I think that concept is
+    very
+- dur: 180.0
+  end: 3780.0
+  start: 3600.0
+  text: important because it's like I could have looked anywhere and you know but
+    I have to look somewhere and so my cognitive system sort of makes these little
+    decisions about where the information like where in the world do I want to pull
+    information from um and you know if I'm just sitting around you know doing not
+    not so much those decisions are not particularly uh costly but as the task becomes
+    more hard and as the as you sort of start doing more and more complex and difficult
+    Behavior the choices of where to look one place versus the other can be is very
+    um critical uh show this briefly then I'll what we doing on time I won't show
+    this I'll come back to it later in the semester when I we look back at the my
+    main research from this era was like visual control of foot placement and looking
+    at the patterns of path on the ground when you're choosing footholds walking over
+    rough Terrain in that kind of context you only have about you know 400 milliseconds
+    per step and you have to find a location on very rough terrain that you're you
+    can support your whole body or you'll fall into a river and break your leg um
+    so that the sort of yeah the niess that there is a aspect where you can um you
+    can get basically a readout of that cognitive question of where in the environment
+    do I want information from um because we are highly fiated IM ey Focus uh Predators
+    we have this nice feature where we can point a camera at the eyeballs do some
+    old school computer vision um to get the pupil Center here and then get a measure
+    both of where the eyes are pointing not not only where the eyes are pointing but
+    where in the environment did my central nervous system want to get information
+    about to complete whatever task it is I'm doing um yeah so I think I can draw
+    fast enough for this the internet is already drawn all the pictures I could care
+    about um optic kaym stop it with the AI so so so you got your eyeballs and you
+    got the optic nerves that come in and there's this part in the middle here where
+    things kind of split apart um and that is called the optic kaym it is optic kaym
+    ioy
+- dur: 180.0
+  end: 3960.0
+  start: 3780.0
+  text: so Imam was a Islamic scholar in 7 Century uh Iraq um and he discovered optic
+    kaym by doing just old school physiology um so Imam has been called the father
+    of Optics he basically invented Optics he is credited as the person who discovered
+    that light was a thing that you can like measure and do science about like refraction
+    and stuff like that that um and it was later his work was later rediscovered um
+    by good old Des cartez um and translate one of dayarts so dayart you know of cartisian
+    coordinates Fame one of his main things was he was a polyglot he spoke a ton of
+    languages and so a lot of his claim to fame was that he would find these old records
+    written in Arabic and translate them into Latin and then once it's Latin all the
+    Europeans are like wow day cart you're so smart um so this is the model of the
+    eye you can sort of see it's got Vitus humor cornea this was the um so uh the
+    lens so IAM got everything basically right but he didn't understand how the lens
+    worked um so he just had some comment in this thing that there's some probably
+    some Demon that lives in there and bends the light cuz back back in the day when
+    you didn't know what something how something worked you just said the little demon
+    does that part like the rest of it I can do math about um but that part there's
+    some Demon doing stuff um but you can see kind of all these parts and then these
+    uh what's it called um these are like the muscles and stuff like that and yeah
+    and he's on money in Iraq good for him uh iel heam is his Arabic name you'll often
+    see it or alhazen is for some reason the English term um but yeah and so this
+    is a good representation so showing how things split and so there's this distinction
+    between your visual Fields um and how they map to different parts of your brain
+    so this part I will draw because I think it's helpful but um because we tend to
+    think of as like because we have a right eye and a left eye right shocking um
+    godamn okay so that's one eye that's the other eye
+- dur: 180.0
+  end: 4140.0
+  start: 3960.0
+  text: oops and this is our brain as seen from above um so you have left hemisphere
+    right hemisphere I don't know why this is my text stack is struggling um and so
+    so like there's lateralization in the brain so like your right hand is controlled
+    by your left hemisphere for some for some reason um and so sort of a naive view
+    might be to think that it's just like the same for your eyes like your left eye
+    connects to your right hemisphere um but it is not actually how that works uh
+    because your left hemisphere so your visual cortex is here in the back um and
+    your left hemisphere handles the right visual field not the right eye so if I
+    want to know about the things that are over here um I don't necessarily want to
+    know about what's going on in this eye but as they project let's pretend I move
+    my eyes um they're going to project on so from the right side it's going to project
+    onto the left side of each eyeball and so we need right so this is the right I'm
+    super dyslexic so this is hard uh so the right the projections from the right
+    visual field need to make it to the left visual cortex so these ones can go straight
+    back and these ones have to cross over and so then if you want to know about stuff
+    going on from the left visual field gu I got to figure out how this stupid thing
+    works come on so this is the so this is an object in my left visual field um and
+    that's projecting onto the right side of each eye so that is the left it has to
+    get to the right hemisphere so these ones can go straight back and this one can
+    cross over and that's this crossing over point there that's called that's the
+    optic kaym um the kaym is actually the The Crossing part but the yeah so this
+    is the this is how those literal wiring like the literal likey back in the 7th
+    century was just cutting open heads and looking at where the the the the optic
+    nerve is like a tough thing like if you ever find yourself in a butcher shop or
+    a pig
+- dur: 180.0
+  end: 4320.0
+  start: 4140.0
+  text: roast and you feel like being like weird and gross you can go check it out
+    um but it's a very fibrous and dense thing so if you just like open up the head
+    and just see where it goes you can see that it splits apart and then crosses over
+    and then these little guys right here are the um is that Thalamus um I think that
+    is a Thalamus which is kind of like a way station all your senses go through the
+    thalamus except for smell uh because smell is chemo sensation sensation of chemicals
+    in the environment the the story is that that's that is the oldest sense that
+    like bacteria have smell because they're detecting chemical gradients and so that
+    is the only one that doesn't go through the whatever the thalamus stuff um but
+    anyways it goes through here this there's we stuff that happens here like motion
+    s sensitivity stuff can happen there the whole thing of you're more sensitive
+    to this or that there's also some tracks that sort of now but so these ones are
+    going to going going back to the visual cortex proper which is the thing that
+    lives on the back of your brain and then this is where you also get actually some
+    of these tracks don't go to your cortex I don't think some of some of them don't
+    even go to the thalamus some of them go like straight into the spine and straight
+    into like they bypass cortex and give you things like the startle response that
+    happen where visual information makes you move and do like ah stuff like that
+    a lot of like balance stuff has subcortical Pathways that bypass the brain and
+    just go straight down to the spine um oh this is a good image this what I was
+    looking for um oh lateral geniculate body my bad um but yeah so this is this is
+    what you will generally see as the visual path but there are subcortical Pathways
+    that bypass all of the the big pink wrinkly bit on top um oh yeah you also have
+    a blind spot because you have a nose like there's just a part of your visual feel
+    that just like never really has anything going on um so that's kind of I find
+    funny um yeah uh subcortical pathways are interesting um and what else do I want
+    to show here I'm kind of trying to checkbox some things here just because the
+    main thing to sort of to remember here is the this concept of visual field kind
+    of quadrants sort of or or not quadrants necess but like just the idea that you're
+    the retina and the visual Fields have kind of a complic ated relationship that
+    is sort of there a lot of mirroring that happens where you see the picture of
+    like now the the tree is upside down
+- dur: 180.0
+  end: 4500.0
+  start: 4320.0
+  text: because of how lenses work so you can see like the lower visual field here
+    is on the top down there um so there's this sort of spatial correspondence between
+    um there's a bunch of different angles going on here one is the anatomical structure
+    of the eye itself the other is like the visual field relative to your body I guess
+    so like if I'm sitting here moving my eyes around like my visual field kind of
+    moves with my eyes but my visual environment does not so there's sort of complicated
+    playoff there um and that structure is kind of maintained as it gets back into
+    back through this the the the good oldfashioned just physics and Optics and into
+    the weird goopy electric meatloaf um that spatial structure of the visual environment
+    is sort of maintained um in these kind of weird like split apart and stuff like
+    that so that by the time you get back to the V1 visual cortex visual CeX uh what
+    was I look for cortical expansion what am I looking for here um am I not finding
+    this picture I feel like I'm being let down by people who put pictures from Neuroscience
+    books on what am I missing here feel like why am I not being able to find this
+- dur: 180.0
+  end: 4680.0
+  start: 4500.0
+  text: retinotopic that's retinotopy that's the term I was looking for sorry retinotopy
+    that's the term I was looking for and not able to find um so the the concept the
+    main concept that to think about here is that there is a retinotopic map um kind
+    of similar to the cartoon of the motor the sensory motor culous the horrible guy
+    that lives in your motor cortex who has giant hands and giant mouth because that's
+    where we have our most sensitivity in terms of sensation and movement um there
+    is also a kind of map in your visual cortex that corresponds to your visual field
+    and they're sort of the the cartoons that we draw about it look a lot like this
+    and similar to the horrible man that lives in your head um horrible person that
+    lives in your head and sort of is the sort of the cartoon monster that represents
+    your Sentry motor sensitiv this is also not it's like we love this story it's
+    a great story it's in every textbook um and it's true to a certain extent but
+    the the data looks more goopy than that like it's not this like perfect beautiful
+    map it's like it's it's more of of this type of thing oh was that know this person
+    um and so if you uh so this representation of the brain by the way the the black
+    spots are the are the pits and then the white spots are the tops so you basically
+    take the brain and like expand it out that's what this represents um and so this
+    is stimulating in the visual field and having this not particular not my favorite
+    color map um you can see that there is kind of a a a striation that happens there
+    where there is that different parts tend to correspond to different parts of the
+    visual field um but it is complicated um uh this is a very famous image I think
+    it may have won a Nobel Prize I'm not quite sure but this is showing the um Superior
+    calculus of a monkey and they yeah retinotopic organization and what they did
+    is they were they were they were stimulating in the monkeys so Superior calculus
+    handles eye movements um and they stimulated like little electrical signals to
+    the to the cortex and generated eye movements that sort of mapped that pattern
+    so also in the same way that there's like both the sensory cortex and the motor
+    cortex and they're kind of paired to each other uh the visual perception system
+    and the ocular motor movement system are also kind of paired through these retinotopic
+    Maps um because if I have you know if there's if I'm looking here and there's
+    something in the periphery that I want
+- dur: 180.0
+  end: 4860.0
+  start: 4680.0
+  text: to see this retinotopic location sort of you know I'm I'm fixating here but
+    there's some bright little shiny thing that shows up in the upper right that is
+    also the coordinates that I need to know to make an eye movement to fixate on
+    that thing so there's this there's a linked map that I've been talking about V1
+    which is that's the stuff in the back of the brain um that's your perceptual system
+    that is not your ocula motor system that ocul motor system is more spread out
+    and weird um we're going to talk more about that during next class we talk about
+    um we're going to briefly talk about it in the evolution chat um well here's a
+    nice sort of different animals have different sort of shaped visual fields and
+    stuff like that um but yeah so um so yeah so there's kind of a a general sort
+    of like a complicated relationship between the physiology of the eye in terms
+    of the optical characteristics of how the light bends and all that kind of stuff
+    um the physiology of the retina which is the part of your visual the part of your
+    eye that actually responds to like that's the part where you have neurons in your
+    eye like there's an argument that you're that your eyeballs should be considered
+    a part of your censor your central nervous system because even though we think
+    of them as kind of peripheral they're they do computation on the retinal gangan
+    cells um so there is processing that happens like in these the middle layer so
+    if you want to know that's like the term there so in the in the retina you have
+    the photo receptors you have the optic nerve and then you have these like middle
+    layers you have there's like something like 60 some different cell types in the
+    middle layers some of them are connecting uh the neuron the the photo receptors
+    to the the the optic nerve bodies some of them are connecting to each other some
+    of them have long short middle term distances um recently was discovered that
+    some of these middle layer cells are sensitive to light um specifically blue light
+    and they're thought to be related to our circadian rhythms um but there's yeah
+    and then retinol gangan cells retinol gangan gangan cells um yeah so horizontal
+    cells which connect them to each other and so the the there
+- dur: 180.0
+  end: 5040.0
+  start: 4860.0
+  text: is like processing that happens on here and it has to do with a number of
+    different sort of like like it it's it's a little mysterious about what all is
+    actually happening in there but you it leads to a lot of uh famous Illusions shman
+    grid Illusions uh which for some of y'all with Mac computers will have this in
+    directly available so stuff like this which you may have seen before open image
+    in new tab so each one of these circles is white but as you are looking at one
+    of them the periphery will be dark um Herman grid uh famous illusion that illusion
+    is happening at the level of your retina because of lateral inhibition and sort
+    of in the periphery the the black of the square kind of overlaps with the white
+    so there suppression that happens but only in the periphery because when you're
+    fixating on it your phobia is small enough to have enough resolution there but
+    bunch of weird little Illusions happening there so so yeah 110 I think I think
+    I'll probably leave that brain dump there that's probably enough to enough to
+    chew on um and enough sort of relevant relevant terms there so you got uh the
+    task Dynamics thing in terms of the actual usage you have the the physiology of
+    the eye you have this concept of lateralization and um the optic kaym and the
+    the the retinotopic mapping between your visual fields and your your uh your visual
+    cortex um got the middle layers going on in the strange cacophony of your retina
+    you have the blind spot um you have all the you neurons there um and yeah you
+    have the ocular motor system and in particular if you want to know more about
+    that Superior culus uh which handles the um oculo oculo motor retino topy yes
+    yeah and so like the that relationship between like the retinotopic aspects of
+    your perceptual system and then the retinotopic aspects of your ocul motor system
+    and sort of how those things play together um and none of that has anything to
+    do with movement um I guess IM movements have stuff to do with movement and often
+    times people will talk about eye movements as body movements um and they technically
+    are but the question of sort of how this information actually makes it into your
+    body and actually allows you know like how does the information
+- dur: 180.0
+  end: 5220.0
+  start: 5040.0
+  text: get from your visual system down to whatever system is handling like throws
+    and catches and stuff like that um we can it has to do with your prial Lo probably
+    prial cortex also has to do with a bunch of subcortical Pathways um and also your
+    the cortical spinal tract which I realiz I I said wrong about that I said like
+    only humans have it it's not true a lot of animals have it it's just that we have
+    it's to greater or lesser extent um so like quadrip PEDs in particular like cats
+    and dogs have a very minimal one and more complex not complex but animals that
+    use their for lims more tend to have more um and uh something else going to say
+    there um and it has to do with sensation it's a it's apparently a direct mapping
+    from your motor cortex cortico spinal tract so it's a direct mapping from your
+    motor cortex down to your spine so you can have like a very short uh synaptic
+    Loop between the sensory information that you get from your body and your motor
+    commands that sort of respond quickly to things that don't have to Route all the
+    way through the weird complex wetwear because that's a very slow route like things
+    that go through the cortex take about 200ish milliseconds to really like get all
+    the the way through and this is that this is the visual representation of how
+    that thing mentioned mentioned before okay um all right I'm going to stop there
+    um and let's do what has now become somewhat stereotype behavior of 2024 D1 D
+    no not- 1105 visual neuroscience and um yeah in the 10 minutes we have left uh
+    please just do the thing we've been doing of just pop in there and uh just ask
+    the bot about the stuff that I've been saying I said a lot of stuff on a lot of
+    different many different layers of uh sort of cl cl Clarity um so but you can
+    kind of see how this game is going now like it's it's this is less about trying
+    to get specific high quality text written in there and more an opportunity for
+    me to filter the stuff that I've been saying through your individual nervous system
+    so I can get a sense of where people's interests are and um also as we have learned
+    it tends to gum up when it gets slammed like this so just give it a second to
+    catch up um and let's do that for 10 minutes I've noticed that some of yall are
+    not all the chats come from class time which I appreciate uh so feel free to go
+    and yeah dump dump data into the machine as
+- dur: 180.0
+  end: 5400.0
+  start: 5220.0
+  text: much as you can and uh yeah I think by the end of the semester we're getting
+    some good some good structures out okay cool
+video_id: t6IwA1P6gYY

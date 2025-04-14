@@ -1,0 +1,1601 @@
+full_transcript: "Okay, hello everybody. Let's get into it. Today we're going to talk\
+  \ about the eye-tracking data that we recorded last week, specifically a week ago\
+  \ on Monday. I was able to get it processed and generally visualized, so we can\
+  \ work through it together. It's not the cleanest data for a number of reasons,\
+  \ but I think it's a good example of the kind of data you get when you're not super\
+  \ practiced in it. It\u2019s enough to illustrate the main points we were trying\
+  \ to discuss about eye movements. It is currently uploading to Google Drive, and\
+  \ I'll share this in the server when it's done. It should take a couple of minutes\
+  \ according to the system. Then we'll spend most of the rest of the time talking\
+  \ about it and see what we find out. \n\nRegarding class stuff, the system is running\
+  \ slowly today for some reason. I\u2019m not sure what\u2019s going on with it,\
+  \ but I have a lot running on it. So, we are now in week 11 out of 15. Today we're\
+  \ focusing on eye-tracking data. Next time, we're going to have a sort of gap-filling\
+  \ lecture discussing topics I feel haven\u2019t been sufficiently covered. One of\
+  \ the main topics will be neurons as a specific type of cell. It's a bit amusing\
+  \ to talk about neurons in the 11th week of a class on neuroscience, but it\u2019\
+  s important. You may have come across some direct instructions on what a neuron\
+  \ is, and you\u2019ve certainly developed a vague understanding of this cell type\
+  \ and how it generally operates. However, I think it would be beneficial to delve\
+  \ deeper into the specifics of neurochemistry, synapses, sodium-potassium ion pumps,\
+  \ nodes of Ranvier, and all that good stuff. \n\nI enjoy teaching concepts in a\
+  \ somewhat reverse order, where you start with advanced material and work your way\
+  \ down to the foundational aspects. It will be interesting to learn about the specific\
+  \ individual cell, as the smallest unit of neuroscience could arguably be the neuron.\
+  \ So, discussing this after examining the behavior of the large-scale conglomeration\
+  \ of trillions upon trillions of neurons will be an engaging experience. Fun! The\
+  \ following week on Monday, we are going to devote the class to doing poster prep\
+  \ stuff and helping you with the final formatting and output. My goal is that by\
+  \ the end of the day, everyone will have uploaded their PDF to the appropriate spot.\
+  \ Depending on where each person is, you can hit different levels of that. You need\
+  \ to have it uploaded by Tuesday, which is the day after that class, so it would\
+  \ be wise to set yourself up in a way that allows you to be finished by the end\
+  \ of class on Monday. If you are not finished, it will be up to you. Hopefully,\
+  \ even if you are not finished, you'll have the instructions you need to do it on\
+  \ your own. If your poster is already done, we can do preliminary practice talks,\
+  \ going over the content and details, and addressing any last-minute concerns. I\
+  \ will probably try to leave some time on the following Wednesday to discuss specifics\
+  \ just in case you have details that require more than class time to address. After\
+  \ that, I will give a talk about evolution and the context of how we arrived at\
+  \ this particular strange state of being. Following that, I will discuss the autonomic\
+  \ nervous system, PTSD, and other related topics. The final class before the actual\
+  \ presentation will focus on more practice, where we'll break into small groups\
+  \ to present your posters to each other so that you are well-prepared for the following\
+  \ week, which is the poster presentation itself. This will happen on Monday and\
+  \ Wednesday during normal class time. In the final week of class, we will discuss\
+  \ my research, which will be hypothetically situated to align with everything we\u2019\
+  ve talked about in class. On the last day, we will have wrap-up retrospectives,\
+  \ primarily focused on presenting my personal final project for the course, which\
+  \ aims to make sense of all the data from the server. Does that sound good? Does\
+  \ it make sense? Does it track roughly with what we've been discussing? Cool! Okay!\
+  \ Are we done uploading? Not quite yet. Okay, there we go. Click on that. Where\
+  \ are you at? Share. Link general access. Anyone with a link can view it. Copy the\
+  \ link. Why are we moving so slow today? Computer. And where are we? We're here.\
+  \ Links and resources. There you go. It's a 3-gigabyte zip file. So if you want\
+  \ to download it, it'll take a second, but there it is. It is available, and let's\
+  \ get into it. First of all, I have to figure out what's slowing down this thing.\
+  \ Yeah, we should be okay, I think. So, if you open up that folder, download, and\
+  \ open up that folder, if you so choose, you will find roughly this: a lot of software\
+  \ that you will use in your life that does scientific recordings and anything kind\
+  \ of scientific or engineering-based. Especially if it\u2019s something that hasn't\
+  \ been produced by a mega corporation that has a very smooth exterior, which you\
+  \ know companies like Apple and Google like to produce. You\u2019ll typically find\
+  \ something that looks like this on the inside, where there is just a bunch of strange-looking\
+  \ files dumped into a folder of some kind. Freemo Cap has stuff like this. I had\
+  \ tried to make this the top-level recording dump for Freemo Cap somewhat friendly\
+  \ for the brain, but it still winds up looking a lot like this. One of the things\
+  \ you want to think about when looking at a data dump from a recording apparatus\
+  \ is which of these are the core pieces of data, what\u2019s the primary output\
+  \ of this thing, and which of it is secondary ancillary metadata. In our particular\
+  \ case, what the hell? Oh, I was looking at the wrong one. That's 1024. That\u2019\
+  s last. This year, we have a new model. There you go. Same concept, same idea, except\
+  \ this one features two eye trackers, one for each eye, while the previous model\
+  \ did not. This brings us to the point of discussing the concept of a model\u2014\
+  a data model or a paper model. All the papers share similar components, but the\
+  \ content varies. The names of all the elements here are roughly equivalent, but\
+  \ the actual content differs. For those of you recording with this eye tracker,\
+  \ the main items I'm looking for are I1 and world.mpp4, which are video files. If\
+  \ I click this one, I'm not sure if it plays. Yes, there you go. This is the raw\
+  \ video recording from the left eye of the eye tracker, and this essentially constitutes\
+  \ the raw data from that apparatus. The quality is okay; it looks poor on this projector\
+  \ but better on my screen. However, spoiler alert, there is a shadowy area over\
+  \ here, which probably explains why the data didn't come out as cleanly as expected.\
+  \ It\u2019s possible that I could have adjusted the camera slightly because, there\u2019\
+  s the illuminator whose reflection you can see right there. This area is somewhat\
+  \ in shadow. If you imagine the light coming from this side, my eye on this side\
+  \ is mostly in shadow. I didn\u2019t notice this when I was setting it up. I haven't\
+  \ been in the trenches of recording eye-tracking data and natural behavior for a\
+  \ while, so I wasn't quite attuned to that. Even if I had been, I doubt I would\
+  \ have noticed it. Now that I've gone through a recording and reviewed the data,\
+  \ I realize it isn\u2019t as good as it should be, especially when my eye is on\
+  \ this side of the screen. Now I\u2019m more aware of what to look for when I go\
+  \ back to record more data. This iterative aspect is crucial to highlight in this\
+  \ demo because it is the way anyone improves at anything. When you attempt to use\
+  \ a complicated piece of equipment or undertake a complex task, the only proven\
+  \ method for improvement is to repeat the task over and over again. Eventually,\
+  \ you learn enough of what to observe and recognize it through sufficient repetitions;\
+  \ when you go to record, you know to pay attention to all the little details and\
+  \ nuances. Looking for clear, even luminance across the image is an important thing\
+  \ that I need to focus on. With enough time, that's where expertise comes from.\
+  \ I remember being in the undergraduate and graduate student phase of my life and\
+  \ seeing people doing things that baffled me. I wondered, how do they learn all\
+  \ of that? How do they know how to do these things? How do they know every paper\
+  \ that's ever been published and the names of all these obscure parts? When I say,\
+  \ \"Hey, yeah, I'm ready to go. This looks good,\" they come over and say, \"Oh,\
+  \ no, because of this, that, and the other thing, it does not look good.\" The answer\
+  \ is that they were 20 to 30 years older than me, and they had been working on the\
+  \ topic I was focusing on for as long as I had been alive. Over time, they made\
+  \ enough mistakes that the obvious stuff became obvious, and they could point it\
+  \ out. Now that I'm on the more experienced side of the fence, I can say that expertise\
+  \ never really feels like you are an expert. You notice there are many people who\
+  \ are worse at things than you are, and you try to work with that. Typically, by\
+  \ the time you reach my level or higher, you have specialized enough that the scope\
+  \ of things you must think about is narrower. When people talk to you and say, \"\
+  Holy smokes, you've got this highly specialized skill set,\" you realize it\u2019\
+  s actually quite limited. As a student, you often bounce from room to room, engaging\
+  \ with experts in different fields. They speak about their expertise in environments\
+  \ where they need to focus solely on their domain, making it easier to imagine a\
+  \ skewed perspective of the world while living that way. Anyway, long story short,\
+  \ that's an eyeball, and it's doing a good enough job. The signal we are going to\
+  \ try to extract from this raw piece of data is roughly the position of the black\
+  \ patch as it moves back and forth, up and down, throughout the image. So let's\
+  \ proceed. It's somewhat amusing to sit here discussing expertise while analyzing\
+  \ eye-tracking data that isn't even all that clean. I think we should follow a similar\
+  \ path to what we've done before regarding measurements, data recording, and data\
+  \ collection. Now, this is... Very similar to the motion capture data in a lot of\
+  \ ways, it is a video record that captures some aspect of my motor control and records\
+  \ the parts of that neural cascade that affect the world enough to be noticeable\
+  \ by a camera. Now we're going to try to process from that raw data down through\
+  \ various levels of abstraction and computation, and sort of like mutation of the\
+  \ data into a format that we think we should be able to use to make claims about\
+  \ not only what was going on inside my ocular motor system and visual cortex, but\
+  \ hypothetically even have things to say about all human, mammalian, and primate\
+  \ visual cortices and ocular motor systems. This is a pretty baffling thing to attempt,\
+  \ given our hubris, but having come all the way here, we might as well start.\n\n\
+  Similar to the previous data, we start with this image. You have a camera, and it\
+  \ looks at an eyeball and light. In the previous case, we were discussing light\
+  \ coming from the environment, illustrated with a little picture of a sun, where\
+  \ the light bounces off and into the camera. In this particular case, because this\
+  \ is an infrared camera and there really isn't very much infrared light in the room,\
+  \ we actually rely on a secondary illuminator that we attach to the camera. The\
+  \ light in the infrared spectrum, like 800 to 1000 nanometers, bounces off the eyeball\
+  \ and into the sensor. The sensor produces a bunch of images of eyeballs. In this\
+  \ case, for the eye cameras, I think it was recording at about 120 frames per second.\
+  \ \n\nWith the motion capture camera, the world camera, and many cameras like this\
+  \ one, a standard default frame rate for most cameras that you would pick up is\
+  \ about 30 frames per second. Some higher quality cameras prefer to record at 60\
+  \ frames per second. You don't typically see a lot of video media for standard human\
+  \ consumption recorded at higher frame rates than that unless it's built as slow\
+  \ motion. If your phone has a slow-motion feature, it can capture more frames per\
+  \ second than usual. The slow motion mode will be recording at a higher frame rate,\
+  \ but it will be played back at 30 frames per second. If you record at 240 frames\
+  \ per second for one second and then play that back at 30 frames per second, that\
+  \ results in playback at one-eighth the frame rate. Another issue I have with how\
+  \ we handle cameras is that if you have that mode in your phone, it will probably\
+  \ indicate speeds like one-eighth speed or one-quarter speed, assuming the default\
+  \ frame rate is 30 frames per second. However, they don't actually clarify that\
+  \ because the phone companies want to keep users uninformed. The more you understand\
+  \ technology, the less reliant you are on the people selling it to you in exchange\
+  \ for your data, pretending that it is a fair deal. \n\nIn analyzing computer vision\
+  \ and images from cameras, we generally think of a video as a stack of frames that\
+  \ comes in at a particular rate over time. We attempt to extract data from each\
+  \ frame\u2014a little data blob here\u2014leading us to label them as frame one,\
+  \ frame two, up to frame n, which represents however long the recording is. When\
+  \ analyzing the data from one point to another, we need to consider the time interval\
+  \ between the frames. If we want to address this informally, we can use the frame\
+  \ rates of the cameras or notice that I have already observed the mean frame rate\
+  \ is around 120 frames per second, using that information. However, to be more accurate,\
+  \ we can refer back to the raw data, which contains files labeled I timestamps and\
+  \ world timestamps for each video. Generally, the base raw data that is most crucial\
+  \ consists of the video files, as they typically hold the most data in the folder,\
+  \ ranging from about half a gigabyte to 1.3 gigabytes in size, while other files\
+  \ are in the kilobytes or less data scale. Timestamp data is also technically speaking,\
+  \ just as necessary to make proper empirical sense of these recordings as the actual\
+  \ videos. Generally, and I think almost universally, videos do not actually encode\
+  \ real measured timestamps from their frame rates. If you ever find a camera that\
+  \ produces something that looks like a timestamp, like GoPros will do, they are\
+  \ misleading. They are just taking the number of frames, dividing it by the duration\
+  \ of the recording, and then splitting those up across all the frames that they\
+  \ actually capture. If you look at the variation between the frame durations from\
+  \ something like a GoPro output, they will be exactly the same; every frame will\
+  \ take about 33.33 milliseconds because it is not an actual measurement. If you\
+  \ were to look at these timestamps, you would see some noise in the data because\
+  \ it's an actual data point that has variation. However, that's more than we need\
+  \ to delve into at this juncture.\n\nThe important thing is that for these cameras,\
+  \ you are pulling out data on a roughly frame-by-frame basis. In this particular\
+  \ case, it's fully frame by frame, but in other contexts of camera stuff, you might\
+  \ have some aspect of using the previous frame to smooth out the data or clean things\
+  \ up. In this case, we're going to do it frame by frame. For example, in a physics\
+  \ class, you take the camera and plot it, saying, 'Okay, these are the positions\
+  \ at frame 1, 2, 3, 4.' Let's say it's a 100 frames per second camera to make the\
+  \ math easy. The time elapsed between these frames is 10 milliseconds. If we go\
+  \ from frame 1 to frame 3 over 10 milliseconds, then we are moving quickly. We are\
+  \ traveling 3 meters in 10 milliseconds, and that's where we derive all the physics\
+  \ concepts from. The number was not as precise as you may have thought it was, which\
+  \ is totally fine for your physics class. In reality, most cameras actually do work\
+  \ pretty well, so the variation between frames probably wasn't that big. Let's say\
+  \ it was from 9 to 11 milliseconds per frame, and on average it winds up being 10\
+  \ milliseconds. If you were to calculate how much kinetic energy is occurring from\
+  \ frame one to frame two, your estimate is going to be a little bit off over a short\
+  \ time scale. However, over the course of a thousand frames, it's probably going\
+  \ to wash out. You get into these questions of precision, right? If you are asking\
+  \ about the application in that case\u2014were you trying to land something on the\
+  \ moon, or were you just trying to say, \"Oh yeah, look, there's a roughly ballistic\
+  \ trajectory and the kinetic and potential energies trade-off or something like\
+  \ that?\" For a given application, it's a very good and valid point that you have\
+  \ to be mindful of the reason why you're taking the recording when you're questioning\
+  \ how much precision really matters. For instance, if you are at the point of designing\
+  \ passenger jets, it might be worth getting the real numbers. However, in most contexts,\
+  \ it wouldn't matter much. If the actual rate is 9 to 11 milliseconds per frame,\
+  \ and you're looking at the specific physics of a singular frame, then that could\
+  \ be off by a factor of about 10 to 20%. But if you have 10,000 or 100,000 frames\
+  \ of data, then it will wash out. It really depends on the application. In a lot\
+  \ of scenarios related to motion capturing, I'm building the free mocap tool for\
+  \ clinical applications where we want to maximize precision. However, for much of\
+  \ the history of the project, a lot of the data I produce is just using the estimation\
+  \ of the mean frame rate as the assumption for the physics, because it's enough\
+  \ to make the point. It's a complex enough system that ensuring everything aligns\
+  \ in this regard hasn't been the highest priority in the way we've been using it\
+  \ so far. I think a common theme in fields like neuroscience, in particular, as\
+  \ well as in many areas of science, is that precision must be balanced with practicality.\
+  \ This is kind of like empirical tool building in science. You want to minimize\
+  \ as much noise as you can in your data because this is the base data. We are taking\
+  \ these measurements, and eventually, we are going to try to say things about how\
+  \ the brain works. Just to be clear, that is a significant claim. It takes a lot\
+  \ of belief to look at a stream of blurry images from the eye and make assertions\
+  \ about the brain. The last thing you want to do is leave a lot of noise in the\
+  \ system that you could eliminate because that noise hinders your ability to analyze\
+  \ and make the claims you want to make. \n\nIn most behavioral settings, a millimeter\
+  \ or a millisecond of error isn't going to change much of the output. However, I\
+  \ am working with people building similar types of systems that will be coupled\
+  \ with electrophysiological spikes from the brain. In that case, you want things\
+  \ to be nailed down to the submillisecond level, if possible. \n\nIt's all a matter\
+  \ of how, in a perfect world, we could reduce as much error as possible and achieve\
+  \ perfect empirical measurements of what we consider true reality. Unfortunately,\
+  \ in the real world, we do what we can with what we've got. Being a good scientist\
+  \ means understanding the system you are studying and the context of your study\
+  \ enough to know what levels of noise are permissible and impermissible in your\
+  \ dataset. \n\nIn this case, if this were data I planned to build a research project\
+  \ on, I would discard it and say, 'Let's do it again.' Not because it's not valuable,\
+  \ but because I know I could gather better data. I would consider this pilot data\
+  \ and would suggest trying again to obtain cleaner results. In this particular context,\
+  \ it's sufficient for the purposes of this course. \n\nAs I've mentioned before,\
+  \ I actually prefer having a little noise because it leads to conversations like\
+  \ this. This scenario is closer to what your reality will be when you start collecting\
+  \ your real data from unpredictable equipment, rather than a world where you push\
+  \ a button, the light goes green, and everything is perfect. I thought about delaying\
+  \ and pushing this off, but then I'd have to use data we didn't record in class\
+  \ and drop a lecture, which I prefer not to do if possible. So, here we are. Good\
+  \ question, though. Any other questions? I have empirical anxieties to share about\
+  \ unknown errors in previous class assignments. This is also one of those things\
+  \ where there is a very small percentage of people in the world who care enough\
+  \ about the timestamps between camera frames to discuss it in a classroom setting\
+  \ in this context. I have spent a lot of my life pulling data out of video streams,\
+  \ and the realization that most cameras produce fake timestamps was significant;\
+  \ about three to six months of my post-doctoral experience was spent discovering\
+  \ that this was the case. So now you have that information for your own life.\n\n\
+  Base data consists of these images. The videos from the motion capture were a little\
+  \ more complex because they were color images. However, this is a simpler context,\
+  \ where it is specifically, I believe, either 192 or 400. Let me check. I think\
+  \ it\u2019s 400. Yes, so it's a 400x400 grid of pixels. Each of these pixels will\
+  \ have a value between zero and one, where zero means black, indicating no data.\
+  \ The camera sensor here essentially has some physical silicon wafer designed such\
+  \ that when light hits it, it changes its voltage output. \n\nIf you see an analogy\
+  \ between this and the back of the retina, yes, it is there, but only analogously\
+  \ in the sense that I drew a wiggly thing coming in and a change in voltage going\
+  \ out, beyond all the complexities of going through a lens and bending light. Beyond\
+  \ that analogy, it really breaks down; this is a very different thing from what\
+  \ is at the back of your retina. However, in terms of their fundamental machinery,\
+  \ they both turn photons of light into voltage output in a way that retains some\
+  \ structural information about how the light came in. So, take from that what you\
+  \ will. You will. This image that comes out is going to be somewhere between white\
+  \ and black. This is an example of white. The pixel values range between 0 and 255,\
+  \ where 255 represents the maximum value. If we were to measure a pixel here, the\
+  \ value is probably pretty close to 255, indicating that it is fully saturated.\
+  \ In photography, when an image is fully washed out, the zebra stripes show up,\
+  \ indicating that the sensor is maxed out. We cannot measure any variation in this\
+  \ region because every pixel here will be 255. That's fine; we are okay with that.\
+  \ \n\nThis pixel here is an example of a black pixel, which is probably producing\
+  \ a value pretty close to zero. Across this region, all of these pixels are likely\
+  \ around zero as well. That's acceptable. In the other regions, the values will\
+  \ vary; this could be zero, this could be one, and some will be other numbers between\
+  \ zero and one. The entire grid will be filled with numbers \u2014 some of which\
+  \ will be zero, some of which will be one, and others could be 0.5, for instance.\
+  \ \n\nThis corresponds to the raw data we have extracted, which is the voltages\
+  \ coming off the camera grid converted into a number between zero and one. Somewhere\
+  \ in the settings, there are adjustments for gain and exposure, which change the\
+  \ physical mapping of these values. Nonetheless, this is the base data we have.\n\
+  \nI might regret erasing that. Despite being 400 by 400, which amounts to 160,000\
+  \ pixels, the overall count is significant. Frames per second is six times. 160,000\
+  \ times 120 frames per second corresponds to a certain number of bits per second.\
+  \ This is a number between zero and 255, which is from 0 to 2 raised to the 8th\
+  \ power, and this is a byte. I think that's a byte; I can't remember. But when you\
+  \ talk about bits and bytes, a bit is zero or one and a byte is usually that many.\
+  \ So, 160,000 of those times 120 frames per second results in how many bytes per\
+  \ second is being produced from this. The point is that it's a lot of data, but\
+  \ also, relative to the true facts of the universe, it's nothing. It's absolutely\
+  \ nothing; it's a pale, vague shadow of reality. If this were a 4K image recording\
+  \ at a thousand frames per second, I would still say that it is a dim shadow of\
+  \ reality. We would be able to define far more about the boundaries between the\
+  \ pupil and the iris and the sclera and the eyelid in that context. However, it\
+  \ would still be the case that if we doubled all of those numbers, it would still\
+  \ remain a pale shadow of reality. Once again, as we've discussed, whether or not\
+  \ it's a usable pale shadow of reality depends on the specific applications you\
+  \ are trying to achieve. Anyway, I feel like that point has been effectively belabored.\
+  \ So, we receive one image per frame. Is it this one? Yes, one frame. So, 120 frames\
+  \ per second means 8.33 repeating milliseconds per frame. Therefore, every eight\
+  \ and change milliseconds, we receive a new one of these images. We are trying to\
+  \ make sense of what we can extract from it. So, let's think about what type of\
+  \ data we would want to pull out of a given context. So actually, and this is not\
+  \ quite yet, but soon we'll have a division point in the hypothetical processing\
+  \ algorithm that we can use based on the science of whichever part of the scientific\
+  \ inquiry you're trying to pursue. But at a basic level, what we want out of this\
+  \ is the position of the pupil. We want to know where the pupil is, specifically\
+  \ relative to the head. However, this data does not provide any information about\
+  \ the position of the head. What we do know, because we were here, is that this\
+  \ view is coming from a camera placed here, and we can say it did not move relative\
+  \ to the head as I move my head around.\n\nSo, this starts getting into some levels\
+  \ of geometry which are not necessary and relevant here. We know that the camera\
+  \ sensor that produced this data is located in a fixed position relative to the\
+  \ head. Therefore, the data it gets is in camera coordinates; this is in the camera\
+  \ coordinates of the eye camera. Image coordinates are upside down: they start at\
+  \ 0, 0, which is the upper left corner of the screen, and then you kind of count\
+  \ that way. Actually, don't go back; you just go that way. So, positive y points\
+  \ down and positive x goes to the right.\n\nIt\u2019s one of those things that seems\
+  \ confusing because, depending on the level of math one starts with for plotting\
+  \ things on an xy coordinate system, it varies. In this context, positive y goes\
+  \ down, which is reversed from the standard where positive y goes up. So, if this\
+  \ is zero, this is 100, this is 200, and this is 400, you see that down is technically\
+  \ up; when the number goes up, the pixel moves down. They implement the same system\
+  \ in image coordinates, which creates different reference frames in different contexts.\
+  \ Zero indexing is significant, meaning you start counting from zero. Zero. So it's\
+  \ like you do 0, one, two, three, four. This is four instead of five. It's confusing,\
+  \ but the index is four and the number is five. You often talk about what coordinate\
+  \ system you are using. In image coordinates, you start in the upper left, go down,\
+  \ and then go right. In that case, if you have a Z vector, and this is a right-hand\
+  \ rule for XYZ, if you're doing that correctly and you put that number there, positive\
+  \ Z is that way. Sometimes, you'll see cases where negative Z points in a different\
+  \ direction because they use a left-handed coordinate system and no one informed\
+  \ them otherwise. You can see this when you go back and forth between fields like\
+  \ biomechanics and robotics, and then to vision and neuroscience. In biomechanics\
+  \ and robotics, the XY plane is almost universally considered the ground plane because,\
+  \ if you're concerned about physics, that's the first thing you want to know about.\
+  \ You start counting with X, then Y, and then Z, placing the first two elements\
+  \ on the most important plane, which is the ground. In that context, Z points up.\
+  \ However, when you talk to people who work in animation or virtual reality, they\
+  \ think about the image plane, where XY is the image plane and Z points back. If\
+  \ someone has dedicated their life to studying vision and someone comes along and\
+  \ says Z points up, they can have strong reactions, insisting that's incorrect.\
+  \ They may not be aware of the different fields that use different conventions,\
+  \ and this highlights part of the cultural aspects of science. It's easy to become\
+  \ entrenched in a particular intellectual tradition where X, Y, and Z always correspond\
+  \ to the same things. It's like if someone started making a plot in a class where\
+  \ they said, 'Okay, this arrow is Y, and this one is X.' That would feel weird,\
+  \ but it's also completely arbitrary. As long as you designate it correctly, that\
+  \ would make this direction Z; it's arbitrary. X and Y could be anything; we just\
+  \ chose those letters because they're among the unusual ones at the end of the alphabet.\
+  \ I'm not quite sure where that came from, but whether or not the data is one way\
+  \ or the other, the numbers don't change the underlying reality. The measurement\
+  \ doesn't really care if you're measuring it in one reference frame or another.\
+  \ Everything after this point kind of becomes a matter of convention. The data is\
+  \ produced in a certain way and recorded in a certain way so that when humans encounter\
+  \ it, they will know, if they're indoctrinated into the appropriate intellectual\
+  \ traditions, the numbers will make sense to them. If they make guesses about things,\
+  \ it will be roughly correct. However, it is very easy to fall into a position where\
+  \ it feels like there are right and wrong answers. There are right and wrong answers,\
+  \ but almost universally, they are only right and wrong relative to some cultural\
+  \ norm or another, or some intellectual tradition. The internet runs entirely on\
+  \ the basis of protocols. For example, there is HTTP, which is the Hypertext Transfer\
+  \ Protocol, and email, which is a different kind of protocol. In that context, you're\
+  \ transferring data blobs back and forth. When your computer receives data, if you\
+  \ go to a website and it provides something that is not structured according to\
+  \ the HTTP protocol, your computer will reject it, indicating that this is an incorrect\
+  \ or invalid site. However, there is nothing explicitly wrong with that data; it\
+  \ simply does not follow the conventions that we have all agreed to follow. So,\
+  \ as a computer, you would say, \"I don't even want to deal with your data; just\
+  \ send me something correct, or I'm not going to show this web page.\" The important\
+  \ point that I really want to convey is that there is a very strong cultural element\
+  \ to any form of scientific exploration. It's somewhat unrelated, but it made me\
+  \ think of image compressors. How does that work? That's a side note, but I can\
+  \ explain it quickly. When this data lives in NumPy on my computer, and when it's\
+  \ stored raw\u2014like I have been describing\u2014I'm recording every single number\
+  \ from every single bin. If you do that, the numbers can get really large very quickly.\
+  \ For instance, if you were to store it, I think this literally amounts to bytes.\
+  \ If you wanted it to be like 160 kilobytes per frame ... So a kilo is that many\
+  \ megabytes, but I don't know; nobody knows. That's the raw uncompressed form of\
+  \ that. However, as we pointed out ... All of these are 255. So, I don't actually\
+  \ have to record every single dot here if I have a way of saying that everything\
+  \ in this particular box is 255. Now I can replace this. This is called a bitmap.\
+  \ If you ever encounter BMP, it's a bitmap; it's just every dot in a grid. If you\
+  \ encounter something called a JPG or APNG, it has replaced basically, it just makes\
+  \ some decisions about which numbers we are going to consider to be the same number,\
+  \ and it looks for blobs where it can essentially replace. Let's say that this region\
+  \ right here is 10 by 30 pixels; that's 300 numbers you have to record. So if you\
+  \ can find a way to record something that says everything in this region is 255\
+  \ and you can record that in less than 300 numbers, then you have achieved compression.\
+  \ With something like a JPEG, it's a lossy compression. This means that if you compress\
+  \ it and pull it back out, you lose data, meaning you cannot reconstruct the full\
+  \ image. On the other hand, you have something like APNG, which is a lossless compression.\
+  \ You can compress it down and then decompress it to get the exact same image back,\
+  \ which is obviously advantageous, but it takes longer to do and doesn't compress\
+  \ as much. So, again, in the deep guts of free mocap, I have to make decisions about\
+  \ whether I can compress this losslessly, which takes longer, or do a lossy compression\
+  \ and set parameters for what number is considered to be the same number because\
+  \ it's worth it to lose data to gain time. So it's that basic idea of finding more\
+  \ efficient ways of saying we don't have to record everything in this super inefficient\
+  \ way. Yes, I will allow that rabbit hole because it is dear to my heart. If you\
+  \ recall when we looked at the motion capture data, I talked about the magic step.\
+  \ There's a magic box in that equation called a convolutional neural network, which\
+  \ is a machine learning trained neural network whose job is to identify human shapes\
+  \ in images and draw stick figure skeletons on top of them. I call it a magic box\
+  \ because it is an inferential equation. This involves training data and training\
+  \ sets. It's neural networks and machine learning. Technically, it falls under the\
+  \ umbrella term of artificial intelligence because AI is an imprecise term that\
+  \ is a way of saying machine learning. In this particular case, for this type of\
+  \ eye tracker, there is no equivalent magic box. This tracking is done with traditional\
+  \ computer vision. I don't know all the algorithms, but I have looked at them. I\
+  \ just couldn't do the math by hand. However, every step of the process to analyze\
+  \ this is computational in nature. There is no statistical trained neural network,\
+  \ and no one is going in and hand-labeling the images. Every step that's done is\
+  \ based on looking at things like the gradients between light and dark. If you were\
+  \ to take a slice through this image and grab the luminance of the pixel from left\
+  \ to right, it would look bright and then drop down repeatedly. We know because\
+  \ of our developed human brains and our evolved visual system that these pixels\
+  \ here are the sclera, these pixels here are the iris, and these pixels here are\
+  \ the pupil. This represents the luminance between, let's say one and zero down\
+  \ here. You can see that it's a little bit brighter up here, then it transitions\
+  \ to a shade of gray, and then goes as dark as it can get and back out. You can\
+  \ perform this one-dimensional slice from top to bottom as well. If you dug through\
+  \ the data, you wouldn't find anything that does exactly this. But I would say the\
+  \ way this algorithm does its pupil detection relies on this kind of low-level analysis\
+  \ of the raw pixels, and there is no inferential step involved; it's all computation\
+  \ on the raw image. This is roughly where I call the difference between classical\
+  \ computer vision and contemporary computer vision. The whole tech industry seems\
+  \ to have decided to forget how to do geometry and put all their eggs in the neural\
+  \ network basket. But that's okay; I understand why. In any case, at the end of\
+  \ all that process, there are a bunch of ... Chunky gross data produces an ellipse\
+  \ that is drawn around all the darkest pixels in the image. This is referred to\
+  \ as a dark pupil tracker because it tracks the dark pupils. The ellipse provides\
+  \ an estimate of where the pupil is located, and based on the data frame of the\
+  \ camera, we can take the average position of that ellipse to determine the pupil's\
+  \ X and Y coordinates. If you care about the question of where people are looking\
+  \ at given points in the image during various activities, this is the data you want.\
+  \ You need to know the position of the pupil in the frame. \n\nIf you are a pupilometry\
+  \ researcher and believe it\u2019s important to study the size of the pupil, then\
+  \ the data stream focusing on that aspect is crucial. I have previously discussed\
+  \ the pupilometry side of this topic extensively and will continue to do so for\
+  \ the rest of my life. While there's valuable information in that area, it tends\
+  \ to be overemphasized by those who avoid real calibration. However, if you prioritize\
+  \ the size of the ellipse, which indicates the pupil's constriction, it becomes\
+  \ an important data stream for you. \n\nYou might be willing to disregard the X\
+  \ and Y positions because your interest lies only in the pupil diameter. Conversely,\
+  \ I would prefer to focus on the X and Y information rather than the pupil diameter.\
+  \ In this particular instance, both are outputted, but if I were writing the code\
+  \ from scratch, I might skip recording the pupil diameter since I can get that information\
+  \ along the way. Nevertheless, if I had to make a choice to save on processing time,\
+  \ I would gladly discard the diameter in favor of the X and Y coordinates. This\
+  \ reflects the bifurcation point I mentioned earlier, where the type of science\
+  \ you are conducting can lead to a divergence of paths from the raw data. \n\nThis\
+  \ setup gives me the pupil position over time (X and Y). Remember, there is something\
+  \ I mentioned about eye tracking that is not represented in this data. If you look\
+  \ at... It's one of those trickle leading questions which I always hate. Why aren't\
+  \ we playing? Hey buddy, is that going to come in upside down? Come on, man. There\
+  \ we go. So, I'll do that. It might be hard to see actually, but I talked about\
+  \ it a little bit. If I'm only recording the vertical and horizontal position of\
+  \ the eye, am I getting everything that there is to know about my eye position on\
+  \ each frame, or is there something that I'm missing? It's like a sphere. If I'm\
+  \ looking up, down, left, right, is there anything else that I'm missing? It's not\
+  \ going in and out. It's a sphere that's fixed in space, so the distance is there.\
+  \ It\u2019s attached to my head. What's that? Rotation? The torsion? Yeah, so it's\
+  \ this axis. So, it is. I guess it would be... Oh yeah. In terms of rotation, because\
+  \ these are spherical coordinates, which I haven't talked about but it's worth discussing.\
+  \ We've been talking mostly about, you know, this position here is X and Y. It could\
+  \ also be denoted as L and theta, right? You define it\u2014that's polar coordinates\
+  \ versus Cartesian coordinates. In 3D space, you have, let's just say, X, Y, and\
+  \ Z, and you have a point that's sort of out here along all three axes. Similarly,\
+  \ you can define that in terms of a distance, and then theta, and then, you know,\
+  \ whatever rho, a third... So there's still a three-dimensional distance. What's\
+  \ that? Rho would be distance. Yeah, so it's... And this is a case where, if we\
+  \ assume that it's a sphere, if we assume that it's a sphere that doesn\u2019t change\
+  \ radius, then it's actually... In most contexts, I would say these things are equivalent,\
+  \ and they are absolutely equivalent. However, if I am measuring in 2D and I know\
+  \ that the data is only going to be spinning around in a circle at a fixed distance,\
+  \ I would much rather convert that into polar coordinates. This way, I can disregard\
+  \ the L variable. Instead of having to deal with two numbers, I only have to focus\
+  \ on one number, which is theta.\n\nSimilarly, if we assume that it's a sphere in\
+  \ space, to know the position at the tip of that vector, technically I need three\
+  \ parameters: theta for azimuth and elevation. Elevation makes sense; it's up and\
+  \ down. Azimuth is the rotation, like if I'm pointing at something: this is elevation,\
+  \ and this is azimuth. I would prefer to work with just theta and rho, eliminating\
+  \ the need for the z-axis. However, there is a third variable I technically need,\
+  \ which is the rotation around that point.\n\nThis is why I find it conceptually\
+  \ similar to the distinction between two-dimensional numbers and three-dimensional\
+  \ numbers. If that sounds mind-blowing, it's related to matrix math and linear algebra.\
+  \ In linear algebra, sometimes numbers can represent grids and behave similarly.\
+  \ A two-dimensional number, if you have several of them, becomes a three-dimensional\
+  \ number. Linear algebra is probably one of the fields we teach the worst; it's\
+  \ incredibly useful math taught in the least interesting way. Good luck if you have\
+  \ to take it.\n\nRegarding torsion, it is not measured by this eye tracker or any\
+  \ eye tracker that I am aware of, because the pupil dark blob algorithm has an unconstrained\
+  \ degree of freedom. The way I described measuring this and looking for the darkest\
+  \ blob in the scene doesn\u2019t provide any information about rotation around the\
+  \ optical axis. It might be difficult to see here, but I do this explicitly. You\
+  \ can tell I'm moving back and forth, and you can observe that too. I guess I stopped\
+  \ doing that. So, there's the eye. I wish I had a better way of viewing my videos;\
+  \ I need a better way to do that. Anyway, I\u2019m having a hard time identifying\
+  \ that thing, but as you can see, I don't know. Anyway, I'll leave this one as an\
+  \ exercise for the reader. This is one of those things: if you look at this video,\
+  \ take a video on your phone, look straight into the camera, and then rotate your\
+  \ head like this, you'll see your eye doing torsion. It'll rotate plus or minus\
+  \ seven degrees, and you'll notice that as you rotate your head, it goes tick tick,\
+  \ because it will reach the extent of its abilities and then tick back to zero.\
+  \ That\u2019s ocular torsion. It\u2019s one of those areas of visual neuroscience\
+  \ that, if you read the literature from at least ten years ago, you\u2019ll find\
+  \ people saying we don\u2019t need to worry about torsion. Isn\u2019t it nice how\
+  \ we don\u2019t need to worry about torsion? They\u2019re just straight wrong. That\u2019\
+  s where the science is mistaken. The field has been focused for so long on people\
+  \ who are head-fixed, where they don\u2019t rotate their heads, so you don\u2019\
+  t see torsion. Because we\u2019ve been using tools that don\u2019t measure torsion,\
+  \ the culture has sort of extracted this belief that you don\u2019t need to measure\
+  \ torsion. For the things they tend to study, that\u2019s true, but if you want\
+  \ to know\u2014this talk involves the desiderata, or the things that I really want\
+  \ to get out of this data to understand the nervous system better\u2014I want to\
+  \ know if this is the eyeball and how it\u2019s attached. That\u2019s not how it\
+  \ works at all. Would it be like that? That\u2019s also not how that works. Okay,\
+  \ do it the other way around. There we go. It took a second. One more time, got\
+  \ to get it right; it\u2019s very important. There will be a test, but for me only,\
+  \ not for you. Okay, there you go. That\u2019s good enough. So, That's your brain.\
+  \ That's your eye. The visual cortex does something and it goes back here. You have\
+  \ a retina and everything. The light from the world is coming in. I want to know\
+  \ if you can give me an eye tracker, like the one I have, which is the best one\
+  \ I'm aware of. I want to be able to measure where, if there are things in the world\u2014\
+  this is a tree and this is a cat\u2014the light from these objects, as it hits the\
+  \ eye, is recorded on the retina. My desire with this type of tool is to gain insight\
+  \ into the nervous system, particularly the visual cortex and the ocular motor cortex.\
+  \ I want to know enough about the eye position to make estimates about how the geometric\
+  \ projections of objects in the world map onto parts of the retina. The main thing\
+  \ that I need for that is the horizontal and vertical position because those are\
+  \ the significant movements. But if I'm ignoring the fact that the eye is rotating,\
+  \ I'm going to get that answer a little bit wrong. It's a very similar type of issue\
+  \ to what you were discussing with the timestamps; it's slightly inaccurate. I can\
+  \ do much more with an eye tracker that records horizontal and vertical position\
+  \ while ignoring torsion than I could with an eye tracker that records horizontal\
+  \ position and torsion but not vertical position. This might be why that type of\
+  \ eye tracker would never exist. Independently of that, it's just hard to measure\
+  \ torsion; it's a more difficult problem. There were other methods in the past for\
+  \ measuring eye tracking, and I think the most accurate form of eye tracking are\
+  \ magnetic coils. You can use contact lenses that have copper coils in them. These\
+  \ are not regular contact lenses; there\u2019s a little suction pump so they stay\
+  \ fixed, and you place the head in a large magnetic field to measure eye movements\
+  \ with very high accuracy. I believe those probably do provide torsion just due\
+  \ to their design, but that\u2019s a much more specialized piece of equipment. I\
+  \ would never be able to put that in my backpack, and I certainly can't put it on\
+  \ you as you walk around the world. So, yes, with the current state of eye tracking,\
+  \ torsion is unavailable. There are some ways of doing it; you can't even see them\
+  \ in this video, but there are... There are features in my iris that, if you could\
+  \ track those features from frame to frame, you would be able to determine whether\
+  \ they are rotating. When you look at your eye in a video, you can see it rotating\
+  \ around its visual axis. You notice this because your brain detects that the texture\
+  \ on the iris is rotating around the black pupil in the middle. The fact that you\
+  \ can see it means that the information is present in the signal. Hypothetically,\
+  \ you could design an algorithm that does that tracking on its own. However, when\
+  \ it comes to actual implementation in a real signal, it becomes a very difficult\
+  \ challenge. If you had a 4K image at 120 frames per second in a perfectly lit environment,\
+  \ you might be able to extract that signal. But for the most part, we don't capture\
+  \ that signal here, and we're roughly okay with that. I personally am not okay with\
+  \ that; it bothers me constantly, but I'm waiting for the field to produce something\
+  \ that works. I have friends working on similar problems, and they have made progress,\
+  \ but it's not as simple as having a head fixed in a vice with a giant camera and\
+  \ making perfectly ideal recordings for trained subjects who know how to calibrate.\
+  \ We will eventually get there. However, it's also a bit disappointing because People\
+  \ Labs is moving away from classical measurement methods and towards machine learning\
+  \ solutions. Their main market consists of marketing professionals who buy the most\
+  \ eye trackers to analyze where a person's eyes move when shown an ad. Unfortunately,\
+  \ that\u2019s where all the funding is, and those professionals don't really care\
+  \ about the low-level empirical aspects of eye tracking. Someday, Freocat might\
+  \ produce eye trackers, but if it ever happens, know that it was begrudgingly done\
+  \ because no one else was making the eye trackers I wanted. Everything I do, if\
+  \ I ever have to create something, annoys me because I feel it should already exist.\
+  \ If no one else is going to make it, I suppose I will. Anyway, where are we at?\
+  \ We are doing stuff. Yes, I can just talk endlessly about anything, can't I? I\
+  \ think this is probably fine because it gives me a little more time to clean up\
+  \ the data. We are going to look at the data, but I have spent all this time in\
+  \ the philosophy of science area and haven't actually gotten into the fun video\
+  \ with crosshairs. You all understand. So, next time has already kind of become\
+  \ an anticipation of what is to come. Halfway through, it's sort of like it's catch-up\
+  \ time. I will have a little bit of extra time to clean up the raw data a little\
+  \ more. I'll show you what that looks like before we get out of here, and then we\
+  \ can talk about it in more detail along with the other catch-up topics. I could\
+  \ absolutely talk about neurons for the full class period, but I don't want to.\
+  \ I think we can go piece by piece.\n\nHere we are with our stream of images coming\
+  \ off a camera, and from each one, we're trying to extract some low-level set of\
+  \ data in terms of dimensionality. If we assume it's an unprocessed image, which\
+  \ it\u2019s not, but let\u2019s pretend it is, then the dimensionality of each image\
+  \ is 160,000 degrees of freedom because every image blob will have 160,000 values\
+  \ that can vary between zero and one. So, the space of possible numbers there is\
+  \ 160,000 dimensions, which is a lot.\n\nWe boil it down. In this particular case,\
+  \ we are going to boil it down into X and Y. I'm not even going to think about diameter\
+  \ because I don't care about that. Now we have managed to reduce this 160,000 degree\
+  \ of freedom data type down to two degrees of freedom, which is way better and much\
+  \ more tractable.\n\nFrom this whole data blob, we say there are actually only two\
+  \ numbers that we need to define the parts we care about: pupil X and pupil Y, with\
+  \ the frame number being somewhat implicit. These values can both vary between zero\
+  \ and one, where one represents the width of the image or, if you want to be more\
+  \ empirically grounded, the width in pixels. So, for a 400 by 400 image, this number\
+  \ can range between zero and 400, and so can this one. However, because the 400\
+  \ number isn't going to change and is somewhat cumbersome, we might as well divide\
+  \ everything by 400. Now, it varies between zero and one, giving us two numbers\
+  \ that vary between zero and one. This happens to be a square image; most images\
+  \ are not. Most images have some kind of aspect ratio, like 640x480, which is 4x3,\
+  \ or\u2026 The resolution 1920x1080 is 16 by 9. I spent an embarrassing amount of\
+  \ my life thinking that these were the same numbers because I just forgot how to\
+  \ reduce fractions. These are basically the two aspect ratios you tend to see in\
+  \ your daily life. If you are looking at one of these types of images and you have\
+  \ converted from where the width is between zero and one and the vertical is also\
+  \ between zero and one, you've now converted a rectangle into a square, which is\
+  \ fine. Just be aware that you've done that, and if you want to represent the data\
+  \ spatially again, you have to multiply by the appropriate factors. This is unlikely\
+  \ to come up in your day-to-day life, but if it ever does, don't say I didn't warn\
+  \ you. We take each of these data blobs that we call an image, apply some old-school\
+  \ computer vision to them, and extract a very highly reduced data format in the\
+  \ form of x and y from each frame. Now this stream of bits per second goes down\
+  \ to 240 bytes per second. This is starting to feel like something I can handle.\
+  \ It's still a lot\u2014240 numbers per second is quite a lot of numbers if you\
+  \ had to write them down by hand. But luckily you don't; the machine has your back\
+  \ here. We have these nice rectangular friends that are much dumber than us, but\
+  \ they're way faster, and we can save a lot of time by appropriately dividing up\
+  \ the labor accordingly. I'm going to move away from that. Does anyone have anything\
+  \ to say about giant images of eyeballs? No? Yeah, what more could be said? A lot\
+  \ could be said. So going back into this data bucket, we have these blobs\u2014\
+  these numbers in a nice friendly row. Then these numbers correspond to how many\
+  \ bytes they are: KB is a thousand bytes, MB is a million bytes, GB is a billion\
+  \ bytes, and they keep going to terabytes, petabytes, yottabytes, I don't know.\
+  \ As I have progressed through my life, I have vague memories of the first time\
+  \ I saw GB, and then everything became gigabytes. Then you start seeing TB, which\
+  \ is terabytes, and then it's like, oh, that's a big number. Petabyte, exabyte,\
+  \ and zettabyte. I think it's petabyte, exabyte, zettabyte. I don't know. The numbers\
+  \ keep getting bigger. But you know, my mom always said the same thing. She said\
+  \ that when they sent a rocket ship to the moon, this was the time when they had\
+  \ that picture of a person standing by the stack, and it was like 16 kilobytes,\
+  \ I think. That was their data, and I was just thinking that we have more on our\
+  \ phones. It's troubling. Life progresses at one second per second, which seems\
+  \ reasonable, but it adds up, I tell you. Actually, in a lot of computer contexts,\
+  \ you'll still see things like compressed data. Anytime you see something unnecessarily\
+  \ squished down to a three-letter acronym, that's from back in the era where they\
+  \ were worried about things like how long your file name and how long your variable\
+  \ name were, because the number of bytes it took to write this out was something\
+  \ you had to consider. There's still a common practice where instead of writing\
+  \ 'error,' they write 'err.' This is because, for a long time, raw C code\u2014\
+  one version of it long ago\u2014couldn't have variable names that were longer than\
+  \ three characters. So now we're slinging around gigabytes for fun\u2014just why\
+  \ not? Data, data, lots of data. So, there's companion software. This guy down here\
+  \ is people capture. The software I use to record this is called Pupil Player. It's\
+  \ sort of a companion software to do the calibration and whatnot. I'll talk more\
+  \ about that next time. But suffice it to say, I did it, and I performed some calibration\
+  \ tasks. You know, why I look there? This export folder here, that one right there.\
+  \ We've moved beyond this. This is another really common aspect in this type of\
+  \ data analysis, where there's a distinction in the folder structure, just conceptually,\
+  \ between the data of the recording. This\u2014these are all recording data. Some\
+  \ of it has different sorts of spaces in the empirical life, like intrinsic data\
+  \ that you can actually go back and recalculate. Blinks are actually also kind of\
+  \ derived. But there's a big distinction that is very important. There is a distinction\
+  \ between raw data and derived, calculated data. Raw data is the information that\
+  \ you cannot recreate. For instance, I cannot go back and say, \"I wish I had recorded\
+  \ this at a different resolution or frame rate. I wanted to know what was happening\
+  \ between frames one and two.\" I will never have that information. I could collect\
+  \ new data on a different subject with a higher frame rate, but for this particular\
+  \ moment in time, what I measured in the past is all we have and all we will ever\
+  \ have.\n\nOther types of data, such as blink data, are derived from the raw data.\
+  \ This involves analyzing the raw recording of the eye and employing a method to\
+  \ determine if the eyes have closed in a given frame. Blink data is thus computed\
+  \ data. If I am dissatisfied with how I calculated these blinks, I can recalculate\
+  \ them multiple times in various ways. As long as I base my computations on the\
+  \ raw data, this derived type of data isn\u2019t particularly precious, unless it\
+  \ takes a long time to process or if my code is flawed and only executes correctly\
+  \ half the time I run it.\n\nThe exports folder here represents a lot of automatically\
+  \ computed information. However, by my definitions, the only genuine pieces of raw\
+  \ data are the MP4 videos and the timestamps. The exports folder contains computed\
+  \ data where you can find information like gaze positions, pupil positions, and\
+  \ world timestamps in CSV format. I'm not sure why we are doing that, but why not?\
+  \ \n\nOne aspect I deeply appreciate about the Pupil Labs team is that they include\
+  \ a TXT file, which is a human-readable format that describes everything in this\
+  \ folder. For instance, gaze positions include timestamps, indexes, and confidence\
+  \ values, which are critical to understanding the data. When making an estimate,\
+  \ it's important to note that I might be 100% confident that\u2019s where the pupil\
+  \ is or only 50% confident in that assessment. This confidence value is an essential\
+  \ number, and you need to know quite a bit about the system to ascertain how much\
+  \ trust to place in this confidence value. Many neural network and AI systems produce\
+  \ a confidence value, but it's wise to be cautious when trusting an AI's confidence\
+  \ calculations. Itself, because it is a classic, uh, AI penguin school bus. Thank\
+  \ you; that somehow didn't work. I can't understand why. What was the name of that\
+  \ thing? It was something catchy. Ah, image confidence! There it is. So, this is\
+  \ a classic example. What they did was train neural networks to recognize certain\
+  \ things, and they developed something that could recognize a soccer ball. They\
+  \ went through and took the image of the soccer ball that was rated as 100% confident\
+  \ that this is a soccer ball. Then, they went through each of the pixels and started\
+  \ fiddling with them, finding pixels that, if you changed their value, it wouldn't\
+  \ affect the confidence in the output. They kept running through it, fiddling with\
+  \ the pixels, and found the null space of the prediction until they got to the point\
+  \ where the model was producing 100% confidence that this is a soccer ball and 100%\
+  \ confidence that this is an accordion. You get to this place where it engages our\
+  \ weird sort of goopy human primate brain, and we can say, \"Yeah, I can kind of\
+  \ see that. I understand why you think this is a soccer ball and this is a bagel.\"\
+  \ It's not, but it is. All this is to belabor the point: when you have those AI\
+  \ inferential sorts of things, like the confidence value, it doesn't mean nothing.\
+  \ But if it says 100% confident, just remember this image. This is a nematode; it's\
+  \ great! These little things are wild. Okay, and this was probably just enough time\
+  \ to show... I'll click on it and show the big square of numbers. And we say, \"\
+  Ooh, look at those big squares of numbers.\" A CSV is comma-separated values, also\
+  \ a raw text format. Any time you're opening something in Excel, it's just a formatted\
+  \ CSV or TSV, which is tab-separated. So, okay, look, big square numbers. Ooh. Here\
+  \ we have timestamps. One of the things that makes an IT tracker a piece of research\
+  \ equipment is that it keeps track of the timestamps very carefully. I mean, we\
+  \ can roughly trust what they say. It's actually not one row per frame because this\
+  \ column is the world camera index. So, you see these are all from frame zero. It's\
+  \ chunked out. These are the confidence values. You can see they range between zero,\
+  \ meaning it didn't detect anything, and 99.99, which is as high as it gets, along\
+  \ with some lower values. The normalized screen position X and Y are the two XY\
+  \ values that we care about here. They range between zero and one. There's also\
+  \ a diameter value that I don't care about, but some people do. After this line,\
+  \ there are a bunch of other measurements that use the 3D spherical model. You have\
+  \ numbers for where you are again: ellipse center X, ellipse center Y, ellipse axes\
+  \ A and B, because I don't really remember ellipse math. You need the center and\
+  \ then the minor and major axes, or whatever, plus the angle, diameter, and 3D model\
+  \ confidence. A lot of what I've been saying is in that two-dimensional space. Once\
+  \ you have that 2D estimate of the ellipse, if you assume you're looking at a circle\
+  \ on a sphere, it will appear more or less elliptical based on the angle you're\
+  \ viewing it from. That's the basis of these more complex measurements. Then you\
+  \ start getting values like sphere center and sphere radius, where the circle represents\
+  \ the pupil. On the topic of spherical projection, there are the theta values in\
+  \ the rows: theta phi\u2014not theta row, but theta phi. One of them is axis and\
+  \ the other is elevation, which is the length. Notice, there is no row here; it's\
+  \ azimuth and elevation. I remember that because elevation makes sense, and azimuth\
+  \ is the other one. You only ever need n minus one mnemonics for a list of things\
+  \ to remember. Okay, and that's the end of the class. While you're packing up, I'll\
+  \ play this if it plays. There you go. Wednesday, I have jury duty, so I can't be\
+  \ here. Good luck engaging in your civic duty. Suppose. Yeah. So this is the gaze.\
+  \ This is also after the calibration between the eye cameras and the world camera.\
+  \ So the red."
+title: 2025 03 17 15 01
+transcript_chunks:
+- dur: 180.0
+  end: 180.0
+  start: 0.0
+  text: "Okay, hello everybody. Let's get into it. Today we're going to talk about\
+    \ the eye-tracking data that we recorded last week, specifically a week ago on\
+    \ Monday. I was able to get it processed and generally visualized, so we can work\
+    \ through it together. It's not the cleanest data for a number of reasons, but\
+    \ I think it's a good example of the kind of data you get when you're not super\
+    \ practiced in it. It\u2019s enough to illustrate the main points we were trying\
+    \ to discuss about eye movements. It is currently uploading to Google Drive, and\
+    \ I'll share this in the server when it's done. It should take a couple of minutes\
+    \ according to the system. Then we'll spend most of the rest of the time talking\
+    \ about it and see what we find out. \n\nRegarding class stuff, the system is\
+    \ running slowly today for some reason. I\u2019m not sure what\u2019s going on\
+    \ with it, but I have a lot running on it. So, we are now in week 11 out of 15.\
+    \ Today we're focusing on eye-tracking data. Next time, we're going to have a\
+    \ sort of gap-filling lecture discussing topics I feel haven\u2019t been sufficiently\
+    \ covered. One of the main topics will be neurons as a specific type of cell.\
+    \ It's a bit amusing to talk about neurons in the 11th week of a class on neuroscience,\
+    \ but it\u2019s important. You may have come across some direct instructions on\
+    \ what a neuron is, and you\u2019ve certainly developed a vague understanding\
+    \ of this cell type and how it generally operates. However, I think it would be\
+    \ beneficial to delve deeper into the specifics of neurochemistry, synapses, sodium-potassium\
+    \ ion pumps, nodes of Ranvier, and all that good stuff. \n\nI enjoy teaching concepts\
+    \ in a somewhat reverse order, where you start with advanced material and work\
+    \ your way down to the foundational aspects. It will be interesting to learn about\
+    \ the specific individual cell, as the smallest unit of neuroscience could arguably\
+    \ be the neuron. So, discussing this after examining the behavior of the large-scale\
+    \ conglomeration of trillions upon trillions of neurons will be an engaging experience."
+- dur: 180.0
+  end: 360.0
+  start: 180.0
+  text: "Fun! The following week on Monday, we are going to devote the class to doing\
+    \ poster prep stuff and helping you with the final formatting and output. My goal\
+    \ is that by the end of the day, everyone will have uploaded their PDF to the\
+    \ appropriate spot. Depending on where each person is, you can hit different levels\
+    \ of that. You need to have it uploaded by Tuesday, which is the day after that\
+    \ class, so it would be wise to set yourself up in a way that allows you to be\
+    \ finished by the end of class on Monday. If you are not finished, it will be\
+    \ up to you. Hopefully, even if you are not finished, you'll have the instructions\
+    \ you need to do it on your own. If your poster is already done, we can do preliminary\
+    \ practice talks, going over the content and details, and addressing any last-minute\
+    \ concerns. I will probably try to leave some time on the following Wednesday\
+    \ to discuss specifics just in case you have details that require more than class\
+    \ time to address. After that, I will give a talk about evolution and the context\
+    \ of how we arrived at this particular strange state of being. Following that,\
+    \ I will discuss the autonomic nervous system, PTSD, and other related topics.\
+    \ The final class before the actual presentation will focus on more practice,\
+    \ where we'll break into small groups to present your posters to each other so\
+    \ that you are well-prepared for the following week, which is the poster presentation\
+    \ itself. This will happen on Monday and Wednesday during normal class time. In\
+    \ the final week of class, we will discuss my research, which will be hypothetically\
+    \ situated to align with everything we\u2019ve talked about in class. On the last\
+    \ day, we will have wrap-up retrospectives, primarily focused on presenting my\
+    \ personal final project for the course, which aims to make sense of all the data\
+    \ from the server. Does that sound good? Does it make sense? Does it track roughly\
+    \ with what we've been discussing? Cool! Okay! Are we done uploading? Not quite\
+    \ yet. Okay, there we go. Click on that. Where are you at? Share."
+- dur: 180.0
+  end: 540.0
+  start: 360.0
+  text: "Link general access. Anyone with a link can view it. Copy the link. Why are\
+    \ we moving so slow today? Computer. And where are we? We're here. Links and resources.\
+    \ There you go. It's a 3-gigabyte zip file. So if you want to download it, it'll\
+    \ take a second, but there it is. It is available, and let's get into it. First\
+    \ of all, I have to figure out what's slowing down this thing. Yeah, we should\
+    \ be okay, I think. So, if you open up that folder, download, and open up that\
+    \ folder, if you so choose, you will find roughly this: a lot of software that\
+    \ you will use in your life that does scientific recordings and anything kind\
+    \ of scientific or engineering-based. Especially if it\u2019s something that hasn't\
+    \ been produced by a mega corporation that has a very smooth exterior, which you\
+    \ know companies like Apple and Google like to produce. You\u2019ll typically\
+    \ find something that looks like this on the inside, where there is just a bunch\
+    \ of strange-looking files dumped into a folder of some kind. Freemo Cap has stuff\
+    \ like this. I had tried to make this the top-level recording dump for Freemo\
+    \ Cap somewhat friendly for the brain, but it still winds up looking a lot like\
+    \ this. One of the things you want to think about when looking at a data dump\
+    \ from a recording apparatus is which of these are the core pieces of data, what\u2019\
+    s the primary output of this thing, and which of it is secondary ancillary metadata.\
+    \ In our particular case, what the hell? Oh, I was looking at the wrong one. That's\
+    \ 1024. That\u2019s last."
+- dur: 180.0
+  end: 720.0
+  start: 540.0
+  text: "This year, we have a new model. There you go. Same concept, same idea, except\
+    \ this one features two eye trackers, one for each eye, while the previous model\
+    \ did not. This brings us to the point of discussing the concept of a model\u2014\
+    a data model or a paper model. All the papers share similar components, but the\
+    \ content varies. The names of all the elements here are roughly equivalent, but\
+    \ the actual content differs. For those of you recording with this eye tracker,\
+    \ the main items I'm looking for are I1 and world.mpp4, which are video files.\
+    \ If I click this one, I'm not sure if it plays. Yes, there you go. This is the\
+    \ raw video recording from the left eye of the eye tracker, and this essentially\
+    \ constitutes the raw data from that apparatus. The quality is okay; it looks\
+    \ poor on this projector but better on my screen. However, spoiler alert, there\
+    \ is a shadowy area over here, which probably explains why the data didn't come\
+    \ out as cleanly as expected. It\u2019s possible that I could have adjusted the\
+    \ camera slightly because, there\u2019s the illuminator whose reflection you can\
+    \ see right there. This area is somewhat in shadow. If you imagine the light coming\
+    \ from this side, my eye on this side is mostly in shadow. I didn\u2019t notice\
+    \ this when I was setting it up. I haven't been in the trenches of recording eye-tracking\
+    \ data and natural behavior for a while, so I wasn't quite attuned to that. Even\
+    \ if I had been, I doubt I would have noticed it. Now that I've gone through a\
+    \ recording and reviewed the data, I realize it isn\u2019t as good as it should\
+    \ be, especially when my eye is on this side of the screen. Now I\u2019m more\
+    \ aware of what to look for when I go back to record more data. This iterative\
+    \ aspect is crucial to highlight in this demo because it is the way anyone improves\
+    \ at anything. When you attempt to use a complicated piece of equipment or undertake\
+    \ a complex task, the only proven method for improvement is to repeat the task\
+    \ over and over again. Eventually, you learn enough of what to observe and recognize\
+    \ it through sufficient repetitions; when you go to record, you know to pay attention\
+    \ to all the little details and nuances."
+- dur: 180.0
+  end: 900.0
+  start: 720.0
+  text: "Looking for clear, even luminance across the image is an important thing\
+    \ that I need to focus on. With enough time, that's where expertise comes from.\
+    \ I remember being in the undergraduate and graduate student phase of my life\
+    \ and seeing people doing things that baffled me. I wondered, how do they learn\
+    \ all of that? How do they know how to do these things? How do they know every\
+    \ paper that's ever been published and the names of all these obscure parts? When\
+    \ I say, \"Hey, yeah, I'm ready to go. This looks good,\" they come over and say,\
+    \ \"Oh, no, because of this, that, and the other thing, it does not look good.\"\
+    \ The answer is that they were 20 to 30 years older than me, and they had been\
+    \ working on the topic I was focusing on for as long as I had been alive. Over\
+    \ time, they made enough mistakes that the obvious stuff became obvious, and they\
+    \ could point it out. Now that I'm on the more experienced side of the fence,\
+    \ I can say that expertise never really feels like you are an expert. You notice\
+    \ there are many people who are worse at things than you are, and you try to work\
+    \ with that. Typically, by the time you reach my level or higher, you have specialized\
+    \ enough that the scope of things you must think about is narrower. When people\
+    \ talk to you and say, \"Holy smokes, you've got this highly specialized skill\
+    \ set,\" you realize it\u2019s actually quite limited. As a student, you often\
+    \ bounce from room to room, engaging with experts in different fields. They speak\
+    \ about their expertise in environments where they need to focus solely on their\
+    \ domain, making it easier to imagine a skewed perspective of the world while\
+    \ living that way. Anyway, long story short, that's an eyeball, and it's doing\
+    \ a good enough job. The signal we are going to try to extract from this raw piece\
+    \ of data is roughly the position of the black patch as it moves back and forth,\
+    \ up and down, throughout the image. So let's proceed. It's somewhat amusing to\
+    \ sit here discussing expertise while analyzing eye-tracking data that isn't even\
+    \ all that clean. I think we should follow a similar path to what we've done before\
+    \ regarding measurements, data recording, and data collection. Now, this is..."
+- dur: 180.0
+  end: 1080.0
+  start: 900.0
+  text: "Very similar to the motion capture data in a lot of ways, it is a video record\
+    \ that captures some aspect of my motor control and records the parts of that\
+    \ neural cascade that affect the world enough to be noticeable by a camera. Now\
+    \ we're going to try to process from that raw data down through various levels\
+    \ of abstraction and computation, and sort of like mutation of the data into a\
+    \ format that we think we should be able to use to make claims about not only\
+    \ what was going on inside my ocular motor system and visual cortex, but hypothetically\
+    \ even have things to say about all human, mammalian, and primate visual cortices\
+    \ and ocular motor systems. This is a pretty baffling thing to attempt, given\
+    \ our hubris, but having come all the way here, we might as well start.\n\nSimilar\
+    \ to the previous data, we start with this image. You have a camera, and it looks\
+    \ at an eyeball and light. In the previous case, we were discussing light coming\
+    \ from the environment, illustrated with a little picture of a sun, where the\
+    \ light bounces off and into the camera. In this particular case, because this\
+    \ is an infrared camera and there really isn't very much infrared light in the\
+    \ room, we actually rely on a secondary illuminator that we attach to the camera.\
+    \ The light in the infrared spectrum, like 800 to 1000 nanometers, bounces off\
+    \ the eyeball and into the sensor. The sensor produces a bunch of images of eyeballs.\
+    \ In this case, for the eye cameras, I think it was recording at about 120 frames\
+    \ per second. \n\nWith the motion capture camera, the world camera, and many cameras\
+    \ like this one, a standard default frame rate for most cameras that you would\
+    \ pick up is about 30 frames per second. Some higher quality cameras prefer to\
+    \ record at 60 frames per second. You don't typically see a lot of video media\
+    \ for standard human consumption recorded at higher frame rates than that unless\
+    \ it's built as slow motion. If your phone has a slow-motion feature, it can capture\
+    \ more frames per second than usual."
+- dur: 180.0
+  end: 1260.0
+  start: 1080.0
+  text: "The slow motion mode will be recording at a higher frame rate, but it will\
+    \ be played back at 30 frames per second. If you record at 240 frames per second\
+    \ for one second and then play that back at 30 frames per second, that results\
+    \ in playback at one-eighth the frame rate. Another issue I have with how we handle\
+    \ cameras is that if you have that mode in your phone, it will probably indicate\
+    \ speeds like one-eighth speed or one-quarter speed, assuming the default frame\
+    \ rate is 30 frames per second. However, they don't actually clarify that because\
+    \ the phone companies want to keep users uninformed. The more you understand technology,\
+    \ the less reliant you are on the people selling it to you in exchange for your\
+    \ data, pretending that it is a fair deal. \n\nIn analyzing computer vision and\
+    \ images from cameras, we generally think of a video as a stack of frames that\
+    \ comes in at a particular rate over time. We attempt to extract data from each\
+    \ frame\u2014a little data blob here\u2014leading us to label them as frame one,\
+    \ frame two, up to frame n, which represents however long the recording is. When\
+    \ analyzing the data from one point to another, we need to consider the time interval\
+    \ between the frames. If we want to address this informally, we can use the frame\
+    \ rates of the cameras or notice that I have already observed the mean frame rate\
+    \ is around 120 frames per second, using that information. However, to be more\
+    \ accurate, we can refer back to the raw data, which contains files labeled I\
+    \ timestamps and world timestamps for each video. Generally, the base raw data\
+    \ that is most crucial consists of the video files, as they typically hold the\
+    \ most data in the folder, ranging from about half a gigabyte to 1.3 gigabytes\
+    \ in size, while other files are in the kilobytes or less data scale."
+- dur: 180.0
+  end: 1440.0
+  start: 1260.0
+  text: 'Timestamp data is also technically speaking, just as necessary to make proper
+    empirical sense of these recordings as the actual videos. Generally, and I think
+    almost universally, videos do not actually encode real measured timestamps from
+    their frame rates. If you ever find a camera that produces something that looks
+    like a timestamp, like GoPros will do, they are misleading. They are just taking
+    the number of frames, dividing it by the duration of the recording, and then splitting
+    those up across all the frames that they actually capture. If you look at the
+    variation between the frame durations from something like a GoPro output, they
+    will be exactly the same; every frame will take about 33.33 milliseconds because
+    it is not an actual measurement. If you were to look at these timestamps, you
+    would see some noise in the data because it''s an actual data point that has variation.
+    However, that''s more than we need to delve into at this juncture.
+
+
+    The important thing is that for these cameras, you are pulling out data on a roughly
+    frame-by-frame basis. In this particular case, it''s fully frame by frame, but
+    in other contexts of camera stuff, you might have some aspect of using the previous
+    frame to smooth out the data or clean things up. In this case, we''re going to
+    do it frame by frame. For example, in a physics class, you take the camera and
+    plot it, saying, ''Okay, these are the positions at frame 1, 2, 3, 4.'' Let''s
+    say it''s a 100 frames per second camera to make the math easy. The time elapsed
+    between these frames is 10 milliseconds. If we go from frame 1 to frame 3 over
+    10 milliseconds, then we are moving quickly. We are traveling 3 meters in 10 milliseconds,
+    and that''s where we derive all the physics concepts from.'
+- dur: 180.0
+  end: 1620.0
+  start: 1440.0
+  text: "The number was not as precise as you may have thought it was, which is totally\
+    \ fine for your physics class. In reality, most cameras actually do work pretty\
+    \ well, so the variation between frames probably wasn't that big. Let's say it\
+    \ was from 9 to 11 milliseconds per frame, and on average it winds up being 10\
+    \ milliseconds. If you were to calculate how much kinetic energy is occurring\
+    \ from frame one to frame two, your estimate is going to be a little bit off over\
+    \ a short time scale. However, over the course of a thousand frames, it's probably\
+    \ going to wash out. You get into these questions of precision, right? If you\
+    \ are asking about the application in that case\u2014were you trying to land something\
+    \ on the moon, or were you just trying to say, \"Oh yeah, look, there's a roughly\
+    \ ballistic trajectory and the kinetic and potential energies trade-off or something\
+    \ like that?\" For a given application, it's a very good and valid point that\
+    \ you have to be mindful of the reason why you're taking the recording when you're\
+    \ questioning how much precision really matters. For instance, if you are at the\
+    \ point of designing passenger jets, it might be worth getting the real numbers.\
+    \ However, in most contexts, it wouldn't matter much. If the actual rate is 9\
+    \ to 11 milliseconds per frame, and you're looking at the specific physics of\
+    \ a singular frame, then that could be off by a factor of about 10 to 20%. But\
+    \ if you have 10,000 or 100,000 frames of data, then it will wash out. It really\
+    \ depends on the application. In a lot of scenarios related to motion capturing,\
+    \ I'm building the free mocap tool for clinical applications where we want to\
+    \ maximize precision. However, for much of the history of the project, a lot of\
+    \ the data I produce is just using the estimation of the mean frame rate as the\
+    \ assumption for the physics, because it's enough to make the point. It's a complex\
+    \ enough system that ensuring everything aligns in this regard hasn't been the\
+    \ highest priority in the way we've been using it so far. I think a common theme\
+    \ in fields like neuroscience, in particular, as well as in many areas of science,\
+    \ is that precision must be balanced with practicality."
+- dur: 180.0
+  end: 1800.0
+  start: 1620.0
+  text: "This is kind of like empirical tool building in science. You want to minimize\
+    \ as much noise as you can in your data because this is the base data. We are\
+    \ taking these measurements, and eventually, we are going to try to say things\
+    \ about how the brain works. Just to be clear, that is a significant claim. It\
+    \ takes a lot of belief to look at a stream of blurry images from the eye and\
+    \ make assertions about the brain. The last thing you want to do is leave a lot\
+    \ of noise in the system that you could eliminate because that noise hinders your\
+    \ ability to analyze and make the claims you want to make. \n\nIn most behavioral\
+    \ settings, a millimeter or a millisecond of error isn't going to change much\
+    \ of the output. However, I am working with people building similar types of systems\
+    \ that will be coupled with electrophysiological spikes from the brain. In that\
+    \ case, you want things to be nailed down to the submillisecond level, if possible.\
+    \ \n\nIt's all a matter of how, in a perfect world, we could reduce as much error\
+    \ as possible and achieve perfect empirical measurements of what we consider true\
+    \ reality. Unfortunately, in the real world, we do what we can with what we've\
+    \ got. Being a good scientist means understanding the system you are studying\
+    \ and the context of your study enough to know what levels of noise are permissible\
+    \ and impermissible in your dataset. \n\nIn this case, if this were data I planned\
+    \ to build a research project on, I would discard it and say, 'Let's do it again.'\
+    \ Not because it's not valuable, but because I know I could gather better data.\
+    \ I would consider this pilot data and would suggest trying again to obtain cleaner\
+    \ results. In this particular context, it's sufficient for the purposes of this\
+    \ course. \n\nAs I've mentioned before, I actually prefer having a little noise\
+    \ because it leads to conversations like this. This scenario is closer to what\
+    \ your reality will be when you start collecting your real data from unpredictable\
+    \ equipment, rather than a world where you push a button, the light goes green,\
+    \ and everything is perfect. I thought about delaying and pushing this off, but\
+    \ then I'd have to use data we didn't record in class and drop a lecture, which\
+    \ I prefer not to do if possible. So, here we are. Good question, though. Any\
+    \ other questions?"
+- dur: 180.0
+  end: 1980.0
+  start: 1800.0
+  text: "I have empirical anxieties to share about unknown errors in previous class\
+    \ assignments. This is also one of those things where there is a very small percentage\
+    \ of people in the world who care enough about the timestamps between camera frames\
+    \ to discuss it in a classroom setting in this context. I have spent a lot of\
+    \ my life pulling data out of video streams, and the realization that most cameras\
+    \ produce fake timestamps was significant; about three to six months of my post-doctoral\
+    \ experience was spent discovering that this was the case. So now you have that\
+    \ information for your own life.\n\nBase data consists of these images. The videos\
+    \ from the motion capture were a little more complex because they were color images.\
+    \ However, this is a simpler context, where it is specifically, I believe, either\
+    \ 192 or 400. Let me check. I think it\u2019s 400. Yes, so it's a 400x400 grid\
+    \ of pixels. Each of these pixels will have a value between zero and one, where\
+    \ zero means black, indicating no data. The camera sensor here essentially has\
+    \ some physical silicon wafer designed such that when light hits it, it changes\
+    \ its voltage output. \n\nIf you see an analogy between this and the back of the\
+    \ retina, yes, it is there, but only analogously in the sense that I drew a wiggly\
+    \ thing coming in and a change in voltage going out, beyond all the complexities\
+    \ of going through a lens and bending light. Beyond that analogy, it really breaks\
+    \ down; this is a very different thing from what is at the back of your retina.\
+    \ However, in terms of their fundamental machinery, they both turn photons of\
+    \ light into voltage output in a way that retains some structural information\
+    \ about how the light came in. So, take from that what you will."
+- dur: 180.0
+  end: 2160.0
+  start: 1980.0
+  text: "You will. This image that comes out is going to be somewhere between white\
+    \ and black. This is an example of white. The pixel values range between 0 and\
+    \ 255, where 255 represents the maximum value. If we were to measure a pixel here,\
+    \ the value is probably pretty close to 255, indicating that it is fully saturated.\
+    \ In photography, when an image is fully washed out, the zebra stripes show up,\
+    \ indicating that the sensor is maxed out. We cannot measure any variation in\
+    \ this region because every pixel here will be 255. That's fine; we are okay with\
+    \ that. \n\nThis pixel here is an example of a black pixel, which is probably\
+    \ producing a value pretty close to zero. Across this region, all of these pixels\
+    \ are likely around zero as well. That's acceptable. In the other regions, the\
+    \ values will vary; this could be zero, this could be one, and some will be other\
+    \ numbers between zero and one. The entire grid will be filled with numbers \u2014\
+    \ some of which will be zero, some of which will be one, and others could be 0.5,\
+    \ for instance. \n\nThis corresponds to the raw data we have extracted, which\
+    \ is the voltages coming off the camera grid converted into a number between zero\
+    \ and one. Somewhere in the settings, there are adjustments for gain and exposure,\
+    \ which change the physical mapping of these values. Nonetheless, this is the\
+    \ base data we have.\n\nI might regret erasing that. Despite being 400 by 400,\
+    \ which amounts to 160,000 pixels, the overall count is significant."
+- dur: 180.0
+  end: 2340.0
+  start: 2160.0
+  text: Frames per second is six times. 160,000 times 120 frames per second corresponds
+    to a certain number of bits per second. This is a number between zero and 255,
+    which is from 0 to 2 raised to the 8th power, and this is a byte. I think that's
+    a byte; I can't remember. But when you talk about bits and bytes, a bit is zero
+    or one and a byte is usually that many. So, 160,000 of those times 120 frames
+    per second results in how many bytes per second is being produced from this. The
+    point is that it's a lot of data, but also, relative to the true facts of the
+    universe, it's nothing. It's absolutely nothing; it's a pale, vague shadow of
+    reality. If this were a 4K image recording at a thousand frames per second, I
+    would still say that it is a dim shadow of reality. We would be able to define
+    far more about the boundaries between the pupil and the iris and the sclera and
+    the eyelid in that context. However, it would still be the case that if we doubled
+    all of those numbers, it would still remain a pale shadow of reality. Once again,
+    as we've discussed, whether or not it's a usable pale shadow of reality depends
+    on the specific applications you are trying to achieve. Anyway, I feel like that
+    point has been effectively belabored. So, we receive one image per frame. Is it
+    this one? Yes, one frame. So, 120 frames per second means 8.33 repeating milliseconds
+    per frame. Therefore, every eight and change milliseconds, we receive a new one
+    of these images. We are trying to make sense of what we can extract from it. So,
+    let's think about what type of data we would want to pull out of a given context.
+- dur: 180.0
+  end: 2520.0
+  start: 2340.0
+  text: "So actually, and this is not quite yet, but soon we'll have a division point\
+    \ in the hypothetical processing algorithm that we can use based on the science\
+    \ of whichever part of the scientific inquiry you're trying to pursue. But at\
+    \ a basic level, what we want out of this is the position of the pupil. We want\
+    \ to know where the pupil is, specifically relative to the head. However, this\
+    \ data does not provide any information about the position of the head. What we\
+    \ do know, because we were here, is that this view is coming from a camera placed\
+    \ here, and we can say it did not move relative to the head as I move my head\
+    \ around.\n\nSo, this starts getting into some levels of geometry which are not\
+    \ necessary and relevant here. We know that the camera sensor that produced this\
+    \ data is located in a fixed position relative to the head. Therefore, the data\
+    \ it gets is in camera coordinates; this is in the camera coordinates of the eye\
+    \ camera. Image coordinates are upside down: they start at 0, 0, which is the\
+    \ upper left corner of the screen, and then you kind of count that way. Actually,\
+    \ don't go back; you just go that way. So, positive y points down and positive\
+    \ x goes to the right.\n\nIt\u2019s one of those things that seems confusing because,\
+    \ depending on the level of math one starts with for plotting things on an xy\
+    \ coordinate system, it varies. In this context, positive y goes down, which is\
+    \ reversed from the standard where positive y goes up. So, if this is zero, this\
+    \ is 100, this is 200, and this is 400, you see that down is technically up; when\
+    \ the number goes up, the pixel moves down. They implement the same system in\
+    \ image coordinates, which creates different reference frames in different contexts.\
+    \ Zero indexing is significant, meaning you start counting from zero."
+- dur: 180.0
+  end: 2700.0
+  start: 2520.0
+  text: Zero. So it's like you do 0, one, two, three, four. This is four instead of
+    five. It's confusing, but the index is four and the number is five. You often
+    talk about what coordinate system you are using. In image coordinates, you start
+    in the upper left, go down, and then go right. In that case, if you have a Z vector,
+    and this is a right-hand rule for XYZ, if you're doing that correctly and you
+    put that number there, positive Z is that way. Sometimes, you'll see cases where
+    negative Z points in a different direction because they use a left-handed coordinate
+    system and no one informed them otherwise. You can see this when you go back and
+    forth between fields like biomechanics and robotics, and then to vision and neuroscience.
+    In biomechanics and robotics, the XY plane is almost universally considered the
+    ground plane because, if you're concerned about physics, that's the first thing
+    you want to know about. You start counting with X, then Y, and then Z, placing
+    the first two elements on the most important plane, which is the ground. In that
+    context, Z points up. However, when you talk to people who work in animation or
+    virtual reality, they think about the image plane, where XY is the image plane
+    and Z points back. If someone has dedicated their life to studying vision and
+    someone comes along and says Z points up, they can have strong reactions, insisting
+    that's incorrect. They may not be aware of the different fields that use different
+    conventions, and this highlights part of the cultural aspects of science. It's
+    easy to become entrenched in a particular intellectual tradition where X, Y, and
+    Z always correspond to the same things. It's like if someone started making a
+    plot in a class where they said, 'Okay, this arrow is Y, and this one is X.' That
+    would feel weird, but it's also completely arbitrary. As long as you designate
+    it correctly, that would make this direction Z; it's arbitrary. X and Y could
+    be anything; we just chose those letters because they're among the unusual ones
+    at the end of the alphabet. I'm not quite sure where that came from, but whether
+    or not the data is one way or the other, the numbers don't change the underlying
+    reality.
+- dur: 180.0
+  end: 2880.0
+  start: 2700.0
+  text: "The measurement doesn't really care if you're measuring it in one reference\
+    \ frame or another. Everything after this point kind of becomes a matter of convention.\
+    \ The data is produced in a certain way and recorded in a certain way so that\
+    \ when humans encounter it, they will know, if they're indoctrinated into the\
+    \ appropriate intellectual traditions, the numbers will make sense to them. If\
+    \ they make guesses about things, it will be roughly correct. However, it is very\
+    \ easy to fall into a position where it feels like there are right and wrong answers.\
+    \ There are right and wrong answers, but almost universally, they are only right\
+    \ and wrong relative to some cultural norm or another, or some intellectual tradition.\
+    \ The internet runs entirely on the basis of protocols. For example, there is\
+    \ HTTP, which is the Hypertext Transfer Protocol, and email, which is a different\
+    \ kind of protocol. In that context, you're transferring data blobs back and forth.\
+    \ When your computer receives data, if you go to a website and it provides something\
+    \ that is not structured according to the HTTP protocol, your computer will reject\
+    \ it, indicating that this is an incorrect or invalid site. However, there is\
+    \ nothing explicitly wrong with that data; it simply does not follow the conventions\
+    \ that we have all agreed to follow. So, as a computer, you would say, \"I don't\
+    \ even want to deal with your data; just send me something correct, or I'm not\
+    \ going to show this web page.\" The important point that I really want to convey\
+    \ is that there is a very strong cultural element to any form of scientific exploration.\
+    \ It's somewhat unrelated, but it made me think of image compressors. How does\
+    \ that work? That's a side note, but I can explain it quickly. When this data\
+    \ lives in NumPy on my computer, and when it's stored raw\u2014like I have been\
+    \ describing\u2014I'm recording every single number from every single bin. If\
+    \ you do that, the numbers can get really large very quickly. For instance, if\
+    \ you were to store it, I think this literally amounts to bytes. If you wanted\
+    \ it to be like 160 kilobytes per frame ... So a kilo is that many megabytes,\
+    \ but I don't know; nobody knows. That's the raw uncompressed form of that. However,\
+    \ as we pointed out ..."
+- dur: 180.0
+  end: 3060.0
+  start: 2880.0
+  text: All of these are 255. So, I don't actually have to record every single dot
+    here if I have a way of saying that everything in this particular box is 255.
+    Now I can replace this. This is called a bitmap. If you ever encounter BMP, it's
+    a bitmap; it's just every dot in a grid. If you encounter something called a JPG
+    or APNG, it has replaced basically, it just makes some decisions about which numbers
+    we are going to consider to be the same number, and it looks for blobs where it
+    can essentially replace. Let's say that this region right here is 10 by 30 pixels;
+    that's 300 numbers you have to record. So if you can find a way to record something
+    that says everything in this region is 255 and you can record that in less than
+    300 numbers, then you have achieved compression. With something like a JPEG, it's
+    a lossy compression. This means that if you compress it and pull it back out,
+    you lose data, meaning you cannot reconstruct the full image. On the other hand,
+    you have something like APNG, which is a lossless compression. You can compress
+    it down and then decompress it to get the exact same image back, which is obviously
+    advantageous, but it takes longer to do and doesn't compress as much. So, again,
+    in the deep guts of free mocap, I have to make decisions about whether I can compress
+    this losslessly, which takes longer, or do a lossy compression and set parameters
+    for what number is considered to be the same number because it's worth it to lose
+    data to gain time. So it's that basic idea of finding more efficient ways of saying
+    we don't have to record everything in this super inefficient way. Yes, I will
+    allow that rabbit hole because it is dear to my heart. If you recall when we looked
+    at the motion capture data, I talked about the magic step. There's a magic box
+    in that equation called a convolutional neural network, which is a machine learning
+    trained neural network whose job is to identify human shapes in images and draw
+    stick figure skeletons on top of them. I call it a magic box because it is an
+    inferential equation.
+- dur: 180.0
+  end: 3240.0
+  start: 3060.0
+  text: This involves training data and training sets. It's neural networks and machine
+    learning. Technically, it falls under the umbrella term of artificial intelligence
+    because AI is an imprecise term that is a way of saying machine learning. In this
+    particular case, for this type of eye tracker, there is no equivalent magic box.
+    This tracking is done with traditional computer vision. I don't know all the algorithms,
+    but I have looked at them. I just couldn't do the math by hand. However, every
+    step of the process to analyze this is computational in nature. There is no statistical
+    trained neural network, and no one is going in and hand-labeling the images. Every
+    step that's done is based on looking at things like the gradients between light
+    and dark. If you were to take a slice through this image and grab the luminance
+    of the pixel from left to right, it would look bright and then drop down repeatedly.
+    We know because of our developed human brains and our evolved visual system that
+    these pixels here are the sclera, these pixels here are the iris, and these pixels
+    here are the pupil. This represents the luminance between, let's say one and zero
+    down here. You can see that it's a little bit brighter up here, then it transitions
+    to a shade of gray, and then goes as dark as it can get and back out. You can
+    perform this one-dimensional slice from top to bottom as well. If you dug through
+    the data, you wouldn't find anything that does exactly this. But I would say the
+    way this algorithm does its pupil detection relies on this kind of low-level analysis
+    of the raw pixels, and there is no inferential step involved; it's all computation
+    on the raw image. This is roughly where I call the difference between classical
+    computer vision and contemporary computer vision. The whole tech industry seems
+    to have decided to forget how to do geometry and put all their eggs in the neural
+    network basket. But that's okay; I understand why. In any case, at the end of
+    all that process, there are a bunch of ...
+- dur: 180.0
+  end: 3420.0
+  start: 3240.0
+  text: "Chunky gross data produces an ellipse that is drawn around all the darkest\
+    \ pixels in the image. This is referred to as a dark pupil tracker because it\
+    \ tracks the dark pupils. The ellipse provides an estimate of where the pupil\
+    \ is located, and based on the data frame of the camera, we can take the average\
+    \ position of that ellipse to determine the pupil's X and Y coordinates. If you\
+    \ care about the question of where people are looking at given points in the image\
+    \ during various activities, this is the data you want. You need to know the position\
+    \ of the pupil in the frame. \n\nIf you are a pupilometry researcher and believe\
+    \ it\u2019s important to study the size of the pupil, then the data stream focusing\
+    \ on that aspect is crucial. I have previously discussed the pupilometry side\
+    \ of this topic extensively and will continue to do so for the rest of my life.\
+    \ While there's valuable information in that area, it tends to be overemphasized\
+    \ by those who avoid real calibration. However, if you prioritize the size of\
+    \ the ellipse, which indicates the pupil's constriction, it becomes an important\
+    \ data stream for you. \n\nYou might be willing to disregard the X and Y positions\
+    \ because your interest lies only in the pupil diameter. Conversely, I would prefer\
+    \ to focus on the X and Y information rather than the pupil diameter. In this\
+    \ particular instance, both are outputted, but if I were writing the code from\
+    \ scratch, I might skip recording the pupil diameter since I can get that information\
+    \ along the way. Nevertheless, if I had to make a choice to save on processing\
+    \ time, I would gladly discard the diameter in favor of the X and Y coordinates.\
+    \ This reflects the bifurcation point I mentioned earlier, where the type of science\
+    \ you are conducting can lead to a divergence of paths from the raw data. \n\n\
+    This setup gives me the pupil position over time (X and Y). Remember, there is\
+    \ something I mentioned about eye tracking that is not represented in this data.\
+    \ If you look at..."
+- dur: 180.0
+  end: 3600.0
+  start: 3420.0
+  text: "It's one of those trickle leading questions which I always hate. Why aren't\
+    \ we playing? Hey buddy, is that going to come in upside down? Come on, man. There\
+    \ we go. So, I'll do that. It might be hard to see actually, but I talked about\
+    \ it a little bit. If I'm only recording the vertical and horizontal position\
+    \ of the eye, am I getting everything that there is to know about my eye position\
+    \ on each frame, or is there something that I'm missing? It's like a sphere. If\
+    \ I'm looking up, down, left, right, is there anything else that I'm missing?\
+    \ It's not going in and out. It's a sphere that's fixed in space, so the distance\
+    \ is there. It\u2019s attached to my head. What's that? Rotation? The torsion?\
+    \ Yeah, so it's this axis. So, it is. I guess it would be... Oh yeah. In terms\
+    \ of rotation, because these are spherical coordinates, which I haven't talked\
+    \ about but it's worth discussing. We've been talking mostly about, you know,\
+    \ this position here is X and Y. It could also be denoted as L and theta, right?\
+    \ You define it\u2014that's polar coordinates versus Cartesian coordinates. In\
+    \ 3D space, you have, let's just say, X, Y, and Z, and you have a point that's\
+    \ sort of out here along all three axes. Similarly, you can define that in terms\
+    \ of a distance, and then theta, and then, you know, whatever rho, a third...\
+    \ So there's still a three-dimensional distance. What's that? Rho would be distance.\
+    \ Yeah, so it's... And this is a case where, if we assume that it's a sphere,\
+    \ if we assume that it's a sphere that doesn\u2019t change radius, then it's actually..."
+- dur: 180.0
+  end: 3780.0
+  start: 3600.0
+  text: "In most contexts, I would say these things are equivalent, and they are absolutely\
+    \ equivalent. However, if I am measuring in 2D and I know that the data is only\
+    \ going to be spinning around in a circle at a fixed distance, I would much rather\
+    \ convert that into polar coordinates. This way, I can disregard the L variable.\
+    \ Instead of having to deal with two numbers, I only have to focus on one number,\
+    \ which is theta.\n\nSimilarly, if we assume that it's a sphere in space, to know\
+    \ the position at the tip of that vector, technically I need three parameters:\
+    \ theta for azimuth and elevation. Elevation makes sense; it's up and down. Azimuth\
+    \ is the rotation, like if I'm pointing at something: this is elevation, and this\
+    \ is azimuth. I would prefer to work with just theta and rho, eliminating the\
+    \ need for the z-axis. However, there is a third variable I technically need,\
+    \ which is the rotation around that point.\n\nThis is why I find it conceptually\
+    \ similar to the distinction between two-dimensional numbers and three-dimensional\
+    \ numbers. If that sounds mind-blowing, it's related to matrix math and linear\
+    \ algebra. In linear algebra, sometimes numbers can represent grids and behave\
+    \ similarly. A two-dimensional number, if you have several of them, becomes a\
+    \ three-dimensional number. Linear algebra is probably one of the fields we teach\
+    \ the worst; it's incredibly useful math taught in the least interesting way.\
+    \ Good luck if you have to take it.\n\nRegarding torsion, it is not measured by\
+    \ this eye tracker or any eye tracker that I am aware of, because the pupil dark\
+    \ blob algorithm has an unconstrained degree of freedom. The way I described measuring\
+    \ this and looking for the darkest blob in the scene doesn\u2019t provide any\
+    \ information about rotation around the optical axis. It might be difficult to\
+    \ see here, but I do this explicitly. You can tell I'm moving back and forth,\
+    \ and you can observe that too."
+- dur: 180.0
+  end: 3960.0
+  start: 3780.0
+  text: "I guess I stopped doing that. So, there's the eye. I wish I had a better\
+    \ way of viewing my videos; I need a better way to do that. Anyway, I\u2019m having\
+    \ a hard time identifying that thing, but as you can see, I don't know. Anyway,\
+    \ I'll leave this one as an exercise for the reader. This is one of those things:\
+    \ if you look at this video, take a video on your phone, look straight into the\
+    \ camera, and then rotate your head like this, you'll see your eye doing torsion.\
+    \ It'll rotate plus or minus seven degrees, and you'll notice that as you rotate\
+    \ your head, it goes tick tick, because it will reach the extent of its abilities\
+    \ and then tick back to zero. That\u2019s ocular torsion. It\u2019s one of those\
+    \ areas of visual neuroscience that, if you read the literature from at least\
+    \ ten years ago, you\u2019ll find people saying we don\u2019t need to worry about\
+    \ torsion. Isn\u2019t it nice how we don\u2019t need to worry about torsion? They\u2019\
+    re just straight wrong. That\u2019s where the science is mistaken. The field has\
+    \ been focused for so long on people who are head-fixed, where they don\u2019\
+    t rotate their heads, so you don\u2019t see torsion. Because we\u2019ve been using\
+    \ tools that don\u2019t measure torsion, the culture has sort of extracted this\
+    \ belief that you don\u2019t need to measure torsion. For the things they tend\
+    \ to study, that\u2019s true, but if you want to know\u2014this talk involves\
+    \ the desiderata, or the things that I really want to get out of this data to\
+    \ understand the nervous system better\u2014I want to know if this is the eyeball\
+    \ and how it\u2019s attached. That\u2019s not how it works at all. Would it be\
+    \ like that? That\u2019s also not how that works. Okay, do it the other way around.\
+    \ There we go. It took a second. One more time, got to get it right; it\u2019\
+    s very important. There will be a test, but for me only, not for you. Okay, there\
+    \ you go. That\u2019s good enough. So,"
+- dur: 180.0
+  end: 4140.0
+  start: 3960.0
+  text: "That's your brain. That's your eye. The visual cortex does something and\
+    \ it goes back here. You have a retina and everything. The light from the world\
+    \ is coming in. I want to know if you can give me an eye tracker, like the one\
+    \ I have, which is the best one I'm aware of. I want to be able to measure where,\
+    \ if there are things in the world\u2014this is a tree and this is a cat\u2014\
+    the light from these objects, as it hits the eye, is recorded on the retina. My\
+    \ desire with this type of tool is to gain insight into the nervous system, particularly\
+    \ the visual cortex and the ocular motor cortex. I want to know enough about the\
+    \ eye position to make estimates about how the geometric projections of objects\
+    \ in the world map onto parts of the retina. The main thing that I need for that\
+    \ is the horizontal and vertical position because those are the significant movements.\
+    \ But if I'm ignoring the fact that the eye is rotating, I'm going to get that\
+    \ answer a little bit wrong. It's a very similar type of issue to what you were\
+    \ discussing with the timestamps; it's slightly inaccurate. I can do much more\
+    \ with an eye tracker that records horizontal and vertical position while ignoring\
+    \ torsion than I could with an eye tracker that records horizontal position and\
+    \ torsion but not vertical position. This might be why that type of eye tracker\
+    \ would never exist. Independently of that, it's just hard to measure torsion;\
+    \ it's a more difficult problem. There were other methods in the past for measuring\
+    \ eye tracking, and I think the most accurate form of eye tracking are magnetic\
+    \ coils. You can use contact lenses that have copper coils in them. These are\
+    \ not regular contact lenses; there\u2019s a little suction pump so they stay\
+    \ fixed, and you place the head in a large magnetic field to measure eye movements\
+    \ with very high accuracy. I believe those probably do provide torsion just due\
+    \ to their design, but that\u2019s a much more specialized piece of equipment.\
+    \ I would never be able to put that in my backpack, and I certainly can't put\
+    \ it on you as you walk around the world. So, yes, with the current state of eye\
+    \ tracking, torsion is unavailable. There are some ways of doing it; you can't\
+    \ even see them in this video, but there are..."
+- dur: 180.0
+  end: 4320.0
+  start: 4140.0
+  text: "There are features in my iris that, if you could track those features from\
+    \ frame to frame, you would be able to determine whether they are rotating. When\
+    \ you look at your eye in a video, you can see it rotating around its visual axis.\
+    \ You notice this because your brain detects that the texture on the iris is rotating\
+    \ around the black pupil in the middle. The fact that you can see it means that\
+    \ the information is present in the signal. Hypothetically, you could design an\
+    \ algorithm that does that tracking on its own. However, when it comes to actual\
+    \ implementation in a real signal, it becomes a very difficult challenge. If you\
+    \ had a 4K image at 120 frames per second in a perfectly lit environment, you\
+    \ might be able to extract that signal. But for the most part, we don't capture\
+    \ that signal here, and we're roughly okay with that. I personally am not okay\
+    \ with that; it bothers me constantly, but I'm waiting for the field to produce\
+    \ something that works. I have friends working on similar problems, and they have\
+    \ made progress, but it's not as simple as having a head fixed in a vice with\
+    \ a giant camera and making perfectly ideal recordings for trained subjects who\
+    \ know how to calibrate. We will eventually get there. However, it's also a bit\
+    \ disappointing because People Labs is moving away from classical measurement\
+    \ methods and towards machine learning solutions. Their main market consists of\
+    \ marketing professionals who buy the most eye trackers to analyze where a person's\
+    \ eyes move when shown an ad. Unfortunately, that\u2019s where all the funding\
+    \ is, and those professionals don't really care about the low-level empirical\
+    \ aspects of eye tracking. Someday, Freocat might produce eye trackers, but if\
+    \ it ever happens, know that it was begrudgingly done because no one else was\
+    \ making the eye trackers I wanted. Everything I do, if I ever have to create\
+    \ something, annoys me because I feel it should already exist. If no one else\
+    \ is going to make it, I suppose I will. Anyway, where are we at? We are doing\
+    \ stuff. Yes, I can just talk endlessly about anything, can't I? I think this\
+    \ is probably fine because it gives me a little more time to clean up the data.\
+    \ We are going to look at the data, but I have spent all this time in the philosophy\
+    \ of science area and haven't actually gotten into the fun video with crosshairs.\
+    \ You all understand. So, next time has already kind of become an anticipation\
+    \ of what is to come."
+- dur: 180.0
+  end: 4500.0
+  start: 4320.0
+  text: "Halfway through, it's sort of like it's catch-up time. I will have a little\
+    \ bit of extra time to clean up the raw data a little more. I'll show you what\
+    \ that looks like before we get out of here, and then we can talk about it in\
+    \ more detail along with the other catch-up topics. I could absolutely talk about\
+    \ neurons for the full class period, but I don't want to. I think we can go piece\
+    \ by piece.\n\nHere we are with our stream of images coming off a camera, and\
+    \ from each one, we're trying to extract some low-level set of data in terms of\
+    \ dimensionality. If we assume it's an unprocessed image, which it\u2019s not,\
+    \ but let\u2019s pretend it is, then the dimensionality of each image is 160,000\
+    \ degrees of freedom because every image blob will have 160,000 values that can\
+    \ vary between zero and one. So, the space of possible numbers there is 160,000\
+    \ dimensions, which is a lot.\n\nWe boil it down. In this particular case, we\
+    \ are going to boil it down into X and Y. I'm not even going to think about diameter\
+    \ because I don't care about that. Now we have managed to reduce this 160,000\
+    \ degree of freedom data type down to two degrees of freedom, which is way better\
+    \ and much more tractable.\n\nFrom this whole data blob, we say there are actually\
+    \ only two numbers that we need to define the parts we care about: pupil X and\
+    \ pupil Y, with the frame number being somewhat implicit. These values can both\
+    \ vary between zero and one, where one represents the width of the image or, if\
+    \ you want to be more empirically grounded, the width in pixels. So, for a 400\
+    \ by 400 image, this number can range between zero and 400, and so can this one.\
+    \ However, because the 400 number isn't going to change and is somewhat cumbersome,\
+    \ we might as well divide everything by 400. Now, it varies between zero and one,\
+    \ giving us two numbers that vary between zero and one. This happens to be a square\
+    \ image; most images are not. Most images have some kind of aspect ratio, like\
+    \ 640x480, which is 4x3, or\u2026"
+- dur: 180.0
+  end: 4680.0
+  start: 4500.0
+  text: "The resolution 1920x1080 is 16 by 9. I spent an embarrassing amount of my\
+    \ life thinking that these were the same numbers because I just forgot how to\
+    \ reduce fractions. These are basically the two aspect ratios you tend to see\
+    \ in your daily life. If you are looking at one of these types of images and you\
+    \ have converted from where the width is between zero and one and the vertical\
+    \ is also between zero and one, you've now converted a rectangle into a square,\
+    \ which is fine. Just be aware that you've done that, and if you want to represent\
+    \ the data spatially again, you have to multiply by the appropriate factors. This\
+    \ is unlikely to come up in your day-to-day life, but if it ever does, don't say\
+    \ I didn't warn you. We take each of these data blobs that we call an image, apply\
+    \ some old-school computer vision to them, and extract a very highly reduced data\
+    \ format in the form of x and y from each frame. Now this stream of bits per second\
+    \ goes down to 240 bytes per second. This is starting to feel like something I\
+    \ can handle. It's still a lot\u2014240 numbers per second is quite a lot of numbers\
+    \ if you had to write them down by hand. But luckily you don't; the machine has\
+    \ your back here. We have these nice rectangular friends that are much dumber\
+    \ than us, but they're way faster, and we can save a lot of time by appropriately\
+    \ dividing up the labor accordingly. I'm going to move away from that. Does anyone\
+    \ have anything to say about giant images of eyeballs? No? Yeah, what more could\
+    \ be said? A lot could be said. So going back into this data bucket, we have these\
+    \ blobs\u2014these numbers in a nice friendly row. Then these numbers correspond\
+    \ to how many bytes they are: KB is a thousand bytes, MB is a million bytes, GB\
+    \ is a billion bytes, and they keep going to terabytes, petabytes, yottabytes,\
+    \ I don't know. As I have progressed through my life, I have vague memories of\
+    \ the first time I saw GB, and then everything became gigabytes. Then you start\
+    \ seeing TB, which is terabytes, and then it's like, oh, that's a big number."
+- dur: 180.0
+  end: 4860.0
+  start: 4680.0
+  text: "Petabyte, exabyte, and zettabyte. I think it's petabyte, exabyte, zettabyte.\
+    \ I don't know. The numbers keep getting bigger. But you know, my mom always said\
+    \ the same thing. She said that when they sent a rocket ship to the moon, this\
+    \ was the time when they had that picture of a person standing by the stack, and\
+    \ it was like 16 kilobytes, I think. That was their data, and I was just thinking\
+    \ that we have more on our phones. It's troubling. Life progresses at one second\
+    \ per second, which seems reasonable, but it adds up, I tell you. Actually, in\
+    \ a lot of computer contexts, you'll still see things like compressed data. Anytime\
+    \ you see something unnecessarily squished down to a three-letter acronym, that's\
+    \ from back in the era where they were worried about things like how long your\
+    \ file name and how long your variable name were, because the number of bytes\
+    \ it took to write this out was something you had to consider. There's still a\
+    \ common practice where instead of writing 'error,' they write 'err.' This is\
+    \ because, for a long time, raw C code\u2014one version of it long ago\u2014couldn't\
+    \ have variable names that were longer than three characters. So now we're slinging\
+    \ around gigabytes for fun\u2014just why not? Data, data, lots of data. So, there's\
+    \ companion software. This guy down here is people capture. The software I use\
+    \ to record this is called Pupil Player. It's sort of a companion software to\
+    \ do the calibration and whatnot. I'll talk more about that next time. But suffice\
+    \ it to say, I did it, and I performed some calibration tasks. You know, why I\
+    \ look there? This export folder here, that one right there. We've moved beyond\
+    \ this. This is another really common aspect in this type of data analysis, where\
+    \ there's a distinction in the folder structure, just conceptually, between the\
+    \ data of the recording. This\u2014these are all recording data. Some of it has\
+    \ different sorts of spaces in the empirical life, like intrinsic data that you\
+    \ can actually go back and recalculate. Blinks are actually also kind of derived.\
+    \ But there's a big distinction that is very important."
+- dur: 180.0
+  end: 5040.0
+  start: 4860.0
+  text: "There is a distinction between raw data and derived, calculated data. Raw\
+    \ data is the information that you cannot recreate. For instance, I cannot go\
+    \ back and say, \"I wish I had recorded this at a different resolution or frame\
+    \ rate. I wanted to know what was happening between frames one and two.\" I will\
+    \ never have that information. I could collect new data on a different subject\
+    \ with a higher frame rate, but for this particular moment in time, what I measured\
+    \ in the past is all we have and all we will ever have.\n\nOther types of data,\
+    \ such as blink data, are derived from the raw data. This involves analyzing the\
+    \ raw recording of the eye and employing a method to determine if the eyes have\
+    \ closed in a given frame. Blink data is thus computed data. If I am dissatisfied\
+    \ with how I calculated these blinks, I can recalculate them multiple times in\
+    \ various ways. As long as I base my computations on the raw data, this derived\
+    \ type of data isn\u2019t particularly precious, unless it takes a long time to\
+    \ process or if my code is flawed and only executes correctly half the time I\
+    \ run it.\n\nThe exports folder here represents a lot of automatically computed\
+    \ information. However, by my definitions, the only genuine pieces of raw data\
+    \ are the MP4 videos and the timestamps. The exports folder contains computed\
+    \ data where you can find information like gaze positions, pupil positions, and\
+    \ world timestamps in CSV format. I'm not sure why we are doing that, but why\
+    \ not? \n\nOne aspect I deeply appreciate about the Pupil Labs team is that they\
+    \ include a TXT file, which is a human-readable format that describes everything\
+    \ in this folder. For instance, gaze positions include timestamps, indexes, and\
+    \ confidence values, which are critical to understanding the data. When making\
+    \ an estimate, it's important to note that I might be 100% confident that\u2019\
+    s where the pupil is or only 50% confident in that assessment. This confidence\
+    \ value is an essential number, and you need to know quite a bit about the system\
+    \ to ascertain how much trust to place in this confidence value. Many neural network\
+    \ and AI systems produce a confidence value, but it's wise to be cautious when\
+    \ trusting an AI's confidence calculations."
+- dur: 180.0
+  end: 5220.0
+  start: 5040.0
+  text: 'Itself, because it is a classic, uh, AI penguin school bus. Thank you; that
+    somehow didn''t work. I can''t understand why. What was the name of that thing?
+    It was something catchy. Ah, image confidence! There it is. So, this is a classic
+    example. What they did was train neural networks to recognize certain things,
+    and they developed something that could recognize a soccer ball. They went through
+    and took the image of the soccer ball that was rated as 100% confident that this
+    is a soccer ball. Then, they went through each of the pixels and started fiddling
+    with them, finding pixels that, if you changed their value, it wouldn''t affect
+    the confidence in the output. They kept running through it, fiddling with the
+    pixels, and found the null space of the prediction until they got to the point
+    where the model was producing 100% confidence that this is a soccer ball and 100%
+    confidence that this is an accordion. You get to this place where it engages our
+    weird sort of goopy human primate brain, and we can say, "Yeah, I can kind of
+    see that. I understand why you think this is a soccer ball and this is a bagel."
+    It''s not, but it is. All this is to belabor the point: when you have those AI
+    inferential sorts of things, like the confidence value, it doesn''t mean nothing.
+    But if it says 100% confident, just remember this image. This is a nematode; it''s
+    great! These little things are wild. Okay, and this was probably just enough time
+    to show... I''ll click on it and show the big square of numbers. And we say, "Ooh,
+    look at those big squares of numbers." A CSV is comma-separated values, also a
+    raw text format. Any time you''re opening something in Excel, it''s just a formatted
+    CSV or TSV, which is tab-separated. So, okay, look, big square numbers. Ooh. Here
+    we have timestamps. One of the things that makes an IT tracker a piece of research
+    equipment is that it keeps track of the timestamps very carefully. I mean, we
+    can roughly trust what they say. It''s actually not one row per frame because
+    this column is the world camera index.'
+- dur: 180.0
+  end: 5400.0
+  start: 5220.0
+  text: "So, you see these are all from frame zero. It's chunked out. These are the\
+    \ confidence values. You can see they range between zero, meaning it didn't detect\
+    \ anything, and 99.99, which is as high as it gets, along with some lower values.\
+    \ The normalized screen position X and Y are the two XY values that we care about\
+    \ here. They range between zero and one. There's also a diameter value that I\
+    \ don't care about, but some people do. After this line, there are a bunch of\
+    \ other measurements that use the 3D spherical model. You have numbers for where\
+    \ you are again: ellipse center X, ellipse center Y, ellipse axes A and B, because\
+    \ I don't really remember ellipse math. You need the center and then the minor\
+    \ and major axes, or whatever, plus the angle, diameter, and 3D model confidence.\
+    \ A lot of what I've been saying is in that two-dimensional space. Once you have\
+    \ that 2D estimate of the ellipse, if you assume you're looking at a circle on\
+    \ a sphere, it will appear more or less elliptical based on the angle you're viewing\
+    \ it from. That's the basis of these more complex measurements. Then you start\
+    \ getting values like sphere center and sphere radius, where the circle represents\
+    \ the pupil. On the topic of spherical projection, there are the theta values\
+    \ in the rows: theta phi\u2014not theta row, but theta phi. One of them is axis\
+    \ and the other is elevation, which is the length. Notice, there is no row here;\
+    \ it's azimuth and elevation. I remember that because elevation makes sense, and\
+    \ azimuth is the other one. You only ever need n minus one mnemonics for a list\
+    \ of things to remember. Okay, and that's the end of the class. While you're packing\
+    \ up, I'll play this if it plays. There you go. Wednesday, I have jury duty, so\
+    \ I can't be here. Good luck engaging in your civic duty."
+- dur: 180.0
+  end: 5580.0
+  start: 5400.0
+  text: Suppose. Yeah. So this is the gaze. This is also after the calibration between
+    the eye cameras and the world camera. So the red.
+video_id: KoShgXOnCzQ

@@ -1,0 +1,2005 @@
+full_transcript: okay hello everybody uh so by now you all should have completed about
+  the second draft of your final project um if you haven't started that yet you're
+  the only one so probably want to get on that pretty quickly um no I'm just kidding
+  uh you're all good um I there's no like official final project um I I will sort
+  of make up some sort of arbitrary rules around like how many words you must have
+  put into the server and um I don't have those numbers yet uh but just if you haven't
+  put any talk to the bot about anything and the beauty about the way it's set up
+  is like if you're talking to it it's on topic it's like it doesn't talk about things
+  that aren't relevant to the class so um I think that the the the global project
+  of this class is exploring that space um and so if you're contributing to that then
+  you're contributing to the project um and yeah so this is this is the third to final
+  class um the anti penultimate class if you're into that kind of thing um and so
+  this this class I am going to be talking about my own personal research program
+  the things basically just going through the papers that I've published on the topic
+  of visually guided Locomotion which has been sort of the thing I've mostly worked
+  on until you know basically Co ruined everything it didn't ruin everything but it
+  certainly changed things um maybe ruined him it's hard to say time will tell um
+  and uh yeah so we're going to go through that feels very strange sort of talking
+  about it's like it's just historically I've just learned it's like it always feels
+  really narcissistic to talk about my own work it's sort of but it's like also like
+  that's a stupid reaction like that's the thing I'm most qualified to talk about
+  and it's been peer-reviewed so it counts as sort of it's part of the global conversation
+  so it's worth valuable to talk about not that that's really the only metric there
+  so yeah so today we're going to talk about that um in the spirit of things it's
+  going to be a pretty sort of fast sort of journey through it but you'll have a lot
+  of background sort of to understand both like the context of what was going on and
+  also like you now have kind of like the backside view of the story that happened
+  these are papers that first ones from 2013 when I was in grad school um first one
+  we'll talk about although I have some well yep I might reference something before
+  that but um yeah it's kind of like the the very strange broad swath of topics that
+  we've covered is the things that I have kind of picked up along the way um not including
+  the sort of open- source software bent which was sort of that was the transition
+  that happened when I sort of lost faith in the academic system but still I participated
+  fully in the academic system and we'll talk about that um next week is Thanksgiving
+  break um so I understand how that tends to go so it will be like a slightly off-topic
+  topic lecture um that I have referenced before and I'm going to it's going to be
+  basically about the neurophysiological effects of most let's say the more topic
+  appropriate way uh it's going to be talking mostly about like sympathetic parasympathetic
+  nervous system sort of layer like the sort of the deep deep layers of your nervous
+  system um on a practical perspective it's going to be about the sort of neurophysiological
+  effects of trauma on the body um it is technically relevant to the topic of the
+  course as as everything is which is kind of part of the main joke of the title um
+  but I wanted to talk about it just because it's like there hasn't really been an
+  area of Neuroscience that I've learned about that has had a more profound effect
+  of the way that I look at myself and the look other people and the way that I generally
+  interact with humans than that particular topic um so I am both taking the opportunity
+  to put those thoughts into kind of lecture form and also sharing them in sort of
+  a public service announcement style of talk um so if you're not going to be here
+  that's fine everything that happens is recorded uh and put online and the playlist
+  uh of that is in the resources channel right there and you know the audio should
+  be okay after I started wearing this thing so but I haven't actually watched them
+  so that's kind of on you um and then on the last day of and the class after that
+  is the last class of this semester um there is no final so if it's on the schedule
+  that's just free time for you um and so I will take the last so the last lecture
+  of the semester will basically be me presenting my project to you um sort of a finalized
+  version of finalized in the sense that anything gets finalized in the course of
+  a semester but let's just the final version of the sort of ongoing presentation
+  I've been making every week where we sort of scrape the bot and put the things online
+  and look at stuff and um so because of that I'm I'm going to stop kind of putting
+  too much attention into like hey let's look at this big cloud of words um because
+  it is now getting to the point that the cloud is so big uh that it is hard to really
+  it's becoming hard to make sense of in its current form um so I'm not even going
+  to bother looking it up uh so I'll stop talking about that so much this time and
+  next time and then on the final day I'll give the last half sort of like the one
+  last sort of look at it uh presenting it in a form that you'll be able to play with
+  um I will I talked about this at the beginning of the semester but I will show you
+  how to set up your own Skelly bot server if you are so inclined it's basically click
+  like five links and then you have your own uh version of this thing um if you so
+  desire and uh yeah and then leave sort of time at the end like the last half for
+  sort of the talking about sort of what you guys are interested in what you guys
+  got out of it that kind of thing so sort of prepare yourself emotionally to speak
+  in class if that happens I'll turn off the recorder during that time because I know
+  that's UNC fortable um yeah so that's about the trajectory and um hopefully that
+  will not AC too much additional stress into what I'm sure is already the standard
+  level of this type of this this time of the semester um cool okay anything else
+  to talk about nah I think we're good okay so how do I talk about all of this uh
+  so long story short I got my degree my I got my bachelor's degree in 2008 and I
+  was studying the philos in in philosophy my have I have a bachelor's of Arts in
+  philosophy as my sort of first degree and I was focusing on things like philosophy
+  of Mind philosophy of science philosophy of language um had a sort of this like
+  evolution of cognition bent to it and applied for a bunch of grad schools and philosophy
+  and by grace of God was not accepted into any of those programs and then year later
+  I sort of retooled I got a job at an Autism research facility and learned that data
+  is kind of cool it's like cool to say things for like reasons like empirical stuff
+  is neat measurements are nice um and so retooled my applications and wound up I
+  applied to a bunch of programs in cognitive science mostly applying for philos for
+  like psycho Linguistics and natural language processing stuff like that I also didn't
+  get into any of those programs and it just turns out that the one program I did
+  get into uh did not have a language person on hand so I wound up working instead
+  with my adviser Brett Fagan I just I literally just looked through the list of people
+  said because I I was doing like the thing like the personal statement had just like
+  a blank spot for each School of like I really am not excited to work with Professor
+  so and so and when I I was sort of prepared to submit to RPI uh that's when I went
+  through I was like oh  there's no language people here so I just looked for what
+  seemed like the like some other cool thing and there was Brett and I study visual
+  control of locomotion I'm like that seems cool and um wrote him in and now here
+  we are so um so that's also why there's this like the AI spin on things of like
+  the sort of the deeper dives into the natural language processing set of that it's
+  not complet completely out of nowhere um it's kind of fun that that has sort of
+  reemerged in my research life um since I sort of had assumed that that was not something
+  I was going to do so now in this sort of fun space where like there's the blend
+  of the two things in my experience um yeah so how to so that's that's the rough
+  background um and when I let's see so I so in the server in the lecture space um
+  in the 1119 math papers is the thing um this link here will take you to right dark
+  uh it's just it's a folder in the standard repel that's basically just a list of
+  papers um that I published uh either first or you you know how papers work so first
+  author first author usually means like that's the student post doctor whoever who
+  did the work last author is usually the person who sort of ran the relevant lab
+  so a lot of these are for me and some of them were people who kind of like like
+  followed up on some of my work later um you can see they are they have dates and
+  the chronology is roughly we're going to follow that along um another useful link
+  for thinking about a any researcher is their Google Scholar link um that's what
+  that's the kind of thing that like I I know that there is also like a PubMed version
+  of this thing there's like a public non Google version of this but Google Scholar
+  is a it does most of this automatically and it keeps track of things like citations
+  which is like 12 that's pretty good um H index is kind of a fun number it's the
+  number of papers you have that have at least that number of citations so I have
+  at least 13 papers that have 13 citations which is cool um and that's like this
+  you know anything that has this sort of effect of like leaderboard like oh here's
+  a single number that sort of is supposed to measure some degree of progress is not
+  reliable it's sort of a gamified system the classic thing to say there is once a
+  metric becomes a Target it ceases to be a good metric so because so these are numbers
+  that are trying to make it so that you can't just gain it and like pump the numbers
+  up so you look cooler than you are um but all of them are gameable and a lot of
+  these numers so like things like fmri a lot of like medical case stud they just
+  get huge numbers of citations so like even comparing these numbers across Fields
+  doesn't really work um so but anyways but so there's kind of this list of Publications
+  um cited by is how many papers have cited that particular paper uh you can organized
+  by both um a lot of these on the list are not what I would call like real Publications
+  like a lot of these are conference Publications most of these that say Journal of
+  vision uh are like they're published abstracts that I submitted to conferences and
+  they were like technically peer-reviewed but if you click it through it's not even
+  a full paper it's just like 300 words um but uh yeah and I will talk so this is
+  the paper that I mostly uh let's see can I get this do I have yeah this is one of
+  those papers that like even though it's from 2012 like I still don't have access
+  access to it many places because of um J is the so Journal of experimental psychology
+  human perception and performance um this is a paper like I was I was on it when
+  I first got to grad school and it's the first thing I did that wasn't really um
+  it was sort of the start of this stuff but I didn't have too much I had ownership
+  over it for sure but like I didn't I wasn't like driving that particular train um
+  but this was um see this is even the author manuscript so it's like figures at the
+  end which I absolutely hate um um I'm actually just gon to let's just out of spite
+  yeah yeah yeah see what I'm saying they don't even there we go DIY should do it
+  Yay good job scub and also the dark meter extension makes everything dark um I feel
+  like I've said that many times but I'm always just feel like explaining um so this
+  was so the the sort of philosophical tradition that I was raised in in my grad school
+  days is called ecological psychology um largely pushed by this guy James Gibson
+  who was a pilot in the sort of 70s and I think I don't know whatever I haven't pulled
+  that story in a while but ecological psychology game James Gibson generally good
+  stuff I think largely a lot of issues with it these days but it's about looking
+  at so this is supposed to be like the top down view of a person moving through the
+  world and this sort of this is an object that's coming and so it's a lot of conversation
+  around like how we can see like the change of the sort of object the angles of objects
+  that we can see in the world and as we're moving and these things are changing how
+  do we sort of figure out our affordances like how do we fig like I can someone's
+  coming and I'm trying to pass them can I pass behind them or do I have to wait for
+  them to go sort of is dependent on like how fast they're moving and how fast I can
+  move and I can determine you know I don't get direct information about where this
+  person is but I can try to infer some of those numbers by like how quickly they're
+  getting larger in my visual field sort of um kind of like self-driving car styles
+  of math if you think about that yeah so in this paper was looking at um so this
+  was like old school VR um I this was VR before Oculus which was a very different
+  Affair it's like a $40,000 helmet that weighed like a kilogram and a half and I
+  had to wear like a back pack and follow the person around that had gpus on it and
+  the person was walking through I don't know if there's going to be pictures of that
+  on here um these kind of like bamboo environments black and white paper and these
+  sort of two things were closing you're trying to figure out you're like clicking
+  a button they they move for a while then they disappear and you have to say like
+  I could have made it through that I could not have made it through that and then
+  we change all sorts of wacky stuff in the visual in the VR environment and do a
+  bunch of weird comparison and sort of find that there's this interesting relationship
+  between like if you crank the gain and sort of make yourself moving faster in the
+  VR space then you're sort of decouple the visual information from like your your
+  knowledge of your body and then there's interesting effects that happen there so
+  that was kind of the background and that sort of like that was what um when Brett
+  Fagan said on his website I study the visual control of locomotion that was the
+  kind of things that he was mostly talking about um so just moving through complex
+  environments and steering and stuff like that very good stuff but if you'll notice
+  like there's not a lot of physics in that like the the biomechanics of the body
+  is just not really present like the the model of locomotion that we're talking about
+  here is basically eyeballs floating through space like they can move you can move
+  forward you can move backwards but there's no conversation around like footsteps
+  like your feet on the ground like any of that sort of gravity doesn't show up here
+  um and so as I was doing that and sort of like trying to figure out where I was
+  going to situate within that sort of space um I started gravitating towards those
+  kinds of questions like the biomechanic types of things and uh that and I also just
+  just worth sort of noting um because I came into grad school with basically no background
+  in anything like I got accepted into that program because I knew how to write and
+  at the time I was applying my professor former adviser was trying to wrap up the
+  publication WP up the dissertation of of a math person who was really good at math
+  and he's but not so great at writing and I happened to sort of apply at the right
+  time that Brett was like you know I think I'd rather teach this kid math then teach
+  another math kid how to write um so I showed up with because I showed up with no
+  background in Neuroscience or experimental psychology or any or programming or any
+  of that um all of it was sort of equally difficult for me which is sort of how my
+  research program eventually developed into being this like weird mismash uh sort
+  of cross-disciplinary thing because I didn't have a background to to fall back to
+  and so I just you know I wound up doing a little bit of psychology a little bit
+  of biomechanics I wound up sort of falling in with a robotics crowd and things like
+  that um and I think uh one of my main form sources of luck of which there are many
+  many in my life is that Brett was the kind of adviser who allowed me to pursue those
+  types of research areas even though he did not have expertise and that remember
+  he had a conversation with me at one point saying this biomechanic stuff is really
+  good but you just have to know if you're going to go this route I can't really help
+  you with that part um and so he helped me with a lot of the like many many parts
+  of it but he sort of was willing to go along with uh an advise doing something that
+  was not part of his expertise which I didn't appreciate so much at the time but
+  in retrospect like a lot of people wouldn't have done that so thanks Brett um I
+  should think about time someday but yeah um so so yeah so coming out of that space
+  there was a couple other Publications from that era of like the VR type of environment
+  um I was uh figuring out sort of my own space Within in that and I realized as I
+  was like trying to dig up these old videos I realized that I had posted them to
+  YouTube 11 years ago so they're actually still on there which is very convenient
+  um and like I said so I was like a was SL still am kind of like a big hiker Backpacker
+  type of thing so when I was like before I went to grad school and I was uh I was
+  like on a backpacking trip with my brother thinking about like what am I going to
+  study the foot placement over Rocky terrain thing was very present because I'm like
+  walking over Rocky trails with a backpack on and stuff like that and so that became
+  kind of the domain that that connection between like how do you navigate through
+  complex environments and then how do you sort of make sense of the fact that our
+  visual system is sort of grounded in this very sort of Brute Force physical reality
+  um trying to understand how those parts fit together became a part of my sort of
+  main research program and um I wound up sort of again in the in retrospect I now
+  realized that virtual reality is very closely related to augmented reality um and
+  mixed reality or something like that so uh I didn't really think about that at the
+  time but an effort to try to understand how that foot placement stuff came in originally
+  tried to do it in VR but there's a lot of weird aspects of having like stuff on
+  the ground in VR and like near space and far space and again like it was a very
+  different time like the VR was much harder to work with it's still super hard to
+  work with but it was even harder back then um so I came up sort of I can't remember
+  exactly how with this idea to put a uh projector on the ground which I think at
+  this point I can share I think statutes of limitations have passed um I found that
+  projector by going into it we like we had moved into this lab space of somebody
+  who had recently retired and I yeah 11 years is beyond statutes limitation I I just
+  went into like an empty conference room and like literally stuck the projector off
+  the ceiling and that's the projector that I used to write my dissertation um so
+  this projector was basically one of those um in an office that wasn't being used
+  and like some years later like someone else moved in and I could like overhear them
+  in that conference space like oh that's weird there's no projector we should get
+  one and they replaced it and we're good um so just goes to so um steal things there's
+  never a consequence I don't think that's the lesson but in this case that's what
+  happened um so this is me in a 360p video I am you can kind of see in the background
+  oh I guess it's going to Loop is it going to Loop uh so this computer back here
+  is running Vicon um uh and you can't I don't know if you can see them but like these
+  cables here are like a Vicon based motion capture system and I'm wearing like the
+  spandex with the with the reflective dots and the projector is being controlled
+  I can't remember what program was controlling it but juli vigder was the undergrad
+  who wrote the code for it which thanks Julie um and basically what's going on just
+  maybe slow this down um is it's so the motion catch system is detecting the location
+  of my feet specifically this marker on my foot and comparing it to the location
+  of these projected squares on the ground and then if one comes in contact with the
+  other it sort of changes its color it plays this little sound um and then logs it
+  as a collision and then um the instructions and so this is basically you just put
+  a bunch of random dots on the ground and you tell the subject participant I'll never
+  get that out of my mouth but the participant uh to walk from one end to the room
+  to the other and don't step on any of the little squares of light so you're in sort
+  of simulated um complex terrain the original title of uh which paper not that one
+  oh I guess we can go on to this the original title NOP that one there's this unfortunate
+  phase where the the this 2013 paper came out what was after this one but the peer
+  review process for this one took so long that this one was published second so the
+  2014 paper is actually the original um and yeah the original title was over rough
+  terrain and then a reviewer complained and said it's not really rough and I like
+  okay so I change it to complex terrain um and so the instructions were walk from
+  one end of the room to the other without stepping on any of the obstacles and then
+  we recorded the body and and the collisions and the speed and stuff like that and
+  so this was the um and I guess we're playing slow now yeah so this is a half speed
+  very short space it's about five steps but it's you know what we had um and then
+  so that was the full vision condition so that's walking with as much Vision as is
+  available so we would assume that that's going to be the highest performance that
+  you would expect to see um and then because then sort of we added this additional
+  check of just detecting where the person was so specifically the take the average
+  position of the head put it on the ground draw a circle around it and then only
+  show obstacles that are within that range so as I'm walking through the space I
+  can it's the same actually different uh in different terrains but now they are only
+  visible within some available distance so we then we can then do kind of like a
+  parameter sweep type of experiment where you start with full unconstrained vision
+  and you get some metrics of performance for performance we're going to call things
+  like uh collisions like how many times did you hit the things I said not to hit
+  and uh walking speed um basically which is a whole other conversation around like
+  preferred walking speed and stuff like that um and then we can where did I put that
+  so it's here probably yeah see there you go look at that figure one is the methods
+  figure because I was trained well um more pages I don't know why I'm doing this
+  on my local thing there um but basically so full vision we call about five to six
+  steps and then you can then limit the visibility window according to sort of estimated
+  step length which is roughly like 7 times your leg length and um see how measurements
+  such as mean number of collisions and normalized walking speed vary as a function
+  of that sort of look ahead distance and I call this kind of a parameter sweep experiment
+  because you're you get to sort of just take one number and kind of like turn the
+  knob and it's a it's a nice way to run an experiment because there's no there's
+  no real hypothesis there um hypotheses hypothesis testing is bad um if you didn't
+  know that that's not how we're supposed to do science anymore um uh look it up uh
+  the new statistics is how you can start that um which I guess at this point is like
+  15 years old but still um but you're kind of like you're guaranteed to find a result
+  here because with full vision that's best performance of you know what else could
+  you possibly want and if you turn the vision down to zero you're just going to be
+  walking basically at chance and hitting random obstacles and so the question is
+  like at what point when you're turning that knob do you start to see a deviation
+  from Full performance um and in this particular case it was around you know one
+  to 2ish steps and this little guy is a significant difference and that's why you're
+  not supposed to use P values because that's not relevant um hold of the conversation
+  um at this particular phase uh I I discovered when I was doing this um particular
+  experiment that actually the instructions that I was giving were were loose uh and
+  what was happening was that so did you know whatever 12 subjects or participants
+  or whoever um and the the the results were were were valid but there was a little
+  bit of murkiness to them for other reasons and I realized that the instructions
+  that we were giving had a bit of had too much play in them because we basically
+  just said walk from one end of the room to the other and as as well as as good performance
+  as you can and what was happening was that people were basically adopting one of
+  two strategies um one group was saying okay I have to make sure I don't hit any
+  of these obstacles and I'm willing to slow myself down in order to do that um and
+  so they their walking speed would drop but their sort of stepping accuracy stayed
+  pretty good and then another group was saying I'm just going to walk at full speed
+  and just do my best to avoid um the obstacles so they're prioritizing their walking
+  speed over their accuracy and so if you split the data apart you would get the sort
+  of like sort of you know slightly cleaner results and so future later studies in
+  that sort of regime I just set a minimum time so you had you had a minimum time
+  to get from one place to the other which basically forced everybody into this um
+  preserving walking speed strategy uh and then which made more of the signal sort
+  of show up in the in the stepping accuracy um so which is sort of a fun lesson and
+  why instructions are important um but yeah and then I okay yeah here's here's the
+  origin of Skelly that's the first Skelly Aon um this was a I don't know if I can
+  find it really quick but this I was I had read a paper by Art quo from quo 2007
+  um and he was it's a a uh biomechanic paper and he was using like a skeleton to
+  sort of show the person moving and I was just kind of like yeah no that's right
+  there's like the physics is important and it's represented by the skeleton and so
+  that was kind of the origin of why everything has a skeleton in my life and this
+  also I believe statute limitations have passed the original Vector graphic that
+  I that I got this from was like uh back before I really understood intellectual
+  property I understand it now I just don't respect it um it was like a it was like
+  a like a sample reel from a tattoo artist in Florida who had like a bunch of SK
+  doing strange things and saying if you want to get this tattooed on yourself you
+  can and most of them were front on but there was one side view and he was like holding
+  like a like had like a cowboy hat and like had a pistol and so I that's that's the
+  origin of this particular guy so if you know that guy um tell him thank you uh tell
+  them thank you um because I absolutely never gave them credit I I don't think I
+  could ever find them again if I wanted to um but so the idea was so what basically
+  um this paper because there was overlap between this paper and the one I'm going
+  to talk about next some of the ideas are here in different forms um but this is
+  also where I was first trying to think about this like notion of a center of mass
+  and how consideration of locomotion in this form of a compass gate Walker um am
+  I going to find it that's me that's me again I we'll find a little animation of
+  this uh GIF GIF tools type GI I wish this was a real video but I it it imagine this
+  is like an actual video of a thing so this is called a it's a compass gate Walker
+  sort of like uh there's a citation in there for like one of the first sort of considerations
+  of it but like there's toys that do this like little like Tinker toy like sort of
+  like wobbly feet things sometimes they look like P like penguins and they kind of
+  like wobble back and forth um but these are this is a physical model of um something
+  it doesn't have a controller it doesn't have a motor it doesn't have sensors it's
+  just the shape is such that if you put it on a slope of the right kind of angle
+  it will generate this gate and the gate is it's not particularly stable it will
+  fall over if you nudge it but it has this kind of like like very humanlike quality
+  um I'm actually going to look Steve Collins passive Dynamic yeah there we go um
+  this 27 second video was very formative in my life uh this is a a baby Steve Collins
+  who is now a professor at uh Stanford or something like that um and this is him
+  with his I think he was an undergrad at this point um passive walker uh at Andy
+  Rua's lab um both of you met Andy Aaron you meet Steve I think but this is again
+  a walker it's got no motor it's got no uh sensors um but it can walk down this sort
+  of particular regime of slope and it has this like very natural appearance like
+  it looks like it there was something about just like that looks like people um and
+  that was enough for I I thought to myself as I saw this thing and so there that
+  sort of started this kind of consideration of like how can how is it that we may
+  be able to exploit our sort of Bas level physical reality um when we are controlling
+  our bodies using visual information in our nervous system and stuff like that um
+  and now it will move back to local copies of things oh actually you know what it's
+  actually better to keep it online because then I can click on the links more easily
+  and so then this was very exciting time for me uh to get published in this little
+  guy um very very similar uh experimental design um but with cleaner thoughts because
+  this all this was done after the first one even though the publication dates are
+  different um and so this was starting to think now about this little symbol typically
+  means Center of mass and this is sort of an inverted pendulum Arc that you might
+  take um we'll see a better version of this uh figure later but there's this idea
+  that during your single support phase you're following this you're not it's not
+  like a fully ballistic not like your nervous system turns off but you there's a
+  lot of momentum to your body and if you keep your leg relatively stiff which we
+  do um we don't like to walk with a straight trajectory even though you will still
+  read clinical textbooks that say that the up and down movement is wasteful um it
+  is not wasteful because we're exploiting these pendulum Dynamics dnics um and so
+  this is kind of like the basic physics mechanical exchange during walking um on
+  flat ground with no Targets on on the ground and so there's a sort of body of literature
+  that suggests that we are humans are exceptionally good we're exceptionally efficient
+  locomoter like we are like top tier of the planet like um it's like us and horses
+  um which is why we like to ride horses um even when I said that birds are better
+  at being bipeds than we are mostly in terms of like agility and speed like in terms
+  of energetic cost um distance traveled we we're we're pretty high on that list of
+  all animals of just the ability to walk without burning a ton of calories and the
+  body literature in this area suggests that we a big part of that is because we have
+  this sort of capacity for exploiting these physical um Dynamics in order to move
+  with sort of like highly efficient movements um so same basic picture there uh and
+  yeah and so this was looking at the center of mass trajectory during the different
+  trajectories and again so this is the same basic manipulation except now I'm doing
+  half step increments so there's more conditions and there was a minimum walking
+  speed so you don't see only people were sort of more spe specified there and so
+  there's this result that you kind of like around the 2ish uh distance things start
+  to level off um suggesting that you know your speed gets back to the you know 0.95
+  which is slow for walking but it's a small space um and your collisions sort of
+  get close to zero um and same kind of thing and so the idea was this was sort of
+  the origin of this idea that comes up later of looking by the time you can see so
+  if what you're trying to do is control this ballistic trajectory and you're trying
+  to sort of send your center of mass down a a path that will allow you to sort of
+  hit a particular Target then what you need to be able to do that is to set up the
+  initial conditions of this step appropriate for the train that's coming up down
+  the road and so that in order to set up the conditions of initial conditions of
+  this step appropriate for this terrain you have to see this terrain before this
+  step hits the ground which puts you about here which is about two and a half steps
+  ahead so I really don't I I moved very rapidly away from like the step counting
+  thing and I still see people sighting me saying like oh Mathis whatever says that
+  we need to see two steps ahead and it's like it's really not about the number of
+  steps it's just kind of this physical Dynamics thing um but I was there was there
+  videos of this one I don't know if they will I don't know there's sort of a point
+  in time where they they made it really hard to publish video videos um so I don't
+  know if they were here but I where was it yeah so this was um a I I had like a a
+  simple mechanical model of a pendulum and I compared it to the person's step and
+  then found that the when you didn't have that look ahead distance that you want
+  your body's trajectory diverged a lot from that sort of basic physical prediction
+  um suggesting that rather than using the nice momentum of your body you are basically
+  using your muscles to fight against physics to put yourself in the place you need
+  to be which works I mean people don't just fall apart when they can't see enough
+  ahead um but the Assumption here is that this is energetically costly because you're
+  fighting your physics whereas out here your physics is very much you're you're exploiting
+  them and taking advantage of the inherent momentum going on there um yeah and then
+  blah blah blah so and this was a so that was fine so we kind of get this distance
+  of like you have to see about two and a half steps ahead you know basically so you
+  can sort of see far enough ahead to take advantage of your base level physics and
+  then this um getting now into this 20 2015 paper and journal of vision same basic
+  idea so I switched away from doing obstacles so rather than like avoid stepping
+  on the obstacles it's step on these specific targets um and they were like these
+  little circles that are about .5 CM sorry 5 cm radius um and and they were typically
+  there was like a a white noise texture under under here but it's turned off here
+  and so here rather than looking for like how often do you hit the things I said
+  not to hit it's like measuring how accurately you can place the ball of your foot
+  on the specific Dot and now we had invisibility triggers so whereas before they
+  were turning on now they are turning off um and so as you're stepping towards it
+  with like a 70 millisecond lag between the systems um the targets would become not
+  visible and so that previous one was showing a 0 five so it turned off as your foot
+  was swinging towards it um this one it turns off basically as your foot is leaving
+  the ground from the previous one it disappears um and yeah me just showing that
+  off then this one it turns off halfway towards the step to the previous Target um
+  and so again the same same basic kind of parameter sweep of looking at at what point
+  does your accuracy stepping accuracy start to be hindered by that um and then I
+  think in practice we actually like we added uh like extra distance because there
+  is there's like 70 MCS of lag so I had to make the distances a little bit larger
+  so that when you take into account the lag I don't know who you are um uh and we
+  got yeah so here you go here's how we did that way to go this cacophony here I apologize
+  I didn't know any better at the time um this is showing stepping error um eron this
+  should have been a little violin plot or something like that I didn't know how to
+  do that so this is every step I think every step of every step of every person I
+  don't know but the stepping accuracy that you would see when you could see the full
+  vision um oh yeah these number that's what it was so the numbers were not the even
+  numbers because this is with that lag taken into account um so this is when it turns
+  off when you're you know quarter like just 20 25% left of the step no real effect
+  and then it kind of like grows and then it specifically gets worse if you can't
+  see it during the preceding step I I must have given a better figure than that all
+  there you go so yeah so basically the stepping error increases it's it's pretty
+  flat like you don't really once your foot has left the ground it already knows where
+  it's going to go um but in that preceding step you that's when you really suffer
+  from not being able to see the Target and again these aren't huge numbers you're
+  not going to Tumble off the cliff but it's a measurable difference and so you can
+  sort of see what's going on there um different ways of measuring accuracy [Music]
+  and yeah and then people oh there was just like I don't even remember what this
+  is about um you can see the use of unnecessary color gradients to let you know that
+  he's outside um but now you sort of like with those two pieces together you can
+  kind of like Define this sort of like critical range where you have to see it by
+  the wait what is it you have to see you have to see it by this point at the latest
+  must see terrain relevant to step End by this point I site myself um but you don't
+  really care about it after this point so there's sort of this range where it seems
+  like that's where the information should be the most useful for getting um accurate
+  foot placement um and then this paper no that's 20 2018 am I missing it no 2017
+  no oh they not get in here 20 okay well this is a fun thing about being older you
+  can just Google yourself critical control phase you going to talk about me ha nice
+  I made it U so this paper is in a journal called proceedings of the National Academy
+  of the Sciences often abbreviated as pen which is funny um my adviser would really
+  work hard to say pnas um but everybody says PS and like not everybody recognizes
+  that that is funny it is funny Justin you Cas you were curious um so this paper
+  is basically the long and short of my dissertation um and I guess they oh it's nice
+  so this one is is publicly it appears publicly available when we access it through
+  this site through this University um I don't know I don't know if it would be elsewise
+  um but this is uh so this is that same kind of idea and this and we talked about
+  this this is like the linear inverted pendulum stuff and so same basic idea too
+  many colors I apologize but the idea is like as you are walking and you sort of
+  have these sort of basic pendular Dynamics in this so the basic physics of like
+  regular walking is that when you when your feet hit the ground the back one is pushing
+  in the direction of motion the front one because you tend to step in front of your
+  body has like a breaking force so it's like pushing against the direction of motion
+  and if those two things are symmetric then they cancel each other out and all you're
+  left is sort of with with an up Vector that pushes your momentum up and as you walk
+  out of here just like key into the fact that that is there's a feeling of like flow
+  from one step the other and that is kind of what's Happening Here um you should
+  follow me Mr Robot thank you um and so the idea was that if you can sort of you
+  know these Collision costs are lossy like you lose energy in this C in this Collision
+  um so we tend so the again the literature suggest that we have a push-off force
+  um from our back leg partially mediate by just like the springiness of your Achilles
+  tendon but partially sort of energy driven uh like muscularly driven um and so if
+  if it wasn't uh if if these two forces were symmetric then the energy loss means
+  that you would slow down um but if you just push off a little bit with your back
+  leg or as those little sort of passive robots if you're on like a little bit of
+  a downhill you can recoup that energy loss and then have a nice Stable Gate cycle
+  or if you're looking ahead and you're saying oh actually this these sort of preferred
+  footholds are not available like there's something in the way there's a rock there's
+  a puddle or something like that you can alter those push off forces to change the
+  Dynamics and so that as you your foot hits the ground you're starting with sort
+  of lesser velocity and so you'll follow a different trajectory and that will sort
+  of make other available footholds so if I am here and I see that this yeah so I
+  wish I could step here but I can't cuz there's mud or something so I need to either
+  step a little bit farther let's say I want to step a little bit further so I see
+  that here and I say okay so in step two I'm going to push off more so that when
+  I sort of interact my center of mass like imagine the center of mass sort of projected
+  onto the ground that trajectory interacts with a different foothold position and
+  then I can steer there all right so I could right that's what it is I could either
+  change my push off force or change my previous foot location um but because we were
+  prescribing the footholds you know really have that option so this is kind of starting
+  to get more of a picture of like the way that we could sort of control our bodies
+  as a function of the visual world and then here's this un not particularly useful
+  picture but um oh and actually do have download oh there we go good job this was
+  playing way too slow a mat lab based animation oh this is changing colors when you're
+  in the critical phase of control for whatever the thing is there um yeah and then
+  I'm not particularly a fan of the figures I made for this but it it was it got complicated
+  and we sort of did our best um but long story short um that hypothesis sort of plays
+  out like it tends to be what you would expect uh or the yeah wait what was the critical
+  control phase hypothesis this was also the first like actual proper hypothesis driven
+  paper that I had done CU all my previous stuff at that point had been of my first
+  first author Publications were these parameter sweeps where it's like you're guaranteed
+  to find a result this one felt much more like sniping where I was like I have a
+  spefic specific expectation in mind and um and yeah I mean so the results are again
+  the numbers are not huge but there is a uh effect where basically the so this partic
+  so like if you only sort of flashed the targets on during this very narrow phase
+  of gate these are like 250 millisecond windows so like when you're walking it actually
+  feels like you can't do it but if you look at the numbers your data is as good as
+  when you have like the full previous step and then you see these sort of like not
+  huge explosions in error but like performance is worse when you have equivalent
+  visual information at a different phase or actually many in this Cas is you can
+  see the targets for twice as long it's just like a little too early or a little
+  too late um so that was fun um and anything else to show here yeah and then you
+  know sub experiments and stuff like that um blah blah blah uh if you are curious
+  about kind of like the theoretical aspects of this the the intro to this paper is
+  is a basically like a review article of like all the stuff I just said the experimental
+  stuff I think is fine but it's not really it's not necessary um yeah and so then
+  I then I graduated then I became Dr mathys and it was fun and exciting um and yeah
+  blah blah blah long story short uh I wound up going to UT Austin um to work with
+  Mary heho who was World expert um OG person studying eye movements during natural
+  behavior and I think I could probably find hey how ey movements yeah I mov through
+  natural behavior the thing I just said um and she that's Mary um I don't think I'll
+  be able to find the video uh she does not have the same YouTube presence that I
+  do um but she studies a lot of things like the kinds of ey movements that you make
+  when making a peanut butter and jelly sandwich was sort of her claim to fame or
+  like when you're making tea in the in the in the kitchen so that kind of thing so
+  she studied eye movements but she also did not have like a biomechanics bent to
+  her like um so when I came along it was sort of like how do we kind of merge these
+  things together um that was my postdoc um so post-doctoral researchers typically
+  kind of like they show up they are not as like they're not students anymore so you
+  have it's sort you're kind of like a semi-independent researcher in a more established
+  researchers lab um so I had much more so I similarly am deeply indebted to Mary
+  for the freedom she gave me um but it was a little B also like I was a postto so
+  that's kind of more and that's me that's from the past also Skelly um yeah so uh
+  and so that was kind of the end at that point of the sort of the projector stuff
+  um because at the time it was like okay great so we got this nice result um nice
+  dissertation stuff good publication records and all that kind of thing um but there's
+  this issue where it's like they're just walking five steps in a lab with projectors
+  on the ground like this is not really it's it's natural is it's it's pseudo eological
+  um it's better than like you know sitting at a computer screen but it's not quite
+  the same as like what we would call natural behavior um so I sent out so I what's
+  the word um so with Mary and I was sort of learning how to do ey tracking I was
+  learning basically how to like do computer vision how to work with cameras um and
+  it was hard it was very hard the thing that I think I have the most to thank Mary
+  for is that she allowed me to be to to get basically on paper nothing officially
+  done for the first like two years of my of my post-doctoral research cuz I was desperately
+  trying to figure out how to um combine natural like ey tracking um with some form
+  of motion capture in an outdoor environment uh and I think have to go back into
+  the the history books here um and I wound up using something called it was an IMU
+  based motion capture system so it's like a a a suit of like ensors that you could
+  wear um and and then like ey tracking ey tracker like the original one was that
+  was an older version then some of my later stuff was using like the same one that
+  you saw um here and going a little bit out of order historically uh it wound up
+  looking like this um no what are you doing I'm more shocked that an ad is able to
+  make it through my firewall of ads than anything else um I just yeah so this is
+  I don't can't remember who this was um but he's wearing uh these little straps are
+  IMU sensors um basically you can think of them as like fancy accelerometers but
+  it's more than that but they're basically giving recording his body movements um
+  huge pain in the ass I hope I never use IMU based motion capture again robot you
+  must follow um and then he's wearing a backpack uh running the eye tracker and then
+  this like daff Punk shade here is um an infrared blocking face shield because the
+  IR sensors of ey trackers work Great Indoors but you go outside in Texas and all
+  of a sudden there's this huge black body radiation ball in the sky which is blasting
+  infrared so I had to find an IR blocking face shield that would block infrared let
+  visible light pass but not be so dark that you couldn't move around uh and so that
+  wound up being a face shield made for people who are teaching people how to weld
+  Because the actual welding glasses are too dark you can't see through them so that's
+  for people who are like standing and watching the student so like a shade three
+  instead of a shade six this is part of the journey um and they were wearing this
+  so that the ey tracker could still work when it's inside of the the helmet and then
+  this is like a DJI 4 drone um at the time I was like drones seem like that's an
+  important technology uh M had some extra money so I got a drone and now like watching
+  Ukraine I'm like Jesus Christ I uh yeah world is horrifying but that's okay so here
+  he is here I'm trying also fun fact that's the high water mark because this is Texas
+  and they flash floods happen um so this was you know check the weather before you
+  go out type of thing um we did not discuss that in the IRB approval um uh and so
+  yeah so he's so here he is sort of you can see the backpack there walking along
+  these Rocky terrain sha Creek in ut and his body's being tracked his eyes are being
+  tracked and then the question was that was hard enough and then the question became
+  how do you combine these two uh signals together which was also super hard so the
+  first publication of out of this era was in current biology fancy pancy paper um
+  and this was the the first laser skeleton which is a full body motion capture with
+  a laser shooting out of its face so this is the body these are the feet the and
+  this is the Gaze on the ground um and there's kind of like it like sets like burn
+  marks so every black dot is an intersection between that 3D gaze vector and the
+  sort of hypothetical ground plane and then the the the colors of measure of the
+  density there I'll come back to this in a second but I have to show you is this
+  was this on there yeah I don't think it's actually on on there but um okay all the
+  videos um where would I have that oh yes supplemental oh mathys current bio gaze
+  in the control of foot placement um there we go supplemental information yeah so
+  this was so this is arguably the cleverest thing I've done in my academic career
+  um because I had to so the challenge was you have eye tracking data you have motion
+  capture data and you know that the and eye tracking data tells you what the eyes
+  are doing motion capture data tells you what the body is doing but how do you align
+  the two things cuz basically the camera is at an arbitrary location in space so
+  how do you identify where things are and so what I wound up doing is I took advantage
+  of my favorite reflex which is the vestibular ocular reflex which says that as you
+  move your head up and down your eyes counter rotate so as I move my eye head up
+  my eyes moved down and then I just had people stare at a DOT on the ground that
+  I measured the not the relative to their feet and make a cross shape with your head
+  and so you can know from that that they are looking at this point so the head movement
+  plus the eye movement has to cancel itself out and then I can do this fun uh convex
+  optimization to find the orientation of the to the rotation to apply to the to the
+  Gaze vectors so that the Gaze sort of clusters on the location that it is so play
+  that again you can see it it starts as this big cross because I'm moving this is
+  probably me uh moving my head in a cross shape um and then as the number gets as
+  it gets optimized then it sorts to Cluster around the location there and then you
+  can use that to basically align the Gaze data to the motion capture data and in
+  the standard ways of calibration um you calibrate on the thing that you know the
+  answer to and then you put it into the world and um see how that goes uh and so
+  you you use you use the the the thing you know the answer to which is the calibration
+  to to you measure it and if you get the answer you expected then that should give
+  you sufficient trust to use that same system to measure things that you don't know
+  the answer to for example where are you looking as you're walking through the rocks
+  and the sort of epistemological trust sort of follows from there um I think this
+  is actually still arguably yeah here we go this one arguably this was one of those
+  things where like I had to write a whole paper because you're not allowed to publish
+  a 30-second video um but this video is basically like I think the main output there
+  so this is subject oh it plays at full speed and then again at slow speed and there's
+  a lot going on here this is by the way part of like a strategy I adopted as a cross-disciplinary
+  researcher which I call kind of like shock and awe um because I was having this
+  problem around this time of my life where I was doing this vision science stuff
+  I was doing this biomechanic stuff but if you go and show like Vision scientists
+  don't care about biomechanics and biomechanists don't care about Vision it's like
+  they they think it's it's interesting but it's not part of their interest what they're
+  what they're you know it's hard to convince them to care about it so I wound up
+  adopting this strategy of just trying to make these like pretty flashy videos that
+  put a lot of information on the screen so that way I can then go give a talk to
+  a room full of whoever I want say whatever I want nobody's going to listen to me
+  while I'm talking because there's too much going on and as they're watching the
+  video they find something in the video that is in their interest and then they sort
+  of they queue into that and then at the end of the talk they say hey have you thought
+  about this thing that I just thought of right now and I can usually say yes and
+  they say have you done that and I say no you should do it um but uh yeah so this
+  is the person walking the dots are the right and left footholds and the Gaze is
+  sort of going you can see that they're looking around and trying to this is blinking
+  and stuff like that um this is only look ahead so this is time versus distance so
+  you can see look at the distance of where these targets are going to be there's
+  these kind of like look fixations in places that you don't step which is presum
+  which is um either going to be obstacle avoidance or like search fixations some
+  of the more recent research sort of looks at that um and this is like I kind of
+  like this one the most this is the top down View and again you can see this is like
+  that you know the that curve as of the center of mass as a function of where the
+  foot goes which is always kind of fun and these are the uh fixations uh what is
+  that vertical I movements horizontal ey movements you see mostly that most of the
+  actions in the vertical because you're moving forward um and and the interest of
+  obviously I could say much more about this stuff um but there is yeah so the the
+  experiment Al design of this we call this a quasi experimental design because I
+  didn't have too much control over the behavior but I had people walking in flat
+  ground where like foot placement really didn't require visual guidance it's like
+  a packed Earth Trail you got to look every so of to make sure you're not going to
+  trip over a turtle or anything like that but you can mostly put your feet wherever
+  you want this kind of like grally sort of like big like sort of this size of rocks
+  in the medium terrain and then the rough terrain is the stuff that you saw and then
+  looking at how the the Gaze Behavior sort of shifts in these different environments
+  as the locomoter task requires increasingly precise visual information to complete
+  and in sort of again in that Spirit of over complicated figures um so this is the
+  flat terrain and this blob is like the the accumulation of gaze data at a given
+  distance so you you know this one mostly you're not looking at the ground at all
+  you're just kind of just looking around and looking for birds and cactuses and stuff
+  because it's Texas um and as you and this is sort of aligning it to like the foot
+  that's on the ground where you can like align the Gaze to upcoming footholds and
+  see that there's not really a correlation between that gaze blob and the upcoming
+  footholds because that blob doesn't really change shape as you sort of look at that
+  compared next footh hold in the medium and rough you can see that like uh if you're
+  looking this is that blob you're looking a little bit closer in and it's a little
+  more spread out because you're kind of glancing around a lot and if you com com
+  like align or do like correlational analysis doesn't super matter uh with a different
+  sort of with with your different fo holds you can see your gaze is more is you know
+  it condenses and gets peier when you align to that n plus2 step so you're looking
+  and you're more likely to fixate your foot hold like like I'm going to look at this
+  specific location and then step on that specific location specifically at that sort
+  of like plus two range so aligned with the sort of previous result but there's some
+  details there um so kind of a the result there is sort of like a it's like it like
+  cool that makes sense it's cool that you got numbers about it um and it's cool that
+  it lines up with that particular distance um there was some deeper analyses here
+  about you know blah blah blah this versus versus that um and differences in like
+  the first half of the step versus the second half of the step uh and then and then
+  this sort of fun result was sort of a this was an unexpected thing that wound up
+  being I I think kind of like the main empirical or theoretical result here um which
+  was that if you look at the look ahead distance you can see there sort of uh the
+  medium and rough terrain wind up being more similar then otherwise so there's not
+  much of a separation there but the purple and orange are medium and rough and then
+  uh green is flat so basically requires visual information to put your to walk properly
+  green is does not require you see you're looking farther ahead uh in that flat terrain
+  but it turns out you know you're also walking faster and if you sort of instead
+  of asking how far in distance you're looking you ask how far in time are you looking
+  they line up right on top of each other so which basically means that you're looking
+  at the place that is going to be where you will be in about 1 and 1 half or 2 seconds
+  from now um which happens to line up with a lot of other results in literature on
+  like hand placement and sort of like you know hand manipulation stuff that suggest
+  that that window is roughly our like visual memory like uh we have all sorts of
+  memory um and sensory memory is like how long really specific spatial information
+  lives in our perceptual nerve system um before like you know you have to sort of
+  look again to have accurate placement so there's this this was cool because like
+  this was not expected we weren't looking for this but it just sort of like oh actually
+  they line right up on top of each other and just sort of like and then the number
+  kind of lines up with other parts of Neuroscience uh other parts of um yeah perceptual
+  motor Neuroscience uh which kind of which is cool and fun and kind of like this
+  is why it's good to do these like ecological experiments that are sort of like mod
+  controlled and like have that produce like tons and tons and tons of data because
+  then you have the opportunity to look at it and sort of like see these correspondences
+  that you may not have been looking for otherwise um and yeah so that's fun is there
+  anything else to talk about here um yeah and then uh lots of explanations about
+  like how I did it and you know methods and stuff like that lots of extra data extra
+  numbers um anything else oh yeah this is the this is what that calibration process
+  looks like in the actual data uh yeah this looks familiar um yeah I'll just belabor
+  the point here so this is head orientation so moving up and down and the these are
+  the like you can see the eyes doing like the opposite movement um but there's not
+  exactly so this is like you're using optimization algorithm to basically find the
+  rotation Vector that makes these two things cancel each other out this is fun um
+  I would say that this paper is the reason why I got this job which is fun flashy
+  flashy stuff with laser skeletons everybody likes a good video it's like I know
+  who who like published way more things and got like way but like they didn't have
+  cool videos so it's just it's harder to make the point like you it's it's you never
+  want to be in a position of trying to convince somebody that something is good uh
+  you just want to show them something that they like and then they'll think it's
+  good for you it's very very hard to convince people to care about something that's
+  not their main thing uh and if you don't realize that think about how hard it would
+  be to get you to drop whatever it is that you're doing to jump on somebody else's
+  interesting thing so a lot of the sort of the Strategic aspect of a lot of these
+  sort of studies was like I'm just going to do my thing and I'm going to present
+  it in such a way that other people will see their own interest within it and then
+  whoever it is that comes along will sort of I don't have to convince them to care
+  about my dumb  because they will care they will see their dumb and then now they
+  like it and want me to be around so uh yeah if I I try not to in this point in my
+  life I really try not to be in a position where I have to like convince other people
+  that things I'm doing are good which is also part of my general uh sort of reluctance
+  to uh acknowledge Authority in all forms um so um yeah and then time wise I think
+  I'll just talk about so yeah so uh this is my friend Kate um who's a professor at
+  IU now uh who wound up doing a similar method and looked at people with stereopsis
+  so people who have um not stereopsis um amopa so uh sort of misaligned eyes so they
+  don't get good stereo vision and then could also put like a a blur filter over one
+  eyes which basically allows typically side of PE it ruins your depth perception
+  uh your binocular depth perception and was able to find the like fun results that
+  when you do that it makes medium difficulty terrain starts looking like hard difficulty
+  terrain which is this result that like it's if you if you lower the like the information
+  content of the visual stream performance is degraded and so it's this idea of like
+  you're you're gathering information more than you're doing a specific motor Behavior
+  but that's whole other conversation um math this did I put that one in here either
+  meth retinal flow now for my favorite paper um this one is going to be a real assault
+  on the old psyche because this is this goes real deep real fast um and I and it
+  would take another I could probably build you up to it but it would take another
+  entire lecture um so this was me basically going deeper into the so got a new eye
+  tracker this is the pupil ABS tracker that yall saw much higher frame rate much
+  higher resolution um and I wanted to get deeper into the questions about like the
+  actual visual information that you're extracting and I'm specifically looking at
+  visual motion um optic flow is often called so the majority of the world is stationary
+  um so if you are looking if you sort of fixate a point on your table and move your
+  head around um your visual information is seeing motion when that happens because
+  you're see the the the stationary world is moving relative to your head and so the
+  motion that comes out of that is very information Laden and a lot of this is like
+  the jassic part like his vision is based on movement um a lot of our vision is based
+  on movement um and we tend and we're very sensitive to Motion in the scene um it's
+  a lot of our visual system it sort of handles that um and so a lot of this paper
+  is like speaking to theoretical Traditions that I think most people don't know about
+  so it's like one of these things like a lot of it just like wouldn't make sense
+  if you're reading it like why you spending so much time talking about this thing
+  that doesn't make sense um but from a practical perspective the um you had these
+  head- centered videos which is basic the camera on the head then you can align them
+  so that the G is always at the center which is basically an estimate of like the
+  retinal like this is presumably similar to the information being projected on this
+  fellow's eyeball um and then doing computer vision and optic flow estimation um
+  which again these days is like like self-driving car type of stuff um and looking
+  at this is a fun figure just about like uh showing that like your a lot of what
+  you're doing with your complicated body when you're walking is stabilizing your
+  head um because this is the acceleration at the hips uh chest and head and so you
+  get these big acceleration spikes at this vertical strike is like uh heel strike
+  um so you get a big spike in the hips which is sort of like partially damped out
+  at the chest and then by the time you get to the head it's like a much smoother
+  ride and that's true in the forward backward and left to right but not so much in
+  the vertical like the in the vertical your head is just kind of like along for the
+  ride which is I just kind of like the figure um I was getting better at making these
+  things at that point um and then then I started looking at uh to sort of second
+  half of the paper is looking at the sort of the kind of shapes that show up in the
+  the data um if you sort of yeah so this is an eyeball fixating a point on the ground
+  so is this and if you project the sort of retinal view onto the ground you get this
+  kind of ellipse and then you get this it's like very elongated at the upper visual
+  field and very condensed at the lower visual field which is good because this is
+  the part that we care about so like if we had the same amount of neural real estate
+  associated with each of these spaces then we get a which we don't but if we did
+  um then we would get more of our neural Machinery processing the stuff that's closer
+  up to you which is a useful thing and then you get to change the position that you're
+  sort of pulling that information from by doing all these eye movements that we've
+  been talking about all semester um Sagal plane view is a just a slice down the side
+  so this is what it looks like from the side that's kind of looks like from the front
+  um and yeah and I'll show some videos in a second obviously um so I wound up getting
+  very inspired here by uh fluid flow mathematics um there's a three blue one Brown
+  video on uh Divergence and curl which actually site in the methods here um that
+  was the explanation I had of that and so this is if you look at the like Divergence
+  and curl of these things then you you find this interesting result that you can
+  determine from the flow field at each moment whether you are going to be passing
+  whether your current velocity Vector will take you to the left or to the right of
+  the point that you're fixating and so even just while fixating on the ground the
+  motion patterns in the across the full field you can extract like this star is the
+  peak in the Divergence and then there's this kind of saddle point and the curl that's
+  either clockwise or counterclockwise and those two things actually independently
+  like each one by itself will tell you whether you're going to whether you're passing
+  to your current velocity will pass you to the left or the right the point that you're
+  fixating which is cool because this is also there are parts of our nervous of our
+  visual system that are sensitive to this type of thing it's like MST mstd like we
+  talked about primary visual cortex is V1 MST is like V4 or V5 or something so like
+  at at a certain point and arguably there's actually points there's Machinery like
+  on your retina like in that remember that middle area like there a bunch of weird
+  stuff going on in there some of that is actually sensitive to visual motion and
+  like differential patterns of visual motion so theoretically there are like you
+  could be inferring stuff like this like on your retina or or or else like in your
+  visual cortex something like that um which I think this type of behavior is so primitive
+  that you would want it to be very easy to get like flies and bees and dragon flies
+  are doing this type of things so you don't want to have to have this scale of Firepower
+  to be able to solve these types of problems um but yeah yeah [Music] and now I will
+  show a variety oh wait yeah there we go so I think I can actually do this I think
+  there's a playlist right I would do that that seems like something I would do yeah
+  uh videos and I'll put this as well um yeah so can I just do that yeah so this is
+  the same oh yeah this is actually the demonstration so this is the same rocks this
+  is my eyes if they look familiar same basic data except now we have two eyeballs
+  um which is nice and this is the the retinally aligned gaze and I'm pretty sure
+  in a second here yeah it's going to show that um so this is the first part of that
+  analysis so you just run this this is classic computer vision optic flow estimation
+  so you get a vector for each pixel that estimates the motion at that pixel you can
+  do that for the head Center View View and for the eye center View and so you get
+  this so obviously the point that you're fixating has zero velocity that's what fixation
+  means and we kind of cheated and sort of pinned that there um because assuming that
+  your visual system is better than our measurements um you so you always have this
+  kind of zero velocity at the point of fixation and so because of that you have this
+  kind of like rotation patterns that show up there yeah so this was another one of
+  the clever things I've done in my life of you take that flow field you invert it
+  so instead of pointing away it points towards and you put a grid of massless particles
+  on it and they sort of Follow That trajectory and they all kind of wind up here
+  you keep track of their paths and you get this sort of nice these are apparently
+  the you get these nice shapes that show up and you can see how they kind of like
+  they bend around the 3D structure of the scene because of Parallax things that are
+  closer to you move faster than things that move slow it's like looking at your like
+  the train window type of thing um and you can also see these kind of like spiral
+  patterns that show up like we didn't some of the Carl stuff looked at the structure
+  of the 3D structure stuff but you can kind of see there's this like these shapes
+  that kind of emerge um and so then a lot and and they show up much better in the
+  fixation need stuff than you do in the head centered stuff which is obvious to you
+  but some people have issues um but that in the head it's much more aligned to like
+  the trajectory of your head so this yellow line here shows their your head's veloc
+  velocity Vector then your gaze your ocula motor system is sort of fixating so that
+  you can sort of process stuff better um and so that's fun and uh let's see running
+  out of time but that's okay kind of on point um and so then that was like the empirical
+  data and then this was uh now um basically simul this this is a simulation of a
+  eyeball that's moving while fixating this point here and you kind of can see these
+  like shape so this one it's moving in like a cork screw path um but you can kind
+  of like imagine why yeah left as an exercise to the reader of like why some of those
+  shapes show up um and then I would say this is probably the high Watermark of that
+  particular empirical part of my life um which maybe I'll get back to someday um
+  but this is that same rocks data data projected onto a flat ground and then these
+  are the actual eye movements that were being made um with all the sort of simulated
+  flow here so this is the the curl you can see it sort of moves to the left or right
+  as the as the vector moves to left or right there and then the sort of the the the
+  this like peak in the Divergence map sort of also corresponds to that stuff um and
+  there are some people who are out there trying to like make some more sense out
+  of this and try to like understand how how and whether and if these types of signals
+  are actually being used and how they might be it's the kind of thing like if you
+  look at the literature like I said there are there's a lot of evidence that there's
+  places in the nervous system that could be sensitive to this stuff it's like sort
+  of it is consistent with um no with like mechanisms that when are that could detect
+  information like this whether or not it actually is there whether or not we actually
+  use it or not that's actually a part of the way we move around the world um is sort
+  of an empirical question but then so the idea is that we can use this type like
+  so going out into the world and measuring these things and saying oh hey look there's
+  these interesting patterns and shapes that show up and it would make sense if blah
+  blah blah and this and that this is often the kind of stuff that drives research
+  in more like animal stuff and you know the the actual like electrodes in the brain
+  style of of experimentation where you are much much more constrained you can't have
+  things running around but this kind of gives a Target to look for like this s how
+  you might generate the hypotheses that you would take into a more controlled lab
+  based setting um and trying to see if like this is actually a like if these sensitivities
+  are a a part of a visual system and B a part of the strategies that we use to to
+  move around the world um it's fun it's mesmerizing what's going on in there oo uh
+  the answer is a lot um and in the three minutes I have left I will also I give a
+  little shout out to my dude Carl um who uh he he I found him as an undergrad uh
+  and he sort of was in the lab for my postto and then stuck around and got a PhD
+  um with Mary and uh published basically he never learned the lesson don't put hard
+  green on white but you know whatever um so he continued a lot of these same kinds
+  of uh of Explorations but with a he's much better at math than me um oh so actually
+  this part is just looking at some of the the statistics uh this is really helpful
+  for Neuroscience um as some have said this is the diet that your visual system was
+  raised on this is the statistics of visual emotion that your nervous system experiences
+  during your everyday life um and then this is the paper I was actually looking for
+  um came out 2024 where he actually he used uh photogrammetry to do 3D reconstructions
+  of the terrain everything up until now was using that kind of flat ground plane
+  but now he's actually starting to get the the 3D aspects of it um um and was looking
+  at the different trajectories and he has this uh really cool analysis showing um
+  how people would he was look so like whether whether you how do you choose your
+  footholds and so do you choose to step onto The Rock versus going around the Rock
+  and so he did this complex analysis there uh and found that like it's like it's
+  it it depends on how tall you are and so there's un like unsurprisingly but like
+  getting the numbers that like whether or not I choose to step onto a rock and over
+  it is I more likely to do that than someone who is shorter than me because it's
+  a higher cost for them and so you could sort of look at these things and seeing
+  how people navigated and sort of like he was able to find like people tend to like
+  slopes that are within a given regime and um being able to pull that out of the
+  data it's like super cool um yeah couldn't tell you much beyond that because like
+  even though I on this paper and I I read it to some degree of a prox yeah this is
+  his simulated potential foothold paths and sort of you know you choose the ones
+  that sort of are on this side versus the sort of arbitrarily SE specified ones um
+  Canan on white you'll he'll learn this is the 2015 paper had this problem uh he'll
+  get there um and yeah I think uh yeah that's the end of the class so that's what
+  I've done that's my research uh and thanks for watching and it's kind of fun I like
+  I hope that you were able to thank you uh I hope you're able to follow that more
+  now than you would have been able to in September whenever we started here so thanks
+  for coming along uh next Tuesday we'll talk about trauma and then we'll talk about
+metadata:
+  author: Jon Matthis
+  channel_id: UCOOQxlTCtUz9mr1NPWlJyYQ
+  description: '(Ai generated summary)\n\nThe class focuses on visually guided locomotion,
+    with the instructor sharing insights from their research journey, which transitioned
+    from philosophy to cognitive science. The research explores the role of visual
+    information in locomotion, using VR and projectors to simulate complex terrains,
+    and later employing IMU-based motion capture and eye tracking in natural environments.
+    Key findings highlight the importance of visual cues for efficient foot placement
+    and locomotion. The instructor reflects on the interdisciplinary nature of the
+    research and the impact of COVID on their work, while also discussing future research
+    directions.\n\nKEYWORDS:\n #visually-guided #locomotion #VR #biomechanics #eyetracking
+    #motion-capture #optic-flow #interdisciplinary #research'
+  duration: '5544'
+  like_count: ''
+  publish_date: '2024-11-23T14:13:41-08:00'
+  tags: ''
+  title: '[HMN24#08]  Intro to My Dumb BS (visual control of foot placement when walking
+    in rough terrain)'
+  view_count: '55'
+transcript_chunks:
+- dur: 180.0
+  end: 180.0
+  start: 0.0
+  text: okay hello everybody uh so by now you all should have completed about the
+    second draft of your final project um if you haven't started that yet you're the
+    only one so probably want to get on that pretty quickly um no I'm just kidding
+    uh you're all good um I there's no like official final project um I I will sort
+    of make up some sort of arbitrary rules around like how many words you must have
+    put into the server and um I don't have those numbers yet uh but just if you haven't
+    put any talk to the bot about anything and the beauty about the way it's set up
+    is like if you're talking to it it's on topic it's like it doesn't talk about
+    things that aren't relevant to the class so um I think that the the the global
+    project of this class is exploring that space um and so if you're contributing
+    to that then you're contributing to the project um and yeah so this is this is
+    the third to final class um the anti penultimate class if you're into that kind
+    of thing um and so this this class I am going to be talking about my own personal
+    research program the things basically just going through the papers that I've
+    published on the topic of visually guided Locomotion which has been sort of the
+    thing I've mostly worked on until you know basically Co ruined everything it didn't
+    ruin everything but it certainly changed things um maybe ruined him it's hard
+    to say time will tell um and uh yeah so we're going to go through that feels very
+    strange sort of talking about it's like it's just historically I've just learned
+    it's like it always feels really narcissistic to talk about my own work it's sort
+    of but it's like also like that's a stupid reaction like that's the thing I'm
+    most qualified to talk about and it's been peer-reviewed so it counts as sort
+    of it's part of the global conversation so it's worth valuable to talk about not
+    that that's really the only metric there so yeah so today we're going to talk
+    about that um in the spirit of things it's going to be a pretty sort of fast sort
+    of journey through it but you'll have a lot of background sort of to understand
+    both like the context of what was going on and also like you now have kind of
+    like the backside view of the story that happened these are papers that first
+    ones from 2013 when I was in grad school um first one we'll talk about although
+    I have some well yep I might reference something before that but um yeah it's
+    kind of like the the very strange broad swath of topics that we've covered is
+    the things that I have kind of picked up along the way um not including the sort
+    of open- source software bent which was sort of that was the transition that happened
+    when I sort of lost faith in the academic system but still I participated fully
+    in the academic
+- dur: 180.0
+  end: 360.0
+  start: 180.0
+  text: system and we'll talk about that um next week is Thanksgiving break um so
+    I understand how that tends to go so it will be like a slightly off-topic topic
+    lecture um that I have referenced before and I'm going to it's going to be basically
+    about the neurophysiological effects of most let's say the more topic appropriate
+    way uh it's going to be talking mostly about like sympathetic parasympathetic
+    nervous system sort of layer like the sort of the deep deep layers of your nervous
+    system um on a practical perspective it's going to be about the sort of neurophysiological
+    effects of trauma on the body um it is technically relevant to the topic of the
+    course as as everything is which is kind of part of the main joke of the title
+    um but I wanted to talk about it just because it's like there hasn't really been
+    an area of Neuroscience that I've learned about that has had a more profound effect
+    of the way that I look at myself and the look other people and the way that I
+    generally interact with humans than that particular topic um so I am both taking
+    the opportunity to put those thoughts into kind of lecture form and also sharing
+    them in sort of a public service announcement style of talk um so if you're not
+    going to be here that's fine everything that happens is recorded uh and put online
+    and the playlist uh of that is in the resources channel right there and you know
+    the audio should be okay after I started wearing this thing so but I haven't actually
+    watched them so that's kind of on you um and then on the last day of and the class
+    after that is the last class of this semester um there is no final so if it's
+    on the schedule that's just free time for you um and so I will take the last so
+    the last lecture of the semester will basically be me presenting my project to
+    you um sort of a finalized version of finalized in the sense that anything gets
+    finalized in the course of a semester but let's just the final version of the
+    sort of ongoing presentation I've been making every week where we sort of scrape
+    the bot and put the things online and look at stuff and um so because of that
+    I'm I'm going to stop kind of putting too much attention into like hey let's look
+    at this big cloud of words um because it is now getting to the point that the
+    cloud is so big uh that it is hard to really it's becoming hard to make sense
+    of in its current form um so I'm not even going to bother looking it up uh so
+    I'll stop talking about that so much this time and next time and then on the final
+    day I'll give the last half sort of like the one last sort of look at it uh presenting
+    it in a form that you'll be able to play with um I will I talked about this at
+    the beginning of the semester but I will show you how to set up your own Skelly
+    bot server if you are so inclined it's
+- dur: 180.0
+  end: 540.0
+  start: 360.0
+  text: basically click like five links and then you have your own uh version of this
+    thing um if you so desire and uh yeah and then leave sort of time at the end like
+    the last half for sort of the talking about sort of what you guys are interested
+    in what you guys got out of it that kind of thing so sort of prepare yourself
+    emotionally to speak in class if that happens I'll turn off the recorder during
+    that time because I know that's UNC fortable um yeah so that's about the trajectory
+    and um hopefully that will not AC too much additional stress into what I'm sure
+    is already the standard level of this type of this this time of the semester um
+    cool okay anything else to talk about nah I think we're good okay so how do I
+    talk about all of this uh so long story short I got my degree my I got my bachelor's
+    degree in 2008 and I was studying the philos in in philosophy my have I have a
+    bachelor's of Arts in philosophy as my sort of first degree and I was focusing
+    on things like philosophy of Mind philosophy of science philosophy of language
+    um had a sort of this like evolution of cognition bent to it and applied for a
+    bunch of grad schools and philosophy and by grace of God was not accepted into
+    any of those programs and then year later I sort of retooled I got a job at an
+    Autism research facility and learned that data is kind of cool it's like cool
+    to say things for like reasons like empirical stuff is neat measurements are nice
+    um and so retooled my applications and wound up I applied to a bunch of programs
+    in cognitive science mostly applying for philos for like psycho Linguistics and
+    natural language processing stuff like that I also didn't get into any of those
+    programs and it just turns out that the one program I did get into uh did not
+    have a language person on hand so I wound up working instead with my adviser Brett
+    Fagan I just I literally just looked through the list of people said because I
+    I was doing like the thing like the personal statement had just like a blank spot
+    for each School of like I really am not excited to work with Professor so and
+    so and when I I was sort of prepared to submit to RPI uh that's when I went through
+    I was like oh  there's no language people here so I just looked for what seemed
+    like the like some other cool thing and there was Brett and I study visual control
+    of locomotion I'm like that seems cool and um wrote him in and now here we are
+    so um so that's also why there's this like the AI spin on things of like the sort
+    of the deeper dives into the natural language processing set of that it's not
+    complet completely out of nowhere um
+- dur: 180.0
+  end: 720.0
+  start: 540.0
+  text: it's kind of fun that that has sort of reemerged in my research life um since
+    I sort of had assumed that that was not something I was going to do so now in
+    this sort of fun space where like there's the blend of the two things in my experience
+    um yeah so how to so that's that's the rough background um and when I let's see
+    so I so in the server in the lecture space um in the 1119 math papers is the thing
+    um this link here will take you to right dark uh it's just it's a folder in the
+    standard repel that's basically just a list of papers um that I published uh either
+    first or you you know how papers work so first author first author usually means
+    like that's the student post doctor whoever who did the work last author is usually
+    the person who sort of ran the relevant lab so a lot of these are for me and some
+    of them were people who kind of like like followed up on some of my work later
+    um you can see they are they have dates and the chronology is roughly we're going
+    to follow that along um another useful link for thinking about a any researcher
+    is their Google Scholar link um that's what that's the kind of thing that like
+    I I know that there is also like a PubMed version of this thing there's like a
+    public non Google version of this but Google Scholar is a it does most of this
+    automatically and it keeps track of things like citations which is like 12 that's
+    pretty good um H index is kind of a fun number it's the number of papers you have
+    that have at least that number of citations so I have at least 13 papers that
+    have 13 citations which is cool um and that's like this you know anything that
+    has this sort of effect of like leaderboard like oh here's a single number that
+    sort of is supposed to measure some degree of progress is not reliable it's sort
+    of a gamified system the classic thing to say there is once a metric becomes a
+    Target it ceases to be a good metric so because so these are numbers that are
+    trying to make it so that you can't just gain it and like pump the numbers up
+    so you look cooler than you are um but all of them are gameable and a lot of these
+    numers so like things like fmri a lot of like medical case stud they just get
+    huge numbers of citations so like even comparing these numbers across Fields doesn't
+    really work um so but anyways but so there's kind of this list of Publications
+    um cited by is how many papers have cited that particular paper uh you can organized
+    by both um a lot of these on the list are not what I would call like real Publications
+    like a lot of these are conference Publications most of these that say Journal
+    of vision uh are like they're published abstracts that I submitted to conferences
+    and they
+- dur: 180.0
+  end: 900.0
+  start: 720.0
+  text: were like technically peer-reviewed but if you click it through it's not even
+    a full paper it's just like 300 words um but uh yeah and I will talk so this is
+    the paper that I mostly uh let's see can I get this do I have yeah this is one
+    of those papers that like even though it's from 2012 like I still don't have access
+    access to it many places because of um J is the so Journal of experimental psychology
+    human perception and performance um this is a paper like I was I was on it when
+    I first got to grad school and it's the first thing I did that wasn't really um
+    it was sort of the start of this stuff but I didn't have too much I had ownership
+    over it for sure but like I didn't I wasn't like driving that particular train
+    um but this was um see this is even the author manuscript so it's like figures
+    at the end which I absolutely hate um um I'm actually just gon to let's just out
+    of spite yeah yeah yeah see what I'm saying they don't even there we go DIY should
+    do it Yay good job scub and also the dark meter extension makes everything dark
+    um I feel like I've said that many times but I'm always just feel like explaining
+    um so this was so the the sort of philosophical tradition that I was raised in
+    in my grad school days is called ecological psychology um largely pushed by this
+    guy James Gibson who was a pilot in the sort of 70s and I think I don't know whatever
+    I haven't pulled that story in a while but ecological psychology game James Gibson
+    generally good stuff I think largely a lot of issues with it these days but it's
+    about looking at so this is supposed to be like the top down view of a person
+    moving through the world and this sort of this is an object that's coming and
+    so it's a lot of conversation around like how we can see like the change of the
+    sort of object the angles of objects that we can see in the world and as we're
+    moving and these things are changing how do we sort of figure out our affordances
+    like how do we fig like I can someone's coming and I'm trying to pass them can
+    I pass behind them or do I have to wait for them to go sort of is dependent on
+    like how fast they're moving and how fast I can move and I can determine you know
+    I don't get direct information about where this person is but I can try to infer
+    some of those
+- dur: 180.0
+  end: 1080.0
+  start: 900.0
+  text: numbers by like how quickly they're getting larger in my visual field sort
+    of um kind of like self-driving car styles of math if you think about that yeah
+    so in this paper was looking at um so this was like old school VR um I this was
+    VR before Oculus which was a very different Affair it's like a $40,000 helmet
+    that weighed like a kilogram and a half and I had to wear like a back pack and
+    follow the person around that had gpus on it and the person was walking through
+    I don't know if there's going to be pictures of that on here um these kind of
+    like bamboo environments black and white paper and these sort of two things were
+    closing you're trying to figure out you're like clicking a button they they move
+    for a while then they disappear and you have to say like I could have made it
+    through that I could not have made it through that and then we change all sorts
+    of wacky stuff in the visual in the VR environment and do a bunch of weird comparison
+    and sort of find that there's this interesting relationship between like if you
+    crank the gain and sort of make yourself moving faster in the VR space then you're
+    sort of decouple the visual information from like your your knowledge of your
+    body and then there's interesting effects that happen there so that was kind of
+    the background and that sort of like that was what um when Brett Fagan said on
+    his website I study the visual control of locomotion that was the kind of things
+    that he was mostly talking about um so just moving through complex environments
+    and steering and stuff like that very good stuff but if you'll notice like there's
+    not a lot of physics in that like the the biomechanics of the body is just not
+    really present like the the model of locomotion that we're talking about here
+    is basically eyeballs floating through space like they can move you can move forward
+    you can move backwards but there's no conversation around like footsteps like
+    your feet on the ground like any of that sort of gravity doesn't show up here
+    um and so as I was doing that and sort of like trying to figure out where I was
+    going to situate within that sort of space um I started gravitating towards those
+    kinds of questions like the biomechanic types of things and uh that and I also
+    just just worth sort of noting um because I came into grad school with basically
+    no background in anything like I got accepted into that program because I knew
+    how to write and at the time I was applying my professor former adviser was trying
+    to wrap up the publication WP up the dissertation of of a math person who was
+    really good at math and he's but not so great at writing and I happened to sort
+    of apply at the right time that Brett was like you know I think I'd rather teach
+    this kid math then teach another math kid how to write um so I showed up with
+    because I showed up with no background in Neuroscience or experimental psychology
+    or any or programming or any of that um all of it was sort of equally difficult
+    for me which is sort of how my research
+- dur: 180.0
+  end: 1260.0
+  start: 1080.0
+  text: program eventually developed into being this like weird mismash uh sort of
+    cross-disciplinary thing because I didn't have a background to to fall back to
+    and so I just you know I wound up doing a little bit of psychology a little bit
+    of biomechanics I wound up sort of falling in with a robotics crowd and things
+    like that um and I think uh one of my main form sources of luck of which there
+    are many many in my life is that Brett was the kind of adviser who allowed me
+    to pursue those types of research areas even though he did not have expertise
+    and that remember he had a conversation with me at one point saying this biomechanic
+    stuff is really good but you just have to know if you're going to go this route
+    I can't really help you with that part um and so he helped me with a lot of the
+    like many many parts of it but he sort of was willing to go along with uh an advise
+    doing something that was not part of his expertise which I didn't appreciate so
+    much at the time but in retrospect like a lot of people wouldn't have done that
+    so thanks Brett um I should think about time someday but yeah um so so yeah so
+    coming out of that space there was a couple other Publications from that era of
+    like the VR type of environment um I was uh figuring out sort of my own space
+    Within in that and I realized as I was like trying to dig up these old videos
+    I realized that I had posted them to YouTube 11 years ago so they're actually
+    still on there which is very convenient um and like I said so I was like a was
+    SL still am kind of like a big hiker Backpacker type of thing so when I was like
+    before I went to grad school and I was uh I was like on a backpacking trip with
+    my brother thinking about like what am I going to study the foot placement over
+    Rocky terrain thing was very present because I'm like walking over Rocky trails
+    with a backpack on and stuff like that and so that became kind of the domain that
+    that connection between like how do you navigate through complex environments
+    and then how do you sort of make sense of the fact that our visual system is sort
+    of grounded in this very sort of Brute Force physical reality um trying to understand
+    how those parts fit together became a part of my sort of main research program
+    and um I wound up sort of again in the in retrospect I now realized that virtual
+    reality is very closely related to augmented reality um and mixed reality or something
+    like that so uh I didn't really think about that at the time but an effort to
+    try to understand how that foot placement stuff came in originally tried to do
+    it in VR but there's a lot of weird aspects of having like stuff on the ground
+    in VR and like near space and far space and again like it was a very
+- dur: 180.0
+  end: 1440.0
+  start: 1260.0
+  text: different time like the VR was much harder to work with it's still super hard
+    to work with but it was even harder back then um so I came up sort of I can't
+    remember exactly how with this idea to put a uh projector on the ground which
+    I think at this point I can share I think statutes of limitations have passed
+    um I found that projector by going into it we like we had moved into this lab
+    space of somebody who had recently retired and I yeah 11 years is beyond statutes
+    limitation I I just went into like an empty conference room and like literally
+    stuck the projector off the ceiling and that's the projector that I used to write
+    my dissertation um so this projector was basically one of those um in an office
+    that wasn't being used and like some years later like someone else moved in and
+    I could like overhear them in that conference space like oh that's weird there's
+    no projector we should get one and they replaced it and we're good um so just
+    goes to so um steal things there's never a consequence I don't think that's the
+    lesson but in this case that's what happened um so this is me in a 360p video
+    I am you can kind of see in the background oh I guess it's going to Loop is it
+    going to Loop uh so this computer back here is running Vicon um uh and you can't
+    I don't know if you can see them but like these cables here are like a Vicon based
+    motion capture system and I'm wearing like the spandex with the with the reflective
+    dots and the projector is being controlled I can't remember what program was controlling
+    it but juli vigder was the undergrad who wrote the code for it which thanks Julie
+    um and basically what's going on just maybe slow this down um is it's so the motion
+    catch system is detecting the location of my feet specifically this marker on
+    my foot and comparing it to the location of these projected squares on the ground
+    and then if one comes in contact with the other it sort of changes its color it
+    plays this little sound um and then logs it as a collision and then um the instructions
+    and so this is basically you just put a bunch of random dots on the ground and
+    you tell the subject participant I'll never get that out of my mouth but the participant
+    uh to walk from one end to the room to the other and don't step on any of the
+    little squares of light so you're in sort of simulated um complex terrain the
+    original title of uh which paper not that one oh I guess we can go on to this
+    the original title NOP that one there's this unfortunate phase where the the this
+    2013 paper came out what was
+- dur: 180.0
+  end: 1620.0
+  start: 1440.0
+  text: after this one but the peer review process for this one took so long that
+    this one was published second so the 2014 paper is actually the original um and
+    yeah the original title was over rough terrain and then a reviewer complained
+    and said it's not really rough and I like okay so I change it to complex terrain
+    um and so the instructions were walk from one end of the room to the other without
+    stepping on any of the obstacles and then we recorded the body and and the collisions
+    and the speed and stuff like that and so this was the um and I guess we're playing
+    slow now yeah so this is a half speed very short space it's about five steps but
+    it's you know what we had um and then so that was the full vision condition so
+    that's walking with as much Vision as is available so we would assume that that's
+    going to be the highest performance that you would expect to see um and then because
+    then sort of we added this additional check of just detecting where the person
+    was so specifically the take the average position of the head put it on the ground
+    draw a circle around it and then only show obstacles that are within that range
+    so as I'm walking through the space I can it's the same actually different uh
+    in different terrains but now they are only visible within some available distance
+    so we then we can then do kind of like a parameter sweep type of experiment where
+    you start with full unconstrained vision and you get some metrics of performance
+    for performance we're going to call things like uh collisions like how many times
+    did you hit the things I said not to hit and uh walking speed um basically which
+    is a whole other conversation around like preferred walking speed and stuff like
+    that um and then we can where did I put that so it's here probably yeah see there
+    you go look at that figure one is the methods figure because I was trained well
+    um more pages I don't know why I'm doing this on my local thing there um but basically
+    so full vision we call about five to six steps and then you can then limit the
+    visibility window according to sort of estimated step length which is roughly
+    like 7 times your leg length and um see how measurements such as mean number of
+    collisions and normalized walking speed vary as a function of that sort of look
+    ahead distance and I call this kind of a parameter sweep experiment because you're
+    you get to sort of just take one number and kind of like turn the knob and it's
+    a it's a nice way to run an experiment because there's no there's no real hypothesis
+    there um hypotheses hypothesis testing is bad um if you didn't know that that's
+    not how we're supposed to do science anymore um uh look it up uh the new statistics
+    is how
+- dur: 180.0
+  end: 1800.0
+  start: 1620.0
+  text: you can start that um which I guess at this point is like 15 years old but
+    still um but you're kind of like you're guaranteed to find a result here because
+    with full vision that's best performance of you know what else could you possibly
+    want and if you turn the vision down to zero you're just going to be walking basically
+    at chance and hitting random obstacles and so the question is like at what point
+    when you're turning that knob do you start to see a deviation from Full performance
+    um and in this particular case it was around you know one to 2ish steps and this
+    little guy is a significant difference and that's why you're not supposed to use
+    P values because that's not relevant um hold of the conversation um at this particular
+    phase uh I I discovered when I was doing this um particular experiment that actually
+    the instructions that I was giving were were loose uh and what was happening was
+    that so did you know whatever 12 subjects or participants or whoever um and the
+    the the results were were were valid but there was a little bit of murkiness to
+    them for other reasons and I realized that the instructions that we were giving
+    had a bit of had too much play in them because we basically just said walk from
+    one end of the room to the other and as as well as as good performance as you
+    can and what was happening was that people were basically adopting one of two
+    strategies um one group was saying okay I have to make sure I don't hit any of
+    these obstacles and I'm willing to slow myself down in order to do that um and
+    so they their walking speed would drop but their sort of stepping accuracy stayed
+    pretty good and then another group was saying I'm just going to walk at full speed
+    and just do my best to avoid um the obstacles so they're prioritizing their walking
+    speed over their accuracy and so if you split the data apart you would get the
+    sort of like sort of you know slightly cleaner results and so future later studies
+    in that sort of regime I just set a minimum time so you had you had a minimum
+    time to get from one place to the other which basically forced everybody into
+    this um preserving walking speed strategy uh and then which made more of the signal
+    sort of show up in the in the stepping accuracy um so which is sort of a fun lesson
+    and why instructions are important um but yeah and then I okay yeah here's here's
+    the origin of Skelly that's the first Skelly Aon um this was a I don't know if
+    I can find it really quick but this I was I had read a paper by Art quo from quo
+    2007 um and he was it's a a uh biomechanic paper and he was using like a skeleton
+    to sort of show the person moving and I was just kind of like yeah no that's right
+    there's like the physics is important and it's represented by the skeleton and
+- dur: 180.0
+  end: 1980.0
+  start: 1800.0
+  text: so that was kind of the origin of why everything has a skeleton in my life
+    and this also I believe statute limitations have passed the original Vector graphic
+    that I that I got this from was like uh back before I really understood intellectual
+    property I understand it now I just don't respect it um it was like a it was like
+    a like a sample reel from a tattoo artist in Florida who had like a bunch of SK
+    doing strange things and saying if you want to get this tattooed on yourself you
+    can and most of them were front on but there was one side view and he was like
+    holding like a like had like a cowboy hat and like had a pistol and so I that's
+    that's the origin of this particular guy so if you know that guy um tell him thank
+    you uh tell them thank you um because I absolutely never gave them credit I I
+    don't think I could ever find them again if I wanted to um but so the idea was
+    so what basically um this paper because there was overlap between this paper and
+    the one I'm going to talk about next some of the ideas are here in different forms
+    um but this is also where I was first trying to think about this like notion of
+    a center of mass and how consideration of locomotion in this form of a compass
+    gate Walker um am I going to find it that's me that's me again I we'll find a
+    little animation of this uh GIF GIF tools type GI I wish this was a real video
+    but I it it imagine this is like an actual video of a thing so this is called
+    a it's a compass gate Walker sort of like uh there's a citation in there for like
+    one of the first sort of considerations of it but like there's toys that do this
+    like little like Tinker toy like sort of like wobbly feet things sometimes they
+    look like P like penguins and they kind of like wobble back and forth um but these
+    are this is a physical model of um something it doesn't have a controller it doesn't
+    have a motor it doesn't have sensors it's just the shape is such that if you put
+    it on a slope of the right kind of angle it will generate this gate and the gate
+    is it's not particularly stable it will fall over if you nudge it but it has this
+    kind of like like very humanlike quality um I'm actually going
+- dur: 180.0
+  end: 2160.0
+  start: 1980.0
+  text: to look Steve Collins passive Dynamic yeah there we go um this 27 second video
+    was very formative in my life uh this is a a baby Steve Collins who is now a professor
+    at uh Stanford or something like that um and this is him with his I think he was
+    an undergrad at this point um passive walker uh at Andy Rua's lab um both of you
+    met Andy Aaron you meet Steve I think but this is again a walker it's got no motor
+    it's got no uh sensors um but it can walk down this sort of particular regime
+    of slope and it has this like very natural appearance like it looks like it there
+    was something about just like that looks like people um and that was enough for
+    I I thought to myself as I saw this thing and so there that sort of started this
+    kind of consideration of like how can how is it that we may be able to exploit
+    our sort of Bas level physical reality um when we are controlling our bodies using
+    visual information in our nervous system and stuff like that um and now it will
+    move back to local copies of things oh actually you know what it's actually better
+    to keep it online because then I can click on the links more easily and so then
+    this was very exciting time for me uh to get published in this little guy um very
+    very similar uh experimental design um but with cleaner thoughts because this
+    all this was done after the first one even though the publication dates are different
+    um and so this was starting to think now about this little symbol typically means
+    Center of mass and this is sort of an inverted pendulum Arc that you might take
+    um we'll see a better version of this uh figure later but there's this idea that
+    during your single support phase you're following this you're not it's not like
+    a fully ballistic not like your nervous system turns off but you there's a lot
+    of momentum to your body and if you keep your leg relatively stiff which we do
+    um we don't like to walk with a straight trajectory even though you will still
+    read clinical textbooks that say that the up and down movement is wasteful um
+    it is not wasteful because we're exploiting these pendulum Dynamics dnics um and
+    so this is kind of like the basic
+- dur: 180.0
+  end: 2340.0
+  start: 2160.0
+  text: physics mechanical exchange during walking um on flat ground with no Targets
+    on on the ground and so there's a sort of body of literature that suggests that
+    we are humans are exceptionally good we're exceptionally efficient locomoter like
+    we are like top tier of the planet like um it's like us and horses um which is
+    why we like to ride horses um even when I said that birds are better at being
+    bipeds than we are mostly in terms of like agility and speed like in terms of
+    energetic cost um distance traveled we we're we're pretty high on that list of
+    all animals of just the ability to walk without burning a ton of calories and
+    the body literature in this area suggests that we a big part of that is because
+    we have this sort of capacity for exploiting these physical um Dynamics in order
+    to move with sort of like highly efficient movements um so same basic picture
+    there uh and yeah and so this was looking at the center of mass trajectory during
+    the different trajectories and again so this is the same basic manipulation except
+    now I'm doing half step increments so there's more conditions and there was a
+    minimum walking speed so you don't see only people were sort of more spe specified
+    there and so there's this result that you kind of like around the 2ish uh distance
+    things start to level off um suggesting that you know your speed gets back to
+    the you know 0.95 which is slow for walking but it's a small space um and your
+    collisions sort of get close to zero um and same kind of thing and so the idea
+    was this was sort of the origin of this idea that comes up later of looking by
+    the time you can see so if what you're trying to do is control this ballistic
+    trajectory and you're trying to sort of send your center of mass down a a path
+    that will allow you to sort of hit a particular Target then what you need to be
+    able to do that is to set up the initial conditions of this step appropriate for
+    the train that's coming up down the road and so that in order to set up the conditions
+    of initial conditions of this step appropriate for this terrain you have to see
+    this terrain before this step hits the ground which puts you about here which
+    is about two and a half steps ahead so I really don't I I moved very rapidly away
+    from like the step counting thing and I still see people sighting me saying like
+    oh Mathis whatever says that we need to see two steps ahead and it's like it's
+    really not about the number of steps it's just kind of this physical Dynamics
+    thing um but I was there was there videos of this one I don't know if they will
+    I don't know there's sort of a point in time where they they made it really hard
+    to publish video videos um so I don't know if they were here but
+- dur: 180.0
+  end: 2520.0
+  start: 2340.0
+  text: I where was it yeah so this was um a I I had like a a simple mechanical model
+    of a pendulum and I compared it to the person's step and then found that the when
+    you didn't have that look ahead distance that you want your body's trajectory
+    diverged a lot from that sort of basic physical prediction um suggesting that
+    rather than using the nice momentum of your body you are basically using your
+    muscles to fight against physics to put yourself in the place you need to be which
+    works I mean people don't just fall apart when they can't see enough ahead um
+    but the Assumption here is that this is energetically costly because you're fighting
+    your physics whereas out here your physics is very much you're you're exploiting
+    them and taking advantage of the inherent momentum going on there um yeah and
+    then blah blah blah so and this was a so that was fine so we kind of get this
+    distance of like you have to see about two and a half steps ahead you know basically
+    so you can sort of see far enough ahead to take advantage of your base level physics
+    and then this um getting now into this 20 2015 paper and journal of vision same
+    basic idea so I switched away from doing obstacles so rather than like avoid stepping
+    on the obstacles it's step on these specific targets um and they were like these
+    little circles that are about .5 CM sorry 5 cm radius um and and they were typically
+    there was like a a white noise texture under under here but it's turned off here
+    and so here rather than looking for like how often do you hit the things I said
+    not to hit it's like measuring how accurately you can place the ball of your foot
+    on the specific Dot and now we had invisibility triggers so whereas before they
+    were turning on now they are turning off um and so as you're stepping towards
+    it with like a 70 millisecond lag between the systems um the targets would become
+    not visible and so that previous one was showing a 0 five so it turned off as
+    your foot was swinging towards it um this one it turns off basically as your foot
+    is leaving the ground from the previous one it disappears um and yeah me just
+    showing that off then this one it turns off halfway towards the step to the previous
+    Target um and so again the same same basic kind of parameter sweep of looking
+    at at what point does your accuracy stepping
+- dur: 180.0
+  end: 2700.0
+  start: 2520.0
+  text: accuracy start to be hindered by that um and then I think in practice we actually
+    like we added uh like extra distance because there is there's like 70 MCS of lag
+    so I had to make the distances a little bit larger so that when you take into
+    account the lag I don't know who you are um uh and we got yeah so here you go
+    here's how we did that way to go this cacophony here I apologize I didn't know
+    any better at the time um this is showing stepping error um eron this should have
+    been a little violin plot or something like that I didn't know how to do that
+    so this is every step I think every step of every step of every person I don't
+    know but the stepping accuracy that you would see when you could see the full
+    vision um oh yeah these number that's what it was so the numbers were not the
+    even numbers because this is with that lag taken into account um so this is when
+    it turns off when you're you know quarter like just 20 25% left of the step no
+    real effect and then it kind of like grows and then it specifically gets worse
+    if you can't see it during the preceding step I I must have given a better figure
+    than that all there you go so yeah so basically the stepping error increases it's
+    it's pretty flat like you don't really once your foot has left the ground it already
+    knows where it's going to go um but in that preceding step you that's when you
+    really suffer from not being able to see the Target and again these aren't huge
+    numbers you're not going to Tumble off the cliff but it's a measurable difference
+    and so you can sort of see what's going on there um different ways of measuring
+    accuracy [Music] and yeah and then people oh there was just like I don't even
+    remember what this is about um you can see the use of unnecessary color gradients
+    to let you know that he's outside um but now you sort of like with those two pieces
+    together you can kind of like Define this sort of like critical range where you
+    have to see it by the wait what is it you have to see you have to see it by this
+    point at the latest must see terrain relevant to step End by this point I site
+    myself um but you don't really care about it after this point so there's sort
+    of this range where it seems like that's where the information should be the most
+    useful for getting um accurate foot placement um and then this paper no that's
+    20 2018 am I missing it no 2017 no oh they not get in here
+- dur: 180.0
+  end: 2880.0
+  start: 2700.0
+  text: 20 okay well this is a fun thing about being older you can just Google yourself
+    critical control phase you going to talk about me ha nice I made it U so this
+    paper is in a journal called proceedings of the National Academy of the Sciences
+    often abbreviated as pen which is funny um my adviser would really work hard to
+    say pnas um but everybody says PS and like not everybody recognizes that that
+    is funny it is funny Justin you Cas you were curious um so this paper is basically
+    the long and short of my dissertation um and I guess they oh it's nice so this
+    one is is publicly it appears publicly available when we access it through this
+    site through this University um I don't know I don't know if it would be elsewise
+    um but this is uh so this is that same kind of idea and this and we talked about
+    this this is like the linear inverted pendulum stuff and so same basic idea too
+    many colors I apologize but the idea is like as you are walking and you sort of
+    have these sort of basic pendular Dynamics in this so the basic physics of like
+    regular walking is that when you when your feet hit the ground the back one is
+    pushing in the direction of motion the front one because you tend to step in front
+    of your body has like a breaking force so it's like pushing against the direction
+    of motion and if those two things are symmetric then they cancel each other out
+    and all you're left is sort of with with an up Vector that pushes your momentum
+    up and as you walk out of here just like key into the fact that that is there's
+    a feeling of like flow from one step the other and that is kind of what's Happening
+    Here um you should follow me Mr Robot thank you um and so the idea was that if
+    you can sort of you know these Collision costs are lossy like you lose energy
+    in this C in this Collision um so we tend so the again the literature suggest
+    that we have a push-off force um from our back leg partially mediate by just like
+    the springiness of your Achilles tendon but partially sort of energy driven uh
+    like muscularly driven um and so if if it wasn't uh if if these two forces were
+    symmetric then the energy loss means that you would slow down um but if you just
+    push off a little bit with your back leg or as those little sort of passive robots
+    if you're on like a little bit of a downhill you can recoup that energy loss and
+    then have a nice Stable Gate cycle or if you're looking ahead and you're saying
+    oh actually this these sort of preferred footholds are not available like there's
+    something in
+- dur: 180.0
+  end: 3060.0
+  start: 2880.0
+  text: the way there's a rock there's a puddle or something like that you can alter
+    those push off forces to change the Dynamics and so that as you your foot hits
+    the ground you're starting with sort of lesser velocity and so you'll follow a
+    different trajectory and that will sort of make other available footholds so if
+    I am here and I see that this yeah so I wish I could step here but I can't cuz
+    there's mud or something so I need to either step a little bit farther let's say
+    I want to step a little bit further so I see that here and I say okay so in step
+    two I'm going to push off more so that when I sort of interact my center of mass
+    like imagine the center of mass sort of projected onto the ground that trajectory
+    interacts with a different foothold position and then I can steer there all right
+    so I could right that's what it is I could either change my push off force or
+    change my previous foot location um but because we were prescribing the footholds
+    you know really have that option so this is kind of starting to get more of a
+    picture of like the way that we could sort of control our bodies as a function
+    of the visual world and then here's this un not particularly useful picture but
+    um oh and actually do have download oh there we go good job this was playing way
+    too slow a mat lab based animation oh this is changing colors when you're in the
+    critical phase of control for whatever the thing is there um yeah and then I'm
+    not particularly a fan of the figures I made for this but it it was it got complicated
+    and we sort of did our best um but long story short um that hypothesis sort of
+    plays out like it tends to be what you would expect uh or the yeah wait what was
+    the critical control phase hypothesis this was also the first like actual proper
+    hypothesis driven paper that I had done CU all my previous stuff at that point
+    had been of my first first author Publications were these parameter sweeps where
+    it's like you're guaranteed to find a result this one felt much more like sniping
+    where I was like I have a spefic specific expectation in mind and um and yeah
+    I mean so the results are again the numbers are not huge but there is a uh effect
+    where basically the so this partic so like if you only sort of flashed the targets
+    on during this very narrow phase of gate these are like 250 millisecond windows
+    so like when you're walking it actually feels like you can't do it but if you
+    look at the numbers your data is
+- dur: 180.0
+  end: 3240.0
+  start: 3060.0
+  text: as good as when you have like the full previous step and then you see these
+    sort of like not huge explosions in error but like performance is worse when you
+    have equivalent visual information at a different phase or actually many in this
+    Cas is you can see the targets for twice as long it's just like a little too early
+    or a little too late um so that was fun um and anything else to show here yeah
+    and then you know sub experiments and stuff like that um blah blah blah uh if
+    you are curious about kind of like the theoretical aspects of this the the intro
+    to this paper is is a basically like a review article of like all the stuff I
+    just said the experimental stuff I think is fine but it's not really it's not
+    necessary um yeah and so then I then I graduated then I became Dr mathys and it
+    was fun and exciting um and yeah blah blah blah long story short uh I wound up
+    going to UT Austin um to work with Mary heho who was World expert um OG person
+    studying eye movements during natural behavior and I think I could probably find
+    hey how ey movements yeah I mov through natural behavior the thing I just said
+    um and she that's Mary um I don't think I'll be able to find the video uh she
+    does not have the same YouTube presence that I do um but she studies a lot of
+    things like the kinds of ey movements that you make when making a peanut butter
+    and jelly sandwich was sort of her claim to fame or like when you're making tea
+    in the in the in the kitchen so that kind of thing so she studied eye movements
+    but she also did not have like a biomechanics bent to her like um so when I came
+    along it was sort of like how do we kind of merge these things together um that
+    was my postdoc um so post-doctoral researchers typically kind of like they show
+    up they are not as like they're not students anymore so you have it's sort you're
+    kind of like a semi-independent researcher in a more established researchers lab
+    um so I had much more so I similarly am deeply indebted to Mary for the freedom
+    she gave me um but it was a little B also like I was a postto so that's kind of
+    more and that's me that's from the past also Skelly um yeah so uh and so that
+    was kind of the end at that point of the sort of the projector stuff um because
+    at the time it was like okay great so we got this nice result um nice dissertation
+    stuff good publication records and all that kind of thing um
+- dur: 180.0
+  end: 3420.0
+  start: 3240.0
+  text: but there's this issue where it's like they're just walking five steps in
+    a lab with projectors on the ground like this is not really it's it's natural
+    is it's it's pseudo eological um it's better than like you know sitting at a computer
+    screen but it's not quite the same as like what we would call natural behavior
+    um so I sent out so I what's the word um so with Mary and I was sort of learning
+    how to do ey tracking I was learning basically how to like do computer vision
+    how to work with cameras um and it was hard it was very hard the thing that I
+    think I have the most to thank Mary for is that she allowed me to be to to get
+    basically on paper nothing officially done for the first like two years of my
+    of my post-doctoral research cuz I was desperately trying to figure out how to
+    um combine natural like ey tracking um with some form of motion capture in an
+    outdoor environment uh and I think have to go back into the the history books
+    here um and I wound up using something called it was an IMU based motion capture
+    system so it's like a a a suit of like ensors that you could wear um and and then
+    like ey tracking ey tracker like the original one was that was an older version
+    then some of my later stuff was using like the same one that you saw um here and
+    going a little bit out of order historically uh it wound up looking like this
+    um no what are you doing I'm more shocked that an ad is able to make it through
+    my firewall of ads than anything else um I just yeah so this is I don't can't
+    remember who this was um but he's wearing uh these little straps are IMU sensors
+    um basically you can think of them as like fancy accelerometers but it's more
+    than that but they're basically giving recording his body movements um huge pain
+    in the ass I hope I never use IMU based motion capture again robot you must follow
+    um and then he's wearing a backpack uh running the eye tracker and then this like
+    daff Punk shade here is um an infrared blocking face shield because the IR sensors
+    of ey trackers
+- dur: 180.0
+  end: 3600.0
+  start: 3420.0
+  text: work Great Indoors but you go outside in Texas and all of a sudden there's
+    this huge black body radiation ball in the sky which is blasting infrared so I
+    had to find an IR blocking face shield that would block infrared let visible light
+    pass but not be so dark that you couldn't move around uh and so that wound up
+    being a face shield made for people who are teaching people how to weld Because
+    the actual welding glasses are too dark you can't see through them so that's for
+    people who are like standing and watching the student so like a shade three instead
+    of a shade six this is part of the journey um and they were wearing this so that
+    the ey tracker could still work when it's inside of the the helmet and then this
+    is like a DJI 4 drone um at the time I was like drones seem like that's an important
+    technology uh M had some extra money so I got a drone and now like watching Ukraine
+    I'm like Jesus Christ I uh yeah world is horrifying but that's okay so here he
+    is here I'm trying also fun fact that's the high water mark because this is Texas
+    and they flash floods happen um so this was you know check the weather before
+    you go out type of thing um we did not discuss that in the IRB approval um uh
+    and so yeah so he's so here he is sort of you can see the backpack there walking
+    along these Rocky terrain sha Creek in ut and his body's being tracked his eyes
+    are being tracked and then the question was that was hard enough and then the
+    question became how do you combine these two uh signals together which was also
+    super hard so the first publication of out of this era was in current biology
+    fancy pancy paper um and this was the the first laser skeleton which is a full
+    body motion capture with a laser shooting out of its face so this is the body
+    these are the feet the and this is the Gaze on the ground um and there's kind
+    of like it like sets like burn marks so every black dot is an intersection between
+    that 3D gaze vector and the sort of hypothetical ground plane and then the the
+    the colors of measure of the density there I'll come back to this in a second
+    but I have to show you is this was this on there yeah I don't think it's actually
+    on on there but
+- dur: 180.0
+  end: 3780.0
+  start: 3600.0
+  text: um okay all the videos um where would I have that oh yes supplemental oh mathys
+    current bio gaze in the control of foot placement um there we go supplemental
+    information yeah so this was so this is arguably the cleverest thing I've done
+    in my academic career um because I had to so the challenge was you have eye tracking
+    data you have motion capture data and you know that the and eye tracking data
+    tells you what the eyes are doing motion capture data tells you what the body
+    is doing but how do you align the two things cuz basically the camera is at an
+    arbitrary location in space so how do you identify where things are and so what
+    I wound up doing is I took advantage of my favorite reflex which is the vestibular
+    ocular reflex which says that as you move your head up and down your eyes counter
+    rotate so as I move my eye head up my eyes moved down and then I just had people
+    stare at a DOT on the ground that I measured the not the relative to their feet
+    and make a cross shape with your head and so you can know from that that they
+    are looking at this point so the head movement plus the eye movement has to cancel
+    itself out and then I can do this fun uh convex optimization to find the orientation
+    of the to the rotation to apply to the to the Gaze vectors so that the Gaze sort
+    of clusters on the location that it is so play that again you can see it it starts
+    as this big cross because I'm moving this is probably me uh moving my head in
+    a cross shape um and then as the number gets as it gets optimized then it sorts
+    to Cluster around the location there and then you can use that to basically align
+    the Gaze data to the motion capture data and in the standard ways of calibration
+    um you calibrate on the thing that you know the answer to and then you put it
+    into the world and um see how that goes uh and so you
+- dur: 180.0
+  end: 3960.0
+  start: 3780.0
+  text: you use you use the the the thing you know the answer to which is the calibration
+    to to you measure it and if you get the answer you expected then that should give
+    you sufficient trust to use that same system to measure things that you don't
+    know the answer to for example where are you looking as you're walking through
+    the rocks and the sort of epistemological trust sort of follows from there um
+    I think this is actually still arguably yeah here we go this one arguably this
+    was one of those things where like I had to write a whole paper because you're
+    not allowed to publish a 30-second video um but this video is basically like I
+    think the main output there so this is subject oh it plays at full speed and then
+    again at slow speed and there's a lot going on here this is by the way part of
+    like a strategy I adopted as a cross-disciplinary researcher which I call kind
+    of like shock and awe um because I was having this problem around this time of
+    my life where I was doing this vision science stuff I was doing this biomechanic
+    stuff but if you go and show like Vision scientists don't care about biomechanics
+    and biomechanists don't care about Vision it's like they they think it's it's
+    interesting but it's not part of their interest what they're what they're you
+    know it's hard to convince them to care about it so I wound up adopting this strategy
+    of just trying to make these like pretty flashy videos that put a lot of information
+    on the screen so that way I can then go give a talk to a room full of whoever
+    I want say whatever I want nobody's going to listen to me while I'm talking because
+    there's too much going on and as they're watching the video they find something
+    in the video that is in their interest and then they sort of they queue into that
+    and then at the end of the talk they say hey have you thought about this thing
+    that I just thought of right now and I can usually say yes and they say have you
+    done that and I say no you should do it um but uh yeah so this is the person walking
+    the dots are the right and left footholds and the Gaze is sort of going you can
+    see that they're looking around and trying to this is blinking and stuff like
+    that um this is only look ahead so this is time versus distance so you can see
+    look at the distance of where these targets are going to be there's these kind
+    of like look fixations in places that you don't step which is presum which is
+    um either going to be obstacle avoidance or like search fixations some of the
+    more recent research sort of looks at that um and this is like I kind of like
+    this one the most this is the top down View and again you can see this is like
+    that you know the that curve as of the center of mass as a function of where the
+    foot goes which is always kind of fun and these are the uh fixations uh what is
+- dur: 180.0
+  end: 4140.0
+  start: 3960.0
+  text: that vertical I movements horizontal ey movements you see mostly that most
+    of the actions in the vertical because you're moving forward um and and the interest
+    of obviously I could say much more about this stuff um but there is yeah so the
+    the experiment Al design of this we call this a quasi experimental design because
+    I didn't have too much control over the behavior but I had people walking in flat
+    ground where like foot placement really didn't require visual guidance it's like
+    a packed Earth Trail you got to look every so of to make sure you're not going
+    to trip over a turtle or anything like that but you can mostly put your feet wherever
+    you want this kind of like grally sort of like big like sort of this size of rocks
+    in the medium terrain and then the rough terrain is the stuff that you saw and
+    then looking at how the the Gaze Behavior sort of shifts in these different environments
+    as the locomoter task requires increasingly precise visual information to complete
+    and in sort of again in that Spirit of over complicated figures um so this is
+    the flat terrain and this blob is like the the accumulation of gaze data at a
+    given distance so you you know this one mostly you're not looking at the ground
+    at all you're just kind of just looking around and looking for birds and cactuses
+    and stuff because it's Texas um and as you and this is sort of aligning it to
+    like the foot that's on the ground where you can like align the Gaze to upcoming
+    footholds and see that there's not really a correlation between that gaze blob
+    and the upcoming footholds because that blob doesn't really change shape as you
+    sort of look at that compared next footh hold in the medium and rough you can
+    see that like uh if you're looking this is that blob you're looking a little bit
+    closer in and it's a little more spread out because you're kind of glancing around
+    a lot and if you com com like align or do like correlational analysis doesn't
+    super matter uh with a different sort of with with your different fo holds you
+    can see your gaze is more is you know it condenses and gets peier when you align
+    to that n plus2 step so you're looking and you're more likely to fixate your foot
+    hold like like I'm going to look at this specific location and then step on that
+    specific location specifically at that sort of like plus two range so aligned
+    with the sort of previous result but there's some details there um so kind of
+    a the result there is sort of like a it's like it like cool that makes sense it's
+    cool that you got numbers about it um and it's cool that it lines up with that
+    particular distance um there was some deeper analyses here about you know blah
+    blah blah this versus versus that um and differences in like the first half of
+    the step versus
+- dur: 180.0
+  end: 4320.0
+  start: 4140.0
+  text: the second half of the step uh and then and then this sort of fun result was
+    sort of a this was an unexpected thing that wound up being I I think kind of like
+    the main empirical or theoretical result here um which was that if you look at
+    the look ahead distance you can see there sort of uh the medium and rough terrain
+    wind up being more similar then otherwise so there's not much of a separation
+    there but the purple and orange are medium and rough and then uh green is flat
+    so basically requires visual information to put your to walk properly green is
+    does not require you see you're looking farther ahead uh in that flat terrain
+    but it turns out you know you're also walking faster and if you sort of instead
+    of asking how far in distance you're looking you ask how far in time are you looking
+    they line up right on top of each other so which basically means that you're looking
+    at the place that is going to be where you will be in about 1 and 1 half or 2
+    seconds from now um which happens to line up with a lot of other results in literature
+    on like hand placement and sort of like you know hand manipulation stuff that
+    suggest that that window is roughly our like visual memory like uh we have all
+    sorts of memory um and sensory memory is like how long really specific spatial
+    information lives in our perceptual nerve system um before like you know you have
+    to sort of look again to have accurate placement so there's this this was cool
+    because like this was not expected we weren't looking for this but it just sort
+    of like oh actually they line right up on top of each other and just sort of like
+    and then the number kind of lines up with other parts of Neuroscience uh other
+    parts of um yeah perceptual motor Neuroscience uh which kind of which is cool
+    and fun and kind of like this is why it's good to do these like ecological experiments
+    that are sort of like mod controlled and like have that produce like tons and
+    tons and tons of data because then you have the opportunity to look at it and
+    sort of like see these correspondences that you may not have been looking for
+    otherwise um and yeah so that's fun is there anything else to talk about here
+    um yeah and then uh lots of explanations about like how I did it and you know
+    methods and stuff like that lots of extra data extra numbers um anything else
+    oh yeah this is the this is what that calibration process looks like in the actual
+    data uh yeah this looks familiar um yeah I'll just belabor the point here so this
+    is head orientation so moving up and down and the these are the like you can see
+    the eyes doing like the opposite movement um but there's not exactly so
+- dur: 180.0
+  end: 4500.0
+  start: 4320.0
+  text: this is like you're using optimization algorithm to basically find the rotation
+    Vector that makes these two things cancel each other out this is fun um I would
+    say that this paper is the reason why I got this job which is fun flashy flashy
+    stuff with laser skeletons everybody likes a good video it's like I know who who
+    like published way more things and got like way but like they didn't have cool
+    videos so it's just it's harder to make the point like you it's it's you never
+    want to be in a position of trying to convince somebody that something is good
+    uh you just want to show them something that they like and then they'll think
+    it's good for you it's very very hard to convince people to care about something
+    that's not their main thing uh and if you don't realize that think about how hard
+    it would be to get you to drop whatever it is that you're doing to jump on somebody
+    else's interesting thing so a lot of the sort of the Strategic aspect of a lot
+    of these sort of studies was like I'm just going to do my thing and I'm going
+    to present it in such a way that other people will see their own interest within
+    it and then whoever it is that comes along will sort of I don't have to convince
+    them to care about my dumb  because they will care they will see their dumb and
+    then now they like it and want me to be around so uh yeah if I I try not to in
+    this point in my life I really try not to be in a position where I have to like
+    convince other people that things I'm doing are good which is also part of my
+    general uh sort of reluctance to uh acknowledge Authority in all forms um so um
+    yeah and then time wise I think I'll just talk about so yeah so uh this is my
+    friend Kate um who's a professor at IU now uh who wound up doing a similar method
+    and looked at people with stereopsis so people who have um not stereopsis um amopa
+    so uh sort of misaligned eyes so they don't get good stereo vision and then could
+    also put like a a blur filter over one eyes which basically allows typically side
+    of PE it ruins your depth perception uh your binocular depth perception and was
+    able to find the like fun results that when you do that it makes medium difficulty
+    terrain starts looking like hard difficulty terrain which is this result that
+    like it's if you if you lower the like the information content of the visual stream
+    performance is degraded and so it's this idea of like you're you're gathering
+    information more than you're doing a specific motor Behavior but that's whole
+    other conversation um math this did I put that one in here either meth retinal
+    flow now for my favorite paper
+- dur: 180.0
+  end: 4680.0
+  start: 4500.0
+  text: um this one is going to be a real assault on the old psyche because this is
+    this goes real deep real fast um and I and it would take another I could probably
+    build you up to it but it would take another entire lecture um so this was me
+    basically going deeper into the so got a new eye tracker this is the pupil ABS
+    tracker that yall saw much higher frame rate much higher resolution um and I wanted
+    to get deeper into the questions about like the actual visual information that
+    you're extracting and I'm specifically looking at visual motion um optic flow
+    is often called so the majority of the world is stationary um so if you are looking
+    if you sort of fixate a point on your table and move your head around um your
+    visual information is seeing motion when that happens because you're see the the
+    the stationary world is moving relative to your head and so the motion that comes
+    out of that is very information Laden and a lot of this is like the jassic part
+    like his vision is based on movement um a lot of our vision is based on movement
+    um and we tend and we're very sensitive to Motion in the scene um it's a lot of
+    our visual system it sort of handles that um and so a lot of this paper is like
+    speaking to theoretical Traditions that I think most people don't know about so
+    it's like one of these things like a lot of it just like wouldn't make sense if
+    you're reading it like why you spending so much time talking about this thing
+    that doesn't make sense um but from a practical perspective the um you had these
+    head- centered videos which is basic the camera on the head then you can align
+    them so that the G is always at the center which is basically an estimate of like
+    the retinal like this is presumably similar to the information being projected
+    on this fellow's eyeball um and then doing computer vision and optic flow estimation
+    um which again these days is like like self-driving car type of stuff um and looking
+    at this is a fun figure just about like uh showing that like your a lot of what
+    you're doing with your complicated body when you're walking is stabilizing your
+    head um because this is the acceleration at the hips uh chest and head and so
+    you get these big acceleration spikes at this vertical strike is like uh heel
+    strike um so you get a big spike in the hips which is sort of like partially damped
+    out at the chest and then by the time you get to the head it's like a much smoother
+    ride
+- dur: 180.0
+  end: 4860.0
+  start: 4680.0
+  text: and that's true in the forward backward and left to right but not so much
+    in the vertical like the in the vertical your head is just kind of like along
+    for the ride which is I just kind of like the figure um I was getting better at
+    making these things at that point um and then then I started looking at uh to
+    sort of second half of the paper is looking at the sort of the kind of shapes
+    that show up in the the data um if you sort of yeah so this is an eyeball fixating
+    a point on the ground so is this and if you project the sort of retinal view onto
+    the ground you get this kind of ellipse and then you get this it's like very elongated
+    at the upper visual field and very condensed at the lower visual field which is
+    good because this is the part that we care about so like if we had the same amount
+    of neural real estate associated with each of these spaces then we get a which
+    we don't but if we did um then we would get more of our neural Machinery processing
+    the stuff that's closer up to you which is a useful thing and then you get to
+    change the position that you're sort of pulling that information from by doing
+    all these eye movements that we've been talking about all semester um Sagal plane
+    view is a just a slice down the side so this is what it looks like from the side
+    that's kind of looks like from the front um and yeah and I'll show some videos
+    in a second obviously um so I wound up getting very inspired here by uh fluid
+    flow mathematics um there's a three blue one Brown video on uh Divergence and
+    curl which actually site in the methods here um that was the explanation I had
+    of that and so this is if you look at the like Divergence and curl of these things
+    then you you find this interesting result that you can determine from the flow
+    field at each moment whether you are going to be passing whether your current
+    velocity Vector will take you to the left or to the right of the point that you're
+    fixating and so even just while fixating on the ground the motion patterns in
+    the across the full field you can extract like this star is the peak in the Divergence
+    and then there's this kind of saddle point and the curl that's either clockwise
+    or counterclockwise and those two things actually independently like each one
+    by itself will tell you whether you're going to whether you're passing to your
+    current velocity will pass you to the left or the right the point that you're
+    fixating which is cool because this is also there are parts of our nervous of
+    our visual system that are sensitive to this type of thing it's like MST mstd
+    like we talked about primary visual cortex is V1 MST is like V4 or V5 or something
+    so like at at a certain point
+- dur: 180.0
+  end: 5040.0
+  start: 4860.0
+  text: and arguably there's actually points there's Machinery like on your retina
+    like in that remember that middle area like there a bunch of weird stuff going
+    on in there some of that is actually sensitive to visual motion and like differential
+    patterns of visual motion so theoretically there are like you could be inferring
+    stuff like this like on your retina or or or else like in your visual cortex something
+    like that um which I think this type of behavior is so primitive that you would
+    want it to be very easy to get like flies and bees and dragon flies are doing
+    this type of things so you don't want to have to have this scale of Firepower
+    to be able to solve these types of problems um but yeah yeah [Music] and now I
+    will show a variety oh wait yeah there we go so I think I can actually do this
+    I think there's a playlist right I would do that that seems like something I would
+    do yeah uh videos and I'll put this as well um yeah so can I just do that yeah
+    so this is the same oh yeah this is actually the demonstration so this is the
+    same rocks this is my eyes if they look familiar same basic data except now we
+    have two eyeballs um which is nice and this is the the retinally aligned gaze
+    and I'm pretty sure in a second here yeah it's going to show that um so this is
+    the first part of that analysis so you just run this this is classic computer
+    vision optic flow estimation so you get a vector for each pixel that estimates
+    the motion at that pixel you can do that for the head Center View View and for
+    the eye center View and so you get this so obviously the point that you're fixating
+    has zero
+- dur: 180.0
+  end: 5220.0
+  start: 5040.0
+  text: velocity that's what fixation means and we kind of cheated and sort of pinned
+    that there um because assuming that your visual system is better than our measurements
+    um you so you always have this kind of zero velocity at the point of fixation
+    and so because of that you have this kind of like rotation patterns that show
+    up there yeah so this was another one of the clever things I've done in my life
+    of you take that flow field you invert it so instead of pointing away it points
+    towards and you put a grid of massless particles on it and they sort of Follow
+    That trajectory and they all kind of wind up here you keep track of their paths
+    and you get this sort of nice these are apparently the you get these nice shapes
+    that show up and you can see how they kind of like they bend around the 3D structure
+    of the scene because of Parallax things that are closer to you move faster than
+    things that move slow it's like looking at your like the train window type of
+    thing um and you can also see these kind of like spiral patterns that show up
+    like we didn't some of the Carl stuff looked at the structure of the 3D structure
+    stuff but you can kind of see there's this like these shapes that kind of emerge
+    um and so then a lot and and they show up much better in the fixation need stuff
+    than you do in the head centered stuff which is obvious to you but some people
+    have issues um but that in the head it's much more aligned to like the trajectory
+    of your head so this yellow line here shows their your head's veloc velocity Vector
+    then your gaze your ocula motor system is sort of fixating so that you can sort
+    of process stuff better um and so that's fun and uh let's see running out of time
+    but that's okay kind of on point um and so then that was like the empirical data
+    and then this was uh now um basically simul this this is a simulation of a eyeball
+    that's moving while fixating this point here and you kind of can see these like
+    shape so this one it's moving in like a cork screw path um but you can kind of
+    like imagine why yeah left as an exercise to the reader of like why some of those
+    shapes show up um and then I would say this is probably the high Watermark of
+    that particular empirical part of my life um which maybe I'll get back to someday
+    um but this is that same rocks data data projected onto a flat ground and then
+    these are the actual eye movements that were being made um with
+- dur: 180.0
+  end: 5400.0
+  start: 5220.0
+  text: all the sort of simulated flow here so this is the the curl you can see it
+    sort of moves to the left or right as the as the vector moves to left or right
+    there and then the sort of the the the this like peak in the Divergence map sort
+    of also corresponds to that stuff um and there are some people who are out there
+    trying to like make some more sense out of this and try to like understand how
+    how and whether and if these types of signals are actually being used and how
+    they might be it's the kind of thing like if you look at the literature like I
+    said there are there's a lot of evidence that there's places in the nervous system
+    that could be sensitive to this stuff it's like sort of it is consistent with
+    um no with like mechanisms that when are that could detect information like this
+    whether or not it actually is there whether or not we actually use it or not that's
+    actually a part of the way we move around the world um is sort of an empirical
+    question but then so the idea is that we can use this type like so going out into
+    the world and measuring these things and saying oh hey look there's these interesting
+    patterns and shapes that show up and it would make sense if blah blah blah and
+    this and that this is often the kind of stuff that drives research in more like
+    animal stuff and you know the the actual like electrodes in the brain style of
+    of experimentation where you are much much more constrained you can't have things
+    running around but this kind of gives a Target to look for like this s how you
+    might generate the hypotheses that you would take into a more controlled lab based
+    setting um and trying to see if like this is actually a like if these sensitivities
+    are a a part of a visual system and B a part of the strategies that we use to
+    to move around the world um it's fun it's mesmerizing what's going on in there
+    oo uh the answer is a lot um and in the three minutes I have left I will also
+    I give a little shout out to my dude Carl um who uh he he I found him as an undergrad
+    uh and he sort of was in the lab for my postto and then stuck around and got a
+    PhD um with Mary and uh published basically he never learned the lesson don't
+    put hard green on white but you know whatever um so he continued a lot of these
+    same kinds of uh of Explorations but with a he's much better at math than me um
+    oh so actually this part is just looking at some of the the statistics uh this
+    is really helpful for Neuroscience um as some have said this is the diet that
+    your visual system was raised on this is the statistics of
+- dur: 180.0
+  end: 5580.0
+  start: 5400.0
+  text: visual emotion that your nervous system experiences during your everyday life
+    um and then this is the paper I was actually looking for um came out 2024 where
+    he actually he used uh photogrammetry to do 3D reconstructions of the terrain
+    everything up until now was using that kind of flat ground plane but now he's
+    actually starting to get the the 3D aspects of it um um and was looking at the
+    different trajectories and he has this uh really cool analysis showing um how
+    people would he was look so like whether whether you how do you choose your footholds
+    and so do you choose to step onto The Rock versus going around the Rock and so
+    he did this complex analysis there uh and found that like it's like it's it it
+    depends on how tall you are and so there's un like unsurprisingly but like getting
+    the numbers that like whether or not I choose to step onto a rock and over it
+    is I more likely to do that than someone who is shorter than me because it's a
+    higher cost for them and so you could sort of look at these things and seeing
+    how people navigated and sort of like he was able to find like people tend to
+    like slopes that are within a given regime and um being able to pull that out
+    of the data it's like super cool um yeah couldn't tell you much beyond that because
+    like even though I on this paper and I I read it to some degree of a prox yeah
+    this is his simulated potential foothold paths and sort of you know you choose
+    the ones that sort of are on this side versus the sort of arbitrarily SE specified
+    ones um Canan on white you'll he'll learn this is the 2015 paper had this problem
+    uh he'll get there um and yeah I think uh yeah that's the end of the class so
+    that's what I've done that's my research uh and thanks for watching and it's kind
+    of fun I like I hope that you were able to thank you uh I hope you're able to
+    follow that more now than you would have been able to in September whenever we
+    started here so thanks for coming along uh next Tuesday we'll talk about trauma
+    and then we'll talk about
+video_id: jA1pHcHoIfs

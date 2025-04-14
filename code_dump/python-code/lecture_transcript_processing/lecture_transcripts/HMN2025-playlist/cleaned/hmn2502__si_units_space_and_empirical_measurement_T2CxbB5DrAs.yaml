@@ -1,0 +1,1693 @@
+full_transcript: "Okay, hello, hi. Thank you, and welcome to whatever this is. So,\
+  \ yeah, let's do the standard check-in. I am recording this and we'll be posting\
+  \ it online. A couple of people have been sporadically contacting me saying things\
+  \ like, \"Hey, I'm sick. I'm not going to make it to class,\" or, \"Hey, I'm not\
+  \ going to make the deadline.\" If you're sick, straight up, don't come to class.\
+  \ We had a whole pandemic, so please let us learn that lesson as a culture. You\
+  \ don't need to check with me; it's totally fine, I trust you. Also, the deadlines\
+  \ are all kind of made up. I put them there in the sense of, I really hope everyone\
+  \ has it done by this point because I use the data from that for each stage. However,\
+  \ they're all available until the end of the semester. With the exception of the\
+  \ poster thing, there are a couple of hard deadlines for that, which you need to\
+  \ get to the printer on time and stuff like that. Everything else, just get it done\
+  \ as soon as you can. I understand that's a dangerous thing to say to some people,\
+  \ but I trust you, I believe in you. Just check all the boxes before the end of\
+  \ the semester and we'll be good to go. Now, let's do a quick check-in on schedules.\
+  \ What did we do last Wednesday? Can you remind me? Did I talk or did the group\
+  \ thing? Group thing? Yeah, the group thing was good. Great. Then we had something\
+  \ that was due. And today, what fun! We're going to be talking about a lecture that\
+  \ I've given multiple times and I always enjoy giving. It's going to be an introduction\
+  \ to measurement and the concepts pertaining to it. And check this out\u2014look\
+  \ what you get to do when you're in charge: no assignment! I feel like we've been\
+  \ doing enough; you guys are doing great. This is the right day, cool. Today's lecture\
+  \ will be about measurement units and things like that. Hopefully, it's got a lot\
+  \ of props and visual aids. I want to do it now because on Wednesday, I think we\
+  \ can do a free in-class recording, which will be our first relationship with more\
+  \ classical data. I keep referring to the text stuff. that you're punching into\
+  \ the server as data. It is data. If you had asked me three years ago if that was\
+  \ data, I would have said, \"Yeah, I guess technically,\" but it's only since AI\
+  \ came online that I think of that as data. Freeo Cap is a motion capture, sort\
+  \ of a free open-source project that I've been building for the past half-decade\
+  \ or so of my life. It is specifically designed to create good classroom demos and\
+  \ things like that. So we're going to be recording some data and then talking about\
+  \ it in the context of the kinds of concepts we're going to cover today. Hopefully,\
+  \ we can get some of that in today.\n\nLet's see, is there anything else to catch\
+  \ up on? Just for completeness, I will remind everybody although nothing special\
+  \ has happened with this round, in the server, in the links and resources, find\
+  \ the server scrape checkpoint. At the bottom, there is the same sort of 127. That's\
+  \ the server scraped and analyzed as of this morning. So the same thing, download\
+  \ it, unzip it; if you don't know what unzipping is, it's the action where you double-click\
+  \ and it makes a folder next door that you can open like a regular file. You can\
+  \ search for your name in there.\n\nI will be refactoring the way we do the student\
+  \ profile-building process, so your individual profiles are going to change probably\
+  \ next week. This change is because I realized that it would give you a much more\
+  \ precise measurement of your interests if I didn't use everything you put in the\
+  \ server for the profile but just the assignment chats, the ones from your intro\
+  \ and the poster presentation. Additionally, I'm in the process of setting something\
+  \ up that will allow you to ask the bot to remember you in a given chat, and it\
+  \ will pull that history into the conversation. This way, you won't have to start\
+  \ every conversation from scratch.\n\nAlso, just as a reminder for helping you learn\
+  \ the paths and whatnot, here we are on the server. In the same channel up here,\
+  \ links and resources and course repository, click on that and something pops up.\
+  \ I don't know why two things pop up. This is the course repository, which is the\
+  \ most up-to-date. Oh, actually, I forgot to update the syllabus last time. Syllabus\
+  \ commit in sync. Yes, thank you. Don't break. All right, the same thing on FireofFox.\
+  \ You see it says \"Update Syllabus,\" which is the thing I just pushed up. Now\
+  \ the text is updated, and that's the code for primates. This is called GitHub;\
+  \ that's kind of what GitHub does. It's a version control software, similar to track\
+  \ changes but more sophisticated. Pretty much every piece of software you've ever\
+  \ used in your life has used Git at some level. I'm kind of hijacking it to do text-based\
+  \ stuff. So yeah, and just to be clear, just for fun, this site is basically like\
+  \ a folder. The readme here is the item that's posted down there. This is what it\
+  \ looks like formatted. That's what it looks like raw. This is an honest measurement\
+  \ and record of exactly what my primate body did to a keyboard at some point in\
+  \ time. So it is a truth-preserving record of my thoughts in a way that a .docx\
+  \ file or a Google Drive link never will be. So shout out to Markdown and raw text\
+  \ formats.\n\nOkay, right. So on this page, let\u2019s go back to the front page.\
+  \ There we go, in the lectures folder for 20 25127 Intro to Measurement. The top\
+  \ one is called \"Intro to Measurement,\" and here we go. These are the notes for\
+  \ the lecture that we're about to give. With that, I'm going to switch away from\
+  \ GitHub and go to my local version, just because I want to. Local meaning on this\
+  \ machine, not on the internet or on some other server. GitHub is owned by Microsoft,\
+  \ so technically that data is hosted on Microsoft. This is on my computer. Okay,\
+  \ cool. This is a brief summary; we'll see how much we get through. I think we'll\
+  \ get through all of it. So here we are in this class, extensively to teach you\
+  \ all what science is, what science looks like, and how you might ever do it. Such\
+  \ a wacky thing as to attempt to know the world and do empirical research within\
+  \ it. There are a lot of things that get taken for granted when you live as a human\
+  \ person in the world that you start to find yourself needing to become much more\
+  \ specific about once you actually start to get into the business of knowledge generation.\
+  \ The idea, as a scientist, is that you are attempting to create new knowledge for\
+  \ humankind, which is a very difficult thing to do. It's hard to know stuff, and\
+  \ there are certain rules for how to do that. \n\nA lot of what we talk about in\
+  \ the sciences, the empirical sciences, is based on the concept of empirical measurement.\
+  \ There are many ways to know things. The scientific method and empirical method\
+  \ is one way to know the world; it's a very powerful way to understand it because\
+  \ it allows you to do things like make predictions about the future, build tools,\
+  \ and heal people when they're sick. Everything in that conception of knowledge\
+  \ is based, at some level, on an empirical measurement of the world. \n\nEmpirical\
+  \ measurement is something we will talk a bit about, but basically, it's the idea\
+  \ that you have done some kind of measurement. That term, measurement, is one of\
+  \ those terms that often gets taken for granted. One important thing to remember\
+  \ when you're considering empirical research and the concept of measurement is that\
+  \ everything you are doing, everything you are building on, has to be built relative\
+  \ to something else. \n\nIf you're trying to generate new knowledge, that knowledge\
+  \ will be based on other things, like the term \u201Ctruth preserving,\u201D which\
+  \ is very important in the philosophy of science. This concept allows you to build\
+  \ from one thing that you know to another thing that you might know. Everything\
+  \ you think you know about the world is based on some kind of background reasoning:\
+  \ \"I think this because I learned that; I believe this because of all that kind\
+  \ of stuff.\" \n\nSo, it's helpful when you are learning the concepts of measurement\
+  \ to try to recreate those epistemological chains, where epistemology is the study\
+  \ of knowledge, and ask yourself where these connections lie. If I were to redo\
+  \ this, which I will sometime, I probably would have put this one... Up top, the\
+  \ most important thing is that skepticism is the basis of scientific reality. Skepticism,\
+  \ in short, is the idea that you have to have reasons to believe the things that\
+  \ you believe. You are not allowed to just believe things for no reason. Everything\
+  \ that you consider has to be examined closely, and you need to try to understand\
+  \ what it is connected to. Given that, it is reasonable to ask about origins and\
+  \ the classical philosophical bedrock of belief. We tend to ascribe this concept\
+  \ to Descartes, who was operating in the 1500s. You may have heard of his Cartesian\
+  \ coordinates and various other things that we will talk about at different points\
+  \ in time. He was engaged in a philosophical inquiry, attempting to understand what\
+  \ his knowledge of the world was based on, and he came across a wonderful little\
+  \ phrase called \"Cogito, ergo sum,\" which means \"I think, therefore I am.\" This\
+  \ is essentially a fancy way of stating that if you drill down to the core, the\
+  \ only thing you can actually know and believe without referencing any other kind\
+  \ of knowledge is that you are experiencing consciousness in this very moment. You\
+  \ are having a qualitative state; you are thinking, and nothing in the universe\
+  \ can fake the experience of having a conscious experience right now. Your memories\
+  \ of yesterday could be deceitful; you might have been under the influence of hallucinogenics\
+  \ or someone could have been manipulating your brain. Your perception of the world\
+  \ around you could also be false. For instance, I might think there's a cup out\
+  \ there, but I could be wearing some sort of VR helmet or floating in goop in The\
+  \ Matrix. All these things we want to believe are, in some way, subjects to skepticism.\
+  \ You can doubt the veracity of anything besides that central idea of \"I am having\
+  \ a conscious experience right now.\" If you choose to live with that nihilistic\
+  \ belief, you end up with a rather uninteresting philosophical position called solipsism,\
+  \ which is the belief that you are the only person that exists and everything else\
+  \ around you is fake, with all other people being mere illusions. This is technically\
+  \ the only truly defensible philosophical position, but it\u2019s not useful or\
+  \ helpful, nor is it particularly interesting. If you are willing to accept other\
+  \ gradients of belief and truth into your life, you can begin to explore... Build\
+  \ what feels like knowledge about the real world. As long as you're willing to have\
+  \ trust in memory, and if you're willing to sort of combine all your memories and\
+  \ then believe in something like statistics, you can actually do quite a lot with\
+  \ that. Yes, I can doubt that there is a cup in front of me right now, but if I\
+  \ keep looking and it keeps happening, and I keep moving and it has the sort of\
+  \ geometrically reasonable deformations, then I reach out, and I have a cup in my\
+  \ hand. When I put it to my mouth and get liquid, at a certain point, the accumulation\
+  \ of those sensory experiences starts to resemble something like knowledge about\
+  \ the real world. It becomes increasingly likely that there is, in fact, something\
+  \ resembling a cup somewhere outside of my conscious experience. This is great because\
+  \ it allows us to connect with each other in this universe based on our shared memories\
+  \ and statistics. Luckily, that is not really that hard to do, but it is somewhat\
+  \ troubling to think too closely about. From an epistemological point of view, we\
+  \ will base our knowledge on the awareness that we exist, which is good. Then, I\
+  \ hate to say it, but the only other things we have are memory and statistics. Not\
+  \ a lot, but we can work from there. \n\nNow, I\u2019m going to shift away from\
+  \ that sort of philosophical, epistemological space and move back into the more\
+  \ rigidly empirical world of direct measurements. We will still have a similar game\
+  \ to play there because when we think about something like measurement, we need\
+  \ to base that measurement on something. So let's discuss measuring things, and\
+  \ I think we can start with a really basic measurement called distance, or spatial\
+  \ distance. This lecture has a lot of props and visual aids, all made roughly speaking\
+  \ from trash that I found outside. This is a stick that happens to be roughly a\
+  \ meter long and can be screwed apart. It was actually the stem of a lamp that I\
+  \ found, and I didn't end up liking the lamp, but then I realized that if I... I\
+  \ pulled it apart so I could stop having to bring a meter-long broomstick onto campus\
+  \ once a semester. So, you need to find one that I can see. A hiking stick could\
+  \ probably work well here. This is a stick, which has a length. If you wanted to\
+  \ measure things in the world, you could use something like this. Let's pretend\
+  \ that this stick is one meter long, even though it's actually slightly longer than\
+  \ that. We'll pretend that it's a meter, and we want to measure something. Let\u2019\
+  s see, I brought colors today, so we'll see how that goes for us\u2014RGB, red,\
+  \ green. We start with black, I guess. If we're trying to measure the length of\
+  \ things, let\u2019s say we're trying to measure the length of the room or how tall\
+  \ you are, or how tall this stick is, whatever. We're going to want to eventually\
+  \ write these numbers down. We're going to have some sort of a measurement tool\
+  \ like this, or, you know, a tape measure, and we're going to make some measurements.\
+  \ Then we will write them down. When we write them down, we're writing down a number\
+  \ of some kind. Let\u2019s skip a couple of steps to get to the point where we've\
+  \ written down a bunch of numbers. Now we want to represent them to communicate\
+  \ that we've conducted a scientific study on how long various things are, and we\
+  \ want to present this research to our colleagues. So, we have various ways of measuring\
+  \ things like space and time. We're going to start with space and then eventually\
+  \ get to time, which won\u2019t take long\u2014don\u2019t worry about it. The first\
+  \ thing you might want when measuring things are dimensions. You have one-dimensional,\
+  \ two-dimensional, three-dimensional, and high-dimensional measurements. We'll talk\
+  \ about these things in a moment. In all these cases, it\u2019s going to start with\
+  \ something resembling an origin. This is the origin; it is a zero-dimensional object.\
+  \ It contains no real information other than it exists. This point conveys the information,\
+  \ \"Hello, yes, I exist,\" and not really that much else. It\u2019s not particularly\
+  \ useful scientifically, but it\u2019s very important when you\u2019re trying to\
+  \ figure out if I come to you and say, \"Oh, hey, that thing is three and a half\
+  \ sticks long,\" that is implicitly relative to something that is zero sticks long,\
+  \ which is something that has no extent. So, zero-dimensional, great. Good job!\
+  \ Now, let's think about this dimension, and let's call it X, because that's traditionally\
+  \ how we do it. This is now a one-dimensional object. Let's say this is infinitely\
+  \ long, and we've measured this to be one stick long. So, there you go, one stick\
+  \ long. Then I can measure two sticks, three sticks, etc. That's way better. So\
+  \ now, if I'm going around measuring things, I can keep track of the length of the\
+  \ thing. But again, this is not particularly exciting. There's not really a point\
+  \ in drawing that; you just write down the number. You don't gain anything by looking\
+  \ at that number relative to zero, other than just the knowledge of how numbers\
+  \ work. So, we're going to call that X. We're also going to call that length. Great!\
+  \ So now we want to measure things. This is good for measuring things like string\
+  \ or distances from here to your house or the height of a person. But now we want\
+  \ to measure different things. We're still doing stuff in length and distances,\
+  \ and now we're going to split and have a second dimension that we'll call Y. We'll\
+  \ also call that height, and it uses the same unit. So, you can still be one stick\
+  \ tall or two sticks tall, things like that. Now you can measure things like boards,\
+  \ desks, and floors. If you measure something that is two units long and one unit\
+  \ tall, then that's a point in that space. That is a two-dimensional point, meaning\
+  \ it has two numbers you have to use to define it. In the robotics world someday,\
+  \ I know this is basic, but we will be ramping up from here. Another way to think\
+  \ about this is it's two degrees of freedom. If you want to know the area of something,\
+  \ you need to know two numbers to define it entirely; you need length and width.\
+  \ You could do that in various other ways, but this is a two-dimensional number.\
+  \ Now you want to measure more, so you want to keep measuring something in a higher-dimensional\
+  \ space. You've got length, you've got area\u2014area is length times width or something\
+  \ like that. And now you want to also measure volume. With that, I have run out\
+  \ of dimensions on the board; I can no longer ... Accurate representation of a two-dimensional\
+  \ point XY: if I want to make a three-dimensional space, I no longer have enough\
+  \ dimensions on this board because it is a two-dimensional object. So, we can fake\
+  \ it and use a right-angle approach. Let's call this point back here Z and think\
+  \ about how to represent it. We can go one unit in the X direction and two units\
+  \ in the Y direction, and then one, two, three units in the Z direction. So, this\
+  \ is XZ, and we can also paint that up. That's a little complicated, but it's fine;\
+  \ you understand it: X, Y, Z. Great! This is a three-dimensional point; we've accomplished\
+  \ that. That's great. This is how you can measure. If you're trying to categorize\
+  \ objects according to their volume, you need three degrees of freedom. You need\
+  \ three numbers to define that volume specifically, and you can represent that spatially\
+  \ in this nice three-dimensional grid. Now, I don't want to belabor this point too\
+  \ much because we'll get there gradually. So, this is three dimensions. Traditionally,\
+  \ if you're going to touch engineering, this is the international symbol for three-dimensional\
+  \ space: XYZ. This is the right-hand rule. It would be represented as XYZ. This\
+  \ is a left-handed coordinate system, which is not valid. Don't do this due to the\
+  \ established rules. Actually, there's more to discuss there, but we can skip past\
+  \ it. In three dimensions, that's how many dimensions we have in space. In human\
+  \ experience, we are very good at spatial estimates and quick calculations, such\
+  \ as determining that a cup is in front of a bottle or that a cup is near the edge\
+  \ of the table. These kinds of spatial computations are very easy for us. Now, there's\
+  \ nothing special about three dimensions, except that those are the dimensions you\
+  \ need to define space and time. However, you can extend this concept to define\
+  \ something that requires more than three numbers. Again, I don't want to dwell\
+  \ on this point too much, but I will say that it relates to the Pythagorean theorem\
+  \ and how you measure distances. In one dimension, the distance from a point to\
+  \ the origin is trivially defined. Sort of two. Pythagoras is the one that's A,\
+  \ B, C, so A squared plus B squared equals C squared. So C equals the square root\
+  \ of A squared plus B squared. This is how you calculate distance. You've all seen\
+  \ this, I'm sure, at various points in your high school career. This is the particular\
+  \ case of using the Pythagorean theorem in two dimensions. You replace A and B with\
+  \ X and Y, and then you have a way to measure distance in two-dimensional space.\
+  \ In one-dimensional space, it's very easy; the square root of 2 squared is just\
+  \ 2, so that's straightforward. In two-dimensional space, to measure distance, you\
+  \ just add a Z. The formula to measure distance in three-dimensional space is the\
+  \ square root of X squared plus Y squared plus Z squared. You can keep going; there's\
+  \ nothing special about two dimensions. You can add a W, you can add an L, you can\
+  \ add an M, and just keep going. You lose the ability to plot it in a way that makes\
+  \ sense, but you can keep doing the same math that you were doing with three dimensions\
+  \ up to ten million dimensions.\n\nA lot of the AI stuff works this way; it uses\
+  \ that same kind of spatial math, but it's applied in very high-dimensional spaces.\
+  \ That's one of those terms you hear people say, like, \"high-dimensional mathematics,\"\
+  \ and it sounds very complex, but it just means that you keep adding numbers to\
+  \ the Pythagorean theorem to measure distance, and everything else is pretty much\
+  \ the same. I will say too, there's a lot of general math concepts we'll cover here,\
+  \ but luckily, you don't have to do any of the math yourself; you just have to understand\
+  \ it, which is so much easier. I know there's a part where I mention, \"Oh look,\
+  \ you can have two XY things,\" and that makes some intuitive sense. I need to assure\
+  \ you that that intuitive gut check\u2014like, yeah, that makes rough sense\u2014\
+  is the vast majority of what you actually need to know about mathematics. Being\
+  \ able to do it on paper helps, but I firmly believe that being able to do the math\
+  \ on paper is just an extra layer of understanding on top of the gut check intuitions\
+  \ that will get you most of the way towards where you need to go. \n\nOkay, yeah.\
+  \ So right now, let's simplify this and just go back down to two dimensions, because\
+  \ it's easier. There we go, 2D. Great. So this is what we call these... Cartesian\
+  \ coordinates are called that because Western science and math tends to name things\
+  \ after the people who discover them, which can be quite annoying. The same people\
+  \ often discover so many things that you end up replacing these words all the time,\
+  \ and it's really frustrating. However, these coordinates are called Cartesian,\
+  \ ostensibly named for Ren\xE9 Descartes. The story goes that he was a sickly guy\
+  \ lying in bed watching a fly crawling on a window. He realized that he could define\
+  \ the fly's position by looking at the intersection point between the fly and two\
+  \ points on the windowsill. He then developed some formalisms, which allowed him\
+  \ to name the concepts of a grid after himself. It's frustrating, but that's the\
+  \ backstory. \n\nThis Cartesian space is typically defined by characteristics like\
+  \ straight lines, grids, and squares. When you move from two dimensions to three\
+  \ dimensions, you transition from a square to a cube, and so forth. You can also\
+  \ define these types of constructs in angular coordinates. For instance, if I care\
+  \ about a point in space, I can define it using straight line projections onto the\
+  \ basis vector axes. I could also describe it as being this far away at a specific\
+  \ angle off of zero degrees. \n\nI begin with what we can call X and then move up\
+  \ at an angle, which can be in degrees, radians, or whatever you prefer. I project\
+  \ out to a certain distance R and still reach the same point in two-dimensional\
+  \ space. Instead of defining the point in terms of X and Y, I can also define it\
+  \ in terms of theta and rho, where rho represents the distance or radius. If this\
+  \ were a circle, it would be whatever that distance is. \n\nAgain, notice that this\
+  \ is a two-dimensional point with two degrees of freedom. I can define it either\
+  \ in linear XY coordinates or in angular theta-rho coordinates. You need two numbers\
+  \ to define its position. Once you have that, if you transition from 2D to 3D, the\
+  \ figures become spheres. \n\nThe important thing to understand is that you can\
+  \ always switch back and forth between linear coordinate systems and spherical coordinate\
+  \ systems, which we refer to as polar coordinates versus Cartesian coordinates.\
+  \ In practice, when you're doing calculations, you'll often switch back and forth\
+  \ depending on the specific mathematical context. For instance, when examining joint\
+  \ angles, it's particularly helpful to look at things in terms of polar coordinates,\
+  \ as they intrinsically involve angles. Guys, this distance we can just assume never\
+  \ changes. Now, if I'm looking at something like joint angles, if I assume that\
+  \ these are rigid bodies and that the radius doesn't change, then I only need one\
+  \ number to define where it is and not two. This means I have one less number to\
+  \ deal with, which is great because we already have too many numbers that don't\
+  \ make sense. This might change tomorrow. \n\nLet's see, I\u2019m going to skip\
+  \ some of this because it gets too mathy pretty quickly, and I think this will make\
+  \ more sense once there's data to look at. By way of completeness, we've been talking\
+  \ about ways of measuring space, and we should also discuss ways of measuring time.\
+  \ You'll hear terms like spatiotemporal coordinates and spatiotemporal calibration.\
+  \ Remember that's an old term. Spatiotemporal means we are considering both space\
+  \ and time.\n\nWhen you're looking at data like this, it's very common to see it\
+  \ presented in 2D plots. You often see that the x-axis represents time and the y-axis\
+  \ represents some measurement over time. For instance, if the y-value is the height\
+  \ of my hand off the ground, at time zero we measure it and it's one. So at time\
+  \ zero, that's me at one. Then we wait, let's say, a second and measure it again;\
+  \ now it's one and a half units off the ground at time one. If I keep moving my\
+  \ hand up, it's going to keep going up, and if I were to draw this, you would see\
+  \ the points plotted and connected, resulting in squiggles. This is called a time\
+  \ series because it's a series of measurements over time. \n\nThis is a one-dimensional\
+  \ measurement. I'm just measuring height and recording it once per time unit, which\
+  \ could be in seconds. If it's a video, that could be 30 frames per second, so it's\
+  \ once every 33 milliseconds. If it\u2019s a microphone that records at 44 kHz,\
+  \ then it\u2019s once every one over 44,000 seconds. And that's how you get measurements\
+  \ over time. The important thing to see is that you'll often see this presented\
+  \ as a connected line, but that's not actually what you're measuring. You are only\
+  \ ever going to be measuring something at time intervals. You'll be getting one\
+  \ measurement per time interval, and this is what your data actually looks like.\
+  \ We have to assume that the movement between the measured intervals is kind of\
+  \ like what we expect it to be, and if we do that, then we can connect the lines\
+  \ and get a nice time series. However, if this is one measurement every second,\
+  \ and I'm doing this with my hand, then it actually doesn't look like that under\
+  \ the hood. If these intervals are like one every millisecond, then we can trust\
+  \ that. If it's one every second, I could just as easily be doing this with my hand,\
+  \ and we only get these measurements every second. So if we interpolate, we're going\
+  \ to be missing a lot of the story. That's time. I'll just say, just because it's\
+  \ on the thing, that similar to space, time can also be thought of in two basic\
+  \ forms: linear time, sort of like a stopwatch, and phasic time, which is like a\
+  \ clock that resets to zero every cycle through the available values. That will\
+  \ become important in the future. If you care about calculus, if this is the position,\
+  \ the slope is the velocity because it's the change in position over time. If you\
+  \ do that again, you get acceleration. So velocity is the derivative of position,\
+  \ and acceleration is the derivative of velocity. If you go back with the integrals,\
+  \ that's all the calculus you ever need to know as far as I'm concerned. So that's\
+  \ measurement. We've been talking about these measurements in terms of these abstract\
+  \ units, like singular sticks, but it doesn't really matter. The same sort of methods\
+  \ of plotting will work no matter what units you're measuring with. For measuring\
+  \ distance, we might use meters; for measuring temperature, we might use Celsius\
+  \ or Kelvin; and for measuring weight, we might use kilograms. The same sort of\
+  \ plotting representations will work throughout. Now, this is a practical thing\
+  \ that you should keep in mind and will come up at some point in your future. When\
+  \ we're talking about the sciences, there are rules about the units that we're allowed\
+  \ to use. Here in America, we have things like imperial units for... Feet and inches\
+  \ are often discussed as worthless measurements, and there's a strong argument for\
+  \ that. However, the reality is that many of our Imperial measurements are based\
+  \ on easily factorable numbers like 12 and 16, which makes calculations simpler\
+  \ in a home environment. In contrast, the metric system is based on 10, which is\
+  \ excellent for decimal points and precision, but it's more challenging to divide\
+  \ evenly. With 10, you can only factor into 2 and 5, while with 12, you can factor\
+  \ into 1, 2, 3, 4, 6, and 12.\n\nIf you imagine yourself as a vendor in a medieval\
+  \ town needing to measure out various goods, it\u2019s easier to use weights in\
+  \ increments of 12 and 16. This is particularly relevant for activities like baking,\
+  \ where it's simple to cut ingredients in half or into thirds.\n\nIn scientific\
+  \ contexts, we are required to use SI units, which are standardized measurements\
+  \ established by international conventions. SI units stand for Systeme International,\
+  \ a French term meaning International Standard. A set number of base SI units exists,\
+  \ including seconds for time, meters for length, kilograms for mass, amperes for\
+  \ electrical current, Kelvin for thermodynamic temperature, moles for the amount\
+  \ of substance, and Candela for luminous intensity.\n\nFor the most part, we will\
+  \ be focusing on these units: seconds, meters, and kilograms. Now let's move to\
+  \ our first visual aid. One of the interesting aspects of the metric system is the\
+  \ compatibility of its components. If this were one meter, and if this were one\
+  \ liter, which it claims to be, we could use these measurements to recreate most\
+  \ of the metric system. \n\nA liter is defined as one thousand milliliters, and\
+  \ a milliliter is equivalent to a cubic centimeter of water. A cubic centimeter\
+  \ of water weighs one gram. So, if you take a centimeter, create a cube of that\
+  \ dimension, fill it with water, and measure its weight, that weight is defined\
+  \ as one gram. It is defined that one cubic centimeter of water weighs one gram.\
+  \ If you get a thousand of those together, it would weigh one kilogram. Therefore,\
+  \ a thousand cubic centimeters of water would equal one liter, and one liter weighs\
+  \ one kilogram. So there's a fun sort of correspondence where if you know how long\
+  \ a meter is and you have standardized water, you can recreate a lot of the units\
+  \ that we end up using. \n\nTraditionally, the meter stick was measured as this\
+  \ physical stick in France. There used to be an actual stick like this, but it has\
+  \ rusted away over time, so now it just represents some markings on a stone. We\
+  \ have since moved away from this method of determining a meter and now measure\
+  \ it in relation to the distance that light travels. I can't remember exactly how\
+  \ we used to define seconds, but it involved the period of a pendulum of a given\
+  \ length. Now, we measure seconds in terms of the oscillation of a cesium atom,\
+  \ as they oscillate at a very regular interval. We measure meters by the distance\
+  \ that light travels in a specific number of oscillations of a cesium atom. This\
+  \ measurement was designed to be the time it takes for light to travel that distance,\
+  \ allowing us to be more precise with our modern measurements.\n\nThese are the\
+  \ only base units we have for conducting proper science. So, if you're ever doing\
+  \ a scientific study or measurement or need to report numbers, you're not allowed\
+  \ to use inches; you must use meters. You may choose to use centimeters, millimeters,\
+  \ kilometers, or whatever unit makes sense for your measurement, but you cannot\
+  \ use inches or feet. Similarly, for measuring mass, you cannot use pounds; you\
+  \ must use kilograms. When I say 'allowed,' I mean that the scientific community\
+  \ has agreed on these standards. If you're publishing a paper in a scientific journal,\
+  \ then you must adhere to these conventions. If you present information using non-SI\
+  \ units, such as feet and pounds, they should return it to you and request that\
+  \ you convert it to SI units. If they do not, I would consider that a failure of\
+  \ the peer review process, which is a separate conversation. Now, let's notice that\
+  \ this rather constrained list of possible units begs the question: why is it so\
+  \ limited? Why are these the numbers we have? The answer is that if you drill down\
+  \ into it, these are what we consider to be the short list of measurable things.\
+  \ Everything we can measure with our basic tools can boil down to either these basic\
+  \ quantities or derive more complicated combinations of these quantities. We have\
+  \ time, spatial extent, mass, electrical current, temperature measured in Kelvin\u2014\
+  where zero is Absolute Zero\u2014moles as a countable amount, and candela as a measure\
+  \ of light. \n\nWhen we talk about transduction and the environmental energies that\
+  \ the nervous system takes in to help us perceive the world, we can think in a roundabout\
+  \ way about sensory systems. If you're thinking about the energy they absorb to\
+  \ provide an empirical estimate of what exists in the world, consider how sight,\
+  \ sound, touch, and taste relate back to these basic units. You will also quickly\
+  \ realize that if you're trying to measure anything of interest, these basic units\
+  \ may not be adequate for very long. You will eventually need to develop new units\
+  \ to measure more complex or interesting phenomena. \n\nFor example, if you want\
+  \ to measure something like velocity\u2014that is, how fast something is moving\
+  \ through the world\u2014you cannot use only these basic units. Instead, you need\
+  \ to combine some of them. Velocity can be measured in meters per second, which\
+  \ means every time a second passes, you move this many meters. Therefore, the SI\
+  \ units for velocity are meters per second. If you are moving slowly, you might\
+  \ use millimeters per second, and if you're moving quickly, kilometers per second,\
+  \ but it will still relate back to these SI units. Getting towards neuroscience,\
+  \ we are rapidly approaching the topic of this course, which I probably should have\
+  \ specified beforehand. One of the main nodules of interest in this class is biomechanics.\
+  \ A lot of you have asked about biomechanics, like what does that mean? Conversations\
+  \ about biomechanics are, roughly speaking, good old-fashioned Newtonian physics,\
+  \ except as it applies to a wobbly biological system, typically one that has something\
+  \ like a muscular-skeletal system. \n\nWe will soon be getting to the biomechanics,\
+  \ and next week the data we will be collecting in class will involve standing balance.\
+  \ For example, look at this wacky thing that I'm doing with my body. I'm carrying\
+  \ the majority of my mass, roughly 100 kilograms of salty meat, like a meter and\
+  \ a half above the ground, which is an insane thing to do. I can hold this position\
+  \ and even go onto one foot. This involves a lot of mass being supported on a couple\
+  \ of wiggly joints and variable stiffness electric strings called muscles, all while\
+  \ having a base of support that is quite small. If I had come in here with 200 kilograms\
+  \ of steel and placed it on something as small as this, raising it to this height\
+  \ would be very dangerous. However, this is something we do with our bodies. A healthy\
+  \ person will do it a million times per year. \n\nIf you take 10,000 steps a day,\
+  \ let's say 20,000 steps a day because you're graduate students and you walk a lot,\
+  \ 20,000 times 365 approaches a million steps per year. That is a period during\
+  \ which the large mass of your body is being supported above the ground, thanks\
+  \ to your nervous system electrifying and firing your muscles in the right way at\
+  \ the appropriate intervals to keep you from falling over. This is one of those\
+  \ things that we don't really think about, but once you start thinking about it,\
+  \ there's a lot going on. My particular approach to studying this involves boiling\
+  \ it down to first principles, measuring the behavior in those basic units of geometry\
+  \ and physics, and then trying to figure out what we can infer about the unmeasurable\
+  \ parts of the system, which are the neural firings based on the physics and geometry\
+  \ of the measurable components, like where my body is at any given point in space.\
+  \ So, when we talk about biomechanics, we are talking about... The physics of biophysics,\
+  \ as applied to organisms in biology, involves units that we refer to in terms of\
+  \ position, which indicates where I am in space, and velocity, which describes how\
+  \ I am moving in space. Then we start to get into more complex terms like force,\
+  \ which pertains to the forces I am applying to the world. For example, if I am\
+  \ standing right here and I push with my toes, I will tilt backwards. If I push\
+  \ off the table, I will go that way. Thus, I am applying forces into the world.\
+  \ Because I am a massive object putting force into the world, this will cause me\
+  \ to move. \n\nThe units for force are Newtons, defined as kilograms times meters\
+  \ per second squared. So, it's kilogram times meters per second squared, or kilogram\
+  \ m/s\xB2. If you remember, we have the following units: position is in meters,\
+  \ velocity is in meters per second, which tells us how much our position changes\
+  \ in meters in one second, and acceleration is in meters per second per second,\
+  \ indicating how much faster we are going one second from now compared to right\
+  \ now. \n\nIf we jump ahead to Newton's Laws, we know that force equals mass times\
+  \ acceleration. We've all heard this before. I will leave this as an exercise for\
+  \ the reader: if you take the concept of force, which equals mass (in kilograms)\
+  \ times acceleration (in meters per second squared), you will derive the unit we\
+  \ call Newtons. \n\nAdditionally, if we apply a force over a given distance, we\
+  \ refer to this as work. Work is calculated as force applied over distance, yielding\
+  \ units of kilograms times meters squared times seconds squared, which is referred\
+  \ to as a joule. A joule is a unit of energy, and energy is defined as the ability\
+  \ to do work, which is conserved. \n\nFor example, in the famous equation E=mc\xB2\
+  , if you analyze the units, you will find that energy (E) is equal to mass (m) in\
+  \ kilograms times c, which is the speed of light in meters per second, squared.\
+  \ This will lead you to one of these conclusions. Therefore, this discussion illustrates\
+  \ how these concepts are boiled down to SI units. Now that we've gotten to energy,\
+  \ we're touching on some classic physics concepts, specifically the conservation\
+  \ of energy. This turns out to be a fundamental law of physics: in a closed system,\
+  \ energy is neither created nor destroyed; it simply changes form. This is a strong\
+  \ belief I hold, and physics has consistently affirmed that conservation of energy\
+  \ is generally true. Therefore, this is a solid assumption I can utilize as a scientist\
+  \ to make sense of the complex data we'll measure when we start examining the intricate\
+  \ movements of a person in space. This data might not always make sense right away,\
+  \ but we will discover this together as a group.\n\nWe can also discuss normalized\
+  \ units. I will touch on this briefly. While we use SI units for mass\u2014such\
+  \ as kilograms\u2014when measuring a person moving through space, we may find measuring\
+  \ everything in kilograms somewhat cumbersome. For instance, you might say, \"I\
+  \ weigh 100 kilograms,\" or something similar. This can get tedious, especially\
+  \ since we are focusing on studying a person.\n\nTo simplify our calculations, we\
+  \ can normalize our mass measurements by dividing by my personal body weight, or\
+  \ my mass in kilograms. By doing this, we no longer have to use kilograms directly;\
+  \ instead, we can discuss body masses or weights. Although, it's important to note\
+  \ that weight is actually a measure of force, not mass. So, we normalize mass by\
+  \ the participant's body mass, which gives us a unit of one. This is a very convenient\
+  \ unit, as it simplifies the math significantly. \n\nNow, as we progress, we are\
+  \ inching closer to conceptualizing a human as one of these approximations. This\
+  \ is still quite complex, but we'll stick with this concept for now. We've gotten\
+  \ through all that spatial stuff, all that measurement stuff, and all that unit\
+  \ stuff. Now we can start thinking in terms of physics. Physics is essentially the\
+  \ math that describes how objects move through the world. There are all sorts of\
+  \ different layers of physics, and the layer that I tend to focus on is what's called\
+  \ classical mechanics. Classical mechanics is basically Newton's three laws as they\
+  \ apply to simple mechanical objects, so it's essentially Cannonball physics. \n\
+  \nThis is also a fun example of a philosophy of science concept, which is that all\
+  \ of our theories are wrong at every point in time. Newton's laws came about, I\
+  \ want to say, in the 1700s or something like that. He was trying to understand\
+  \ the motion of the planets, and he came up with these simple rules of how mechanics\
+  \ tend to work. It was very useful and explained a lot about the physical world,\
+  \ as well as how to derive the trajectories of simple objects through space using\
+  \ Newtonian mechanics. It explains the majority of planetary motions, but it doesn't\
+  \ do a great job of predicting the movement of the planet Mercury. \n\nIn fact,\
+  \ even back in that day, if they applied the Newtonian predictions for planetary\
+  \ trajectories, Mercury's orbit didn't align with the predictions. They actually\
+  \ postulated for a long time that there was another planet between Mercury and Venus\
+  \ that could account for the weird anomalies in Mercury's orbit, and that planet\
+  \ was called Vulcan, which is where that term comes from. \n\nEventually, time passed,\
+  \ and a guy named Einstein entered the picture and started introducing all these\
+  \ wacky ideas around relativity theory. It's much harder math, but if you apply\
+  \ that theoretical framework to the motions of the planets and account for the fact\
+  \ that the sun is so massive that it warps space-time, now Mercury's orbit starts\
+  \ to make sense. There's no longer a need to posit the existence of some unknown,\
+  \ undiscovered planet called Vulcan. We know from measurements that Newton's laws\
+  \ of mechanics are not an accurate representation of the physical universe we inhabit.\
+  \ We also know that in any location that we... Tend to care about as human beings\
+  \ on this planet, the accuracy that you get when you use Newton's Laws is like nine\
+  \ digits, it's like nine decimal places out. So, you start like the difference between\
+  \ the prediction of this ball's motion in Newtonian mechanics and the same prediction\
+  \ in relativistic mechanics is so far below our ability to measure the position.\
+  \ You only really use relativity when you start looking at things like planets on\
+  \ the scales of stars and stuff like that. So, we still use Newtonian mechanics\
+  \ for almost everything that we do in our daily lives, even though we know that\
+  \ it is not as accurate as something like relativistic physics. There's a lot to\
+  \ be said there, but let's keep moving. So, yeah, Newton's Laws\u2014there are three\
+  \ of them. The first law states that a body at rest or in motion tends to stay at\
+  \ rest or in motion. That's inertia; things in motion tend to stay in motion unless\
+  \ acted upon by a force. The second one, arguably my favorite, is force equals mass\
+  \ times acceleration. Or if you're in rotational space, it's torque equals moment\
+  \ of inertia times angular acceleration, but don't worry about that. So, force equals\
+  \ mass times acceleration is a very, very useful equation. Basically, if you look\
+  \ at me, I am a mass. My mass is not changing, so let's ignore the M of that because\
+  \ it's not doing anything; it's a constant. So, let's divide by my body weight,\
+  \ and then we have force equals acceleration. So, I'm not moving, I'm not accelerating.\
+  \ That means that the sum of forces acting on my body has to equal zero. If it didn't,\
+  \ I would be moving. Now, I'm going to... all the positives and the negatives have\
+  \ to add up to zero in order for that to work. And you can see if I, I like soften\
+  \ my... oh, let me do this backwards. The third law is, for every action there is\
+  \ an equal and opposite reaction. You have an action and a reaction force. So, here\
+  \ I am standing\u2014look, we're officially doing neuroscience. That's me, I'm standing,\
+  \ and I'm standing on the ground, and I weigh one body mass, and I am being pulled\
+  \ down by this horrible planet at a rate of G. If you drop me from a place up high,\
+  \ I would accelerate downward at 9.8 meters per second squared; let's call it 10.\
+  \ And that's always happening. At all times, this force, G, equals 9.8 m/s squared.\
+  \ So that's the acceleration, and using the equation F equals ma, I am being pulled\
+  \ down by that amount. However, I'm not moving, so there must be something else\
+  \ pushing back with exactly the same force, and that's our good friend the ground.\
+  \ The ground is a very useful object; it allows us to complete most of our goals.\
+  \ As I push down, this is the action\u2014I'm pushing into the ground with mass\
+  \ times gravity force, and the ground is dutifully pushing back with exactly negative\
+  \ mass times gravity force. Great! If I ever decide to break this equation, I can\
+  \ push. If I decide to push off the ground with more force than gravity is pulling\
+  \ me down, then I can do something as wacky as jump. So, I apply force into the\
+  \ ground, and if that force is greater than my weight, I become briefly airborne,\
+  \ and then gravity pulls me back down. That winds up being important for a lot of\
+  \ things.\n\nOkay, I need to speed up here. I think I know how this is going to\
+  \ go. So, this is a preview of high-level human movement neuroscience, but we need\
+  \ to do a little more work before we can dive into the meat of it. Let's go back\
+  \ to thinking about simple spheroids, such as brightly colored juggling balls. When\
+  \ you're doing empirical studies and measurements, you always have to make assumptions;\
+  \ that's always going to be a thing you do. You have to assume that your senses\
+  \ aren't lying to you at all times. You also make assumptions that the authors of\
+  \ the papers you read are not actively lying to you and falsifying all their data.\
+  \ Each time you make an assumption, you gain a little more predictive power. So,\
+  \ if I'm trying to measure my body moving through space, I know that this is...\
+  \ like a wobbly, meaty thing. I know that the distance between my elbow and my wrist\
+  \ changes ever so slightly because I am made of squishy meat. However, if I assume\
+  \ that this is not happening and that I am actually composed of rigid bodies that\
+  \ do not change length, my math becomes significantly easier. I no longer have to\
+  \ measure the length between these points; I only have to measure the angles between\
+  \ them. The only measurement that can be made without making assumptions is that\
+  \ you are having a conscious experience at this exact moment, which is not particularly\
+  \ useful.\n\nThis brings us back to the earlier discussion about the idea of conservation\
+  \ of energy. It is one of those very powerful and useful assumptions that can help\
+  \ us progress toward understanding the things we care about in our research objectives.\
+  \ For instance, if my goal is to understand something like standing posture or,\
+  \ God forbid, locomotion, there are many aspects of that question that I cannot\
+  \ measure empirically. I simply do not have the technological capacity to measure\
+  \ the firing in my cerebellum or the stretch forces in my muscles. However, I can\
+  \ measure things like the stick figure position of my body 33 times per second using\
+  \ a motion capture system that I built over time at home.\n\nBy utilizing what I\
+  \ can measure and making certain assumptions about conservation of energy, I can\
+  \ begin to understand what we will refer to as the 'fiddly bits.' This concept will\
+  \ be further explored next week. For now, I want to cover as much material as possible\
+  \ so that you will have experienced it at least once.\n\nWhen performing a mechanical\
+  \ analysis of a person, you need to consider what forms of energy are relevant to\
+  \ the task at hand. In this part of the class, we are focused on measuring movement\
+  \ and the motor control aspect; we are not examining perception or vision. Therefore,\
+  \ we can ignore factors such as light and concentrate on the essential physics of\
+  \ being a massive object in a world that includes ground and gravity. The forms\
+  \ of energy that we can measure and care about the most are primarily... Potential\
+  \ energy and kinetic energy have various forms. The most obvious and easy one is\
+  \ gravitational potential energy, which is related to height. We can consider the\
+  \ ground to be at zero height; the horizontal position does not matter, but the\
+  \ vertical position does. Gravitational potential energy is calculated as mass multiplied\
+  \ by gravity and height. Here, mass is measured in kilograms, gravity in meters\
+  \ per second squared, and height is measured in meters. When you do the math, you\
+  \ will find that the units will be in Newtons. Essentially, potential energy measures\
+  \ the force that an object would exert if dropped onto a scale. \n\nOther forms\
+  \ of potential energy, which we won't focus on as much, include spring potential\
+  \ energy, related to the stretchiness of springs, and chemical potential energy,\
+  \ such as that found in food, bombs, gasoline, and other sources. In deeper levels\
+  \ of biology, we will delve more into chemical potential energy, which is involved\
+  \ in ionic charge mismatches. This relates to the concept of low energy states;\
+  \ for instance, if an object is held above the ground, its low energy state is at\
+  \ rest on the ground. When released, we can determine the energy upon impact.\n\n\
+  Now, let's consider kinetic energy, which is the energy of motion. The formula for\
+  \ kinetic energy is one-half times mass times velocity squared, represented as 1/2\
+  \ MV\xB2. Here, mass is again in kilograms and velocity in meters per second. The\
+  \ result will also be in Newtons because it measures force. Kinetic energy represents\
+  \ the amount of force that would be experienced at the precise moment before an\
+  \ object hits the ground. The kinetic energy at this moment will equal the amount\
+  \ of gravitational potential energy the object had before it was dropped. When these\
+  \ two energies are combined, they account for the energy transformations taking\
+  \ place as the object moves from a height to the ground. Using that type of analysis,\
+  \ potential and kinetic energy explain phenomena such as the parabolic flight of\
+  \ an object through space. As it leaves my hand, it possesses an instantaneous moment\
+  \ of energy at the moment it breaks contact with my hand. In free flight, it has\
+  \ a certain amount of kinetic energy, which is the maximum energy it will have during\
+  \ its entire trajectory. At this point, it has maximum kinetic energy and minimum\
+  \ potential energy. As it moves upward through space, its kinetic energy slows down,\
+  \ and as it gets higher, the potential energy increases until it reaches the apex.\
+  \ At this point, the potential energy is at its maximum because it is as high as\
+  \ it will get, while the kinetic energy is at a minimum, briefly reaching zero velocity\
+  \ as it transitions from rising to falling. When it comes back down and reaches\
+  \ the exact moment it hits the ground, it will have the same amount of kinetic energy\
+  \ as it had when it started. This creates a nice trade-off between kinetic and potential\
+  \ energy. \n\nWhen I talk about concepts like transduction for vision, action, or\
+  \ somatosensation, we are discussing the transfer of energy from one form, such\
+  \ as light measured in candelas, into another form, which is a pattern of neural\
+  \ activity that can be measured by voltages and ion mismatches. There is much that\
+  \ remains unmeasurable in that conversion. However, physics suggests that if we\
+  \ could tally up every ion and every quantum of energy, the mathematics of that\
+  \ conversion would work out as perfectly as the physics of simple ballistic motion.\
+  \ The transition between kinetic and potential energy is also a form of transduction,\
+  \ representing a transfer of energy from one form to another.\n\nIf I were a bird,\
+  \ I could flap my wings and push against the air sufficiently to generate a reaction\
+  \ force that counteracts gravity. If I were using a pogo stick and compressed it\
+  \ before releasing it, it would contain spring potential energy that would allow\
+  \ it to bounce upon hitting the ground. Assuming a simple rigid body scenario, the\
+  \ kinetic and potential energy would demonstrate this nice conservative trade-off,\
+  \ which will become important later. Now we get to my favorite part, which I will\
+  \ only touch on briefly. Next time, we will discuss this at length. This is the\
+  \ concept of the center of mass. The center of mass is a term in physics you have\
+  \ probably heard of; it comes up a lot in sports, especially anything related to\
+  \ gymnastics and balance. You hear people talk about the center of mass as the position\
+  \ of your body.\n\nThe center of mass is the average position of all the components\
+  \ of a larger object. For instance, if I were to take this tube and cut it into\
+  \ one-centimeter long sections, then take the position of those sections relative\
+  \ to a zero point and calculate the average, it would be in the middle of the tube.\
+  \ That is the center of mass. When you are supporting something above the ground,\
+  \ you support the center of mass of the object. If I were to hold it over here,\
+  \ then the center of mass would fall, and it wouldn't stay on my hand.\n\nFor example,\
+  \ I have these ankle weights that I found on the street near my house. There is\
+  \ a place in the neighborhood where people leave things they no longer need. I found\
+  \ these weights, and they are somewhat useful for this demonstration. They weigh\
+  \ about a pound, which is roughly half a kilogram. Before I added the weights, the\
+  \ tube had uniform density, so the center of mass was in the middle. Now that it\
+  \ is not of uniform density, the center of mass shifts to this new position.\n\n\
+  Now, the center of mass of the entire system takes into account the shift and density\
+  \ of all components involved. If we wanted to, we could determine how much this\
+  \ system weighs by measuring the distance between the balance point and the center\
+  \ of the tube, which is where we would balance it if it were symmetrically oriented.\
+  \ However, I do not want to proceed with that right now. Could you see the concept\
+  \ of balance as the relationship between the center of mass and the base of support?\
+  \ This is something we're going to discuss a lot. Similarly, we talked a little\
+  \ about reductionist approaches to scientific studies, which involves trying to\
+  \ nail down the problem. I mentioned before that I want to measure something I care\
+  \ about, but I don't have the ability to measure all the parts of it with the precision\
+  \ I need. One approach to dealing with this problem is to narrow your focus. Instead\
+  \ of trying to explain the entire complexity of the moving object, which is not\
+  \ available for empirical measurement, you can look at a smaller piece of it. For\
+  \ example, instead of examining the entire body, you might look at just the movement\
+  \ of a single joint or a single arm. You can maintain a high level of fidelity by\
+  \ considering this shape in terms of a thing that has all these joint angles that\
+  \ can define its position at a given point in time. However, even for something\
+  \ like this, which is a massive simplification of a human, it's still a complex\
+  \ object physically speaking. There are still a lot of joints that can vary, and\
+  \ the number of degrees of freedom you have is equal to the number of joints multiplied\
+  \ by two or three, depending on how you count. To define the position of this kinematic\
+  \ object in space requires many different numbers, which can be challenging to deal\
+  \ with. The other approach is to simplify the system you're looking at into a significant\
+  \ oversimplification and try to do so in a way that still allows you to make meaningful\
+  \ statements about the system as a whole. This is essentially what the idea of the\
+  \ center of mass is. Rather than thinking about this whole complex thing with all\
+  \ the joints, muscles, blood pumping, and the biological realities involved, we\
+  \ can condense it down into a simplified system. This is something I created some\
+  \ years ago, and it shows a guy doing a handstand\u2014a French parkour artist named\
+  \ Simonster. The X here is... The full body center of mass is measured as the weighted\
+  \ sum of each of the body segments, such as the forearm, the upper arm, the head,\
+  \ the chest, and the legs. You take the average of all those positions, weighted\
+  \ by the mass of the specific segment. For example, the forearm weighs considerably\
+  \ less than the legs. This gives you the center of mass position. Then, if you measure\
+  \ the limits of the base of support here, it is the distance between the tips of\
+  \ the fingers and the heel of the hand, which are the points where you can exert\
+  \ force into the ground. The center of mass always stays within that space. You\
+  \ can understand that even though there are many biological factors involved, from\
+  \ a physics perspective, you can define the task of balance using very simplified\
+  \ models of the body. This reduction takes the entire complexity of a human being\
+  \ and boils it down to a singular point mass, which can represent two dimensions\
+  \ or even three dimensions. We have simplified the world to a place that feels more\
+  \ manageable. I am capable of handling a certain number of numbers, but not too\
+  \ many. By the way, on the list in the notes, if you click on the link, it takes\
+  \ you to various animations that I created. We will discuss those more later. You\
+  \ can reduce this complex object of a human down to a singular point mass. Physics\
+  \ indicates that what is said about the center of mass of a system is to some extent\
+  \ true for all the objects in that system; this might be related to the finite element\
+  \ theorem, but I am not entirely sure about that. Essentially, discussing the center\
+  \ of mass of a person is a valid approximation of the full picture that would emerge\
+  \ if we measured every single part of their body simultaneously. However, it is\
+  \ clear that you would lose a lot of information. For instance, if I am reducing\
+  \ this entire person's body to that singular mass, I can no longer accurately comment\
+  \ on joint angles or the forces at the elbow, but I can determine whether or not\
+  \ they are in a stable or unstable regime. Regime, and I can measure things like\
+  \ what's happening at the physics level when he shifts his hand from one position\
+  \ to the other. I can use this belief about the physics of his body to start trying\
+  \ to infer what some of these wiggles and movements actually mean. For example,\
+  \ without this sort of center of mass analysis, it might be hard to explain why\
+  \ his arm is out here; there might not be much to say about that. But when you're\
+  \ thinking about it like this, it becomes very easy. He sticks his arm out so that\
+  \ his center of mass... if I move my arm and leg like this, the average of them\
+  \ keeps my body over my foot. I can do this, but I can't do that. Anyway, you'll\
+  \ figure it out. I'll show you visual representations of this once you actually\
+  \ get the numbers next week. Right. And then, you might ask the question: how do\
+  \ we do these measurements? How do we get these numbers? And how do I know where\
+  \ to draw the segment center of mass for his torso? For example, what percentage\
+  \ of body weight is a forearm? How do you get those numbers? Well, it turns out\
+  \ we just have these lookup tables; this is called anthropometry. These are just\
+  \ statistics. Ah, wrong way. Right. These particular lookup tables come from a guy\
+  \ named David Winter. This is copied from a textbook of his from like 1995 or something\
+  \ like that, and it shows these measurements of the shoulder as 0.129H, where H\
+  \ is the body height. Then, these are the lookup tables for these segments. The\
+  \ forearm is defined as the distance between the elbow axis and the styloid, I guess,\
+  \ that's here. It's 0.28 of body mass, and the center of mass is 4.36% of the weight\
+  \ from the proximal joint, which is the one towards the middle, to the distal joint,\
+  \ which is the one that's farther away. If you add these two numbers up, they equal\
+  \ one. You can use these numbers to calculate these values. These numbers were basically\
+  \ statistics from a study where researchers analyzed various cadavers, primarily\
+  \ from older men. I believe it was part of Air Force research. There are now newer\
+  \ tables that include people of different ages and genders, but ultimately it doesn't\
+  \ greatly affect the outcome for many of the numbers. For instance, women typically\
+  \ have a lower center of mass. However, for the levels of analysis we\u2019re dealing\
+  \ with in terms of physics\u2014like where your body mass is concentrated while\
+  \ you're moving your feet\u2014the differences in estimates across various demographics\
+  \ of humans are often negligible. They fall below the precision level of our measurements\
+  \ in most cases. Therefore, I tend to use these older statistics because they are\
+  \ readily available. If you look up papers on anthropometry tables, you'll find\
+  \ all kinds of new research about athletes versus non-athletes and variations with\
+  \ age. Great work to them! \n\nOkay, pendulums are my favorite topic; we'll talk\
+  \ about them next week, along with balance. Also, this is color; there we go. Someday,\
+  \ we'll also discuss projective geometry, which relates to how cameras and vision\
+  \ work. The math involved is the same, only this focuses on light instead of physics.\
+  \ It's all about projecting images, and then there\u2019s the role of eyeballs and\
+  \ visual perception.\n\nThat was a lot of information! I hope you found it valuable.\
+  \ Just to be clear, this information will not be on the test; there is no test.\
+  \ The goal here is to internalize and conceptualize the material. It's more beneficial\
+  \ to think about how you would explain this story to someone else rather than trying\
+  \ to remember every specific detail of what I said. Notice that a lot of it was\
+  \ reconstructed from first principles, so it's useful to be able to do that. Try\
+  \ to relay this story to someone else. You know, later when you hit parts, it\u2019\
+  s like, wait, how did you get from there to there? Think about it, ask those questions.\
+  \ Okay, cool. Thank you. We'll talk more about this next week, and we'll talk about\
+  \ pendula, which are the best. Pendulums are my favorite, so we\u2019ll talk all\
+  \ about it. Okay, bye."
+title: HMN25-02 - SI Units, Space and Empirical Measurement
+transcript_chunks:
+- dur: 180.0
+  end: 180.0
+  start: 0.0
+  text: "Okay, hello, hi. Thank you, and welcome to whatever this is. So, yeah, let's\
+    \ do the standard check-in. I am recording this and we'll be posting it online.\
+    \ A couple of people have been sporadically contacting me saying things like,\
+    \ \"Hey, I'm sick. I'm not going to make it to class,\" or, \"Hey, I'm not going\
+    \ to make the deadline.\" If you're sick, straight up, don't come to class. We\
+    \ had a whole pandemic, so please let us learn that lesson as a culture. You don't\
+    \ need to check with me; it's totally fine, I trust you. Also, the deadlines are\
+    \ all kind of made up. I put them there in the sense of, I really hope everyone\
+    \ has it done by this point because I use the data from that for each stage. However,\
+    \ they're all available until the end of the semester. With the exception of the\
+    \ poster thing, there are a couple of hard deadlines for that, which you need\
+    \ to get to the printer on time and stuff like that. Everything else, just get\
+    \ it done as soon as you can. I understand that's a dangerous thing to say to\
+    \ some people, but I trust you, I believe in you. Just check all the boxes before\
+    \ the end of the semester and we'll be good to go. Now, let's do a quick check-in\
+    \ on schedules. What did we do last Wednesday? Can you remind me? Did I talk or\
+    \ did the group thing? Group thing? Yeah, the group thing was good. Great. Then\
+    \ we had something that was due. And today, what fun! We're going to be talking\
+    \ about a lecture that I've given multiple times and I always enjoy giving. It's\
+    \ going to be an introduction to measurement and the concepts pertaining to it.\
+    \ And check this out\u2014look what you get to do when you're in charge: no assignment!\
+    \ I feel like we've been doing enough; you guys are doing great. This is the right\
+    \ day, cool. Today's lecture will be about measurement units and things like that.\
+    \ Hopefully, it's got a lot of props and visual aids. I want to do it now because\
+    \ on Wednesday, I think we can do a free in-class recording, which will be our\
+    \ first relationship with more classical data. I keep referring to the text stuff."
+- dur: 180.0
+  end: 360.0
+  start: 180.0
+  text: 'that you''re punching into the server as data. It is data. If you had asked
+    me three years ago if that was data, I would have said, "Yeah, I guess technically,"
+    but it''s only since AI came online that I think of that as data. Freeo Cap is
+    a motion capture, sort of a free open-source project that I''ve been building
+    for the past half-decade or so of my life. It is specifically designed to create
+    good classroom demos and things like that. So we''re going to be recording some
+    data and then talking about it in the context of the kinds of concepts we''re
+    going to cover today. Hopefully, we can get some of that in today.
+
+
+    Let''s see, is there anything else to catch up on? Just for completeness, I will
+    remind everybody although nothing special has happened with this round, in the
+    server, in the links and resources, find the server scrape checkpoint. At the
+    bottom, there is the same sort of 127. That''s the server scraped and analyzed
+    as of this morning. So the same thing, download it, unzip it; if you don''t know
+    what unzipping is, it''s the action where you double-click and it makes a folder
+    next door that you can open like a regular file. You can search for your name
+    in there.
+
+
+    I will be refactoring the way we do the student profile-building process, so your
+    individual profiles are going to change probably next week. This change is because
+    I realized that it would give you a much more precise measurement of your interests
+    if I didn''t use everything you put in the server for the profile but just the
+    assignment chats, the ones from your intro and the poster presentation. Additionally,
+    I''m in the process of setting something up that will allow you to ask the bot
+    to remember you in a given chat, and it will pull that history into the conversation.
+    This way, you won''t have to start every conversation from scratch.
+
+
+    Also, just as a reminder for helping you learn the paths and whatnot, here we
+    are on the server. In the same channel up here, links and resources and course
+    repository, click on that and something pops up. I don''t know why two things
+    pop up. This is the course repository, which is the most up-to-date. Oh, actually,
+    I forgot to update the syllabus last time. Syllabus commit in sync. Yes, thank
+    you. Don''t break.'
+- dur: 180.0
+  end: 540.0
+  start: 360.0
+  text: "All right, the same thing on FireofFox. You see it says \"Update Syllabus,\"\
+    \ which is the thing I just pushed up. Now the text is updated, and that's the\
+    \ code for primates. This is called GitHub; that's kind of what GitHub does. It's\
+    \ a version control software, similar to track changes but more sophisticated.\
+    \ Pretty much every piece of software you've ever used in your life has used Git\
+    \ at some level. I'm kind of hijacking it to do text-based stuff. So yeah, and\
+    \ just to be clear, just for fun, this site is basically like a folder. The readme\
+    \ here is the item that's posted down there. This is what it looks like formatted.\
+    \ That's what it looks like raw. This is an honest measurement and record of exactly\
+    \ what my primate body did to a keyboard at some point in time. So it is a truth-preserving\
+    \ record of my thoughts in a way that a .docx file or a Google Drive link never\
+    \ will be. So shout out to Markdown and raw text formats.\n\nOkay, right. So on\
+    \ this page, let\u2019s go back to the front page. There we go, in the lectures\
+    \ folder for 20 25127 Intro to Measurement. The top one is called \"Intro to Measurement,\"\
+    \ and here we go. These are the notes for the lecture that we're about to give.\
+    \ With that, I'm going to switch away from GitHub and go to my local version,\
+    \ just because I want to. Local meaning on this machine, not on the internet or\
+    \ on some other server. GitHub is owned by Microsoft, so technically that data\
+    \ is hosted on Microsoft. This is on my computer. Okay, cool. This is a brief\
+    \ summary; we'll see how much we get through. I think we'll get through all of\
+    \ it. So here we are in this class, extensively to teach you all what science\
+    \ is, what science looks like, and how you might ever do it."
+- dur: 180.0
+  end: 720.0
+  start: 540.0
+  text: "Such a wacky thing as to attempt to know the world and do empirical research\
+    \ within it. There are a lot of things that get taken for granted when you live\
+    \ as a human person in the world that you start to find yourself needing to become\
+    \ much more specific about once you actually start to get into the business of\
+    \ knowledge generation. The idea, as a scientist, is that you are attempting to\
+    \ create new knowledge for humankind, which is a very difficult thing to do. It's\
+    \ hard to know stuff, and there are certain rules for how to do that. \n\nA lot\
+    \ of what we talk about in the sciences, the empirical sciences, is based on the\
+    \ concept of empirical measurement. There are many ways to know things. The scientific\
+    \ method and empirical method is one way to know the world; it's a very powerful\
+    \ way to understand it because it allows you to do things like make predictions\
+    \ about the future, build tools, and heal people when they're sick. Everything\
+    \ in that conception of knowledge is based, at some level, on an empirical measurement\
+    \ of the world. \n\nEmpirical measurement is something we will talk a bit about,\
+    \ but basically, it's the idea that you have done some kind of measurement. That\
+    \ term, measurement, is one of those terms that often gets taken for granted.\
+    \ One important thing to remember when you're considering empirical research and\
+    \ the concept of measurement is that everything you are doing, everything you\
+    \ are building on, has to be built relative to something else. \n\nIf you're trying\
+    \ to generate new knowledge, that knowledge will be based on other things, like\
+    \ the term \u201Ctruth preserving,\u201D which is very important in the philosophy\
+    \ of science. This concept allows you to build from one thing that you know to\
+    \ another thing that you might know. Everything you think you know about the world\
+    \ is based on some kind of background reasoning: \"I think this because I learned\
+    \ that; I believe this because of all that kind of stuff.\" \n\nSo, it's helpful\
+    \ when you are learning the concepts of measurement to try to recreate those epistemological\
+    \ chains, where epistemology is the study of knowledge, and ask yourself where\
+    \ these connections lie. If I were to redo this, which I will sometime, I probably\
+    \ would have put this one..."
+- dur: 180.0
+  end: 900.0
+  start: 720.0
+  text: "Up top, the most important thing is that skepticism is the basis of scientific\
+    \ reality. Skepticism, in short, is the idea that you have to have reasons to\
+    \ believe the things that you believe. You are not allowed to just believe things\
+    \ for no reason. Everything that you consider has to be examined closely, and\
+    \ you need to try to understand what it is connected to. Given that, it is reasonable\
+    \ to ask about origins and the classical philosophical bedrock of belief. We tend\
+    \ to ascribe this concept to Descartes, who was operating in the 1500s. You may\
+    \ have heard of his Cartesian coordinates and various other things that we will\
+    \ talk about at different points in time. He was engaged in a philosophical inquiry,\
+    \ attempting to understand what his knowledge of the world was based on, and he\
+    \ came across a wonderful little phrase called \"Cogito, ergo sum,\" which means\
+    \ \"I think, therefore I am.\" This is essentially a fancy way of stating that\
+    \ if you drill down to the core, the only thing you can actually know and believe\
+    \ without referencing any other kind of knowledge is that you are experiencing\
+    \ consciousness in this very moment. You are having a qualitative state; you are\
+    \ thinking, and nothing in the universe can fake the experience of having a conscious\
+    \ experience right now. Your memories of yesterday could be deceitful; you might\
+    \ have been under the influence of hallucinogenics or someone could have been\
+    \ manipulating your brain. Your perception of the world around you could also\
+    \ be false. For instance, I might think there's a cup out there, but I could be\
+    \ wearing some sort of VR helmet or floating in goop in The Matrix. All these\
+    \ things we want to believe are, in some way, subjects to skepticism. You can\
+    \ doubt the veracity of anything besides that central idea of \"I am having a\
+    \ conscious experience right now.\" If you choose to live with that nihilistic\
+    \ belief, you end up with a rather uninteresting philosophical position called\
+    \ solipsism, which is the belief that you are the only person that exists and\
+    \ everything else around you is fake, with all other people being mere illusions.\
+    \ This is technically the only truly defensible philosophical position, but it\u2019\
+    s not useful or helpful, nor is it particularly interesting. If you are willing\
+    \ to accept other gradients of belief and truth into your life, you can begin\
+    \ to explore..."
+- dur: 180.0
+  end: 1080.0
+  start: 900.0
+  text: "Build what feels like knowledge about the real world. As long as you're willing\
+    \ to have trust in memory, and if you're willing to sort of combine all your memories\
+    \ and then believe in something like statistics, you can actually do quite a lot\
+    \ with that. Yes, I can doubt that there is a cup in front of me right now, but\
+    \ if I keep looking and it keeps happening, and I keep moving and it has the sort\
+    \ of geometrically reasonable deformations, then I reach out, and I have a cup\
+    \ in my hand. When I put it to my mouth and get liquid, at a certain point, the\
+    \ accumulation of those sensory experiences starts to resemble something like\
+    \ knowledge about the real world. It becomes increasingly likely that there is,\
+    \ in fact, something resembling a cup somewhere outside of my conscious experience.\
+    \ This is great because it allows us to connect with each other in this universe\
+    \ based on our shared memories and statistics. Luckily, that is not really that\
+    \ hard to do, but it is somewhat troubling to think too closely about. From an\
+    \ epistemological point of view, we will base our knowledge on the awareness that\
+    \ we exist, which is good. Then, I hate to say it, but the only other things we\
+    \ have are memory and statistics. Not a lot, but we can work from there. \n\n\
+    Now, I\u2019m going to shift away from that sort of philosophical, epistemological\
+    \ space and move back into the more rigidly empirical world of direct measurements.\
+    \ We will still have a similar game to play there because when we think about\
+    \ something like measurement, we need to base that measurement on something. So\
+    \ let's discuss measuring things, and I think we can start with a really basic\
+    \ measurement called distance, or spatial distance. This lecture has a lot of\
+    \ props and visual aids, all made roughly speaking from trash that I found outside.\
+    \ This is a stick that happens to be roughly a meter long and can be screwed apart.\
+    \ It was actually the stem of a lamp that I found, and I didn't end up liking\
+    \ the lamp, but then I realized that if I..."
+- dur: 180.0
+  end: 1260.0
+  start: 1080.0
+  text: "I pulled it apart so I could stop having to bring a meter-long broomstick\
+    \ onto campus once a semester. So, you need to find one that I can see. A hiking\
+    \ stick could probably work well here. This is a stick, which has a length. If\
+    \ you wanted to measure things in the world, you could use something like this.\
+    \ Let's pretend that this stick is one meter long, even though it's actually slightly\
+    \ longer than that. We'll pretend that it's a meter, and we want to measure something.\
+    \ Let\u2019s see, I brought colors today, so we'll see how that goes for us\u2014\
+    RGB, red, green. We start with black, I guess. If we're trying to measure the\
+    \ length of things, let\u2019s say we're trying to measure the length of the room\
+    \ or how tall you are, or how tall this stick is, whatever. We're going to want\
+    \ to eventually write these numbers down. We're going to have some sort of a measurement\
+    \ tool like this, or, you know, a tape measure, and we're going to make some measurements.\
+    \ Then we will write them down. When we write them down, we're writing down a\
+    \ number of some kind. Let\u2019s skip a couple of steps to get to the point where\
+    \ we've written down a bunch of numbers. Now we want to represent them to communicate\
+    \ that we've conducted a scientific study on how long various things are, and\
+    \ we want to present this research to our colleagues. So, we have various ways\
+    \ of measuring things like space and time. We're going to start with space and\
+    \ then eventually get to time, which won\u2019t take long\u2014don\u2019t worry\
+    \ about it. The first thing you might want when measuring things are dimensions.\
+    \ You have one-dimensional, two-dimensional, three-dimensional, and high-dimensional\
+    \ measurements. We'll talk about these things in a moment. In all these cases,\
+    \ it\u2019s going to start with something resembling an origin. This is the origin;\
+    \ it is a zero-dimensional object. It contains no real information other than\
+    \ it exists. This point conveys the information, \"Hello, yes, I exist,\" and\
+    \ not really that much else. It\u2019s not particularly useful scientifically,\
+    \ but it\u2019s very important when you\u2019re trying to figure out if I come\
+    \ to you and say, \"Oh, hey, that thing is three and a half sticks long,\" that\
+    \ is implicitly relative to something that is zero sticks long, which is something\
+    \ that has no extent."
+- dur: 180.0
+  end: 1440.0
+  start: 1260.0
+  text: "So, zero-dimensional, great. Good job! Now, let's think about this dimension,\
+    \ and let's call it X, because that's traditionally how we do it. This is now\
+    \ a one-dimensional object. Let's say this is infinitely long, and we've measured\
+    \ this to be one stick long. So, there you go, one stick long. Then I can measure\
+    \ two sticks, three sticks, etc. That's way better. So now, if I'm going around\
+    \ measuring things, I can keep track of the length of the thing. But again, this\
+    \ is not particularly exciting. There's not really a point in drawing that; you\
+    \ just write down the number. You don't gain anything by looking at that number\
+    \ relative to zero, other than just the knowledge of how numbers work. So, we're\
+    \ going to call that X. We're also going to call that length. Great! So now we\
+    \ want to measure things. This is good for measuring things like string or distances\
+    \ from here to your house or the height of a person. But now we want to measure\
+    \ different things. We're still doing stuff in length and distances, and now we're\
+    \ going to split and have a second dimension that we'll call Y. We'll also call\
+    \ that height, and it uses the same unit. So, you can still be one stick tall\
+    \ or two sticks tall, things like that. Now you can measure things like boards,\
+    \ desks, and floors. If you measure something that is two units long and one unit\
+    \ tall, then that's a point in that space. That is a two-dimensional point, meaning\
+    \ it has two numbers you have to use to define it. In the robotics world someday,\
+    \ I know this is basic, but we will be ramping up from here. Another way to think\
+    \ about this is it's two degrees of freedom. If you want to know the area of something,\
+    \ you need to know two numbers to define it entirely; you need length and width.\
+    \ You could do that in various other ways, but this is a two-dimensional number.\
+    \ Now you want to measure more, so you want to keep measuring something in a higher-dimensional\
+    \ space. You've got length, you've got area\u2014area is length times width or\
+    \ something like that. And now you want to also measure volume. With that, I have\
+    \ run out of dimensions on the board; I can no longer ..."
+- dur: 180.0
+  end: 1620.0
+  start: 1440.0
+  text: 'Accurate representation of a two-dimensional point XY: if I want to make
+    a three-dimensional space, I no longer have enough dimensions on this board because
+    it is a two-dimensional object. So, we can fake it and use a right-angle approach.
+    Let''s call this point back here Z and think about how to represent it. We can
+    go one unit in the X direction and two units in the Y direction, and then one,
+    two, three units in the Z direction. So, this is XZ, and we can also paint that
+    up. That''s a little complicated, but it''s fine; you understand it: X, Y, Z.
+    Great! This is a three-dimensional point; we''ve accomplished that. That''s great.
+    This is how you can measure. If you''re trying to categorize objects according
+    to their volume, you need three degrees of freedom. You need three numbers to
+    define that volume specifically, and you can represent that spatially in this
+    nice three-dimensional grid. Now, I don''t want to belabor this point too much
+    because we''ll get there gradually. So, this is three dimensions. Traditionally,
+    if you''re going to touch engineering, this is the international symbol for three-dimensional
+    space: XYZ. This is the right-hand rule. It would be represented as XYZ. This
+    is a left-handed coordinate system, which is not valid. Don''t do this due to
+    the established rules. Actually, there''s more to discuss there, but we can skip
+    past it. In three dimensions, that''s how many dimensions we have in space. In
+    human experience, we are very good at spatial estimates and quick calculations,
+    such as determining that a cup is in front of a bottle or that a cup is near the
+    edge of the table. These kinds of spatial computations are very easy for us. Now,
+    there''s nothing special about three dimensions, except that those are the dimensions
+    you need to define space and time. However, you can extend this concept to define
+    something that requires more than three numbers. Again, I don''t want to dwell
+    on this point too much, but I will say that it relates to the Pythagorean theorem
+    and how you measure distances. In one dimension, the distance from a point to
+    the origin is trivially defined.'
+- dur: 180.0
+  end: 1800.0
+  start: 1620.0
+  text: "Sort of two. Pythagoras is the one that's A, B, C, so A squared plus B squared\
+    \ equals C squared. So C equals the square root of A squared plus B squared. This\
+    \ is how you calculate distance. You've all seen this, I'm sure, at various points\
+    \ in your high school career. This is the particular case of using the Pythagorean\
+    \ theorem in two dimensions. You replace A and B with X and Y, and then you have\
+    \ a way to measure distance in two-dimensional space. In one-dimensional space,\
+    \ it's very easy; the square root of 2 squared is just 2, so that's straightforward.\
+    \ In two-dimensional space, to measure distance, you just add a Z. The formula\
+    \ to measure distance in three-dimensional space is the square root of X squared\
+    \ plus Y squared plus Z squared. You can keep going; there's nothing special about\
+    \ two dimensions. You can add a W, you can add an L, you can add an M, and just\
+    \ keep going. You lose the ability to plot it in a way that makes sense, but you\
+    \ can keep doing the same math that you were doing with three dimensions up to\
+    \ ten million dimensions.\n\nA lot of the AI stuff works this way; it uses that\
+    \ same kind of spatial math, but it's applied in very high-dimensional spaces.\
+    \ That's one of those terms you hear people say, like, \"high-dimensional mathematics,\"\
+    \ and it sounds very complex, but it just means that you keep adding numbers to\
+    \ the Pythagorean theorem to measure distance, and everything else is pretty much\
+    \ the same. I will say too, there's a lot of general math concepts we'll cover\
+    \ here, but luckily, you don't have to do any of the math yourself; you just have\
+    \ to understand it, which is so much easier. I know there's a part where I mention,\
+    \ \"Oh look, you can have two XY things,\" and that makes some intuitive sense.\
+    \ I need to assure you that that intuitive gut check\u2014like, yeah, that makes\
+    \ rough sense\u2014is the vast majority of what you actually need to know about\
+    \ mathematics. Being able to do it on paper helps, but I firmly believe that being\
+    \ able to do the math on paper is just an extra layer of understanding on top\
+    \ of the gut check intuitions that will get you most of the way towards where\
+    \ you need to go. \n\nOkay, yeah. So right now, let's simplify this and just go\
+    \ back down to two dimensions, because it's easier. There we go, 2D. Great. So\
+    \ this is what we call these..."
+- dur: 180.0
+  end: 1980.0
+  start: 1800.0
+  text: "Cartesian coordinates are called that because Western science and math tends\
+    \ to name things after the people who discover them, which can be quite annoying.\
+    \ The same people often discover so many things that you end up replacing these\
+    \ words all the time, and it's really frustrating. However, these coordinates\
+    \ are called Cartesian, ostensibly named for Ren\xE9 Descartes. The story goes\
+    \ that he was a sickly guy lying in bed watching a fly crawling on a window. He\
+    \ realized that he could define the fly's position by looking at the intersection\
+    \ point between the fly and two points on the windowsill. He then developed some\
+    \ formalisms, which allowed him to name the concepts of a grid after himself.\
+    \ It's frustrating, but that's the backstory. \n\nThis Cartesian space is typically\
+    \ defined by characteristics like straight lines, grids, and squares. When you\
+    \ move from two dimensions to three dimensions, you transition from a square to\
+    \ a cube, and so forth. You can also define these types of constructs in angular\
+    \ coordinates. For instance, if I care about a point in space, I can define it\
+    \ using straight line projections onto the basis vector axes. I could also describe\
+    \ it as being this far away at a specific angle off of zero degrees. \n\nI begin\
+    \ with what we can call X and then move up at an angle, which can be in degrees,\
+    \ radians, or whatever you prefer. I project out to a certain distance R and still\
+    \ reach the same point in two-dimensional space. Instead of defining the point\
+    \ in terms of X and Y, I can also define it in terms of theta and rho, where rho\
+    \ represents the distance or radius. If this were a circle, it would be whatever\
+    \ that distance is. \n\nAgain, notice that this is a two-dimensional point with\
+    \ two degrees of freedom. I can define it either in linear XY coordinates or in\
+    \ angular theta-rho coordinates. You need two numbers to define its position.\
+    \ Once you have that, if you transition from 2D to 3D, the figures become spheres.\
+    \ \n\nThe important thing to understand is that you can always switch back and\
+    \ forth between linear coordinate systems and spherical coordinate systems, which\
+    \ we refer to as polar coordinates versus Cartesian coordinates. In practice,\
+    \ when you're doing calculations, you'll often switch back and forth depending\
+    \ on the specific mathematical context. For instance, when examining joint angles,\
+    \ it's particularly helpful to look at things in terms of polar coordinates, as\
+    \ they intrinsically involve angles."
+- dur: 180.0
+  end: 2160.0
+  start: 1980.0
+  text: "Guys, this distance we can just assume never changes. Now, if I'm looking\
+    \ at something like joint angles, if I assume that these are rigid bodies and\
+    \ that the radius doesn't change, then I only need one number to define where\
+    \ it is and not two. This means I have one less number to deal with, which is\
+    \ great because we already have too many numbers that don't make sense. This might\
+    \ change tomorrow. \n\nLet's see, I\u2019m going to skip some of this because\
+    \ it gets too mathy pretty quickly, and I think this will make more sense once\
+    \ there's data to look at. By way of completeness, we've been talking about ways\
+    \ of measuring space, and we should also discuss ways of measuring time. You'll\
+    \ hear terms like spatiotemporal coordinates and spatiotemporal calibration. Remember\
+    \ that's an old term. Spatiotemporal means we are considering both space and time.\n\
+    \nWhen you're looking at data like this, it's very common to see it presented\
+    \ in 2D plots. You often see that the x-axis represents time and the y-axis represents\
+    \ some measurement over time. For instance, if the y-value is the height of my\
+    \ hand off the ground, at time zero we measure it and it's one. So at time zero,\
+    \ that's me at one. Then we wait, let's say, a second and measure it again; now\
+    \ it's one and a half units off the ground at time one. If I keep moving my hand\
+    \ up, it's going to keep going up, and if I were to draw this, you would see the\
+    \ points plotted and connected, resulting in squiggles. This is called a time\
+    \ series because it's a series of measurements over time. \n\nThis is a one-dimensional\
+    \ measurement. I'm just measuring height and recording it once per time unit,\
+    \ which could be in seconds. If it's a video, that could be 30 frames per second,\
+    \ so it's once every 33 milliseconds. If it\u2019s a microphone that records at\
+    \ 44 kHz, then it\u2019s once every one over 44,000 seconds. And that's how you\
+    \ get measurements over time."
+- dur: 180.0
+  end: 2340.0
+  start: 2160.0
+  text: 'The important thing to see is that you''ll often see this presented as a
+    connected line, but that''s not actually what you''re measuring. You are only
+    ever going to be measuring something at time intervals. You''ll be getting one
+    measurement per time interval, and this is what your data actually looks like.
+    We have to assume that the movement between the measured intervals is kind of
+    like what we expect it to be, and if we do that, then we can connect the lines
+    and get a nice time series. However, if this is one measurement every second,
+    and I''m doing this with my hand, then it actually doesn''t look like that under
+    the hood. If these intervals are like one every millisecond, then we can trust
+    that. If it''s one every second, I could just as easily be doing this with my
+    hand, and we only get these measurements every second. So if we interpolate, we''re
+    going to be missing a lot of the story. That''s time. I''ll just say, just because
+    it''s on the thing, that similar to space, time can also be thought of in two
+    basic forms: linear time, sort of like a stopwatch, and phasic time, which is
+    like a clock that resets to zero every cycle through the available values. That
+    will become important in the future. If you care about calculus, if this is the
+    position, the slope is the velocity because it''s the change in position over
+    time. If you do that again, you get acceleration. So velocity is the derivative
+    of position, and acceleration is the derivative of velocity. If you go back with
+    the integrals, that''s all the calculus you ever need to know as far as I''m concerned.
+    So that''s measurement. We''ve been talking about these measurements in terms
+    of these abstract units, like singular sticks, but it doesn''t really matter.
+    The same sort of methods of plotting will work no matter what units you''re measuring
+    with. For measuring distance, we might use meters; for measuring temperature,
+    we might use Celsius or Kelvin; and for measuring weight, we might use kilograms.
+    The same sort of plotting representations will work throughout. Now, this is a
+    practical thing that you should keep in mind and will come up at some point in
+    your future. When we''re talking about the sciences, there are rules about the
+    units that we''re allowed to use. Here in America, we have things like imperial
+    units for...'
+- dur: 180.0
+  end: 2520.0
+  start: 2340.0
+  text: "Feet and inches are often discussed as worthless measurements, and there's\
+    \ a strong argument for that. However, the reality is that many of our Imperial\
+    \ measurements are based on easily factorable numbers like 12 and 16, which makes\
+    \ calculations simpler in a home environment. In contrast, the metric system is\
+    \ based on 10, which is excellent for decimal points and precision, but it's more\
+    \ challenging to divide evenly. With 10, you can only factor into 2 and 5, while\
+    \ with 12, you can factor into 1, 2, 3, 4, 6, and 12.\n\nIf you imagine yourself\
+    \ as a vendor in a medieval town needing to measure out various goods, it\u2019\
+    s easier to use weights in increments of 12 and 16. This is particularly relevant\
+    \ for activities like baking, where it's simple to cut ingredients in half or\
+    \ into thirds.\n\nIn scientific contexts, we are required to use SI units, which\
+    \ are standardized measurements established by international conventions. SI units\
+    \ stand for Systeme International, a French term meaning International Standard.\
+    \ A set number of base SI units exists, including seconds for time, meters for\
+    \ length, kilograms for mass, amperes for electrical current, Kelvin for thermodynamic\
+    \ temperature, moles for the amount of substance, and Candela for luminous intensity.\n\
+    \nFor the most part, we will be focusing on these units: seconds, meters, and\
+    \ kilograms. Now let's move to our first visual aid. One of the interesting aspects\
+    \ of the metric system is the compatibility of its components. If this were one\
+    \ meter, and if this were one liter, which it claims to be, we could use these\
+    \ measurements to recreate most of the metric system. \n\nA liter is defined as\
+    \ one thousand milliliters, and a milliliter is equivalent to a cubic centimeter\
+    \ of water. A cubic centimeter of water weighs one gram. So, if you take a centimeter,\
+    \ create a cube of that dimension, fill it with water, and measure its weight,\
+    \ that weight is defined as one gram."
+- dur: 180.0
+  end: 2700.0
+  start: 2520.0
+  text: "It is defined that one cubic centimeter of water weighs one gram. If you\
+    \ get a thousand of those together, it would weigh one kilogram. Therefore, a\
+    \ thousand cubic centimeters of water would equal one liter, and one liter weighs\
+    \ one kilogram. So there's a fun sort of correspondence where if you know how\
+    \ long a meter is and you have standardized water, you can recreate a lot of the\
+    \ units that we end up using. \n\nTraditionally, the meter stick was measured\
+    \ as this physical stick in France. There used to be an actual stick like this,\
+    \ but it has rusted away over time, so now it just represents some markings on\
+    \ a stone. We have since moved away from this method of determining a meter and\
+    \ now measure it in relation to the distance that light travels. I can't remember\
+    \ exactly how we used to define seconds, but it involved the period of a pendulum\
+    \ of a given length. Now, we measure seconds in terms of the oscillation of a\
+    \ cesium atom, as they oscillate at a very regular interval. We measure meters\
+    \ by the distance that light travels in a specific number of oscillations of a\
+    \ cesium atom. This measurement was designed to be the time it takes for light\
+    \ to travel that distance, allowing us to be more precise with our modern measurements.\n\
+    \nThese are the only base units we have for conducting proper science. So, if\
+    \ you're ever doing a scientific study or measurement or need to report numbers,\
+    \ you're not allowed to use inches; you must use meters. You may choose to use\
+    \ centimeters, millimeters, kilometers, or whatever unit makes sense for your\
+    \ measurement, but you cannot use inches or feet. Similarly, for measuring mass,\
+    \ you cannot use pounds; you must use kilograms. When I say 'allowed,' I mean\
+    \ that the scientific community has agreed on these standards. If you're publishing\
+    \ a paper in a scientific journal, then you must adhere to these conventions."
+- dur: 180.0
+  end: 2880.0
+  start: 2700.0
+  text: "If you present information using non-SI units, such as feet and pounds, they\
+    \ should return it to you and request that you convert it to SI units. If they\
+    \ do not, I would consider that a failure of the peer review process, which is\
+    \ a separate conversation. Now, let's notice that this rather constrained list\
+    \ of possible units begs the question: why is it so limited? Why are these the\
+    \ numbers we have? The answer is that if you drill down into it, these are what\
+    \ we consider to be the short list of measurable things. Everything we can measure\
+    \ with our basic tools can boil down to either these basic quantities or derive\
+    \ more complicated combinations of these quantities. We have time, spatial extent,\
+    \ mass, electrical current, temperature measured in Kelvin\u2014where zero is\
+    \ Absolute Zero\u2014moles as a countable amount, and candela as a measure of\
+    \ light. \n\nWhen we talk about transduction and the environmental energies that\
+    \ the nervous system takes in to help us perceive the world, we can think in a\
+    \ roundabout way about sensory systems. If you're thinking about the energy they\
+    \ absorb to provide an empirical estimate of what exists in the world, consider\
+    \ how sight, sound, touch, and taste relate back to these basic units. You will\
+    \ also quickly realize that if you're trying to measure anything of interest,\
+    \ these basic units may not be adequate for very long. You will eventually need\
+    \ to develop new units to measure more complex or interesting phenomena. \n\n\
+    For example, if you want to measure something like velocity\u2014that is, how\
+    \ fast something is moving through the world\u2014you cannot use only these basic\
+    \ units. Instead, you need to combine some of them. Velocity can be measured in\
+    \ meters per second, which means every time a second passes, you move this many\
+    \ meters. Therefore, the SI units for velocity are meters per second. If you are\
+    \ moving slowly, you might use millimeters per second, and if you're moving quickly,\
+    \ kilometers per second, but it will still relate back to these SI units."
+- dur: 180.0
+  end: 3060.0
+  start: 2880.0
+  text: "Getting towards neuroscience, we are rapidly approaching the topic of this\
+    \ course, which I probably should have specified beforehand. One of the main nodules\
+    \ of interest in this class is biomechanics. A lot of you have asked about biomechanics,\
+    \ like what does that mean? Conversations about biomechanics are, roughly speaking,\
+    \ good old-fashioned Newtonian physics, except as it applies to a wobbly biological\
+    \ system, typically one that has something like a muscular-skeletal system. \n\
+    \nWe will soon be getting to the biomechanics, and next week the data we will\
+    \ be collecting in class will involve standing balance. For example, look at this\
+    \ wacky thing that I'm doing with my body. I'm carrying the majority of my mass,\
+    \ roughly 100 kilograms of salty meat, like a meter and a half above the ground,\
+    \ which is an insane thing to do. I can hold this position and even go onto one\
+    \ foot. This involves a lot of mass being supported on a couple of wiggly joints\
+    \ and variable stiffness electric strings called muscles, all while having a base\
+    \ of support that is quite small. If I had come in here with 200 kilograms of\
+    \ steel and placed it on something as small as this, raising it to this height\
+    \ would be very dangerous. However, this is something we do with our bodies. A\
+    \ healthy person will do it a million times per year. \n\nIf you take 10,000 steps\
+    \ a day, let's say 20,000 steps a day because you're graduate students and you\
+    \ walk a lot, 20,000 times 365 approaches a million steps per year. That is a\
+    \ period during which the large mass of your body is being supported above the\
+    \ ground, thanks to your nervous system electrifying and firing your muscles in\
+    \ the right way at the appropriate intervals to keep you from falling over. This\
+    \ is one of those things that we don't really think about, but once you start\
+    \ thinking about it, there's a lot going on. My particular approach to studying\
+    \ this involves boiling it down to first principles, measuring the behavior in\
+    \ those basic units of geometry and physics, and then trying to figure out what\
+    \ we can infer about the unmeasurable parts of the system, which are the neural\
+    \ firings based on the physics and geometry of the measurable components, like\
+    \ where my body is at any given point in space. So, when we talk about biomechanics,\
+    \ we are talking about..."
+- dur: 180.0
+  end: 3240.0
+  start: 3060.0
+  text: "The physics of biophysics, as applied to organisms in biology, involves units\
+    \ that we refer to in terms of position, which indicates where I am in space,\
+    \ and velocity, which describes how I am moving in space. Then we start to get\
+    \ into more complex terms like force, which pertains to the forces I am applying\
+    \ to the world. For example, if I am standing right here and I push with my toes,\
+    \ I will tilt backwards. If I push off the table, I will go that way. Thus, I\
+    \ am applying forces into the world. Because I am a massive object putting force\
+    \ into the world, this will cause me to move. \n\nThe units for force are Newtons,\
+    \ defined as kilograms times meters per second squared. So, it's kilogram times\
+    \ meters per second squared, or kilogram m/s\xB2. If you remember, we have the\
+    \ following units: position is in meters, velocity is in meters per second, which\
+    \ tells us how much our position changes in meters in one second, and acceleration\
+    \ is in meters per second per second, indicating how much faster we are going\
+    \ one second from now compared to right now. \n\nIf we jump ahead to Newton's\
+    \ Laws, we know that force equals mass times acceleration. We've all heard this\
+    \ before. I will leave this as an exercise for the reader: if you take the concept\
+    \ of force, which equals mass (in kilograms) times acceleration (in meters per\
+    \ second squared), you will derive the unit we call Newtons. \n\nAdditionally,\
+    \ if we apply a force over a given distance, we refer to this as work. Work is\
+    \ calculated as force applied over distance, yielding units of kilograms times\
+    \ meters squared times seconds squared, which is referred to as a joule. A joule\
+    \ is a unit of energy, and energy is defined as the ability to do work, which\
+    \ is conserved. \n\nFor example, in the famous equation E=mc\xB2, if you analyze\
+    \ the units, you will find that energy (E) is equal to mass (m) in kilograms times\
+    \ c, which is the speed of light in meters per second, squared. This will lead\
+    \ you to one of these conclusions. Therefore, this discussion illustrates how\
+    \ these concepts are boiled down to SI units."
+- dur: 180.0
+  end: 3420.0
+  start: 3240.0
+  text: "Now that we've gotten to energy, we're touching on some classic physics concepts,\
+    \ specifically the conservation of energy. This turns out to be a fundamental\
+    \ law of physics: in a closed system, energy is neither created nor destroyed;\
+    \ it simply changes form. This is a strong belief I hold, and physics has consistently\
+    \ affirmed that conservation of energy is generally true. Therefore, this is a\
+    \ solid assumption I can utilize as a scientist to make sense of the complex data\
+    \ we'll measure when we start examining the intricate movements of a person in\
+    \ space. This data might not always make sense right away, but we will discover\
+    \ this together as a group.\n\nWe can also discuss normalized units. I will touch\
+    \ on this briefly. While we use SI units for mass\u2014such as kilograms\u2014\
+    when measuring a person moving through space, we may find measuring everything\
+    \ in kilograms somewhat cumbersome. For instance, you might say, \"I weigh 100\
+    \ kilograms,\" or something similar. This can get tedious, especially since we\
+    \ are focusing on studying a person.\n\nTo simplify our calculations, we can normalize\
+    \ our mass measurements by dividing by my personal body weight, or my mass in\
+    \ kilograms. By doing this, we no longer have to use kilograms directly; instead,\
+    \ we can discuss body masses or weights. Although, it's important to note that\
+    \ weight is actually a measure of force, not mass. So, we normalize mass by the\
+    \ participant's body mass, which gives us a unit of one. This is a very convenient\
+    \ unit, as it simplifies the math significantly. \n\nNow, as we progress, we are\
+    \ inching closer to conceptualizing a human as one of these approximations. This\
+    \ is still quite complex, but we'll stick with this concept for now."
+- dur: 180.0
+  end: 3600.0
+  start: 3420.0
+  text: "We've gotten through all that spatial stuff, all that measurement stuff,\
+    \ and all that unit stuff. Now we can start thinking in terms of physics. Physics\
+    \ is essentially the math that describes how objects move through the world. There\
+    \ are all sorts of different layers of physics, and the layer that I tend to focus\
+    \ on is what's called classical mechanics. Classical mechanics is basically Newton's\
+    \ three laws as they apply to simple mechanical objects, so it's essentially Cannonball\
+    \ physics. \n\nThis is also a fun example of a philosophy of science concept,\
+    \ which is that all of our theories are wrong at every point in time. Newton's\
+    \ laws came about, I want to say, in the 1700s or something like that. He was\
+    \ trying to understand the motion of the planets, and he came up with these simple\
+    \ rules of how mechanics tend to work. It was very useful and explained a lot\
+    \ about the physical world, as well as how to derive the trajectories of simple\
+    \ objects through space using Newtonian mechanics. It explains the majority of\
+    \ planetary motions, but it doesn't do a great job of predicting the movement\
+    \ of the planet Mercury. \n\nIn fact, even back in that day, if they applied the\
+    \ Newtonian predictions for planetary trajectories, Mercury's orbit didn't align\
+    \ with the predictions. They actually postulated for a long time that there was\
+    \ another planet between Mercury and Venus that could account for the weird anomalies\
+    \ in Mercury's orbit, and that planet was called Vulcan, which is where that term\
+    \ comes from. \n\nEventually, time passed, and a guy named Einstein entered the\
+    \ picture and started introducing all these wacky ideas around relativity theory.\
+    \ It's much harder math, but if you apply that theoretical framework to the motions\
+    \ of the planets and account for the fact that the sun is so massive that it warps\
+    \ space-time, now Mercury's orbit starts to make sense. There's no longer a need\
+    \ to posit the existence of some unknown, undiscovered planet called Vulcan. We\
+    \ know from measurements that Newton's laws of mechanics are not an accurate representation\
+    \ of the physical universe we inhabit. We also know that in any location that\
+    \ we..."
+- dur: 180.0
+  end: 3780.0
+  start: 3600.0
+  text: "Tend to care about as human beings on this planet, the accuracy that you\
+    \ get when you use Newton's Laws is like nine digits, it's like nine decimal places\
+    \ out. So, you start like the difference between the prediction of this ball's\
+    \ motion in Newtonian mechanics and the same prediction in relativistic mechanics\
+    \ is so far below our ability to measure the position. You only really use relativity\
+    \ when you start looking at things like planets on the scales of stars and stuff\
+    \ like that. So, we still use Newtonian mechanics for almost everything that we\
+    \ do in our daily lives, even though we know that it is not as accurate as something\
+    \ like relativistic physics. There's a lot to be said there, but let's keep moving.\
+    \ So, yeah, Newton's Laws\u2014there are three of them. The first law states that\
+    \ a body at rest or in motion tends to stay at rest or in motion. That's inertia;\
+    \ things in motion tend to stay in motion unless acted upon by a force. The second\
+    \ one, arguably my favorite, is force equals mass times acceleration. Or if you're\
+    \ in rotational space, it's torque equals moment of inertia times angular acceleration,\
+    \ but don't worry about that. So, force equals mass times acceleration is a very,\
+    \ very useful equation. Basically, if you look at me, I am a mass. My mass is\
+    \ not changing, so let's ignore the M of that because it's not doing anything;\
+    \ it's a constant. So, let's divide by my body weight, and then we have force\
+    \ equals acceleration. So, I'm not moving, I'm not accelerating. That means that\
+    \ the sum of forces acting on my body has to equal zero. If it didn't, I would\
+    \ be moving. Now, I'm going to... all the positives and the negatives have to\
+    \ add up to zero in order for that to work. And you can see if I, I like soften\
+    \ my... oh, let me do this backwards. The third law is, for every action there\
+    \ is an equal and opposite reaction. You have an action and a reaction force.\
+    \ So, here I am standing\u2014look, we're officially doing neuroscience. That's\
+    \ me, I'm standing, and I'm standing on the ground, and I weigh one body mass,\
+    \ and I am being pulled down by this horrible planet at a rate of G. If you drop\
+    \ me from a place up high, I would accelerate downward at 9.8 meters per second\
+    \ squared; let's call it 10. And that's always happening."
+- dur: 180.0
+  end: 3960.0
+  start: 3780.0
+  text: "At all times, this force, G, equals 9.8 m/s squared. So that's the acceleration,\
+    \ and using the equation F equals ma, I am being pulled down by that amount. However,\
+    \ I'm not moving, so there must be something else pushing back with exactly the\
+    \ same force, and that's our good friend the ground. The ground is a very useful\
+    \ object; it allows us to complete most of our goals. As I push down, this is\
+    \ the action\u2014I'm pushing into the ground with mass times gravity force, and\
+    \ the ground is dutifully pushing back with exactly negative mass times gravity\
+    \ force. Great! If I ever decide to break this equation, I can push. If I decide\
+    \ to push off the ground with more force than gravity is pulling me down, then\
+    \ I can do something as wacky as jump. So, I apply force into the ground, and\
+    \ if that force is greater than my weight, I become briefly airborne, and then\
+    \ gravity pulls me back down. That winds up being important for a lot of things.\n\
+    \nOkay, I need to speed up here. I think I know how this is going to go. So, this\
+    \ is a preview of high-level human movement neuroscience, but we need to do a\
+    \ little more work before we can dive into the meat of it. Let's go back to thinking\
+    \ about simple spheroids, such as brightly colored juggling balls. When you're\
+    \ doing empirical studies and measurements, you always have to make assumptions;\
+    \ that's always going to be a thing you do. You have to assume that your senses\
+    \ aren't lying to you at all times. You also make assumptions that the authors\
+    \ of the papers you read are not actively lying to you and falsifying all their\
+    \ data. Each time you make an assumption, you gain a little more predictive power.\
+    \ So, if I'm trying to measure my body moving through space, I know that this\
+    \ is..."
+- dur: 180.0
+  end: 4140.0
+  start: 3960.0
+  text: 'like a wobbly, meaty thing. I know that the distance between my elbow and
+    my wrist changes ever so slightly because I am made of squishy meat. However,
+    if I assume that this is not happening and that I am actually composed of rigid
+    bodies that do not change length, my math becomes significantly easier. I no longer
+    have to measure the length between these points; I only have to measure the angles
+    between them. The only measurement that can be made without making assumptions
+    is that you are having a conscious experience at this exact moment, which is not
+    particularly useful.
+
+
+    This brings us back to the earlier discussion about the idea of conservation of
+    energy. It is one of those very powerful and useful assumptions that can help
+    us progress toward understanding the things we care about in our research objectives.
+    For instance, if my goal is to understand something like standing posture or,
+    God forbid, locomotion, there are many aspects of that question that I cannot
+    measure empirically. I simply do not have the technological capacity to measure
+    the firing in my cerebellum or the stretch forces in my muscles. However, I can
+    measure things like the stick figure position of my body 33 times per second using
+    a motion capture system that I built over time at home.
+
+
+    By utilizing what I can measure and making certain assumptions about conservation
+    of energy, I can begin to understand what we will refer to as the ''fiddly bits.''
+    This concept will be further explored next week. For now, I want to cover as much
+    material as possible so that you will have experienced it at least once.
+
+
+    When performing a mechanical analysis of a person, you need to consider what forms
+    of energy are relevant to the task at hand. In this part of the class, we are
+    focused on measuring movement and the motor control aspect; we are not examining
+    perception or vision. Therefore, we can ignore factors such as light and concentrate
+    on the essential physics of being a massive object in a world that includes ground
+    and gravity. The forms of energy that we can measure and care about the most are
+    primarily...'
+- dur: 180.0
+  end: 4320.0
+  start: 4140.0
+  text: "Potential energy and kinetic energy have various forms. The most obvious\
+    \ and easy one is gravitational potential energy, which is related to height.\
+    \ We can consider the ground to be at zero height; the horizontal position does\
+    \ not matter, but the vertical position does. Gravitational potential energy is\
+    \ calculated as mass multiplied by gravity and height. Here, mass is measured\
+    \ in kilograms, gravity in meters per second squared, and height is measured in\
+    \ meters. When you do the math, you will find that the units will be in Newtons.\
+    \ Essentially, potential energy measures the force that an object would exert\
+    \ if dropped onto a scale. \n\nOther forms of potential energy, which we won't\
+    \ focus on as much, include spring potential energy, related to the stretchiness\
+    \ of springs, and chemical potential energy, such as that found in food, bombs,\
+    \ gasoline, and other sources. In deeper levels of biology, we will delve more\
+    \ into chemical potential energy, which is involved in ionic charge mismatches.\
+    \ This relates to the concept of low energy states; for instance, if an object\
+    \ is held above the ground, its low energy state is at rest on the ground. When\
+    \ released, we can determine the energy upon impact.\n\nNow, let's consider kinetic\
+    \ energy, which is the energy of motion. The formula for kinetic energy is one-half\
+    \ times mass times velocity squared, represented as 1/2 MV\xB2. Here, mass is\
+    \ again in kilograms and velocity in meters per second. The result will also be\
+    \ in Newtons because it measures force. Kinetic energy represents the amount of\
+    \ force that would be experienced at the precise moment before an object hits\
+    \ the ground. The kinetic energy at this moment will equal the amount of gravitational\
+    \ potential energy the object had before it was dropped. When these two energies\
+    \ are combined, they account for the energy transformations taking place as the\
+    \ object moves from a height to the ground."
+- dur: 180.0
+  end: 4500.0
+  start: 4320.0
+  text: "Using that type of analysis, potential and kinetic energy explain phenomena\
+    \ such as the parabolic flight of an object through space. As it leaves my hand,\
+    \ it possesses an instantaneous moment of energy at the moment it breaks contact\
+    \ with my hand. In free flight, it has a certain amount of kinetic energy, which\
+    \ is the maximum energy it will have during its entire trajectory. At this point,\
+    \ it has maximum kinetic energy and minimum potential energy. As it moves upward\
+    \ through space, its kinetic energy slows down, and as it gets higher, the potential\
+    \ energy increases until it reaches the apex. At this point, the potential energy\
+    \ is at its maximum because it is as high as it will get, while the kinetic energy\
+    \ is at a minimum, briefly reaching zero velocity as it transitions from rising\
+    \ to falling. When it comes back down and reaches the exact moment it hits the\
+    \ ground, it will have the same amount of kinetic energy as it had when it started.\
+    \ This creates a nice trade-off between kinetic and potential energy. \n\nWhen\
+    \ I talk about concepts like transduction for vision, action, or somatosensation,\
+    \ we are discussing the transfer of energy from one form, such as light measured\
+    \ in candelas, into another form, which is a pattern of neural activity that can\
+    \ be measured by voltages and ion mismatches. There is much that remains unmeasurable\
+    \ in that conversion. However, physics suggests that if we could tally up every\
+    \ ion and every quantum of energy, the mathematics of that conversion would work\
+    \ out as perfectly as the physics of simple ballistic motion. The transition between\
+    \ kinetic and potential energy is also a form of transduction, representing a\
+    \ transfer of energy from one form to another.\n\nIf I were a bird, I could flap\
+    \ my wings and push against the air sufficiently to generate a reaction force\
+    \ that counteracts gravity. If I were using a pogo stick and compressed it before\
+    \ releasing it, it would contain spring potential energy that would allow it to\
+    \ bounce upon hitting the ground. Assuming a simple rigid body scenario, the kinetic\
+    \ and potential energy would demonstrate this nice conservative trade-off, which\
+    \ will become important later."
+- dur: 180.0
+  end: 4680.0
+  start: 4500.0
+  text: 'Now we get to my favorite part, which I will only touch on briefly. Next
+    time, we will discuss this at length. This is the concept of the center of mass.
+    The center of mass is a term in physics you have probably heard of; it comes up
+    a lot in sports, especially anything related to gymnastics and balance. You hear
+    people talk about the center of mass as the position of your body.
+
+
+    The center of mass is the average position of all the components of a larger object.
+    For instance, if I were to take this tube and cut it into one-centimeter long
+    sections, then take the position of those sections relative to a zero point and
+    calculate the average, it would be in the middle of the tube. That is the center
+    of mass. When you are supporting something above the ground, you support the center
+    of mass of the object. If I were to hold it over here, then the center of mass
+    would fall, and it wouldn''t stay on my hand.
+
+
+    For example, I have these ankle weights that I found on the street near my house.
+    There is a place in the neighborhood where people leave things they no longer
+    need. I found these weights, and they are somewhat useful for this demonstration.
+    They weigh about a pound, which is roughly half a kilogram. Before I added the
+    weights, the tube had uniform density, so the center of mass was in the middle.
+    Now that it is not of uniform density, the center of mass shifts to this new position.
+
+
+    Now, the center of mass of the entire system takes into account the shift and
+    density of all components involved. If we wanted to, we could determine how much
+    this system weighs by measuring the distance between the balance point and the
+    center of the tube, which is where we would balance it if it were symmetrically
+    oriented. However, I do not want to proceed with that right now.'
+- dur: 180.0
+  end: 4860.0
+  start: 4680.0
+  text: "Could you see the concept of balance as the relationship between the center\
+    \ of mass and the base of support? This is something we're going to discuss a\
+    \ lot. Similarly, we talked a little about reductionist approaches to scientific\
+    \ studies, which involves trying to nail down the problem. I mentioned before\
+    \ that I want to measure something I care about, but I don't have the ability\
+    \ to measure all the parts of it with the precision I need. One approach to dealing\
+    \ with this problem is to narrow your focus. Instead of trying to explain the\
+    \ entire complexity of the moving object, which is not available for empirical\
+    \ measurement, you can look at a smaller piece of it. For example, instead of\
+    \ examining the entire body, you might look at just the movement of a single joint\
+    \ or a single arm. You can maintain a high level of fidelity by considering this\
+    \ shape in terms of a thing that has all these joint angles that can define its\
+    \ position at a given point in time. However, even for something like this, which\
+    \ is a massive simplification of a human, it's still a complex object physically\
+    \ speaking. There are still a lot of joints that can vary, and the number of degrees\
+    \ of freedom you have is equal to the number of joints multiplied by two or three,\
+    \ depending on how you count. To define the position of this kinematic object\
+    \ in space requires many different numbers, which can be challenging to deal with.\
+    \ The other approach is to simplify the system you're looking at into a significant\
+    \ oversimplification and try to do so in a way that still allows you to make meaningful\
+    \ statements about the system as a whole. This is essentially what the idea of\
+    \ the center of mass is. Rather than thinking about this whole complex thing with\
+    \ all the joints, muscles, blood pumping, and the biological realities involved,\
+    \ we can condense it down into a simplified system. This is something I created\
+    \ some years ago, and it shows a guy doing a handstand\u2014a French parkour artist\
+    \ named Simonster. The X here is..."
+- dur: 180.0
+  end: 5040.0
+  start: 4860.0
+  text: The full body center of mass is measured as the weighted sum of each of the
+    body segments, such as the forearm, the upper arm, the head, the chest, and the
+    legs. You take the average of all those positions, weighted by the mass of the
+    specific segment. For example, the forearm weighs considerably less than the legs.
+    This gives you the center of mass position. Then, if you measure the limits of
+    the base of support here, it is the distance between the tips of the fingers and
+    the heel of the hand, which are the points where you can exert force into the
+    ground. The center of mass always stays within that space. You can understand
+    that even though there are many biological factors involved, from a physics perspective,
+    you can define the task of balance using very simplified models of the body. This
+    reduction takes the entire complexity of a human being and boils it down to a
+    singular point mass, which can represent two dimensions or even three dimensions.
+    We have simplified the world to a place that feels more manageable. I am capable
+    of handling a certain number of numbers, but not too many. By the way, on the
+    list in the notes, if you click on the link, it takes you to various animations
+    that I created. We will discuss those more later. You can reduce this complex
+    object of a human down to a singular point mass. Physics indicates that what is
+    said about the center of mass of a system is to some extent true for all the objects
+    in that system; this might be related to the finite element theorem, but I am
+    not entirely sure about that. Essentially, discussing the center of mass of a
+    person is a valid approximation of the full picture that would emerge if we measured
+    every single part of their body simultaneously. However, it is clear that you
+    would lose a lot of information. For instance, if I am reducing this entire person's
+    body to that singular mass, I can no longer accurately comment on joint angles
+    or the forces at the elbow, but I can determine whether or not they are in a stable
+    or unstable regime.
+- dur: 180.0
+  end: 5220.0
+  start: 5040.0
+  text: 'Regime, and I can measure things like what''s happening at the physics level
+    when he shifts his hand from one position to the other. I can use this belief
+    about the physics of his body to start trying to infer what some of these wiggles
+    and movements actually mean. For example, without this sort of center of mass
+    analysis, it might be hard to explain why his arm is out here; there might not
+    be much to say about that. But when you''re thinking about it like this, it becomes
+    very easy. He sticks his arm out so that his center of mass... if I move my arm
+    and leg like this, the average of them keeps my body over my foot. I can do this,
+    but I can''t do that. Anyway, you''ll figure it out. I''ll show you visual representations
+    of this once you actually get the numbers next week. Right. And then, you might
+    ask the question: how do we do these measurements? How do we get these numbers?
+    And how do I know where to draw the segment center of mass for his torso? For
+    example, what percentage of body weight is a forearm? How do you get those numbers?
+    Well, it turns out we just have these lookup tables; this is called anthropometry.
+    These are just statistics. Ah, wrong way. Right. These particular lookup tables
+    come from a guy named David Winter. This is copied from a textbook of his from
+    like 1995 or something like that, and it shows these measurements of the shoulder
+    as 0.129H, where H is the body height. Then, these are the lookup tables for these
+    segments. The forearm is defined as the distance between the elbow axis and the
+    styloid, I guess, that''s here. It''s 0.28 of body mass, and the center of mass
+    is 4.36% of the weight from the proximal joint, which is the one towards the middle,
+    to the distal joint, which is the one that''s farther away.'
+- dur: 180.0
+  end: 5400.0
+  start: 5220.0
+  text: "If you add these two numbers up, they equal one. You can use these numbers\
+    \ to calculate these values. These numbers were basically statistics from a study\
+    \ where researchers analyzed various cadavers, primarily from older men. I believe\
+    \ it was part of Air Force research. There are now newer tables that include people\
+    \ of different ages and genders, but ultimately it doesn't greatly affect the\
+    \ outcome for many of the numbers. For instance, women typically have a lower\
+    \ center of mass. However, for the levels of analysis we\u2019re dealing with\
+    \ in terms of physics\u2014like where your body mass is concentrated while you're\
+    \ moving your feet\u2014the differences in estimates across various demographics\
+    \ of humans are often negligible. They fall below the precision level of our measurements\
+    \ in most cases. Therefore, I tend to use these older statistics because they\
+    \ are readily available. If you look up papers on anthropometry tables, you'll\
+    \ find all kinds of new research about athletes versus non-athletes and variations\
+    \ with age. Great work to them! \n\nOkay, pendulums are my favorite topic; we'll\
+    \ talk about them next week, along with balance. Also, this is color; there we\
+    \ go. Someday, we'll also discuss projective geometry, which relates to how cameras\
+    \ and vision work. The math involved is the same, only this focuses on light instead\
+    \ of physics. It's all about projecting images, and then there\u2019s the role\
+    \ of eyeballs and visual perception.\n\nThat was a lot of information! I hope\
+    \ you found it valuable. Just to be clear, this information will not be on the\
+    \ test; there is no test. The goal here is to internalize and conceptualize the\
+    \ material. It's more beneficial to think about how you would explain this story\
+    \ to someone else rather than trying to remember every specific detail of what\
+    \ I said. Notice that a lot of it was reconstructed from first principles, so\
+    \ it's useful to be able to do that. Try to relay this story to someone else."
+- dur: 180.0
+  end: 5580.0
+  start: 5400.0
+  text: "You know, later when you hit parts, it\u2019s like, wait, how did you get\
+    \ from there to there? Think about it, ask those questions. Okay, cool. Thank\
+    \ you. We'll talk more about this next week, and we'll talk about pendula, which\
+    \ are the best. Pendulums are my favorite, so we\u2019ll talk all about it. Okay,\
+    \ bye."
+video_id: T2CxbB5DrAs

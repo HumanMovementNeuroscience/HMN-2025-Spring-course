@@ -1,0 +1,1247 @@
+full_transcript: okay hello everybody and welcome to the last class of the semester
+  uh right right okay good yeah so went very fast um yeah so thanks for showing up
+  uh thanks for sticking around um there's no final you're all good um and today I'm
+  mostly going to be talking about uh sort of some wrapup stuff I'll be presenting
+  my final project which I hope will be to your approval uh my final project is making
+  sense of the massive gobs of text yall put into the machine um and sort of thinking
+  about what that looks like uh I've it pulls out i' I've have something that pulls
+  out like sort of like a weird report for each of you based on just like this person
+  has been talking about these things and then uh I don't think I'll take up nearly
+  the entire class so my intention is sort of like situate to that situate yall to
+  to that data show you some little fun things I just added to the machine um and
+  then yeah and then for the rest of the for the sort of remainder of the time I sort
+  of do this sort of small group thing and sort of uh you can like look over what
+  the bot think you're into um sort of talk about it in your little group uh I'll
+  come around and sort of like chat with you a bit about what's going on there um
+  and then we'll be roughly good uh I'm also going to talk a little bit about if you're
+  interested in this type of thing the research that I do in my life and in my lab
+  and that kind of stuff we'll talk about a couple Avenues you can take to involve
+  yourself in the future coming semesters and all that um so let's see what order
+  should I do this end let's do the the boring oh I also want to do like a quick uh
+  tutorial on how to set up your own Skelly bot server because it's very easy to do
+  so it's just a couple of clicks and um you can have your own version of this thing
+  and run it until I until I shut it down at which point um which I don't know probably
+  won't be very soon because I'm still I'm going to be working on it continuously
+  um so we're going to do that uh before the second half a class so if anyone has
+  questions want to set that up uh you can do so um don't use it to cheat but it's
+  no different than any other AI thing and so I don't feel like I'm giving you any
+  forbidden Weaponry that wouldn't already be available so yeah I'll good by that
+  um so yeah let's start with the procedural stuff so if you want to if you're curious
+  about this type of research this sort of General domain and you would like to keep
+  um affiliated with the weird stuff I do in my life um the easiest way to do that
+  is To Join This Server which is the research server that I run um in for my lab
+  and research and you errands in there and there's a an accumulation of other students
+  from various iterations of My Life um it's human research lab sort of like a play
+  it's not a play it's just a sort of weird acronym of human movement neuroscience
+  and the specific tag that I put for Northeastern students is numans NE m o n just
+  because it's funny um so I will take this uh how do I that invite people uh edit
+  invite never expire generate New Link copy that link go to our server go to I guess
+  announcements uh if you want to join my research lab server click here and then
+  you can do that so you click that you'll pop up in the server and then you know
+  it's used kind of in a function way so um it might be sort of like conversations
+  you're just jumping into the middle of um but I'll make announcements there about
+  like what the general like on campus sort of I have like an Open Lab meeting type
+  of thing that I do um and I'll put the schedule there and in general mostly also
+  in specific um the oncampus lab thing that I do is always open invite and it's always
+  like open schedule so if if there's like a time period that it's going on and you
+  can only show up for part of that time show up for part of that time you don't need
+  to ask to show up if you show up in a year and a half well I may not be here but
+  if you show up in a 6 months um whe you don't have to announce it just show up it'll
+  be good um and the other place you can go wait who's in The Voice channel here is
+  it me oh somebody somebody accidentally joined the voice channel uh to exit you
+  click on this thing where is it uh somebody else d The Voice Channel you'll figure
+  it out uh the other place if you're curious about specifically the free moap side
+  of this thing free moap is the moap mapy thing we did at the beginning this is the
+  server for that this is a more public facing thing um last I checked there were
+  2500 some odd folks in there um hanging out sort of a roughly at this point I think
+  pretty even mix between um like students and researchers and Neuroscience robotics
+  clinical stuff um and then about an equal mix of animators game designers mostly
+  on the sort of Indie side of things so if you're curious about that right here say
+  if you want to join the free moap project public server click here and um yeah that's
+  the sort of public facing space so if you're curious about that project want to
+  get involved want to see what's going on there um lot more going on in that space
+  um you know different vibe uh public facing type of thing so you're welcome to do
+  that um yeah and then so thinking about next semester uh I don't quite know what
+  the schedule's going to be over winter break that's always kind of a grab bag but
+  um in the in the spring semester I will have some kind of a uh lab meeting type
+  of thing once a week on campus um it'll mostly be you know me and Aaron meeting
+  up and doing stuff and on the research side of things mostly at Richard's 453 we'll
+  talk about I'll post at some point in the winter break I will post something in
+  the schedule there um but I think it sort of depends on what my class schedule is
+  which I haven't fully checked yet but it'll be it's I think it'll be something on
+  Thursday afternoons when Tuesday or Thursday afternoons but just keep an eye out
+  there um and you'll see what's up uh and yeah same kind of basic rules as before
+  like the white dots on the channels just means that there has been some message
+  posted and a red number means that you have specifically been tagged um if you see
+  a red one showing up from the lab server it's because I've probably tagged the Numan
+  role which means like open conversation open announcement for all any student Affiliated
+  humans um yeah the other thing this is a little more um I'm not sure if anyone would
+  be properly into this but I will also make an announcement about uh what I'm going
+  to be doing in the class I'm doing next semester um so that's going to be a um an
+  inquiry session so it's the first semester freshman which y'all presumably all did
+  at some level um it's going to be basically the same class except split into twice
+  a week so I'm going to cover mostly the same topics just in a shorter form and what
+  I'm going to do is it's going to be sort of split half and half for one of the weeks
+  one of the the one of the sessions I believe I believe it's Tuesday Thursday and
+  the Tuesday one will be like lectur types of stuff and then the Thursday one will
+  be more like researchy types of things so talking you know the the the talking to
+  the bot um there'll be more time to do like actual data analysis stuff like that
+  cuz um I think the way that you're usually do inquiries is like you're supposed
+  to present like on a paper at the end of the semester but I do it more like you
+  do like a little mini research project so if anyone is interested in the timing
+  works out um that will also be kind of like open invite for upper classman types
+  who want to show up and have an opportunity to you know dig a little deeper into
+  the stuff participate in kind of a more like constrained research project um you
+  know help some young freshman figure out what papers are um and youve got you've
+  seen how this goes like there's a lot of surface area and there's really not in
+  many like if I were to teach this class to a room full of professional researchers
+  I would not I would teach it in almost the exact same way that I did like I didn't
+  dumb it down for you I won't be dumbing it down for them there's not really a way
+  to dumb it down because it's just their surface area is so huge there's really nobody
+  that has the sort of the the specific areas of knowledge that I'm teaching except
+  for like me and that's just because I'm the one standing up here so um with specifically
+  on that research side of things if you wanted to show up you would have you know
+  the ability to kind of like you know mix and match and sort of help out people as
+  are doing stuff like maybe push some people in certain directions to sort of get
+  them to look at things that you care about um and then you know they present at
+  the end of the semester um anyone that you helped with you get your name on the
+  poster and youa I put like a source thing the student undergrad research thing which
+  is a nice way to kind of like pad the resume with a bunch of lines of like I helped
+  with research projects and it will be legitimate so um you know I don't know if
+  anyone feels like sitting in on an additional class for which you will get no credit
+  uh but you might enjoy the experience so I will also make that sort of announcement
+  once I know more about what that schedule will be um yeah and also similarly like
+  uh I guess will sort of depend cuz the I was going to say you can sort of come and
+  go whenever you want throughout the semester which is true but also uh it has never
+  been the case that the way the class goes is the way that I think it will have gone
+  so uh I'll make an announcement it's sort of before the beginning of the semester
+  about what I think the vibe will be um and if that shifts just you know I don't
+  know ask about it or who cares just show up doesn't matter um yeah oh and on a similar
+  note uh I know that for for a lot of y'all's degrees you have to have some kind
+  of a research lab um you can also do like independent studies and things like that
+  um I don't know you'd have to talk to like the advisor core about what the specific
+  rules are but I am opened for a lot of that type of thing I probably don't have
+  a ton of my like available time to like do sort of truly independent independent
+  studies but if you wanted to do something like that in order to cover a research
+  credit or however they do that um I'd be happy to work something out that would
+  sort of overlap with the stuff I'm doing with the inquiries class and sort of find
+  some way that you could pick a project and sort of interact that way um because
+  I have heard that it is like a like finding space in those research classes can
+  be difficult and often times it's not studying it's like the the domain of inquiry
+  may not be what you're particularly interested in particularly for the data science
+  minded folks uh yeah okay so there is that um also just to note again I think I've
+  said this before but in the resources Channel there's a link to this uh playlist
+  of uh YouTube recordings which are basically these ones that have been recorded
+  um it's every lecture except for one where I screwed it up and the video was corrupted
+  um but you know they're available they're online they will be online presumably
+  until you know Google dies or The Sun Burns Out whichever comes first um probably
+  Google but we'll see uh and yeah so all the things I just said if you want to check
+  in it'll be there um the lecture from last time for the majority of you who weren't
+  here is up there um and yeah and at some point not now hopefully before the end
+  end of the semester hopefully for the end of winter break skybot will have the ability
+  to eat YouTube URLs so just kind of give it a URL and it'll pull a transcript and
+  eat it and give a sort of summary that way so you could wait you could review what
+  we've been going on what's been going on here uh one of the funny things about like
+  teaching a class like this using specifically like a techie tool that I have built
+  um every class sort of Builds on the functionalities of the previous one so this
+  class uh I think the main advant the main thing I completed with this I didn't really
+  add any functionality to the bot throughout the course of this semester um but I
+  did a lot in terms on like in the back end in terms of like analyzing and processing
+  the data and sort of producing these reports we're going to talk about so um and
+  I think into the next semester I want to add more ability for the bot to kind of
+  pull information into a given chat so if you have like oh here's a PDF that care
+  about or here's like a DOI or something like that or a YouTube video or a website
+  or you know a massive you know an actual paper um adding functionality that the
+  bot will be able to just like you could be in a chat and say like hey know about
+  this thing and it'll just like pull it in and then you could ask questions about
+  that um so that'll be fun um cool and I'm sure there's questions about that that
+  that's what the second half of will be about yeah with that yeah hope so uh roughly
+  it sort of depends um a lot of this it I like that both of those tasks are pretty
+  similar at a certain level it's like adding to the context and like particularly
+  for large things it's like there's a vector search type of thing that wants to happen
+  otherwise the cont like if you pull in like a 300 page document that's so much text
+  it'll kind of like overwhelm the conversation so there's stuff you got to do to
+  to make that more efficient um and at a certain level like the difference between
+  pulling a transcript from a YouTube video and chopping up a PDF um those differences
+  are not that significant relative to the just like the core task of like adding
+  that that functionality to the the bot itself so um it sort of depends I have other
+  things to do and there sort of the ability to judge the scale of a task is an impossible
+  forever task so I hope to add stuff like that before next semester but time will
+  tell um but if you yeah I mean uh I also intend like the to for at the moment the
+  bot has mostly been just like a thing that I make and play with and sort of give
+  to some people and some other professors have used it but it hasn't really been
+  a public facing project like free moap is um I'm going to start doing that for this
+  project starting probably through next semester I want to that to be kind of like
+  a slow roll um so that will that will change the vibe a lot it will hopefully become
+  something of like a proper open source project um as opposed to like a toy that
+  I'm hanging and playing with um and just in general I think like there's some very
+  interesting like teaching methods emerging of like you know the stuff we're going
+  to talk about shortly about like just this very interesting process of I show I
+  can give these incredibly dense lectures and then walk around and have y'all all
+  kind of like like whichever part of that Peak your interest you get to explore that
+  to um some interest I think there's there's some there's something interesting there
+  that I'm curious about keeping the pushing up keeping uh keeping uh exploring and
+  then making that available to other educational humans um be they teacher types
+  are just like people who like to learn things um incidentally I'm kind of talking
+  backwards here but I often do um part of the reason why I want to focus on pulling
+  external context into conversations is uh related to this sort of like realization
+  that I had when I was doing the final sort of wrapup of the kind of like the oroboros
+  nature of AI text where like there were a lot of conversations they were I I know
+  from experience that they were all mostly on point mostly accurate and mostly saying
+  like the rightish kind of things but no one's checking the work here like and I
+  hope y'all were like look just sort of on your own um but I wasn't like I was just
+  was you know like the bot read like I was thinking about like order of or like distances
+  from a human and distances from the empirical measurement the sort of like this
+  chain of of of reasoning we've talked about lot of research settings where it's
+  like you the human asks a question and the bot produces an answer and at the end
+  of that you have a conversation where the like these human bot couplets and then
+  you summarize that and you say okay here's the summary of that conversation you
+  summarize the summaries and okay here's like a report on that thing but no one but
+  at some point you're just s like the AI text is analyzing the AI text is analyzing
+  the a text and sort of that like it progresses farther and F farther from like the
+  real natural world so I think it's not too insane to imagine a a setting here where
+  like the bot looks at the questions and goes and like pulls some review articles
+  from PubMed and then instead of just like saying what it thinks it should say based
+  off of its training it can sort of say what it thinks it should say based off its
+  training plus articles pulled from humans who have presumably qualified ifications
+  and peer review and empirical measurements behind them at some level so yeah with
+  that in mind let's talk about let's talk about where we got with this thing okay
+  so as before uh in the resources channel in the sort of there's she won't look like
+  that for you there's this server scrape checkpoints and the back the last one here
+  is the last one I intend to produce um and yeah but before before we go into that
+  oh I leared how to do this didn't I is it forward or backwards to pull it out I
+  remember yeah it was yeah I could remember if it was pull it out or push it in okay
+  so quick overview of like the basic algorithm that happened so so here's you you're
+  a human congratulations and then here's the bot it's doing its best that that's
+  the interational sign for bot um and so you ask a question and the bot produces
+  an answer whatever and then we have a couple of those and then we're going to call
+  this a chat or a thread or a conversation right so this is sort of the basic unit
+  that you've been producing um this whole time and there's this there are these linked
+  Blobs of text representing human question I mean I know there were different it
+  wasn't always like question answer it was a lot of question answer but you know
+  human query bot response human query bot response uh and each one of these things
+  is a chat so then we have and so like the the structural aspect of this is like
+  you have the server which is the Discord server the the Discord server has categories
+  which is the things like the the lectures and the body the bodies and the eyeballs
+  and stuff like that we didn't really wind up using a lot of this structure other
+  than the lectures thing um but that's okay and then within that each category has
+  a certain set of channels channels are named again like there's a prompting thing
+  that can happen that again we didn't really use very much of um so but that's okay
+  and then within each of these categories each of these are chats and each of the
+  chats has as sort of messages here right and so these are the sort of the basic
+  units of of the conversation um let's see do I have the numbers here this is one
+  of the things where it's like like what you're seeing is what I got done I'm sure
+  you are familiar with working under a deadline and the difference between the things
+  you hope you can get done and things that actually get done is often quite dramatic
+  um but like this is one like oh I should know things like we had this many chats
+  and this many words and this many things uh I don't know those numbers at the top
+  of my head they might just be shoved in here at some place um but the answer it
+  was a lot very the word count was High um like mostly bot talk um in terms of like
+  you know human produced text versus bot produced text the bot talked a lot more
+  it you know cuz asking a question like what is the cortical spinal tract is not
+  very many words the convers but the thing that it says is often quite a lot um I'm
+  just going to see if it's see what it be think I can do that is that work yeah don't
+  think it's going to give me to me um yeah I mean that's 20,000 no 200,000 lines
+  of text but mostly it's not like functional text so I don't really have those hard
+  numbers there um okay so so most of the things that we've been showing so far um
+  like when I would sort of produce these checkpoints you load them into obsidian
+  um the analyses that we were looking at was basically iterating through each of
+  these chats and so for every the server there were three categories bunch of channels
+  bunch of chats and so You' get like these sort of units of chat and we would I would
+  basically feed them back into uh gbt 40 um which is the same llm that's driving
+  Skelly bot the main main guy um and it would do things like produce like a summary
+  um highlights or whatever and then importantly um it would produce these tags which
+  were the sort of hashtag topic whatever thing um and that's most and up until this
+  point that's what we had we had a bunch of summaries AI analyses of the chats themselves
+  um I added in this round um so you might consider this kind of like a first order
+  summary because you're going through each conversation we'll call this like zeroth
+  order because like it's human to bot you know each time and then this sort of chat
+  summary is kind of like a first order analysis of that so we're going over we're
+  lumping up all the conversations we're looking at what's going on in there um but
+  there's nothing that we can do at this level that will com that will group across
+  different conversations each one of these measurements is are is sort of in is sort
+  of independent of anything else that might be going on in the server um so now there
+  are two additional categories uh one is by user and another is by topic so by user
+  that's all of you guys so basically at that point what I did is I um I cycled through
+  all of the conversations I I iterated through each one of you so every uh ID that
+  showed up in the Discord server um and then I iterated through all of the available
+  chats I think there were like 300 and some OD of these I can't remember exactly
+  what the number was um and I grouped all of the chats that you as an individual
+  person contributed to and I counted any chat where you sent a single message was
+  a chat that you were a part of um and so then I pulled this was a place that I really
+  should have done I could have done a little bit extra work here but I ran the exact
+  same summary on on this so you get this sort of again the formatting is a little
+  weird because the formatting is the same as the one for the chats but you get like
+  an AI sort of generated summary of all of the things that you know this person you
+  know summary topics tags and so this is kind of the report about yourself um I don't
+  fully trust that it's going to do a good job because if you had a lot of conversations
+  um then that's a lot of text and so saying hey summarize this very very long text
+  you get just kind of wonky results there and the main thing that you see is there's
+  a huge um what's the word like initialization bias like the first text that it receives
+  is it's over repes presented in the summary so if if the first conversation you
+  had was about dogs and then you had a bunch of other conversations about things
+  that aren't dogs the summary is going to say this person really likes dogs um just
+  by the nature of that there's ways of getting around that but they're more sophisticated
+  than what I did so you're going to have you get what you get there um the other
+  thing was by topic so I went through and grabbed each of the tags um from all of
+  the summaries uh I think not just the chats I didn't look at the tags presumably
+  yeah presumably there no there shouldn't be many additional tags showing up here
+  because the sort of the list of all users um is just a complete reshuffling of the
+  the server structure like all the chats that are in the server are also here I think
+  it might be duplications there because if you participate in the same one um and
+  so I went through and I found found all of the tags uh that showed up in any conversation
+  in any summary of any conversation um and there were like roughly 1,500 of them
+  so uh again that the number is a little bit dependent on like the prompting that
+  was used to generate them um but there were roughly 1500 tags that showed up in
+  all, 1500 sort of unique tags that showed up in all of the conversations of the
+  entire server um many of which were kind of like redundant so you have like one
+  is like ACL recovery and the other one is ACL repair those are two tags and they
+  really should be one um but uh so what I did is I I went through these and rather
+  than producing something for every single tag I only produced uh documents for tags
+  that had a rank of at least five um where rank means the number of times that they're
+  mentioned so every tag that showed up in at least five conversations got this special
+  treatment um and that one a little bit different from this summary I I asked it
+  to make a Wikipedia style article um so I grabbed I grabbed the topics let's say
+  I don't know biomech uh and I grabbed every thread that mentioned that had this
+  tag in it and I grouped all of these together and I sent it to a prompt that said
+  create an create a Wikipedia style article about this and the prompt I made there
+  was literally I went to the Wikipedia style guide copied the whole thing gave it
+  to the bot and said make a good prompt out of this style guide it made a pretty
+  good one and then now we have that so we have so yeah so that is what we're about
+  to see is this something will look very similar um B Bally everything we have been
+  seeing up until this point is going to be under a folder called by server obviously
+  and then there's going to be two additional ones that's by topic and then by user
+  where user is synonymous for student um yeah totally makes sense I'm sure everyone's
+  following fully this is one of those things that like a lot of that explanation
+  was for me and for anyone curious about what's about to show up so as before I don't
+  know which one that one is from um let's see so in downloads okay yeah and this
+  is one of those places where like there was a lot of work that happened that is
+  just going to be completely invisible from the outside because there was a lot of
+  stuff that a you're just never going to see because it was about organization and
+  like the ability to do this amount of nonsense and have it be reasonable and have
+  any kind of confidence about what's going on there it's mostly an organizational
+  task um you'll also never see all the things that were tried and never completed
+  and sort of like you know dead ends and stuff like that so say lovey uh okay so
+  download the thing open the zip go into obsidian it should be hold hat at this point
+  um open the thing um the markdown folder is the one with all the actual documents
+  in it the other ones just have uh Json fold Json files and it's white for some reason
+  as always P dark mode and let's see what looks like okay and so this is um so unlike
+  before there's actually links between the Articles the Articles now so it doesn't
+  show anything so it shows up as some links here and then this is if you add the
+  tags and look at all those weird guys um we have definitely at this point overwhelmed
+  what obsidian was intended for uh there's also one of the things I tried and didn't
+  quite get working is sort of building out a better like 3D version of this so you
+  can rotate it never quite got that working but you can so in obsidian the little
+  gear box at the pro at the bottom click that go to community plugins turn on community
+  plugins browse 3D I think this none of these are quite what I want them to be um
+  but they're better than what I have which is nothing I just search for 3D and I
+  just turn on the top three because they're all uh not quite what I want in slightly
+  different ways so you can at least look at them and mostly it's just this is not
+  going to be like useful it's just going to be like oh look uh so those show up do
+  that one so this one is fun be it doesn't this is just a thing it doesn't show the
+  tags but it kind of you can start to see like how some of these things work so like
+  Neuroscience is attached to everything uh something movement is attached to many
+  things and a lot these other ones just aren't linked right mostly because they didn't
+  generate the the tags the links properly um this one's a little better it also doesn't
+  show tags someone gets a special place in my heart because they plotted the XYZ
+  in the origin there um it does a better job of showing the the titles um but it
+  also doesn't show the the tags this one shows the tags but it's also a bit of a
+  horror show someone got too excited about Bloom which is that brightness effect
+  and then there commands here display control you can turn the Bloom down but not
+  off so but it does show the route the tags um it's in green I believe uh yeah so
+  that one oh this one's by user so again there's not much more to say about this
+  um about about this representation of this the graph structure other than to kind
+  of just note um the the general eneral Vibe of it which is that these are a bunch
+  of very interconnected topics in a very and this exploration even though it's not
+  particularly functionally organized this is representative of this is the shape
+  of your Collective curiosity about the topic of human movement neuroscience and
+  if you were to click through which we will in a second here you would see a bunch
+  of different conversations hundreds of different conversations of each of you asking
+  some kinds of questions about some kinds of things that you want wanted to know
+  more about and although there's you know the topic itself constrains the questions
+  to some extent um and if I were to teach this class again um with a bunch of different
+  people you would see a lot of overlap in the questions that were asked but it wouldn't
+  be complete overlap if it was a different room full of people you would have asked
+  different questions and then the results would have different components here um
+  and there's something I think really neat about that uh I remember at one point
+  in the semester after I think the motor hierarchy uh lecture um right you know gave
+  a very dense run through of a bunch of different parts of your nervous system um
+  I remember went going around to talk to people after that and you were talking to
+  the bot and every single group that I talked to was asking about something different
+  um there was no overlap between the things that you were curious about which was
+  really cool and really surprising to me like you know you kind of expect it's like
+  oh they're all going to be interested in this they're all going to be interested
+  in that but every one of you was interested in something different about that lecture
+  and because of the the friendly machine um you're all able to explore that uh curiosity
+  in a way that was constrained by the by the lecture constrained by the topic constrained
+  by the reality of having of the human nervous system but shaped specifically by
+  the questions that you asked and the sort of the Curiosities that you brought to
+  the table um and that's something I think that's very indicative of a lot of the
+  world and a lot of the way that we do scientific research like to some extent there
+  is this I think very incorrect view of science that it is it's an objective thing
+  and that there's no human element to it and you hear people say things like oh if
+  we deleted all the scientific textbooks in a thousand years we'd have the same textbooks
+  and that's not entirely false it's there would certainly be like we would discover
+  the same things we would discover that there's a spinal cord and that there's a
+  big lumpy pink thing on top um and we would discover things like Rodman's areas
+  and that the occipital that this is where the vision stuff happens but the the concepts
+  that that evolve and sort of arise from scientific research are shaped by the people
+  that do the the researching they and the the the the the terms and terminology and
+  sort of like um Frameworks that we develop they're human things that we create in
+  order to help us understand the world that we're a part of and they're shaped by
+  the world um you can't just make them up there's rules about sort of the things
+  you can say but it's a very human endeavor and it's something that I think is really
+  important to think about um this is also not directly related to this but there's
+  this concept in philosophy of science which I think is one of the more Core Concepts
+  of uh the it's called the the quinian web of belief um in wvo Quin is the guy um
+  but the idea is that your knowledge of the world you as an individual you as a collective
+  you as a culture as a community as a species your beliefs about the world are interconnected
+  webs of beliefs and the little then each part of it is overlaps with everything
+  else and when you are going out and trying to explore new things and learn new knowledge
+  um when you learn some new piece of information that information has to be integrated
+  into that web of the of all the things that you believe about the world and if that
+  if the new piece of knowledge is consistent with that web then that's no problem
+  you put it in there you tag it to other things and then you're You Now understand
+  the world better if there's a conflict between you go out and you learn some new
+  fact and then you try to put it in your web of belief and it doesn't fit or it it
+  overlaps or it conflicts with something else the you have to choose to either reject
+  the new fact and say this must not be true or you have to go in and prune your tree
+  and figure out the things that this contradicts are those things is it what's the
+  cost there is it more costly to reject the new fact or is it more costly to shift
+  around the tree and change things in ways that might have reverberant effects um
+  and that I think that concept I think it's very core to the way that again we do
+  science the way that we integrate information like if whatever this node was was
+  turned out to be based on come on you can do it yeah this is user ID whatever 112
+  6223 or whatever and say this is all the research that that that user scientist
+  had done and all of the the links that it connects to are is sort of the things
+  that they have contributed to the Web of Knowledge and then we find out that this
+  person was a fraud and they were actually falsifying all of their data and all of
+  these things are now are now sort of suspect we have to delete this node then we
+  have to sort of figure out what how much of the rest of these things can stand on
+  their own versus how much them actually rely on that person's thing um and I mentioning
+  that in terms of like the human like falsification of science which is never great
+  um falsifying research but that's also true about how theories evolve and um you
+  got your yeah your who's it uh Thomas Paradigm Shift structure of scientific revolutions
+  things like that um which we're not going to talk about because I'm already getting
+  distracted but I like graphs and nodes and look at it go but um yeah and I think
+  running a little yeah and so this yeah the markdown folder and so we have all of
+  our different things we have so by server so and the top level is categories and
+  then the channel and then these are all of the uh conversations that came out of
+  that it takes a second to load I should close this um and so these are so this is
+  someone who was asking about oh this is not a good choice let's say reflex balance
+  and ear infection so someone asking about ear infections and how that could affect
+  balance the answer is uh it can for sure like that's part vular system gets involved
+  there and hopefully the bot said something similar yeah vestibular rehab the therapy
+  yep there you go and so these are the tags that show up and then the back links
+  I think don't work so don't if you click on them doesn't work and then this is that
+  whole conversation there um and I'll come and then so this is and so the by topic
+  is the new one so there are a bunch of these um and so each one of these tags is
+  let's look at something let's look at sads and going show up there you go and so
+  this one the tag link count as nine so there were nine chats that got that earned
+  the sakad tag and then there you go so this is the Wikipedia style uh article that
+  the bot generated and I think I included yeah these are links to the chat again
+  the CL the links don't work so but the names are accurate so you can search for
+  the name to find it um and this would have been the users that that had the tag
+  but that part also didn't work um and yeah and then we can do groups new group file
+  say there there so all the red ones are the are the by topic one oh wait and then
+  file uh user and all of the let's see what color should these be magenta and these
+  ones should be freaking blue so all of the magenta ones are are y'all guys the users
+  so you can search for yourself in here um the ID is your Discord ID so just right
+  click your name and get the user ID and you can search for it um and so this is
+  good old 12831 da da d736 just take the last like six digits you can search for
+  that that's going to be just as you is the whole thing for these purposes um but
+  this is a person uh who hopefully had something to say order is a little bit weird
+  here how do I do that yeah so this this person participated in 10 conversations
+  um on these various topics and I have a suspicion that a lot of these are going
+  to show up a little more generic than they want because kind of like a the smear
+  effect that happens when you just lump everything together um but this is hypothetically
+  a summary of whoever this person is um this is an overview of what their interests
+  are what they're sort of looking at and um as I said there sort of like the iterative
+  nature of teaching a class like this uh this is the kind of thing that I wish I
+  could have done throughout the entire semester um and sort of like provide this
+  sort of automatically as you go and sort of develop this kind of of like understanding
+  of what each of you are interested in and sort of trying to sort of you know Steer
+  and group and lump and sort of things lump you all lump you together and stuff like
+  that based off of this information but unfortunately the sort of as is often the
+  case in open source software the vibe is better than it's ever been and worse than
+  it will ever be so you have gotten the best version of this class that has existed
+  up until this point and with any luck you've also gotten the worst version of this
+  class that will ever exist so of going forward so hopefully it was viable within
+  that bound um yeah so yeah so I'm gonna so that's so so first things first I think
+  would be to find the the topics that you're interested in and then just find yourself
+  uh in this thing and sort of you know look at what it found about you look at what
+  it thought you were doing uh look at what it said your interests were versus what
+  you're actually into um and yeah we'll sort of come back to that in a second uh
+  and yeah so the last thing I wanted to show you is something that is on the scale
+  of for more just like fun and a little bit horrifying which is image generation
+  um one of the things that these AIS can do is generate kind of like unsettlingly
+  horrific imagery um particularly on the topic of biology which I have at this point
+  you have you've seen it you if you I think one of the main things this class is
+  sort of like the undercurrent of this is like learning how to use AI learning how
+  to use it to explore things and hopefully in in Tangent learning how to recognize
+  AI speech and AI text like it has a certain smell to it and you can sort of start
+  to learn you probably you've already started to internalize and you should continue
+  to internalize what it feels like to talk to something that is not a human being
+  um and sort of this the the general the the philosophical term it's the grounding
+  problem like the sort of the the in the the the slightly sort of floaty nature of
+  the conversations and it's like it's just as willing to say something that's totally
+  reasonable and something that's absolutely Bonkers out the wall because you are
+  talking to a statistical blob of numbers when you when you have these conversations
+  and so learning how to recognize the differences there I think is just a useful
+  life skill and similarly um the pictures that they generate when you it's strangely
+  almost the exact same technology um that generates the images as generates the text
+  it's just in two Dimensions instead of one um but learning how to you like at this
+  point you've seen them every everywhere and the question is do you just were you
+  aware that you were looking at AI generated imagery um and I'm just trying to find
+  one so at this point I'm just going to go to this one this was a conversation from
+  Caroline with 14 messages in it so I assume you talked about something interesting
+  I talked about that and so in any chat in any place uh every time you do this it
+  cost me 4 cents so be mindful of that um I haven't quite gotten to the point of
+  running that locally but uh Slash image um and you can give it a prompt but there's
+  a default prompt that just says like make a picture from this text then use context
+  you want to set that to True um so context is like the place that you're in so if
+  I hit this button then it's going to send something to Dolly 3 so yeah so it pulled
+  the text it comes up with this sort of like visualized description and then in a
+  second it will produce something or it won't we'll see there you go there you go
+  and a picture based off of the conversation that happened they're probably a lot
+  going to look like this and this is actually not a very offensive brain off this
+  is an offensive brain this is not what they and this is not how that works but um
+  you can also do let's go to a different one um this is another 14 one from Sal matu
+  so uh images and I'm going to give it a prompt and say um focus I don't know add
+  Dolphins to the te imagery Dolphins just to see if it's working and then use context
+  as true and then it will do the same thing it did before except now it will presumably
+  have some kind of a dolphy theme to it so so yeah please do that any conversation
+  that you've been a part of that seems fun any when you just want to do that do it
+  in the bot playground uh you can also if you don't use context you can just do image
+  generation and just tell it show me yeah there you go it doesn't really know I don't
+  know I think this was a conversation about Parkinson's so this is a bunch of happy
+  horrifying older ladies with brain hats and then dolphins and look at them go look
+  how happy they are so another thing I really hope that you can get from this is
+  that these are not brains you should be horrified at the biology of what it thinks
+  a brain looks like um do right here and just say image um prompt show me the neurom
+  motor hierarchy key and then I'm I'm not going to give it the context we'll just
+  see what shows up probably something terrible um but yeah so you can play around
+  with that uh I am I'll probably put some kind of limit on because the the text doesn't
+  really cost any money the image does just because it's a bigger computation um it
+  costs 4 cents I at some point we'll have it running locally so it won't cost me
+  any money uh I have we doing it can't do words so it does these horrible things
+  and it's kind of like the term here is uncanny it's close but this is not that's
+  not this person is not doing okay um things are backwards this the a lot of the
+  parts that need to exist aren't there but like you can kind of recognize where it
+  came from like hopefully like you can you know there's some uh what's the sympathetic
+  trunk stuff going on here that is the cerebellum this is the wants to be the cerebellum
+  that's the medulla ablang that's the cortex but the details are off uh and neuromotor
+  it's just it's like try it's like getting in a fight in your dreams it's like not
+  the parts don't really connect um if I was a different kind of teacher I would have
+  like assignments that involved labeling all the things that are wrong with images
+  like that but I'm not that type of a person so do it on your own left ases an exercise
+  to the reader and all that um and oh the thing the main thing I was supposed to
+  do I actually forgot to do um uh I will I'll pretend like this is ass an assignment
+  even though just because I know it's helpful to pretend these type of things I'm
+  going to make another Channel um I'll do it by the end of the day and it will be
+  a sort of a um a pairing of the introductions channel that you did when you started
+  of like asking introducing yourself talking about this that and the other but it'll
+  be more of an outro rather than an intro and I will ask you to uh I won't do it
+  in class um but I'll do it afterwards and do it if you can um and I'll just ask
+  you to like grab your summary plop it in there and then have kind of like an exit
+  interview with the bot about like the things that you covered the things you liked
+  um and I'll come up with a prompt for that so it'll be sort of you know a semi-guided
+  conversation so I'll put it on canvas and it will it it sure will look like an assignment
+  un let's pretend like I care about that um and just do it for your own edification
+  and also my own um yeah I think that's about that uh so I hope that you enjoy this
+  strange experience uh we're not ready to leave quite yet um I think in the uh yeah
+  in the remainder of this time laun you let's like pull up your stuff pull up the
+  the um you know the final scraping um look at the things that it was talking to
+  you about talk to your amongst your friends about it um and I'll come back through
+  and sort of chat through stuff until class is over in 35 minutes so uh I suppose
+  this concludes the part of the course where I stand up here and talk to you so I
+  hope you have enjoyed everything up to and including this percentage of the course
+  um thanks for uh showing up participating and yeah being I don't know how happily
+  willing you were but you were at least uh no one complained too loudly at the strange
+  and wacky structure of this course I hope you got something out of it um hope you
+  enjoyed seeing a little bit about how the sausage is made as they say and uh yeah
+  I hope to see you all around so thank you for that and with that I will turn off
+  the recorder and call it a semester almost I still there's like 35 minutes left
+  but no record of that will exist so bye
+metadata:
+  author: Jon Matthis
+  channel_id: UCOOQxlTCtUz9mr1NPWlJyYQ
+  description: '*[ai-gen''d description, see below]\n\nIn the final class of the semester,
+    the instructor presents a project analyzing the text data generated by students,
+    offering individual reports on their contributions and interests. The session
+    includes a tutorial on setting up a Skellybot server and encourages students to
+    join the instructor''s research server for future involvement. The instructor
+    discusses potential research opportunities and plans to make the Skellybot project
+    open-source. A new feature allows the bot to analyze external content, and students
+    are encouraged to explore their reports and discuss them. The class concludes
+    with an introduction to AI image generation and a request for students to reflect
+    on their learning experiences.\n\n## Highlights\n\n    The instructor welcomes
+    students to the last class of the semester, noting the absence of a final exam.\n    The
+    main focus is on presenting the instructor''s final project, which involves analyzing
+    the text data generated by students throughout the course.\n    The project includes
+    generating individual reports for students based on their contributions and interests.\n    The
+    class will include a tutorial on setting up a Skellybot server, a tool used in
+    the course.\n    Students are encouraged to join the instructor''s research server
+    for ongoing involvement in related research activities.\n    The instructor discusses
+    future opportunities for students to engage in research, including open lab meetings
+    and potential independent studies.\n    The instructor plans to make the Skellybot
+    project more public and open-source in the future.\n    A new feature allows the
+    bot to pull in external content like PDFs and YouTube videos for analysis.\n    The
+    instructor reflects on the iterative nature of teaching with AI tools and the
+    unique learning experiences they provide.\n    Students are encouraged to explore
+    their individual reports and discuss them in small groups.\n    The instructor
+    introduces an image generation feature using AI, cautioning about its limitations
+    and costs.\n    The class concludes with a request for students to participate
+    in an \'
+  duration: '3408'
+  like_count: ''
+  publish_date: '2024-12-20T13:26:33-08:00'
+  tags: ''
+  title: '[HMN24 #10] Outro and final class report'
+  view_count: '59'
+transcript_chunks:
+- dur: 180.0
+  end: 180.0
+  start: 0.0
+  text: okay hello everybody and welcome to the last class of the semester uh right
+    right okay good yeah so went very fast um yeah so thanks for showing up uh thanks
+    for sticking around um there's no final you're all good um and today I'm mostly
+    going to be talking about uh sort of some wrapup stuff I'll be presenting my final
+    project which I hope will be to your approval uh my final project is making sense
+    of the massive gobs of text yall put into the machine um and sort of thinking
+    about what that looks like uh I've it pulls out i' I've have something that pulls
+    out like sort of like a weird report for each of you based on just like this person
+    has been talking about these things and then uh I don't think I'll take up nearly
+    the entire class so my intention is sort of like situate to that situate yall
+    to to that data show you some little fun things I just added to the machine um
+    and then yeah and then for the rest of the for the sort of remainder of the time
+    I sort of do this sort of small group thing and sort of uh you can like look over
+    what the bot think you're into um sort of talk about it in your little group uh
+    I'll come around and sort of like chat with you a bit about what's going on there
+    um and then we'll be roughly good uh I'm also going to talk a little bit about
+    if you're interested in this type of thing the research that I do in my life and
+    in my lab and that kind of stuff we'll talk about a couple Avenues you can take
+    to involve yourself in the future coming semesters and all that um so let's see
+    what order should I do this end let's do the the boring oh I also want to do like
+    a quick uh tutorial on how to set up your own Skelly bot server because it's very
+    easy to do so it's just a couple of clicks and um you can have your own version
+    of this thing and run it until I until I shut it down at which point um which
+    I don't know probably won't be very soon because I'm still I'm going to be working
+    on it continuously um so we're going to do that uh before the second half a class
+    so if anyone has questions want to set that up uh you can do so um don't use it
+    to cheat but it's no different than any other AI thing and so I don't feel like
+    I'm giving you any forbidden Weaponry that wouldn't already be available so yeah
+    I'll good by that um so
+- dur: 180.0
+  end: 360.0
+  start: 180.0
+  text: yeah let's start with the procedural stuff so if you want to if you're curious
+    about this type of research this sort of General domain and you would like to
+    keep um affiliated with the weird stuff I do in my life um the easiest way to
+    do that is To Join This Server which is the research server that I run um in for
+    my lab and research and you errands in there and there's a an accumulation of
+    other students from various iterations of My Life um it's human research lab sort
+    of like a play it's not a play it's just a sort of weird acronym of human movement
+    neuroscience and the specific tag that I put for Northeastern students is numans
+    NE m o n just because it's funny um so I will take this uh how do I that invite
+    people uh edit invite never expire generate New Link copy that link go to our
+    server go to I guess announcements uh if you want to join my research lab server
+    click here and then you can do that so you click that you'll pop up in the server
+    and then you know it's used kind of in a function way so um it might be sort of
+    like conversations you're just jumping into the middle of um but I'll make announcements
+    there about like what the general like on campus sort of I have like an Open Lab
+    meeting type of thing that I do um and I'll put the schedule there and in general
+    mostly also in specific um the oncampus lab thing that I do is always open invite
+    and it's always like open schedule so if if there's like a time period that it's
+    going on and you can only show up for part of that time show up for part of that
+    time you don't need to ask to show up if you show up in a year and a half well
+    I may not be here but if you show up in a 6 months um whe you don't have to announce
+    it just show up it'll be good um and the other place you can go wait who's in
+    The Voice channel here is it me oh somebody somebody accidentally joined the voice
+    channel uh to exit you click on this thing where is it uh somebody else d The
+    Voice Channel you'll figure it out uh the other place if you're curious about
+    specifically the free moap side of this thing free moap is the moap mapy thing
+    we did at the beginning this is the server for that this is a more public facing
+    thing um last I checked there were 2500 some odd folks in there um hanging out
+    sort of a roughly at this point I think pretty even mix between
+- dur: 180.0
+  end: 540.0
+  start: 360.0
+  text: um like students and researchers and Neuroscience robotics clinical stuff
+    um and then about an equal mix of animators game designers mostly on the sort
+    of Indie side of things so if you're curious about that right here say if you
+    want to join the free moap project public server click here and um yeah that's
+    the sort of public facing space so if you're curious about that project want to
+    get involved want to see what's going on there um lot more going on in that space
+    um you know different vibe uh public facing type of thing so you're welcome to
+    do that um yeah and then so thinking about next semester uh I don't quite know
+    what the schedule's going to be over winter break that's always kind of a grab
+    bag but um in the in the spring semester I will have some kind of a uh lab meeting
+    type of thing once a week on campus um it'll mostly be you know me and Aaron meeting
+    up and doing stuff and on the research side of things mostly at Richard's 453
+    we'll talk about I'll post at some point in the winter break I will post something
+    in the schedule there um but I think it sort of depends on what my class schedule
+    is which I haven't fully checked yet but it'll be it's I think it'll be something
+    on Thursday afternoons when Tuesday or Thursday afternoons but just keep an eye
+    out there um and you'll see what's up uh and yeah same kind of basic rules as
+    before like the white dots on the channels just means that there has been some
+    message posted and a red number means that you have specifically been tagged um
+    if you see a red one showing up from the lab server it's because I've probably
+    tagged the Numan role which means like open conversation open announcement for
+    all any student Affiliated humans um yeah the other thing this is a little more
+    um I'm not sure if anyone would be properly into this but I will also make an
+    announcement about uh what I'm going to be doing in the class I'm doing next semester
+    um so that's going to be a um an inquiry session so it's the first semester freshman
+    which y'all presumably all did at some level um it's going to be basically the
+    same class except split into twice a week so I'm going to cover mostly the same
+    topics just in a shorter form and what I'm going to do is it's going to be sort
+    of split half and half for one of the weeks one of the the one of the sessions
+    I believe I believe it's Tuesday Thursday and the Tuesday one will be like lectur
+    types of stuff and then the Thursday one will be more like researchy types of
+    things so talking you know the the the talking to the bot um there'll be more
+    time to do like actual data analysis stuff like that cuz
+- dur: 180.0
+  end: 720.0
+  start: 540.0
+  text: um I think the way that you're usually do inquiries is like you're supposed
+    to present like on a paper at the end of the semester but I do it more like you
+    do like a little mini research project so if anyone is interested in the timing
+    works out um that will also be kind of like open invite for upper classman types
+    who want to show up and have an opportunity to you know dig a little deeper into
+    the stuff participate in kind of a more like constrained research project um you
+    know help some young freshman figure out what papers are um and youve got you've
+    seen how this goes like there's a lot of surface area and there's really not in
+    many like if I were to teach this class to a room full of professional researchers
+    I would not I would teach it in almost the exact same way that I did like I didn't
+    dumb it down for you I won't be dumbing it down for them there's not really a
+    way to dumb it down because it's just their surface area is so huge there's really
+    nobody that has the sort of the the specific areas of knowledge that I'm teaching
+    except for like me and that's just because I'm the one standing up here so um
+    with specifically on that research side of things if you wanted to show up you
+    would have you know the ability to kind of like you know mix and match and sort
+    of help out people as are doing stuff like maybe push some people in certain directions
+    to sort of get them to look at things that you care about um and then you know
+    they present at the end of the semester um anyone that you helped with you get
+    your name on the poster and youa I put like a source thing the student undergrad
+    research thing which is a nice way to kind of like pad the resume with a bunch
+    of lines of like I helped with research projects and it will be legitimate so
+    um you know I don't know if anyone feels like sitting in on an additional class
+    for which you will get no credit uh but you might enjoy the experience so I will
+    also make that sort of announcement once I know more about what that schedule
+    will be um yeah and also similarly like uh I guess will sort of depend cuz the
+    I was going to say you can sort of come and go whenever you want throughout the
+    semester which is true but also uh it has never been the case that the way the
+    class goes is the way that I think it will have gone so uh I'll make an announcement
+    it's sort of before the beginning of the semester about what I think the vibe
+    will be um and if that shifts just you know I don't know ask about it or who cares
+    just show up doesn't matter um yeah oh and on a similar note uh I know that for
+    for a lot of y'all's degrees you have to have some kind of a research lab um you
+    can also do like independent studies and things like that um I don't know you'd
+    have to talk to like the advisor core about what the specific rules are but I
+    am opened for a lot of that type of thing I probably don't have a ton of my like
+    available time to like do sort of truly independent independent studies but if
+    you wanted to do something like that in
+- dur: 180.0
+  end: 900.0
+  start: 720.0
+  text: order to cover a research credit or however they do that um I'd be happy to
+    work something out that would sort of overlap with the stuff I'm doing with the
+    inquiries class and sort of find some way that you could pick a project and sort
+    of interact that way um because I have heard that it is like a like finding space
+    in those research classes can be difficult and often times it's not studying it's
+    like the the domain of inquiry may not be what you're particularly interested
+    in particularly for the data science minded folks uh yeah okay so there is that
+    um also just to note again I think I've said this before but in the resources
+    Channel there's a link to this uh playlist of uh YouTube recordings which are
+    basically these ones that have been recorded um it's every lecture except for
+    one where I screwed it up and the video was corrupted um but you know they're
+    available they're online they will be online presumably until you know Google
+    dies or The Sun Burns Out whichever comes first um probably Google but we'll see
+    uh and yeah so all the things I just said if you want to check in it'll be there
+    um the lecture from last time for the majority of you who weren't here is up there
+    um and yeah and at some point not now hopefully before the end end of the semester
+    hopefully for the end of winter break skybot will have the ability to eat YouTube
+    URLs so just kind of give it a URL and it'll pull a transcript and eat it and
+    give a sort of summary that way so you could wait you could review what we've
+    been going on what's been going on here uh one of the funny things about like
+    teaching a class like this using specifically like a techie tool that I have built
+    um every class sort of Builds on the functionalities of the previous one so this
+    class uh I think the main advant the main thing I completed with this I didn't
+    really add any functionality to the bot throughout the course of this semester
+    um but I did a lot in terms on like in the back end in terms of like analyzing
+    and processing the data and sort of producing these reports we're going to talk
+    about so um and I think into the next semester I want to add more ability for
+    the bot to kind of pull information into a given chat so if you have like oh here's
+    a PDF that care about or here's like a DOI or something like that or a YouTube
+    video or a website or you know a massive you know an actual paper um adding functionality
+    that the bot will be able to just like you could be in a chat and say like hey
+    know about this thing and it'll just like pull it in and then you could ask questions
+    about that um so that'll be fun um cool and I'm sure there's questions about that
+    that that's what the second half of will be about yeah with
+- dur: 180.0
+  end: 1080.0
+  start: 900.0
+  text: that yeah hope so uh roughly it sort of depends um a lot of this it I like
+    that both of those tasks are pretty similar at a certain level it's like adding
+    to the context and like particularly for large things it's like there's a vector
+    search type of thing that wants to happen otherwise the cont like if you pull
+    in like a 300 page document that's so much text it'll kind of like overwhelm the
+    conversation so there's stuff you got to do to to make that more efficient um
+    and at a certain level like the difference between pulling a transcript from a
+    YouTube video and chopping up a PDF um those differences are not that significant
+    relative to the just like the core task of like adding that that functionality
+    to the the bot itself so um it sort of depends I have other things to do and there
+    sort of the ability to judge the scale of a task is an impossible forever task
+    so I hope to add stuff like that before next semester but time will tell um but
+    if you yeah I mean uh I also intend like the to for at the moment the bot has
+    mostly been just like a thing that I make and play with and sort of give to some
+    people and some other professors have used it but it hasn't really been a public
+    facing project like free moap is um I'm going to start doing that for this project
+    starting probably through next semester I want to that to be kind of like a slow
+    roll um so that will that will change the vibe a lot it will hopefully become
+    something of like a proper open source project um as opposed to like a toy that
+    I'm hanging and playing with um and just in general I think like there's some
+    very interesting like teaching methods emerging of like you know the stuff we're
+    going to talk about shortly about like just this very interesting process of I
+    show I can give these incredibly dense lectures and then walk around and have
+    y'all all kind of like like whichever part of that Peak your interest you get
+    to explore that to um some interest I think there's there's some there's something
+    interesting there that I'm curious about keeping the pushing up keeping uh keeping
+    uh exploring and then making that available to other educational humans um be
+    they teacher types are just like people who like to learn things um incidentally
+    I'm kind of talking backwards here but I often do um part of the reason why I
+    want to focus on pulling external context into conversations is uh related to
+    this sort of like realization that I had when I was doing the final sort of wrapup
+    of the kind of like the oroboros nature
+- dur: 180.0
+  end: 1260.0
+  start: 1080.0
+  text: of AI text where like there were a lot of conversations they were I I know
+    from experience that they were all mostly on point mostly accurate and mostly
+    saying like the rightish kind of things but no one's checking the work here like
+    and I hope y'all were like look just sort of on your own um but I wasn't like
+    I was just was you know like the bot read like I was thinking about like order
+    of or like distances from a human and distances from the empirical measurement
+    the sort of like this chain of of of reasoning we've talked about lot of research
+    settings where it's like you the human asks a question and the bot produces an
+    answer and at the end of that you have a conversation where the like these human
+    bot couplets and then you summarize that and you say okay here's the summary of
+    that conversation you summarize the summaries and okay here's like a report on
+    that thing but no one but at some point you're just s like the AI text is analyzing
+    the AI text is analyzing the a text and sort of that like it progresses farther
+    and F farther from like the real natural world so I think it's not too insane
+    to imagine a a setting here where like the bot looks at the questions and goes
+    and like pulls some review articles from PubMed and then instead of just like
+    saying what it thinks it should say based off of its training it can sort of say
+    what it thinks it should say based off its training plus articles pulled from
+    humans who have presumably qualified ifications and peer review and empirical
+    measurements behind them at some level so yeah with that in mind let's talk about
+    let's talk about where we got with this thing okay so as before uh in the resources
+    channel in the sort of there's she won't look like that for you there's this server
+    scrape checkpoints and the back the last one here is the last one I intend to
+    produce um and yeah but before before we go into that oh I leared how to do this
+    didn't I is it forward or backwards to pull it out I remember yeah it was yeah
+    I could remember if it was pull it out or push it in okay so quick overview of
+    like the basic algorithm that happened so so here's you you're a human congratulations
+    and then here's the bot it's doing its best that that's the interational sign
+    for bot um and so you ask a question and the bot
+- dur: 180.0
+  end: 1440.0
+  start: 1260.0
+  text: produces an answer whatever and then we have a couple of those and then we're
+    going to call this a chat or a thread or a conversation right so this is sort
+    of the basic unit that you've been producing um this whole time and there's this
+    there are these linked Blobs of text representing human question I mean I know
+    there were different it wasn't always like question answer it was a lot of question
+    answer but you know human query bot response human query bot response uh and each
+    one of these things is a chat so then we have and so like the the structural aspect
+    of this is like you have the server which is the Discord server the the Discord
+    server has categories which is the things like the the lectures and the body the
+    bodies and the eyeballs and stuff like that we didn't really wind up using a lot
+    of this structure other than the lectures thing um but that's okay and then within
+    that each category has a certain set of channels channels are named again like
+    there's a prompting thing that can happen that again we didn't really use very
+    much of um so but that's okay and then within each of these categories each of
+    these are chats and each of the chats has as sort of messages here right and so
+    these are the sort of the basic units of of the conversation um let's see do I
+    have the numbers here this is one of the things where it's like like what you're
+    seeing is what I got done I'm sure you are familiar with working under a deadline
+    and the difference between the things you hope you can get done and things that
+    actually get done is often quite dramatic um but like this is one like oh I should
+    know things like we had this many chats and this many words and this many things
+    uh I don't know those numbers at the top of my head they might just be shoved
+    in here at some place um but the answer it was a lot very the word count was High
+    um like mostly bot talk um in terms of like you know human produced text versus
+    bot produced text the bot talked a lot more it you know cuz asking a question
+    like what is the cortical spinal tract is not very many words the convers but
+    the thing that it says is often quite a lot um I'm just going to see if it's see
+    what it be think I can do that is that work yeah don't think it's going to give
+    me to me
+- dur: 180.0
+  end: 1620.0
+  start: 1440.0
+  text: um yeah I mean that's 20,000 no 200,000 lines of text but mostly it's not
+    like functional text so I don't really have those hard numbers there um okay so
+    so most of the things that we've been showing so far um like when I would sort
+    of produce these checkpoints you load them into obsidian um the analyses that
+    we were looking at was basically iterating through each of these chats and so
+    for every the server there were three categories bunch of channels bunch of chats
+    and so You' get like these sort of units of chat and we would I would basically
+    feed them back into uh gbt 40 um which is the same llm that's driving Skelly bot
+    the main main guy um and it would do things like produce like a summary um highlights
+    or whatever and then importantly um it would produce these tags which were the
+    sort of hashtag topic whatever thing um and that's most and up until this point
+    that's what we had we had a bunch of summaries AI analyses of the chats themselves
+    um I added in this round um so you might consider this kind of like a first order
+    summary because you're going through each conversation we'll call this like zeroth
+    order because like it's human to bot you know each time and then this sort of
+    chat summary is kind of like a first order analysis of that so we're going over
+    we're lumping up all the conversations we're looking at what's going on in there
+    um but there's nothing that we can do at this level that will com that will group
+    across different conversations each one of these measurements is are is sort of
+    in is sort of independent of anything else that might be going on in the server
+    um so now there are two additional categories uh one is by user and another is
+    by topic so by user that's all of you guys so basically at that point what I did
+    is I um I cycled through all of the conversations I I iterated through each one
+    of you so every uh ID that showed up in the Discord server um and then I iterated
+    through all of the available chats I think there were like 300 and some OD of
+    these I can't remember exactly what the number was um and I grouped all of the
+    chats that you as an individual person contributed to and I counted any chat where
+    you sent a single message was a chat that you were a part of um and
+- dur: 180.0
+  end: 1800.0
+  start: 1620.0
+  text: so then I pulled this was a place that I really should have done I could have
+    done a little bit extra work here but I ran the exact same summary on on this
+    so you get this sort of again the formatting is a little weird because the formatting
+    is the same as the one for the chats but you get like an AI sort of generated
+    summary of all of the things that you know this person you know summary topics
+    tags and so this is kind of the report about yourself um I don't fully trust that
+    it's going to do a good job because if you had a lot of conversations um then
+    that's a lot of text and so saying hey summarize this very very long text you
+    get just kind of wonky results there and the main thing that you see is there's
+    a huge um what's the word like initialization bias like the first text that it
+    receives is it's over repes presented in the summary so if if the first conversation
+    you had was about dogs and then you had a bunch of other conversations about things
+    that aren't dogs the summary is going to say this person really likes dogs um
+    just by the nature of that there's ways of getting around that but they're more
+    sophisticated than what I did so you're going to have you get what you get there
+    um the other thing was by topic so I went through and grabbed each of the tags
+    um from all of the summaries uh I think not just the chats I didn't look at the
+    tags presumably yeah presumably there no there shouldn't be many additional tags
+    showing up here because the sort of the list of all users um is just a complete
+    reshuffling of the the server structure like all the chats that are in the server
+    are also here I think it might be duplications there because if you participate
+    in the same one um and so I went through and I found found all of the tags uh
+    that showed up in any conversation in any summary of any conversation um and there
+    were like roughly 1,500 of them so uh again that the number is a little bit dependent
+    on like the prompting that was used to generate them um but there were roughly
+    1500 tags that showed up in all, 1500 sort of unique tags that showed up in all
+    of the conversations of the entire server um many of which were kind of like redundant
+    so you have like one is like ACL recovery and the other one is ACL repair those
+    are two tags and they really should be one um but uh so what I did is I I went
+    through these and rather than producing something for every single tag I only
+    produced uh documents for tags that had a rank of at least five um where rank
+    means the number of times that they're mentioned so every tag that showed up in
+    at least five
+- dur: 180.0
+  end: 1980.0
+  start: 1800.0
+  text: conversations got this special treatment um and that one a little bit different
+    from this summary I I asked it to make a Wikipedia style article um so I grabbed
+    I grabbed the topics let's say I don't know biomech uh and I grabbed every thread
+    that mentioned that had this tag in it and I grouped all of these together and
+    I sent it to a prompt that said create an create a Wikipedia style article about
+    this and the prompt I made there was literally I went to the Wikipedia style guide
+    copied the whole thing gave it to the bot and said make a good prompt out of this
+    style guide it made a pretty good one and then now we have that so we have so
+    yeah so that is what we're about to see is this something will look very similar
+    um B Bally everything we have been seeing up until this point is going to be under
+    a folder called by server obviously and then there's going to be two additional
+    ones that's by topic and then by user where user is synonymous for student um
+    yeah totally makes sense I'm sure everyone's following fully this is one of those
+    things that like a lot of that explanation was for me and for anyone curious about
+    what's about to show up so as before I don't know which one that one is from um
+    let's see so in downloads okay yeah and this is one of those places where like
+    there was a lot of work that happened that is just going to be completely invisible
+    from the outside because there was a lot of stuff that a you're just never going
+    to see because it was about organization and like the ability to do this amount
+    of nonsense and have it be reasonable and have any kind of confidence about what's
+    going on there it's mostly an organizational task um you'll also never see all
+    the things that were tried and never completed and sort of like you know dead
+    ends and stuff like that so say lovey uh okay so download the thing open the zip
+    go into obsidian it should be hold hat at this point um open the thing um the
+    markdown folder is the one with all the actual documents in it the other ones
+    just have uh Json fold Json files and it's white for some reason as
+- dur: 180.0
+  end: 2160.0
+  start: 1980.0
+  text: always P dark mode and let's see what looks like okay and so this is um so
+    unlike before there's actually links between the Articles the Articles now so
+    it doesn't show anything so it shows up as some links here and then this is if
+    you add the tags and look at all those weird guys um we have definitely at this
+    point overwhelmed what obsidian was intended for uh there's also one of the things
+    I tried and didn't quite get working is sort of building out a better like 3D
+    version of this so you can rotate it never quite got that working but you can
+    so in obsidian the little gear box at the pro at the bottom click that go to community
+    plugins turn on community plugins browse 3D I think this none of these are quite
+    what I want them to be um but they're better than what I have which is nothing
+    I just search for 3D and I just turn on the top three because they're all uh not
+    quite what I want in slightly different ways so you can at least look at them
+    and mostly it's just this is not going to be like useful it's just going to be
+    like oh look uh so those show up do that one so this one is fun be it doesn't
+    this is just a thing it doesn't show the tags but it kind of you can start to
+    see like how some of these things work so like Neuroscience is attached to everything
+    uh something movement is attached to many things and a lot these other ones just
+    aren't linked right mostly because they didn't generate the the tags the links
+    properly um this one's a little better it also doesn't show tags someone gets
+    a special place in my heart because they plotted the XYZ in the origin there um
+    it does a better job of showing the the titles um but it also doesn't show the
+    the tags this one shows the tags but it's also a bit of a horror show someone
+    got too excited about Bloom which is that brightness effect and then there commands
+    here display control you can turn the Bloom down but not off so but it does show
+    the route the tags um it's in green I believe uh yeah so that one oh this one's
+    by user so again there's not much more to say about this um about about this representation
+    of this the graph structure other than to kind of just note um the the general
+    eneral Vibe of it which is that these are a bunch of very
+- dur: 180.0
+  end: 2340.0
+  start: 2160.0
+  text: interconnected topics in a very and this exploration even though it's not
+    particularly functionally organized this is representative of this is the shape
+    of your Collective curiosity about the topic of human movement neuroscience and
+    if you were to click through which we will in a second here you would see a bunch
+    of different conversations hundreds of different conversations of each of you
+    asking some kinds of questions about some kinds of things that you want wanted
+    to know more about and although there's you know the topic itself constrains the
+    questions to some extent um and if I were to teach this class again um with a
+    bunch of different people you would see a lot of overlap in the questions that
+    were asked but it wouldn't be complete overlap if it was a different room full
+    of people you would have asked different questions and then the results would
+    have different components here um and there's something I think really neat about
+    that uh I remember at one point in the semester after I think the motor hierarchy
+    uh lecture um right you know gave a very dense run through of a bunch of different
+    parts of your nervous system um I remember went going around to talk to people
+    after that and you were talking to the bot and every single group that I talked
+    to was asking about something different um there was no overlap between the things
+    that you were curious about which was really cool and really surprising to me
+    like you know you kind of expect it's like oh they're all going to be interested
+    in this they're all going to be interested in that but every one of you was interested
+    in something different about that lecture and because of the the friendly machine
+    um you're all able to explore that uh curiosity in a way that was constrained
+    by the by the lecture constrained by the topic constrained by the reality of having
+    of the human nervous system but shaped specifically by the questions that you
+    asked and the sort of the Curiosities that you brought to the table um and that's
+    something I think that's very indicative of a lot of the world and a lot of the
+    way that we do scientific research like to some extent there is this I think very
+    incorrect view of science that it is it's an objective thing and that there's
+    no human element to it and you hear people say things like oh if we deleted all
+    the scientific textbooks in a thousand years we'd have the same textbooks and
+    that's not entirely false it's there would certainly be like we would discover
+    the same things we would discover that there's a spinal cord and that there's
+    a big lumpy pink thing on top um and we would discover things like Rodman's areas
+    and that the occipital that this is where the vision stuff happens but the the
+    concepts that that evolve and sort of arise from scientific research are shaped
+    by the people that do the the researching they and the the the the the terms and
+    terminology and sort of like um Frameworks that we develop they're human things
+    that we create in order to help us understand the world that we're
+- dur: 180.0
+  end: 2520.0
+  start: 2340.0
+  text: a part of and they're shaped by the world um you can't just make them up there's
+    rules about sort of the things you can say but it's a very human endeavor and
+    it's something that I think is really important to think about um this is also
+    not directly related to this but there's this concept in philosophy of science
+    which I think is one of the more Core Concepts of uh the it's called the the quinian
+    web of belief um in wvo Quin is the guy um but the idea is that your knowledge
+    of the world you as an individual you as a collective you as a culture as a community
+    as a species your beliefs about the world are interconnected webs of beliefs and
+    the little then each part of it is overlaps with everything else and when you
+    are going out and trying to explore new things and learn new knowledge um when
+    you learn some new piece of information that information has to be integrated
+    into that web of the of all the things that you believe about the world and if
+    that if the new piece of knowledge is consistent with that web then that's no
+    problem you put it in there you tag it to other things and then you're You Now
+    understand the world better if there's a conflict between you go out and you learn
+    some new fact and then you try to put it in your web of belief and it doesn't
+    fit or it it overlaps or it conflicts with something else the you have to choose
+    to either reject the new fact and say this must not be true or you have to go
+    in and prune your tree and figure out the things that this contradicts are those
+    things is it what's the cost there is it more costly to reject the new fact or
+    is it more costly to shift around the tree and change things in ways that might
+    have reverberant effects um and that I think that concept I think it's very core
+    to the way that again we do science the way that we integrate information like
+    if whatever this node was was turned out to be based on come on you can do it
+    yeah this is user ID whatever 112 6223 or whatever and say this is all the research
+    that that that user scientist had done and all of the the links that it connects
+    to are is sort of the things that they have contributed to the Web of Knowledge
+    and then we find out that this person was a fraud and they were actually falsifying
+    all of their data and all of these things are now are now sort of suspect we have
+    to delete this node then we have to sort of figure out what how much of the rest
+    of these things can stand on their own versus how much them actually rely on that
+    person's thing um and I mentioning that in terms of like the human like falsification
+    of science which is never great um falsifying research but that's also true about
+    how theories evolve and um you got your yeah your who's it uh Thomas
+- dur: 180.0
+  end: 2700.0
+  start: 2520.0
+  text: Paradigm Shift structure of scientific revolutions things like that um which
+    we're not going to talk about because I'm already getting distracted but I like
+    graphs and nodes and look at it go but um yeah and I think running a little yeah
+    and so this yeah the markdown folder and so we have all of our different things
+    we have so by server so and the top level is categories and then the channel and
+    then these are all of the uh conversations that came out of that it takes a second
+    to load I should close this um and so these are so this is someone who was asking
+    about oh this is not a good choice let's say reflex balance and ear infection
+    so someone asking about ear infections and how that could affect balance the answer
+    is uh it can for sure like that's part vular system gets involved there and hopefully
+    the bot said something similar yeah vestibular rehab the therapy yep there you
+    go and so these are the tags that show up and then the back links I think don't
+    work so don't if you click on them doesn't work and then this is that whole conversation
+    there um and I'll come and then so this is and so the by topic is the new one
+    so there are a bunch of these um and so each one of these tags is let's look at
+    something let's look at sads and going show up there you go and so this one the
+    tag link count as nine so there were nine chats that got that earned the sakad
+    tag and then there you go so this is the Wikipedia style uh article that the bot
+    generated and I think I included yeah these are links to the chat again the CL
+    the links don't work so but the names are accurate so you can search for the name
+    to find it um and this would have been the users that that had the tag but that
+    part also didn't work um and yeah and then we can do groups new group file say
+    there there so all the red ones are the are the by topic one oh wait and then
+    file uh user and all of the let's see what color should these be magenta and these
+    ones should be freaking blue so all of the magenta ones are are y'all guys the
+    users so you can
+- dur: 180.0
+  end: 2880.0
+  start: 2700.0
+  text: search for yourself in here um the ID is your Discord ID so just right click
+    your name and get the user ID and you can search for it um and so this is good
+    old 12831 da da d736 just take the last like six digits you can search for that
+    that's going to be just as you is the whole thing for these purposes um but this
+    is a person uh who hopefully had something to say order is a little bit weird
+    here how do I do that yeah so this this person participated in 10 conversations
+    um on these various topics and I have a suspicion that a lot of these are going
+    to show up a little more generic than they want because kind of like a the smear
+    effect that happens when you just lump everything together um but this is hypothetically
+    a summary of whoever this person is um this is an overview of what their interests
+    are what they're sort of looking at and um as I said there sort of like the iterative
+    nature of teaching a class like this uh this is the kind of thing that I wish
+    I could have done throughout the entire semester um and sort of like provide this
+    sort of automatically as you go and sort of develop this kind of of like understanding
+    of what each of you are interested in and sort of trying to sort of you know Steer
+    and group and lump and sort of things lump you all lump you together and stuff
+    like that based off of this information but unfortunately the sort of as is often
+    the case in open source software the vibe is better than it's ever been and worse
+    than it will ever be so you have gotten the best version of this class that has
+    existed up until this point and with any luck you've also gotten the worst version
+    of this class that will ever exist so of going forward so hopefully it was viable
+    within that bound um yeah so yeah so I'm gonna so that's so so first things first
+    I think would be to find the the topics that you're interested in and then just
+    find yourself uh in this thing and sort of you know look at what it found about
+    you look at what it thought you were doing uh look at what it said your interests
+    were versus what you're actually into um and yeah we'll sort of come back to that
+    in a second uh and yeah so the last thing I wanted to show you is something that
+    is on the scale of for more just like fun and a little bit horrifying which is
+    image generation um one of the things that these AIS can do is generate kind of
+    like unsettlingly
+- dur: 180.0
+  end: 3060.0
+  start: 2880.0
+  text: horrific imagery um particularly on the topic of biology which I have at this
+    point you have you've seen it you if you I think one of the main things this class
+    is sort of like the undercurrent of this is like learning how to use AI learning
+    how to use it to explore things and hopefully in in Tangent learning how to recognize
+    AI speech and AI text like it has a certain smell to it and you can sort of start
+    to learn you probably you've already started to internalize and you should continue
+    to internalize what it feels like to talk to something that is not a human being
+    um and sort of this the the general the the philosophical term it's the grounding
+    problem like the sort of the the in the the the slightly sort of floaty nature
+    of the conversations and it's like it's just as willing to say something that's
+    totally reasonable and something that's absolutely Bonkers out the wall because
+    you are talking to a statistical blob of numbers when you when you have these
+    conversations and so learning how to recognize the differences there I think is
+    just a useful life skill and similarly um the pictures that they generate when
+    you it's strangely almost the exact same technology um that generates the images
+    as generates the text it's just in two Dimensions instead of one um but learning
+    how to you like at this point you've seen them every everywhere and the question
+    is do you just were you aware that you were looking at AI generated imagery um
+    and I'm just trying to find one so at this point I'm just going to go to this
+    one this was a conversation from Caroline with 14 messages in it so I assume you
+    talked about something interesting I talked about that and so in any chat in any
+    place uh every time you do this it cost me 4 cents so be mindful of that um I
+    haven't quite gotten to the point of running that locally but uh Slash image um
+    and you can give it a prompt but there's a default prompt that just says like
+    make a picture from this text then use context you want to set that to True um
+    so context is like the place that you're in so if I hit this button then it's
+    going to send something to Dolly 3 so yeah so it pulled the text it comes up with
+    this sort of like visualized description and then in a second it will produce
+    something or it won't we'll see there you go there you go and a picture based
+    off of the conversation that happened they're probably a lot going to look like
+    this and this is actually not a very offensive brain off this is an offensive
+    brain this is not what they and this is not how that works but um you can also
+    do let's go to a different one um this is another 14 one from Sal matu so
+- dur: 180.0
+  end: 3240.0
+  start: 3060.0
+  text: uh images and I'm going to give it a prompt and say um focus I don't know
+    add Dolphins to the te imagery Dolphins just to see if it's working and then use
+    context as true and then it will do the same thing it did before except now it
+    will presumably have some kind of a dolphy theme to it so so yeah please do that
+    any conversation that you've been a part of that seems fun any when you just want
+    to do that do it in the bot playground uh you can also if you don't use context
+    you can just do image generation and just tell it show me yeah there you go it
+    doesn't really know I don't know I think this was a conversation about Parkinson's
+    so this is a bunch of happy horrifying older ladies with brain hats and then dolphins
+    and look at them go look how happy they are so another thing I really hope that
+    you can get from this is that these are not brains you should be horrified at
+    the biology of what it thinks a brain looks like um do right here and just say
+    image um prompt show me the neurom motor hierarchy key and then I'm I'm not going
+    to give it the context we'll just see what shows up probably something terrible
+    um but yeah so you can play around with that uh I am I'll probably put some kind
+    of limit on because the the text doesn't really cost any money the image does
+    just because it's a bigger computation um it costs 4 cents I at some point we'll
+    have it running locally so it won't cost me any money uh I have we doing it can't
+    do words so it does these horrible things and it's kind of like the term here
+    is uncanny it's close but this is not that's not this person is not doing okay
+    um things are backwards this the a lot of the parts that need to exist aren't
+    there but like you can kind of recognize where it came from like hopefully like
+    you can you know there's some uh what's the sympathetic trunk stuff going on here
+    that is the cerebellum this is the wants to be the cerebellum that's the medulla
+    ablang that's the cortex but the details are off uh and neuromotor it's just it's
+    like try it's like getting in a fight in your dreams it's like not the parts don't
+    really connect um if I was a different kind of teacher I would have like assignments
+    that involved labeling all the things that are wrong with images like that but
+    I'm not that type of a person so do it on
+- dur: 180.0
+  end: 3420.0
+  start: 3240.0
+  text: your own left ases an exercise to the reader and all that um and oh the thing
+    the main thing I was supposed to do I actually forgot to do um uh I will I'll
+    pretend like this is ass an assignment even though just because I know it's helpful
+    to pretend these type of things I'm going to make another Channel um I'll do it
+    by the end of the day and it will be a sort of a um a pairing of the introductions
+    channel that you did when you started of like asking introducing yourself talking
+    about this that and the other but it'll be more of an outro rather than an intro
+    and I will ask you to uh I won't do it in class um but I'll do it afterwards and
+    do it if you can um and I'll just ask you to like grab your summary plop it in
+    there and then have kind of like an exit interview with the bot about like the
+    things that you covered the things you liked um and I'll come up with a prompt
+    for that so it'll be sort of you know a semi-guided conversation so I'll put it
+    on canvas and it will it it sure will look like an assignment un let's pretend
+    like I care about that um and just do it for your own edification and also my
+    own um yeah I think that's about that uh so I hope that you enjoy this strange
+    experience uh we're not ready to leave quite yet um I think in the uh yeah in
+    the remainder of this time laun you let's like pull up your stuff pull up the
+    the um you know the final scraping um look at the things that it was talking to
+    you about talk to your amongst your friends about it um and I'll come back through
+    and sort of chat through stuff until class is over in 35 minutes so uh I suppose
+    this concludes the part of the course where I stand up here and talk to you so
+    I hope you have enjoyed everything up to and including this percentage of the
+    course um thanks for uh showing up participating and yeah being I don't know how
+    happily willing you were but you were at least uh no one complained too loudly
+    at the strange and wacky structure of this course I hope you got something out
+    of it um hope you enjoyed seeing a little bit about how the sausage is made as
+    they say and uh yeah I hope to see you all around so thank you for that and with
+    that I will turn off the recorder and call it a semester almost I still there's
+    like 35 minutes left but no record of that will exist so bye
+video_id: 7bZSNgjZJ0g

@@ -1,0 +1,1262 @@
+full_transcript: so I'm now starting recording and starting to talk so um let's see
+  I gave myself notes so so this is a topics course which as I'm sure youall know
+  is typically like topics courses are generally like they're off of the main schedule
+  and there's some sort of other kind of topic that doesn't have like a proper class
+  around it yet and often times those topics classes are taught to allow a professor
+  of a research Professor like me to kind of like highlight their own research in
+  a way that sort of doesn't fit within the standard sort of like curricula of um
+  you know the university sort of the standard stem classes that you might typically
+  take and uh this class so like I said I so I I am technically a professor of biology
+  um even though I don't really do much biy ology because in this school um there
+  isn't like a a dedicated Neuroscience Department there's the BNS um program sub
+  major minor I can never remember what the status is on that but uh my research would
+  kind of fit in a number of possible different departments um the most obvious ones
+  being so biology because I study like you know the neural aspects of things and
+  think about things such as neuron on um psychology would be I think a more an obvious
+  fit because it's got the sensation and motor control kind of stuff um these days
+  I do a tremendous amount of software development um in the sort of methods building
+  and research sort of um research tool development side of life um which is a relatively
+  recent development um I've also worked sort of close to robotics close to biomechanics
+  close to physical therapy um and the specific specific little subdomain of research
+  that me as an individual carves out it just doesn't really fit in any particular
+  department so part of the main um structure of this course is to try to think about
+  what what is the like what are the inroads to the to the specific thing that I study
+  like uh which I will sort of talk about in a second um and the goal is to kind of
+  give that sort of very broad survey of the various subtopics that sort of come together
+  to make the specific domain that I study which is human movement in natural environments
+  um but more so than that like my specific way of studying that because you can study
+  a particular Topic in a bunch of different ways and I have come from such a weird
+  and wild background that uh the sort of a interesting question of sort of how would
+  you introduce someone to that field um not a field it's just sort of a thing I've
+  learned how to do over the course of a couple decades um so there is something that
+  I kind of it's something I have to say at the beginning of every class that I teach
+  and I have never found a super great way to say it um but I don't I would not feel
+  comfortable teaching a class to a room full of undergraduate people without acknowledging
+  the moral elephant in the room um which is that none of this is okay none of the
+  general structure of Academia education is morally defensible at almost any level
+  uh the amount to which you are being exploited financially to be in this room is
+  absolutely indefensible and unconscionable um and there is truly nothing that I
+  could ever do on this side of the podium that would ever be worth the financial
+  burden that's being put on you by being here um you can do the math if you want
+  uh to calculate the number of people times the annual tuition room and board the
+  number would come out to be something like $2 to3 million if you wanted to be more
+  conservative and only count credit hours it would be somewhere around a quar million
+  dollars it's indefensible Absol absolutely not okay and I have over the course of
+  my four to 5 years let lose track um time as being as Professor here I have uh sort
+  of had to find a lot of different ways of trying to handle the um the the term is
+  moral harm uh which is the term that refers to the specific kind of sort of psychological
+  trauma that occurs when you are forced to participate in an institution or a system
+  that is morally repugnant to you in some way um I'm here for a lot of the reasons
+  that you are here which is because I love learning I love teaching I love sort of
+  the scientific exploration and the nature of society as it is is that the to do
+  that at the highest level you sort of have to come to for legal reasons I will say
+  institutions like this one um in order to participate in that and it's some it's
+  the kind of thing that I didn't fully comprehend um what that all meant until I
+  became a professor uh it's the kind of thing where like you're all students and
+  you experience life as a student does which is basically as a a temporary person
+  in an institution like this when you have a set amount of time that you'll be here
+  that you'll go through you'll have the degree um and then you'll leave and then
+  and so everything up to and up to the point of becoming a professor type person
+  has that kind of characteristic you're an undergraduate then you're a graduate student
+  then you're a postdoc and then if you sort of out compete your peers which is an
+  insane concept why are you trying to out compete your peers you should work with
+  your peers to anyways we'll get on to that um but all up until that point you have
+  there is this sort of temporary nature to it and I think in retrospect there felt
+  like it was a kind of um it felt more there's like a you're you're strugg I felt
+  like I was struggling against the system to try to SU in that context and then I
+  happened to become a professor in the summer of 2019 uh so I had about a year of
+  like boy I sure did make it and this is probably fine and then summer of 2020 roll
+  around covid happened and with all of the various ways that that affected the World
+  At Large and me in particular um I basically just lost all faith in the academic
+  and scientific systems in that summer and and uh sort of had a whole crisis of conscience
+  um and tried to was trying to find ways of basically restructuring my life and my
+  effort and sort of you know I've got I had 35 and change years at that point of
+  not 35 directly but like close to 20 years of e of effort at that point to make
+  it to this point this is a position of nonzero Social Power um and there is kind
+  of this general idea of like don't give up if you can use it to the benefit of you
+  know your own moral beliefs or whatever um and it was it was a hard and challenging
+  thing to think about uh and just to like try to sort of come you know you what often
+  times happens when you work within institutions which we are all forced to do is
+  there's a conflation between the values that you hold um and the institutions that
+  are sort of the vehicles for those values and when you lose faith in an institution
+  which I highly recommend just never trust institutions trust people don't trust
+  institutions um there was a whole thing of like trying to figure out like what I
+  was actually here for what what my actual goals and morals and values actually are
+  and a lot of things come out of that probably uh stuff that I still should not say
+  on camera um but the general idea was a a shift of Focus From the doing the traditional
+  um modes of research in education which was which pretty much to this day still
+  involves uh do research for Publications apply for Grants produce students that
+  will uh try to climb the same ladder you are on understanding entirely that that's
+  to get 10 you're you're supposed to produce like you know more than two of people
+  who are also trying to get 10 years at other school which is sort of the definition
+  of a Ponzi scheme um and that was sort of the effort it's often times you you're
+  when you're working in these types of systems that we tend to live in which are
+  competition-based hierarchies predicated on assumptions of false scarcity uh the
+  the game that you play is sort of you you're asked to compete with the people who
+  are sort of at your same level in the hierarchy in order to please the people who
+  were above you in the hierarchy most of whom have been in that position for longer
+  sort of a gerent tocy type of thing and I realized that a lot of the effort that
+  I was putting in like a a very big percentage of the effort I was I was putting
+  into the world was made in the service of the people who were above me on the hierarchy
+  and to do trying to do the things that they wanted me to do so that I could outperform
+  my peers and be allowed to stay in you know the warm happy Shing Tower at the top
+  of the hill that we are all currently in um and so one of the big changes that I
+  uh sort of M brain shifts that happened was deciding to just stop doing that and
+  to just stop caring or considering what I was being asked to do by people above
+  me in the hierarchy and start asking instead what I could do to support people who
+  were at or below me in that same hierarchy which is largely yall types um from a
+  practical perspective what that turned out to be was a so in that time of sort of
+  doing you know living doing research I sort of like I've got all these papers we'll
+  talk about them um and with that sort of crisis of conscience uh there was this
+  question of like well I don't so universities are probably evil um journals are
+  definitely evil uh so but I do love the research I do love the teaching so what
+  what do you do if if you don't want to you know do the dumb work of publishing a
+  bunch of papers to try to make the powers that be happy um to you know please the
+  gatekeeping dinosaurs above you um what do you do with your time um and it was around
+  that time sort of through other modes I mean that was I had basically I I have a
+  big fancy lab uh at Richard 453 which will be y'all will be touring with Aaron not
+  next week CU I'll be out of town um and when Co hit I I had I so I showed up I had
+  all these plans for like the research that I was going to do in the big fancy lab
+  and you know they were doing the construction and the construction wrapped up around
+  January uh and I was sort of gearing up to start the the research cycle and then
+  quarantine hit got sort of sent home and had to sort of for a while just kind of
+  flailed around trying to figure fig out like what am I going to do with my time
+  what are we going to do with our time and uh at that time I wound up um basically
+  there were a couple things happening in in in my lab at that point most of which
+  were related to the to work in like the big fancy map lab um and then there was
+  one little side project that involved uh this computer vision based method for doing
+  motion capture with like Cheo webcam in free software um and so when Co hit I basically
+  we shifted effort towards working entirely on that because that was a project that
+  we could work on sort of remotely with ease and sort of you know kind of figure
+  that out and so as so that was like March or whatever and then as we sort of got
+  into the summer and that project started to sort of like take up pick up some steam
+  um and I started losing faith in the system and all that kind of stuff I I found
+  myself kind of of uh coming across softwares such as uh blender which we're going
+  to talk about blender blender is a free open source Mark uh sorry uh got that sort
+  of stuck my head it's a big free open source um 3D animation software it's been
+  around for some decades it's a large scale wides scale thing and it has been it
+  is 100% free 100% open source and built over the course of decades by thousands
+  of people across the world and given away freely as a gift freely given for anyone
+  to use and benefit from and I kind of had this moment of realization that that was
+  actually the thing that I wanted to be doing um the open source Community is what
+  the scientific Community pretends to be like we pretend as scientists that we are
+  doing that that we're working in this big sort of global collaborative Endeavor
+  but it's not but practically speaking you're just not really able to do it so most
+  of the research that gets done really shouldn't be done it's not good research it's
+  just smart research it's strategically the right move to get the publication to
+  get the grants to get the job to get the tenure um and it never and it often will
+  serve like I'm not saying that all scientists are idiots and that all research is
+  garbage um although the percentage is higher than you wish it was um but the nature
+  of the institutions that sort of house it and the realities of like the hyper competitive
+  structures of society that we' sort of grown for ourselves are that you're not really
+  able to do it in a way that really benefits anybody outside of the club and when
+  you see scientists sort of traditional scientists doing like Outreach it's often
+  this kind of just like side thought like I'm going to go to a high school show them
+  how cool it is to be super highly educated and then just leave and then hope that
+  they're inspired enough to follow in your path out compete their peers and then
+  maybe they someday can get into that shining Tower at the top of the hill um it
+  just didn't seem right to me so uh long story short such as it is um all of that
+  kind of culminated into a sort of or not culminated but sort of over the long course
+  of time uh that became basically did I break it this guy this is computer there
+  you go so this is Freo cap.org so this is a software that I've been working on with
+  Aaron for about five years uh it's called freeo CAP it's a free open source marketless
+  motion capture system and it's basically been the thing that has soaked up the energy
+  that would have been spent publishing papers and trying to make people happy um
+  I instead spent um building this tool to do full body motion capture with Cheapo
+  garbage webcams in free software and it's been going quite well uh and we're going
+  to talk plenty more about that um it's on GitHub free moap there there's a Discord
+  server with looks like pushing 2500 members in it got about I think last I checked
+  approaching 5,00 ,000 unique users in like 115 countries which is all quite good
+  and the focus of the project and the software is to instead of taking my particular
+  skill set and expertise which I have sort of accumulated over the course of decades
+  Now using mostly taxpayer funding to pay my salaries and my paychecks um and rather
+  than trying to use that to just publish super esoteric papers that will only be
+  beneficial to other super esoteric people um the goal was to try to package that
+  same use that expertise to build a tool that sort of meets a general need of society
+  at large and then sort of try to serup building that tool as both the thing that
+  the world wants also the tool that I want to do my research um and ideally trying
+  to use that as a as a mechanism for Building Bridges and sort of pulling people
+  in so a lot of the like I would say at this point still the majority of users of
+  this software are animators um often young 3D animation artists uh video game designers
+  things like that um and also a bunch of you know students and grad students and
+  you know biomechanics clinical whatever this that and the other um lot of dancers
+  and musicians and things like that and they are using this software for their own
+  purposes that's sort of part of it is like I don't want to I don't want to tell
+  you what you should care about I'd rather just give you useful tools and let you
+  do what you want to do with it um but because I with help um Global Wei uh designed
+  this thing based off from my perspective I am also trying to sort of surreptitiously
+  uh make this as a tool that is also kind of an educational platform in its own right
+  something that will it doesn't teach you directly it's not giving you like lessons
+  and quizzes but the nature of the tool is to um try to teach you how it works and
+  to try to kind of basically the the idea is to give you kind of a greased rail into
+  the the densest part of the forest um and then shine enough lights that you can
+  sort of navigate yourself around there a lot of the education the general structure
+  of Education that um yall tend to receive is sort of this like let's start with
+  the basics let's start with the the simple boring stuff that frankly is not particularly
+  motivating on its own because trust me trust me it's going to lead somewhere so
+  cool and if you can only hang on and out compete your peers uh for long enough then
+  you'll be able to see all the cool fun stuff um and there is actually a a reaction
+  that I I've had more than once uh when I talked about the software to people where
+  which is you should be careful not to make it too easy to use otherwise the students
+  won't understand what's going on in there and it's like like insane to me to think
+  that because I would much because the reality is that in in the natural world in
+  the real world um your first reaction upon encountering something is often going
+  to be confusion like when you first come across some like strange artifact that's
+  the that's the least you were ever going to understand it and you will wind up if
+  you're lucky uh slowly kind of back in your way into a level of understanding um
+  and so rather than trying to uh basically hold your hands on a very specific path
+  with this with an intended outcome of the thing that I'm trying to show you I am
+  instead going to be trying to um show you a broad landscape that you are frankly
+  that is frankly going to be pretty over your head for the most part and then allow
+  you and give you the tools that you need to kind of Na gravitate towards the parts
+  of that landscape that are the most motivating to you as individuals um and then
+  allow you to kind like give you the tools that you need to kind of like back your
+  way into a place of understanding and basically working your way from like the advanced
+  stuff in the center of the Woods back to the beginers ship that we really should
+  have started with um so that you can basically ground yourself from the that position
+  but the reality is that because it's such a broad landscape um you're all going
+  to sort of find different parts of it and you're going to need different parts of
+  that beginner basic stuff and we'll kind of sort of gravitate in that direction
+  um so little bit of yeah let me see where I'm at with this there's more it gets
+  this is still context um right so that's so that's that's the general gist of the
+  life that I live and there's a little bit of I mean the class is obviously overlapping
+  with that General thing because I'm the one standing up here and your guys are over
+  there um specifically within this class there is another there's another player
+  um which is that I the story I was telling you about uh sort of like the loss of
+  faith and the finding of the free open source thing and sort of the reshaping around
+  this software and educational blah blah blah um all of that is basically you know
+  started in roughly summer of 2020 and it's kind of been progressing since there
+  I've taught a couple of classes sort of win that Vibe I see a couple of uh what's
+  the word uh familiar faces is possibly from inquires in some cases has anyone been
+  in a class with me before no who are you people um uh well yeah so and I've worked
+  on trying to like teaching this type of stuff and trying this like broad landscape
+  thing um and trying to incorporate as much of these sort of like beep Tech tools
+  um as I could uh and then I guess it was what was it like two years ago now April
+  two year and a half ago uh there was a there was a certain uh technological event
+  which occurred and you heard about it um and the the hype cycle has sort of come
+  and gone to the point where you're probably annoyed about it at this point but the
+  thing in question is artificial intelligence um my background uh my first degree
+  is in philosophy I got a a degree in philosophy focus on on philosophy of mind and
+  philosophy of science there's going to be a lot of that specifically the philosophy
+  of science in this course um and from there I got a PhD in cognitive science which
+  is effectively AI studies these days and my particular domain within cognitive science
+  which is another one of this like mish mash like sort of comedically broad Fields
+  was on the like the biological side like psychology Neuroscience kinds of stuff
+  um but I also did a lot of work with robotics I did a lot of sort of I learned a
+  lot about AI machine learning and sort of theories of language and all that stuff
+  um and when GPT 3.5 came out like I've been following the various language models
+  since you know roughly 2008 um and when 3.5 came out I saw and I was like oh wow
+  this is this is getting really good this is really a very they've really been working
+  over there um and then when GPT 4 came out it was just like okay there is now a
+  shift has occurred and it is now important to take note of it um so I contacted
+  my remember remember very clearly I I was uh you know I can't remember exactly the
+  the timing of it but at some point I have I have a friend named John linstead uh
+  who will probably come up later who's a friend from graduate school and he was much
+  more on that AI side of things he was a director of the cognitive science program
+  at Sunni as Wego for a while and I sort of we we got on to the Discord chat or whatever
+  and he says John we need to discuss the situation uh and we both immediately knew
+  that the situation was that AI exists and it is not it's not it's not like you don't
+  have to worry about it as like coming to life and like biting you that's not a thing
+  um and pretty much any like anything you're going to see from almost any source
+  is going to be missing the point to some degree or another one of the nice things
+  about being an expert is I just Bally look like oh yeah y' all have it wrong um
+  but and it's not endgame and there you know there's still a lot to happen but the
+  reality but it is a major shift in technology that 100% is going to reshape our
+  society in a lot of predictable and unpredict ways over the course of the next 5
+  to 10 to 20 years um and not necessarily for the better uh it is as most Technologies
+  it is come from the techn capitalist corpo hamani that is the source of so much
+  of the sort of problems and harm in our society and in much the same way that they
+  have sort of you know I'd say cause significant damage to our social infrastructure
+  over the past 20 some odd years um they are going to attempt to continue to do that
+  and they're going to attempt to use the anytime there's a new technology that comes
+  around um the techn capitalist of just the capital the Corporal capitalist basically
+  try to rush to the new domain and start building Moes around it so that they can
+  sequester it and then use their access to that thing as a way to exploit The World
+  At Large that is the true core of capitalism is to exploit disparities between yourself
+  and others to extract resources from them um and so a lot of and I think at this
+  point um a lot of that's probably become somewhat apparent and there's probably
+  uh at least a percentage of you who are sort of like feel like aii um because it
+  is so overwhelmingly tied to the corpo techn capitalist infrastructure um but there
+  another angle to that and I think that it can be very difficult to uh recognize
+  the it's very difficult I think especially when you're coming at something from
+  from like a non-expert position to discern a separation between the core technology
+  that exists and the sort of implementation of that technology like it's hard for
+  us to see things like gp4 on open AI as anything other than just like another arm
+  of Microsoft it's hard to see whatever the hell it is that you know Google is trying
+  to do is anything other than just like another way to steal your data and another
+  way to shape the world around sucking $20 a month out of you for sort of a bunch
+  of basic functionalities that you are going to eventually like require for your
+  daily life um but I think that it's really important to but I I I I think that this
+  particular technology is different because unlike a lot of other tools and other
+  like so things like computers uh and phones and things like that like these are
+  also World shaping Technologies and they did shape the world and you were sort of
+  a part of it and I think a lot of yall are the both um beneficiary and harmed individuals
+  from what happened over the C of the past 20 years when the entire world basic shifted
+  towards everything that we do in our daily lives is going to be pushed and pulled
+  through apps that are made by corporations that do not have your best interest at
+  heart um and be and there was sort of an inherent that disparity between the ability
+  to make these applications to build these types of Technologies um was one that
+  was pretty easy to exploit because you know I can't make this I can't make a chip
+  I can't I mean I guess I can build an app but it's not going to be the same thing
+  as you would get from a Google or a Facebook um and so they get to use that and
+  they get to use the fact that this is now an essential technology um you know we
+  find these Technologies and we sort of reshape our our society to them um and there's
+  sort of this limitation there um AI I think is different because it is fundamentally
+  it's like they're trying to build Moes around the moat blaster 99000 like it is
+  a tool that will teach you how it works and it will show you everything there is
+  to know about itself and they're trying to to Corral it and control it in sort of
+  in the same way that they used that they sort of that you sort of that they were
+  used to and it's kind of just not working in the way that they would expect um we'll
+  talk about that in in detail um I don't want to go too deep down this rabbit hole
+  because that is definitely something I like to do um but I'm mostly kind of saying
+  that just to sort of comment on uh the tech ick that I think is a fair uh response
+  to this to the world that we live in um because I do think that sort of AI used
+  properly is something that has the ability to be a a transformatively liberative
+  uh tool um and one that has the potential to make every single human person that
+  learns how to use it and learns how to wield it a more powerful and capable version
+  of yourself um it's not a it's not an oracle that will solve all of your problems
+  it is which is how it's often trying to be pushed on you um it's not a it's not
+  something that's automatically going to make the world better um but it is an unbelievably
+  powerful tool that if you learn how to use it what I whatever it is that you are
+  trying to do in your life if it involves the generation uh ex sort of understanding
+  manipulation of text on a screen AI can help with that um it's not automatically
+  it won't build all your life for you but it is a unbelievably powerful tool with
+  a very shallow initial learning curve and as far as I can tell an un unlimited maximum
+  possibility so um that will lead us Discord don't do that so I live a lot of my
+  life on Discord um wish I didn't I kind of I appreciate the software for what it
+  is but I also kind of hate it for what it is um and when pt4 came online uh would
+  have been like I guess spring of 2023 or something like that um one of the first
+  things I did is I built a a a a bot out of it and started using it to teach a class
+  um and that I taught it was a summer class and then I taught another version of
+  this class last fall and then I taught a class uh in the Capstone in the spring
+  didn't go so well um and then now this is is the fourth iteration of using a AI
+  Discord AI empowered Discord bot um as a way to try to teach and provide yall types
+  with a the ability to sort of explore a topic that is sort of Broad and vast and
+  uh complex um so we're going to talk about details of that sort of adnasium at some
+  point um but the basic idea is that that this so there here's this server which
+  is sort of structured roughly around the topic of the class um and here is this
+  bot named Skelly bot that lives in the server um Skelly so the this is Skelly it's
+  like the logo of mascot of free mocap and so free mocap the software has a bunch
+  of little small parts and they're all named like Skelly something so like the camera
+  part is called Skelly cam the bot part is called Skelly bot uh if you're curious
+  about it you can click on Skelly bot and then this GitHub link here will take you
+  to the source code for it and I think the most important part of this is this phrase
+  right here this bot help me build this bot um I could not have made this thing without
+  this thing uh it like the the the skills and sort of like technical aspects of building
+  a thing like this like I didn't I wasn't trained in computer science like I managed
+  to like hack and slash my way through grad school and sort of like building the
+  in order to like and I was able to build the the basics of the premot cap software
+  because that is my domain of expertise this is not um I have I mean I have like
+  an understanding theoretical understanding of AI but building a tool like this was
+  beyond me but the thing about these AI is you just say hey could you help me with
+  this thing and it's like yeah absolutely no problem 100% and it will give you an
+  answer which is mostly right often not not always but often and if you learn how
+  to navigate that and use that and sort of like uh surf the various ways that it
+  is right and wrong and like learn the kind of things that it like like oh this is
+  the problem that AI is going to it's not going to be able to do that oh it's absolutely
+  going to be able to do that um if you can learn how to navigate that space and use
+  these tools it will power level you through spaces that you could have have can
+  slash your way through over time that you could have sat down with a real human
+  primate expert who would explain it to you piece by piece um or you can just learn
+  how to ask the machine and the Machine will sort of help you do these things um
+  how exactly that happens is complex there's not like a quick answer it's like most
+  complex tools it's the learning process is a little bit of instruction with a lot
+  of just like try it and see how it goes um and part of the structure of this course
+  is to sort of give you the opportunities to do that within the landscape of the
+  neural control of real world human movement um so and so specifically now coming
+  to like AI within an educational context um if you so when I up here as like you
+  know career research scientist with some Decades of experience in this very sort
+  of rather niched out field um like I'm not so like a lot of a lot of times if you're
+  like like a a standard specialist you're like in the niche of a niche of a niche
+  of a niche of a field so you're sort of like a very very specific person um my particular
+  version of that is I'm within I'm like a niche of a niche of a niche of a niche
+  so it's sort of like not that deep down but it's like it's sort of a a breath versus
+  depth kind of thing um which can be harder to do not hard necessarily harder to
+  do it takes a same amount of time but it can be harder to teach um because I can't
+  assume that you all have gone through like if I if I was like an advanced you know
+  epigenetics of Immunology F expert I can say okay have y all done like you know
+  intro bio cell bio like you know whatever da da da da D all the expertises that
+  you would need to get to this sort of level of spe specificity and depths um with
+  this kind of very broad area like it's I can't assume that it's possible that some
+  of you have some of the prere but none of you are going to have all of them because
+  I've I've checked and pretty much one of the like there are roughly one person in
+  the world that has all of my same background because I just I bounce around so much
+  that the specificity that you get to is just kind of you become a uniqueness when
+  you start overlapping enough skill sets uh pretty quickly uh which is just also
+  just generally good career advice it is way easier to be unique by just combining
+  a bunch of different things um and then eventually you sort of see that all the
+  when you overlap enough vend diagrams and you look at sort of who is shared amongst
+  all those V diagrams it's like oh wait this is actually just me um which is way
+  sort of easier and more fun to do than to try to sort of out compete everybody that
+  sort of is in the same sort of space and domain um but you know all your heart oh
+  yall all found your way in good job um so uh the general Vibe of AI within this
+  class um will be that this uh so who here has used GPT at all like prompted little
+  bit talk to it you say hi it says hi back you ask it a question it says something
+  back um the low the base level um introduction there is prompting AI large language
+  models in particular are at their core language calculators um in the same way that
+  you would sort of punch a bunch of numbers into a calculator push go and it gives
+  you another number L language models do roughly the same thing you you push a bunch
+  of words into their context window push go and it looks at its unbelievable sort
+  of uh data set and provides a statistically most likely answer um that is the the
+  the expected and desired outcome of the input to the output um yeah so and I'm going
+  to say this even though this this is a little bit off off of that topic but um the
+  main thing that happened I think the main like there was like an empirical event
+  that happened like an interesting empirical event uh that happened arguably with
+  something like dpt4 um versus like the earlier incarnations of it which was when
+  I was in When I Was An undergraduate in studying philosophy of language there was
+  sort of this this question of does language require uh some sort of like native
+  like like native genetic uh like neurophysiological um architecture to be able to
+  happen like is there something special about like the the human evolutionary lineage
+  that allows us to do language or the question was is it possible that you could
+  just sort of extract language from a large enough data set in some clever statistics
+  and when I was in undergrad at like what was that 2006 or so it was kind of like
+  it's hard to say who knows and I remember at the time there was like you know like
+  undergraduate right so there were like there were some people there who had been
+  like the professor was sort of more attuned to like the the you know what was going
+  on in the field it's like yeah those like the the statistical people are are making
+  some interesting progress in that space but they're still not doing anything that
+  resembles proper language and what happened for me as from my sort of perspective
+  with GPT 4 was that that question was answered very definitively and the answer
+  was yes um it is in fact possible to extract language from a large enough data set
+  and some clever statistics without ever giving it explicit rules of grammar or explicit
+  concepts of words and anything like that um and I consider that to be an empirical
+  Discovery and the sort of from a psychological like a Psy test experiment it's sort
+  of like how do you know that that happened it's like well I'm a human and I talk
+  to it and I'm like oh yeah that's interesting like I I have a conversation with
+  the machine and it's like you were definitely the machine is definitely doing language
+  and that language is derived truly purely from the statistics of the data set which
+  in this case represents like every Stitch of text that was written on the internet
+  since 1985 um and some clever statistics which is basically in this case uh Transformer
+  models which you know just uh you can search for that if you're interested in it
+  um so yeah and so that's a bit of an aside but I think I think that that is the
+  thing that um that was the situation that my friend John wared to talk about is
+  like oh we just uh the world may not really may not realize it like it's this is
+  not how I do not hear this being discussed in this way in in sort of the highest
+  in in channels um but the question to the answer to that question has been empirically
+  discovered and you yeah you actually can extract language from statistics and and
+  we also now have and so another thing that happened is we now have a secondary example
+  for the first time in history a secondary example of a thing that can carry out
+  a conversation uh it's not a good conversation in many cases it's certainly not
+  a human it's not really it's it's definitely not conscious it's but it it's a cognitive
+  agent it does language math in its head and and before and you know you hear people
+  saying like oh it's not really doing language because it's just like using it statistic
+  to like to predict the best output and it's like y' I got some real bad news for
+  you about what you're doing when you're doing language um so anyway that's yeah
+  anyways that's part of the um the landscape of what's going on here um and so there
+  is also a part of again like the the the ethical obligations that I feel like I
+  have as the person standing on you know the chairs are facing this way uh which
+  is that there is this new technology it has emerged onto the landscape I don't really
+  see it being understood or utilized uh in at large so I and I am sort of like fairly
+  uniquely suited to teach it use it that type of thing and so I think that this is
+  one of the most useful things I can do for you is introduce you to this technology
+  this tool show you how it works and teach you sort of how you can utilize it in
+  your own cases even if you wind up not using it in the future it will affect your
+  life um from the outside so and it like this technology like all Technologies they
+  can and will be used against you so you should understand it to the extent that
+  you can utilize it to the extent that it helps you become a more effective version
+  of yourself and my job and hope is to allow you and help you do that so uh right
+  so um so in the specific way that I want to but I I I have used it and will continue
+  to use it is to prompt the bot uh the term is prompting um to basically try to get
+  the bot to act like effectively like a simulation of myself and a simulation of
+  my expertise obviously the very best education that y'all could get from this class
+  is if I sat down with each each one of you individually asked you what your interests
+  were helped you work through things answered your questions gave you some answers
+  and uh did that individually for you on call 247 every every answer um but I unfortunately
+  am a limited piece of meat and that is not within my capacity um so instead I can
+  make this bot which is absolutely not as good as having a sit down conversation
+  with me but it's not bad and it will allow you to basically there's this question
+  of like um how good are these things like you and I'm sure you get all sorts of
+  sort of uh like the responses that I've seen to AI from a lot of the educational
+  landscape is very defensive and it's sort of like don't use it for teaching don't
+  use it for uh don't use it for your like don't use it for it's it's it's don't cheat
+  don't basically don't cheat don't don't whatever write your papers blah blah blah
+  it's not uh in this like it gets it wrong it's got these hallucinations blah blah
+  blah like all these things sort of like try to get you not to use it um uh and it's
+  true that it will get most things it it gets things wrong at some level and it has
+  absolutely no idea when it's when it's saying something wrong there's this thing
+  called the grounding problem uh which is just a in philosophy of AI is just sort
+  like a thing um it will tell you the exactly right answer in the exactly wrong answer
+  with the exact same level of confidence in itself um and so there is a certain L
+  like you that's one of the things you have to learn is when to recognize like when
+  it's getting things right and wrong um however uh there is another aspect of it
+  which is that its ability to be right about things like it's is is pretty much entirely
+  contingent on its data set uh if the question that you're asking is present in the
+  data set it will tend to get it right it's kind of like a Google search like you
+  can search for pages that exist if you search for something that doesn't exist well
+  these days it will'll just get you a bunch of garbage that's close by and I guess
+  I guess a good analogy would be imagining searching for something that doesn't exist
+  and instead of showing you a bunch of stuff that's not thing you want the answer
+  was I'm just going to take the top three things that you don't want and then tell
+  you that this is the answer to your question so it will it's not gaslighting you
+  because it truly believes the things that it said um but it is a it is an aspect
+  of the thing that it doesn't it does not know whether it's right or wrong um however
+  the because the nature of this class is a lot of it's like basically like level
+  expertise in a bunch of different domains most of the questions that y'all will
+  have about these fields and subfields are things that exist in textbooks if it's
+  a qu if the answer to the question is exists in a textbook somewhere it tends to
+  nail it um and this is I'm saying this on the basis of having like taught classes
+  with this um it if you ask simple questions about like you know what's the ocular
+  motor system like what's the cerebellum up to what's Superior calculus like how
+  does a muscle work like what's the evolution like what's up with the elbow what's
+  that deal what's a motor unit what's a Gogi tendon organ um it Nails all those questions
+  because those are all not they if the question has been asked and answered at least
+  10,000 times since 1985 on the internet it will tend to get it right um and so the
+  interesting space that you are now in so when so for me because I've I've been alive
+  for long enough to have EXP uh y'all y'all don't not because you're dumb just because
+  you it it takes longer than that to develop expertise like I have um I've been I've
+  been studying what I study for as long as many of y'all have been alive um and I'm
+  still like you know I'm starting to get to the point where it's like oh I most of
+  what I know now is like I have a good enough sense of the landscape that I I know
+  the difference between the things that I know the things that we know as a species
+  and the things that we don't quite know as a species so I am I'm in a very good
+  position to be able to talk to the bot and sort of to push it into area that I know
+  like the the the really fiddly answers to it and I get to see it kind of go wrong
+  and go off the rails and sort of like start making stuff up and start guessing and
+  making frankly the kinds of guesses that I see like non-experts make like when you
+  if you're I don't want to like talk down about non-research professors um but like
+  a teaching Professor who is not in like the the specific domain of research that
+  that you're talking about is like or not even teaching professors textbooks textbooks
+  are mostly wrong that's kind of one of the the secrets of if if it has been around
+  for long enough to be written down in a textbook it's probably wrong at some level
+  it's at the very least a cartoonized version of the real thing which is always going
+  to be more complex than not there it's always going to be less stable than you are
+  often led to believe um one of the many bad uh yeah one of the many themes of this
+  class will be acting under uncertainty and one of the recurrent themes there is
+  that we know a lot we know a lot more and a lot less than you're often tend to taught
+  I think that the nature of undergraduate education like there's tests there's quizzes
+  there's papers there's grades um there's this sort of like certification system
+  that we go through it's like yes you understand organic chemistry a chunk um and
+  the nature of that is that things are often presented to you as if they are right
+  or wrong true or false like what's the answer to this question oh it's B that's
+  not really how the world works like there like questions can be like we'll get into
+  the philosophy of science aspect of that later but um the world's a lot murkier
+  than we would like for it to be and that is true of science it's true of every field
+  um and I lost my point but uh yeah anyways so the idea will be that within this
+  space and that the structure of this class is going to be encouraging you to um
+  navigate this area and then rather and what AI will allow us to do uh versus an
+  earlier era of life um is it will allow each of you to to navigate a much more uniquely
+  s uh spe like you'll basically all be able to choose your own trajectory through
+  this space um because the thing to be cons like if I'm up here giving a lecture
+  about you know biomechanics or neuromechanics or something like that I I have to
+  kind of think about like are they going to be able to follow any of this is this
+  any of this going to going to land and like if I can't so I have to like limit the
+  density of the things I say to try to make sure that like at least a percentage
+  of you can sort of follow the plot um but what is this is it25 is the class over
+  yeah um but one thing I get to do with AI and I'm going to give it a shot at the
+  I think we'll have we should have time but um we actually start talking about the
+  content of the class uh but one of the things that I that this allows me to do is
+  to be much much much denser in the information that I present to you um because
+  because I can I will I'm going to talk about things that are going to be over your
+  head uh and it's going to come real fast and you're not going to follow all of it
+  I can guarantee you already um but that's going to be okay because I'm going to
+  record it and then once I record it I'm going to scrape the audio put it into the
+  AI as like an outline of topics put that in one of the channels and then one of
+  the assignments will be go ask the bot about whichever as like which which part
+  of this was the most interesting to you which part of this was the most confusing
+  to you which part of this do you wish I had said more about which part of this did
+  I say something about but you didn't follow it at all um and so my goal will be
+  to say all the things that need to be said um to say in a way that you that you
+  know that you can follow because you're all smart people um and your job is going
+  to be to basically uh stand in front of the fire hose and try not to let your brain
+  turn off entirely and try to just let it wash over you and to notice when you have
+  something that sort of like wakes up like when I mention some this or that or some
+  topic over here or some topic over there uh to notice what those things are and
+  then in your own time and with your machines or whatever uh explore those topics
+  and sort of seek out deeper not depth and knowledge about those things and you can
+  do that 24 hours a day seven days a week this thing will answer every question you
+  have at any point forever it will never get tired it will never get annoyed there
+  are no dumb questions it is always down and learning how to navigate that I think
+  and so yeah so basically it will stop the traditional problems of uh student teaching
+  which is like to get it it will it will break you out of broke of like fail States
+  um and it will help you jump over hurdles and sort of that that space of like I
+  don't know what to do I have no I'm I am so lost I don't even know which way to
+  go just ask the machine and it will give you help okay so um from here so we have
+  35 minutes left calm down [Music] um try I think of I what I want to do specifically
+  I'm going to do this kind of in the okay I'm gonna I'm gonna I'm G to try to make
+  sure I want to get y'all I'm I'm choosing between like the with the possibility
+  of running out of time uh getting you sort of set up with the technical aspect of
+  this versus like dumping a bunch of content on you uh I'm in traditional first day
+  of class stuff I'm going to focus on the technical setup and there there's a whole
+  rest of the semester left um no syllabus survives first contact with the classroom
+  so if we if the schedule shifts I'm honestly okay with that um so yeah so um something
+  like 20 of you have made it here already uh so to start let's start with um the
+  canvas course and
+metadata:
+  author: Jon Matthis
+  channel_id: UCOOQxlTCtUz9mr1NPWlJyYQ
+  description: Fall 2024 - Neural Control of Real World Human Movement\n\nhttps://github.com/HumanMovementNeuroscience/HMN24-course
+  duration: '3467'
+  like_count: ''
+  publish_date: '2024-09-24T17:28:48-07:00'
+  tags: ''
+  title: HMN2024 - 00 - Intro to class
+  view_count: '73'
+transcript_chunks:
+- dur: 180.0
+  end: 180.0
+  start: 0.0
+  text: so I'm now starting recording and starting to talk so um let's see I gave
+    myself notes so so this is a topics course which as I'm sure youall know is typically
+    like topics courses are generally like they're off of the main schedule and there's
+    some sort of other kind of topic that doesn't have like a proper class around
+    it yet and often times those topics classes are taught to allow a professor of
+    a research Professor like me to kind of like highlight their own research in a
+    way that sort of doesn't fit within the standard sort of like curricula of um
+    you know the university sort of the standard stem classes that you might typically
+    take and uh this class so like I said I so I I am technically a professor of biology
+    um even though I don't really do much biy ology because in this school um there
+    isn't like a a dedicated Neuroscience Department there's the BNS um program sub
+    major minor I can never remember what the status is on that but uh my research
+    would kind of fit in a number of possible different departments um the most obvious
+    ones being so biology because I study like you know the neural aspects of things
+    and think about things such as neuron on um psychology would be I think a more
+    an obvious fit because it's got the sensation and motor control kind of stuff
+    um these days I do a tremendous amount of software development um in the sort
+    of methods building and research sort of um research tool development side of
+    life um which is a relatively recent development um I've also worked sort of close
+    to robotics close to biomechanics close to physical therapy um and the specific
+    specific little subdomain of research that me as an individual carves out it just
+    doesn't really fit in any particular department so part of the main um structure
+    of this course is to try to think about what what is the like what are the inroads
+    to the to the specific thing that I study like uh which I will sort of talk about
+    in a second um and the goal is to kind of give that sort of very broad survey
+    of the various subtopics that sort of come together to make the specific domain
+    that I study which is human movement in natural environments um but more so than
+    that like my specific way of studying that because you can study a particular
+    Topic in a bunch of different ways and I have come from such a weird and wild
+    background that uh the sort of a interesting question of sort of how would you
+    introduce someone to that field um not a field it's just sort of a
+- dur: 180.0
+  end: 360.0
+  start: 180.0
+  text: thing I've learned how to do over the course of a couple decades um so there
+    is something that I kind of it's something I have to say at the beginning of every
+    class that I teach and I have never found a super great way to say it um but I
+    don't I would not feel comfortable teaching a class to a room full of undergraduate
+    people without acknowledging the moral elephant in the room um which is that none
+    of this is okay none of the general structure of Academia education is morally
+    defensible at almost any level uh the amount to which you are being exploited
+    financially to be in this room is absolutely indefensible and unconscionable um
+    and there is truly nothing that I could ever do on this side of the podium that
+    would ever be worth the financial burden that's being put on you by being here
+    um you can do the math if you want uh to calculate the number of people times
+    the annual tuition room and board the number would come out to be something like
+    $2 to3 million if you wanted to be more conservative and only count credit hours
+    it would be somewhere around a quar million dollars it's indefensible Absol absolutely
+    not okay and I have over the course of my four to 5 years let lose track um time
+    as being as Professor here I have uh sort of had to find a lot of different ways
+    of trying to handle the um the the term is moral harm uh which is the term that
+    refers to the specific kind of sort of psychological trauma that occurs when you
+    are forced to participate in an institution or a system that is morally repugnant
+    to you in some way um I'm here for a lot of the reasons that you are here which
+    is because I love learning I love teaching I love sort of the scientific exploration
+    and the nature of society as it is is that the to do that at the highest level
+    you sort of have to come to for legal reasons I will say institutions like this
+    one um in order to participate in that and it's some it's the kind of thing that
+    I didn't fully comprehend um what that all meant until I became a professor uh
+    it's the kind of thing where like you're all students and you experience life
+    as a student does which is basically as a a temporary person in an institution
+    like this when you have a set amount of time that you'll be here that you'll go
+    through you'll have the degree um and then you'll leave and then and so everything
+    up to and up to the point of becoming a professor type person has that kind of
+    characteristic you're an undergraduate then you're a graduate
+- dur: 180.0
+  end: 540.0
+  start: 360.0
+  text: student then you're a postdoc and then if you sort of out compete your peers
+    which is an insane concept why are you trying to out compete your peers you should
+    work with your peers to anyways we'll get on to that um but all up until that
+    point you have there is this sort of temporary nature to it and I think in retrospect
+    there felt like it was a kind of um it felt more there's like a you're you're
+    strugg I felt like I was struggling against the system to try to SU in that context
+    and then I happened to become a professor in the summer of 2019 uh so I had about
+    a year of like boy I sure did make it and this is probably fine and then summer
+    of 2020 roll around covid happened and with all of the various ways that that
+    affected the World At Large and me in particular um I basically just lost all
+    faith in the academic and scientific systems in that summer and and uh sort of
+    had a whole crisis of conscience um and tried to was trying to find ways of basically
+    restructuring my life and my effort and sort of you know I've got I had 35 and
+    change years at that point of not 35 directly but like close to 20 years of e
+    of effort at that point to make it to this point this is a position of nonzero
+    Social Power um and there is kind of this general idea of like don't give up if
+    you can use it to the benefit of you know your own moral beliefs or whatever um
+    and it was it was a hard and challenging thing to think about uh and just to like
+    try to sort of come you know you what often times happens when you work within
+    institutions which we are all forced to do is there's a conflation between the
+    values that you hold um and the institutions that are sort of the vehicles for
+    those values and when you lose faith in an institution which I highly recommend
+    just never trust institutions trust people don't trust institutions um there was
+    a whole thing of like trying to figure out like what I was actually here for what
+    what my actual goals and morals and values actually are and a lot of things come
+    out of that probably uh stuff that I still should not say on camera um but the
+    general idea was a a shift of Focus From the doing the traditional um modes of
+    research in education which was which pretty much to this day still involves uh
+    do research for Publications apply for Grants produce students that will uh try
+    to climb the same ladder you are on understanding entirely that that's to get
+    10 you're you're supposed to produce like you know more than two of people who
+    are also trying to get 10
+- dur: 180.0
+  end: 720.0
+  start: 540.0
+  text: years at other school which is sort of the definition of a Ponzi scheme um
+    and that was sort of the effort it's often times you you're when you're working
+    in these types of systems that we tend to live in which are competition-based
+    hierarchies predicated on assumptions of false scarcity uh the the game that you
+    play is sort of you you're asked to compete with the people who are sort of at
+    your same level in the hierarchy in order to please the people who were above
+    you in the hierarchy most of whom have been in that position for longer sort of
+    a gerent tocy type of thing and I realized that a lot of the effort that I was
+    putting in like a a very big percentage of the effort I was I was putting into
+    the world was made in the service of the people who were above me on the hierarchy
+    and to do trying to do the things that they wanted me to do so that I could outperform
+    my peers and be allowed to stay in you know the warm happy Shing Tower at the
+    top of the hill that we are all currently in um and so one of the big changes
+    that I uh sort of M brain shifts that happened was deciding to just stop doing
+    that and to just stop caring or considering what I was being asked to do by people
+    above me in the hierarchy and start asking instead what I could do to support
+    people who were at or below me in that same hierarchy which is largely yall types
+    um from a practical perspective what that turned out to be was a so in that time
+    of sort of doing you know living doing research I sort of like I've got all these
+    papers we'll talk about them um and with that sort of crisis of conscience uh
+    there was this question of like well I don't so universities are probably evil
+    um journals are definitely evil uh so but I do love the research I do love the
+    teaching so what what do you do if if you don't want to you know do the dumb work
+    of publishing a bunch of papers to try to make the powers that be happy um to
+    you know please the gatekeeping dinosaurs above you um what do you do with your
+    time um and it was around that time sort of through other modes I mean that was
+    I had basically I I have a big fancy lab uh at Richard 453 which will be y'all
+    will be touring with Aaron not next week CU I'll be out of town um and when Co
+    hit I I had I so I showed up I had all these plans for like the research that
+    I was going to do in the big fancy lab and you know they were doing the construction
+    and the construction wrapped up around January uh and I was sort of gearing up
+    to start the the research cycle and then quarantine hit got sort of sent home
+    and had to sort of for a while just kind of flailed around trying to figure fig
+    out like what am I going to do with my time
+- dur: 180.0
+  end: 900.0
+  start: 720.0
+  text: what are we going to do with our time and uh at that time I wound up um basically
+    there were a couple things happening in in in my lab at that point most of which
+    were related to the to work in like the big fancy map lab um and then there was
+    one little side project that involved uh this computer vision based method for
+    doing motion capture with like Cheo webcam in free software um and so when Co
+    hit I basically we shifted effort towards working entirely on that because that
+    was a project that we could work on sort of remotely with ease and sort of you
+    know kind of figure that out and so as so that was like March or whatever and
+    then as we sort of got into the summer and that project started to sort of like
+    take up pick up some steam um and I started losing faith in the system and all
+    that kind of stuff I I found myself kind of of uh coming across softwares such
+    as uh blender which we're going to talk about blender blender is a free open source
+    Mark uh sorry uh got that sort of stuck my head it's a big free open source um
+    3D animation software it's been around for some decades it's a large scale wides
+    scale thing and it has been it is 100% free 100% open source and built over the
+    course of decades by thousands of people across the world and given away freely
+    as a gift freely given for anyone to use and benefit from and I kind of had this
+    moment of realization that that was actually the thing that I wanted to be doing
+    um the open source Community is what the scientific Community pretends to be like
+    we pretend as scientists that we are doing that that we're working in this big
+    sort of global collaborative Endeavor but it's not but practically speaking you're
+    just not really able to do it so most of the research that gets done really shouldn't
+    be done it's not good research it's just smart research it's strategically the
+    right move to get the publication to get the grants to get the job to get the
+    tenure um and it never and it often will serve like I'm not saying that all scientists
+    are idiots and that all research is garbage um although the percentage is higher
+    than you wish it was um but the nature of the institutions that sort of house
+    it and the realities of like the hyper competitive structures of society that
+    we' sort of grown for ourselves are that you're not really able to do it in a
+    way that really benefits anybody outside of the club and when you see scientists
+    sort of traditional scientists doing like Outreach it's often this kind of just
+    like side thought like I'm going to go to a high school show them how cool it
+    is to be super highly educated and then just leave and then hope that they're
+    inspired enough to follow in your path out compete their peers and then maybe
+    they someday can get into that shining Tower at the top of the hill um
+- dur: 180.0
+  end: 1080.0
+  start: 900.0
+  text: it just didn't seem right to me so uh long story short such as it is um all
+    of that kind of culminated into a sort of or not culminated but sort of over the
+    long course of time uh that became basically did I break it this guy this is computer
+    there you go so this is Freo cap.org so this is a software that I've been working
+    on with Aaron for about five years uh it's called freeo CAP it's a free open source
+    marketless motion capture system and it's basically been the thing that has soaked
+    up the energy that would have been spent publishing papers and trying to make
+    people happy um I instead spent um building this tool to do full body motion capture
+    with Cheapo garbage webcams in free software and it's been going quite well uh
+    and we're going to talk plenty more about that um it's on GitHub free moap there
+    there's a Discord server with looks like pushing 2500 members in it got about
+    I think last I checked approaching 5,00 ,000 unique users in like 115 countries
+    which is all quite good and the focus of the project and the software is to instead
+    of taking my particular skill set and expertise which I have sort of accumulated
+    over the course of decades Now using mostly taxpayer funding to pay my salaries
+    and my paychecks um and rather than trying to use that to just publish super esoteric
+    papers that will only be beneficial to other super esoteric people um the goal
+    was to try to package that same use that expertise to build a tool that sort of
+    meets a general need of society at large and then sort of try to serup building
+    that tool as both the thing that the world wants also the tool that I want to
+    do my research um and ideally trying to use that as a as a mechanism for Building
+    Bridges and sort of pulling people in so a lot of the like I would say at this
+    point still the majority of users of this software are animators um often young
+    3D animation artists uh video game designers things like that um and also a bunch
+    of you know students and grad students and you know biomechanics clinical whatever
+    this that and the other um lot of dancers and musicians and things like that and
+    they are using this software for their own purposes that's sort of part of it
+    is like I don't want to I don't want to
+- dur: 180.0
+  end: 1260.0
+  start: 1080.0
+  text: tell you what you should care about I'd rather just give you useful tools
+    and let you do what you want to do with it um but because I with help um Global
+    Wei uh designed this thing based off from my perspective I am also trying to sort
+    of surreptitiously uh make this as a tool that is also kind of an educational
+    platform in its own right something that will it doesn't teach you directly it's
+    not giving you like lessons and quizzes but the nature of the tool is to um try
+    to teach you how it works and to try to kind of basically the the idea is to give
+    you kind of a greased rail into the the densest part of the forest um and then
+    shine enough lights that you can sort of navigate yourself around there a lot
+    of the education the general structure of Education that um yall tend to receive
+    is sort of this like let's start with the basics let's start with the the simple
+    boring stuff that frankly is not particularly motivating on its own because trust
+    me trust me it's going to lead somewhere so cool and if you can only hang on and
+    out compete your peers uh for long enough then you'll be able to see all the cool
+    fun stuff um and there is actually a a reaction that I I've had more than once
+    uh when I talked about the software to people where which is you should be careful
+    not to make it too easy to use otherwise the students won't understand what's
+    going on in there and it's like like insane to me to think that because I would
+    much because the reality is that in in the natural world in the real world um
+    your first reaction upon encountering something is often going to be confusion
+    like when you first come across some like strange artifact that's the that's the
+    least you were ever going to understand it and you will wind up if you're lucky
+    uh slowly kind of back in your way into a level of understanding um and so rather
+    than trying to uh basically hold your hands on a very specific path with this
+    with an intended outcome of the thing that I'm trying to show you I am instead
+    going to be trying to um show you a broad landscape that you are frankly that
+    is frankly going to be pretty over your head for the most part and then allow
+    you and give you the tools that you need to kind of Na gravitate towards the parts
+    of that landscape that are the most motivating to you as individuals um and then
+    allow you to kind like give you the tools that you need to kind of like back your
+    way into a place of understanding and basically working your way from like the
+    advanced stuff in the center of the Woods back to the beginers ship that we really
+    should have started with um so that you can basically ground yourself from the
+    that position but the reality is that because
+- dur: 180.0
+  end: 1440.0
+  start: 1260.0
+  text: it's such a broad landscape um you're all going to sort of find different
+    parts of it and you're going to need different parts of that beginner basic stuff
+    and we'll kind of sort of gravitate in that direction um so little bit of yeah
+    let me see where I'm at with this there's more it gets this is still context um
+    right so that's so that's that's the general gist of the life that I live and
+    there's a little bit of I mean the class is obviously overlapping with that General
+    thing because I'm the one standing up here and your guys are over there um specifically
+    within this class there is another there's another player um which is that I the
+    story I was telling you about uh sort of like the loss of faith and the finding
+    of the free open source thing and sort of the reshaping around this software and
+    educational blah blah blah um all of that is basically you know started in roughly
+    summer of 2020 and it's kind of been progressing since there I've taught a couple
+    of classes sort of win that Vibe I see a couple of uh what's the word uh familiar
+    faces is possibly from inquires in some cases has anyone been in a class with
+    me before no who are you people um uh well yeah so and I've worked on trying to
+    like teaching this type of stuff and trying this like broad landscape thing um
+    and trying to incorporate as much of these sort of like beep Tech tools um as
+    I could uh and then I guess it was what was it like two years ago now April two
+    year and a half ago uh there was a there was a certain uh technological event
+    which occurred and you heard about it um and the the hype cycle has sort of come
+    and gone to the point where you're probably annoyed about it at this point but
+    the thing in question is artificial intelligence um my background uh my first
+    degree is in philosophy I got a a degree in philosophy focus on on philosophy
+    of mind and philosophy of science there's going to be a lot of that specifically
+    the philosophy of science in this course um and from there I got a PhD in cognitive
+    science which is effectively AI studies these days and my particular domain within
+    cognitive science which is another one of this like mish mash like sort of comedically
+    broad Fields was on the like the biological side like psychology Neuroscience
+    kinds of stuff um but I also did a lot of work with robotics I
+- dur: 180.0
+  end: 1620.0
+  start: 1440.0
+  text: did a lot of sort of I learned a lot about AI machine learning and sort of
+    theories of language and all that stuff um and when GPT 3.5 came out like I've
+    been following the various language models since you know roughly 2008 um and
+    when 3.5 came out I saw and I was like oh wow this is this is getting really good
+    this is really a very they've really been working over there um and then when
+    GPT 4 came out it was just like okay there is now a shift has occurred and it
+    is now important to take note of it um so I contacted my remember remember very
+    clearly I I was uh you know I can't remember exactly the the timing of it but
+    at some point I have I have a friend named John linstead uh who will probably
+    come up later who's a friend from graduate school and he was much more on that
+    AI side of things he was a director of the cognitive science program at Sunni
+    as Wego for a while and I sort of we we got on to the Discord chat or whatever
+    and he says John we need to discuss the situation uh and we both immediately knew
+    that the situation was that AI exists and it is not it's not it's not like you
+    don't have to worry about it as like coming to life and like biting you that's
+    not a thing um and pretty much any like anything you're going to see from almost
+    any source is going to be missing the point to some degree or another one of the
+    nice things about being an expert is I just Bally look like oh yeah y' all have
+    it wrong um but and it's not endgame and there you know there's still a lot to
+    happen but the reality but it is a major shift in technology that 100% is going
+    to reshape our society in a lot of predictable and unpredict ways over the course
+    of the next 5 to 10 to 20 years um and not necessarily for the better uh it is
+    as most Technologies it is come from the techn capitalist corpo hamani that is
+    the source of so much of the sort of problems and harm in our society and in much
+    the same way that they have sort of you know I'd say cause significant damage
+    to our social infrastructure over the past 20 some odd years um they are going
+    to attempt to continue to do that and they're going to attempt to use the anytime
+    there's a new technology that comes around um the techn capitalist of just the
+    capital the Corporal capitalist basically try to rush to the new domain and start
+    building Moes around it so that they can sequester it and then use their access
+    to that thing as a way to exploit The World At Large that is the true core of
+    capitalism is to exploit disparities
+- dur: 180.0
+  end: 1800.0
+  start: 1620.0
+  text: between yourself and others to extract resources from them um and so a lot
+    of and I think at this point um a lot of that's probably become somewhat apparent
+    and there's probably uh at least a percentage of you who are sort of like feel
+    like aii um because it is so overwhelmingly tied to the corpo techn capitalist
+    infrastructure um but there another angle to that and I think that it can be very
+    difficult to uh recognize the it's very difficult I think especially when you're
+    coming at something from from like a non-expert position to discern a separation
+    between the core technology that exists and the sort of implementation of that
+    technology like it's hard for us to see things like gp4 on open AI as anything
+    other than just like another arm of Microsoft it's hard to see whatever the hell
+    it is that you know Google is trying to do is anything other than just like another
+    way to steal your data and another way to shape the world around sucking $20 a
+    month out of you for sort of a bunch of basic functionalities that you are going
+    to eventually like require for your daily life um but I think that it's really
+    important to but I I I I think that this particular technology is different because
+    unlike a lot of other tools and other like so things like computers uh and phones
+    and things like that like these are also World shaping Technologies and they did
+    shape the world and you were sort of a part of it and I think a lot of yall are
+    the both um beneficiary and harmed individuals from what happened over the C of
+    the past 20 years when the entire world basic shifted towards everything that
+    we do in our daily lives is going to be pushed and pulled through apps that are
+    made by corporations that do not have your best interest at heart um and be and
+    there was sort of an inherent that disparity between the ability to make these
+    applications to build these types of Technologies um was one that was pretty easy
+    to exploit because you know I can't make this I can't make a chip I can't I mean
+    I guess I can build an app but it's not going to be the same thing as you would
+    get from a Google or a Facebook um and so they get to use that and they get to
+    use the fact that this is now an essential technology um you know we find these
+    Technologies and we sort of reshape our our society to them um and there's sort
+    of this limitation there um AI I think is different because it is fundamentally
+    it's like they're trying to build Moes around the moat blaster 99000 like it is
+    a tool that will teach you
+- dur: 180.0
+  end: 1980.0
+  start: 1800.0
+  text: how it works and it will show you everything there is to know about itself
+    and they're trying to to Corral it and control it in sort of in the same way that
+    they used that they sort of that you sort of that they were used to and it's kind
+    of just not working in the way that they would expect um we'll talk about that
+    in in detail um I don't want to go too deep down this rabbit hole because that
+    is definitely something I like to do um but I'm mostly kind of saying that just
+    to sort of comment on uh the tech ick that I think is a fair uh response to this
+    to the world that we live in um because I do think that sort of AI used properly
+    is something that has the ability to be a a transformatively liberative uh tool
+    um and one that has the potential to make every single human person that learns
+    how to use it and learns how to wield it a more powerful and capable version of
+    yourself um it's not a it's not an oracle that will solve all of your problems
+    it is which is how it's often trying to be pushed on you um it's not a it's not
+    something that's automatically going to make the world better um but it is an
+    unbelievably powerful tool that if you learn how to use it what I whatever it
+    is that you are trying to do in your life if it involves the generation uh ex
+    sort of understanding manipulation of text on a screen AI can help with that um
+    it's not automatically it won't build all your life for you but it is a unbelievably
+    powerful tool with a very shallow initial learning curve and as far as I can tell
+    an un unlimited maximum possibility so um that will lead us Discord don't do that
+    so I live a lot of my life on Discord um wish I didn't I kind of I appreciate
+    the software for what it is but I also kind of hate it for what it is um and when
+    pt4 came online uh would have been like I guess spring of 2023 or something like
+    that um one of the first things I did is I built a a a a bot out of it and started
+    using it to teach a class um and that I taught it was a summer class and then
+    I taught another version of this class last fall and then I taught a class uh
+    in the Capstone in the spring didn't go so well um and then now this is is the
+    fourth iteration of using a AI
+- dur: 180.0
+  end: 2160.0
+  start: 1980.0
+  text: Discord AI empowered Discord bot um as a way to try to teach and provide yall
+    types with a the ability to sort of explore a topic that is sort of Broad and
+    vast and uh complex um so we're going to talk about details of that sort of adnasium
+    at some point um but the basic idea is that that this so there here's this server
+    which is sort of structured roughly around the topic of the class um and here
+    is this bot named Skelly bot that lives in the server um Skelly so the this is
+    Skelly it's like the logo of mascot of free mocap and so free mocap the software
+    has a bunch of little small parts and they're all named like Skelly something
+    so like the camera part is called Skelly cam the bot part is called Skelly bot
+    uh if you're curious about it you can click on Skelly bot and then this GitHub
+    link here will take you to the source code for it and I think the most important
+    part of this is this phrase right here this bot help me build this bot um I could
+    not have made this thing without this thing uh it like the the the skills and
+    sort of like technical aspects of building a thing like this like I didn't I wasn't
+    trained in computer science like I managed to like hack and slash my way through
+    grad school and sort of like building the in order to like and I was able to build
+    the the basics of the premot cap software because that is my domain of expertise
+    this is not um I have I mean I have like an understanding theoretical understanding
+    of AI but building a tool like this was beyond me but the thing about these AI
+    is you just say hey could you help me with this thing and it's like yeah absolutely
+    no problem 100% and it will give you an answer which is mostly right often not
+    not always but often and if you learn how to navigate that and use that and sort
+    of like uh surf the various ways that it is right and wrong and like learn the
+    kind of things that it like like oh this is the problem that AI is going to it's
+    not going to be able to do that oh it's absolutely going to be able to do that
+    um if you can learn how to navigate that space and use these tools it will power
+    level you through spaces that you could have have can slash your way through over
+    time that you could have sat down with a real human primate expert who would explain
+    it to you piece by piece um or you can just learn how to ask the machine and the
+    Machine will sort of help you do these things um how exactly that happens is complex
+    there's not like a quick answer it's like most complex tools it's the learning
+    process is a little bit of instruction with a lot of just like try it and see
+    how it goes um and part of the structure of this course
+- dur: 180.0
+  end: 2340.0
+  start: 2160.0
+  text: is to sort of give you the opportunities to do that within the landscape of
+    the neural control of real world human movement um so and so specifically now
+    coming to like AI within an educational context um if you so when I up here as
+    like you know career research scientist with some Decades of experience in this
+    very sort of rather niched out field um like I'm not so like a lot of a lot of
+    times if you're like like a a standard specialist you're like in the niche of
+    a niche of a niche of a niche of a field so you're sort of like a very very specific
+    person um my particular version of that is I'm within I'm like a niche of a niche
+    of a niche of a niche so it's sort of like not that deep down but it's like it's
+    sort of a a breath versus depth kind of thing um which can be harder to do not
+    hard necessarily harder to do it takes a same amount of time but it can be harder
+    to teach um because I can't assume that you all have gone through like if I if
+    I was like an advanced you know epigenetics of Immunology F expert I can say okay
+    have y all done like you know intro bio cell bio like you know whatever da da
+    da da D all the expertises that you would need to get to this sort of level of
+    spe specificity and depths um with this kind of very broad area like it's I can't
+    assume that it's possible that some of you have some of the prere but none of
+    you are going to have all of them because I've I've checked and pretty much one
+    of the like there are roughly one person in the world that has all of my same
+    background because I just I bounce around so much that the specificity that you
+    get to is just kind of you become a uniqueness when you start overlapping enough
+    skill sets uh pretty quickly uh which is just also just generally good career
+    advice it is way easier to be unique by just combining a bunch of different things
+    um and then eventually you sort of see that all the when you overlap enough vend
+    diagrams and you look at sort of who is shared amongst all those V diagrams it's
+    like oh wait this is actually just me um which is way sort of easier and more
+    fun to do than to try to sort of out compete everybody that sort of is in the
+    same sort of space and domain um but you know all your heart oh yall all found
+    your way in good job um so uh the general Vibe of AI within this class um will
+    be that this uh so who here has used GPT at all like prompted little bit talk
+    to it you say
+- dur: 180.0
+  end: 2520.0
+  start: 2340.0
+  text: hi it says hi back you ask it a question it says something back um the low
+    the base level um introduction there is prompting AI large language models in
+    particular are at their core language calculators um in the same way that you
+    would sort of punch a bunch of numbers into a calculator push go and it gives
+    you another number L language models do roughly the same thing you you push a
+    bunch of words into their context window push go and it looks at its unbelievable
+    sort of uh data set and provides a statistically most likely answer um that is
+    the the the expected and desired outcome of the input to the output um yeah so
+    and I'm going to say this even though this this is a little bit off off of that
+    topic but um the main thing that happened I think the main like there was like
+    an empirical event that happened like an interesting empirical event uh that happened
+    arguably with something like dpt4 um versus like the earlier incarnations of it
+    which was when I was in When I Was An undergraduate in studying philosophy of
+    language there was sort of this this question of does language require uh some
+    sort of like native like like native genetic uh like neurophysiological um architecture
+    to be able to happen like is there something special about like the the human
+    evolutionary lineage that allows us to do language or the question was is it possible
+    that you could just sort of extract language from a large enough data set in some
+    clever statistics and when I was in undergrad at like what was that 2006 or so
+    it was kind of like it's hard to say who knows and I remember at the time there
+    was like you know like undergraduate right so there were like there were some
+    people there who had been like the professor was sort of more attuned to like
+    the the you know what was going on in the field it's like yeah those like the
+    the statistical people are are making some interesting progress in that space
+    but they're still not doing anything that resembles proper language and what happened
+    for me as from my sort of perspective with GPT 4 was that that question was answered
+    very definitively and the answer was yes um it is in fact possible to extract
+    language from a large enough data set and some clever statistics without ever
+    giving it explicit rules of grammar or explicit concepts of words and anything
+    like that um and I consider that to be an empirical Discovery and the sort of
+    from a psychological like a Psy test experiment it's sort of like how do you know
+    that that happened it's like well
+- dur: 180.0
+  end: 2700.0
+  start: 2520.0
+  text: I'm a human and I talk to it and I'm like oh yeah that's interesting like
+    I I have a conversation with the machine and it's like you were definitely the
+    machine is definitely doing language and that language is derived truly purely
+    from the statistics of the data set which in this case represents like every Stitch
+    of text that was written on the internet since 1985 um and some clever statistics
+    which is basically in this case uh Transformer models which you know just uh you
+    can search for that if you're interested in it um so yeah and so that's a bit
+    of an aside but I think I think that that is the thing that um that was the situation
+    that my friend John wared to talk about is like oh we just uh the world may not
+    really may not realize it like it's this is not how I do not hear this being discussed
+    in this way in in sort of the highest in in channels um but the question to the
+    answer to that question has been empirically discovered and you yeah you actually
+    can extract language from statistics and and we also now have and so another thing
+    that happened is we now have a secondary example for the first time in history
+    a secondary example of a thing that can carry out a conversation uh it's not a
+    good conversation in many cases it's certainly not a human it's not really it's
+    it's definitely not conscious it's but it it's a cognitive agent it does language
+    math in its head and and before and you know you hear people saying like oh it's
+    not really doing language because it's just like using it statistic to like to
+    predict the best output and it's like y' I got some real bad news for you about
+    what you're doing when you're doing language um so anyway that's yeah anyways
+    that's part of the um the landscape of what's going on here um and so there is
+    also a part of again like the the the ethical obligations that I feel like I have
+    as the person standing on you know the chairs are facing this way uh which is
+    that there is this new technology it has emerged onto the landscape I don't really
+    see it being understood or utilized uh in at large so I and I am sort of like
+    fairly uniquely suited to teach it use it that type of thing and so I think that
+    this is one of the most useful things I can do for you is introduce you to this
+    technology this tool show you how it works and teach you sort of how you can utilize
+    it in your own cases even if you wind up not using it in the future it will affect
+    your life um from the outside so and it like this technology like all Technologies
+    they can and will be used against you so
+- dur: 180.0
+  end: 2880.0
+  start: 2700.0
+  text: you should understand it to the extent that you can utilize it to the extent
+    that it helps you become a more effective version of yourself and my job and hope
+    is to allow you and help you do that so uh right so um so in the specific way
+    that I want to but I I I have used it and will continue to use it is to prompt
+    the bot uh the term is prompting um to basically try to get the bot to act like
+    effectively like a simulation of myself and a simulation of my expertise obviously
+    the very best education that y'all could get from this class is if I sat down
+    with each each one of you individually asked you what your interests were helped
+    you work through things answered your questions gave you some answers and uh did
+    that individually for you on call 247 every every answer um but I unfortunately
+    am a limited piece of meat and that is not within my capacity um so instead I
+    can make this bot which is absolutely not as good as having a sit down conversation
+    with me but it's not bad and it will allow you to basically there's this question
+    of like um how good are these things like you and I'm sure you get all sorts of
+    sort of uh like the responses that I've seen to AI from a lot of the educational
+    landscape is very defensive and it's sort of like don't use it for teaching don't
+    use it for uh don't use it for your like don't use it for it's it's it's don't
+    cheat don't basically don't cheat don't don't whatever write your papers blah
+    blah blah it's not uh in this like it gets it wrong it's got these hallucinations
+    blah blah blah like all these things sort of like try to get you not to use it
+    um uh and it's true that it will get most things it it gets things wrong at some
+    level and it has absolutely no idea when it's when it's saying something wrong
+    there's this thing called the grounding problem uh which is just a in philosophy
+    of AI is just sort like a thing um it will tell you the exactly right answer in
+    the exactly wrong answer with the exact same level of confidence in itself um
+    and so there is a certain L like you that's one of the things you have to learn
+    is when to recognize like when it's getting things right and wrong um however
+    uh there is another aspect of it which is that its ability to be right about things
+    like it's is is pretty much entirely contingent on its data set uh
+- dur: 180.0
+  end: 3060.0
+  start: 2880.0
+  text: if the question that you're asking is present in the data set it will tend
+    to get it right it's kind of like a Google search like you can search for pages
+    that exist if you search for something that doesn't exist well these days it will'll
+    just get you a bunch of garbage that's close by and I guess I guess a good analogy
+    would be imagining searching for something that doesn't exist and instead of showing
+    you a bunch of stuff that's not thing you want the answer was I'm just going to
+    take the top three things that you don't want and then tell you that this is the
+    answer to your question so it will it's not gaslighting you because it truly believes
+    the things that it said um but it is a it is an aspect of the thing that it doesn't
+    it does not know whether it's right or wrong um however the because the nature
+    of this class is a lot of it's like basically like level expertise in a bunch
+    of different domains most of the questions that y'all will have about these fields
+    and subfields are things that exist in textbooks if it's a qu if the answer to
+    the question is exists in a textbook somewhere it tends to nail it um and this
+    is I'm saying this on the basis of having like taught classes with this um it
+    if you ask simple questions about like you know what's the ocular motor system
+    like what's the cerebellum up to what's Superior calculus like how does a muscle
+    work like what's the evolution like what's up with the elbow what's that deal
+    what's a motor unit what's a Gogi tendon organ um it Nails all those questions
+    because those are all not they if the question has been asked and answered at
+    least 10,000 times since 1985 on the internet it will tend to get it right um
+    and so the interesting space that you are now in so when so for me because I've
+    I've been alive for long enough to have EXP uh y'all y'all don't not because you're
+    dumb just because you it it takes longer than that to develop expertise like I
+    have um I've been I've been studying what I study for as long as many of y'all
+    have been alive um and I'm still like you know I'm starting to get to the point
+    where it's like oh I most of what I know now is like I have a good enough sense
+    of the landscape that I I know the difference between the things that I know the
+    things that we know as a species and the things that we don't quite know as a
+    species so I am I'm in a very good position to be able to talk to the bot and
+    sort of to push it into area that I know like the the the really fiddly answers
+    to it and I get to see it kind of go wrong and go off the rails and sort of like
+    start making stuff up and start guessing and making frankly the kinds of guesses
+    that I see like non-experts make like when you if you're I don't want to like
+    talk down about non-research professors um but like a teaching Professor who is
+    not in like the the specific domain of research that
+- dur: 180.0
+  end: 3240.0
+  start: 3060.0
+  text: that you're talking about is like or not even teaching professors textbooks
+    textbooks are mostly wrong that's kind of one of the the secrets of if if it has
+    been around for long enough to be written down in a textbook it's probably wrong
+    at some level it's at the very least a cartoonized version of the real thing which
+    is always going to be more complex than not there it's always going to be less
+    stable than you are often led to believe um one of the many bad uh yeah one of
+    the many themes of this class will be acting under uncertainty and one of the
+    recurrent themes there is that we know a lot we know a lot more and a lot less
+    than you're often tend to taught I think that the nature of undergraduate education
+    like there's tests there's quizzes there's papers there's grades um there's this
+    sort of like certification system that we go through it's like yes you understand
+    organic chemistry a chunk um and the nature of that is that things are often presented
+    to you as if they are right or wrong true or false like what's the answer to this
+    question oh it's B that's not really how the world works like there like questions
+    can be like we'll get into the philosophy of science aspect of that later but
+    um the world's a lot murkier than we would like for it to be and that is true
+    of science it's true of every field um and I lost my point but uh yeah anyways
+    so the idea will be that within this space and that the structure of this class
+    is going to be encouraging you to um navigate this area and then rather and what
+    AI will allow us to do uh versus an earlier era of life um is it will allow each
+    of you to to navigate a much more uniquely s uh spe like you'll basically all
+    be able to choose your own trajectory through this space um because the thing
+    to be cons like if I'm up here giving a lecture about you know biomechanics or
+    neuromechanics or something like that I I have to kind of think about like are
+    they going to be able to follow any of this is this any of this going to going
+    to land and like if I can't so I have to like limit the density of the things
+    I say to try to make sure that like at least a percentage of you can sort of follow
+    the plot um but what is this is it25 is the class over yeah um but one thing I
+    get to do with AI and I'm going to give it a shot at the I think we'll have we
+    should have time but um we actually start talking about the content of the class
+    uh but one of the things that I that this allows me to do is to be much much much
+    denser in the information that I present to you um because because I can I will
+    I'm going to talk about things that are going to be over your head uh
+- dur: 180.0
+  end: 3420.0
+  start: 3240.0
+  text: and it's going to come real fast and you're not going to follow all of it
+    I can guarantee you already um but that's going to be okay because I'm going to
+    record it and then once I record it I'm going to scrape the audio put it into
+    the AI as like an outline of topics put that in one of the channels and then one
+    of the assignments will be go ask the bot about whichever as like which which
+    part of this was the most interesting to you which part of this was the most confusing
+    to you which part of this do you wish I had said more about which part of this
+    did I say something about but you didn't follow it at all um and so my goal will
+    be to say all the things that need to be said um to say in a way that you that
+    you know that you can follow because you're all smart people um and your job is
+    going to be to basically uh stand in front of the fire hose and try not to let
+    your brain turn off entirely and try to just let it wash over you and to notice
+    when you have something that sort of like wakes up like when I mention some this
+    or that or some topic over here or some topic over there uh to notice what those
+    things are and then in your own time and with your machines or whatever uh explore
+    those topics and sort of seek out deeper not depth and knowledge about those things
+    and you can do that 24 hours a day seven days a week this thing will answer every
+    question you have at any point forever it will never get tired it will never get
+    annoyed there are no dumb questions it is always down and learning how to navigate
+    that I think and so yeah so basically it will stop the traditional problems of
+    uh student teaching which is like to get it it will it will break you out of broke
+    of like fail States um and it will help you jump over hurdles and sort of that
+    that space of like I don't know what to do I have no I'm I am so lost I don't
+    even know which way to go just ask the machine and it will give you help okay
+    so um from here so we have 35 minutes left calm down [Music] um try I think of
+    I what I want to do specifically I'm going to do this kind of in the okay I'm
+    gonna I'm gonna I'm G to try to make sure I want to get y'all I'm I'm choosing
+    between like the with the possibility of running out of time uh getting you sort
+    of set up with the technical aspect of this versus like dumping a bunch of content
+    on you uh I'm in traditional first day
+- dur: 180.0
+  end: 3600.0
+  start: 3420.0
+  text: of class stuff I'm going to focus on the technical setup and there there's
+    a whole rest of the semester left um no syllabus survives first contact with the
+    classroom so if we if the schedule shifts I'm honestly okay with that um so yeah
+    so um something like 20 of you have made it here already uh so to start let's
+    start with um the canvas course and
+video_id: cB6lWKBlEhE

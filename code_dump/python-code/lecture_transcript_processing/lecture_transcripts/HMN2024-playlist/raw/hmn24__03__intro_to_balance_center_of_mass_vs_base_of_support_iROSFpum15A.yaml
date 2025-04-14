@@ -1,0 +1,1427 @@
+full_transcript: okay great hello so welcome to October um if you already had one
+  of those but welcome to October 8th uh so yeah so the So today we're going to talk
+  about balance in center of mass and Bas of support and talk about that kind of thing
+  and then after about an hour of talking about that kind of stuff we're gonna do
+  some group stuff again but there's going to be um sort of like our first kind of
+  technical split option um so if you are a person who is interested in code and programming
+  and that type of thing um you'll have the opportunity to kind of split off and work
+  on that kind of thing if you're not interested in that you can hang out and we'll
+  do more like lit review types of stuff um if you've never done it but are curious
+  then you're interested in it interested is not experi that's a separate thing um
+  so uh the first thing I want to sort of show before we get into the meet is like
+  this some this thing that's going to be kind of like a a rolling kind of checkpoint
+  throughout the semester which is the AI weird aspect of this class where I have
+  now the first instance of an example of scraping the server so basically pulling
+  all of the chats that you've been having with the bot um effectively that like markdown
+  text file that gets attached to the top of each chat I pull that out run it through
+  the AI say summarize this pull out the main points and Main topics and then basically
+  do that for like each chat and each Channel and each category and then the whole
+  server and the idea is to sort of use that to try to get a sense of um like what
+  you guys are working on what you're interested in and for now it's kind of like
+  it's just descriptive so it's just like y'all are doing what you do and then this
+  is sort of pull and you can look at it if you want um but one of the things we're
+  going to do in that second half of class is sort of starting to steer this a little
+  bit so say what are some things that seem to be coming up for a lot of people and
+  like can we sort of get more details about those topics um can I look at that and
+  say oh they're really interested in this thing when we talk about that next lecture
+  that kind of sort of more of a feedback type of thing so um it's so the thing is
+  a ZIP file so if you download it it will go to your uh downloads folder whatever
+  that may be for you so you can unzip that so that it's just a regular fer your oh
+  come on now is it giving you all that invalid thing um so it's here uh so in the
+  server in the resources Channel at the top there's a thread called server scrape
+  checkpoints and there's a zip file and I am totally happy saying that this checkpoint
+  is the zip file is corrupted and we'll figure that out later cool so if you can
+  figure it out great if not um it's a bunch of basically like poorly formatted summaries
+  of the things You' been talking about and we just call this uh foreshadowing um
+  there's a couple other things in that resources Channel too that I added uh one
+  is this link up here to a YouTube playlist of these videos um except for last one's
+  video because I forgot to save it um I forgot to hit save at the end of this and
+  I wasn't saving to a video format that is forgiving of closing the thing mid recording
+  so that video was lost rip lost data it happens um and then so yeah and then yeah
+  that's another one of those like maybe we'll get to the thing where I can scrape
+  the video and pull the transcript and get the topics out put that into the but we'll
+  see about that um there's also this link to another playlist called AI stuff where
+  I talk about things like building Skelly bot and like using it in classroom settings
+  like this so if you're interested in that kind of like meta AI edte stuff watch
+  that um yeah and then the third thing I added to the server is in this lectures
+  category over here um this one down here which the string of numbers is the date
+  so 2024 108 just a way to write your date concisely that's called little endian
+  meaning the little things are the end of the number so de earth big big Indian little
+  Indian that's what that means if you ever come across that again uh compsite people
+  might no one else will um in that I put a link to an outline of what I'm going to
+  talk about today which is some tur notes work these links don't work um but maybe
+  you can figure it out they're over here okay um cool well so far don't really give
+  you any option Cho um um yeah so obsidian calls folders vaults okay uh and so you
+  want to be opening that folder as a vault okay uh if you feel like playing with
+  that stuff go to any chat and just download the mbb stands for markdown it's the
+  thing that turns this looking text into this looking text so you just type it out
+  in the raw and then if it's MD and thing that you're looking at knows how to process
+  markdown files it turns it into that um so download any the chat at the top um or
+  download this that markdown I feel is the sort of the seed of the resol Revolution
+  because it is we have just generally internalized this idea that like text is like
+  Microsoft or Google when it really really isn't like text is like a behavior that
+  you do on a keyboard and we want it to look nice but this is the raw that we actually
+  care about is this and so it's also the first sort of entry point to like hey there's
+  such a thing as interpreted text you type this thing the computer knows how to make
+  it pretty um and uh yeah also uh Google Aaron Schwarz if you don't know who that
+  is he's one of the people who sort of came up with the original definitions for
+  markdown and uh you should look up who he is and then steal every paper ever published
+  a lot of profess be like be careful don't go to HUB or you'll accidentally steal
+  papers I'm telling you explicitly go to scub steal papers steal textbook from libgen
+  as a scientist as operating under my academic freedom it is the best thing I can
+  do for you to say every publishing industry steal all their data steal all their
+  it's yeah they think it's their intellectual property it's not it's ours to steal
+  it from them okay so none of that is relevant though um so we've been talking a
+  lot about Center of mass I've sort of described it at various levels uh and today
+  I've brought a series of props to help present that a eron could you screw that
+  together thank you um so part of I think also part of the pattern that's emerging
+  is I show up late I set up takes a while I'm frustrated and sweaty uh I eventually
+  get it working I give like a little update on like the technical backend and AI
+  nonsense I have some sort of like moral outrage moment and then I talk a little
+  bit about like philosophy of science and then we get into the actual topic of discussion
+  um so this is the philosophy of science part um so I've talked about the the concept
+  of reductionism uh which is one of those things where it's like it's such a fundamental
+  aspect of the way that we live in this sort of society in the way that we B basically
+  the way that we do science in the western tradition is a heavily reductionist tradiction
+  meaning that you take a a big complicated thing and you chop it up into tiny tiny
+  tiny little pieces um and then you look at those pieces in isolated environments
+  and then you you sort of hope that the things that you learn about those small scale
+  isolated things will scale up to the larger actual desideratum of your study um
+  and generally speaking it does right that's why we do cell biology that's why we
+  learn about genetics that's why we learn about particle physics and you know periodic
+  tables and stuff like that those are all fundamentally reductionist approaches to
+  science um reductionist kind of sounds like an insult but it's not it's just a description
+  of of a way of looking at things um the the counter to that doesn't really have
+  so defined of a name but I generally sort of think of it as like more of a holism
+  where instead of taking the thing that's sort of because the problem that reductionism
+  solves is that science is impossible right rule number one can't be done we mere
+  primates do not have access to capital T true facts of the world we can only approximate
+  it with a bunch of sloppy empirical measurements and then statistics um the problem
+  of induction in black swans if want to dig into that ho um and so because we can't
+  actually do the thing we want to do which is like have true knowledge of the real
+  world we have to cheat and take various sort of side steps and whatnot so the traditional
+  Western productionist view of science is chop it up into little pieces and hope
+  that those pieces sort of fit together into something that resembles the whole um
+  a more holistic approach cheats in a different way where instead of taking the whole
+  thing and chopping it up into little more parts and thinking about all those parts
+  in isolation you take the whole complicated thing and you kind of just like squish
+  it down into what you think or hope is like the minimum possible like the most the
+  simplest possible model of that thing that captures the Dynamics of the whole thing
+  so things like Center of mass which talked about we'll show some pictures in a second
+  um is fundamentally that approach um and I've mentioned before this is like not
+  NE this is not something you're likely to find in like specific textbooks this is
+  more like things I've cobbled together in my research it's sort of inspired a lot
+  by robotics approaches going to look up passive Dynamic Walkers is a classic one
+  um art quo uh Andy ruen Steve Collins all those good folks um looked at how sort
+  of taking the whole complicated object and then reducing it down to a single point
+  Mass um can be very helpful to trying to understand what's going on there um I think
+  I forgot to yeah so uh I brought a stick so this stick uh this is like the the the
+  middle part of like a floor lamp and I found that on the street I tried use it it
+  wasn't didn't really work right um and then I realized that the the middle part
+  not only comes apart so I can put it in my backpack and bring it to class I used
+  to have like a br stick that I cut at a meter and brought into the class but this
+  thing pulls up also very nicely this turns out to be actually one meter long so
+  I think somewhere at some Factory someone ordered a bunch of like meter long poles
+  and cut them up and then now this is a meter stick um so it is uh aluminum or actually
+  I metal and roughly straight it has some extent but we can ignore that and it also
+  is in even section so this part here is the geometric center of the stick and if
+  I put this little thing here then I can know that that is this is both the geometric
+  center of the stick is's also the center of mass of the stick so if I take this
+  object I focus on this um so basically if I take this stick and I chop it up into
+  like 1 cm sections so there would be 100 in a row and I took the average position
+  of each of those points um literally just take the XYZ of this one XYZ of that one
+  XYZ of that one add up all the X's add up all the Y's divide them by the number
+  of chunks the resulting average Position will be here and it turns out that from
+  a point of view of like balance physics that is the point that you need to support
+  in order to keep the thing from falling down whoa right um so that is true when
+  you're supporting it from the bottom it is also true so this is called Loop pull
+  the loop through itself that's called a dirt pitch uh if you pull it through again
+  this is called a pric and it tends to and it stays worth this I have trusted my
+  life and the Liv of many people I love to uh Nots in various contexts so a press
+  I can nicely put over that little yellow spot crank it down so it'll stay and in
+  the same way that balancing it from below the center of mass keeps it sort of where
+  it needs to be um from the above it's the same basic idea so there's more mass on
+  this side than there is on that side so I move it over a little bit and hooray bounce
+  right so in this case because this is a uniformly massed object this the geometric
+  center of it and the center of mass are the same place yes I also found these on
+  the street there's a lot of fun things on the street if you know where to look these
+  are like like old school like ankle weights I think like you know put them on your
+  ankle I don't know um and this is like carpet pad so it's high friction and if I
+  like that okay so I've changed both the geometry and the mass distribution um from
+  the point of view so the geometry in the sort of the long axis of this thing hasn't
+  actually changed much at all right it's the same length um around the in this particular
+  case so for any 3D object you have a long axis you have a middle axis sometimes
+  called intermediate axis you have a short axis which is the short one sometimes
+  they are symmetric in this case the midle and medium medium are symmetric so get
+  that um you can also Google the intermediate axis theorem otherwise known as the
+  tennis racket theorem which says that you can spin it around the short axis you
+  can spin it around the long axis spin around the middle axis it flips midair not
+  relevant but fine there's some cool gifts of people doing stuff on the space station
+  but that's not important right now so unsurprising I've changed basically I've changed
+  the geometry a little bit not in an important not in a relevant Dimension um but
+  I've changed the physics a lot so now this side is much heavier than that side uh
+  because so before we were just taking the geometric mean you just take the positions
+  of each of those points take the average and it happens to line up with a center
+  of mass in this case uh that's not that doesn't work because all of those points
+  that I'm adding up are not do not have the same density this is full of sand or
+  something I don't really know so I can put the thing over here that's about right
+  and there we go so now this is the center of mass so the geometry for our basic
+  approximations hasn't changed um but the physics has changed quite a bit and so
+  the center of mass has changed and so that balance point has changed both when you're
+  supporting it from the bottom and when you're supporting it from the top right basic
+  idea um if I wanted to do another one think there's two of them you can here we
+  go once again even heavier so I can move it basically all the way over here and
+  it's not quite right but now yeah so now it's the center of mass of the whole stick
+  system is very close to the the Big Bob at the end notice that the first time I
+  moved it I had to move it all the way over here the second time I had to move it
+  far less that's because of like torque is a thing this is really hard this is really
+  easy when we talk about the muscular skeletal system this will come up again if
+  you're curious about how uh notice that my arm also resembles a long stick and my
+  shoulder which is the main thing leaving it up is this long and attached right here
+  so so it's much more like doing this than doing this so spiler alert your muscle
+  muscles are like unbelievably strong relative to the task that they can perform
+  because they're operating on a massive mechanical disadvantage that's not important
+  right now so yeah okay so this is intuitive Center of mass uh there is a difference
+  between the geometric center of a rigid object and the center of mass and Center
+  of mass also you'll hear it be called center of gravity those are the same thing
+  this is gravity being used in the term like density uh center of gravity just feels
+  a little more old school to me or in space like in all contexts that matter for
+  us Center of Mass center of gravity are the same thing so if you ever see cogg in
+  a paper it's the same thing it's just you know using a different term um yeah Center
+  of it's like yeah basically Center of density would be another way to say that but
+  that's not quite okay so this is a stick made of trash I found on the street um
+  excuse me this is a little wooden fellow and it also has a center of mass which
+  I could measure if I wanted to I'm allowed to chop this up but I don't want to um
+  but it is here if our friend did one of those oh look it tips over so I have to
+  move it sort of more this abdomin area so as you move the mass of your body the
+  center of mass shifts like I said last time Center of mass is not a part of your
+  body it is a description of your body and if you do one of these types of shape
+  the center of mass can be outside of your body so the center Mass is like here because
+  it's below that point of rotation it becomes passively stable and I can kind of
+  perturbation rejecting which we'll talk about shortly so this would be a link but
+  it's not I put over here so so this Center of mass approximation is like I think
+  a very important and very useful uh hyper simplification of the full complex object
+  um it falls under the general heading of like classical mechanics uh which is a
+  part of mechanical engineering if you're kind of find the right building to walk
+  into um and it specifically falls under I think it's called the finite element theorem
+  which basically says that the that you're allowed to look at the center of mass
+  as a as a proxy for the Dynamics of the whole thing so taking this complicated object
+  chopping it up into like finite elements and then finite small but not zero um and
+  then looking at the mean of those points tells you about the the full um tells you
+  things about the Dynamics of the full complex object um and I think that's honestly
+  I find that like keys I find helpful to think about that because this is also complex
+  it's like gangly um but if you sort of throw it if no matter what you do it still
+  follows a nicely ballistic trajectory and you can also use this to show that even
+  if it's spinning it will spin around its Center of mass and follow a ballistic trajectory
+  so you know each of these Keys is a rigid body they're connected by rigid bodies
+  so there's no uh stretch or strain or anything like that in the Ballistic case it
+  wouldn't matter but it's do that with people p um so uh in this case I don't know
+  how much this stick weighs I know that it's one meter long I don't know how much
+  these ankle weights weigh but with if we wanted to we could figure out the mass
+  of the weights and units of stick Mass um using this kind of sort of math and sort
+  of learn things about the forces at Play and things like that and if we were trying
+  if we were controlling this with muscles that information would be very relevant
+  to us um if you want to do that for like a human person uh it's so basically I want
+  to be able to calculate the center of mass of a person um but how do I get those
+  numbers well it turns out uh someone chopped up a bunch of dead people and weighed
+  them and we have these anthropometry uh a really common one is winter um uh which
+  is from like a biomechanics book and I think these tables here were it shows where
+  they came from um I think it was like Air Force data they chopped up kabers and
+  looked at the relative densities and did a bunch of statistical analyses and you
+  get numbers so this is the geometry of it and so these numbers here like be able
+  to read it but .52 H where H is total height of the person so this is estimate of
+  sort of relative proportions of different body segments in terms of the just in
+  units of height um importantly all the dead people they chopped up were men all
+  the dead people they chopped up were old men because they were dead um often there's
+  a correlation between age and time um there are newer uh anthropometry tables that
+  look at a broader demographic um different genders different sort of um body mass
+  indices or whatever um but by and large a lot of those differences are small um
+  and relative to the scales that I tend to look at in my research They Don't Really
+  shift the numbers that much so just kind of use these because it's a standard and
+  it's you know around um so these names here correspond roughly to these guys up
+  here and they give you the name of the thing the definition in terms of anatomical
+  axes so the foot is defined as the lateral malis to the head of the metatarsal 2
+  so malis is that on the outside metatarsal is your uh tole I don't know Al to is
+  like it's like your index toe knuckle if that's the thing and then it gives you
+  the segment weight as a proportion of total body weight so your hand is roughly
+  6% of your body mass if you have standard standard side hands um forearm upper arm
+  uh your foot is about that 01 14% seems high but I don't know um your leg is 046
+  oh sorry 4% yeah um thigh is 10% and then it gives you like foot and leg is you
+  know added up ones above it so in the center of mass calculation I was showing last
+  time with the blender thing and that little ball moving around those were calculated
+  by using these numbers and we'll talk about that in a little bit but just wanted
+  to show roughly where that stuff comes from um I also so some time ago different
+  life uh I would I made a bunch of gifts and posted them on Reddit in fact before
+  Reddit was it was still a sess pit but it was a different kind of cesspit um and
+  basically I would just go and find videos of people doing interesting things and
+  then just overlay them with basically Center of mass analyses so this is the hand
+  forearm it's a planer view so meaning that it's basically a view from straight down
+  one of the x y z axes so you basically get to ignore the 3D aspect of it and just
+  focus on the 2D uh the vertical line show the extent of the base of support which
+  is basically where his hand is and then the thing to notice is that the center of
+  mass always stays within that boundary because it has to because if it didn't would
+  fall over and there's a bunch of these um this one is wacky uh so uh so this one
+  I was getting fancier so I was actually stabilizing the image and this guy's very
+  good at this type of thing so again just always stays there Center basic SP shifts
+  ra shifts his hands and see like he's doing see look how screwy this like yeah yeah
+  he's a freak um archerd or using Dynamics to sort of Pop himself up but keeping
+  it within this range the important thing to know that his hand can only push on
+  the ground so if the center of mass ever left those boundaries he cannot pull it
+  back he can only push it farther away uh and this one is a a violation of that rule
+  so this is balance beam otherwise known as the hardest what what's it in sports
+  she does this cool thing but oh no she falls but then she pulls it back in and so
+  the the most important part of that video for me is this point right there where
+  it does go out but she has a grip on the bar so she can she can pull back in this
+  this is the same basic idea the wobble in the center of mass is is uh is noise in
+  the estimates all right so those links are all there there's a bunch of them click
+  through them you know uh we'll talk about them at some later date perhaps um okay
+  so roughly speaking that is so C so the important thing there is Center of mass
+  um we did talk and then also this concept of base of support your base of support
+  is just like the the shape on the ground of your support surface uh my Bas of support
+  is defined by my feet this thing's Bas of support is defined by that little point
+  it is not passively stable uh for very um okay so real quick um physics Newton was
+  a guy he did a thing uh he among other things is um he came up with this sort of
+  theory of mechanics which is embodied by Newton's three laws of motion uh which
+  are false and wrong theoretical uh models of reality um this is I think a great
+  example of like how wrong theories are still useful um Newton had a theory of reality
+  where there was such a thing as position and velocity um and wasn't until far later
+  that some guy named Einstein came along and wrote some papers um I really don't
+  like like ascribing these thoughts to specific people because really they're just
+  the specific humans that wrote it first like people say Newton invented calculus
+  but lith also invented calculus at the same time in Germany with better notations
+  um it's just often times these are just ideas that are just ready but s Point um
+  so Newton's theory of classical mechanics is false on a scientifically theoretical
+  basis um if we wanted to actually calculate things like momentum we would have to
+  take into account things like relativity Theory and eal MC s and whatnot um but
+  we tend to move at speeds that are so much slower than the speed of light that it's
+  it would be not only insane to require that level of precision but impossible to
+  measure at that level of precision so we instead just use the the three regular
+  laws so that's what is it um basically law one is inertia exists things that moving
+  in a straight line tend to keep moving unless acted on object in motion tends to
+  stay in motion L acted upon by force number two is really the our our best friend
+  here f equals Ma Force equals mass acceleration if you have a mass that is accelerating
+  that is called a force Mass is measured in kilog acceleration is measured in meters
+  per second squared or really distance is measured in meters time is measured in
+  seconds acceleration is meter over second squ and so kilog time me squ we call that
+  Newton R uh and then three is for every action there is an equal and opposite reaction
+  so push on something it pushes back um so I spent a lot of my earlier academic life
+  thinking our thoughts about pendul pendulums pendul even brought a CH and tell book
+  this book is called seven tales of the pendulum it's great it's about basically
+  like seven cases of like ways that like pendula pendulums have been like very core
+  to the way that we do science for a very long time um and there's all sorts of crazy
+  stories in here about like using p like like using clocks to be able to Traverse
+  the Atlantic Ocean like you had to invent the clock before you could Traverse an
+  ocean um using changes in the period of a pendulum to figure out the density of
+  the ground below you to find iron um FCO pendulums which are like the things in
+  museums that knock the sticks down if they go in a circle but anyways um so let
+  this is called a free body diagram and that's is a hanging pendulum let's call this
+  L that's an L let's call that let's call that that um so that's basically this right
+  so we have a a point of mass dangling below a point of rotation and we're going
+  to pretend that this stick has no Mass um which we kind of approximate by this thing
+  because the mass is so heavily towards this side and I'm going to make this about
+  balance and posture in a second by basically taking this and putting it up like
+  that but let's focus on the basics for now so so this is a this is the mass and
+  then this is gravity gravity is 9.8 me/ second per second let's call it 10 um so
+  gravity is pulling down which means that this string is pulling up because gravity
+  is pulling down at 10 meters per second per second but this thing isn't moving right
+  and we know that if if there's something if there's a force acting on a mass then
+  it has to be moving so if it's if there's a force acting on the mass and it's not
+  moving moving and there has to be an equal and opposite force acting it's statically
+  stable great so now let's push it up here this is still L same length let's call
+  thisa don't you have to worry about it gravity is still pulling down the same Force
+  same mass that it has except now we know that it will pull this will now Accel so
+  gravity pulling like this uh and then we do like some Vector decomposition thing
+  right and then it's like the the string is still pulling on it but it's not aligned
+  with the axis of gravity so there's this like leftover arrow and that arrow is pushing
+  this way which means it's going to accelerate that way and then and it does like
+  this um so details details but the important thing here is just to note that basically
+  you have a mass here that's sort of you can lift it when it's at it sort of zero
+  point so right now so we can look at so the Theta when it's here is zero like just
+  say the angle of deflection from the vertical point is is zero great and then we
+  move it over here we say angle is Theta which is just some arbitrary angular number
+  could be 12 degrees could be one radian doesn't matter and when we put it over here
+  uh it has and we let it go it will swing back and intuitively we kind of know we've
+  probably seen like the demo where you pulled the thing you let it go comes back
+  hit your face whatever unless it's the internet edited the video and do get hit
+  my face um so as it goes over here it will pick up speed it'll pick up momentum
+  and it'll get back to the same point that it was before except now it's going to
+  instead of its velocity being its angle being zero its velocity being zero its angle
+  will be zero but its velocity will be high because it's swinging and then that will
+  sort of take it up over here until it bleeds off all that speed and then spiler
+  alert that will be negative Theta if there's no friction or whatever in the system
+  and then now we're over here and we're in the same place we were before and so we're
+  going to go back and so we swing back and forth and so there's two main things to
+  note here so this point here think about with mechanics you pretty much have potential
+  and kinetic energy if you don't you're not thinking about things like stretch and
+  strain so when I take the thing and I throw it up and I catch it when it leaves
+  my hand it has kinetic energy going up but the sorry potential and kinetic energy
+  whatever uh potential energy is mass time gravity time height Mass doesn't change
+  gravity doesn't change let's just say potential energy is the same thing as height
+  um kinetic energy is m s one half doesn't change Mass doesn't change who cares about
+  the square let's just say kinetic energy is the same thing as speed so you have
+  your height and you have your speed and that basically defines your mechanics um
+  yeah so when you throw something into the air you start out with a lot of kinetic
+  energy pointing up and as you go up to the next time step gravity is going to pull
+  down it's going to sort of bleed off some of your vertical height and then eventually
+  it's going to take all of your upward kinetic energy and then you'll have you sort
+  of pay up here at this Apex Point maximum height zero uh velocity in the vertical
+  and then it repeats that process and do this nice parabolic trajectory and if you
+  want it to be nicely parabolic you have to care about the square but that's not
+  important right now um yeah so so hanging pendulums are I'll just mention this just
+  for the symmetry of it and it might come up later I guess it'll come up with the
+  jump and stuff so when you when you have a pendulum that's a simple harmonic oscillator
+  swinging back and forth there's sort of two to three points to really think about
+  one is at the Apex here where it has the maximum height but zero um velocity one
+  is down here where it has uh minimum height but maximum velocity and then the opposite
+  on the other side and it's one of these things where like you can if you want to
+  look into State spaces like you can get the height here and the velocity there and
+  a nice pendulum will trace a nice ellipse look up the Wikipedia page on pendula
+  and you'll see some really cool gifts of the state space diagrams of hanging pendulums
+  the most important and most relevant thing for the standing posture case which is
+  what we're here to talk about is that a thing to note about this is that this is
+  passively stable where it is if I perturb it from its sort of happy zero point it
+  will that the resulting acceleration will pull it back towards that happy stable
+  point and because there's damping and like energy gets lost in the system it will
+  sort of die down back to where it is so a so if this is time we're doing dynamical
+  systems modeling because I put time on the axis so congratulations you now I know
+  how to do that um and then this is Theta if I deflect this thing down to whatever
+  Theta is it will pull itself back towards theta equals z it'll pass through it because
+  of the momentum and will go back and forth if there's no friction or anything like
+  that it'll just do that forever there is friction it will sort of come back to it's
+  happy stable point now all of these same Dynamics work if you flip it upside down
+  except it's no longer friendly and passively stable so this is where it becomes
+  Neuroscience so now this is the floor so we were doing a regular pendulum we're
+  now going to do inverted pendulum this is another highly googleable term it's inverted
+  pendulum human movement get all sorts of stufffly during for Locomotion uh so now
+  we have the same guy attached to a point on the floor um we still have L we still
+  have M and oh I forgot to mention if you wanted to calculate like the forces like
+  the Newtons and stuff like that because this is a meter we can you could calculate
+  those things in units of I guess you wouldn't know kilograms either but you could
+  get some weird wacky unit that was equivalent to that um so uh yeah so that's call
+  it Center M and we'll call this base of support so remember with this type of thing
+  I drew the vertical lines showing where going to show up showing where the extent
+  of the base of support is um this guy that region of controllability is an infimal
+  a non-existent thing because it's basically this deflection Point here is Thea equal
+  Z and whereas before with a hanging pendulum if I perturb it from that point the
+  resulting uh acceleration will pull it back towards that point and it will sort
+  of cycle through there if if you're up here you're not quite so lucky um this is
+  the place where if we so this is called the vertical projection of the thing which
+  is basically this you know if this was X Y call this y let say yal Z and now this
+  is X and that's vertical projection um and so just like before the thing that I
+  deleted like at some point in my life um I started pulling erasing things on a board
+  deleting them which is always fun um so uh kind of like before you have you have
+  gravity pulling down on this thing here which means you have gravity pulling down
+  here have structure of the stick pushing up and if it's balanced here happily then
+  these things cancel each other out perfectly and nothing nothing bad happen now
+  if there's a little bit of deflection from that point in the same way this thing
+  gravity is still pulling down the stick is doing its best um but it's they're misaligned
+  so there's a a resulting sorry yeah that's right so the there's some geometry stuff
+  you can do here if you want somea whatever trigonometry um but basically the the
+  amount that they are separated from each other means that the force of basically
+  that the this one's not um the stick is doing its best to keep you up but now it
+  is also pushing you away and the gravity that's pulling and also sort of leading
+  to a push in the in in a direction away from that happy stable point so this so
+  with a hanging pendulum a deflection leads to this nice result you know uh relaxing
+  back to zero uh this is a even a a small deflection will push it away so is a passively
+  unstable thing and if it's I guess I guess this is the ground so you hit the ground
+  or if you have if you go around then it just goes back around the angle basically
+  goes down to the bottom and it get it gets pulled to the other attractor point which
+  is the bottom it's this is technically a stable point but any infantes shift will
+  cause for accumulating error and it will get pushed away this is not there you go
+  and if you do the state space diagram you have like basically regions of the space
+  I'm not going to explain this but you can look for the pictures and ask a bot about
+  it um this is uh it called I think this is beta this Isa Dot and for some of those
+  uh some of the space there is periodic orbits the other is not periodic orbits Yeah
+  in our particular case a nonperiodic orbit means that you fall over and hit the
+  ground or you either have to like change your base of support or you have to hit
+  the Flor right so uh so much like science standing is also impossible there a passively
+  unstable system that cannot be reconciled which is a shame um actually no luckily
+  we we do have nervous systems so this is passively stable congratulations it go
+  there it goes and it's still an inverted pendulum it's just that the center of mass
+  is so close to the ground that I have to perturb it pretty far for it to get out
+  of that sort of happy Zone and then it does fall over to the GR in this case the
+  Cent the center of the base of support is still a point of X has an extent um but
+  if I let go it will slowly accelerate the acceleration this is one of those like
+  it's a it's a compounding error so like it starts out the acceleration is small
+  but then it get but then on the next time step it's a little bigger the next ma
+  up it's a little bigger and so it slowly picks up speed until it falls over um and
+  if that was the whole story then that would be the whole story um but luckily for
+  us we have sort of nonzero base of support and a whole nervous system attached to
+  a bunch of weird electrical Springs that we can use to for actively control it so
+  this one is like I'm sure everyone done this with the broom if you haven't you should
+  this I am basically monitoring the error in the in the deflection from zero and
+  I'm using a combination of like the weight in my hand and also like looking at it
+  and then I am actively moving the base of support to uh keep basically if it's accelerating
+  in this direction I move the base of support So accelerates in that direction I'm
+  trying to sort of make it zero I could make it kind of swing back and forth but
+  it's a it's an active process that I'm doing that is allowing the thing to stay
+  up even though it is passively unstabled and the best video I have about that is
+  this one oh this is the wrong I don't have the overlay here but she's standing on
+  this ball and this is basically like the wble board stuff um and I put a link to
+  the part I'll fix it later but um basically because she's on her toe her base her
+  her anatomical base of support is very small but she's on this ball that actually
+  spreads out the center of pressure or it SS out the base of support allows her to
+  move her Center of pressure um in order to like counteract the movement so it's
+  when I seem to like like oh my God she's standing on that thing that's so impressive
+  it is very impressive but it's actually easier than Standing On Solid Ground because
+  it extends her ability to move the Bas of and if I had a overlay be like wow um
+  so obviously that's a lot uh it will all be on the test there's no test and if there
+  was it would um but do look up the the Wikipedia page about pendul it's surprisingly
+  deep uh Wikipedia is the greatest intellectual achievement of humankind um up to
+  the present moment and anyone that says otherwise is it's taken um but yeah so we're
+  going to now look very briefly at like so if you recall the last time when I was
+  here doing doing the the recordings um I we had the two recordings of me balancing
+  on my feet yeah so on the one hand I was I was balancing so I was standing on two
+  feet and I lean all the way forward and all the way back and all the way to the
+  right all the way to the left and then sitting on one foot and so actually I'm gonna
+  I'll play this and we'll probably be able to tell which one is so so you can see
+  so the ball here is Center of mass calculated in the ways that we do that the sticks
+  are the rigid body segments that we used to make approximations they you know the
+  mass of each one has been calculated according to that table with the center based
+  off the I forgot there's a point on that table that shows like where the mass is
+  relative to the proximal and dist joint proximal is close to the center distal is
+  far away from the center um and you can sort of see stuff happening there I'm going
+  to I'll I'll go back to this at a later date um but I do to show some some so yeah
+  so this is the blender stuff and uh Aaron was kind enough to pull into the raw data
+  and get started showing basic like representations that are sort of better equipped
+  to show the differences between those two conditions because you can eyeball this
+  and it kind of you can maybe kind of see it but that's not really results and it's
+  also the effects actually small to see with your eyes um and so I'm going to show
+  you is not it doesn't actually show that distinction but it just shows a quick uh
+  presentation of uh the kinds of ways we can start analyzing this data to start looking
+  at those distinctions um and then people who want to know more about this can split
+  off and learn about that and then other people we could start talking about like
+  the neural systems neural anatomical systems that go into that type of balance and
+  support stuff um so long story short uh basically you just if you're not a code
+  person just let it wash over you remember before I showed you that big old spreadsheet
+  of numbers yeah so you first thing you do is you install packages that you need
+  numpy is for numerical processing in Python um pandas is for processing with big
+  spreadsheets plotly making plots so this is one of those like many many people have
+  worked on these things for many many years nump in particular is has a has a sort
+  of place in the history of numerical Computing in that that humans can do um so
+  he's a venerable venerable guy um Stills in and then you basically you point it
+  to the place at your computer where the data lives you say hey load in that body
+  trajectories CSV CSV stands for comma separated values so if you look into that
+  text file it would just be a bunch of numbers with comma between them and then enter
+  and then a bunch of com them and that's how spreadsheets live at their sort of most
+  basic level kind of in the same way that like uh your Microsoft Word document is
+  the same thing as a raw text document CSV is the raw version of what happens in
+  like Excel um so you take that and Pull It in it looks something like this this
+  this formatted Square that's what pandas does that package that handles these things
+  um and then you pull out the center of mass trajectories print them out just to
+  make sure that you're not going crazy um these are the names of the mark of the
+  the points that we're tracking um and then blah blah blah it's important but you
+  don't worry about it uh and then you can take basically each of those points and
+  it has a trajectory over time so this is the EXP position of the nose on this axis
+  in meters and then this axis shows time where in our case time is frame number we
+  could convert this to things like seconds by multiplying the frame number by the
+  frame rate but it the shape would be the same but the scale would be different kind
+  of like if we calculated those Newtons uh with this assuming that this was a meter
+  you would get a certain number until you realize I lied to you this is not a meter
+  like 1.2 meters um just the point to make that like those distinctions are arbitrary
+  uh until you want to that would be just fine for you until you tried to compare
+  your notse to somebody else who actually used a ruler um but often times units are
+  just like scalers they really affect the shape of the data so this is the the path
+  that my nose took on the xaxis of whatever thing you're looking at pull it out uh
+  same thing except this is now the XYZ um see me jumping over here and same thing
+  for Center of mass jump jum so basically like things like the nose are like raw
+  measured points things like the center of mass is calculated from all of those trajectories
+  plus the in cometry tables and then you do this is just basically Shuffle Stu around
+  so that you can make a visualization this is just basically showing for each point
+  for every frame that we have what is the XYZ position of all relevant dots uh and
+  then the purple dot here is the center of mass noticing so this is basically like
+  what scientific data visualization often looks like um it's very raw and it's very
+  like it's just not really set up for this type of stuff it's not even scaling properly
+  here this could be cleaned up and we'll do that going forward but this is one of
+  the huge advantages of using something like blenders like this is a visualization
+  tool for professional visualizers and anator the exact same data it's just this
+  is being presented in something designed for like aesthetic visual outputs and this
+  is something designed to plot two dimensional data and they begrudgingly added a
+  3D viewer um but it's also good just to sort of show that you're not crazy because
+  you can plot it and it's like oh yeah that looks like a person great also notice
+  the dots are not connected um because the connections between the dots is not it's
+  not a measured part of the data set like we know that the shoulder connected to
+  the Elbow but we measured the shoulder we measured the elbow so this is just a raw
+  representation if you wanted to draw the stick figures you would need to have additional
+  information saying how to connect the dots which we're not doing a this juncture
+  um now you go through you pull out so we're looking for we're going to look for
+  the ground projection right we're comparing Center of Mass to support uh so we don't
+  care about so before we were talking about jumping we cared a lot about that Z height
+  number um now we're looking at a ground projection we throw away that Z height number
+  because in our world at this right hand rule XY z z is up in some cases Y is up
+  so no one ever says X is up but in our world z is up so we throw that away we just
+  take Center Mass X Center Mass Y and we take the the points that Define the basic
+  support left heel right heel uh Left Foot Right foot index which is toe um this
+  particular tractor has a very impoverished foot that just has a heel on a toe um
+  but we pull those out and that's enough to make a rectangle on the ground uh pull
+  out the yeah do some stuff visualization code Shuffle Shuffle and you get this which
+  is a nice so this is an animation with we play in a second but um so if you're ever
+  color coding parts of the body the right side is red always because starts with
+  an R you'll see it you people will get that wrong all the time and I saying from
+  a moral position they are wrong if you're color cing the body the right side is
+  red the left side is any other color that isn't green because red canuse B color
+  so right foot left foot center of mass basically the top down View and play as much
+  as it can so this is the uh control case um so you can see me leaning back and forth
+  and uh on your own time uh stand up and lean see what that feels like and specifically
+  see that notice that you can notice when you're at the edge and notice that that
+  the heels have far less to do than the toes and that you have a sense of that relationship
+  between your B of Support Center Mass even though you may not fully realize that
+  so now you can sort of see what's happening from the top down and you can see now
+  I'm shifting over and even though this is a very impoverished view of very complex
+  data you still have a pretty good sense of what's going on on and you can also tell
+  that this is the one where I'm not holding the the weight um and because I think
+  my computer can handle it actually and then you can also plot the whole thing and
+  it sort of become this kind of shmear which if you're thinking about things like
+  Dynamics this is not a great way to look at it because you now squished over time
+  but if you're worried about like what space did I cover how large I PL to be able
+  to view it this is a great way to show all the spaces that my foot has gotten to
+  in this recording um and just to see if it works it doesn't it's not your fault
+  um although I think it will are numers oh see this is why it's good to have an external
+  LIC nervous system okay so this is a panda notebook which I I don't like in many
+  ways but they they do the job um I like they're they're really good for like really
+  simple stuff like this in educational context but they don't scale in complexity
+  at all so it's like you people wind up getting especially like student like objects
+  tend to get stuck in Panda's notebooks for a long time in their trajectory um but
+  oh that's that's morning we calculated it in my dark mode St um okay looking good
+  so far so this is the same so this is now the data where I'm holding 20% of my body
+  mass in my can and I wasn't careful like I realized that actually the better way
+  to represent this would be to like hold statically on one side and try to hold it
+  out away from me um because I was shifting it around a lot so you might have to
+  just kind of like gut check it um and would also be nice if this was playing alongside
+  the bigger visualization which we can do Andre actually wrote some code to make
+  that EAS doable and yeah so that's yeah so there so basically the fact so here I'm
+  it's actually my Center m is still my right but um but when I shift over to my left
+  here yeah so you can you know that my foot is moving and you can see the center
+  mass is just shifted a little bit on the outside so this is one of those thing was
+  like to actually show this data more like to to make that point that is this distinction
+  um this is kind of like it's like oh yeah the effect is there it could be measured
+  it could be done whatever the behavior was not well set up to produce sort of good
+  data but we can go back and record new data we could also basically just like give
+  yourself a longer time standing there we could take this representation and couple
+  it to the bigger visualization so we can actually verify and like we make pause
+  button work um and then pause it and be like oh yeah look I'm standing here stable
+  and supported but my b base of my center of mass is outside of my base of support
+  because this Center of mass is not the actual Center of mass because we're not accounting
+  for the fact that my hand and now instead of being 1% of my body mass is now 21%
+  of my body mass we would have to recalculate the center mass of that in mind and
+  then theoretically then it would shift back and start looking like the regular again
+  the control condition okay got that good great um so as per usual I've also gone
+  longer than I intended to but that's okay good stuff um so we have another 20 minutes
+  which I do think is enough time to sort of get started with some stuff um uh so
+  just show of hands like who who likes code and data who is interested in code and
+  data you don't have to you don't have to be good at it you don't have to ever done
+  it before you don't have to expect that you will be successful at it but who is
+  interested in at least seeing what it would look like like we can get you to the
+  place where you can click the buttons and have the squiddle show up like who is
+  interested in that versus who is less interested in that code people okay cool a
+  and then non-code people great the the biggest problem would have been if everybody
+  said I want to do code so this is great um code people I guess push back and then
+  eron can you just just try to get them like as far as you can get towards this like
+  mostly just like probably besttop code and then CL Theo this is now in this notebook
+  is now um great uh other people um we're going to I want you to to um do the same
+  kind of like uh group work thing again probably by next week I will be able to have
+  some sort of more feedback loopy thing with the pot but right now we're still passively
+  just pour into it and basically ask it the questions that came up for you when you
+  were watching me talk about all this stuff um if you're if you are interested in
+  the mechanics of it you can ask more about the Robotics and control theory and anal
+  systems and P stuff if you're more of a I don't know biologist uh you just just
+  think about the types of neural systems that would have to be in place for this
+  to be able to work like that like you do not have a center of mass detector that's
+  not a thing that exists in your nervous system you have a bunch of other modalities
+  that give you other types of information and that has the sort of effect effective
+  reality that we could it's like functional equivalencies for those uh functionalism
+  I always had a professor say philosophy of mind is so hard that makes functionalism
+  look interesting which I will not explain I will just say you can chew on that if
+  you want um yeah so let's let's get started we have like 15 minutes so um the and
+  so do these chats in the the channel for this lecture um and just pop some open
+  and then it's again whatever you found interesting whatever you wanted to have more
+  about whatever sort of thing I said uh and don't work alone working clumps Clump
+  up according to your local environment and Aon you could go back started coding
+  so code people go to the back and Aon will go meet you and if you're not a code
+  person and you're in the back uh you might want to move forward do it do it this
+  may be your only chance whated what's that what if interested if you're interested
+  in both do code so go code for now and you'll come back to this yeah if if you're
+  interested in doing both this is not a either or you will be able to drop this opinion
+  at your earliest convenience and there is a benefit if you have a a clump that is
+  that has sort of that is congealing in some reliable way there's a benefit to having
+  at least one person from your clump getting some code XP but you're not going to
+  be evaluating on your anything okay I'm going to stop this repor so
+metadata:
+  author: Jon Matthis
+  channel_id: UCOOQxlTCtUz9mr1NPWlJyYQ
+  description: The lecture covers the concepts of balance, center of mass, and basis
+    of support, with a focus on how these principles apply to both static and dynamic
+    systems. The instructor uses practical demonstrations with props to illustrate
+    how the center of mass changes with mass distribution and its importance in maintaining
+    balance. The session also includes a discussion on reductionism versus holism
+    in scientific approaches, and an overview of Newton's laws of motion as they relate
+    to balance and movement. Students are introduced to data analysis and visualization
+    techniques using Python, and the class splits into groups for practical work,
+    with some focusing on coding and others on theoretical discussions.\n\n{\n    \
+  duration: '4528'
+  like_count: ''
+  publish_date: '2024-10-11T14:34:38-07:00'
+  tags: ''
+  title: HMN24 - 03 - Intro to Balance (Center of Mass vs Base of Support)
+  view_count: '98'
+transcript_chunks:
+- dur: 180.0
+  end: 180.0
+  start: 0.0
+  text: okay great hello so welcome to October um if you already had one of those
+    but welcome to October 8th uh so yeah so the So today we're going to talk about
+    balance in center of mass and Bas of support and talk about that kind of thing
+    and then after about an hour of talking about that kind of stuff we're gonna do
+    some group stuff again but there's going to be um sort of like our first kind
+    of technical split option um so if you are a person who is interested in code
+    and programming and that type of thing um you'll have the opportunity to kind
+    of split off and work on that kind of thing if you're not interested in that you
+    can hang out and we'll do more like lit review types of stuff um if you've never
+    done it but are curious then you're interested in it interested is not experi
+    that's a separate thing um so uh the first thing I want to sort of show before
+    we get into the meet is like this some this thing that's going to be kind of like
+    a a rolling kind of checkpoint throughout the semester which is the AI weird aspect
+    of this class where I have now the first instance of an example of scraping the
+    server so basically pulling all of the chats that you've been having with the
+    bot um effectively that like markdown text file that gets attached to the top
+    of each chat I pull that out run it through the AI say summarize this pull out
+    the main points and Main topics and then basically do that for like each chat
+    and each Channel and each category and then the whole server and the idea is to
+    sort of use that to try to get a sense of um like what you guys are working on
+    what you're interested in and for now it's kind of like it's just descriptive
+    so it's just like y'all are doing what you do and then this is sort of pull and
+    you can look at it if you want um but one of the things we're going to do in that
+    second half of class is sort of starting to steer this a little bit so say what
+    are some things that seem to be coming up for a lot of people and like can we
+    sort of get more details about those topics um can I look at that and say oh they're
+    really interested in this thing when we talk about that next lecture that kind
+    of sort of more of a feedback type of thing so um it's so the thing is a ZIP file
+    so if you download it it will go to your uh downloads folder whatever that may
+    be for you
+- dur: 180.0
+  end: 360.0
+  start: 180.0
+  text: so you can unzip that so that it's just a regular fer your oh come on now
+    is it giving you all that invalid thing um so it's here uh so in the server in
+    the resources Channel at the top there's a thread called server scrape checkpoints
+    and there's a zip file and I am totally happy saying that this checkpoint is the
+    zip file is corrupted and we'll figure that out later cool so if you can figure
+    it out great if not um it's a bunch of basically like poorly formatted summaries
+    of the things You' been talking about and we just call this uh foreshadowing um
+    there's a couple other things in that resources Channel too that I added uh one
+    is this link up here to a YouTube playlist of these videos um except for last
+    one's video because I forgot to save it um I forgot to hit save at the end of
+    this and I wasn't saving to a video format that is forgiving of closing the thing
+    mid recording so that video was lost rip lost data it happens um and then so yeah
+    and then yeah that's another one of those like maybe we'll get to the thing where
+    I can scrape the video and pull the transcript and get the topics out put that
+    into the but we'll see about that um there's also this link to another playlist
+    called AI stuff where I talk about things like building Skelly bot and like using
+    it in classroom settings like this so if you're interested in that kind of like
+    meta AI edte stuff watch that um yeah and then the third thing I added to the
+    server is in this lectures category over here um this one down here which the
+    string of numbers is the date so 2024 108 just a way to write your date concisely
+    that's called little endian meaning the little things are the end of the number
+    so de earth big big Indian little Indian that's what that means if you ever come
+    across that again uh compsite people might no one else will um in that I put a
+    link to an outline of what I'm going to talk about today which is some tur notes
+    work these links don't work um but maybe you can figure it out they're over here
+    okay um cool well so far don't really give you any option Cho um um yeah so obsidian
+    calls folders
+- dur: 180.0
+  end: 540.0
+  start: 360.0
+  text: vaults okay uh and so you want to be opening that folder as a vault okay uh
+    if you feel like playing with that stuff go to any chat and just download the
+    mbb stands for markdown it's the thing that turns this looking text into this
+    looking text so you just type it out in the raw and then if it's MD and thing
+    that you're looking at knows how to process markdown files it turns it into that
+    um so download any the chat at the top um or download this that markdown I feel
+    is the sort of the seed of the resol Revolution because it is we have just generally
+    internalized this idea that like text is like Microsoft or Google when it really
+    really isn't like text is like a behavior that you do on a keyboard and we want
+    it to look nice but this is the raw that we actually care about is this and so
+    it's also the first sort of entry point to like hey there's such a thing as interpreted
+    text you type this thing the computer knows how to make it pretty um and uh yeah
+    also uh Google Aaron Schwarz if you don't know who that is he's one of the people
+    who sort of came up with the original definitions for markdown and uh you should
+    look up who he is and then steal every paper ever published a lot of profess be
+    like be careful don't go to HUB or you'll accidentally steal papers I'm telling
+    you explicitly go to scub steal papers steal textbook from libgen as a scientist
+    as operating under my academic freedom it is the best thing I can do for you to
+    say every publishing industry steal all their data steal all their it's yeah they
+    think it's their intellectual property it's not it's ours to steal it from them
+    okay so none of that is relevant though um so we've been talking a lot about Center
+    of mass I've sort of described it at various levels uh and today I've brought
+    a series of props to help present that a eron could you screw that together thank
+    you um so part of I think also part of the pattern that's emerging is I show up
+    late I set up takes a while I'm frustrated and sweaty uh I eventually get it working
+    I give like a little update on like the technical backend and AI nonsense I have
+    some sort of like moral outrage moment and then I talk a little bit about like
+    philosophy of science and then we get into the actual topic of discussion um so
+    this is the philosophy of science part um so I've talked about the the concept
+    of reductionism uh which is one of those things where it's like it's such a fundamental
+    aspect of the way that we live in this sort of society in the way
+- dur: 180.0
+  end: 720.0
+  start: 540.0
+  text: that we B basically the way that we do science in the western tradition is
+    a heavily reductionist tradiction meaning that you take a a big complicated thing
+    and you chop it up into tiny tiny tiny little pieces um and then you look at those
+    pieces in isolated environments and then you you sort of hope that the things
+    that you learn about those small scale isolated things will scale up to the larger
+    actual desideratum of your study um and generally speaking it does right that's
+    why we do cell biology that's why we learn about genetics that's why we learn
+    about particle physics and you know periodic tables and stuff like that those
+    are all fundamentally reductionist approaches to science um reductionist kind
+    of sounds like an insult but it's not it's just a description of of a way of looking
+    at things um the the counter to that doesn't really have so defined of a name
+    but I generally sort of think of it as like more of a holism where instead of
+    taking the thing that's sort of because the problem that reductionism solves is
+    that science is impossible right rule number one can't be done we mere primates
+    do not have access to capital T true facts of the world we can only approximate
+    it with a bunch of sloppy empirical measurements and then statistics um the problem
+    of induction in black swans if want to dig into that ho um and so because we can't
+    actually do the thing we want to do which is like have true knowledge of the real
+    world we have to cheat and take various sort of side steps and whatnot so the
+    traditional Western productionist view of science is chop it up into little pieces
+    and hope that those pieces sort of fit together into something that resembles
+    the whole um a more holistic approach cheats in a different way where instead
+    of taking the whole thing and chopping it up into little more parts and thinking
+    about all those parts in isolation you take the whole complicated thing and you
+    kind of just like squish it down into what you think or hope is like the minimum
+    possible like the most the simplest possible model of that thing that captures
+    the Dynamics of the whole thing so things like Center of mass which talked about
+    we'll show some pictures in a second um is fundamentally that approach um and
+    I've mentioned before this is like not NE this is not something you're likely
+    to find in like specific textbooks this is more like things I've cobbled together
+    in my research it's sort of inspired a lot by robotics approaches going to look
+    up passive Dynamic Walkers is a classic one um art quo uh Andy ruen Steve Collins
+    all those good folks um looked at how sort of taking the whole complicated object
+    and then reducing it down to a single point Mass um can be very helpful to trying
+    to understand
+- dur: 180.0
+  end: 900.0
+  start: 720.0
+  text: what's going on there um I think I forgot to yeah so uh I brought a stick
+    so this stick uh this is like the the the middle part of like a floor lamp and
+    I found that on the street I tried use it it wasn't didn't really work right um
+    and then I realized that the the middle part not only comes apart so I can put
+    it in my backpack and bring it to class I used to have like a br stick that I
+    cut at a meter and brought into the class but this thing pulls up also very nicely
+    this turns out to be actually one meter long so I think somewhere at some Factory
+    someone ordered a bunch of like meter long poles and cut them up and then now
+    this is a meter stick um so it is uh aluminum or actually I metal and roughly
+    straight it has some extent but we can ignore that and it also is in even section
+    so this part here is the geometric center of the stick and if I put this little
+    thing here then I can know that that is this is both the geometric center of the
+    stick is's also the center of mass of the stick so if I take this object I focus
+    on this um so basically if I take this stick and I chop it up into like 1 cm sections
+    so there would be 100 in a row and I took the average position of each of those
+    points um literally just take the XYZ of this one XYZ of that one XYZ of that
+    one add up all the X's add up all the Y's divide them by the number of chunks
+    the resulting average Position will be here and it turns out that from a point
+    of view of like balance physics that is the point that you need to support in
+    order to keep the thing from falling down whoa right um so that is true when you're
+    supporting it from the bottom it is also true so this is called Loop pull the
+    loop through itself that's called a dirt pitch uh if you pull it through again
+    this is called a pric and it tends to and it stays worth this I have trusted my
+    life and the Liv of many people I love to uh Nots in various contexts so a press
+    I can nicely put over that little yellow spot crank it down so it'll stay and
+    in the same way that balancing
+- dur: 180.0
+  end: 1080.0
+  start: 900.0
+  text: it from below the center of mass keeps it sort of where it needs to be um
+    from the above it's the same basic idea so there's more mass on this side than
+    there is on that side so I move it over a little bit and hooray bounce right so
+    in this case because this is a uniformly massed object this the geometric center
+    of it and the center of mass are the same place yes I also found these on the
+    street there's a lot of fun things on the street if you know where to look these
+    are like like old school like ankle weights I think like you know put them on
+    your ankle I don't know um and this is like carpet pad so it's high friction and
+    if I like that okay so I've changed both the geometry and the mass distribution
+    um from the point of view so the geometry in the sort of the long axis of this
+    thing hasn't actually changed much at all right it's the same length um around
+    the in this particular case so for any 3D object you have a long axis you have
+    a middle axis sometimes called intermediate axis you have a short axis which is
+    the short one sometimes they are symmetric in this case the midle and medium medium
+    are symmetric so get that um you can also Google the intermediate axis theorem
+    otherwise known as the tennis racket theorem which says that you can spin it around
+    the short axis you can spin it around the long axis spin around the middle axis
+    it flips midair not relevant but fine there's some cool gifts of people doing
+    stuff on the space station but that's not important right now so unsurprising
+    I've changed basically I've changed the geometry a little bit not in an important
+    not in a relevant Dimension um but I've changed the physics a lot so now this
+    side is much heavier than that side uh because so before we were just taking the
+    geometric mean you just take the positions of each of those points take the average
+    and it happens to line up with a center of mass in this case uh that's not that
+    doesn't work because all of those points that I'm adding up are not do not have
+    the same density this is full of sand or something I don't really know so I can
+    put the thing over here that's about right and there we go so now this is the
+    center of mass so the geometry for our basic approximations hasn't changed um
+    but the physics has changed quite a bit and so the center of mass has changed
+    and so that balance point has changed
+- dur: 180.0
+  end: 1260.0
+  start: 1080.0
+  text: both when you're supporting it from the bottom and when you're supporting
+    it from the top right basic idea um if I wanted to do another one think there's
+    two of them you can here we go once again even heavier so I can move it basically
+    all the way over here and it's not quite right but now yeah so now it's the center
+    of mass of the whole stick system is very close to the the Big Bob at the end
+    notice that the first time I moved it I had to move it all the way over here the
+    second time I had to move it far less that's because of like torque is a thing
+    this is really hard this is really easy when we talk about the muscular skeletal
+    system this will come up again if you're curious about how uh notice that my arm
+    also resembles a long stick and my shoulder which is the main thing leaving it
+    up is this long and attached right here so so it's much more like doing this than
+    doing this so spiler alert your muscle muscles are like unbelievably strong relative
+    to the task that they can perform because they're operating on a massive mechanical
+    disadvantage that's not important right now so yeah okay so this is intuitive
+    Center of mass uh there is a difference between the geometric center of a rigid
+    object and the center of mass and Center of mass also you'll hear it be called
+    center of gravity those are the same thing this is gravity being used in the term
+    like density uh center of gravity just feels a little more old school to me or
+    in space like in all contexts that matter for us Center of Mass center of gravity
+    are the same thing so if you ever see cogg in a paper it's the same thing it's
+    just you know using a different term um yeah Center of it's like yeah basically
+    Center of density would be another way to say that but that's not quite okay so
+    this is a stick made of trash I found on the street um excuse me this is a little
+    wooden fellow and it also has a center of mass which I could measure if I wanted
+    to I'm allowed to chop this up but I don't want to um but it is here if our friend
+    did one of those oh look it tips over so I have to move it sort of more this abdomin
+    area so as you move the
+- dur: 180.0
+  end: 1440.0
+  start: 1260.0
+  text: mass of your body the center of mass shifts like I said last time Center of
+    mass is not a part of your body it is a description of your body and if you do
+    one of these types of shape the center of mass can be outside of your body so
+    the center Mass is like here because it's below that point of rotation it becomes
+    passively stable and I can kind of perturbation rejecting which we'll talk about
+    shortly so this would be a link but it's not I put over here so so this Center
+    of mass approximation is like I think a very important and very useful uh hyper
+    simplification of the full complex object um it falls under the general heading
+    of like classical mechanics uh which is a part of mechanical engineering if you're
+    kind of find the right building to walk into um and it specifically falls under
+    I think it's called the finite element theorem which basically says that the that
+    you're allowed to look at the center of mass as a as a proxy for the Dynamics
+    of the whole thing so taking this complicated object chopping it up into like
+    finite elements and then finite small but not zero um and then looking at the
+    mean of those points tells you about the the full um tells you things about the
+    Dynamics of the full complex object um and I think that's honestly I find that
+    like keys I find helpful to think about that because this is also complex it's
+    like gangly um but if you sort of throw it if no matter what you do it still follows
+    a nicely ballistic trajectory and you can also use this to show that even if it's
+    spinning it will spin around its Center of mass and follow a ballistic trajectory
+    so you know each of these Keys is a rigid body they're connected by rigid bodies
+    so there's no uh stretch or strain or anything like that in the Ballistic case
+    it wouldn't matter but it's do that with people p um so uh in this case I don't
+    know how much this stick weighs I know that it's one meter long I don't know how
+    much these ankle weights weigh but with if we wanted to we could figure out the
+    mass of the weights and units of stick Mass um using this kind of sort of math
+    and sort of learn things about the forces at Play and things like that and if
+    we were trying if we were
+- dur: 180.0
+  end: 1620.0
+  start: 1440.0
+  text: controlling this with muscles that information would be very relevant to us
+    um if you want to do that for like a human person uh it's so basically I want
+    to be able to calculate the center of mass of a person um but how do I get those
+    numbers well it turns out uh someone chopped up a bunch of dead people and weighed
+    them and we have these anthropometry uh a really common one is winter um uh which
+    is from like a biomechanics book and I think these tables here were it shows where
+    they came from um I think it was like Air Force data they chopped up kabers and
+    looked at the relative densities and did a bunch of statistical analyses and you
+    get numbers so this is the geometry of it and so these numbers here like be able
+    to read it but .52 H where H is total height of the person so this is estimate
+    of sort of relative proportions of different body segments in terms of the just
+    in units of height um importantly all the dead people they chopped up were men
+    all the dead people they chopped up were old men because they were dead um often
+    there's a correlation between age and time um there are newer uh anthropometry
+    tables that look at a broader demographic um different genders different sort
+    of um body mass indices or whatever um but by and large a lot of those differences
+    are small um and relative to the scales that I tend to look at in my research
+    They Don't Really shift the numbers that much so just kind of use these because
+    it's a standard and it's you know around um so these names here correspond roughly
+    to these guys up here and they give you the name of the thing the definition in
+    terms of anatomical axes so the foot is defined as the lateral malis to the head
+    of the metatarsal 2 so malis is that on the outside metatarsal is your uh tole
+    I don't know Al to is like it's like your index toe knuckle if that's the thing
+    and then it gives you the segment weight as a proportion of total body weight
+    so your hand is roughly 6% of your body mass if you have standard standard side
+    hands um forearm upper arm uh your foot is about that 01 14% seems high but I
+    don't know um your leg is
+- dur: 180.0
+  end: 1800.0
+  start: 1620.0
+  text: 046 oh sorry 4% yeah um thigh is 10% and then it gives you like foot and leg
+    is you know added up ones above it so in the center of mass calculation I was
+    showing last time with the blender thing and that little ball moving around those
+    were calculated by using these numbers and we'll talk about that in a little bit
+    but just wanted to show roughly where that stuff comes from um I also so some
+    time ago different life uh I would I made a bunch of gifts and posted them on
+    Reddit in fact before Reddit was it was still a sess pit but it was a different
+    kind of cesspit um and basically I would just go and find videos of people doing
+    interesting things and then just overlay them with basically Center of mass analyses
+    so this is the hand forearm it's a planer view so meaning that it's basically
+    a view from straight down one of the x y z axes so you basically get to ignore
+    the 3D aspect of it and just focus on the 2D uh the vertical line show the extent
+    of the base of support which is basically where his hand is and then the thing
+    to notice is that the center of mass always stays within that boundary because
+    it has to because if it didn't would fall over and there's a bunch of these um
+    this one is wacky uh so uh so this one I was getting fancier so I was actually
+    stabilizing the image and this guy's very good at this type of thing so again
+    just always stays there Center basic SP shifts ra shifts his hands and see like
+    he's doing see look how screwy this like yeah yeah he's a freak um archerd or
+    using Dynamics to sort of Pop himself up but keeping it within this range the
+    important thing to know that his hand can only push on the ground so if the center
+    of mass ever left those boundaries he cannot pull it back he can only push it
+    farther away uh and this one is a a violation of that rule so this is balance
+    beam otherwise known as the hardest what what's it in sports she does this cool
+    thing but oh no she falls but then she pulls it back in and so the the most important
+    part of that video for me is this point right there where it does go out but she
+    has a grip on the bar so she can she can pull back in this this is the same basic
+- dur: 180.0
+  end: 1980.0
+  start: 1800.0
+  text: idea the wobble in the center of mass is is uh is noise in the estimates all
+    right so those links are all there there's a bunch of them click through them
+    you know uh we'll talk about them at some later date perhaps um okay so roughly
+    speaking that is so C so the important thing there is Center of mass um we did
+    talk and then also this concept of base of support your base of support is just
+    like the the shape on the ground of your support surface uh my Bas of support
+    is defined by my feet this thing's Bas of support is defined by that little point
+    it is not passively stable uh for very um okay so real quick um physics Newton
+    was a guy he did a thing uh he among other things is um he came up with this sort
+    of theory of mechanics which is embodied by Newton's three laws of motion uh which
+    are false and wrong theoretical uh models of reality um this is I think a great
+    example of like how wrong theories are still useful um Newton had a theory of
+    reality where there was such a thing as position and velocity um and wasn't until
+    far later that some guy named Einstein came along and wrote some papers um I really
+    don't like like ascribing these thoughts to specific people because really they're
+    just the specific humans that wrote it first like people say Newton invented calculus
+    but lith also invented calculus at the same time in Germany with better notations
+    um it's just often times these are just ideas that are just ready but s Point
+    um so Newton's theory of classical mechanics is false on a scientifically theoretical
+    basis um if we wanted to actually calculate things like momentum we would have
+    to take into account things like relativity Theory and eal MC s and whatnot um
+    but we tend to move at speeds that are so much slower than the speed of light
+    that it's it would be not only insane to require that level of
+- dur: 180.0
+  end: 2160.0
+  start: 1980.0
+  text: precision but impossible to measure at that level of precision so we instead
+    just use the the three regular laws so that's what is it um basically law one
+    is inertia exists things that moving in a straight line tend to keep moving unless
+    acted on object in motion tends to stay in motion L acted upon by force number
+    two is really the our our best friend here f equals Ma Force equals mass acceleration
+    if you have a mass that is accelerating that is called a force Mass is measured
+    in kilog acceleration is measured in meters per second squared or really distance
+    is measured in meters time is measured in seconds acceleration is meter over second
+    squ and so kilog time me squ we call that Newton R uh and then three is for every
+    action there is an equal and opposite reaction so push on something it pushes
+    back um so I spent a lot of my earlier academic life thinking our thoughts about
+    pendul pendulums pendul even brought a CH and tell book this book is called seven
+    tales of the pendulum it's great it's about basically like seven cases of like
+    ways that like pendula pendulums have been like very core to the way that we do
+    science for a very long time um and there's all sorts of crazy stories in here
+    about like using p like like using clocks to be able to Traverse the Atlantic
+    Ocean like you had to invent the clock before you could Traverse an ocean um using
+    changes in the period of a pendulum to figure out the density of the ground below
+    you to find iron um FCO pendulums which are like the things in museums that knock
+    the sticks down if they go in a circle but anyways um so let this is called a
+    free body diagram and that's is a hanging pendulum let's call this L that's an
+    L let's call that let's call that that um so that's basically this right so we
+    have a a point of mass dangling below a point of rotation and we're going to pretend
+    that this stick has no Mass um which we kind of approximate by this thing because
+    the mass is so heavily towards this side and I'm going to make this about balance
+    and posture in a second by basically taking this and putting it up like that but
+    let's focus on the basics for now so so this is a this is the mass and then this
+    is
+- dur: 180.0
+  end: 2340.0
+  start: 2160.0
+  text: gravity gravity is 9.8 me/ second per second let's call it 10 um so gravity
+    is pulling down which means that this string is pulling up because gravity is
+    pulling down at 10 meters per second per second but this thing isn't moving right
+    and we know that if if there's something if there's a force acting on a mass then
+    it has to be moving so if it's if there's a force acting on the mass and it's
+    not moving moving and there has to be an equal and opposite force acting it's
+    statically stable great so now let's push it up here this is still L same length
+    let's call thisa don't you have to worry about it gravity is still pulling down
+    the same Force same mass that it has except now we know that it will pull this
+    will now Accel so gravity pulling like this uh and then we do like some Vector
+    decomposition thing right and then it's like the the string is still pulling on
+    it but it's not aligned with the axis of gravity so there's this like leftover
+    arrow and that arrow is pushing this way which means it's going to accelerate
+    that way and then and it does like this um so details details but the important
+    thing here is just to note that basically you have a mass here that's sort of
+    you can lift it when it's at it sort of zero point so right now so we can look
+    at so the Theta when it's here is zero like just say the angle of deflection from
+    the vertical point is is zero great and then we move it over here we say angle
+    is Theta which is just some arbitrary angular number could be 12 degrees could
+    be one radian doesn't matter and when we put it over here uh it has and we let
+    it go it will swing back and intuitively we kind of know we've probably seen like
+    the demo where you pulled the thing you let it go comes back hit your face whatever
+    unless it's the internet edited the video and do get hit my face um so as it goes
+    over here it will pick up speed it'll pick up momentum and it'll get back to the
+    same point that it was before except now it's going to instead of its velocity
+    being its angle being zero its velocity being zero its angle will be zero but
+    its velocity will be high because it's swinging and then that will sort of take
+    it up over here until it bleeds off all that speed and then spiler alert that
+    will be negative Theta if there's no friction or whatever in the system and then
+    now we're over here and we're in the same place we were before and so we're going
+    to go back and so we
+- dur: 180.0
+  end: 2520.0
+  start: 2340.0
+  text: swing back and forth and so there's two main things to note here so this point
+    here think about with mechanics you pretty much have potential and kinetic energy
+    if you don't you're not thinking about things like stretch and strain so when
+    I take the thing and I throw it up and I catch it when it leaves my hand it has
+    kinetic energy going up but the sorry potential and kinetic energy whatever uh
+    potential energy is mass time gravity time height Mass doesn't change gravity
+    doesn't change let's just say potential energy is the same thing as height um
+    kinetic energy is m s one half doesn't change Mass doesn't change who cares about
+    the square let's just say kinetic energy is the same thing as speed so you have
+    your height and you have your speed and that basically defines your mechanics
+    um yeah so when you throw something into the air you start out with a lot of kinetic
+    energy pointing up and as you go up to the next time step gravity is going to
+    pull down it's going to sort of bleed off some of your vertical height and then
+    eventually it's going to take all of your upward kinetic energy and then you'll
+    have you sort of pay up here at this Apex Point maximum height zero uh velocity
+    in the vertical and then it repeats that process and do this nice parabolic trajectory
+    and if you want it to be nicely parabolic you have to care about the square but
+    that's not important right now um yeah so so hanging pendulums are I'll just mention
+    this just for the symmetry of it and it might come up later I guess it'll come
+    up with the jump and stuff so when you when you have a pendulum that's a simple
+    harmonic oscillator swinging back and forth there's sort of two to three points
+    to really think about one is at the Apex here where it has the maximum height
+    but zero um velocity one is down here where it has uh minimum height but maximum
+    velocity and then the opposite on the other side and it's one of these things
+    where like you can if you want to look into State spaces like you can get the
+    height here and the velocity there and a nice pendulum will trace a nice ellipse
+    look up the Wikipedia page on pendula and you'll see some really cool gifts of
+    the state space diagrams of hanging pendulums the most important and most relevant
+    thing for the standing posture case which is
+- dur: 180.0
+  end: 2700.0
+  start: 2520.0
+  text: what we're here to talk about is that a thing to note about this is that this
+    is passively stable where it is if I perturb it from its sort of happy zero point
+    it will that the resulting acceleration will pull it back towards that happy stable
+    point and because there's damping and like energy gets lost in the system it will
+    sort of die down back to where it is so a so if this is time we're doing dynamical
+    systems modeling because I put time on the axis so congratulations you now I know
+    how to do that um and then this is Theta if I deflect this thing down to whatever
+    Theta is it will pull itself back towards theta equals z it'll pass through it
+    because of the momentum and will go back and forth if there's no friction or anything
+    like that it'll just do that forever there is friction it will sort of come back
+    to it's happy stable point now all of these same Dynamics work if you flip it
+    upside down except it's no longer friendly and passively stable so this is where
+    it becomes Neuroscience so now this is the floor so we were doing a regular pendulum
+    we're now going to do inverted pendulum this is another highly googleable term
+    it's inverted pendulum human movement get all sorts of stufffly during for Locomotion
+    uh so now we have the same guy attached to a point on the floor um we still have
+    L we still have M and oh I forgot to mention if you wanted to calculate like the
+    forces like the Newtons and stuff like that because this is a meter we can you
+    could calculate those things in units of I guess you wouldn't know kilograms either
+    but you could get some weird wacky unit that was equivalent to that um so uh yeah
+    so that's call it Center M and we'll call this base of support so remember with
+    this type of thing I drew the vertical lines showing where going to show up showing
+    where the extent of the base of support is um this guy that region of controllability
+    is an
+- dur: 180.0
+  end: 2880.0
+  start: 2700.0
+  text: infimal a non-existent thing because it's basically this deflection Point
+    here is Thea equal Z and whereas before with a hanging pendulum if I perturb it
+    from that point the resulting uh acceleration will pull it back towards that point
+    and it will sort of cycle through there if if you're up here you're not quite
+    so lucky um this is the place where if we so this is called the vertical projection
+    of the thing which is basically this you know if this was X Y call this y let
+    say yal Z and now this is X and that's vertical projection um and so just like
+    before the thing that I deleted like at some point in my life um I started pulling
+    erasing things on a board deleting them which is always fun um so uh kind of like
+    before you have you have gravity pulling down on this thing here which means you
+    have gravity pulling down here have structure of the stick pushing up and if it's
+    balanced here happily then these things cancel each other out perfectly and nothing
+    nothing bad happen now if there's a little bit of deflection from that point in
+    the same way this thing gravity is still pulling down the stick is doing its best
+    um but it's they're misaligned so there's a a resulting sorry yeah that's right
+    so the there's some geometry stuff you can do here if you want somea whatever
+    trigonometry um but basically the the amount that they are separated from each
+    other means that the force of basically that the this one's not um the stick is
+    doing its best to keep you up but now it is also pushing you away and the gravity
+    that's pulling and also sort of leading to a push in the in in a direction away
+    from that happy stable point so this so with a hanging pendulum a deflection leads
+    to this nice result you know uh relaxing back to zero uh this is a even a a small
+    deflection will push it
+- dur: 180.0
+  end: 3060.0
+  start: 2880.0
+  text: away so is a passively unstable thing and if it's I guess I guess this is
+    the ground so you hit the ground or if you have if you go around then it just
+    goes back around the angle basically goes down to the bottom and it get it gets
+    pulled to the other attractor point which is the bottom it's this is technically
+    a stable point but any infantes shift will cause for accumulating error and it
+    will get pushed away this is not there you go and if you do the state space diagram
+    you have like basically regions of the space I'm not going to explain this but
+    you can look for the pictures and ask a bot about it um this is uh it called I
+    think this is beta this Isa Dot and for some of those uh some of the space there
+    is periodic orbits the other is not periodic orbits Yeah in our particular case
+    a nonperiodic orbit means that you fall over and hit the ground or you either
+    have to like change your base of support or you have to hit the Flor right so
+    uh so much like science standing is also impossible there a passively unstable
+    system that cannot be reconciled which is a shame um actually no luckily we we
+    do have nervous systems so this is passively stable congratulations it go there
+    it goes and it's still an inverted pendulum it's just that the center of mass
+    is so close to the ground that I have to perturb it pretty far for it to get out
+    of that sort of happy Zone and then it does fall over to the GR in this case the
+    Cent the center of the base of support is still a point of X has an extent um
+    but if I let go it will slowly accelerate the acceleration this is one of those
+    like it's a it's a compounding error so like it starts out the acceleration is
+    small but then it get but then on the next time step it's a little bigger the
+    next ma up it's a little bigger and so it slowly picks up speed until it falls
+    over um and if that was the whole story then that would be the whole story um
+    but luckily for us we have sort of nonzero base of support and a whole nervous
+    system attached to a bunch of weird electrical Springs that we can use to for
+    actively control it so this one is like I'm sure everyone done this with the broom
+    if you haven't you should this
+- dur: 180.0
+  end: 3240.0
+  start: 3060.0
+  text: I am basically monitoring the error in the in the deflection from zero and
+    I'm using a combination of like the weight in my hand and also like looking at
+    it and then I am actively moving the base of support to uh keep basically if it's
+    accelerating in this direction I move the base of support So accelerates in that
+    direction I'm trying to sort of make it zero I could make it kind of swing back
+    and forth but it's a it's an active process that I'm doing that is allowing the
+    thing to stay up even though it is passively unstabled and the best video I have
+    about that is this one oh this is the wrong I don't have the overlay here but
+    she's standing on this ball and this is basically like the wble board stuff um
+    and I put a link to the part I'll fix it later but um basically because she's
+    on her toe her base her her anatomical base of support is very small but she's
+    on this ball that actually spreads out the center of pressure or it SS out the
+    base of support allows her to move her Center of pressure um in order to like
+    counteract the movement so it's when I seem to like like oh my God she's standing
+    on that thing that's so impressive it is very impressive but it's actually easier
+    than Standing On Solid Ground because it extends her ability to move the Bas of
+    and if I had a overlay be like wow um so obviously that's a lot uh it will all
+    be on the test there's no test and if there was it would um but do look up the
+    the Wikipedia page about pendul it's surprisingly deep uh Wikipedia is the greatest
+    intellectual achievement of humankind um up to the present moment and anyone that
+    says otherwise is it's taken um but yeah so we're going to now look very briefly
+    at like so if you recall the last time when I was here doing doing the the recordings
+    um I
+- dur: 180.0
+  end: 3420.0
+  start: 3240.0
+  text: we had the two recordings of me balancing on my feet yeah so on the one hand
+    I was I was balancing so I was standing on two feet and I lean all the way forward
+    and all the way back and all the way to the right all the way to the left and
+    then sitting on one foot and so actually I'm gonna I'll play this and we'll probably
+    be able to tell which one is so so you can see so the ball here is Center of mass
+    calculated in the ways that we do that the sticks are the rigid body segments
+    that we used to make approximations they you know the mass of each one has been
+    calculated according to that table with the center based off the I forgot there's
+    a point on that table that shows like where the mass is relative to the proximal
+    and dist joint proximal is close to the center distal is far away from the center
+    um and you can sort of see stuff happening there I'm going to I'll I'll go back
+    to this at a later date um but I do to show some some so yeah so this is the blender
+    stuff and uh Aaron was kind enough to pull into the raw data and get started showing
+    basic like representations that are sort of better equipped to show the differences
+    between those two conditions because you can eyeball this and it kind of you can
+    maybe kind of see it but that's not really results and it's also the effects actually
+    small to see with your eyes um and so I'm going to show
+- dur: 180.0
+  end: 3600.0
+  start: 3420.0
+  text: you is not it doesn't actually show that distinction but it just shows a quick
+    uh presentation of uh the kinds of ways we can start analyzing this data to start
+    looking at those distinctions um and then people who want to know more about this
+    can split off and learn about that and then other people we could start talking
+    about like the neural systems neural anatomical systems that go into that type
+    of balance and support stuff um so long story short uh basically you just if you're
+    not a code person just let it wash over you remember before I showed you that
+    big old spreadsheet of numbers yeah so you first thing you do is you install packages
+    that you need numpy is for numerical processing in Python um pandas is for processing
+    with big spreadsheets plotly making plots so this is one of those like many many
+    people have worked on these things for many many years nump in particular is has
+    a has a sort of place in the history of numerical Computing in that that humans
+    can do um so he's a venerable venerable guy um Stills in and then you basically
+    you point it to the place at your computer where the data lives you say hey load
+    in that body trajectories CSV CSV stands for comma separated values so if you
+    look into that text file it would just be a bunch of numbers with comma between
+    them and then enter and then a bunch of com them and that's how spreadsheets live
+    at their sort of most basic level kind of in the same way that like uh your Microsoft
+    Word document is the same thing as a raw text document CSV is the raw version
+    of what happens in like Excel um so you take that and Pull It in it looks something
+    like this this this formatted Square that's what pandas does that package that
+    handles these things um and then you pull out the center of mass trajectories
+    print them out just to make sure that you're not going crazy um these are the
+    names of the mark of the the points that we're tracking um and then blah blah
+    blah it's important but you don't worry about it uh and then you can take basically
+    each of those points and it has a trajectory over time so this is the EXP position
+    of the nose on this axis in meters and then this axis shows time where in our
+    case time is frame number we could convert this to things like seconds by multiplying
+    the frame number by the frame rate but it the shape would be the same but the
+    scale would be different kind of like if
+- dur: 180.0
+  end: 3780.0
+  start: 3600.0
+  text: we calculated those Newtons uh with this assuming that this was a meter you
+    would get a certain number until you realize I lied to you this is not a meter
+    like 1.2 meters um just the point to make that like those distinctions are arbitrary
+    uh until you want to that would be just fine for you until you tried to compare
+    your notse to somebody else who actually used a ruler um but often times units
+    are just like scalers they really affect the shape of the data so this is the
+    the path that my nose took on the xaxis of whatever thing you're looking at pull
+    it out uh same thing except this is now the XYZ um see me jumping over here and
+    same thing for Center of mass jump jum so basically like things like the nose
+    are like raw measured points things like the center of mass is calculated from
+    all of those trajectories plus the in cometry tables and then you do this is just
+    basically Shuffle Stu around so that you can make a visualization this is just
+    basically showing for each point for every frame that we have what is the XYZ
+    position of all relevant dots uh and then the purple dot here is the center of
+    mass noticing so this is basically like what scientific data visualization often
+    looks like um it's very raw and it's very like it's just not really set up for
+    this type of stuff it's not even scaling properly here this could be cleaned up
+    and we'll do that going forward but this is one of the huge advantages of using
+    something like blenders like this is a visualization tool for professional visualizers
+    and anator the exact same data it's just this is being presented in something
+    designed for like aesthetic visual outputs and this is something designed to plot
+    two dimensional data and they begrudgingly added a 3D viewer um but it's also
+    good just to sort of show that you're not crazy because you can plot it and it's
+    like oh yeah that looks like a person great also notice the dots are not connected
+    um because the connections between the dots is not it's not a measured part of
+    the data set like we know that the shoulder connected to the Elbow but we measured
+    the shoulder we measured the elbow so this is just a raw representation if you
+    wanted to draw the stick figures you would need to have additional information
+    saying how to connect the dots which we're not doing a this juncture um now you
+    go through you pull out so we're looking for we're going to look for the ground
+    projection right we're comparing Center of Mass to support uh so we don't care
+    about so before we were talking about jumping we cared a lot about that Z height
+    number um now we're looking at a ground
+- dur: 180.0
+  end: 3960.0
+  start: 3780.0
+  text: projection we throw away that Z height number because in our world at this
+    right hand rule XY z z is up in some cases Y is up so no one ever says X is up
+    but in our world z is up so we throw that away we just take Center Mass X Center
+    Mass Y and we take the the points that Define the basic support left heel right
+    heel uh Left Foot Right foot index which is toe um this particular tractor has
+    a very impoverished foot that just has a heel on a toe um but we pull those out
+    and that's enough to make a rectangle on the ground uh pull out the yeah do some
+    stuff visualization code Shuffle Shuffle and you get this which is a nice so this
+    is an animation with we play in a second but um so if you're ever color coding
+    parts of the body the right side is red always because starts with an R you'll
+    see it you people will get that wrong all the time and I saying from a moral position
+    they are wrong if you're color cing the body the right side is red the left side
+    is any other color that isn't green because red canuse B color so right foot left
+    foot center of mass basically the top down View and play as much as it can so
+    this is the uh control case um so you can see me leaning back and forth and uh
+    on your own time uh stand up and lean see what that feels like and specifically
+    see that notice that you can notice when you're at the edge and notice that that
+    the heels have far less to do than the toes and that you have a sense of that
+    relationship between your B of Support Center Mass even though you may not fully
+    realize that so now you can sort of see what's happening from the top down and
+    you can see now I'm shifting over and even though this is a very impoverished
+    view of very complex data you still have a pretty good sense of what's going on
+    on and you can also tell that this is the one where I'm not holding the the weight
+    um and because I think my computer can handle it actually and then you can also
+    plot the whole thing and it sort of become this kind of shmear which if you're
+    thinking about things like Dynamics this is not a great way to look at it because
+    you now squished over time but if you're worried about like what space did I cover
+    how large I PL to be able to view it this is a great way to show all the spaces
+    that my foot has gotten to in this
+- dur: 180.0
+  end: 4140.0
+  start: 3960.0
+  text: recording um and just to see if it works it doesn't it's not your fault um
+    although I think it will are numers oh see this is why it's good to have an external
+    LIC nervous system okay so this is a panda notebook which I I don't like in many
+    ways but they they do the job um I like they're they're really good for like really
+    simple stuff like this in educational context but they don't scale in complexity
+    at all so it's like you people wind up getting especially like student like objects
+    tend to get stuck in Panda's notebooks for a long time in their trajectory um
+    but oh that's that's morning we calculated it in my dark mode St um okay looking
+    good so far so this is the same so this is now the data where I'm holding 20%
+    of my body mass in my can and I wasn't careful like I realized that actually the
+    better way to represent this would be to like hold statically on one side and
+    try to hold it out away from me um because I was shifting it around a lot so you
+    might have to just kind of like gut check it um and would also be nice if this
+    was playing alongside the bigger visualization which we can do Andre actually
+    wrote some code to make that EAS doable and yeah so that's yeah so
+- dur: 180.0
+  end: 4320.0
+  start: 4140.0
+  text: there so basically the fact so here I'm it's actually my Center m is still
+    my right but um but when I shift over to my left here yeah so you can you know
+    that my foot is moving and you can see the center mass is just shifted a little
+    bit on the outside so this is one of those thing was like to actually show this
+    data more like to to make that point that is this distinction um this is kind
+    of like it's like oh yeah the effect is there it could be measured it could be
+    done whatever the behavior was not well set up to produce sort of good data but
+    we can go back and record new data we could also basically just like give yourself
+    a longer time standing there we could take this representation and couple it to
+    the bigger visualization so we can actually verify and like we make pause button
+    work um and then pause it and be like oh yeah look I'm standing here stable and
+    supported but my b base of my center of mass is outside of my base of support
+    because this Center of mass is not the actual Center of mass because we're not
+    accounting for the fact that my hand and now instead of being 1% of my body mass
+    is now 21% of my body mass we would have to recalculate the center mass of that
+    in mind and then theoretically then it would shift back and start looking like
+    the regular again the control condition okay got that good great um so as per
+    usual I've also gone longer than I intended to but that's okay good stuff um so
+    we have another 20 minutes which I do think is enough time to sort of get started
+    with some stuff um uh so just show of hands like who who likes code and data who
+    is interested in code and data you don't have to you don't have to be good at
+    it you don't have to ever done it before you don't have to expect that you will
+    be successful at it but who is interested in at least seeing what it would look
+    like like we can get you to the place where you can click the buttons and have
+    the squiddle show up like who is interested in that versus who is less interested
+    in that code people okay cool a and then non-code people great the the biggest
+    problem would have been if everybody said I want to do code so this is great um
+    code people I guess push back and then eron can you just just try to get them
+    like as far as you
+- dur: 180.0
+  end: 4500.0
+  start: 4320.0
+  text: can get towards this like mostly just like probably besttop code and then
+    CL Theo this is now in this notebook is now um great uh other people um we're
+    going to I want you to to um do the same kind of like uh group work thing again
+    probably by next week I will be able to have some sort of more feedback loopy
+    thing with the pot but right now we're still passively just pour into it and basically
+    ask it the questions that came up for you when you were watching me talk about
+    all this stuff um if you're if you are interested in the mechanics of it you can
+    ask more about the Robotics and control theory and anal systems and P stuff if
+    you're more of a I don't know biologist uh you just just think about the types
+    of neural systems that would have to be in place for this to be able to work like
+    that like you do not have a center of mass detector that's not a thing that exists
+    in your nervous system you have a bunch of other modalities that give you other
+    types of information and that has the sort of effect effective reality that we
+    could it's like functional equivalencies for those uh functionalism I always had
+    a professor say philosophy of mind is so hard that makes functionalism look interesting
+    which I will not explain I will just say you can chew on that if you want um yeah
+    so let's let's get started we have like 15 minutes so um the and so do these chats
+    in the the channel for this lecture um and just pop some open and then it's again
+    whatever you found interesting whatever you wanted to have more about whatever
+    sort of thing I said uh and don't work alone working clumps Clump up according
+    to your local environment and Aon you could go back started coding so code people
+    go to the back and Aon will go meet you and if you're not a code person and you're
+    in the back uh you might want to move forward do it do it this may be your only
+    chance whated what's that what if interested if you're interested in both do code
+    so go code for now and you'll come back to this yeah if if you're interested in
+    doing both this is not a either or you will be able to drop this opinion at
+- dur: 180.0
+  end: 4680.0
+  start: 4500.0
+  text: your earliest convenience and there is a benefit if you have a a clump that
+    is that has sort of that is congealing in some reliable way there's a benefit
+    to having at least one person from your clump getting some code XP but you're
+    not going to be evaluating on your anything okay I'm going to stop this repor
+    so
+video_id: iROSFpum15A

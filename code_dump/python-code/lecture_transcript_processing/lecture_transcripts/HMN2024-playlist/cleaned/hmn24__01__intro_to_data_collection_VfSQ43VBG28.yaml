@@ -1,0 +1,1216 @@
+full_transcript: "Hello, we're recording now. Spectacular! FMRI is great, but I have\
+  \ doubts. It is like the best tool we have for looking inside a person's brain without\
+  \ opening it up. There are also things like EEG and fNIRS, but I don't really like\
+  \ or trust those either because they are all so abstracted away from what we hypothetically\
+  \ care about, which is the desideratum of the kind of research that's multiple.\
+  \ The desideratum of a given research area is the thing that you want to know, why\
+  \ you come here, why you show up, and what your goal is. That is the desideratum\
+  \ of the field of inquiry. I would argue that the field of neuroscience is largely\
+  \ designed to help us understand what this is like. I left my house, got on a bike,\
+  \ and did a bunch of stuff. Somehow, my dinner from last night fueled the energy\
+  \ cost, and now I'm here talking to you and explaining that this happened. A lot\
+  \ of the scientific world we live in has a very reductionist feel and an underlying\
+  \ philosophy of reductionism, where the goal is to measure things with increasing\
+  \ precision at finer levels with the hope that we will someday get to the bottom\
+  \ of it and figure it all out. Because of that, somewhat by necessity of technology\
+  \ and sort of feedback loops driven there, the tools we use to measure research\
+  \ often come at the cost of the ecological validity of the data. This means that\
+  \ you're putting me in a tube, shooting big magnets at my head, and saying, \"Oh,\
+  \ look at what your brain is doing!\" That tells me something about you in the world\
+  \ over evolutionary time and throughout your day. It does, to some extent, because\
+  \ you're measuring the same engine that's driving behavior when I'm out doing stuff.\
+  \ However, you're getting a very precise measurement of the thing doing something\
+  \ different from the thing you actually care about, which is behaving out in the\
+  \ real world. There is often a trade-off, perhaps necessarily a trade-off, between\
+  \ empirical precision and ecological validity. One second, I got this. If we can't\
+  \ record what's going on in my brain, because it's unfortunately 2024 and we just\
+  \ can't do that yet, some people will say, \"Oh no, you can put an EEG on people.\
+  \ You can do fMRI on people.\" And it's like, yeah, you can, but let me phrase that\u2014\
+  no, you can't. A lot of people believe that you can, and we respect their efforts.\
+  \ \n\nIf we are talking about trade-offs between empirical precision and ecological\
+  \ validity, anytime there's a trade-off, there's often two sides to that. I'd say\
+  \ all the way on the farthest side of empirical precision, reductionist philosophy\
+  \ is the EIZ measurements. That's like sticking an electrode into the goop itself\
+  \ and looking at how it spikes. You get unbelievably precise measurements, typically\
+  \ on nonhuman animals, but sometimes you get to do that on humans as well. In those\
+  \ situations, the animal\u2014or whatever that you're measuring\u2014is never doing\
+  \ anything particularly interesting; it's usually just attached to something because\
+  \ the technology requires it. There are new technologies coming online that allow\
+  \ animals to move around as they're being measured, and I'm working on some of those\
+  \ things with some people. But those are new types of studies, new types of tools,\
+  \ and new types of equipment.\n\nAn alternative approach is to say, let's go the\
+  \ other way and let's just measure the behavior as closely as we can to the desideratum\u2014\
+  the sort of case study, the ecologically valid measurements. Let's record those\
+  \ as well as we can, and then we can make inferences about what's going on and the\
+  \ hidden variables, the parts that we can't actually measure directly. If we're\
+  \ lucky, the people who are out there cracking open skulls and taking electrical\
+  \ recordings will share their notes. They can say, \"Oh hey, we found this part\
+  \ and that part, and we think this does this other thing,\" and I can say, \"Oh\
+  \ well, I saw this behavior and that behavior, and those two things kind of line\
+  \ up. These things don't, but those things do.\" In a perfect world, we all get\
+  \ to do nice, good, happy research. End of class, we're done. \n\nUnfortunately,\
+  \ it's actually slightly more complicated than that. So, let's put the reductionists\
+  \ to the side for the moment. There are more than enough of them, they\u2019re very\
+  \ well funded, and they'll be fine. Let's work on this other part where we try to\
+  \ figure things out. That thing I said before about just measuring real behavior\
+  \ and studying that is actually quite difficult. You saw in that lab some of the\
+  \ big fancy tools that we use to do that. They measure the environmental forces.\
+  \ Excuse me for encroaching on your space. We can measure things like movement and\
+  \ forces, and we use these big fancy tools to do it. Actually, could you help me\
+  \ out? Just go ahead and start setting things up; just freeocap it regularly and\
+  \ I'll keep talking about stuff. Do you have it on there? Okay, I got it. I needed\
+  \ to activate that, which is why I was late. It's been a while since I used that\
+  \ computer for anything. I'm going to move this up. Do we know how to raise that\
+  \ thing? It's probably over here: cam privacy manual control. I don't see anything\
+  \ obvious. It might be something simple, though. It\u2019s unlikely, but it could\
+  \ be something like pulling it down when it comes up. Oh, maybe it has a thing on\
+  \ it? No, it\u2019s probably powered. It might turn off when this thing turns off.\
+  \ It\u2019s fine; we\u2019ll figure it out. That's good enough for now. Oh, and\
+  \ also, turn this off. This is connected, but because it's being held by OBS, these\
+  \ things turn off. There's an order of operations you have to follow. If you turn\
+  \ OBS on and it grabs that camera, then you can do freeocap and it only sees these;\
+  \ otherwise, it gets weird. As I mentioned, I spent a lot of my time over the past\
+  \ half-decade or so messing with cheap cameras. I had a whole crisis of conscience\
+  \ around how expensive that lab was. Even if I wasn't morally perturbed by it, I\
+  \ hate that equipment; it's garbage. The software is the worst. In terms of physical\
+  \ measurement apparatus, the force plates are great, and the cameras are very fast\
+  \ and precise, but the software is abysmal and extremely expensive. Even if it weren't,\
+  \ it\u2019s frustrating to use, requiring a lot of manual effort and labor. It's\
+  \ basically 90s technology. I haven't been doing this since then, but I have been\
+  \ involved with it long enough to know that it\u2019s outdated. \n\nSo, there's\
+  \ been a lot of technological advancement since the 90s, and much of it has focused\
+  \ on these weird objects called cameras, which measure light. Light helps us understand\
+  \ color. I might have to take my shoes off because... yeah, I\u2019ll do it later.\
+  \ \n\nLong story short, this is Free MoCap, a free, open-source, markerless motion\
+  \ capture system that works in a conceptually similar way to the big fancy systems\
+  \ in the lab. Did you guys see how they show you the 2D views with intensity? You\
+  \ see how the thing moves around, and it\u2019s like, oh look at those dots on the\
+  \ screen. They get triangulated, and remember, it\u2019s mostly triangles. Then\
+  \ you get 3D information based on that. \n\nThe traditional marker-based motion\
+  \ capture systems constrain the world they measure to make it easier to track. You\
+  \ put a marker\u2014a specially designed dot that uses retro-reflective material\u2014\
+  on the person or object you\u2019re trying to measure. This design works with the\
+  \ cameras to enable them to track these markers in 2D. Then, expensive software\
+  \ performs complex calculations, using principles from mathematics that are over\
+  \ 2000 years old, to determine where that dot is in space. So again, you can see\
+  \ that theme at play here. When you're constraining the world a bit to make it easier\
+  \ to measure in fMRI or in the EEG world, you can strain the behavior by telling\
+  \ the person not to move. You constrain the behavior by removing the skull from\
+  \ the area that's getting in the way because the little electrodes are sensitive.\
+  \ However, you're changing the thing that you're measuring in order to make it easier\
+  \ to measure by necessity. There's typically a tradeoff; as a general rule, the\
+  \ more you constrain the environment you're measuring, the easier it is to measure\
+  \ since you are exerting control over it. This typically works well if you're skilled\
+  \ at what you're doing, but you also wind up affecting the thing you're trying to\
+  \ measure, which may or may not matter for the broader context of the research you're\
+  \ conducting.\n\nFor example, if I were doing the traditional mapping method, I\
+  \ would need to bring people into the lab, which presents its own difficulties.\
+  \ I have to put them in a spandex suit, put dots on them, and calibrate the room.\
+  \ All of these factors may or may not matter, but I had to do that for a long time\
+  \ because that was the only way to get a camera to track an object in two dimensions.\
+  \ Nowadays, we have other ways of doing that.\n\nI am going to go through a bit\
+  \ of a process right now, and this will be a recurring theme. I just need to move\
+  \ this over there so I don\u2019t trip on it. This scenario will make more sense\
+  \ later because, ideally, if everything works out, we are going to use this data\
+  \ for the rest of the semester. We will look at it and try to understand what's\
+  \ happening and attempt to infer about what may or may not be going on based on\
+  \ the measurements we manage to obtain.\n\nI am going to go out here in a second.\
+  \ This is going to take some time, but there\u2019s a whole process. I guess we\
+  \ can turn off the projector when it\u2019s ready or switch it to another setting;\
+  \ it probably won\u2019t be affected. Yes, could you maybe just tune it so that\
+  \ it is set properly? That one might need to be placed behind those desks or something.\
+  \ One of the realities is that if I wanted to know, for instance, if it was Michael\
+  \ who was moving the triangle around, and I wanted to know what the motor commands\
+  \ were that went to his muscle parts, my ability to answer that question is dependent\
+  \ on what I managed to record. The true factual answer to that question about the\
+  \ motor commands that were sent is gone; it has fizzled into the past, just like\
+  \ the dot data went after you didn\u2019t record it, and you can never retrieve\
+  \ it. It dissolves into the foam of whatever happens when time moves forward. Therefore,\
+  \ the actual moment of recording is incredibly important. This is the moment when\
+  \ all this data is going away. However, since we are not recording it right now\
+  \ because I didn\u2019t click the big red button, when I do click it, that will\
+  \ be the only record we have of whatever was going on. We will try to use it to\
+  \ understand what was happening in this peculiar scenario. There are two of the\
+  \ weirdest things in the universe: light and human behavior, and we will attempt\
+  \ to use one to understand the other. It\u2019s basically impossible, but we can\
+  \ approximate it iteratively over time. Okay, let\u2019s see. Could you tilt them\
+  \ down and center this one a little bit less in height? Thank you. Yes, that\u2019\
+  s right. I forgot that angles matter here, so try to get it straight if you can.\
+  \ This is the moment of transduction. Transduction is a great word that means when\
+  \ energy changes from one form to another. In this particular case... Light is going\
+  \ through the lens, bending, hitting a sensor, which is a weird rectangle and is\
+  \ being transformed into a pattern of electrical impulses. If that sounds familiar,\
+  \ it's because that's what you are; that's what you do, at least in this rough region.\
+  \ Your eyes are not cameras, but there are similarities at some level. So, we are\
+  \ going to be measuring rectangles of light. We will be measuring three rectangles\
+  \ of light, taking samples from three light cones from three locations. We are going\
+  \ to pull one measurement of light intensity at three wavelengths: red, green, and\
+  \ blue\u201430 times per second from three devices. Unfortunately, we cannot know\
+  \ the devices' location. However, we will try to guess later by cheating and measuring\
+  \ something that we know the answer to. This process is called calibration, and\
+  \ then we will guess what the location of those devices was. After that, we will\
+  \ look at the rectangles of colors; we will call them colors, even though it's pretty\
+  \ abstract. We will try to go from there down some strange epistemic path with various\
+  \ forms of computation in math, most of which you will not have to worry about because\
+  \ it will all happen very quickly. Then we will try to make inferences about what\
+  \ brains do\u2014central nervous systems. Really cool! Yeah, thanks. What do I want\
+  \ to do? Here are buttons or... yeah, um... I guess I'll calibrate first and then\
+  \ I'll sort of make a plan. F8 looking there. Alright, shoes are coming off. I apologize,\
+  \ but this will not be the last time I'm taking my shoes off because my shoes are\
+  \ black and my socks are white, and the ground is dark. We care about where my feet\
+  \ are, so we are measuring light; remember, we are not measuring feet, we are measuring\
+  \ light and then inferring feet. We are going to make our job a little bit easier\
+  \ by putting these things there. If I cared about the grippiness of these shoes,\
+  \ that would be a mistake in terms of this experiment, but I don't care about the\
+  \ grippiness of shoes. This manipulation of reality, I think, is forgivable. Now,\
+  \ it's always the feet. If you recall, we're going to measure and record information\
+  \ from cameras. There are subtle hints in the environment indicating that this is\
+  \ what will happen. This guy follows me if I ask him to; nice, good job. That's\
+  \ a two-axis gimbal. You have a three-axis gimbal. We have two of them right here;\
+  \ we'll talk about that later. \n\nSo, we're going to be recording from the cameras.\
+  \ Cameras measure light; we talked about that. We need to know where the cameras\
+  \ are, as that's going to be pretty important. We're going to measure space, and\
+  \ we will perform a process we call calibration, which is basically a fancy term\
+  \ for trying to measure where all the cameras are relative to each other. \n\nThe\
+  \ way we do that is by cheating because later we'll record something that's a weird,\
+  \ unknown, goopy, wobbly object, one of these. That thing will be really hard to\
+  \ measure. The first thing we want to do is confirm to ourselves that the tool is\
+  \ actually doing what we think it is doing. We'll cheat by measuring something where\
+  \ we already know the answer to the question. This is a grid; see all the squares?\
+  \ The squares are 58 mm on a side; you can see I wrote that right there. You can\
+  \ obviously see that from the back. It also has these little patterns that are custom-made\
+  \ to be easy to track by cameras. \n\nWe will start by showing the camera this friendly\
+  \ calibration object, and then they will use that to infer, based on math that a\
+  \ combination of me and tens of thousands of my closest friends has written over\
+  \ the past 30 to 40 years or so, based on math that we've been doing for thousands\
+  \ of years. The result of that will be an estimate about the location of each camera,\
+  \ measured in six degrees of freedom. The six degrees of freedom means that there\
+  \ are six numbers involved: three positions (X, Y, Z) and three rotations (X, Y,\
+  \ Z). With position and rotation, you can measure the location and rotation of a\
+  \ rigid body in space, but don't worry about that; it won't be on the test. There\
+  \ won't be a test! Just let it wash over you. \n\nYeah, like there's a spot. I think\
+  \ we should turn the projector off. Okay, there was a white bar across this from\
+  \ the projector and it tends not to like that. Oh, I lied; that was so graceful\
+  \ I can leave it up there so the next person who's shorter than me will just be\
+  \ screwed. No, we won't do that. Okay, so once they calibrate them, you don't touch\
+  \ that camera. You don't touch that camera; nobody touches any cameras. Deal? Great!\
+  \ Because if you do, I'll have to do this again. Okay, I guess it's not... I don't\
+  \ know about how... yeah, you want to... I guess we have another spotlight too?\
+  \ Yeah, I don't know, is it around? Is it available? Yeah, you might as well. Ah,\
+  \ let's see... is there a plug on this side of the room anywhere? No? Nope. Yeah,\
+  \ let's not do that here. I'm going to write out stuff that we're going to do, just\
+  \ basically like feed the cable as far as it'll go. The last time I recorded data\
+  \ in class, it became the test data for this project for like two years. So I'm\
+  \ not saying that's what we're going to do now, but I have learned over the course\
+  \ of my life that... oh, there's no plug over here either? How does anybody plug\
+  \ anything in in this world? Oh yeah, that's not going to make it that far, but\
+  \ that's fine; better than nothing. Okay, so when I actually get to the point of\
+  \ recording, I'm going to stand, do a range of motion, do a lean, and do a one-foot\
+  \ stand. Then I'm going to let's do this separately, and that'll be that. We'll\
+  \ do another one where I do a lean and one-foot stand with the kettlebell. I'm writing\
+  \ this down, so it's for me. I'm going to do another one where I jump ten times\
+  \ and then do a big jump. \n\nIt is a known effect that if you have anything with\
+  \ a record button, when you push record, your cognitive facilities go. So you need\
+  \ to do everything you can to externalize thoughts before you push the record button.\
+  \ Just kind of taking that time. Yeah, that's good, thank you. \n\nOkay, light is\
+  \ very important for cameras. That one isn't going to have any... Oh, I guess I\
+  \ can just get closer. Oh, okay, yeah, I was confused because they're in a different\
+  \ order on that screen. \n\nOkay, go ahead and... cool. So now I am basically just\
+  \ showing the board to all of the cameras. The most important thing here is that\
+  \ each of the cameras has frames where each camera can see the board along with\
+  \ one of its compatriots. Shared views are probably good. I wish I could turn the\
+  \ projector on and off, but it's slow, so I guess we'll see. Now I know how to do\
+  \ it. Other professors just show up and give PowerPoints, but I don't know how to\
+  \ do that. Could you pull up the terminal? Okay, so it's thinking, and what it's\
+  \ doing here is you can try Control Plus I. Does it work? No? Well, anyways, this\
+  \ is just a readout of what it's doing under the hood. It's basically just doing\
+  \ a bunch of geometry, and right now this number here\u2014 we probably can't read\
+  \ it\u2014 says 8.95. That is the number of frames that were recorded from all of\
+  \ the cameras. \n\nThere are two things to worry about: time and space. We handle\
+  \ time through synchronization, and there's been many gallons of my life poured\
+  \ into making sure that this thing records frames from each camera synchronously.\
+  \ It's a 30fps camera, which means that every frame you get a new one every 33 milliseconds.\
+  \ I use 'frame' interchangeably with 'image' because of the history of cinema, I\
+  \ guess. So, we have 895 synchronized frames from each camera, and that synchronization\
+  \ is how we achieve time synchrony. \n\nIf I compare the frame that happened at\
+  \ time equals 12 from this one and compare it to the one that this camera got at\
+  \ time equals 13, I can't use those to figure out where the thing I'm measuring\
+  \ is, because they'll have different times. This is where we determine when this\
+  \ third one finishes; it will either fail or not fail, and we'll find out together.\
+  \ \n\nSo, you have synchronization between measurements from three locations, which\
+  \ are not moving. That's important. This camera would not be a good tool because\
+  \ it moves, so I could do the calibration thing, but then it would move around and\
+  \ I can't get good measurements. \n\nIs anyone here done any optimization stuff?\
+  \ Have you touched that in your life? People have heard the term 'optimization'\u2014\
+  \ it's like weird math. This is doing optimization right now to figure out, basically,\
+  \ how to use the measurements that we got to determine where each camera was in\
+  \ space. It says it was successful. Could you find that and pop it open? Yeah, just\
+  \ you can do that in there. I think just double-click that. Okay, so this is where\
+  \ the cameras presumably are: camera zero, one, and two, because we start counting\
+  \ from zero. Someone decided that was a good idea. The matrix size is the pixels,\
+  \ so it's a low-resolution image, but that's okay. \n\nRotation: this is camera\
+  \ zero. The translation is like moving; it\u2019s basically its position. The translation\
+  \ from the origin is zero because it's camera zero. Great. This one is camera one.\
+  \ It's -2719, 516. These are in millimeters, so roughly 2.7 meters away. If this\
+  \ said 20,000, I'd think, 'Oh, something's messed up,' but I don't know if it\u2019\
+  s right. A gut check for scale is that it\u2019s close enough, so we like that.\
+  \ The other one down here is 1160, so it looks like the order is zero, one, two.\
+  \ Is that right? It doesn't really matter; is that right? Oh, and also there are\
+  \ these other variables which matter a lot, and then these rotation variables, those\
+  \ are Euler angles. When you see it written down, it\u2019s spelled E-U-L-E-R, and\
+  \ you\u2019d probably think it's pronounced 'ooler' or 'uler.' Then you hear people\
+  \ say 'oer'; those are the same thing, so just for your information. \n\nXYZ rotation:\
+  \ this is the x-axis, this is the y-axis, and this is the z-axis; rotation around\
+  \ x, rotation around y, rotation around z. These are in radians. I trust that that's\
+  \ where those cameras live. Great! So we have an estimate of where the cameras are.\
+  \ Now we can try to measure more interesting behavior. Uh, yeah, I guess turn it\
+  \ off. How did I do it? Was there...? Oh no, my hubris! The back is the answer.\
+  \ We'll see. \n\nOkay, so I'm tucking in my pants so that more of my body will be\
+  \ visible because it's too cold to wear just... Shorts. Remember, we're going to\
+  \ be pretending like I'm one of these. It's better if the joints are visible because\
+  \ these pants are kind of open, so if I were to bend down here, it's harder to tell\
+  \ what my knee is doing, right? It's harder for you as a human to see, so it would\
+  \ definitely be harder for a rectangle silicone to do it. \n\nOkay, so let's do\
+  \ four separate recordings. We'll call the first one \"Ro,\" then the second one\
+  \ \"Balance Control,\" the third one \"Balance Kettlebell,\" and then \"Jumping.\"\
+  \ \n\nYes, where? I need...yeah, a pose. A pose! It helps me. \n\nOkay, so we're\
+  \ going to take four recordings, and the first one's kind of like...again, kind\
+  \ of a calibration. I'm going to be doing kind of boring stuff, like simple control\
+  \ and standing stuff, just to sort of make sure things look right in the later recordings\
+  \ because in those later ones, I'm going to be moving more and doing more interesting\
+  \ stuff. So we start with something simple. \n\nWe're going to start with an \"\
+  A Pose,\u201D which is a T pose. We've heard of that; it was like a joke for a while.\
+  \ This happens because under the hood, in all your favorite animation tools, it's\
+  \ these guys. If you set all the joint angles to zero, you get that. So whenever\
+  \ the code under the hood and the data becomes unbound to the model, it defaults\
+  \ to the T pose. That's why that happens. A pose, T pose\u2014because, get it? We\
+  \ tend to do an A Pose in this world because it takes up less space. \n\nOh right,\
+  \ yeah, I'm going to put this here. Try to get it; just give me a sense of where\
+  \ to... Stand. Yeah, let's move me first. Cool. Oh, there's a plug the whole time?\
+  \ Well, you should have stopped me. No, I never said that. That's called gaslighting;\
+  \ it's very effective. It's good to practice recognizing that because it just shows\
+  \ up. Okay, what are we doing in class? Who are you people? Jesus Christ. The top\
+  \ one? Okay, helpful. See, it's really helpful to have an externalized nervous system\
+  \ to handle certain tasks and a pose for range of motion. I'll just count it off.\
+  \ Can you swing like you're doing with range of motion? Oh, well, so this one...\
+  \ Oh, I see. Yeah, right, backwards. You guys can't see that, unfortunately, but\
+  \ it looks like this. But three of them? Okay, yes. Okay, 1, 1,000, 2, 1,000, 3,\
+  \ 1,000, 4, 1,000, 5, 1,000. And I guess I'm still standing. I think standing is\
+  \ fine. Um, range of motion, so this is the top one. Then we've got these ones,\
+  \ and we've got those ones. They only go one way. Got these wrists, got hands, which\
+  \ is cool. We got a waist, which is neat. We got one leg that goes like this, we\
+  \ got another leg that goes like that. If I missed anything, that'll definitely\
+  \ get it. Okay, good. Um, I wish we had told it not to auto-process because then\
+  \ we could keep recording. Shut it down. Let it finish synchronizing first. Yeah,\
+  \ let it finish synchronizing, then loop it through. Yeah, so from that, we're going\
+  \ to be able to measure. The first thing is going to be the... well, this happens\
+  \ every recording, but the first one's kind of a simpler one. We will get the length\
+  \ of the rigid bodies, so I tried to go. through the catalog of wobbly bits and\
+  \ move my rigid body through roughly their full range of motion. If we wanted to\
+  \ use that later, actually, I don't have any pipelines that really use that data,\
+  \ but it's useful to look at. Now we are restarting it to get another one because\
+  \ we forgot to click the button that says 'Don't Auto process.' I was so close to\
+  \ using the new one for this class, but that seemed like a bad idea.  \n\nThe next\
+  \ parts we're going to look at are about posture and balance, standing and balance,\
+  \ and so on. It's odd that we are bipeds. It's wild to just use two little feet.\
+  \ Essentially, it's us, birds, angry bears, and kangaroos at a full hop; we are\
+  \ the only ones that really stand on two feet. There\u2019s a long, strange story\
+  \ about how we got here. Long story short, we used to be basically squirrels that\
+  \ lived in trees, so we were doing this on the branches. Then, someday, we decided\
+  \ to stand up and go over there, and the rest is history. It got very complicated\
+  \ after that, but it was a bold move.  \n\nThis is one of those things where we\
+  \ look at animals doing things, and we say, 'Oh my God, I can't believe that fish\
+  \ is good at swimming,' but we don't notice that we are essentially gliding and\
+  \ teeter-tottering all over the world. The way we control that is highly complex\
+  \ from both a physical perspective and a neural perspective.  \n\nLet's call this\
+  \ balance control. Where are we on time? 12:55. Someday I won't talk the entire\
+  \ time, I promise. I'll just say it out loud: there's a concept called the base\
+  \ of support; it's exactly what you think it is. There's also a concept called the\
+  \ center of mass; it's roughly what you think it is. If the center of mass is above\
+  \ the base of support, we're good. If it goes outside, we fall over. In static equilibrium,\
+  \ things are going great. Oh my God, I'm falling! It's okay; I have two feet. I\
+  \ do this all the time, and this is called walking. I'm going from point A to point\
+  \ B. Everything following is pretty complex stuff, which is great. \n\nOne of the\
+  \ things my body is really good at is standing upright, and I tend not to fall over,\
+  \ especially if I'm not doing anything interesting. I can make it harder and do\
+  \ this; my base of support just got way smaller. It's a little harder, and I feel\
+  \ my body working at it, but again, I've been here before. I can do this\u2014not\
+  \ all day, but I can do it for a while. That's good. \n\nYeah, so I'll start in\
+  \ an A-pose. Also, it doesn't record sound, so I can just talk while I'm doing it.\
+  \ Let's start with an A-pose. Thank you! Keep an eye on the time; let me know if\
+  \ it goes over a minute\u2014just say 'minute.' All right, and now we're recording.\
+  \ Look at me; I'm doing it! I'm standing here, but I don't just have to stand here.\
+  \ I can also lean. I can lean pretty far forward, all the way to the right, and\
+  \ all the way to the left. I know when to stop. My body just kind of stops, and\
+  \ there's this certain sensation that I have. I can't go any farther because my\
+  \ center of mass is at the limit of my base of support. My arms are a part of that.\
+  \ If I go forward, I have to lean my butt back. The whole thing is great.\n\nNow\
+  \ I'm doing it on one foot; this is harder, but I'm doing it. Look at me go! And\
+  \ I can jump. Wow, I did all that. How are we doing on time? Ten seconds? Look at\
+  \ me go! Great! Okay, that's probably good. It looks much more impressive when it's\
+  \ in the data. Did you turn that thing off? Nice. \n\nI weigh roughly one body mass,\
+  \ give or take. When I'm controlling my body, I sort of throw arrows into the ground\
+  \ in order to push the mass in the desired direction. I put the arrow in the opposite\
+  \ way that I want to go, putting those forces into the ground appropriately for\
+  \ the mass. Now, if you wanted to compare me to something, saying that I weigh one\
+  \ body mass is not ... Particularly helpful. So, if you wanted to compare me to\
+  \ some external reference, I weigh roughly 95 liters of water, which is the same\
+  \ as 95 kilograms because the metric system is cool like that. This is Michael.\
+  \ Bring this over. Look at you! So, Aaron did a farmer carry with this object across\
+  \ campus. This weighs 45 lbs, which you can convert to about 20 kilograms, making\
+  \ it roughly a fifth of my body weight. But look at me standing; I have not even\
+  \ fallen over. How in God's name am I able to do that? With difficulty and possible\
+  \ injury, but yes! So, we're doing kind of a similar thing, probably with less jumping.\
+  \ If I die on camera, analyze the data you want. Call it balance kettlebell, KB,\
+  \ or kettlebell. Okay, so I'm going to start in the A-pose. Then I'm going to pick\
+  \ up the... Who's it? One, one thousand. Two, one thousand. Three, one thousand.\
+  \ And now here I am standing. What do you think this data looks like relative to\
+  \ the other data? So, I'm going all the way over here to this side again, and I'm\
+  \ going to go all the way over to that side. I'm all the way forward, backwards.\
+  \ I don't know if this is going to track. The system doesn't track kettlebells,\
+  \ just to be clear. It only tracks human bodies or human body-shaped objects. Oh,\
+  \ Jesus! Okay, there we go. So before, if we're measuring the center of mass relative\
+  \ to the base of support, and we do that again, what is it going to look like? What's\
+  \ that answer going to look like, especially considering that we're not measuring\
+  \ the kettlebell, but just measuring the body? Me? Jesus! Okay, good. The things\
+  \ I do! So, what's that data going to look like? We can ask the question qualitatively;\
+  \ what's it going to look like? It's going to be this shifted. No? There. Wow! We\
+  \ can ask the question quantitatively, which includes numbers in it. You start with\
+  \ a qualitative estimate and then you measure the quantitative thing, and if they\
+  \ don't line up... Something went wrong either in your measurement, in your intuition,\
+  \ or both. Okay, so we roughly one body mass, multiply that by one g, that's one\
+  \ body weight. So I'm now pushing down on the ground with one body weight of force.\
+  \ The arrow that's pointing into the Earth is the same as this thing. So I'm M,\
+  \ that's a kilogram, and G is m/second squared. If you accept, you move. So yeah,\
+  \ meter, if you move it over time and it goes, it was here, and then one second\
+  \ later, it's there, that's one meter per second. If this is one m/second, and then\
+  \ one second later it goes to two m, then it's accelerating at one meter per second\
+  \ per second. So one meter per second, great, one meter per second per second, great.\
+  \ We can combine these apparently and get one m/s squared. Wow! And then, if we\
+  \ multiply a kilogram by a meter second squared, you get a Newton, which is the\
+  \ name for that. Great, easy! Don't worry about it, the machine knows how to do\
+  \ that, so you don't have to. The important thing is that I weigh one, and my weight\
+  \ is also one. Just divide this all by numbers, I don't actually care how weighty\
+  \ it is. So if I'm standing here, I'm putting force into the ground that's the same\
+  \ as how much I weigh. If I'm doing this posture, there's some weird stuff going\
+  \ on in my joints; we don't have to worry about that now. I can put more force into\
+  \ the ground than I weigh, and if I do, what will happen? I go into the Earth, I\
+  \ go to the side. Where will I go? Amazing, spectacular! Yeah, that's called jumping,\
+  \ and basically what that means is for a period of time, I put more force into the\
+  \ ground than I weigh. So I was periodically freed from the tyranny of Earth, but\
+  \ then it comes back and grabs me. And if you measured it, it would be what this\
+  \ was, but with better handwriting. I'm going to pose. I'll do a big jump, then\
+  \ I'll do 10 small jumps. I'll try to do another big jump and then I'll try to jump\
+  \ on one foot. If I'm not dead, we can call it there. Okay, God damn it. Alright,\
+  \ let's begin. One, two, three, four, five, six, seven, eight, nine, ten, eleven,\
+  \ twelve. Oh, that's too many. Okay, God damn it. One, two, three, four, five, six,\
+  \ seven, eight, nine, ten, two, three, four, five, six, seven, eight, nine, ten.\
+  \ One of the rules of being a professor is if you want undergraduate students to\
+  \ think you're cool, just say it in front of them once. But I tend to say it a lot,\
+  \ so you'll be alright. Okay, I'll let that one ride. Could you pull up the terminal\
+  \ again? Is that good? Is it running, or do you need to tell it to run? I have to.\
+  \ Okay, yeah, so those are the videos, there are three of them. Now it will do a\
+  \ lot of math, and as these things scroll by, some of... This is a guy doing the\
+  \ math, 7%. This is all stacked up, so this represents three processes at once.\
+  \ The amount of human labor boiled into this little pink line is tremendous. There\u2019\
+  s labor from me, from Aaron, and from other people using the software around the\
+  \ world. But that\u2019s nothing compared to all the other stuff, because I didn\u2019\
+  t invent computers. I didn\u2019t write the amount of code that goes into this.\
+  \ Code is just math written in English, and most of it is spent importing other\
+  \ people\u2019s packages. For example, you import NumPy and then you get to do linear\
+  \ algebra. You install Python and then you can write code that looks like this.\
+  \ Essentially, code is just text files that live on your computer and are converted\
+  \ into binary that crunches numbers. It results in gigabytes of text files that\
+  \ go into writing the numbers processed on this system. This effort has been done\
+  \ by people over the past 40 to 50 years, arguably even further back. You have Claude\
+  \ Shannon, who essentially wrote down information theory, and Alan Turing back in\
+  \ the 50s. There\u2019s also Ada Lovelace, who was one of the first to outline algorithms,\
+  \ tracing back to the Babylonians who crunched numbers. It all intertwines beautifully,\
+  \ and luckily for us, unlike those who created the motion capture system, everyone\
+  \ who wrote the code that went into this pink line shared it. They allowed others\
+  \ to use it, enabling their efforts to make the world a better place, allowing any\
+  \ human to achieve more than they could have before that work was done. The alternative,\
+  \ the standard practice in most software you use daily, involves exploiting a disparity\
+  \ of knowledge and capability to extract resources from others. Personally, I don\u2019\
+  t like that option. So, as for what this is doing, it\u2019s crunching numbers.\
+  \ The pink line is where all of this connects. Most of the work was happening. The\
+  \ white line is doing the simpler triangulation stuff. The pink line is where we\
+  \ are trying to extract skeletons from rectangles of light, and this is where we\
+  \ are triangulating and comparing the two-dimensional estimates because cameras\
+  \ provide a 2D view. We have that marker camera for triangulation to see how that\
+  \ works. \n\nIf you decided to point a laser at me, and then you also pointed a\
+  \ laser at me and told each other where you were sitting and what angle you were\
+  \ pointing the laser, as long as you both confirmed that it was overlapping, you\
+  \ could do the math to figure out the distance, even though you have no idea how\
+  \ far your laser is actually going. Conceptually, that makes sense. This qualitative\
+  \ understanding is important, and I promise you that the math is not relevant to\
+  \ that baseline understanding.\n\nGreat! So we did the 2D stuff, looked at the rectangle\
+  \ of pixels, and this is the part where it draws the skeleton on top. I guess you\
+  \ probably haven't seen much of that data yet, so I'll show it to you in a second.\
+  \ Remember what all this stuff is. Oh, you might need to run it again. Oh, never\
+  \ mind, I lied. \n\nSo that part is where it gets shoved into Blender. Did you all\
+  \ download Blender? So, Blender is a free, open-source animation software, again\
+  \ made for free and given to the world as a gift. It's made for animators and artists,\
+  \ specifically those who train in the world of creating extremely precise 3D renderings\
+  \ of hypothetical worlds. \n\nIs it still working? Oh, it's thinking. Yeah, yeah!\
+  \ So basically, there we go. Here, I'll drive. Thank you! You want to see? Uh, yeah,\
+  \ okay. Behold! Come on, check it out. It's the world you live in, sort of. Oh,\
+  \ I'm so late having a mouse, yeah. Oh, there we go. So, that's Skelly, and I guess\
+  \ I kept going. I have to figure out how to rotate. Alt... there we go. So, not\
+  \ as high because I'm tired. This thing right here\u2014woo, calm down\u2014that\
+  \ is my center of mass, such as it is. If I do that, I say in range, I say round\
+  \ frame, I say plus or minus 30, 30, no, 30, 30, calculate. Yes, haha! Oh, and then\
+  \ I say, don't show the frame numbers, make it red. No, don't show the frame numbers.\
+  \ Look at it go! So, here I am, standing, look at this rectangle of pixels, and\
+  \ then look at this unbelievable, gobsmacking magic of being able to draw a dot\
+  \ on my left shoulder, and it's kind of correct. This is the part that's kind of\
+  \ AI. It's not artificial intelligence; this is machine learning that uses convolutional\
+  \ neural networks. It's roughly the same math as what's in a bot when you're talking\
+  \ to it, but it's for pictures. Somehow, don't worry about it. This is the magical\
+  \ step; this is the part that shouldn't be possible. It's also the part that's the\
+  \ hardest to understand from the outside. The trigonometry and linear algebra stuff,\
+  \ I do that all day. I know it's right when I do it. This one, I can't. Luckily,\
+  \ this weird magic step draws a skeleton on top of a picture of a person, and I\
+  \ happen to have roughly 12 billion years of evolution that lets me be really good\
+  \ at telling you where the picture of the person is in the image. So I can look\
+  \ at it and say, \"Yeah, that's right; that's working pretty good.\" It's very important\
+  \ that the only magical step in this pipeline is the part that you can confirm with\
+  \ your eyes qualitatively. If you want to quantitatively understand if it's actually\
+  \ measured anything good, you have to get a PhD. That's literally what he's doing\u2014\
+  validating it beyond the gut check, which is like, \"That's pretty good,\" but if\
+  \ you want real numbers, it's a lot of work. Now, how are we doing on time? We're\
+  \ doing okay. So now, that's a silly skeleton. Um, okay, do that, do that. We say\
+  \ graph editor, then we click on this guy again. Hey, hey, and then we say normalize.\
+  \ Oh, and then we say, \"I will data; look at me go!\" This tool\u2014this, so Blender\u2014\
+  is not a scientific tool. It was not made to be a scientific tool. I am abusing\
+  \ it into being a scientific tool, and it is grateful for the experience. Select,\
+  \ grab. Ha! So this is a complicated thing. It's got ribs, it's got a pelvis, it's\
+  \ got this skull. All these parts have weird shapes. I didn't actually measure these\
+  \ things; I didn't measure where the hips were. I didn't measure much of anything.\
+  \ I only measured these little dots here, and even that's pretty abstract. We're\
+  \ making inferences about what the more complicated shapes were doing by tracking\
+  \ those dots because we are going to pretend that things like pelvises and the associated\
+  \ meat are rigid bodies. Because they are rigid bodies, you only need to track a\
+  \ couple of points on them to know what the other ones are doing. Wobbly bodies\
+  \ don't have that property; rigid bodies do. So we like rigid bodies. This skeleton\
+  \ is kind of aesthetic. We can also look at these little sticks; these sticks are\
+  \ the actual rigid bodies that we are. Inferring connects the actual dots, which\
+  \ represent the 3D positions triangulated from the objects in the image. We measured\
+  \ some rectangles of light, inferred some stick figures in 2D, constructed some\
+  \ shapes in 3D, added sticks, and created a skeleton. Now, it's doing all this strange\
+  \ stuff. But I have to be honest, that's still pretty complicated. It's got things\
+  \ like joints, and those joints have angles. I don't want to deal with any of that.\
+  \ So what we're going to do is take all of these elements and shift them around.\
+  \ Let's see\u2014get you to hide. Don't do that. No one cares. Anyway, this is the\
+  \ trajectory of the whole body; I don't want to analyze that. Luckily, we can boil\
+  \ this down into just this. I want to know, as we discussed, about putting arrows\
+  \ into the ground to launch ourselves off the floor. How hard did I push off the\
+  \ ground? How much force did I apply when I jumped? Unfortunately, I forgot the\
+  \ force plate, and that moment is gone forever, lost to the past. All we have are\
+  \ the measurements we made, which are somewhat impoverished. These webcam measurements\
+  \ are very abstract, and I want to know how hard I pushed. I care about that for\
+  \ some reason. Fortunately, physics is quite rigid, and I can make a lot of estimates\
+  \ about what was happening, based on that approximation from this shape. One of\
+  \ the interesting aspects of complicated bodies is that, no matter how complex they\
+  \ are, if I place you in a catapult, I can predict your trajectory very directly.\
+  \ It doesn't matter how complicated it is; it follows the same rules in the air.\
+  \ I can't tell you what each knee was doing from this type of measurement. I can't\
+  \ tell you what my hips and other body parts were doing. I can tell you, in broad\
+  \ strokes, how many newtons my body is going to have to absorb when it goes from\
+  \ this point down to that point. And then, you can also see\u2014I don't know if\
+  \ this is real data, but if you really squint and believe me, there's a little bit\
+  \ of a concern because it's a lot of weight I have to manage. I'll bet if you measured\
+  \ this, it would somehow be worse than this. What's worse? It's hard to know.\n\n\
+  We also know, so now I'm doing this on the ground. Before, I didn't know which knee\
+  \ was doing what, but now I do because I've constrained the behavior to make it\
+  \ easier to measure. I can also see I'm kind of bouncing around; I'm not staying\
+  \ in one place. There's some control loop that's happening\u2014I'm guiding something,\
+  \ and there's something being steered. Whatever that thing is, it probably feels\
+  \ related to whoever allows me to do this. It seems like it should be that way;\
+  \ maybe not. This one's in my arm, that one's in my leg. This one's static, that\
+  \ one's moving. It's hard to know.\n\nI couldn't really get this data in the big\
+  \ fancy lab because it's not made for this type of stuff. To put the full body on,\
+  \ I couldn't have collected that much data while standing in front of a classroom.\
+  \ This is because there are no cameras on the walls here, and it also takes longer\
+  \ than that. I certainly couldn't have shown you how to do it because even if I\
+  \ could, a requisite aspect of that is starting with a quarter million dollars that\
+  \ you're going to spend to record people. Whereas now, you can spend twenty dollars\
+  \ on some webcams and figure out how to run stuff from the command line\u2014you\
+  \ have to type and then push enter, and that's the class.\n\nThank you for watching.\
+  \ Between now and next week, someone\u2014it's unclear who\u2014is going to take\
+  \ this data, package it up, and put it somewhere online that you can watch and use.\
+  \ You might not. Then, next week, we'll get into actually how to open the things,\
+  \ look at the data, and there\u2019s going to be an assignment for this week, which\
+  \ is basically to talk to the bot about what that was. All about, because every\
+  \ one of you watched, every one of you saw something different when I did all that\
+  \ stuff, and I am very curious about what comes out when you talk about it to the\
+  \ rectangle that is so friendly and polite. Okay, thank you. Now we have 10 minutes\
+  \ to break down before someone gets mad at us. Question: I sent you an email that\
+  \ said I probably not. Okay, is that like a good method? No, uh, I just get so much\
+  \ email. So you can absolutely send an email, but I'll probably miss it. Shoot me\
+  \ a message on Discord; it's the easiest way. I didn't know if Discord is like too\
+  \ informal. It is a little bit, but for the first message I was like, I'm going\
+  \ to be safe. That's wise. What was the question? And also, if it's important, just\
+  \ send it again. Okay. I was just wondering about the ATT policy. If I had to miss\
+  \ a class or like Thanksgiving break, is there like a Zoom option? No, you're out.\
+  \ Sorry."
+title: HMN24 - 01 - Intro to Data Collection
+transcript_chunks:
+- dur: 180.0
+  end: 180.0
+  start: 0.0
+  text: Hello, we're recording now. Spectacular! FMRI is great, but I have doubts.
+    It is like the best tool we have for looking inside a person's brain without opening
+    it up. There are also things like EEG and fNIRS, but I don't really like or trust
+    those either because they are all so abstracted away from what we hypothetically
+    care about, which is the desideratum of the kind of research that's multiple.
+    The desideratum of a given research area is the thing that you want to know, why
+    you come here, why you show up, and what your goal is. That is the desideratum
+    of the field of inquiry. I would argue that the field of neuroscience is largely
+    designed to help us understand what this is like. I left my house, got on a bike,
+    and did a bunch of stuff. Somehow, my dinner from last night fueled the energy
+    cost, and now I'm here talking to you and explaining that this happened. A lot
+    of the scientific world we live in has a very reductionist feel and an underlying
+    philosophy of reductionism, where the goal is to measure things with increasing
+    precision at finer levels with the hope that we will someday get to the bottom
+    of it and figure it all out. Because of that, somewhat by necessity of technology
+    and sort of feedback loops driven there, the tools we use to measure research
+    often come at the cost of the ecological validity of the data. This means that
+    you're putting me in a tube, shooting big magnets at my head, and saying, "Oh,
+    look at what your brain is doing!" That tells me something about you in the world
+    over evolutionary time and throughout your day. It does, to some extent, because
+    you're measuring the same engine that's driving behavior when I'm out doing stuff.
+    However, you're getting a very precise measurement of the thing doing something
+    different from the thing you actually care about, which is behaving out in the
+    real world. There is often a trade-off, perhaps necessarily a trade-off, between
+    empirical precision and ecological validity.
+- dur: 180.0
+  end: 360.0
+  start: 180.0
+  text: "One second, I got this. If we can't record what's going on in my brain, because\
+    \ it's unfortunately 2024 and we just can't do that yet, some people will say,\
+    \ \"Oh no, you can put an EEG on people. You can do fMRI on people.\" And it's\
+    \ like, yeah, you can, but let me phrase that\u2014no, you can't. A lot of people\
+    \ believe that you can, and we respect their efforts. \n\nIf we are talking about\
+    \ trade-offs between empirical precision and ecological validity, anytime there's\
+    \ a trade-off, there's often two sides to that. I'd say all the way on the farthest\
+    \ side of empirical precision, reductionist philosophy is the EIZ measurements.\
+    \ That's like sticking an electrode into the goop itself and looking at how it\
+    \ spikes. You get unbelievably precise measurements, typically on nonhuman animals,\
+    \ but sometimes you get to do that on humans as well. In those situations, the\
+    \ animal\u2014or whatever that you're measuring\u2014is never doing anything particularly\
+    \ interesting; it's usually just attached to something because the technology\
+    \ requires it. There are new technologies coming online that allow animals to\
+    \ move around as they're being measured, and I'm working on some of those things\
+    \ with some people. But those are new types of studies, new types of tools, and\
+    \ new types of equipment.\n\nAn alternative approach is to say, let's go the other\
+    \ way and let's just measure the behavior as closely as we can to the desideratum\u2014\
+    the sort of case study, the ecologically valid measurements. Let's record those\
+    \ as well as we can, and then we can make inferences about what's going on and\
+    \ the hidden variables, the parts that we can't actually measure directly. If\
+    \ we're lucky, the people who are out there cracking open skulls and taking electrical\
+    \ recordings will share their notes. They can say, \"Oh hey, we found this part\
+    \ and that part, and we think this does this other thing,\" and I can say, \"\
+    Oh well, I saw this behavior and that behavior, and those two things kind of line\
+    \ up. These things don't, but those things do.\" In a perfect world, we all get\
+    \ to do nice, good, happy research. End of class, we're done. \n\nUnfortunately,\
+    \ it's actually slightly more complicated than that."
+- dur: 180.0
+  end: 540.0
+  start: 360.0
+  text: "So, let's put the reductionists to the side for the moment. There are more\
+    \ than enough of them, they\u2019re very well funded, and they'll be fine. Let's\
+    \ work on this other part where we try to figure things out. That thing I said\
+    \ before about just measuring real behavior and studying that is actually quite\
+    \ difficult. You saw in that lab some of the big fancy tools that we use to do\
+    \ that. They measure the environmental forces. Excuse me for encroaching on your\
+    \ space. We can measure things like movement and forces, and we use these big\
+    \ fancy tools to do it. Actually, could you help me out? Just go ahead and start\
+    \ setting things up; just freeocap it regularly and I'll keep talking about stuff.\
+    \ Do you have it on there? Okay, I got it. I needed to activate that, which is\
+    \ why I was late. It's been a while since I used that computer for anything. I'm\
+    \ going to move this up. Do we know how to raise that thing? It's probably over\
+    \ here: cam privacy manual control. I don't see anything obvious. It might be\
+    \ something simple, though. It\u2019s unlikely, but it could be something like\
+    \ pulling it down when it comes up. Oh, maybe it has a thing on it? No, it\u2019\
+    s probably powered. It might turn off when this thing turns off. It\u2019s fine;\
+    \ we\u2019ll figure it out. That's good enough for now. Oh, and also, turn this\
+    \ off. This is connected, but because it's being held by OBS, these things turn\
+    \ off. There's an order of operations you have to follow. If you turn OBS on and\
+    \ it grabs that camera, then you can do freeocap and it only sees these; otherwise,\
+    \ it gets weird. As I mentioned, I spent a lot of my time over the past half-decade\
+    \ or so messing with cheap cameras."
+- dur: 180.0
+  end: 720.0
+  start: 540.0
+  text: "I had a whole crisis of conscience around how expensive that lab was. Even\
+    \ if I wasn't morally perturbed by it, I hate that equipment; it's garbage. The\
+    \ software is the worst. In terms of physical measurement apparatus, the force\
+    \ plates are great, and the cameras are very fast and precise, but the software\
+    \ is abysmal and extremely expensive. Even if it weren't, it\u2019s frustrating\
+    \ to use, requiring a lot of manual effort and labor. It's basically 90s technology.\
+    \ I haven't been doing this since then, but I have been involved with it long\
+    \ enough to know that it\u2019s outdated. \n\nSo, there's been a lot of technological\
+    \ advancement since the 90s, and much of it has focused on these weird objects\
+    \ called cameras, which measure light. Light helps us understand color. I might\
+    \ have to take my shoes off because... yeah, I\u2019ll do it later. \n\nLong story\
+    \ short, this is Free MoCap, a free, open-source, markerless motion capture system\
+    \ that works in a conceptually similar way to the big fancy systems in the lab.\
+    \ Did you guys see how they show you the 2D views with intensity? You see how\
+    \ the thing moves around, and it\u2019s like, oh look at those dots on the screen.\
+    \ They get triangulated, and remember, it\u2019s mostly triangles. Then you get\
+    \ 3D information based on that. \n\nThe traditional marker-based motion capture\
+    \ systems constrain the world they measure to make it easier to track. You put\
+    \ a marker\u2014a specially designed dot that uses retro-reflective material\u2014\
+    on the person or object you\u2019re trying to measure. This design works with\
+    \ the cameras to enable them to track these markers in 2D. Then, expensive software\
+    \ performs complex calculations, using principles from mathematics that are over\
+    \ 2000 years old, to determine where that dot is in space. So again, you can see\
+    \ that theme at play here."
+- dur: 180.0
+  end: 900.0
+  start: 720.0
+  text: "When you're constraining the world a bit to make it easier to measure in\
+    \ fMRI or in the EEG world, you can strain the behavior by telling the person\
+    \ not to move. You constrain the behavior by removing the skull from the area\
+    \ that's getting in the way because the little electrodes are sensitive. However,\
+    \ you're changing the thing that you're measuring in order to make it easier to\
+    \ measure by necessity. There's typically a tradeoff; as a general rule, the more\
+    \ you constrain the environment you're measuring, the easier it is to measure\
+    \ since you are exerting control over it. This typically works well if you're\
+    \ skilled at what you're doing, but you also wind up affecting the thing you're\
+    \ trying to measure, which may or may not matter for the broader context of the\
+    \ research you're conducting.\n\nFor example, if I were doing the traditional\
+    \ mapping method, I would need to bring people into the lab, which presents its\
+    \ own difficulties. I have to put them in a spandex suit, put dots on them, and\
+    \ calibrate the room. All of these factors may or may not matter, but I had to\
+    \ do that for a long time because that was the only way to get a camera to track\
+    \ an object in two dimensions. Nowadays, we have other ways of doing that.\n\n\
+    I am going to go through a bit of a process right now, and this will be a recurring\
+    \ theme. I just need to move this over there so I don\u2019t trip on it. This\
+    \ scenario will make more sense later because, ideally, if everything works out,\
+    \ we are going to use this data for the rest of the semester. We will look at\
+    \ it and try to understand what's happening and attempt to infer about what may\
+    \ or may not be going on based on the measurements we manage to obtain.\n\nI am\
+    \ going to go out here in a second. This is going to take some time, but there\u2019\
+    s a whole process. I guess we can turn off the projector when it\u2019s ready\
+    \ or switch it to another setting; it probably won\u2019t be affected."
+- dur: 180.0
+  end: 1080.0
+  start: 900.0
+  text: "Yes, could you maybe just tune it so that it is set properly? That one might\
+    \ need to be placed behind those desks or something. One of the realities is that\
+    \ if I wanted to know, for instance, if it was Michael who was moving the triangle\
+    \ around, and I wanted to know what the motor commands were that went to his muscle\
+    \ parts, my ability to answer that question is dependent on what I managed to\
+    \ record. The true factual answer to that question about the motor commands that\
+    \ were sent is gone; it has fizzled into the past, just like the dot data went\
+    \ after you didn\u2019t record it, and you can never retrieve it. It dissolves\
+    \ into the foam of whatever happens when time moves forward. Therefore, the actual\
+    \ moment of recording is incredibly important. This is the moment when all this\
+    \ data is going away. However, since we are not recording it right now because\
+    \ I didn\u2019t click the big red button, when I do click it, that will be the\
+    \ only record we have of whatever was going on. We will try to use it to understand\
+    \ what was happening in this peculiar scenario. There are two of the weirdest\
+    \ things in the universe: light and human behavior, and we will attempt to use\
+    \ one to understand the other. It\u2019s basically impossible, but we can approximate\
+    \ it iteratively over time. Okay, let\u2019s see. Could you tilt them down and\
+    \ center this one a little bit less in height? Thank you. Yes, that\u2019s right.\
+    \ I forgot that angles matter here, so try to get it straight if you can. This\
+    \ is the moment of transduction. Transduction is a great word that means when\
+    \ energy changes from one form to another. In this particular case..."
+- dur: 180.0
+  end: 1260.0
+  start: 1080.0
+  text: "Light is going through the lens, bending, hitting a sensor, which is a weird\
+    \ rectangle and is being transformed into a pattern of electrical impulses. If\
+    \ that sounds familiar, it's because that's what you are; that's what you do,\
+    \ at least in this rough region. Your eyes are not cameras, but there are similarities\
+    \ at some level. So, we are going to be measuring rectangles of light. We will\
+    \ be measuring three rectangles of light, taking samples from three light cones\
+    \ from three locations. We are going to pull one measurement of light intensity\
+    \ at three wavelengths: red, green, and blue\u201430 times per second from three\
+    \ devices. Unfortunately, we cannot know the devices' location. However, we will\
+    \ try to guess later by cheating and measuring something that we know the answer\
+    \ to. This process is called calibration, and then we will guess what the location\
+    \ of those devices was. After that, we will look at the rectangles of colors;\
+    \ we will call them colors, even though it's pretty abstract. We will try to go\
+    \ from there down some strange epistemic path with various forms of computation\
+    \ in math, most of which you will not have to worry about because it will all\
+    \ happen very quickly. Then we will try to make inferences about what brains do\u2014\
+    central nervous systems. Really cool! Yeah, thanks. What do I want to do? Here\
+    \ are buttons or... yeah, um... I guess I'll calibrate first and then I'll sort\
+    \ of make a plan. F8 looking there. Alright, shoes are coming off. I apologize,\
+    \ but this will not be the last time I'm taking my shoes off because my shoes\
+    \ are black and my socks are white, and the ground is dark. We care about where\
+    \ my feet are, so we are measuring light; remember, we are not measuring feet,\
+    \ we are measuring light and then inferring feet. We are going to make our job\
+    \ a little bit easier by putting these things there. If I cared about the grippiness\
+    \ of these shoes, that would be a mistake in terms of this experiment, but I don't\
+    \ care about the grippiness of shoes."
+- dur: 180.0
+  end: 1440.0
+  start: 1260.0
+  text: "This manipulation of reality, I think, is forgivable. Now, it's always the\
+    \ feet. If you recall, we're going to measure and record information from cameras.\
+    \ There are subtle hints in the environment indicating that this is what will\
+    \ happen. This guy follows me if I ask him to; nice, good job. That's a two-axis\
+    \ gimbal. You have a three-axis gimbal. We have two of them right here; we'll\
+    \ talk about that later. \n\nSo, we're going to be recording from the cameras.\
+    \ Cameras measure light; we talked about that. We need to know where the cameras\
+    \ are, as that's going to be pretty important. We're going to measure space, and\
+    \ we will perform a process we call calibration, which is basically a fancy term\
+    \ for trying to measure where all the cameras are relative to each other. \n\n\
+    The way we do that is by cheating because later we'll record something that's\
+    \ a weird, unknown, goopy, wobbly object, one of these. That thing will be really\
+    \ hard to measure. The first thing we want to do is confirm to ourselves that\
+    \ the tool is actually doing what we think it is doing. We'll cheat by measuring\
+    \ something where we already know the answer to the question. This is a grid;\
+    \ see all the squares? The squares are 58 mm on a side; you can see I wrote that\
+    \ right there. You can obviously see that from the back. It also has these little\
+    \ patterns that are custom-made to be easy to track by cameras. \n\nWe will start\
+    \ by showing the camera this friendly calibration object, and then they will use\
+    \ that to infer, based on math that a combination of me and tens of thousands\
+    \ of my closest friends has written over the past 30 to 40 years or so, based\
+    \ on math that we've been doing for thousands of years. The result of that will\
+    \ be an estimate about the location of each camera, measured in six degrees of\
+    \ freedom. The six degrees of freedom means that there are six numbers involved:\
+    \ three positions (X, Y, Z) and three rotations (X, Y, Z). With position and rotation,\
+    \ you can measure the location and rotation of a rigid body in space, but don't\
+    \ worry about that; it won't be on the test. There won't be a test! Just let it\
+    \ wash over you. \n\nYeah, like there's a spot. I think we should turn the projector\
+    \ off."
+- dur: 180.0
+  end: 1620.0
+  start: 1440.0
+  text: Okay, there was a white bar across this from the projector and it tends not
+    to like that. Oh, I lied; that was so graceful I can leave it up there so the
+    next person who's shorter than me will just be screwed. No, we won't do that.
+    Okay, so once they calibrate them, you don't touch that camera. You don't touch
+    that camera; nobody touches any cameras. Deal? Great! Because if you do, I'll
+    have to do this again. Okay, I guess it's not... I don't know about how... yeah,
+    you want to... I guess we have another spotlight too? Yeah, I don't know, is it
+    around? Is it available? Yeah, you might as well. Ah, let's see... is there a
+    plug on this side of the room anywhere? No? Nope. Yeah, let's not do that here.
+    I'm going to write out stuff that we're going to do, just basically like feed
+    the cable as far as it'll go. The last time I recorded data in class, it became
+    the test data for this project for like two years. So I'm not saying that's what
+    we're going to do now, but I have learned over the course of my life that... oh,
+    there's no plug over here either? How does anybody plug anything in in this world?
+    Oh yeah, that's not going to make it that far, but that's fine; better than nothing.
+- dur: 180.0
+  end: 1800.0
+  start: 1620.0
+  text: "Okay, so when I actually get to the point of recording, I'm going to stand,\
+    \ do a range of motion, do a lean, and do a one-foot stand. Then I'm going to\
+    \ let's do this separately, and that'll be that. We'll do another one where I\
+    \ do a lean and one-foot stand with the kettlebell. I'm writing this down, so\
+    \ it's for me. I'm going to do another one where I jump ten times and then do\
+    \ a big jump. \n\nIt is a known effect that if you have anything with a record\
+    \ button, when you push record, your cognitive facilities go. So you need to do\
+    \ everything you can to externalize thoughts before you push the record button.\
+    \ Just kind of taking that time. Yeah, that's good, thank you. \n\nOkay, light\
+    \ is very important for cameras. That one isn't going to have any... Oh, I guess\
+    \ I can just get closer. Oh, okay, yeah, I was confused because they're in a different\
+    \ order on that screen. \n\nOkay, go ahead and... cool. So now I am basically\
+    \ just showing the board to all of the cameras. The most important thing here\
+    \ is that each of the cameras has frames where each camera can see the board along\
+    \ with one of its compatriots. Shared views are probably good. I wish I could\
+    \ turn the projector on and off, but it's slow, so I guess we'll see. Now I know\
+    \ how to do it."
+- dur: 180.0
+  end: 1980.0
+  start: 1800.0
+  text: "Other professors just show up and give PowerPoints, but I don't know how\
+    \ to do that. Could you pull up the terminal? Okay, so it's thinking, and what\
+    \ it's doing here is you can try Control Plus I. Does it work? No? Well, anyways,\
+    \ this is just a readout of what it's doing under the hood. It's basically just\
+    \ doing a bunch of geometry, and right now this number here\u2014 we probably\
+    \ can't read it\u2014 says 8.95. That is the number of frames that were recorded\
+    \ from all of the cameras. \n\nThere are two things to worry about: time and space.\
+    \ We handle time through synchronization, and there's been many gallons of my\
+    \ life poured into making sure that this thing records frames from each camera\
+    \ synchronously. It's a 30fps camera, which means that every frame you get a new\
+    \ one every 33 milliseconds. I use 'frame' interchangeably with 'image' because\
+    \ of the history of cinema, I guess. So, we have 895 synchronized frames from\
+    \ each camera, and that synchronization is how we achieve time synchrony. \n\n\
+    If I compare the frame that happened at time equals 12 from this one and compare\
+    \ it to the one that this camera got at time equals 13, I can't use those to figure\
+    \ out where the thing I'm measuring is, because they'll have different times.\
+    \ This is where we determine when this third one finishes; it will either fail\
+    \ or not fail, and we'll find out together. \n\nSo, you have synchronization between\
+    \ measurements from three locations, which are not moving. That's important. This\
+    \ camera would not be a good tool because it moves, so I could do the calibration\
+    \ thing, but then it would move around and I can't get good measurements. \n\n\
+    Is anyone here done any optimization stuff? Have you touched that in your life?\
+    \ People have heard the term 'optimization'\u2014 it's like weird math. This is\
+    \ doing optimization right now to figure out, basically, how to use the measurements\
+    \ that we got to determine where each camera was in space."
+- dur: 180.0
+  end: 2160.0
+  start: 1980.0
+  text: "It says it was successful. Could you find that and pop it open? Yeah, just\
+    \ you can do that in there. I think just double-click that. Okay, so this is where\
+    \ the cameras presumably are: camera zero, one, and two, because we start counting\
+    \ from zero. Someone decided that was a good idea. The matrix size is the pixels,\
+    \ so it's a low-resolution image, but that's okay. \n\nRotation: this is camera\
+    \ zero. The translation is like moving; it\u2019s basically its position. The\
+    \ translation from the origin is zero because it's camera zero. Great. This one\
+    \ is camera one. It's -2719, 516. These are in millimeters, so roughly 2.7 meters\
+    \ away. If this said 20,000, I'd think, 'Oh, something's messed up,' but I don't\
+    \ know if it\u2019s right. A gut check for scale is that it\u2019s close enough,\
+    \ so we like that. The other one down here is 1160, so it looks like the order\
+    \ is zero, one, two. Is that right? It doesn't really matter; is that right? Oh,\
+    \ and also there are these other variables which matter a lot, and then these\
+    \ rotation variables, those are Euler angles. When you see it written down, it\u2019\
+    s spelled E-U-L-E-R, and you\u2019d probably think it's pronounced 'ooler' or\
+    \ 'uler.' Then you hear people say 'oer'; those are the same thing, so just for\
+    \ your information. \n\nXYZ rotation: this is the x-axis, this is the y-axis,\
+    \ and this is the z-axis; rotation around x, rotation around y, rotation around\
+    \ z. These are in radians. I trust that that's where those cameras live. Great!\
+    \ So we have an estimate of where the cameras are. Now we can try to measure more\
+    \ interesting behavior. Uh, yeah, I guess turn it off. How did I do it? Was there...?\
+    \ Oh no, my hubris! The back is the answer. We'll see. \n\nOkay, so I'm tucking\
+    \ in my pants so that more of my body will be visible because it's too cold to\
+    \ wear just..."
+- dur: 180.0
+  end: 2340.0
+  start: 2160.0
+  text: "Shorts. Remember, we're going to be pretending like I'm one of these. It's\
+    \ better if the joints are visible because these pants are kind of open, so if\
+    \ I were to bend down here, it's harder to tell what my knee is doing, right?\
+    \ It's harder for you as a human to see, so it would definitely be harder for\
+    \ a rectangle silicone to do it. \n\nOkay, so let's do four separate recordings.\
+    \ We'll call the first one \"Ro,\" then the second one \"Balance Control,\" the\
+    \ third one \"Balance Kettlebell,\" and then \"Jumping.\" \n\nYes, where? I need...yeah,\
+    \ a pose. A pose! It helps me. \n\nOkay, so we're going to take four recordings,\
+    \ and the first one's kind of like...again, kind of a calibration. I'm going to\
+    \ be doing kind of boring stuff, like simple control and standing stuff, just\
+    \ to sort of make sure things look right in the later recordings because in those\
+    \ later ones, I'm going to be moving more and doing more interesting stuff. So\
+    \ we start with something simple. \n\nWe're going to start with an \"A Pose,\u201D\
+    \ which is a T pose. We've heard of that; it was like a joke for a while. This\
+    \ happens because under the hood, in all your favorite animation tools, it's these\
+    \ guys. If you set all the joint angles to zero, you get that. So whenever the\
+    \ code under the hood and the data becomes unbound to the model, it defaults to\
+    \ the T pose. That's why that happens. A pose, T pose\u2014because, get it? We\
+    \ tend to do an A Pose in this world because it takes up less space. \n\nOh right,\
+    \ yeah, I'm going to put this here. Try to get it; just give me a sense of where\
+    \ to..."
+- dur: 180.0
+  end: 2520.0
+  start: 2340.0
+  text: Stand. Yeah, let's move me first. Cool. Oh, there's a plug the whole time?
+    Well, you should have stopped me. No, I never said that. That's called gaslighting;
+    it's very effective. It's good to practice recognizing that because it just shows
+    up. Okay, what are we doing in class? Who are you people? Jesus Christ. The top
+    one? Okay, helpful. See, it's really helpful to have an externalized nervous system
+    to handle certain tasks and a pose for range of motion. I'll just count it off.
+    Can you swing like you're doing with range of motion? Oh, well, so this one...
+    Oh, I see. Yeah, right, backwards. You guys can't see that, unfortunately, but
+    it looks like this. But three of them? Okay, yes. Okay, 1, 1,000, 2, 1,000, 3,
+    1,000, 4, 1,000, 5, 1,000. And I guess I'm still standing. I think standing is
+    fine. Um, range of motion, so this is the top one. Then we've got these ones,
+    and we've got those ones. They only go one way. Got these wrists, got hands, which
+    is cool. We got a waist, which is neat. We got one leg that goes like this, we
+    got another leg that goes like that. If I missed anything, that'll definitely
+    get it. Okay, good. Um, I wish we had told it not to auto-process because then
+    we could keep recording. Shut it down. Let it finish synchronizing first. Yeah,
+    let it finish synchronizing, then loop it through. Yeah, so from that, we're going
+    to be able to measure. The first thing is going to be the... well, this happens
+    every recording, but the first one's kind of a simpler one. We will get the length
+    of the rigid bodies, so I tried to go.
+- dur: 180.0
+  end: 2700.0
+  start: 2520.0
+  text: "through the catalog of wobbly bits and move my rigid body through roughly\
+    \ their full range of motion. If we wanted to use that later, actually, I don't\
+    \ have any pipelines that really use that data, but it's useful to look at. Now\
+    \ we are restarting it to get another one because we forgot to click the button\
+    \ that says 'Don't Auto process.' I was so close to using the new one for this\
+    \ class, but that seemed like a bad idea.  \n\nThe next parts we're going to look\
+    \ at are about posture and balance, standing and balance, and so on. It's odd\
+    \ that we are bipeds. It's wild to just use two little feet. Essentially, it's\
+    \ us, birds, angry bears, and kangaroos at a full hop; we are the only ones that\
+    \ really stand on two feet. There\u2019s a long, strange story about how we got\
+    \ here. Long story short, we used to be basically squirrels that lived in trees,\
+    \ so we were doing this on the branches. Then, someday, we decided to stand up\
+    \ and go over there, and the rest is history. It got very complicated after that,\
+    \ but it was a bold move.  \n\nThis is one of those things where we look at animals\
+    \ doing things, and we say, 'Oh my God, I can't believe that fish is good at swimming,'\
+    \ but we don't notice that we are essentially gliding and teeter-tottering all\
+    \ over the world. The way we control that is highly complex from both a physical\
+    \ perspective and a neural perspective.  \n\nLet's call this balance control.\
+    \ Where are we on time? 12:55. Someday I won't talk the entire time, I promise.\
+    \ I'll just say it out loud: there's a concept called the base of support; it's\
+    \ exactly what you think it is. There's also a concept called the center of mass;\
+    \ it's roughly what you think it is."
+- dur: 180.0
+  end: 2880.0
+  start: 2700.0
+  text: "If the center of mass is above the base of support, we're good. If it goes\
+    \ outside, we fall over. In static equilibrium, things are going great. Oh my\
+    \ God, I'm falling! It's okay; I have two feet. I do this all the time, and this\
+    \ is called walking. I'm going from point A to point B. Everything following is\
+    \ pretty complex stuff, which is great. \n\nOne of the things my body is really\
+    \ good at is standing upright, and I tend not to fall over, especially if I'm\
+    \ not doing anything interesting. I can make it harder and do this; my base of\
+    \ support just got way smaller. It's a little harder, and I feel my body working\
+    \ at it, but again, I've been here before. I can do this\u2014not all day, but\
+    \ I can do it for a while. That's good. \n\nYeah, so I'll start in an A-pose.\
+    \ Also, it doesn't record sound, so I can just talk while I'm doing it. Let's\
+    \ start with an A-pose. Thank you! Keep an eye on the time; let me know if it\
+    \ goes over a minute\u2014just say 'minute.' All right, and now we're recording.\
+    \ Look at me; I'm doing it! I'm standing here, but I don't just have to stand\
+    \ here. I can also lean. I can lean pretty far forward, all the way to the right,\
+    \ and all the way to the left. I know when to stop. My body just kind of stops,\
+    \ and there's this certain sensation that I have. I can't go any farther because\
+    \ my center of mass is at the limit of my base of support. My arms are a part\
+    \ of that. If I go forward, I have to lean my butt back. The whole thing is great.\n\
+    \nNow I'm doing it on one foot; this is harder, but I'm doing it. Look at me go!\
+    \ And I can jump. Wow, I did all that. How are we doing on time? Ten seconds?\
+    \ Look at me go! Great! Okay, that's probably good. It looks much more impressive\
+    \ when it's in the data. Did you turn that thing off? Nice. \n\nI weigh roughly\
+    \ one body mass, give or take. When I'm controlling my body, I sort of throw arrows\
+    \ into the ground in order to push the mass in the desired direction. I put the\
+    \ arrow in the opposite way that I want to go, putting those forces into the ground\
+    \ appropriately for the mass. Now, if you wanted to compare me to something, saying\
+    \ that I weigh one body mass is not ..."
+- dur: 180.0
+  end: 3060.0
+  start: 2880.0
+  text: Particularly helpful. So, if you wanted to compare me to some external reference,
+    I weigh roughly 95 liters of water, which is the same as 95 kilograms because
+    the metric system is cool like that. This is Michael. Bring this over. Look at
+    you! So, Aaron did a farmer carry with this object across campus. This weighs
+    45 lbs, which you can convert to about 20 kilograms, making it roughly a fifth
+    of my body weight. But look at me standing; I have not even fallen over. How in
+    God's name am I able to do that? With difficulty and possible injury, but yes!
+    So, we're doing kind of a similar thing, probably with less jumping. If I die
+    on camera, analyze the data you want. Call it balance kettlebell, KB, or kettlebell.
+    Okay, so I'm going to start in the A-pose. Then I'm going to pick up the... Who's
+    it? One, one thousand. Two, one thousand. Three, one thousand. And now here I
+    am standing. What do you think this data looks like relative to the other data?
+    So, I'm going all the way over here to this side again, and I'm going to go all
+    the way over to that side. I'm all the way forward, backwards. I don't know if
+    this is going to track. The system doesn't track kettlebells, just to be clear.
+    It only tracks human bodies or human body-shaped objects. Oh, Jesus! Okay, there
+    we go. So before, if we're measuring the center of mass relative to the base of
+    support, and we do that again, what is it going to look like? What's that answer
+    going to look like, especially considering that we're not measuring the kettlebell,
+    but just measuring the body? Me? Jesus! Okay, good. The things I do! So, what's
+    that data going to look like? We can ask the question qualitatively; what's it
+    going to look like? It's going to be this shifted. No? There. Wow! We can ask
+    the question quantitatively, which includes numbers in it. You start with a qualitative
+    estimate and then you measure the quantitative thing, and if they don't line up...
+- dur: 180.0
+  end: 3240.0
+  start: 3060.0
+  text: Something went wrong either in your measurement, in your intuition, or both.
+    Okay, so we roughly one body mass, multiply that by one g, that's one body weight.
+    So I'm now pushing down on the ground with one body weight of force. The arrow
+    that's pointing into the Earth is the same as this thing. So I'm M, that's a kilogram,
+    and G is m/second squared. If you accept, you move. So yeah, meter, if you move
+    it over time and it goes, it was here, and then one second later, it's there,
+    that's one meter per second. If this is one m/second, and then one second later
+    it goes to two m, then it's accelerating at one meter per second per second. So
+    one meter per second, great, one meter per second per second, great. We can combine
+    these apparently and get one m/s squared. Wow! And then, if we multiply a kilogram
+    by a meter second squared, you get a Newton, which is the name for that. Great,
+    easy! Don't worry about it, the machine knows how to do that, so you don't have
+    to. The important thing is that I weigh one, and my weight is also one. Just divide
+    this all by numbers, I don't actually care how weighty it is. So if I'm standing
+    here, I'm putting force into the ground that's the same as how much I weigh. If
+    I'm doing this posture, there's some weird stuff going on in my joints; we don't
+    have to worry about that now. I can put more force into the ground than I weigh,
+    and if I do, what will happen? I go into the Earth, I go to the side. Where will
+    I go? Amazing, spectacular! Yeah, that's called jumping, and basically what that
+    means is for a period of time, I put more force into the ground than I weigh.
+    So I was periodically freed from the tyranny of Earth, but then it comes back
+    and grabs me. And if you measured it, it would be what this was, but with better
+    handwriting.
+- dur: 180.0
+  end: 3420.0
+  start: 3240.0
+  text: I'm going to pose. I'll do a big jump, then I'll do 10 small jumps. I'll try
+    to do another big jump and then I'll try to jump on one foot. If I'm not dead,
+    we can call it there. Okay, God damn it. Alright, let's begin. One, two, three,
+    four, five, six, seven, eight, nine, ten, eleven, twelve. Oh, that's too many.
+    Okay, God damn it. One, two, three, four, five, six, seven, eight, nine, ten,
+    two, three, four, five, six, seven, eight, nine, ten. One of the rules of being
+    a professor is if you want undergraduate students to think you're cool, just say
+    it in front of them once. But I tend to say it a lot, so you'll be alright. Okay,
+    I'll let that one ride. Could you pull up the terminal again? Is that good? Is
+    it running, or do you need to tell it to run? I have to. Okay, yeah, so those
+    are the videos, there are three of them. Now it will do a lot of math, and as
+    these things scroll by, some of...
+- dur: 180.0
+  end: 3600.0
+  start: 3420.0
+  text: "This is a guy doing the math, 7%. This is all stacked up, so this represents\
+    \ three processes at once. The amount of human labor boiled into this little pink\
+    \ line is tremendous. There\u2019s labor from me, from Aaron, and from other people\
+    \ using the software around the world. But that\u2019s nothing compared to all\
+    \ the other stuff, because I didn\u2019t invent computers. I didn\u2019t write\
+    \ the amount of code that goes into this. Code is just math written in English,\
+    \ and most of it is spent importing other people\u2019s packages. For example,\
+    \ you import NumPy and then you get to do linear algebra. You install Python and\
+    \ then you can write code that looks like this. Essentially, code is just text\
+    \ files that live on your computer and are converted into binary that crunches\
+    \ numbers. It results in gigabytes of text files that go into writing the numbers\
+    \ processed on this system. This effort has been done by people over the past\
+    \ 40 to 50 years, arguably even further back. You have Claude Shannon, who essentially\
+    \ wrote down information theory, and Alan Turing back in the 50s. There\u2019\
+    s also Ada Lovelace, who was one of the first to outline algorithms, tracing back\
+    \ to the Babylonians who crunched numbers. It all intertwines beautifully, and\
+    \ luckily for us, unlike those who created the motion capture system, everyone\
+    \ who wrote the code that went into this pink line shared it. They allowed others\
+    \ to use it, enabling their efforts to make the world a better place, allowing\
+    \ any human to achieve more than they could have before that work was done. The\
+    \ alternative, the standard practice in most software you use daily, involves\
+    \ exploiting a disparity of knowledge and capability to extract resources from\
+    \ others. Personally, I don\u2019t like that option. So, as for what this is doing,\
+    \ it\u2019s crunching numbers. The pink line is where all of this connects."
+- dur: 180.0
+  end: 3780.0
+  start: 3600.0
+  text: "Most of the work was happening. The white line is doing the simpler triangulation\
+    \ stuff. The pink line is where we are trying to extract skeletons from rectangles\
+    \ of light, and this is where we are triangulating and comparing the two-dimensional\
+    \ estimates because cameras provide a 2D view. We have that marker camera for\
+    \ triangulation to see how that works. \n\nIf you decided to point a laser at\
+    \ me, and then you also pointed a laser at me and told each other where you were\
+    \ sitting and what angle you were pointing the laser, as long as you both confirmed\
+    \ that it was overlapping, you could do the math to figure out the distance, even\
+    \ though you have no idea how far your laser is actually going. Conceptually,\
+    \ that makes sense. This qualitative understanding is important, and I promise\
+    \ you that the math is not relevant to that baseline understanding.\n\nGreat!\
+    \ So we did the 2D stuff, looked at the rectangle of pixels, and this is the part\
+    \ where it draws the skeleton on top. I guess you probably haven't seen much of\
+    \ that data yet, so I'll show it to you in a second. Remember what all this stuff\
+    \ is. Oh, you might need to run it again. Oh, never mind, I lied. \n\nSo that\
+    \ part is where it gets shoved into Blender. Did you all download Blender? So,\
+    \ Blender is a free, open-source animation software, again made for free and given\
+    \ to the world as a gift. It's made for animators and artists, specifically those\
+    \ who train in the world of creating extremely precise 3D renderings of hypothetical\
+    \ worlds. \n\nIs it still working? Oh, it's thinking. Yeah, yeah! So basically,\
+    \ there we go. Here, I'll drive. Thank you! You want to see? Uh, yeah, okay."
+- dur: 180.0
+  end: 3960.0
+  start: 3780.0
+  text: "Behold! Come on, check it out. It's the world you live in, sort of. Oh, I'm\
+    \ so late having a mouse, yeah. Oh, there we go. So, that's Skelly, and I guess\
+    \ I kept going. I have to figure out how to rotate. Alt... there we go. So, not\
+    \ as high because I'm tired. This thing right here\u2014woo, calm down\u2014that\
+    \ is my center of mass, such as it is. If I do that, I say in range, I say round\
+    \ frame, I say plus or minus 30, 30, no, 30, 30, calculate. Yes, haha! Oh, and\
+    \ then I say, don't show the frame numbers, make it red. No, don't show the frame\
+    \ numbers. Look at it go! So, here I am, standing, look at this rectangle of pixels,\
+    \ and then look at this unbelievable, gobsmacking magic of being able to draw\
+    \ a dot on my left shoulder, and it's kind of correct. This is the part that's\
+    \ kind of AI. It's not artificial intelligence; this is machine learning that\
+    \ uses convolutional neural networks. It's roughly the same math as what's in\
+    \ a bot when you're talking to it, but it's for pictures. Somehow, don't worry\
+    \ about it. This is the magical step; this is the part that shouldn't be possible.\
+    \ It's also the part that's the hardest to understand from the outside. The trigonometry\
+    \ and linear algebra stuff, I do that all day. I know it's right when I do it."
+- dur: 180.0
+  end: 4140.0
+  start: 3960.0
+  text: "This one, I can't. Luckily, this weird magic step draws a skeleton on top\
+    \ of a picture of a person, and I happen to have roughly 12 billion years of evolution\
+    \ that lets me be really good at telling you where the picture of the person is\
+    \ in the image. So I can look at it and say, \"Yeah, that's right; that's working\
+    \ pretty good.\" It's very important that the only magical step in this pipeline\
+    \ is the part that you can confirm with your eyes qualitatively. If you want to\
+    \ quantitatively understand if it's actually measured anything good, you have\
+    \ to get a PhD. That's literally what he's doing\u2014validating it beyond the\
+    \ gut check, which is like, \"That's pretty good,\" but if you want real numbers,\
+    \ it's a lot of work. Now, how are we doing on time? We're doing okay. So now,\
+    \ that's a silly skeleton. Um, okay, do that, do that. We say graph editor, then\
+    \ we click on this guy again. Hey, hey, and then we say normalize. Oh, and then\
+    \ we say, \"I will data; look at me go!\" This tool\u2014this, so Blender\u2014\
+    is not a scientific tool. It was not made to be a scientific tool. I am abusing\
+    \ it into being a scientific tool, and it is grateful for the experience. Select,\
+    \ grab. Ha! So this is a complicated thing. It's got ribs, it's got a pelvis,\
+    \ it's got this skull. All these parts have weird shapes. I didn't actually measure\
+    \ these things; I didn't measure where the hips were. I didn't measure much of\
+    \ anything. I only measured these little dots here, and even that's pretty abstract.\
+    \ We're making inferences about what the more complicated shapes were doing by\
+    \ tracking those dots because we are going to pretend that things like pelvises\
+    \ and the associated meat are rigid bodies. Because they are rigid bodies, you\
+    \ only need to track a couple of points on them to know what the other ones are\
+    \ doing. Wobbly bodies don't have that property; rigid bodies do. So we like rigid\
+    \ bodies. This skeleton is kind of aesthetic. We can also look at these little\
+    \ sticks; these sticks are the actual rigid bodies that we are."
+- dur: 180.0
+  end: 4320.0
+  start: 4140.0
+  text: "Inferring connects the actual dots, which represent the 3D positions triangulated\
+    \ from the objects in the image. We measured some rectangles of light, inferred\
+    \ some stick figures in 2D, constructed some shapes in 3D, added sticks, and created\
+    \ a skeleton. Now, it's doing all this strange stuff. But I have to be honest,\
+    \ that's still pretty complicated. It's got things like joints, and those joints\
+    \ have angles. I don't want to deal with any of that. So what we're going to do\
+    \ is take all of these elements and shift them around. Let's see\u2014get you\
+    \ to hide. Don't do that. No one cares. Anyway, this is the trajectory of the\
+    \ whole body; I don't want to analyze that. Luckily, we can boil this down into\
+    \ just this. I want to know, as we discussed, about putting arrows into the ground\
+    \ to launch ourselves off the floor. How hard did I push off the ground? How much\
+    \ force did I apply when I jumped? Unfortunately, I forgot the force plate, and\
+    \ that moment is gone forever, lost to the past. All we have are the measurements\
+    \ we made, which are somewhat impoverished. These webcam measurements are very\
+    \ abstract, and I want to know how hard I pushed. I care about that for some reason.\
+    \ Fortunately, physics is quite rigid, and I can make a lot of estimates about\
+    \ what was happening, based on that approximation from this shape. One of the\
+    \ interesting aspects of complicated bodies is that, no matter how complex they\
+    \ are, if I place you in a catapult, I can predict your trajectory very directly.\
+    \ It doesn't matter how complicated it is; it follows the same rules in the air."
+- dur: 180.0
+  end: 4500.0
+  start: 4320.0
+  text: "I can't tell you what each knee was doing from this type of measurement.\
+    \ I can't tell you what my hips and other body parts were doing. I can tell you,\
+    \ in broad strokes, how many newtons my body is going to have to absorb when it\
+    \ goes from this point down to that point. And then, you can also see\u2014I don't\
+    \ know if this is real data, but if you really squint and believe me, there's\
+    \ a little bit of a concern because it's a lot of weight I have to manage. I'll\
+    \ bet if you measured this, it would somehow be worse than this. What's worse?\
+    \ It's hard to know.\n\nWe also know, so now I'm doing this on the ground. Before,\
+    \ I didn't know which knee was doing what, but now I do because I've constrained\
+    \ the behavior to make it easier to measure. I can also see I'm kind of bouncing\
+    \ around; I'm not staying in one place. There's some control loop that's happening\u2014\
+    I'm guiding something, and there's something being steered. Whatever that thing\
+    \ is, it probably feels related to whoever allows me to do this. It seems like\
+    \ it should be that way; maybe not. This one's in my arm, that one's in my leg.\
+    \ This one's static, that one's moving. It's hard to know.\n\nI couldn't really\
+    \ get this data in the big fancy lab because it's not made for this type of stuff.\
+    \ To put the full body on, I couldn't have collected that much data while standing\
+    \ in front of a classroom. This is because there are no cameras on the walls here,\
+    \ and it also takes longer than that. I certainly couldn't have shown you how\
+    \ to do it because even if I could, a requisite aspect of that is starting with\
+    \ a quarter million dollars that you're going to spend to record people. Whereas\
+    \ now, you can spend twenty dollars on some webcams and figure out how to run\
+    \ stuff from the command line\u2014you have to type and then push enter, and that's\
+    \ the class.\n\nThank you for watching. Between now and next week, someone\u2014\
+    it's unclear who\u2014is going to take this data, package it up, and put it somewhere\
+    \ online that you can watch and use. You might not. Then, next week, we'll get\
+    \ into actually how to open the things, look at the data, and there\u2019s going\
+    \ to be an assignment for this week, which is basically to talk to the bot about\
+    \ what that was."
+- dur: 180.0
+  end: 4680.0
+  start: 4500.0
+  text: 'All about, because every one of you watched, every one of you saw something
+    different when I did all that stuff, and I am very curious about what comes out
+    when you talk about it to the rectangle that is so friendly and polite. Okay,
+    thank you. Now we have 10 minutes to break down before someone gets mad at us.
+    Question: I sent you an email that said I probably not. Okay, is that like a good
+    method? No, uh, I just get so much email. So you can absolutely send an email,
+    but I''ll probably miss it. Shoot me a message on Discord; it''s the easiest way.
+    I didn''t know if Discord is like too informal. It is a little bit, but for the
+    first message I was like, I''m going to be safe. That''s wise. What was the question?
+    And also, if it''s important, just send it again. Okay. I was just wondering about
+    the ATT policy. If I had to miss a class or like Thanksgiving break, is there
+    like a Zoom option? No, you''re out. Sorry.'
+video_id: VfSQ43VBG28

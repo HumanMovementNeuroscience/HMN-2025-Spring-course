@@ -1,0 +1,1708 @@
+full_transcript: okay hello everybody um so today we're going to talk about actual
+  proper kind of sort of Neuroscience for arguably the first time which is always
+  an exciting Point especially halfway through the semester um also in line with tradition
+  uh I realized when I got in here that I had taken a bunch of notes and written a
+  bunch of stuff up but then forgot to push it up so we don't have the most upto-date
+  stuff here but that's fine um basically sort of this is the point of the semester
+  where the Divergence from the plan becomes more noticeable uh so we are here roughly
+  um and we did some of this stuff but not all of it we haven't talked about eyeballs
+  yet but we'll start talking about vision and stuff probably next time um and uh
+  yeah and and then the evolution stuff I'll probably combine together and we'll get
+  to it the sort of soft goal is at some point before the end of the semester to get
+  to a point where I'm talking about my actual proper human scientist research uh
+  which has a lot of different sort of background aspects because it's visual control
+  of locomotion over rough terrain so it's sort of all these things kind of like mush
+  together um and then have enough time to do some additional topic stuff towards
+  the end uh and I think we'll get there so um the so yeah so so catching up with
+  where we currently are um we've done I guess so while I'm talking uh in the server
+  at the top under this resources ch Channel um the same place we talked about last
+  time so this thread called server scrape checkpoints click into that um I did figure
+  out what was wrong with the last one it was a stupid windows thing so Windows has
+  this thing where at some point in its history they decided that 280 characters is
+  as is as long as a file path ever needs to be or in fact should be so it throws
+  an error if your path links get too long which you can change that setting and say
+  that's we don't need to do that anymore but this ZIP file had long file name so
+  that's what the error was is like these pads are too long um so this 7z is a different
+  form of zip that doesn't have that error so if you want to see where things were
+  last week this one is the one that's up to date to that one this one uh was from
+  this morning um and so if you download this unzip it it will still throw two errors
+  um saying the p pkl and Json files are unhappy but just skip those and unpack the
+  rest of it and try to open it up in obsidian and hopefully by the time you get to
+  that point I will have gotten to that point in my conversation so give that a shot
+  see how far you get um so the yeah so a lot of the stuff we've been doing up until
+  now has been on the kind of like data and computational side of things so the the
+  topic of the course is neural control of real world human movement and uh we're
+  going to talk and so and so we've been focusing more up to this point on like basic
+  methods and sort of like the kinds of data that you can collect and sort of the
+  measurements that you can take and a little bit into the sort of more um I'll say
+  like high theory side of things um so all the talk about full body Center of mass
+  and sort of those like base level physics and sort of hyper simplified models of
+  the body and sort of it moves around the world is all kind all of those things are
+  kind of um about the study of it's more about the study of the neural control of
+  real world human movement on the it basically focusing on the um like the kinds
+  of measurements you can take like the the empirical investigation sort of like conversations
+  there to pertaining um and we're going to go back into that methods Z stuff when
+  we talk about Vision when sort of bring out the ey tracker and do sort of more data
+  looking um but today I want to give more of a sort of focusing more on like the
+  the landscape of um neur what we think about neural control and what we think about
+  motor control this is something that I have I found myself when I was sort of going
+  around in the conversations at the end at the last parts of previous classes something
+  I sort of found myself referring back to a lot so it's not directly on the presume
+  syllabus um but I want to talk today about uh the concept of the motor hierarchy
+  as it pertains to the neural control of movement because it's one of those things
+  where it's like it's a very fundamental aspect of our the our neural motor systems
+  that it is arranged in this sort of hierarchical way um with the cortex and sort
+  of the lumpy pink thing on top at the top of the hierarchy and then going down to
+  the various sort of subcortical systems and spinal cord and muscles and sort of
+  at the bottom of that hierarchy would be what you might consider like the base level
+  physics of the world um and so we're going to talk about that uh but we're not going
+  to do particularly deep dives into any aspect of it um because I want to give enough
+  time for us to do more of the kind of splitting off into groups and doing our own
+  Explorations this time we're going to we're going to do a little bit more clumping
+  by presumed topic as we chop up the room into sort of like which part of this hierarchy
+  do we want to talk about today and then the idea is to sort of try to use your Collective
+  efforts to flesh out parts of the brief overview brief fast dense overview that
+  I'm going to give in a second here so um we'll get to that in a second so um yeah
+  uh so this kind of exploration of like you know y'all doing some of the work of
+  helping to flesh out the landscape we've been playing with it a little bit with
+  sort of talking to the bot and sort of asking it questions about your own presumed
+  interests and um and as the semester has progressed I've made more progress into
+  basically updating the code that I have been using to scrape those conversations
+  out of the server and then put them into the a not not the bot but just another
+  sort of like configuration of AI stuff um and basically asking a different llm configuration
+  to pull out the topics that y'all have been asking about in order to get sort of
+  a landscape of the topics that you have been interested in uh so in order to look
+  at that uh yeah so on the assumption that you have downloaded the zip file uh and
+  extracted it if you're on a Mac it'll look a little bit different but at this point
+  in your life I assume you know how to unzip things if you don't ask a neighbor if
+  your neighbor doesn't know just chill out and ask me later um but so you want to
+  download it extract it and and this always gets creaky when I come on yeah and then
+  extract it so it's just like a regular old folder in here uh just anywhere on your
+  computer and then uh you should have at some point downloaded obsidian um obsidian
+  MD just search for it it's a free software and when you so uh get it download it
+  double click it it will look a little bit different the first time you open it but
+  uh so weird did I do that on this computer yet I can't remember um and what you'll
+  want to do is so for me it's down here again if you're on a Mac it might look a
+  little different but uh you're going to want to find something that's that looks
+  something like manage vaults or open vault or I think if you do like probably control
+  o it might give you a screen that looks something like this um and the option that
+  you want is called open folder as Vault uh obsid just calls folders vaults for whatever
+  reason um so open that and navigate to the folder that you just extracted uh there's
+  a bunch of like unnecessary subfolders in that zip file which I figured out this
+  morning um it doesn't matter which one you pick uh but just to make it a little
+  bit cleaner I'm going to click in through top level into AI processed um This Server
+  scrapes is just the raw data so it's effectively the the MD markdown file that's
+  that's attached to the top of each chat this is basically a folder full of those
+  things with the F with sort of laid out in a similar structure to the server so
+  I'm just going to click through that into AI processed and then this is the stuff
+  for the not necessar way too many stuff in there uh so I'm in here and uh you will
+  notice that these folder names correspond to the same categories that we have in
+  the actual server and then if you click into that these will correspond to the names
+  of the so that's in topics vision and then it's got the same names as all the the
+  channels and then where'd it go oh I'm getting distracted as I often do okay so
+  in here I'm GNA select this folder let obsidian open it up it's white for some reason
+  I don't know why it decided to be light mode for me but that's fine enough for now
+  and so there's a lot of stuff in here and basically if you click through this every
+  so in now in addition to the the raw conversation which is attached to the bottom
+  and you got links here if you click on the link it'll take you to that message in
+  the server probably on the browser version of the server and then up here is sort
+  of an extracted summary of the topics covered in this conversation which was presumably
+  about it tracking and VR whoever it was that had that conversation um and there's
+  a lot of like art to how to figure out like sort of the right way to tell and LM
+  to chew on a Big Blob of text in order to pull out topics um but in this particular
+  case I was mostly focused on just getting raw topics covered um so I gave it this
+  structure of like you know pull out a title a extremely short summary highlights
+  a very short summary a short summary and a detailed summary sort of like different
+  levels of abstraction um you know to sort of make that do its thing and then importantly
+  uh I also added pull out tags so these tags are just sort of hashtag uh this is
+  called Kebab case because it's a dash it's lowercase numbers with little strings
+  between them or uh hyphens between them and what the tags allow us to do is click
+  on this little graph view thing over here and that gives us this fun thing here
+  um so these dots are all of the so each one of these dots corresponds to one of
+  the chats that was had and if we go over to filters and turn on tags these are all
+  the tags that were covered um and so there's a couple thing to to note here first
+  of all this is fun I love this type of thing uh and I think I can you could there's
+  a lot of options for the display I don't know why it's in light mode but that's
+  fine um let the text be a little there let the nodes be a little smaller ones be
+  a little less thick um and so you can sort of navigate around in here the green
+  ones are the tags and the black ones are the notes um this is the kind of thing
+  like I don't want to belabor this particular Point too deeply and sort of get too
+  hard into the the technical aspects of like how to use this type of stuff obsidian
+  is nice because there's a lot of tutorials and stuff so if you're curious about
+  how to take notes like this and sort of have your general notes that you're taking
+  in your life have this sort of like nice internalized structure um just hop on YouTube
+  and search for obsidian and you'll find lots of good stuff there um but the basic
+  idea is so there's like certain tags so like biomechanics can I do it doesn't really
+  help much but that's okay um so we've been doing so this is the biome mechanics
+  tag so we've been doing a lot of talking about the biomechanics of the situation
+  so unsurprisingly um that tag is present in a lot of your conversations and so if
+  I click on that it will show me all of the tags that have been discussed and so
+  you can look up uh let's say impact of knee injuries on biomechanics and so I click
+  on there and this is a conversation that one of Y all had about about knee injuries
+  and biomechanics and this is what was discussed in there and you can click on this
+  and it will I take gu tap to the server version or the online browser version has
+  to load up uh yeah so this was Grace if you're in here um where'd you go yeah wait
+  is that the right one wait no it's a different thing yeah um yeah so biomechanic
+  is very well connected uh straight Neuroscience is obviously well connected uh neural
+  control is well connected um there's also come some like uh like orphans out here
+  that are not connected so mathematical ambiguity and interpretations sometimes these
+  are caused by like just like a conversation that's like super short so it's not
+  there's not much content there but AI has like people pleaser energy so if you tell
+  it to summarize something that only has like someone saying hello and then nothing
+  else it will still try to come up with the full summary even though that's not valid
+  to do um and in this particular case someone was asking yeah mathematics or of operations
+  something that that oh actually no remember how I told you that I was not going
+  to scrape the playground Channel um I lied it is in here because it's easier to
+  not it's easier to just not ignore it so there are occasionally some of these that
+  are like it's doing its best to pull a reasonable summary out of a conversation
+  that is intentionally misleading um so uh okay and so I'm going to leave that roughly
+  there um feel free to I guess another thing to say is you'll notice too that a lot
+  of these tags are like not they're like they're orphan tax right these this is being
+  included only in one conversation this thing sods is something that would probably
+  be it'll probably be connected more once we finish talking about eye movements um
+  but some of these two like trust right that the trust doesn't need to be a tag in
+  this class and so that's something the way that I wrote The Prompt or I didn't do
+  any cleanup after the fact it just pulled stuff that really shouldn't be there um
+  brain computer interfaces probably should be in there um seeds in body someone was
+  talking about eating plants I remember that that was a yeah um like there's some
+  things here where you can kind of tell that like the way that it is extracted the
+  information makes it more actually didn't do a terrible job this time but yeah so
+  Consciousness variations like that should that tag should really be Consciousness
+  and then anyone else who talked about that which I know there's at least a couple
+  of you would get matched in there um you know so this is the case where like the
+  way that the bot extracted the tags if that was done more sort of skillfully or
+  carefully it would be a more connected um system of topics and content um so some
+  of that is about having like more conversations to get more connection some it's
+  about like making the prompt a little better and then anytime you're doing anything
+  with AI and language generation there's always needs to be kind of like a human
+  cleanup step so you know I could go through and clean this up I could ask you to
+  clean it up um and maybe we'll do that uh we're going to be using musicin money
+  what are you talking about uh yeah so figuring out how to like EXP this stuff like
+  y'all can jump in there and look at what your classmates have been talking about
+  um we're going to be doing in the latter part of the class sort of a little bit
+  more toward in the direction of um y'all producing more like curated Blobs of text
+  that are sort of designed to help pull together some of these disparate disconnected
+  things um and I will be continuing over the course of the semester to sort of increase
+  the sophistication of this extract action um and the idea is to sort of find a way
+  to let all of you kind of like have the ways that you have been exploring this topic
+  and the space um cohere into a sort of a a navigable landscape of this sort of comedically
+  vast topic um yeah so yeah and then I I told it I tried to get it not to do this
+  I told it like don't use names but this one's like this topic is about Caroline's
+  interest in human anatomy and surgery it's like that should not that's the bad that's
+  a bad title there but uh it's not Carolyn's fault that's just the way like being
+  more careful with the prompting to like make sure that it doesn't do that stuff
+  and keeping the style consistent because um I also just to make it run fast and
+  cheap I this one was was processed by GPT 3.5 um who is dumber than G 3.4 or GPT
+  4 and the latter ones um but it is also like very very very fast and like effectively
+  free at this point so with this thing we're we're processing high enough volume
+  of text that the cost becomes noticeable if you use the the bigger stuff and if
+  if you use the the bigger models it would take you know half an hour to an hour
+  or more to process all these things where it's with 3.5 it's effectively free and
+  processes in like 30 seconds as opposed to like 30 minutes so um and for stuff like
+  extracting summaries it's sort of smart enough for that that's what language natural
+  language processing has been doing that for like 20 years um but you do kind of
+  get like some Dum dumb Behavior where it's like that's not even the right capitalization
+  there okay cool so um yeah so makees sense uh great if it doesn't make sense also
+  fine um if you have technical issues getting it running and sort of getting the
+  point where you can look at it we'll handle that in a little bit here um but yeah
+  there's no real obligations for you with this side of class right now this is more
+  of a I am giving you updates on my homework and this is where we're at with it because
+  real work is typically speaking iterative in nature um okay so uh so this is the
+  place where if I had successfully pushed my notes to the to GitHub I'm that would
+  be looking at them right now um but they weren't particularly extensive anyway um
+  so I'll take this as an opportunity to like show a little bit about how bot work
+  um so with something like you know like I'm giving an undergraduate lecture on the
+  motor hierarchy the neural motor hierarchy in your nervous system that is such a
+  well-trod topic that's like sort of intro level to any any class that talks about
+  motor Neuroscience is going to talk about the motor hierarchy so if I ask the bot
+  to say give me a lecture outline for the motor uh motor hierarchy hierarchy um it'll
+  give me something good especially because it already has the syllabus of the class
+  kind of baked into it with that sort of the top level prompt um I have this other
+  sort of yeah see perfect um uh I had this other sort of Channel over here where
+  I just I use AI for my own purposes um which you can make your own as well if you
+  want but we'll talk about that later or maybe not um and so in that server uh if
+  I wanted to because it isn't prompted in the same way that this class is if I gave
+  it that simple of a of a Preamble it wouldn't do as good of a job um but because
+  this one is already in the context of like having the syllabus of the server the
+  class already baked into itself um it does a decent job um oh uh give me the order
+  from highest to lowest uh because it did that the other way um great um so so there
+  you go now you have everything you need to know about the motor hierarchy not really
+  um this kind of a thing and uh uh give me an additional outline about the corticos
+  spinal corticospinal tract um yeah so that's another sort of area I wonder if it
+  didn't mention that in the original yeah it did mention it briefly but that's this
+  is another kind of thing so like when you're when you're navigating this kind of
+  like AI mediated language space there's often kind of a a balance you want to you
+  want to strike between like what I think of is like top down versus bottom up types
+  of in investigations so where a bottomup approach is kind of like giving it a very
+  loose instruction set and just saying just seeing what it pops out at you so like
+  tell me about neuroscience and it'll like give you a broad scoped thing um versus
+  more of a top down approach which is where you as the human uh give it more structure
+  and you say no give me more specifically this this type of thing um and it you get
+  different responses that way and they're both they both can be quite useful so the
+  analogy and this is a sort of recurring theme when working with AI is often times
+  the the strategies that work well with AI are also kind of like sort of Funhouse
+  versions of things that just generally work when you're talking to humans um if
+  for no other reasons then it was trained on human data um so like in this course
+  when we started you know I said hey go have an introductory talk ask the bot about
+  whatever you want um that's a very bottomup approach so I'm just saying hey room
+  full of people ask this thing a bunch of questions just based on whatever you are
+  interested in talking about and so when I do that and so a lot of the early part
+  of this class sort of had that structure um the ones that are kind of driven by
+  uh lectures a little more structured but a lot of the conversations so far have
+  been very bottom up and this um meaning that I am not imposing a structure from
+  the top down and so the like the topics that are covered and that sort of graph
+  that was shown is sort of a result of kind of that bottom up type of approach um
+  if I were to and so like I guess in contrast if we think about like the kind of
+  conversations that happened in this channel where this was the one that happened
+  after the uh the center of mass basis support lecture last time this is and I said
+  hey now ask the now ask the bot questions have conversations about this lecture
+  that's that's sort of it's more structured um but it's still fairly open um which
+  and then that would be contrasted with like saying you know write a class write
+  a paper about this topic so when you're working with AI and you're trying to sort
+  of steer it and you're trying to you make it generate something that you feel like
+  has some relationship to like your internal State like something that you are trying
+  to bring out into the world um it's often very beneficial to sort of swap back and
+  forth between these two modes of thinking so at saying hey give me an outline of
+  this topic without a bunch of structure to it and then taking that structure that
+  it gives you cleaning it up altering it editing it um and then giving it back and
+  say hey give me some more give me some information about this outline flesh out
+  this outline um and often times it's not even worth doing that first step if you
+  already know what you're interested in just ask it specific questions and you'll
+  get specific answers so it's sort of a there's just like different modes of using
+  this thing and I thing I've mentioned a lot is sort of like I think one of the best
+  things that these AIS are really good for is helping you flesh out your unknown
+  unknowns like you know you have an interest in a topic but you don't even know enough
+  to know the parts that you have questions about so just ask it generally tell me
+  more about this and it'll give you a bunch of stuff and then you'll say I didn't
+  even know what these words are and then ask about those words and you kind of navigate
+  it that way um but you also want to be able to like drive the conversation a bit
+  um anyway so I mostly asked to give me this just to have a uh a cheat sheet of the
+  actual Parts I wanted to talk about I always have to do this right okay so do it
+  like that can I do this I guess I can do that like that this is the part where I
+  get mad at Discord for poor use of space okay so um the motor hierarchy broadly
+  speaking uh corresponds to the basically the the organization of responsibilities
+  that within your motor cortex your motor sorry not your motor system um from the
+  high level abstract sort of thoughts of things like I'm thirsty I wish I had water
+  uh I'm hungry I want to eat um very abstract thoughts down to the level of like
+  I am trying to put Force into the world so that I can move my body in the direction
+  of water in the direction of food um and the ways that we kind of like the way that
+  like like the needs of like in order to complete a given task you have to have a
+  combination of those different levels because if you're only thinking about the
+  motor system as like a thing that's attached to your muscles that that puts forces
+  into the world in order to like pick up objects and push on the ground and do things
+  like that um you're never actually going to get like coordinated Behavior as you're
+  moving in the direction of goals and stuff like that at the same time if you're
+  only thinking about stuff in the context of like high order volitional desires of
+  you know I prefer Fruit to to wheat um like I'm I get thirsty when I talk a lot
+  or something like that um then you're not going to have the kind of like goal- driven
+  behaviors that actually make uh coordinated movement actually like meaningful and
+  produce actual results um so I want to can I zoom in here yeah sure so again and
+  I I think I did a picture kind of like this at the beginning but I'm just going
+  to try to give you more of like an atlas of these parts and how they connect to
+  each other and then work together on like fleshing out the details and specifically
+  today I want you guys to start use like looking at papers and looking up papers
+  on these topics and then using the bot to help you like chew on some of the the
+  deeper stuff there so again moving away from like asking the raw AI to tell you
+  sort of textbook level stories about you know highle stuff basically like if Wikipedia
+  could talk and start using it more as like a tool that you can use to navigate Waters
+  that are deeper than you can navigate on your own uh so let's start with the brain
+  so first thing you got to do is draw a brain do it roughly like that it's a brain
+  um specifically that's a mamalian brain malean brain yeah so this is not a brain
+  someone asked an AI to draw a brain for them that's not what a brain looks like
+  this is an inside of a brain um yeah where are the pictures I'm looking for they
+  roughly similar but the main the main part that I try to draw when I'm just doing
+  that sketch is this part right here is the that lumpy part going down that's your
+  temporal lobe by your temple um and then the rest is kind of squiggly it's I mentioned
+  this before but like you eventually start to learn that like all these little like
+  squishes and folds and stuff like that they all have names um and they're not random
+  and you can kind of start to when you see brains in popular media if it was based
+  off of an actual brain or if it's just someone who just like it's just a bunch of
+  squishy red stuff oh yeah this is the picture I was looking for so it's all a little
+  bit different they're all rough they're not shaped all the same but they all have
+  this see this is not a real brain they're missing some important parts which is
+  not great for a actual part there but that's fine um and this is a this is a object
+  of pure horror so so your so there you go you got the your this is your temporal
+  lobe and then this stuff up here is the front uh give yourself some eyeballs and
+  that sort of goes in um that's forward uh which is actually well it's fine for English
+  speakers we tend to put things point the other way but that's okay uh I always I
+  always I don't know I was raised speaking Arabic so I learn sometimes right to left
+  comes more naturally and I was like I don't know if that's actually normal um or
+  if that's just I don't know who cares um so don't put that one up let's put something
+  like this one let's give us a proper actual brain please oh yeah there we go so
+  this frontal lobe here um is all mammals have it I don't want we're really going
+  to talk about Mamon brains here because I don't know how any of the rest of them
+  work um birds in particular I'm very curious about but they can be very intelligent
+  with very strange with very different nervous systems and I don't know much about
+  that um but but the the frontal lobe is sort of like the traditionally most human
+  part there's a lot of parts of our brain that are quite different from other animals
+  um it's often just in terms of like the raw volume um but particularly when you
+  start going into like you know the the our Dumber mammal friends like your cats
+  and your your your rats and whatnot the biggest differences tend to be a lack of
+  that very pronounced bulbous frontal lobe and where is that stupid thing oh there
+  it is um and so this part here is also roughly speaking generally speaking the very
+  top of the motor hierarchy is that frontal lobe executive function um and yeah and
+  so typically speaking and anytime someone's giving you any kind of specific words
+  about how the brain works please understand it is a cartoon version of reality and
+  reality is always weirder more abstract and less understood than anything anyone
+  could ever say while standing in a space talking to you in a room um but generally
+  speaking it is thought that like that is where your sort of your volitional control
+  comes from volition is like roote of voluntary it's like the voluntary aspects of
+  things like I want to pick up this box and so I will pick up this box that that
+  initial desire is the volitional aspect of things and that is sort of you know cartoon
+  wise thought to sort of originate here in the prefrontal cortex you know frontal
+  prefrontal cortex um and the yeah so that's where those sort of like the most abstract
+  form of your motor desires originate in that sort of frontal lobe area um this is
+  where the the the description of the content of the neural activity or the patterns
+  of neural activity that we call motor control there um is abstract to the point
+  of not even really referencing the body like it's sort of like I I wish I had water
+  um I wish I had food or something like that um and yeah and so that again cartoon
+  wise is sort of passed back through like yeah frontal prefrontal premotor motor
+  um and then this part here sort of like on either side of your head is the part
+  we traditionally call the primary motor cortex which will look something like this
+  is the part that tends not get drawn yeah there we go that's what I was for before
+  um again cartoon versions of reality has not it's not based on nothing there's a
+  reason why we draw this cartoon and not some other cartoon um but nothing is this
+  clean um and the basic trajectory is that the those original highle volitional aspects
+  of control are sort of they get passed through different sub regions of that of
+  that brain um you're this part is sort of roughly your premotor cortex which sort
+  of starts to get more specific and then by the time you get to the motor cortex
+  that's where things are thought to start having a resemblance to your body so you
+  have this is again another this is the kind of picture that you will see in a lot
+  of textbooks about Neuroscience you may have seen it before um it's also the kind
+  of thing that you will never see in a talk about motor cortex this is the kind of
+  thing where this picture of so this is sort of the idea that like you know different
+  parts of your brain handle the movement of different parts of your body and so you
+  get this very over representation of things like your hands which has a lot of motor
+  control associated with it and much less representation of things like your hip
+  and leg which are sort of more simplified um and then you know over representation
+  of things like the face because we do things like talking and so the idea is that
+  the you know again this the cartoon version of the story is that the highlevel desires
+  to like you know grab a cup of water something like that gets passed through to
+  the lower from the high level at the frontal loes and then passed through to the
+  sort of more specific areas of the motor cortex and then translated into sort of
+  a more body mapped um description of like how to move from one place to the other
+  um and that is there's this horrible little man uh sensory motor homunculus that
+  sometimes gets drawn as the this is what you look like on the inside this is your
+  your your body map of yourself this is basically your body well not necessarily
+  yours but um mapped to the sort of the uh the cortical magnification of the different
+  parts of your movement this is uh clearly the sensory uh homunculus if you can't
+  figure out why that's a lesson to the reader um but the the idea is that if you
+  were to map out your like motor awareness and your sensory specificity um this is
+  kind of what you would look like um however this is also the kind of thing as I
+  mentioned that yeah and this so there's the sensory C this the the motor cortex
+  is sort of very close to the Sens the somata sensory cortex which is sort of like
+  the sensory aspect of things so in the same way that we would you know move our
+  elbows wrists and hands we also have Sensations from those areas and they are sort
+  of right next to each other um but again I have seen many many talks from many many
+  people often on the topic who study things like motor control and sensory motor
+  control and the topic of those talks is typically trying to say please stop showing
+  this to students it is not an accurate representation of reality um but then and
+  then they say a bunch of much much more complicated stuff about how it's not really
+  how it is but it it it's it's this is the easiest way to discuss things like cortical
+  magnification at the motor and sensory levels um just understand that it is not
+  a nice clear clean map it is not a the type of thing like oh here's where your wrist
+  is here's where your hand is it's much more complex it's much more spread out it's
+  much less organized um but if you sort of zoom out and squint and turn your head
+  this cartoon version of reality is a good place to start this is also the kind of
+  thing where if you wanted to look up more recent papers about the structure and
+  organization of the motor cortex sensory motor cortex you'll find a lot of good
+  stuff people actually doing that work it's also the kind of thing where if you ask
+  the bot to tell you about this it will probably it will probably tell you this part
+  and you might have to push it to be like is that really what people think and it
+  might be like uh I actually don't know what it would do I think that is getting
+  to the level of specificity and contemporariness of research where the fact that
+  the bot has eaten every textbook might make it harder for it to deviate from the
+  cartoonized version of reality that we tend to put into textbooks so this would
+  be a if you wanted to sort of try to push the bot Until It Breaks um you might try
+  to find a more recent paper on this topic and then find places where the bot gives
+  you stuff that is not actually aligned with what we think in reality um just kind
+  of had a brief moment of thinking about how that relates to things like Wikipedia
+  but I think Wikipedia is famously fast so Wikipedia tends not to sort of hold on
+  to wrong thoughts for very long so I think Wikipedia would probably give you like
+  quicker and director sort of summary overviews of more modern thinking um but I'm
+  actually not sure that's one of those spots so anyways so motor hierarchy so here
+  we are we're starting in the frontal frontal cortex we going back to the motor cortex
+  um later when we talk about Vision Vision tends to start here in the occipital lobe
+  and so there is this kind of like sense of like this chunk of the brain is for sensory
+  information and then this chunk is for like high level thoughts and abstraction
+  and motor cores and stuff like that and then this part down here is weird we don't
+  talk about it I don't talk about it CU that's more about like recognizing a cup
+  you know for more like like memory and sort of more like contentful thinking but
+  I don't know much about that but that's why I don't know about why but like the
+  motor cortex being here and the samat cortex being there the way that I can remember
+  that is because the samat cortex is closer to the visual cortex because that's like
+  the vision side of things which only helps if you know where the visual cortex is
+  but they are they sort of meet here um and I'm going to I'm going to continue the
+  story but just so you know from this juncture is there's also a path that says uh
+  that sort of bypasses the route that I'm about to tell you that things tend to go
+  so we started out saying hey I wish I had water that gets sort of trundle along
+  and gets converted into something like a motor plan in the motor cortex that says
+  oh hey there's there's water right there and I let's assume I don't care about the
+  fact that it's not mine I could reach out and grab that which would require taking
+  a couple steps moving my arm out and sort of grabbing the thing um not withstanding
+  the complexity of the fact that there was steps involved so that's sort of that's
+  a whole other conversation um and I think that's also where a lot of the the question
+  marks in the in the research live right now is like what happens when you have a
+  motor plan that needs to sort of evolve over time like I need to walk over there
+  and then do a behavior that's I think a do an area of Neuroscience that we really
+  don't know as much about um and that's where the specific tagline of this course
+  being about the neural control of human movement in the real world is where it starts
+  to touch parts of Neuroscience that we just we just don't really know much about
+  because if you think about the methods involved the vast vast vast majority of Neuroscience
+  research psych psychological research is done of people sitting in chairs doing
+  stuff on a tabletop doing single joint movements and our ability to measure the
+  neural activity of humans in general but animals specific like animals at all moving
+  around in a in a space while also recording the brain is uh we basically can't we
+  we can start to we have we have been starting to be able to do that over the past
+  like decade or so but still a lot of the theories that we have are based on Research
+  that does not involve the animals being able to like move through the world and
+  actually sort of have multi-step process dis so if you have questions about how
+  that works the answer is we largely don't know um but find some papers and you might
+  find people who are working on those questions so all of this is happening in the
+  cortex right the big lumpy pink thing on the top um and there's a bunch of other
+  stuff that we tend to call that sort of a lot of other parts of your central nervous
+  system that we lump together Under The Heading of subcortical regions um and personal
+  favorite is the cerebellum which is this sort of lumpy part down there um cerebellum
+  cerebellum little brain great um but and I'm going to talk about that in just a
+  second but there's another component that I want to at least mention honorable mentions
+  of a a particular piece that sort of lives in the middle we're doing a side view
+  all these parts are D are doubled um on either side and for some reason your left
+  side control the left side of your brain controls the right side of your body don't
+  ask me why just how we evolved um but there is this very important part called the
+  basil ganglia um and this is particularly interesting for those of y'all that are
+  interested in things like movement disorders um because it's a part that can go
+  wrong in various interesting ways um because the idea is that when you have this
+  when you have that high level thought of like I want to be I wish I was holding
+  this this box and I'm sitting here and I'm looking at the Box there's a lot of different
+  ways that my body could solve that problem I could grab it with my dominant hand
+  I could grab it with my non-dominant hand I could grab it with my dominant hand
+  in a weird way I could move over here and grab it with my dominant hand all of these
+  are options that would satisfy that highle volitional desire to be holding this
+  box in my hand and so with any kind of a network so we we often talk about the brain
+  in this kind of like serial processing kind of like computer analogy this is in
+  line with our general approach of just humans a general approach of always describing
+  the nervous system in the context of the most advanced piece of technology that
+  we have if you go back through history we tend to always do that um uh so anytime
+  you're talking about a network it the thinking is and again this is deep into the
+  cartoon version of stories that when I have the desire to pick up a certain object
+  or pick up a pen or whatever um the motor Network components that would generate
+  that action all get activated a little bit and they get activated to the point and
+  they're sort and then they they engage in a kind of like competition with each other
+  um motor plan competition I think is a term you could look up for that um and but
+  it wouldn't really work if every time I had a thought all the possible options to
+  make that thing happen were activated at the same time um so that's where the this
+  little Superior calculous guy his presumed cartoonized role is to suppress your
+  motor commands until they reach a certain threshold of activation and in this very
+  abstract sense the the best motor command wins out and then that one crosses the
+  threshold and then that's the the one that gets triggered and actually moves through
+  so in this case it's closest to my dominant hand I like using my dominant hand this
+  is a com a comfortable strategy this is a not comfortable strategy so this motor
+  command wins the fight between all the possible ways I could solve that problem
+  and that's the one that occurs um and there are and there's you can talk for days
+  about the details there the substantial Niagara and blah blah blah um but the point
+  I wanted to to to point out here is that there are at least two ways that that process
+  could go wrong um one process one way is that the the the gating like this the suppression
+  that the superior click list does can be too strong to the point where none of those
+  commands actually make it through the gate and I'm sitting here wanting to move
+  but I I can't actually initiate the action um and that way of things going wrong
+  is typically what happens in things like Parkinson's disease uh one of the Parkinson
+  is complicated but one of the family of symptoms is things like freezing um freezing
+  in Gate freezing in motor command and people sort of they they see what they want
+  to do and they can't initiate the action and that is thought to be related to the
+  superior calculus sort of gaing the problem too hard so none of the available motor
+  commands are able to sort of trip trip over the the the gate and actually make the
+  in things initialize um and there's interesting stuff there um another way that
+  that can go wrong is the thing I said before of like it would be bad if all the
+  motor commands happened all at once um and that's another thing that can happen
+  in um specifically in a disease called Huntington's disease which is a uh famously
+  um famously genetically predictable motor disease um it's like one of these things
+  like it's very heritable and if you have in it's like a 50 50 shot of inheriting
+  it from a given parent so if one of your parents has Huntington's disease you have
+  a 25% chance of having Huntington's disease and like we can just look at your genome
+  and be like oh yeah you got it or oh yeah you don't so it's a sort of socially horrible
+  thing and there's like I think there's like episodes of like house or things where
+  it's like like what are the ethics of of a having a kid if you know there's a 25%
+  they're going to have this degenerative disorder and B um what are the ethics of
+  checking if you have it you know and if you get some assay of tests it may happen
+  that the doctors just know the answer to whether or not you are going to have a
+  degenerative M of disorder later in your life and so you know all sorts of not so
+  fun conversations there um but people with Huntington disease exhibit Behavior where
+  they basically have like movements that they didn't really intend to initiate that
+  sort of make it over the hump um before they were able to be sort of stopped um
+  and that's where you get Strange Behaviors where like if you show if you hold um
+  like a cup with a handle in front of somebody who has things like Huntington's disease
+  they have a very hard time not reaching out and grabbing it um because they they
+  they see it they see the possibility of grabbing it and their Superior cus or whatever
+  span cartoons whatever is not able to suppress that behavior so they they just reach
+  out and grab things that they weren't intending to um so anyways there's a lot more
+  going on in there but I did want to mention that just because I know that there's
+  a general good chunk of ypre Ed so a good chunk of y'all are interested in movement
+  disorders and a lot of movement disorders tend to live in in and around that that
+  area um anyway so once those motor but once the motor Comm has been connected or
+  sort of chosen or selected or sort of made it over that hump that's where there's
+  there's a Cascade of activations that sort of happen from that point and generally
+  speaking that will then sort of leave the brain and sort of first well I don't know
+  about first but uh it will sort of get into the cerebellum and then into the brain
+  stem and then into the spinal cord um cerebellum very complicated thing very complex
+  thing uh roughly 3.5 as many 3.5 times as many neurons in your cerebellum as there
+  are in the rest of your central nervous system combined um they tend to be very
+  small very you know specific or not specific uh they're very small neurons um like
+  granular cells but also very large neurons called paramal cells I will look at pamal
+  cells because they're beautiful pyramidal cells neurons so you get these oh this
+  is the one I was looking for this is the kind of thing you win a the you win Nobel
+  prizes for pictures like that um back in you know 1800s um but these are the type
+  of neurons that you get this might actually be in your motor cortex but these like
+  highly highly uh synaptic like like massive synaptic for Forest where the output
+  of the neuron whether or not it's spiking is dependent on this massive Network of
+  connection to other parts of your body um or other parts of your nervous system
+  um versus more yeah anyways um your cerebellum is thought to be the area that sort
+  of handles things like motor coordination um and that's coordination that happens
+  at different levels like most of your nervous system there sort of an inside out
+  structure where the the inner parts of your cerebellum like the inner parts of your
+  brain is the most phenic ancient is the oldest part and as you sort of go outwards
+  you get more and more evolutionarily new stuff um until you get out to the the neocerebellum
+  which is the outer this it looks like a lump but it's kind of folded up and on itself
+  um and the neoc serums on the outside and that's the part that's thought to be associated
+  with things like tool use and the fact that I can pick up an object that's not a
+  part of my body and sort of like wave it around and then oh yeah now I sort of like
+  internalized some of the physics of this thing and that ability to internalize the
+  physics and sort of utilize external objects as if they were a part of my body is
+  thought to be related to the neocerebellum and there's some interesting studies
+  and fmri where they have people like playing with tools and stuff like that um and
+  I always get like stuck on these little side quests because there I just have to
+  tell the story because it's so interesting um not all animals can use tools obviously
+  um but they there's a concept in Neuroscience called your Perry personal space and
+  we tend to chop up the world into spots and you know out there that's like far away
+  stuff um in here this is like like this is my actual body part and then there's
+  the peripersonal space which is like close by areas like roughly speaking things
+  that I can reach with my sort of with my current body um and so anything that's
+  on this table is peripersonal space and if you take a monkey like a MAAC monkey
+  a non-human primate one of the fews that we study and you can get certain so you
+  can Le you can leion the brain in various ways and you get various types of blindness
+  um and it's possible to get a type with a particular damage in a particular area
+  um actually don't know that level um you can get a blindness in peripersonal space
+  so you basically there's just like you can't see things that are sort of within
+  a certain range of you and they there's a crazy study um where they they took a
+  MAA and they were able to give it like a reversible lesion so they it's like they
+  put uh chemical in that part of the brain so it just stops working for a little
+  while but then after a while it comes back and they trained the monkey to use a
+  grabber like a grabber thing to like reach out and grab things that are farther
+  away than their arms reach and after the monkey was trained in using the Grabber
+  arm and they did the cortical Legion the their peripersonal space extended to include
+  the regions that they could reach with the Grabber so there's just this strange
+  implication of like how we tend to view the world and how we tend to char carve
+  it up into like things that are me things that are not me and then things that I
+  can directly manipulate and for certain types of mammals um that that that question
+  of like what is what part of the world is my body and what part of the world can
+  I interact with my body includes things like tools it includes things that are not
+  necessarily part of the raw biology which is just gets into the philosophy of things
+  especially when we start extending the concept of tools away from things like Grabbers
+  and Hammers and you know sharp pointy rocks and into things like laptops and the
+  internet and large language models like these are all these things like we tend
+  to really prioritize like the meat wear um and do things like make you take tests
+  on pen and paper even though who gives a about what you can like recall under um
+  but there's a whole concept of like embodied cognition which sort of tries to extend
+  that notion that like we really are like ourselves plus our tool set plus you know
+  our community of people who can help us with things and that's anyways gets complicated
+  and philosophical very quickly um so yeah and then the lower parts of cerebellum
+  the older Parts handle things like motor coordination and so things like if I want
+  to so you have your flexion parts and you have your extension Parts your muscles
+  these ones like Flex the flexion tends to move you towards like the fetal position
+  extension tends to move you opposite of that and in order for a movement to be smooth
+  those things like the flexor extensor groups have to fire in a very tight temporal
+  Loop um and if you if they misfire then you get again kind of like Behavior kind
+  of like you know I hate doing like I hate simulating it because it sort of feels
+  weird but like you can imagine sort of like seeing people with movement disorders
+  they have this kind of like jerky movements um that can be it can come from a lot
+  of different places but it can be associated with basically like misfiring where
+  you're like if I'm extending my arm then my flexor of my then the tricep should
+  be um engaging and the bicep should be loose but if my biceps kept firing while
+  I'm trying to extend my arm then you get this kind of like jerkier behavior um and
+  that's coupled with like uh another type of disorder which can have which can lead
+  to sort of what they call like the drunkard's wobble like when you're like where
+  you sort of like it's more of a swim or type of thing where it's like this is where
+  like my my postural control system is firing but it's like slow so you get this
+  kind of like more of a soupy type of movement so those are all just different parts
+  of the Cascade of things that can go wrong in the motor system um cell taxia is
+  one of those terms you can look up anyway um so yeah that's cerebellum uh your your
+  brain stem is kind of hanging out here brain stem is honestly a part that I know
+  least about it's it's sort of a level below the cerebellum it sort of has to do
+  more with like um it's thought to be related to like like sensory integration um
+  but it's kind of like in my understanding of this space I kind of like lump it in
+  with like that that host of like very lowlevel Integrations between like that sort
+  of like um like flexor extensor groups and like timing and you know like integration
+  of sensory information where that sensory information mean like the forces that
+  are happening at your joints less than like the visual information um so you know
+  if you wanted to look up how the brain stem interacts with stuff then you could
+  do that but I don't have as much information there um a part that I do know more
+  about is the spinal cord uh which is we tend to think of in common parament like
+  I people like often times when we draw the nerve the central nervous system we draw
+  it like this and we cut off the spinal cord um this is this is wrong this is incorrect
+  your spinal cord is a part of your nervous of your central nervous system and it
+  does a lot of really interesting and important aspects of uh your your motor control
+  um your spinal cord spinal cord yeah there we go Wikipedia so your spinal cord doesn't
+  go all the way down your spinal column spinal columns the the bone part um it stops
+  around here so like right below your rib cage and then the rest is like um peripheral
+  nerves that sort of go in and out to the actual inating the muscles um it flips
+  inside out so your your your cortex has the the gray matter which is all the bodies
+  of the neurons on the outside and all the the wires and the white matter which is
+  like the gal cell wrapped things on the inside spinal cord flips that around so
+  all the the goopy wiring stuff is on the outside side and this is sort of the this
+  blue stuff here is the same gray matter that's on the outside of your cortex um
+  and the kinds of I never have enough time to talk uh the uh like your your spine
+  is that we're now getting down to like the very the very bottom of that motor hierarchy
+  uh and the the kinds of controls you get at the spinal level are still definitely
+  in the space of what we would call like processing um but they are there's there's
+  very little abstraction if anything down there so that's where your spinal cord
+  handles things like your reflexes um so like if you ever go to the doctor and they
+  hit you on the knee and then it kicks your you hit you on the knee the tendon and
+  it kicks your knee out um that they're testing your spinal reflexes and one of the
+  most lowlevel ones is the monosynaptic stretch reflex which is if this muscle is
+  stretched uh there is a refle there is a reflex that makes it contract it's sort
+  of a protective thing so when you hit the tendon it stretches the muscle and then
+  that goes up to the spine and the The Reflex there is if that muscle uh stretched
+  then contract it and that's why you you kick out um however it's not as simple as
+  just a sort of there's a reflex that's there and it's always there because if that
+  reflex was always active then you wouldn't be able to do things like move your leg
+  because every time you moved it it would stretch and then that would make it contract
+  so your spine handles what's called like reflex gating um and where in order to
+  engage a given motor plan the reflexes have to be configured in a certain way um
+  and the most sort of famous and my personal favorite example of that is in the context
+  of the locomoter gate cycle where when you're walking you're sort of going back
+  and forth between each leg is sort of going back forth between stance phase where
+  in stance phase you're weight you're holding the entire weight of your body on on
+  a very stiff leg if you're running or something like that when you impact the ground
+  you're impacting it with like 1.4 or more times your body weight so your leg has
+  to be very stiff in that moment when it hit the ground someone I think asking about
+  like like if you step off of a stair and you think there's going to be another stair
+  there or there's one more one fewer stairs than than you expect you have that kind
+  of like very unpleasant moment where the limb Was preparing for the ground that
+  was not at the right level um so sorry so when you're stepping back and forth your
+  legs are going back and forth between stance phase where all of your your reflexes
+  are sort of cranked down to let your leg be very stiff and support your whole way
+  to your body and then swing phase where they're all kind of turned off basically
+  to let your leg be much more floppy and loose so it can swing through and basically
+  utilize its own momentum and to allow it to sort of move forward um without having
+  to like burn a bunch of muscles burn a bunch of energy like moving it directly and
+  so that transition from like stance to swing phase which happens roughly every 450
+  milliseconds roughly a million times per year for a healthy undergraduate human
+  um that transition is happening at the level of the spine and that the specifically
+  the timing of transitioning from one to the other is handled by things called Central
+  pattern generators which is where a lot of the basic rhythmicity of motor motor
+  control comes from most of your motor system is rhythmic in nature so you're walking
+  you're chewing you're scratching you're doing things that are kind of like have
+  a rhythmic a rhythmic aspect to it um and that's kind of handled by these sort of
+  central pattern generators but then where the hierarchy kind of comes in the sort
+  of motor hierarchy tends to come in in order for the for movements to be graceful
+  and coordinated and smooth they have to be appropriate for the world as it lays
+  out so if I'm stepping up onto a a a step or stepping down at something or from
+  you know interacting with the world um there is a supervenience that happens where
+  the those high level volitions those high level desires attached coupled with like
+  visual information sort of like sensory information both out in the world um gets
+  translated into basically a set of instructions for how we should lay out the the
+  reflexes and sort of you know how like like what the timing and the strength and
+  the gains of all these reflexes should be in order to generate movements that are
+  appropriate for the world that's around you so the idea is like that down here at
+  the lowest level of the nervous system um these very very lowlevel things are happening
+  on the basis of instruction sets that come from the top down but then if you but
+  then also like the signals from the world also go in the other direction so there's
+  this kind of like it's a it's a communication that's a two-way communication but
+  it's not symmetric so it's sort of that's where the the concept of the hierarchy
+  comes in um because the top tends it tends to be the top tends to tell the the top
+  the high level stuff tends to tell a lowl stuff what to do but if the lowle stuff
+  says oh wait no I actually hit something then if you're nervous the high level stuff
+  will sort of take that into account and handle things appropriately um never never
+  have time um I am just going to briefly mention so the the little story we've been
+  telling now about hierarchy and things like that is a sort of the general again
+  cartoonized version of the motor hierarchy and it tends to be um played out this
+  tends to be how like mamalian nervous systems at least tend to be organized um I
+  sort of skipped a aspect here of like muscle synergies of sort of like you know
+  like my arm all the muscles in my arm are handled kind of like in conjunction with
+  each other so I'm not doing things like controlling each muscle individually I'm
+  not controlling each degree of Freedom individually um they're handle more at this
+  what's called like a synergistic level and for most mammals that's what you get
+  you get this kind of like the front the high level stuff sort of activates these
+  like motor planes which activate these motor hierarchies and that's about where
+  things tend to end however uh for a small subset of animals specifically tool using
+  mammals um but I again I'm not sure like things like corvids and stuff play into
+  this but we have like a freaky special other tract called the corticospinal tract
+  where we have parts of the nervous system like that bypass all of this other stuff
+  and kind of go down and directly innervate the spine so cortico spinal tract so
+  cortex to spine and and again I think that's that's an area where like by basically
+  by saying what I just said I'm I'm roughly exhausting my knowledge on the topic
+  uh I think it's an area of very active research in terms of like which animals have
+  a cortical spinal tract which mean which ones and which ones don't like I think
+  it's with Biology it's never a case of like yes or no it's Al always a matter of
+  degree but it is one of it's again one of those places that is thought to be related
+  to our ability to be like magnificent adaptation engines where we can control our
+  body and basically an arbitrary level of ways and sort of this very high level of
+  precision and um find control is thought to be related to in addition to things
+  like the neocortex which is handling this sort of like tool using stuff also the
+  cortical spinal tract which is sort of giving like I think about things like learning
+  like gymnastics and stuff like that where you're you're doing something and then
+  someone says oh no no not like that like that like your your like your your H your
+  heel is off by an inch and a half in this direction change the motor plan on the
+  basis of like words that I'm saying to you and I think like when I like philosophically
+  poetically think about the nervous system I think that it's that type of control
+  that's being sort of implicated by in things like the cortical spinal track and
+  stuff like that um CU I just think that like you know comparing human movement to
+  other types of animal movement like one of the main questions of like what makes
+  us different is related to our infinite adaptability relative to most other animals
+  it's you know we'll talk a bit about that in the evolution phase of life um and
+  that goes out to your limbs and does muscle stuff uh okay I that's about as quick
+  as I can ever make anything I guess so anyways that's roughly speaking your nervous
+  system at least the motor control parts of it um and I yeah obviously covered a
+  lot of ground said a lot of things um and so for the rest of the class I guess I'll
+  just let youall be like locally clumped at this point I I I might just have to have
+  a whole classroom I don't know because it's like there's so much I want to say to
+  you but I also want to give you time to explore on your own so we'll we'll figure
+  that out um probably not time for code stuff this time around so um I will say let's
+  do roughly like we did last time where we pop into a channel in the lectures area
+  called 2024 10 15 uh motor hierarchy I don't know if I spelled hierarchy correctly
+  but um this there you go doop perfect no questions um yeah and uh just kind of do
+  what we did last time so so pop open some some chats and just ask it some questions
+  and what I'll specifically ask you to do this time which I haven't done in the past
+  is rather so follow your heart so if you wanted to ask sort of more of this kind
+  of like highlevel like like give me the textbook version of the story go ahead and
+  do that if you want to dive deeper into like the nittier grittier side of things
+  where the the cartoons break down um ask the bot for keywords that you can punch
+  punch into things like PubMed or Google Scholar and look for papers on the topic
+  um that it's questioned for uh don't ask it for specific papers it will either give
+  you papers that are old um or it will give you papers that don't exist uh SL chat
+  um and uh so ask it for keywords and then go search for those those uh those papers
+  you can ask for things like review articles but just ask it for keywords that you
+  can search for and then when you find the paper copy the entire abstract and paste
+  the abstract into the chat and then ask it to explain that to you um because obviously
+  you could read the abstract and figure it out for yourself but abstracts are necessarily
+  and intentionally extremely dense linguistic blobs so there's pretty much no abstract
+  on the planet that you couldn't spend several lifetimes trying to parse out all
+  of the details and all the words and all the unfamiliar phrases um and let's do
+  that for Jesus Christ 13 minutes and uh yeah I'll say so I that's not much to get
+  into so just I'm not going to make it an official assignment but like continue this
+  conversation with the bot throughout the day and throughout the week just just like
+  every so often just pop over in the chat and just ask it a question um you know
+  I'm not going to necessarily make that assignment I'll make assignments later but
+  like you know anytime you have a thought just pull it out and ask it the question
+  um because I will be doing the scrape and pull stuff throughout the week and then
+  you know I'll do it again before next week so if you want to have some ability to
+  steer what that content is ask it questions about the things that you care about
+metadata:
+  author: Jon Matthis
+  channel_id: UCOOQxlTCtUz9mr1NPWlJyYQ
+  description: https://github.com/HumanMovementNeuroscience/HMN24-course\n\n#AI  generated
+    summary - \n\nThe lecture introduces the concept of the motor hierarchy in neuroscience,
+    focusing on the neural control of human movement. It discusses the structure from
+    the cortex to subcortical systems, spinal cord, and muscles, emphasizing the role
+    of the frontal lobe, motor cortex, cerebellum, and basal ganglia. The instructor
+    highlights the importance of understanding motor plan competition and its implications
+    for movement disorders like Parkinson's and Huntington's diseases. The cerebellum's
+    role in motor coordination and tool use is explained, along with the spinal cord's
+    function in reflexes and central pattern generators. The lecture encourages students
+    to explore these topics further using AI tools and research papers.
+  duration: '4848'
+  like_count: ''
+  publish_date: '2024-10-29T06:49:00-07:00'
+  tags: ''
+  title: HMN24 - 04 - Intro to the Neuro Motor Hierarchy
+  view_count: '36'
+transcript_chunks:
+- dur: 180.0
+  end: 180.0
+  start: 0.0
+  text: okay hello everybody um so today we're going to talk about actual proper kind
+    of sort of Neuroscience for arguably the first time which is always an exciting
+    Point especially halfway through the semester um also in line with tradition uh
+    I realized when I got in here that I had taken a bunch of notes and written a
+    bunch of stuff up but then forgot to push it up so we don't have the most upto-date
+    stuff here but that's fine um basically sort of this is the point of the semester
+    where the Divergence from the plan becomes more noticeable uh so we are here roughly
+    um and we did some of this stuff but not all of it we haven't talked about eyeballs
+    yet but we'll start talking about vision and stuff probably next time um and uh
+    yeah and and then the evolution stuff I'll probably combine together and we'll
+    get to it the sort of soft goal is at some point before the end of the semester
+    to get to a point where I'm talking about my actual proper human scientist research
+    uh which has a lot of different sort of background aspects because it's visual
+    control of locomotion over rough terrain so it's sort of all these things kind
+    of like mush together um and then have enough time to do some additional topic
+    stuff towards the end uh and I think we'll get there so um the so yeah so so catching
+    up with where we currently are um we've done I guess so while I'm talking uh in
+    the server at the top under this resources ch Channel um the same place we talked
+    about last time so this thread called server scrape checkpoints click into that
+    um I did figure out what was wrong with the last one it was a stupid windows thing
+    so Windows has this thing where at some point in its history they decided that
+    280 characters is as is as long as a file path ever needs to be or in fact should
+    be so it throws an error if your path links get too long which you can change
+    that setting and say that's we don't need to do that anymore but this ZIP file
+    had long file name so that's what the error was is like these pads are too long
+    um so this 7z is a different form of zip that doesn't have that error so if you
+    want to see where things were last week this one is the one that's up to date
+    to that one this one uh was from this morning um and so if you download this unzip
+    it it will still throw two errors um saying the p pkl and Json files are unhappy
+    but just
+- dur: 180.0
+  end: 360.0
+  start: 180.0
+  text: skip those and unpack the rest of it and try to open it up in obsidian and
+    hopefully by the time you get to that point I will have gotten to that point in
+    my conversation so give that a shot see how far you get um so the yeah so a lot
+    of the stuff we've been doing up until now has been on the kind of like data and
+    computational side of things so the the topic of the course is neural control
+    of real world human movement and uh we're going to talk and so and so we've been
+    focusing more up to this point on like basic methods and sort of like the kinds
+    of data that you can collect and sort of the measurements that you can take and
+    a little bit into the sort of more um I'll say like high theory side of things
+    um so all the talk about full body Center of mass and sort of those like base
+    level physics and sort of hyper simplified models of the body and sort of it moves
+    around the world is all kind all of those things are kind of um about the study
+    of it's more about the study of the neural control of real world human movement
+    on the it basically focusing on the um like the kinds of measurements you can
+    take like the the empirical investigation sort of like conversations there to
+    pertaining um and we're going to go back into that methods Z stuff when we talk
+    about Vision when sort of bring out the ey tracker and do sort of more data looking
+    um but today I want to give more of a sort of focusing more on like the the landscape
+    of um neur what we think about neural control and what we think about motor control
+    this is something that I have I found myself when I was sort of going around in
+    the conversations at the end at the last parts of previous classes something I
+    sort of found myself referring back to a lot so it's not directly on the presume
+    syllabus um but I want to talk today about uh the concept of the motor hierarchy
+    as it pertains to the neural control of movement because it's one of those things
+    where it's like it's a very fundamental aspect of our the our neural motor systems
+    that it is arranged in this sort of hierarchical way um with the cortex and sort
+    of the lumpy pink thing on top at the top of the hierarchy and then going down
+    to the various sort of subcortical systems and spinal cord and muscles and sort
+    of at the bottom of that hierarchy would be what you might consider like the base
+    level physics of the world um and so we're going to talk about that uh but we're
+    not going to do particularly deep dives into any aspect of it um because I want
+    to give enough time for us to do more of the kind of splitting off into groups
+    and doing our own Explorations this time we're going to we're going to do a little
+    bit more clumping by presumed topic as we chop up
+- dur: 180.0
+  end: 540.0
+  start: 360.0
+  text: the room into sort of like which part of this hierarchy do we want to talk
+    about today and then the idea is to sort of try to use your Collective efforts
+    to flesh out parts of the brief overview brief fast dense overview that I'm going
+    to give in a second here so um we'll get to that in a second so um yeah uh so
+    this kind of exploration of like you know y'all doing some of the work of helping
+    to flesh out the landscape we've been playing with it a little bit with sort of
+    talking to the bot and sort of asking it questions about your own presumed interests
+    and um and as the semester has progressed I've made more progress into basically
+    updating the code that I have been using to scrape those conversations out of
+    the server and then put them into the a not not the bot but just another sort
+    of like configuration of AI stuff um and basically asking a different llm configuration
+    to pull out the topics that y'all have been asking about in order to get sort
+    of a landscape of the topics that you have been interested in uh so in order to
+    look at that uh yeah so on the assumption that you have downloaded the zip file
+    uh and extracted it if you're on a Mac it'll look a little bit different but at
+    this point in your life I assume you know how to unzip things if you don't ask
+    a neighbor if your neighbor doesn't know just chill out and ask me later um but
+    so you want to download it extract it and and this always gets creaky when I come
+    on yeah and then extract it so it's just like a regular old folder in here uh
+    just anywhere on your computer and then uh you should have at some point downloaded
+    obsidian um obsidian MD just search for it it's a free software and when you so
+    uh get it download it double click it it will look a little bit different the
+    first time you open it but uh so weird did I do that on this computer yet I can't
+    remember um and what you'll want to do is so for me it's down here again if you're
+    on a Mac it might look a little different but uh you're going to want to
+- dur: 180.0
+  end: 720.0
+  start: 540.0
+  text: find something that's that looks something like manage vaults or open vault
+    or I think if you do like probably control o it might give you a screen that looks
+    something like this um and the option that you want is called open folder as Vault
+    uh obsid just calls folders vaults for whatever reason um so open that and navigate
+    to the folder that you just extracted uh there's a bunch of like unnecessary subfolders
+    in that zip file which I figured out this morning um it doesn't matter which one
+    you pick uh but just to make it a little bit cleaner I'm going to click in through
+    top level into AI processed um This Server scrapes is just the raw data so it's
+    effectively the the MD markdown file that's that's attached to the top of each
+    chat this is basically a folder full of those things with the F with sort of laid
+    out in a similar structure to the server so I'm just going to click through that
+    into AI processed and then this is the stuff for the not necessar way too many
+    stuff in there uh so I'm in here and uh you will notice that these folder names
+    correspond to the same categories that we have in the actual server and then if
+    you click into that these will correspond to the names of the so that's in topics
+    vision and then it's got the same names as all the the channels and then where'd
+    it go oh I'm getting distracted as I often do okay so in here I'm GNA select this
+    folder let obsidian open it up it's white for some reason I don't know why it
+    decided to be light mode for me but that's fine enough for now and so there's
+    a lot of stuff in here and basically if you click through this every so in now
+    in addition to the the raw conversation which is attached to the bottom and you
+    got links here if you click on the link it'll take you to that message in the
+    server probably on the browser version of the server and then up here is sort
+    of an extracted summary of the topics covered in this conversation which was presumably
+    about it tracking and VR whoever it was that had that conversation um and there's
+    a lot of like art to how to figure out like sort of the right way to tell and
+    LM to chew on a Big Blob of text in order to pull out topics um but in this particular
+    case I was mostly focused on just
+- dur: 180.0
+  end: 900.0
+  start: 720.0
+  text: getting raw topics covered um so I gave it this structure of like you know
+    pull out a title a extremely short summary highlights a very short summary a short
+    summary and a detailed summary sort of like different levels of abstraction um
+    you know to sort of make that do its thing and then importantly uh I also added
+    pull out tags so these tags are just sort of hashtag uh this is called Kebab case
+    because it's a dash it's lowercase numbers with little strings between them or
+    uh hyphens between them and what the tags allow us to do is click on this little
+    graph view thing over here and that gives us this fun thing here um so these dots
+    are all of the so each one of these dots corresponds to one of the chats that
+    was had and if we go over to filters and turn on tags these are all the tags that
+    were covered um and so there's a couple thing to to note here first of all this
+    is fun I love this type of thing uh and I think I can you could there's a lot
+    of options for the display I don't know why it's in light mode but that's fine
+    um let the text be a little there let the nodes be a little smaller ones be a
+    little less thick um and so you can sort of navigate around in here the green
+    ones are the tags and the black ones are the notes um this is the kind of thing
+    like I don't want to belabor this particular Point too deeply and sort of get
+    too hard into the the technical aspects of like how to use this type of stuff
+    obsidian is nice because there's a lot of tutorials and stuff so if you're curious
+    about how to take notes like this and sort of have your general notes that you're
+    taking in your life have this sort of like nice internalized structure um just
+    hop on YouTube and search for obsidian and you'll find lots of good stuff there
+    um but the basic idea is so there's like certain tags so like biomechanics can
+    I do it doesn't really help much but that's okay um so we've been doing so this
+    is the biome mechanics tag so we've been doing a lot of talking about the biomechanics
+    of the situation so unsurprisingly um that tag is present in a lot of your conversations
+    and so if I click on that it will show me all of the tags that have been discussed
+    and so you can look up uh let's say impact of knee injuries on biomechanics and
+    so I click on there and this is a conversation that one of Y all had about about
+    knee injuries and
+- dur: 180.0
+  end: 1080.0
+  start: 900.0
+  text: biomechanics and this is what was discussed in there and you can click on
+    this and it will I take gu tap to the server version or the online browser version
+    has to load up uh yeah so this was Grace if you're in here um where'd you go yeah
+    wait is that the right one wait no it's a different thing yeah um yeah so biomechanic
+    is very well connected uh straight Neuroscience is obviously well connected uh
+    neural control is well connected um there's also come some like uh like orphans
+    out here that are not connected so mathematical ambiguity and interpretations
+    sometimes these are caused by like just like a conversation that's like super
+    short so it's not there's not much content there but AI has like people pleaser
+    energy so if you tell it to summarize something that only has like someone saying
+    hello and then nothing else it will still try to come up with the full summary
+    even though that's not valid to do um and in this particular case someone was
+    asking yeah mathematics or of operations something that that oh actually no remember
+    how I told you that I was not going to scrape the playground Channel um I lied
+    it is in here because it's easier to not it's easier to just not ignore it so
+    there are occasionally some of these that are like it's doing its best to pull
+    a reasonable summary out of a conversation that is intentionally misleading um
+    so uh okay and so I'm going to leave that roughly there um feel free to I guess
+    another thing to say is you'll notice too that a lot of these tags are like not
+    they're like they're orphan tax right these this is being included only in one
+    conversation this thing sods is something that would probably be it'll probably
+    be connected more once we finish talking about eye movements um but some of these
+    two like trust right that the trust doesn't need to be a tag in this class and
+    so that's something the way that I wrote The Prompt or I didn't do any cleanup
+    after the fact it just pulled stuff that really shouldn't be there um brain computer
+    interfaces probably should be in there um seeds in body someone was talking about
+    eating plants I remember that that was a yeah um like there's some things here
+    where you can kind of tell that like the way that it is extracted the information
+    makes it more actually didn't do a terrible job this time but yeah so Consciousness
+- dur: 180.0
+  end: 1260.0
+  start: 1080.0
+  text: variations like that should that tag should really be Consciousness and then
+    anyone else who talked about that which I know there's at least a couple of you
+    would get matched in there um you know so this is the case where like the way
+    that the bot extracted the tags if that was done more sort of skillfully or carefully
+    it would be a more connected um system of topics and content um so some of that
+    is about having like more conversations to get more connection some it's about
+    like making the prompt a little better and then anytime you're doing anything
+    with AI and language generation there's always needs to be kind of like a human
+    cleanup step so you know I could go through and clean this up I could ask you
+    to clean it up um and maybe we'll do that uh we're going to be using musicin money
+    what are you talking about uh yeah so figuring out how to like EXP this stuff
+    like y'all can jump in there and look at what your classmates have been talking
+    about um we're going to be doing in the latter part of the class sort of a little
+    bit more toward in the direction of um y'all producing more like curated Blobs
+    of text that are sort of designed to help pull together some of these disparate
+    disconnected things um and I will be continuing over the course of the semester
+    to sort of increase the sophistication of this extract action um and the idea
+    is to sort of find a way to let all of you kind of like have the ways that you
+    have been exploring this topic and the space um cohere into a sort of a a navigable
+    landscape of this sort of comedically vast topic um yeah so yeah and then I I
+    told it I tried to get it not to do this I told it like don't use names but this
+    one's like this topic is about Caroline's interest in human anatomy and surgery
+    it's like that should not that's the bad that's a bad title there but uh it's
+    not Carolyn's fault that's just the way like being more careful with the prompting
+    to like make sure that it doesn't do that stuff and keeping the style consistent
+    because um I also just to make it run fast and cheap I this one was was processed
+    by GPT 3.5 um who is dumber than G 3.4 or GPT 4 and the latter ones um but it
+    is also like very very very fast and like effectively free at this point so with
+    this thing we're we're processing high enough volume of text that the cost becomes
+    noticeable if you use the the bigger stuff and if if you use the the bigger models
+    it would take you know half an hour to an hour or more to process all these things
+    where it's with 3.5 it's effectively free and processes in like 30 seconds as
+    opposed to like 30 minutes so um and for stuff like
+- dur: 180.0
+  end: 1440.0
+  start: 1260.0
+  text: extracting summaries it's sort of smart enough for that that's what language
+    natural language processing has been doing that for like 20 years um but you do
+    kind of get like some Dum dumb Behavior where it's like that's not even the right
+    capitalization there okay cool so um yeah so makees sense uh great if it doesn't
+    make sense also fine um if you have technical issues getting it running and sort
+    of getting the point where you can look at it we'll handle that in a little bit
+    here um but yeah there's no real obligations for you with this side of class right
+    now this is more of a I am giving you updates on my homework and this is where
+    we're at with it because real work is typically speaking iterative in nature um
+    okay so uh so this is the place where if I had successfully pushed my notes to
+    the to GitHub I'm that would be looking at them right now um but they weren't
+    particularly extensive anyway um so I'll take this as an opportunity to like show
+    a little bit about how bot work um so with something like you know like I'm giving
+    an undergraduate lecture on the motor hierarchy the neural motor hierarchy in
+    your nervous system that is such a well-trod topic that's like sort of intro level
+    to any any class that talks about motor Neuroscience is going to talk about the
+    motor hierarchy so if I ask the bot to say give me a lecture outline for the motor
+    uh motor hierarchy hierarchy um it'll give me something good especially because
+    it already has the syllabus of the class kind of baked into it with that sort
+    of the top level prompt um I have this other sort of yeah see perfect um uh I
+    had this other sort of Channel over here where I just I use AI for my own purposes
+    um which you can make your own as well if you want but we'll talk about that later
+    or maybe not um and so in that server uh if I wanted to because it isn't prompted
+    in the same way that this class is if I gave it that simple of a of a Preamble
+    it wouldn't do
+- dur: 180.0
+  end: 1620.0
+  start: 1440.0
+  text: as good of a job um but because this one is already in the context of like
+    having the syllabus of the server the class already baked into itself um it does
+    a decent job um oh uh give me the order from highest to lowest uh because it did
+    that the other way um great um so so there you go now you have everything you
+    need to know about the motor hierarchy not really um this kind of a thing and
+    uh uh give me an additional outline about the corticos spinal corticospinal tract
+    um yeah so that's another sort of area I wonder if it didn't mention that in the
+    original yeah it did mention it briefly but that's this is another kind of thing
+    so like when you're when you're navigating this kind of like AI mediated language
+    space there's often kind of a a balance you want to you want to strike between
+    like what I think of is like top down versus bottom up types of in investigations
+    so where a bottomup approach is kind of like giving it a very loose instruction
+    set and just saying just seeing what it pops out at you so like tell me about
+    neuroscience and it'll like give you a broad scoped thing um versus more of a
+    top down approach which is where you as the human uh give it more structure and
+    you say no give me more specifically this this type of thing um and it you get
+    different responses that way and they're both they both can be quite useful so
+    the analogy and this is a sort of recurring theme when working with AI is often
+    times the the strategies that work well with AI are also kind of like sort of
+    Funhouse versions of things that just generally work when you're talking to humans
+    um if for no other reasons then it was trained on human data um so like in this
+    course when we started you know I said hey go have an introductory talk ask the
+    bot about whatever you want um that's a very bottomup approach so I'm just saying
+    hey room full of people ask this thing a bunch of questions just based on whatever
+    you are interested in talking about and so when I do that and so a lot of the
+    early part of this class sort of had that structure um the ones that are kind
+    of driven by uh lectures a little more structured but a lot of the conversations
+    so far have been very bottom up and this um meaning that I am not imposing a structure
+    from the top down and so the like the topics that are covered and that sort of
+    graph that was shown is sort of a result of kind of that bottom up type of approach
+    um if I
+- dur: 180.0
+  end: 1800.0
+  start: 1620.0
+  text: were to and so like I guess in contrast if we think about like the kind of
+    conversations that happened in this channel where this was the one that happened
+    after the uh the center of mass basis support lecture last time this is and I
+    said hey now ask the now ask the bot questions have conversations about this lecture
+    that's that's sort of it's more structured um but it's still fairly open um which
+    and then that would be contrasted with like saying you know write a class write
+    a paper about this topic so when you're working with AI and you're trying to sort
+    of steer it and you're trying to you make it generate something that you feel
+    like has some relationship to like your internal State like something that you
+    are trying to bring out into the world um it's often very beneficial to sort of
+    swap back and forth between these two modes of thinking so at saying hey give
+    me an outline of this topic without a bunch of structure to it and then taking
+    that structure that it gives you cleaning it up altering it editing it um and
+    then giving it back and say hey give me some more give me some information about
+    this outline flesh out this outline um and often times it's not even worth doing
+    that first step if you already know what you're interested in just ask it specific
+    questions and you'll get specific answers so it's sort of a there's just like
+    different modes of using this thing and I thing I've mentioned a lot is sort of
+    like I think one of the best things that these AIS are really good for is helping
+    you flesh out your unknown unknowns like you know you have an interest in a topic
+    but you don't even know enough to know the parts that you have questions about
+    so just ask it generally tell me more about this and it'll give you a bunch of
+    stuff and then you'll say I didn't even know what these words are and then ask
+    about those words and you kind of navigate it that way um but you also want to
+    be able to like drive the conversation a bit um anyway so I mostly asked to give
+    me this just to have a uh a cheat sheet of the actual Parts I wanted to talk about
+    I always have to do this right okay so do it like that can I do this I guess I
+    can do that like that this is the part where I get mad at Discord for poor use
+    of space
+- dur: 180.0
+  end: 1980.0
+  start: 1800.0
+  text: okay so um the motor hierarchy broadly speaking uh corresponds to the basically
+    the the organization of responsibilities that within your motor cortex your motor
+    sorry not your motor system um from the high level abstract sort of thoughts of
+    things like I'm thirsty I wish I had water uh I'm hungry I want to eat um very
+    abstract thoughts down to the level of like I am trying to put Force into the
+    world so that I can move my body in the direction of water in the direction of
+    food um and the ways that we kind of like the way that like like the needs of
+    like in order to complete a given task you have to have a combination of those
+    different levels because if you're only thinking about the motor system as like
+    a thing that's attached to your muscles that that puts forces into the world in
+    order to like pick up objects and push on the ground and do things like that um
+    you're never actually going to get like coordinated Behavior as you're moving
+    in the direction of goals and stuff like that at the same time if you're only
+    thinking about stuff in the context of like high order volitional desires of you
+    know I prefer Fruit to to wheat um like I'm I get thirsty when I talk a lot or
+    something like that um then you're not going to have the kind of like goal- driven
+    behaviors that actually make uh coordinated movement actually like meaningful
+    and produce actual results um so I want to can I zoom in here yeah sure so again
+    and I I think I did a picture kind of like this at the beginning but I'm just
+    going to try to give you more of like an atlas of these parts and how they connect
+    to each other and then work together on like fleshing out the details and specifically
+    today I want you guys to start use like looking at papers and looking up papers
+    on these topics and then using the bot to help you like chew on some of the the
+    deeper stuff there so again moving away from like asking the raw AI to tell you
+    sort of textbook level stories about you know highle stuff basically like if Wikipedia
+    could talk and start using it more as like a tool that you can use to navigate
+    Waters that are deeper than you can navigate on your own uh so let's start with
+    the brain so first thing you got to do is draw a brain do it roughly like that
+    it's a brain um specifically that's a mamalian brain malean
+- dur: 180.0
+  end: 2160.0
+  start: 1980.0
+  text: brain yeah so this is not a brain someone asked an AI to draw a brain for
+    them that's not what a brain looks like this is an inside of a brain um yeah where
+    are the pictures I'm looking for they roughly similar but the main the main part
+    that I try to draw when I'm just doing that sketch is this part right here is
+    the that lumpy part going down that's your temporal lobe by your temple um and
+    then the rest is kind of squiggly it's I mentioned this before but like you eventually
+    start to learn that like all these little like squishes and folds and stuff like
+    that they all have names um and they're not random and you can kind of start to
+    when you see brains in popular media if it was based off of an actual brain or
+    if it's just someone who just like it's just a bunch of squishy red stuff oh yeah
+    this is the picture I was looking for so it's all a little bit different they're
+    all rough they're not shaped all the same but they all have this see this is not
+    a real brain they're missing some important parts which is not great for a actual
+    part there but that's fine um and this is a this is a object of pure horror so
+    so your so there you go you got the your this is your temporal lobe and then this
+    stuff up here is the front uh give yourself some eyeballs and that sort of goes
+    in um that's forward uh which is actually well it's fine for English speakers
+    we tend to put things point the other way but that's okay uh I always I always
+    I don't know I was raised speaking Arabic so I learn sometimes right to left comes
+    more naturally and I was like I don't know if that's actually normal um or if
+    that's just I don't know who cares um so don't put that one up let's put something
+    like this one let's give us a proper actual brain please oh yeah there we go so
+    this frontal lobe here um is all mammals have it I don't want we're really going
+    to talk about Mamon brains here because I don't know how any of the rest of them
+    work um birds in particular I'm very curious about but they can be very intelligent
+    with very strange with very different nervous systems and I don't know much about
+    that um but but the the frontal lobe is sort of like the
+- dur: 180.0
+  end: 2340.0
+  start: 2160.0
+  text: traditionally most human part there's a lot of parts of our brain that are
+    quite different from other animals um it's often just in terms of like the raw
+    volume um but particularly when you start going into like you know the the our
+    Dumber mammal friends like your cats and your your your rats and whatnot the biggest
+    differences tend to be a lack of that very pronounced bulbous frontal lobe and
+    where is that stupid thing oh there it is um and so this part here is also roughly
+    speaking generally speaking the very top of the motor hierarchy is that frontal
+    lobe executive function um and yeah and so typically speaking and anytime someone's
+    giving you any kind of specific words about how the brain works please understand
+    it is a cartoon version of reality and reality is always weirder more abstract
+    and less understood than anything anyone could ever say while standing in a space
+    talking to you in a room um but generally speaking it is thought that like that
+    is where your sort of your volitional control comes from volition is like roote
+    of voluntary it's like the voluntary aspects of things like I want to pick up
+    this box and so I will pick up this box that that initial desire is the volitional
+    aspect of things and that is sort of you know cartoon wise thought to sort of
+    originate here in the prefrontal cortex you know frontal prefrontal cortex um
+    and the yeah so that's where those sort of like the most abstract form of your
+    motor desires originate in that sort of frontal lobe area um this is where the
+    the the description of the content of the neural activity or the patterns of neural
+    activity that we call motor control there um is abstract to the point of not even
+    really referencing the body like it's sort of like I I wish I had water um I wish
+    I had food or something like that um and yeah and so that again cartoon wise is
+    sort of passed back through like yeah frontal prefrontal premotor motor um and
+    then this part here sort of like on either side of your head is the part we traditionally
+    call the primary motor cortex which will look something
+- dur: 180.0
+  end: 2520.0
+  start: 2340.0
+  text: like this is the part that tends not get drawn yeah there we go that's what
+    I was for before um again cartoon versions of reality has not it's not based on
+    nothing there's a reason why we draw this cartoon and not some other cartoon um
+    but nothing is this clean um and the basic trajectory is that the those original
+    highle volitional aspects of control are sort of they get passed through different
+    sub regions of that of that brain um you're this part is sort of roughly your
+    premotor cortex which sort of starts to get more specific and then by the time
+    you get to the motor cortex that's where things are thought to start having a
+    resemblance to your body so you have this is again another this is the kind of
+    picture that you will see in a lot of textbooks about Neuroscience you may have
+    seen it before um it's also the kind of thing that you will never see in a talk
+    about motor cortex this is the kind of thing where this picture of so this is
+    sort of the idea that like you know different parts of your brain handle the movement
+    of different parts of your body and so you get this very over representation of
+    things like your hands which has a lot of motor control associated with it and
+    much less representation of things like your hip and leg which are sort of more
+    simplified um and then you know over representation of things like the face because
+    we do things like talking and so the idea is that the you know again this the
+    cartoon version of the story is that the highlevel desires to like you know grab
+    a cup of water something like that gets passed through to the lower from the high
+    level at the frontal loes and then passed through to the sort of more specific
+    areas of the motor cortex and then translated into sort of a more body mapped
+    um description of like how to move from one place to the other um and that is
+    there's this horrible little man uh sensory motor homunculus that sometimes gets
+    drawn as the this is what you look like on the inside this is your your your body
+    map of yourself this is basically your body well not necessarily yours but um
+    mapped to the sort of the uh the cortical magnification of the different parts
+    of your movement this is uh clearly the sensory uh homunculus if you can't figure
+    out why that's a lesson to the reader um but the the idea is that if you were
+    to map out your like motor
+- dur: 180.0
+  end: 2700.0
+  start: 2520.0
+  text: awareness and your sensory specificity um this is kind of what you would look
+    like um however this is also the kind of thing as I mentioned that yeah and this
+    so there's the sensory C this the the motor cortex is sort of very close to the
+    Sens the somata sensory cortex which is sort of like the sensory aspect of things
+    so in the same way that we would you know move our elbows wrists and hands we
+    also have Sensations from those areas and they are sort of right next to each
+    other um but again I have seen many many talks from many many people often on
+    the topic who study things like motor control and sensory motor control and the
+    topic of those talks is typically trying to say please stop showing this to students
+    it is not an accurate representation of reality um but then and then they say
+    a bunch of much much more complicated stuff about how it's not really how it is
+    but it it it's it's this is the easiest way to discuss things like cortical magnification
+    at the motor and sensory levels um just understand that it is not a nice clear
+    clean map it is not a the type of thing like oh here's where your wrist is here's
+    where your hand is it's much more complex it's much more spread out it's much
+    less organized um but if you sort of zoom out and squint and turn your head this
+    cartoon version of reality is a good place to start this is also the kind of thing
+    where if you wanted to look up more recent papers about the structure and organization
+    of the motor cortex sensory motor cortex you'll find a lot of good stuff people
+    actually doing that work it's also the kind of thing where if you ask the bot
+    to tell you about this it will probably it will probably tell you this part and
+    you might have to push it to be like is that really what people think and it might
+    be like uh I actually don't know what it would do I think that is getting to the
+    level of specificity and contemporariness of research where the fact that the
+    bot has eaten every textbook might make it harder for it to deviate from the cartoonized
+    version of reality that we tend to put into textbooks so this would be a if you
+    wanted to sort of try to push the bot Until It Breaks um you might try to find
+    a more recent paper on this topic and then find places where the bot gives you
+    stuff that is not actually aligned with what we think in reality um just kind
+    of had a brief moment of thinking about how that relates to things like Wikipedia
+    but I think Wikipedia is famously fast so Wikipedia tends not to sort of hold
+    on to wrong thoughts for very long so I think Wikipedia would probably give you
+    like quicker and director sort of summary overviews of more modern thinking um
+    but I'm actually not sure that's one of those spots so anyways so motor hierarchy
+    so here we are we're starting in the frontal frontal cortex we going back to the
+    motor cortex um later when we talk about
+- dur: 180.0
+  end: 2880.0
+  start: 2700.0
+  text: Vision Vision tends to start here in the occipital lobe and so there is this
+    kind of like sense of like this chunk of the brain is for sensory information
+    and then this chunk is for like high level thoughts and abstraction and motor
+    cores and stuff like that and then this part down here is weird we don't talk
+    about it I don't talk about it CU that's more about like recognizing a cup you
+    know for more like like memory and sort of more like contentful thinking but I
+    don't know much about that but that's why I don't know about why but like the
+    motor cortex being here and the samat cortex being there the way that I can remember
+    that is because the samat cortex is closer to the visual cortex because that's
+    like the vision side of things which only helps if you know where the visual cortex
+    is but they are they sort of meet here um and I'm going to I'm going to continue
+    the story but just so you know from this juncture is there's also a path that
+    says uh that sort of bypasses the route that I'm about to tell you that things
+    tend to go so we started out saying hey I wish I had water that gets sort of trundle
+    along and gets converted into something like a motor plan in the motor cortex
+    that says oh hey there's there's water right there and I let's assume I don't
+    care about the fact that it's not mine I could reach out and grab that which would
+    require taking a couple steps moving my arm out and sort of grabbing the thing
+    um not withstanding the complexity of the fact that there was steps involved so
+    that's sort of that's a whole other conversation um and I think that's also where
+    a lot of the the question marks in the in the research live right now is like
+    what happens when you have a motor plan that needs to sort of evolve over time
+    like I need to walk over there and then do a behavior that's I think a do an area
+    of Neuroscience that we really don't know as much about um and that's where the
+    specific tagline of this course being about the neural control of human movement
+    in the real world is where it starts to touch parts of Neuroscience that we just
+    we just don't really know much about because if you think about the methods involved
+    the vast vast vast majority of Neuroscience research psych psychological research
+    is done of people sitting in chairs doing stuff on a tabletop doing single joint
+    movements and our ability to measure the neural activity of humans in general
+    but animals specific like animals at all moving around in a in a space while also
+    recording the brain is uh we basically can't we we can start to we have we have
+    been starting to be able to do that over the past like decade or so but still
+    a lot of the theories that we have are based on Research that does not involve
+    the animals being able to like move through the world and actually sort of have
+    multi-step process dis so if you have questions about how that
+- dur: 180.0
+  end: 3060.0
+  start: 2880.0
+  text: works the answer is we largely don't know um but find some papers and you
+    might find people who are working on those questions so all of this is happening
+    in the cortex right the big lumpy pink thing on the top um and there's a bunch
+    of other stuff that we tend to call that sort of a lot of other parts of your
+    central nervous system that we lump together Under The Heading of subcortical
+    regions um and personal favorite is the cerebellum which is this sort of lumpy
+    part down there um cerebellum cerebellum little brain great um but and I'm going
+    to talk about that in just a second but there's another component that I want
+    to at least mention honorable mentions of a a particular piece that sort of lives
+    in the middle we're doing a side view all these parts are D are doubled um on
+    either side and for some reason your left side control the left side of your brain
+    controls the right side of your body don't ask me why just how we evolved um but
+    there is this very important part called the basil ganglia um and this is particularly
+    interesting for those of y'all that are interested in things like movement disorders
+    um because it's a part that can go wrong in various interesting ways um because
+    the idea is that when you have this when you have that high level thought of like
+    I want to be I wish I was holding this this box and I'm sitting here and I'm looking
+    at the Box there's a lot of different ways that my body could solve that problem
+    I could grab it with my dominant hand I could grab it with my non-dominant hand
+    I could grab it with my dominant hand in a weird way I could move over here and
+    grab it with my dominant hand all of these are options that would satisfy that
+    highle volitional desire to be holding this box in my hand and so with any kind
+    of a network so we we often talk about the brain in this kind of like serial processing
+    kind of like computer analogy this is in line with our general approach of just
+    humans a general approach of always describing the nervous system in the context
+    of the most advanced piece of technology that we have if you go back through history
+    we tend to always do that um uh so anytime you're talking about a network it the
+    thinking is and again this is deep into the cartoon version of stories that when
+    I have the desire to pick up a certain object or pick up a pen or whatever um
+    the motor Network components that would generate
+- dur: 180.0
+  end: 3240.0
+  start: 3060.0
+  text: that action all get activated a little bit and they get activated to the point
+    and they're sort and then they they engage in a kind of like competition with
+    each other um motor plan competition I think is a term you could look up for that
+    um and but it wouldn't really work if every time I had a thought all the possible
+    options to make that thing happen were activated at the same time um so that's
+    where the this little Superior calculous guy his presumed cartoonized role is
+    to suppress your motor commands until they reach a certain threshold of activation
+    and in this very abstract sense the the best motor command wins out and then that
+    one crosses the threshold and then that's the the one that gets triggered and
+    actually moves through so in this case it's closest to my dominant hand I like
+    using my dominant hand this is a com a comfortable strategy this is a not comfortable
+    strategy so this motor command wins the fight between all the possible ways I
+    could solve that problem and that's the one that occurs um and there are and there's
+    you can talk for days about the details there the substantial Niagara and blah
+    blah blah um but the point I wanted to to to point out here is that there are
+    at least two ways that that process could go wrong um one process one way is that
+    the the the gating like this the suppression that the superior click list does
+    can be too strong to the point where none of those commands actually make it through
+    the gate and I'm sitting here wanting to move but I I can't actually initiate
+    the action um and that way of things going wrong is typically what happens in
+    things like Parkinson's disease uh one of the Parkinson is complicated but one
+    of the family of symptoms is things like freezing um freezing in Gate freezing
+    in motor command and people sort of they they see what they want to do and they
+    can't initiate the action and that is thought to be related to the superior calculus
+    sort of gaing the problem too hard so none of the available motor commands are
+    able to sort of trip trip over the the the gate and actually make the in things
+    initialize um and there's interesting stuff there um another way that that can
+    go wrong is the thing I said before of like it would be bad if all the motor commands
+    happened all at once um and that's another thing that can happen in um specifically
+    in a disease called Huntington's disease which is a uh famously um famously genetically
+    predictable motor disease um it's like one of these things like it's very heritable
+- dur: 180.0
+  end: 3420.0
+  start: 3240.0
+  text: and if you have in it's like a 50 50 shot of inheriting it from a given parent
+    so if one of your parents has Huntington's disease you have a 25% chance of having
+    Huntington's disease and like we can just look at your genome and be like oh yeah
+    you got it or oh yeah you don't so it's a sort of socially horrible thing and
+    there's like I think there's like episodes of like house or things where it's
+    like like what are the ethics of of a having a kid if you know there's a 25% they're
+    going to have this degenerative disorder and B um what are the ethics of checking
+    if you have it you know and if you get some assay of tests it may happen that
+    the doctors just know the answer to whether or not you are going to have a degenerative
+    M of disorder later in your life and so you know all sorts of not so fun conversations
+    there um but people with Huntington disease exhibit Behavior where they basically
+    have like movements that they didn't really intend to initiate that sort of make
+    it over the hump um before they were able to be sort of stopped um and that's
+    where you get Strange Behaviors where like if you show if you hold um like a cup
+    with a handle in front of somebody who has things like Huntington's disease they
+    have a very hard time not reaching out and grabbing it um because they they they
+    see it they see the possibility of grabbing it and their Superior cus or whatever
+    span cartoons whatever is not able to suppress that behavior so they they just
+    reach out and grab things that they weren't intending to um so anyways there's
+    a lot more going on in there but I did want to mention that just because I know
+    that there's a general good chunk of ypre Ed so a good chunk of y'all are interested
+    in movement disorders and a lot of movement disorders tend to live in in and around
+    that that area um anyway so once those motor but once the motor Comm has been
+    connected or sort of chosen or selected or sort of made it over that hump that's
+    where there's there's a Cascade of activations that sort of happen from that point
+    and generally speaking that will then sort of leave the brain and sort of first
+    well I don't know about first but uh it will sort of get into the cerebellum and
+    then into the brain stem and then into the spinal cord um cerebellum very complicated
+    thing very complex thing uh roughly 3.5 as many 3.5 times as many neurons in your
+    cerebellum as there are in the rest of your central nervous system combined um
+    they tend to be very small very you know specific or not specific uh they're very
+    small neurons um like granular cells but also very
+- dur: 180.0
+  end: 3600.0
+  start: 3420.0
+  text: large neurons called paramal cells I will look at pamal cells because they're
+    beautiful pyramidal cells neurons so you get these oh this is the one I was looking
+    for this is the kind of thing you win a the you win Nobel prizes for pictures
+    like that um back in you know 1800s um but these are the type of neurons that
+    you get this might actually be in your motor cortex but these like highly highly
+    uh synaptic like like massive synaptic for Forest where the output of the neuron
+    whether or not it's spiking is dependent on this massive Network of connection
+    to other parts of your body um or other parts of your nervous system um versus
+    more yeah anyways um your cerebellum is thought to be the area that sort of handles
+    things like motor coordination um and that's coordination that happens at different
+    levels like most of your nervous system there sort of an inside out structure
+    where the the inner parts of your cerebellum like the inner parts of your brain
+    is the most phenic ancient is the oldest part and as you sort of go outwards you
+    get more and more evolutionarily new stuff um until you get out to the the neocerebellum
+    which is the outer this it looks like a lump but it's kind of folded up and on
+    itself um and the neoc serums on the outside and that's the part that's thought
+    to be associated with things like tool use and the fact that I can pick up an
+    object that's not a part of my body and sort of like wave it around and then oh
+    yeah now I sort of like internalized some of the physics of this thing and that
+    ability to internalize the physics and sort of utilize external objects as if
+    they were a part of my body is thought to be related to the neocerebellum and
+    there's some interesting studies and fmri where they have people like playing
+    with tools and stuff like that um and I always get like stuck on these little
+    side quests because there I just have to tell the story because it's so interesting
+    um not all animals can use tools obviously um but they there's a concept in Neuroscience
+    called your Perry personal space and we tend to chop up the world into spots and
+    you know out there that's like far away stuff um in here this is like like this
+    is my actual body part and then there's the peripersonal space which is like
+- dur: 180.0
+  end: 3780.0
+  start: 3600.0
+  text: close by areas like roughly speaking things that I can reach with my sort
+    of with my current body um and so anything that's on this table is peripersonal
+    space and if you take a monkey like a MAAC monkey a non-human primate one of the
+    fews that we study and you can get certain so you can Le you can leion the brain
+    in various ways and you get various types of blindness um and it's possible to
+    get a type with a particular damage in a particular area um actually don't know
+    that level um you can get a blindness in peripersonal space so you basically there's
+    just like you can't see things that are sort of within a certain range of you
+    and they there's a crazy study um where they they took a MAA and they were able
+    to give it like a reversible lesion so they it's like they put uh chemical in
+    that part of the brain so it just stops working for a little while but then after
+    a while it comes back and they trained the monkey to use a grabber like a grabber
+    thing to like reach out and grab things that are farther away than their arms
+    reach and after the monkey was trained in using the Grabber arm and they did the
+    cortical Legion the their peripersonal space extended to include the regions that
+    they could reach with the Grabber so there's just this strange implication of
+    like how we tend to view the world and how we tend to char carve it up into like
+    things that are me things that are not me and then things that I can directly
+    manipulate and for certain types of mammals um that that that question of like
+    what is what part of the world is my body and what part of the world can I interact
+    with my body includes things like tools it includes things that are not necessarily
+    part of the raw biology which is just gets into the philosophy of things especially
+    when we start extending the concept of tools away from things like Grabbers and
+    Hammers and you know sharp pointy rocks and into things like laptops and the internet
+    and large language models like these are all these things like we tend to really
+    prioritize like the meat wear um and do things like make you take tests on pen
+    and paper even though who gives a about what you can like recall under um but
+    there's a whole concept of like embodied cognition which sort of tries to extend
+    that notion that like we really are like ourselves plus our tool set plus you
+    know our community of people who can help us with things and that's anyways gets
+    complicated and philosophical very quickly um so yeah and then the lower parts
+    of cerebellum the older Parts handle things like motor coordination and so things
+    like if I want to so you have your flexion parts
+- dur: 180.0
+  end: 3960.0
+  start: 3780.0
+  text: and you have your extension Parts your muscles these ones like Flex the flexion
+    tends to move you towards like the fetal position extension tends to move you
+    opposite of that and in order for a movement to be smooth those things like the
+    flexor extensor groups have to fire in a very tight temporal Loop um and if you
+    if they misfire then you get again kind of like Behavior kind of like you know
+    I hate doing like I hate simulating it because it sort of feels weird but like
+    you can imagine sort of like seeing people with movement disorders they have this
+    kind of like jerky movements um that can be it can come from a lot of different
+    places but it can be associated with basically like misfiring where you're like
+    if I'm extending my arm then my flexor of my then the tricep should be um engaging
+    and the bicep should be loose but if my biceps kept firing while I'm trying to
+    extend my arm then you get this kind of like jerkier behavior um and that's coupled
+    with like uh another type of disorder which can have which can lead to sort of
+    what they call like the drunkard's wobble like when you're like where you sort
+    of like it's more of a swim or type of thing where it's like this is where like
+    my my postural control system is firing but it's like slow so you get this kind
+    of like more of a soupy type of movement so those are all just different parts
+    of the Cascade of things that can go wrong in the motor system um cell taxia is
+    one of those terms you can look up anyway um so yeah that's cerebellum uh your
+    your brain stem is kind of hanging out here brain stem is honestly a part that
+    I know least about it's it's sort of a level below the cerebellum it sort of has
+    to do more with like um it's thought to be related to like like sensory integration
+    um but it's kind of like in my understanding of this space I kind of like lump
+    it in with like that that host of like very lowlevel Integrations between like
+    that sort of like um like flexor extensor groups and like timing and you know
+    like integration of sensory information where that sensory information mean like
+    the forces that are happening at your joints less than like the visual information
+    um so you know if you wanted to look up how the brain stem interacts with stuff
+    then you could do that but I don't have as much information there um a part that
+    I do know more about is the spinal cord uh which is we tend to think of in common
+- dur: 180.0
+  end: 4140.0
+  start: 3960.0
+  text: parament like I people like often times when we draw the nerve the central
+    nervous system we draw it like this and we cut off the spinal cord um this is
+    this is wrong this is incorrect your spinal cord is a part of your nervous of
+    your central nervous system and it does a lot of really interesting and important
+    aspects of uh your your motor control um your spinal cord spinal cord yeah there
+    we go Wikipedia so your spinal cord doesn't go all the way down your spinal column
+    spinal columns the the bone part um it stops around here so like right below your
+    rib cage and then the rest is like um peripheral nerves that sort of go in and
+    out to the actual inating the muscles um it flips inside out so your your your
+    cortex has the the gray matter which is all the bodies of the neurons on the outside
+    and all the the wires and the white matter which is like the gal cell wrapped
+    things on the inside spinal cord flips that around so all the the goopy wiring
+    stuff is on the outside side and this is sort of the this blue stuff here is the
+    same gray matter that's on the outside of your cortex um and the kinds of I never
+    have enough time to talk uh the uh like your your spine is that we're now getting
+    down to like the very the very bottom of that motor hierarchy uh and the the kinds
+    of controls you get at the spinal level are still definitely in the space of what
+    we would call like processing um but they are there's there's very little abstraction
+    if anything down there so that's where your spinal cord handles things like your
+    reflexes um so like if you ever go to the doctor and they hit you on the knee
+    and then it kicks your you hit you on the knee the tendon and it kicks your knee
+    out um that they're testing your spinal reflexes and one of the most lowlevel
+    ones is the monosynaptic stretch reflex which is if this muscle is stretched uh
+    there is a refle there is a reflex that makes it contract it's sort of a protective
+    thing so when you hit the tendon it stretches the muscle and then that goes up
+    to the spine and the The Reflex there is if that muscle uh stretched then contract
+    it and that's why you you kick out um however it's not as simple as just a sort
+    of there's a reflex that's there and it's always there because if that reflex
+    was always active then you wouldn't be able to do things like move your leg because
+    every
+- dur: 180.0
+  end: 4320.0
+  start: 4140.0
+  text: time you moved it it would stretch and then that would make it contract so
+    your spine handles what's called like reflex gating um and where in order to engage
+    a given motor plan the reflexes have to be configured in a certain way um and
+    the most sort of famous and my personal favorite example of that is in the context
+    of the locomoter gate cycle where when you're walking you're sort of going back
+    and forth between each leg is sort of going back forth between stance phase where
+    in stance phase you're weight you're holding the entire weight of your body on
+    on a very stiff leg if you're running or something like that when you impact the
+    ground you're impacting it with like 1.4 or more times your body weight so your
+    leg has to be very stiff in that moment when it hit the ground someone I think
+    asking about like like if you step off of a stair and you think there's going
+    to be another stair there or there's one more one fewer stairs than than you expect
+    you have that kind of like very unpleasant moment where the limb Was preparing
+    for the ground that was not at the right level um so sorry so when you're stepping
+    back and forth your legs are going back and forth between stance phase where all
+    of your your reflexes are sort of cranked down to let your leg be very stiff and
+    support your whole way to your body and then swing phase where they're all kind
+    of turned off basically to let your leg be much more floppy and loose so it can
+    swing through and basically utilize its own momentum and to allow it to sort of
+    move forward um without having to like burn a bunch of muscles burn a bunch of
+    energy like moving it directly and so that transition from like stance to swing
+    phase which happens roughly every 450 milliseconds roughly a million times per
+    year for a healthy undergraduate human um that transition is happening at the
+    level of the spine and that the specifically the timing of transitioning from
+    one to the other is handled by things called Central pattern generators which
+    is where a lot of the basic rhythmicity of motor motor control comes from most
+    of your motor system is rhythmic in nature so you're walking you're chewing you're
+    scratching you're doing things that are kind of like have a rhythmic a rhythmic
+    aspect to it um and that's kind of handled by these sort of central pattern generators
+    but then where the hierarchy kind of comes in the sort of motor hierarchy tends
+    to come in in order for the for movements to be graceful and coordinated and smooth
+    they have to be appropriate for the world as it lays out so if I'm stepping up
+    onto a a a step or stepping down at something or from you know interacting with
+    the world um there is a supervenience that happens where the
+- dur: 180.0
+  end: 4500.0
+  start: 4320.0
+  text: those high level volitions those high level desires attached coupled with
+    like visual information sort of like sensory information both out in the world
+    um gets translated into basically a set of instructions for how we should lay
+    out the the reflexes and sort of you know how like like what the timing and the
+    strength and the gains of all these reflexes should be in order to generate movements
+    that are appropriate for the world that's around you so the idea is like that
+    down here at the lowest level of the nervous system um these very very lowlevel
+    things are happening on the basis of instruction sets that come from the top down
+    but then if you but then also like the signals from the world also go in the other
+    direction so there's this kind of like it's a it's a communication that's a two-way
+    communication but it's not symmetric so it's sort of that's where the the concept
+    of the hierarchy comes in um because the top tends it tends to be the top tends
+    to tell the the top the high level stuff tends to tell a lowl stuff what to do
+    but if the lowle stuff says oh wait no I actually hit something then if you're
+    nervous the high level stuff will sort of take that into account and handle things
+    appropriately um never never have time um I am just going to briefly mention so
+    the the little story we've been telling now about hierarchy and things like that
+    is a sort of the general again cartoonized version of the motor hierarchy and
+    it tends to be um played out this tends to be how like mamalian nervous systems
+    at least tend to be organized um I sort of skipped a aspect here of like muscle
+    synergies of sort of like you know like my arm all the muscles in my arm are handled
+    kind of like in conjunction with each other so I'm not doing things like controlling
+    each muscle individually I'm not controlling each degree of Freedom individually
+    um they're handle more at this what's called like a synergistic level and for
+    most mammals that's what you get you get this kind of like the front the high
+    level stuff sort of activates these like motor planes which activate these motor
+    hierarchies and that's about where things tend to end however uh for a small subset
+    of animals specifically tool using mammals um but I again I'm not sure like things
+    like corvids and stuff play into this but we have like a freaky special other
+    tract called the corticospinal tract where we have parts of the nervous system
+    like that bypass all of this other stuff and kind of go down and directly innervate
+    the spine so cortico spinal tract so cortex to spine and and again I think that's
+    that's an area where like by basically by saying
+- dur: 180.0
+  end: 4680.0
+  start: 4500.0
+  text: what I just said I'm I'm roughly exhausting my knowledge on the topic uh I
+    think it's an area of very active research in terms of like which animals have
+    a cortical spinal tract which mean which ones and which ones don't like I think
+    it's with Biology it's never a case of like yes or no it's Al always a matter
+    of degree but it is one of it's again one of those places that is thought to be
+    related to our ability to be like magnificent adaptation engines where we can
+    control our body and basically an arbitrary level of ways and sort of this very
+    high level of precision and um find control is thought to be related to in addition
+    to things like the neocortex which is handling this sort of like tool using stuff
+    also the cortical spinal tract which is sort of giving like I think about things
+    like learning like gymnastics and stuff like that where you're you're doing something
+    and then someone says oh no no not like that like that like your your like your
+    your H your heel is off by an inch and a half in this direction change the motor
+    plan on the basis of like words that I'm saying to you and I think like when I
+    like philosophically poetically think about the nervous system I think that it's
+    that type of control that's being sort of implicated by in things like the cortical
+    spinal track and stuff like that um CU I just think that like you know comparing
+    human movement to other types of animal movement like one of the main questions
+    of like what makes us different is related to our infinite adaptability relative
+    to most other animals it's you know we'll talk a bit about that in the evolution
+    phase of life um and that goes out to your limbs and does muscle stuff uh okay
+    I that's about as quick as I can ever make anything I guess so anyways that's
+    roughly speaking your nervous system at least the motor control parts of it um
+    and I yeah obviously covered a lot of ground said a lot of things um and so for
+    the rest of the class I guess I'll just let youall be like locally clumped at
+    this point I I I might just have to have a whole classroom I don't know because
+    it's like there's so much I want to say to you but I also want to give you time
+    to explore on your own so we'll we'll figure that out um probably not time for
+    code stuff this time around so um I will say let's do roughly like we did last
+    time where we pop into a channel in the lectures area called 2024 10
+- dur: 180.0
+  end: 4860.0
+  start: 4680.0
+  text: 15 uh motor hierarchy I don't know if I spelled hierarchy correctly but um
+    this there you go doop perfect no questions um yeah and uh just kind of do what
+    we did last time so so pop open some some chats and just ask it some questions
+    and what I'll specifically ask you to do this time which I haven't done in the
+    past is rather so follow your heart so if you wanted to ask sort of more of this
+    kind of like highlevel like like give me the textbook version of the story go
+    ahead and do that if you want to dive deeper into like the nittier grittier side
+    of things where the the cartoons break down um ask the bot for keywords that you
+    can punch punch into things like PubMed or Google Scholar and look for papers
+    on the topic um that it's questioned for uh don't ask it for specific papers it
+    will either give you papers that are old um or it will give you papers that don't
+    exist uh SL chat um and uh so ask it for keywords and then go search for those
+    those uh those papers you can ask for things like review articles but just ask
+    it for keywords that you can search for and then when you find the paper copy
+    the entire abstract and paste the abstract into the chat and then ask it to explain
+    that to you um because obviously you could read the abstract and figure it out
+    for yourself but abstracts are necessarily and intentionally extremely dense linguistic
+    blobs so there's pretty much no abstract on the planet that you couldn't spend
+    several lifetimes trying to parse out all of the details and all the words and
+    all the unfamiliar phrases um and let's do that for Jesus Christ 13 minutes and
+    uh yeah I'll say so I that's not much to get into so just I'm not going to make
+    it an official assignment but like continue this conversation with the bot throughout
+    the day and throughout the week just just like every so often just pop over in
+    the chat and just ask it a question um you know I'm not going to necessarily make
+    that assignment I'll make assignments later but like you know anytime you have
+    a thought just pull it out and ask it the question um because I will be doing
+    the scrape and pull stuff throughout the week and then you know I'll do it again
+    before next week so if you want to have some ability to steer what that content
+    is ask it questions about the things that you care about
+video_id: pMDqxMUcBmQ

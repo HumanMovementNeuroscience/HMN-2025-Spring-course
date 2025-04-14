@@ -1,0 +1,1033 @@
+full_transcript: "I am now starting the recording and beginning to talk. I gave myself\
+  \ some notes to reference. This is a topics course, which, as you all know, is typically\
+  \ off the main schedule. Topics courses usually focus on subjects that do not have\
+  \ a proper class around them yet. Oftentimes, these classes are taught to allow\
+  \ a research professor, like me, to highlight their own research in a way that doesn't\
+  \ fit within the standard curriculum of the university or the standard STEM classes\
+  \ that you might typically take. \n\nAs I mentioned, I am technically a professor\
+  \ of biology, even though I do not primarily work in biology. In this school, there\
+  \ isn't a dedicated Neuroscience Department. There is the BNS program, which I can\
+  \ never remember whether it is a sub major or minor. My research could fit into\
+  \ a number of different departments, the most obvious being biology since I study\
+  \ the neural aspects of things. Psychology would also be a more fitting department\
+  \ because it includes sensory and motor control topics.\n\nThese days, I do a tremendous\
+  \ amount of software development, focusing on methods building and research tool\
+  \ development, which is a relatively recent development for me. I have also worked\
+  \ closely with robotics, biomechanics, and physical therapy. The specific subdomain\
+  \ of research that I carve out does not really fit into any particular department.\
+  \ \n\nPart of the main structure of this course is to think about what the inroads\
+  \ are to the specific subject I study, which I will discuss in a moment. The goal\
+  \ is to provide a very broad survey of the various subtopics that come together\
+  \ to form the specific domain of study, which is human movement in natural environments.\
+  \ More importantly, I aim to explore my specific approach to studying this subject,\
+  \ as there are many ways to study a topic, and I come from an unusual and diverse\
+  \ background. This raises an interesting question about how to introduce someone\
+  \ to that field. It's not just a field; it is more of a ... One thing I've learned\
+  \ to do over the course of a couple of decades is to acknowledge something at the\
+  \ beginning of every class that I teach. I have never found a great way to express\
+  \ it, but I would not feel comfortable teaching a class full of undergraduate students\
+  \ without addressing the moral elephant in the room. This is that none of this is\
+  \ okay. None of the general structure of academia or education is morally defensible\
+  \ at almost any level. The extent to which you are being exploited financially to\
+  \ be in this room is absolutely indefensible and unconscionable. There is truly\
+  \ nothing that I could ever do from this side of the podium that would be worth\
+  \ the financial burden placed on you by being here. You can do the math to calculate\
+  \ the number of people times the annual tuition, room, and board. The number would\
+  \ come out to be something like two to three million dollars. If you wanted to be\
+  \ more conservative and only count credit hours, it would be somewhere around a\
+  \ quarter of a million dollars. It's absolutely indefensible and not okay. Over\
+  \ the course of my four to five years, I have lost track of time as a professor\
+  \ here. I have had to find different ways to handle what is termed moral harm. This\
+  \ term refers to the psychological trauma that occurs when you are forced to participate\
+  \ in an institution or system that is morally repugnant to you in some way. I am\
+  \ here for many of the reasons you are here, which is because I love learning, I\
+  \ love teaching, and I love the scientific exploration of the nature of society\
+  \ as it is. To do that at the highest level, you sort of have to come to institutions\
+  \ like this one for legal reasons in order to participate. It is something I did\
+  \ not fully comprehend until I became a professor. You, as students, experience\
+  \ life as a student, which is essentially as a temporary person in an institution\
+  \ like this, with a set amount of time to be here to earn your degree before you\
+  \ leave. Everything leading up to and including the point of becoming a professor\
+  \ has that characteristic: first, you are an undergraduate, then you are a graduate\
+  \ student. As a student, then you're a postdoc, and if you outcompete your peers,\
+  \ which is an insane concept\u2014why are you trying to outcompete your peers? You\
+  \ should work with your peers. Anyway, we'll get on to that. Up until that point,\
+  \ there is this sort of temporary nature to it. In retrospect, it felt like I was\
+  \ struggling against the system to try to succeed in that context. Then I happened\
+  \ to become a professor in the summer of 2019, so I had about a year of thinking,\
+  \ 'Boy, I sure did make it, and this is probably fine.' Then summer of 2020 rolled\
+  \ around, COVID happened, and with all of the various ways that affected the world\
+  \ at large and me in particular, I basically lost all faith in the academic and\
+  \ scientific systems that summer. I experienced a crisis of conscience and was trying\
+  \ to find ways to restructure my life and my efforts. I had about 35 years of experience,\
+  \ close to 20 years of effort to make it to this point, which is a position of non-zero\
+  \ social power. There's this general idea of 'don't give up' if you can use it to\
+  \ benefit your own moral beliefs or whatever. It was a hard and challenging thing\
+  \ to think about. Often, when you work within institutions, there's a conflation\
+  \ between the values you hold and the institutions that are sort of the vehicles\
+  \ for those values. When you lose faith in an institution, which I highly recommend\u2014\
+  you should trust people, not institutions\u2014there's this whole thing of trying\
+  \ to figure out what I was actually here for, what my actual goals and morals and\
+  \ values are. A lot of things came out of that, probably stuff that I still should\
+  \ not say on camera. The general idea was a shift of focus from doing traditional\
+  \ modes of research and education. That still involves doing research for publications,\
+  \ applying for grants, and producing students who will try to climb the same ladder\
+  \ you are on, understanding entirely that to get tenure, you\u2019re supposed to\
+  \ produce more than two people who are also trying to get tenure. Years at another\
+  \ school, which is sort of the definition of a Ponzi scheme, was the effort. Oftentimes,\
+  \ when you're working in these types of systems that we tend to live in, which are\
+  \ competition-based hierarchies predicated on assumptions of false scarcity, the\
+  \ game that you play requires you to compete with people who are at your same level\
+  \ in the hierarchy in order to please those who are above you. Most of whom have\
+  \ been in those positions longer, sort of a gerontocracy type of thing. I realized\
+  \ that a significant percentage of the effort I was putting into the world was in\
+  \ service of the people above me in the hierarchy. I was trying to do the things\
+  \ they wanted me to do so that I could outperform my peers and be allowed to stay\
+  \ in the warm, happy shining tower at the top of the hill where we are all currently\
+  \ situated. One of the big changes, or the brain shift that happened, was deciding\
+  \ to stop doing that\u2014to stop caring about or considering what I was being asked\
+  \ to do by people above me in the hierarchy. Instead, I started asking what I could\
+  \ do to support people who were at or below me in that same hierarchy, which is\
+  \ largely all types. From a practical perspective, during that time of doing research,\
+  \ I ended up with all these papers that we will talk about. With that crisis of\
+  \ conscience, there was the question: Well, if universities are probably evil and\
+  \ journals are definitely evil, but I do love the research and I do love teaching,\
+  \ what do you do if you don't want to do the dumb work of publishing a bunch of\
+  \ papers to try to make the powers that be happy, to please the gatekeeping dinosaurs\
+  \ above you? What do you do with your time? Around that time, through other modes...\
+  \ I mean, I had basically a big fancy lab at Richard 453, which you all will be\
+  \ touring with Aaron. Not next week because I'll be out of town. When COVID hit,\
+  \ I showed up with all these plans for the research I was going to do in the big\
+  \ fancy lab, and they were doing the construction. The construction wrapped up around\
+  \ January, and I was sort of gearing up to start the research cycle. Then quarantine\
+  \ hit, and I was sent home and had to flail around for a while trying to figure\
+  \ out what I was going to do with my time. What are we going to do with our time?\
+  \ At that time, I wound up\u2014there were a couple of things happening in my lab,\
+  \ most of which were related to the work in the big fancy map lab. Then there was\
+  \ one little side project that involved a computer vision-based method for doing\
+  \ motion capture with a cheap webcam in free software. When COVID hit, we shifted\
+  \ our effort towards working entirely on that project because it was something we\
+  \ could work on remotely with ease. That was around March, and as we got into the\
+  \ summer, that project started to pick up some steam. I began to lose faith in the\
+  \ system and started to come across software such as Blender. We're going to talk\
+  \ about Blender; it's a free, open-source 3D animation software. It's been around\
+  \ for decades, developed on a large scale, and it is 100% free and 100% open-source,\
+  \ built over the years by thousands of people across the world and given away freely\
+  \ as a gift for anyone to use and benefit from. I had this realization that this\
+  \ was actually the thing I wanted to be doing. The open-source community is what\
+  \ the scientific community pretends to be like. We pretend as scientists that we\
+  \ are involved in a big global collaborative endeavor, but practically speaking,\
+  \ you're just not really able to do it. Most of the research that gets done really\
+  \ shouldn't be done; it's not good research, it's just smart research. It's strategically\
+  \ the right move to get the publication, to get the grants, to get the job, to get\
+  \ the tenure. And it often will serve\u2014I'm not saying that all scientists are\
+  \ less than intelligent or that all research is worthless, though the percentage\
+  \ is higher than you would wish it to be. The nature of the institutions that house\
+  \ it and the realities of the hyper-competitive structures of society that we\u2019\
+  ve created for ourselves mean that you're not really able to do it in a way that\
+  \ benefits anybody outside of the club. When you see traditional scientists doing\
+  \ outreach, it's often this kind of side thought: they might go to a high school,\
+  \ show them how cool it is to be highly educated, and then just leave, hoping that\
+  \ the students are inspired enough to follow in their path, out-compete their peers,\
+  \ and perhaps someday make it into that shining tower at the top of the hill. It\
+  \ just didn't seem right to me, so long story short, all of that kind of culminated\
+  \ over a long course of time. This became, basically, did I break it? This is the\
+  \ computer. There you go. So this is FreeoCap.org. This is a software that I've\
+  \ been working on with Aaron for about five years. It's called Freeo CAP; it's a\
+  \ free, open-source, marketless motion capture system. It's basically been the thing\
+  \ that has soaked up the energy that would have been spent publishing papers and\
+  \ trying to make people happy. Instead, I spent my time building this tool to do\
+  \ full-body motion capture with inexpensive webcams and free software, and it's\
+  \ been going quite well. We're going to talk plenty more about that. It's on GitHub\
+  \ at Freeo CAP, and there's a Discord server with about 2,500 members. I think last\
+  \ I checked, we are approaching 500,000 unique users in about 115 countries, which\
+  \ is all quite good.\n\nThe focus of the project and the software is to use my particular\
+  \ skill set and expertise, which I have accumulated over the course of decades,\
+  \ mostly using taxpayer funding to pay my salaries. Rather than trying to use that\
+  \ to publish super esoteric papers that will only benefit other super esoteric people,\
+  \ the goal was to package that expertise to build a tool that meets a general need\
+  \ of society at large. I'm trying to set up building that tool as both something\
+  \ the world wants and as a tool I want to use for my research. Ideally, I'm trying\
+  \ to use that as a mechanism for building bridges and pulling people in. A lot of\
+  \ the users of this software are animators, often young 3D animation artists, video\
+  \ game designers, and also a bunch of students, grad students, and professionals\
+  \ in biomechanics and clinical fields. There are dancers and musicians as well,\
+  \ and they are using this software for their own purposes. That's part of it; I\
+  \ don't want to... I would rather just give you useful tools and let you do what\
+  \ you want with them. However, because I, with help from Global Wei, designed this\
+  \ tool from my perspective, I am also trying to make it a tool that serves as an\
+  \ educational platform in its own right. It does not teach you directly; it does\
+  \ not provide lessons and quizzes. The nature of the tool is to teach you how it\
+  \ works and to provide a sort of greased rail into the densest part of the forest,\
+  \ shining enough light so you can navigate around it. A lot of the education you\
+  \ typically receive starts with the basics, focusing on the simple, often boring\
+  \ material that does not motivate you on its own. You are told, \"Trust me, it will\
+  \ lead somewhere cool. If you can outlast your peers long enough, you will get to\
+  \ see all the fun stuff.\" I've heard the advice more than once that I should be\
+  \ careful not to make it too easy to use, otherwise students won't understand what's\
+  \ going on. This perspective is puzzling to me because, in the natural world, your\
+  \ first reaction upon encountering something is often confusion. When you come across\
+  \ a strange artifact, that initial encounter yields the least understanding, and\
+  \ if you're lucky, you will slowly back into a level of comprehension. Rather than\
+  \ holding your hand down a specific path with a predetermined outcome, I want to\
+  \ show you a broad landscape that will likely be over your head for the most part.\
+  \ I aim to provide you the tools to gravitate toward the parts of that landscape\
+  \ that are most motivating to you as individuals, allowing you to back your way\
+  \ into a place of understanding. You can work your way from the advanced material\
+  \ in the center of the woods back to the beginner concepts with which we should\
+  \ have started, grounding yourself from that position. It's such a broad landscape\
+  \ that you're all going to find different parts of it, and you're going to need\
+  \ different aspects of that beginner basic stuff. We'll kind of gravitate in that\
+  \ direction. So, let me see where I'm at with this. There's more context. Right,\
+  \ so that's the general gist of the life that I live. There's a little bit of overlap\
+  \ with the class because I'm the one standing up here and you are all over there.\
+  \ Specifically within this class, there is another player, which is the story I\
+  \ was telling you about regarding the loss of faith and the finding of the free\
+  \ open-source thing, and the reshaping around this software and educational tools.\
+  \ All of that basically started in the summer of 2020 and has been progressing since\
+  \ then. I've taught a couple of classes that reflect that vibe. I see a couple of\
+  \ familiar faces, possibly from inquiries. Has anyone been in a class with me before?\
+  \ No? Who are you people? Well, I've worked on trying to teach this type of stuff,\
+  \ like this broad landscape thing, incorporating as many of these tech tools as\
+  \ I could. Then, I guess it was about two years ago, in April, there was a certain\
+  \ technological event that occurred, and you have heard about it. The hype cycle\
+  \ has sort of come and gone to the point where you're probably annoyed about it\
+  \ at this point. The thing in question is artificial intelligence. My background\
+  \ is in philosophy; I have a degree in philosophy focused on the philosophy of mind\
+  \ and philosophy of science. There is going to be a lot of that, specifically the\
+  \ philosophy of science, in this course. From there, I got a PhD in cognitive science,\
+  \ which is effectively AI studies these days. My particular domain within cognitive\
+  \ science, another one of these comedically broad fields, is on the biological side,\
+  \ like psychology and neuroscience. However, I also did a lot of work with robotics.\
+  \ I learned a lot about AI, machine learning, and the theories of language. I have\
+  \ been following various language models since roughly 2008. When GPT-3.5 came out,\
+  \ I was impressed; it was clear that they had really been working hard on this technology.\
+  \ Then, when GPT-4 was released, it felt like a significant shift had occurred,\
+  \ and it became important to take note of it. I remember very clearly that at some\
+  \ point, I reached out to my friend John Linstead, who is from graduate school and\
+  \ has a background more on the AI side of things. He was a director of the cognitive\
+  \ science program at SUNY Oswego for a while. We connected via Discord and said,\
+  \ \"John, we need to discuss the situation.\" We both immediately recognized that\
+  \ AI exists and that there isn't a need to worry about it coming to life in a threatening\
+  \ way. However, nearly every source of information on the topic seems to miss the\
+  \ point to some degree. As an expert, I can confidently say that many are mistaken.\
+  \ This is not the endgame, and much is still to happen. The reality is that this\
+  \ is a major technological shift that will definitely reshape our society in various\
+  \ predictable and unpredictable ways over the next 5, 10, or even 20 years, and\
+  \ not necessarily for the better. Like most technologies, it arises from technocapitalist\
+  \ corporations, which are the source of many problems and harms in our society.\
+  \ Just as they have caused significant damage to our social infrastructure over\
+  \ the past two decades, they will continue to do so. Whenever a new technology appears,\
+  \ technocapitalists rush to capitalize on it, building models around it to sequester\
+  \ resources and exploit the world at large. This is the true core of capitalism:\
+  \ to exploit disparities. between yourself and others to extract resources from\
+  \ them. A lot of this has probably become somewhat apparent, and there is probably\
+  \ at least a percentage of you who feel like, 'Aye,' because it is so overwhelmingly\
+  \ tied to the corpo-technocapitalist infrastructure. However, there is another angle\
+  \ to consider. It can be very difficult to recognize, especially when coming at\
+  \ something from a non-expert position, the distinction between the core technology\
+  \ that exists and the implementation of that technology. It is hard for us to see\
+  \ things like GPT-4 from OpenAI as anything other than just another arm of Microsoft.\
+  \ It is difficult to view whatever it is that Google is trying to do as anything\
+  \ other than another way to steal your data and another way to shape the world around\
+  \ you, like squeezing $20 a month out of you for a bunch of basic functionalities\
+  \ that you will eventually require for your daily life. \n\nBut I think it is really\
+  \ important to recognize that this particular technology is different. Unlike many\
+  \ other tools, such as computers and phones, AI is also a world-shaping technology\
+  \ that has shaped our reality. You are a part of it, and many of you are both beneficiaries\
+  \ and harmed individuals from what has happened over the last 20 years. The entire\
+  \ world has shifted to the point where everything we do in our daily lives is pushed\
+  \ and pulled through apps created by corporations that do not have your best interests\
+  \ at heart. There is an inherent disparity between the ability to create these applications\
+  \ and build these technologies, which has been easy to exploit. \n\nI cannot make\
+  \ this technology; I cannot create a chip. I mean, I guess I can build an app, but\
+  \ it will not be the same as what you would get from Google or Facebook. They get\
+  \ to take advantage of the fact that this technology is now essential. We encounter\
+  \ these technologies, and we reshape our society around them. There are limitations\
+  \ in this regard. \n\nI believe AI is different because fundamentally, they are\
+  \ trying to build something monumental. It is a tool that will teach you. How it\
+  \ works is that it will show you everything there is to know about itself, and they're\
+  \ trying to corral it and control it in a way that they're accustomed to, but it's\
+  \ kind of just not working in the way they expect. We'll talk about that in detail.\
+  \ I don't want to go too deep down this rabbit hole because that is definitely something\
+  \ I like to do, but I\u2019m mostly commenting on the skepticism that I think is\
+  \ a fair response to the world we live in. I do think that AI, when used properly,\
+  \ is something with the ability to be a transformatively liberating tool, one that\
+  \ has the potential to make every single person who learns how to use it a more\
+  \ powerful and capable version of themselves. It is not an oracle that will solve\
+  \ all of your problems, which is often how it is pushed on you. It\u2019s not something\
+  \ that will automatically make the world better, but it is an unbelievably powerful\
+  \ tool. If you learn how to use it, whatever it is that you are trying to do in\
+  \ your life, if it involves the generation, understanding, or manipulation of text\
+  \ on a screen, AI can help with that. It won\u2019t build your life for you, but\
+  \ it is an incredibly powerful tool with a very shallow initial learning curve and,\
+  \ as far as I can tell, unlimited potential.\n\nThat leads us to Discord. I spend\
+  \ a lot of my life on Discord; I wish I didn't. I appreciate the software for what\
+  \ it is, but I also kind of hate it for what it is. When GPT-4 came online, which\
+  \ would have been in the spring of 2023, one of the first things I did was build\
+  \ a bot out of it and start using it to teach a class. I taught a summer class,\
+  \ then another version of this class last fall, and a class in the Capstone in the\
+  \ spring, but that didn\u2019t go so well. Now, this is the fourth iteration of\
+  \ using AI. Discord AI empowers a Discord bot as a way to teach and provide users\
+  \ with the ability to explore a topic that is broad, vast, and complex. We will\
+  \ talk about the details of that at some point, but the basic idea is that there\
+  \ is a server structured roughly around the topic of the class. Within this server,\
+  \ there is a bot named Skelly Bot. Skelly is the logo and mascot of Free Mocap,\
+  \ and the software has various parts, all named after Skelly, such as the camera\
+  \ part called Skelly Cam and the bot part called Skelly Bot. \n\nIf you're curious\
+  \ about Skelly Bot, you can click on it, and the GitHub link will take you to its\
+  \ source code. The most important part of this is the phrase, \"This bot helped\
+  \ me build this bot.\" I could not have made this without it. The skills and technical\
+  \ aspects required to build something like this were not part of my training; I\
+  \ managed to hack and slash my way through grad school and build the basics of the\
+  \ Free Mocap software, which is my area of expertise. However, I have only a theoretical\
+  \ understanding of AI. \n\nBuilding a tool like this was beyond my capabilities,\
+  \ but AI makes it easier. You can simply ask, \"Hey, could you help me with this?\"\
+  \ and it will respond with an answer that is mostly correct, though not always.\
+  \ If you learn how to navigate and leverage that, you can discern when AI is right\
+  \ or wrong. Understanding the AI's limitations is key; for example, recognizing\
+  \ that it can handle certain tasks but not others. By navigating this space and\
+  \ using these tools, you can significantly enhance your skills at a pace that would\
+  \ otherwise take considerable time if you were learning from a human expert, who\
+  \ would explain it to you piece by piece. \n\nAlternatively, you can learn how to\
+  \ ask the machine, and it will assist you in these tasks. The process of learning\
+  \ how this happens is complex; there isn\u2019t a quick answer. Like most complex\
+  \ tools, the learning process involves a bit of instruction combined with a lot\
+  \ of trial and error to see how it goes. This structure is part of what this course\
+  \ will encompass. is to sort of give you the opportunities to do that within the\
+  \ landscape of the neural control of real-world human movement. Specifically, now\
+  \ coming to AI within an educational context, when I approach this as a career research\
+  \ scientist with decades of experience in this rather specialized field, I find\
+  \ that a lot of times if you're a standard specialist, you are in the niche of a\
+  \ niche of a niche. This means you become a very specific expert. My particular\
+  \ version of that is that I'm in a niche of a niche of a niche of a niche. It's\
+  \ not that deep down, but it represents a breadth versus depth kind of situation.\
+  \ This can be more challenging to teach because I can't assume that you all have\
+  \ gone through the same background. If I were an advanced expert in the epigenetics\
+  \ of immunology, I could ask, \"Have you all done introductory biology, cell biology,\
+  \ etc.?\" Essentially, I need to check that you have the requisite knowledge to\
+  \ reach this level of specificity and depth. With this very broad area, I cannot\
+  \ assume that anyone has all the prerequisites, as I have determined that there\
+  \ is roughly one person in the world with my same background. I tend to bounce around\
+  \ so much that the specificity you achieve leads to a unique combination of skill\
+  \ sets. This is generally good career advice; it is much easier to be unique by\
+  \ combining different things. Eventually, when you look at the overlapping areas\
+  \ of different Venn diagrams, you will discover that the common element among those\
+  \ intersections is likely just you. This approach is much easier and more enjoyable\
+  \ than trying to outcompete everyone else in the same space and domain. But you\
+  \ all have found your way here, so good job! The general vibe of AI within this\
+  \ class will be about engagement. So, who here has used GPT at all? Have you prompted\
+  \ it, talked to it, or interacted with it in some way? Hi. It says hi back. You\
+  \ ask it a question, and it says something back. The base level introduction is\
+  \ that prompting large language models, particularly, are at their core language\
+  \ calculators. In the same way that you would punch a bunch of numbers into a calculator,\
+  \ push go, and get another number, language models do roughly the same thing. You\
+  \ push a bunch of words into their context window, push go, and it looks at its\
+  \ unbelievable data set and provides the statistically most likely answer. That\
+  \ is the expected and desired outcome of the input to the output.\n\nI'm going to\
+  \ say this even though this is a little bit off the topic, but the main thing that\
+  \ happened, I think the main interesting empirical event that occurred, arguably\
+  \ with something like GPT-4 versus earlier incarnations, was when I was an undergraduate\
+  \ studying the philosophy of language. There was this question of whether language\
+  \ requires some sort of native genetic or neurophysiological architecture to happen.\
+  \ Is there something special about the human evolutionary lineage that allows us\
+  \ to use language? Or is it possible to extract language from a large enough data\
+  \ set using clever statistics? When I was in undergrad in 2006, it was hard to say.\
+  \ Who knows? I remember at the time, there were some people who had professors more\
+  \ attuned to what was going on in the field. They were saying that the statistical\
+  \ people were making some interesting progress, but they were still not doing anything\
+  \ that resembled proper language.\n\nWhat happened for me, from my perspective with\
+  \ GPT-4, was that this question was answered very definitively. The answer was yes.\
+  \ It is, in fact, possible to extract language from a large enough data set using\
+  \ clever statistics without ever giving it explicit rules of grammar or explicit\
+  \ concepts of words. I consider that to be an empirical discovery. From a psychological\
+  \ experiment perspective, how do you know that this happened? Well, I'm a human,\
+  \ and I talk to it. I'm like, \"Oh yeah, that's interesting.\" I have a conversation\
+  \ with the machine, and it's clear that the machine is definitely using language.\
+  \ That language is derived purely from the statistics of the data set, which represents\
+  \ essentially every piece of text that has been written on the internet since 1985,\
+  \ along with some clever statistics, specifically Transformer models. If you're\
+  \ interested in that, you can search for it.\n\nThat's a bit of an aside, but I\
+  \ think that's the situation my friend John wanted to discuss. The world may not\
+  \ fully realize this. I do not hear this being discussed in this way in the highest\
+  \ channels. However, the answer to that question has been empirically discovered.\
+  \ You can indeed extract language from statistics.\n\nAnother thing that has happened\
+  \ is that for the first time in history, we now have a secondary example of something\
+  \ that can carry out a conversation. It might not be a good conversation in many\
+  \ cases; it's certainly not human and it's definitely not conscious. But it acts\
+  \ as a cognitive agent. It processes language and performs calculations in its head.\
+  \ You've heard people say, \"Oh, it's not really doing language because it's just\
+  \ using statistics to predict the best output.\" Well, I have some bad news for\
+  \ you about what you're doing when you engage in language.\n\nAnyway, that's part\
+  \ of the landscape of what's going on here. There's also a component, regarding\
+  \ the ethical obligations I feel as the person standing in front of you and addressing\
+  \ the audience. This new technology has emerged, and I don't see it being understood\
+  \ or utilized at large. I feel fairly uniquely suited to teach and demonstrate how\
+  \ to use it. I believe one of the most useful things I can do for you is introduce\
+  \ you to this technology, show you how it works, and teach you how you can apply\
+  \ it in your own cases. Even if you wind up not using it in the future, it will\
+  \ still have an impact on your life from the outside. Like all technologies, this\
+  \ one can and will be used against you. You should understand it to the extent that\
+  \ you can utilize it to help you become a more effective version of yourself. My\
+  \ job and hope is to allow you and help you do that. Specifically, the way that\
+  \ I want to use it is to prompt the bot; the term is prompting. I try to get the\
+  \ bot to act as a simulation of myself and my expertise. Obviously, the very best\
+  \ education you could get from this class would be if I sat down with each one of\
+  \ you individually, asked about your interests, helped you work through things,\
+  \ answered your questions, and provided guidance just for you on call twenty-four\
+  \ seven. Unfortunately, I am a limited human being, and that is not within my capacity.\
+  \ Instead, I can create this bot which is not as good as having a one-on-one conversation\
+  \ with me, but it's not bad. This tool will allow you to engage with it. There are\
+  \ many discussions about how effective these AIs are. In the educational landscape,\
+  \ the responses often seem defensive, discouraging their use for teaching, for writing\
+  \ papers, and basically implying that you shouldn\u2019t cheat. While it is true\
+  \ that AI gets things wrong at times and has what is referred to as 'hallucinations,'\
+  \ the critiques often seem to advise against using it altogether. Indeed, it can\
+  \ provide both correct and incorrect answers with the same level of confidence,\
+  \ due to what is known as the grounding problem in the philosophy of AI. However,\
+  \ its ability to be accurate is largely dependent on its data set. If the question\
+  \ you're asking is present in the data set, it will tend to get it right. It's kind\
+  \ of like a Google search; you can search for pages that exist. If you search for\
+  \ something that doesn't exist, these days it will just give you a bunch of garbage\
+  \ that's close by. I guess a good analogy would be imagining searching for something\
+  \ that doesn't exist. Instead of showing you a bunch of stuff that's not what you\
+  \ want, the answer would be that it takes the top three things you don't want and\
+  \ then tells you that this is the answer to your question. It's not gaslighting\
+  \ you because it truly believes the things that it says, but it is an aspect of\
+  \ the model that it does not know whether it's right or wrong.\n\nHowever, because\
+  \ the nature of this class is to cover a lot of different domains, most of the questions\
+  \ you all will have about these fields and subfields are things that exist in textbooks.\
+  \ If the answer to the question exists in a textbook somewhere, it tends to nail\
+  \ it. I'm saying this based on my experience teaching classes on this topic. If\
+  \ you ask simple questions like, \"What\u2019s the ocular motor system?\" or \"\
+  What\u2019s the cerebellum up to?\" or \"What's up with a muscle? How does it work?\"\
+  \ or \"What\u2019s the evolution of the elbow? What\u2019s the deal?\" or \"What\u2019\
+  s a motor unit?\" or \"What\u2019s a Golgi tendon organ?\" it nails all those questions\
+  \ because those have all been asked and answered at least ten thousand times since\
+  \ 1985 on the internet, so it will tend to get it right.\n\nThe interesting space\
+  \ you are now in is that, for me, I've been alive long enough to have experience.\
+  \ You all don't have that yet, not because you're dumb, but because it takes longer\
+  \ to develop expertise like I have. I've been studying what I study for as long\
+  \ as many of you have been alive. I'm starting to get to the point where I have\
+  \ a good enough sense of the landscape that I know the difference between the things\
+  \ that I know, the things that we know as a species, and the things that we don't\
+  \ quite know as a species. So I am in a good position to talk to the bot and push\
+  \ it into areas where I know the really subtle answers, and I get to see it kind\
+  \ of go wrong, go off the rails, and start making stuff up. It starts guessing and\
+  \ making frankly the kinds of guesses that I see non-experts make. I don't want\
+  \ to talk down about non-research professors, but a teaching professor who is not\
+  \ in the specific domain of research that\u2026 What you're talking about is that\
+  \ not even teaching professors, textbooks are mostly wrong. That's kind of one of\
+  \ the secrets: if it has been around long enough to be written down in a textbook,\
+  \ it's probably wrong at some level. At the very least, it's a cartoonized version\
+  \ of the real thing, which is always going to be more complex and less stable than\
+  \ you are often led to believe. \n\nOne of the many themes of this class will be\
+  \ acting under uncertainty. A recurrent theme is that we know a lot\u2014we know\
+  \ a lot more and a lot less than you are often taught. The nature of undergraduate\
+  \ education, with tests, quizzes, papers, and grades, creates a certification system.\
+  \ This system suggests that yes, you understand organic chemistry to some degree.\
+  \ The nature of that process is that things are often presented to you as if they\
+  \ are right or wrong, true or false. For example, what's the answer to this question?\
+  \ Oh, it's B. That's not really how the world works.  \n\nQuestions can be much\
+  \ more nuanced, and we will get into the philosophy of science aspect of that later.\
+  \ The world is a lot murkier than we would like it to be, and this is true in science\
+  \ and every field. I lost my point, but anyway, the idea is that within this space,\
+  \ the structure of this class is going to encourage you to navigate these complexities.\
+  \ \n\nWhat AI will allow us to do, as compared to earlier eras, is to enable each\
+  \ of you to navigate a more uniquely specified trajectory through this space. If\
+  \ I'm up here giving a lecture about biomechanics or neuromechanics, I have to think\
+  \ about whether you will be able to follow this material\u2014if any of it is going\
+  \ to land. Therefore, I have to limit the density of the things I say to ensure\
+  \ that at least a percentage of you can follow the plot. \n\nIs the class over?\
+  \ One thing I get to do with AI, and I think we should have time to try this, is\
+  \ that it allows me to be much denser in the information I present to you. I will\
+  \ be talking about things that might be over your head. It's going to come real\
+  \ fast, and you're not going to follow all of it; I can guarantee you that. But\
+  \ that's going to be okay because I am going to record it. Once I record it, I'll\
+  \ create an outline of topics and put that into one of the channels. One of the\
+  \ assignments will be to ask the bot about whichever part was the most interesting\
+  \ to you, which part was the most confusing, which part you wish I had elaborated\
+  \ on, and which part I mentioned that you didn't understand at all. My goal will\
+  \ be to cover everything that needs to be said in a way that you can follow because\
+  \ you are all smart people. Your job will be to stand in front of the fire hose\
+  \ and try not to let your brain turn off entirely. Try to let it wash over you and\
+  \ notice when something wakes you up\u2014when I mention a topic that grabs your\
+  \ attention. Take note of those things, and then in your own time, with your machines\
+  \ or whatever tools you have, explore those topics to seek deeper knowledge. You\
+  \ can do that 24 hours a day, seven days a week. This thing will answer every question\
+  \ you have at any point, forever. It will never get tired, never get annoyed; there\
+  \ are no dumb questions. Learning how to navigate that is important. Essentially,\
+  \ it will eliminate the traditional problems of student teaching, helping you jump\
+  \ over hurdles and out of those states of confusion where you feel lost and don't\
+  \ know which way to go. Just ask the machine, and it will provide you with help.\
+  \ We have 35 minutes left, so calm down. I\u2019m deciding how to proceed. I want\
+  \ to ensure that I set you up with the technical aspects, but I might also end up\
+  \ dumping a lot of content on you. Of class stuff, I'm going to focus on the technical\
+  \ setup. There's a whole rest of the semester left. No syllabus survives first contact\
+  \ with the classroom, so if the schedule shifts, I'm honestly okay with that. So,\
+  \ yeah, something like 20 of you have made it here already. To start, let's begin\
+  \ with the canvas course and"
+title: HMN2024 - 00 - Intro to class
+transcript_chunks:
+- dur: 180.0
+  end: 180.0
+  start: 0.0
+  text: "I am now starting the recording and beginning to talk. I gave myself some\
+    \ notes to reference. This is a topics course, which, as you all know, is typically\
+    \ off the main schedule. Topics courses usually focus on subjects that do not\
+    \ have a proper class around them yet. Oftentimes, these classes are taught to\
+    \ allow a research professor, like me, to highlight their own research in a way\
+    \ that doesn't fit within the standard curriculum of the university or the standard\
+    \ STEM classes that you might typically take. \n\nAs I mentioned, I am technically\
+    \ a professor of biology, even though I do not primarily work in biology. In this\
+    \ school, there isn't a dedicated Neuroscience Department. There is the BNS program,\
+    \ which I can never remember whether it is a sub major or minor. My research could\
+    \ fit into a number of different departments, the most obvious being biology since\
+    \ I study the neural aspects of things. Psychology would also be a more fitting\
+    \ department because it includes sensory and motor control topics.\n\nThese days,\
+    \ I do a tremendous amount of software development, focusing on methods building\
+    \ and research tool development, which is a relatively recent development for\
+    \ me. I have also worked closely with robotics, biomechanics, and physical therapy.\
+    \ The specific subdomain of research that I carve out does not really fit into\
+    \ any particular department. \n\nPart of the main structure of this course is\
+    \ to think about what the inroads are to the specific subject I study, which I\
+    \ will discuss in a moment. The goal is to provide a very broad survey of the\
+    \ various subtopics that come together to form the specific domain of study, which\
+    \ is human movement in natural environments. More importantly, I aim to explore\
+    \ my specific approach to studying this subject, as there are many ways to study\
+    \ a topic, and I come from an unusual and diverse background. This raises an interesting\
+    \ question about how to introduce someone to that field. It's not just a field;\
+    \ it is more of a ..."
+- dur: 180.0
+  end: 360.0
+  start: 180.0
+  text: 'One thing I''ve learned to do over the course of a couple of decades is to
+    acknowledge something at the beginning of every class that I teach. I have never
+    found a great way to express it, but I would not feel comfortable teaching a class
+    full of undergraduate students without addressing the moral elephant in the room.
+    This is that none of this is okay. None of the general structure of academia or
+    education is morally defensible at almost any level. The extent to which you are
+    being exploited financially to be in this room is absolutely indefensible and
+    unconscionable. There is truly nothing that I could ever do from this side of
+    the podium that would be worth the financial burden placed on you by being here.
+    You can do the math to calculate the number of people times the annual tuition,
+    room, and board. The number would come out to be something like two to three million
+    dollars. If you wanted to be more conservative and only count credit hours, it
+    would be somewhere around a quarter of a million dollars. It''s absolutely indefensible
+    and not okay. Over the course of my four to five years, I have lost track of time
+    as a professor here. I have had to find different ways to handle what is termed
+    moral harm. This term refers to the psychological trauma that occurs when you
+    are forced to participate in an institution or system that is morally repugnant
+    to you in some way. I am here for many of the reasons you are here, which is because
+    I love learning, I love teaching, and I love the scientific exploration of the
+    nature of society as it is. To do that at the highest level, you sort of have
+    to come to institutions like this one for legal reasons in order to participate.
+    It is something I did not fully comprehend until I became a professor. You, as
+    students, experience life as a student, which is essentially as a temporary person
+    in an institution like this, with a set amount of time to be here to earn your
+    degree before you leave. Everything leading up to and including the point of becoming
+    a professor has that characteristic: first, you are an undergraduate, then you
+    are a graduate student.'
+- dur: 180.0
+  end: 540.0
+  start: 360.0
+  text: "As a student, then you're a postdoc, and if you outcompete your peers, which\
+    \ is an insane concept\u2014why are you trying to outcompete your peers? You should\
+    \ work with your peers. Anyway, we'll get on to that. Up until that point, there\
+    \ is this sort of temporary nature to it. In retrospect, it felt like I was struggling\
+    \ against the system to try to succeed in that context. Then I happened to become\
+    \ a professor in the summer of 2019, so I had about a year of thinking, 'Boy,\
+    \ I sure did make it, and this is probably fine.' Then summer of 2020 rolled around,\
+    \ COVID happened, and with all of the various ways that affected the world at\
+    \ large and me in particular, I basically lost all faith in the academic and scientific\
+    \ systems that summer. I experienced a crisis of conscience and was trying to\
+    \ find ways to restructure my life and my efforts. I had about 35 years of experience,\
+    \ close to 20 years of effort to make it to this point, which is a position of\
+    \ non-zero social power. There's this general idea of 'don't give up' if you can\
+    \ use it to benefit your own moral beliefs or whatever. It was a hard and challenging\
+    \ thing to think about. Often, when you work within institutions, there's a conflation\
+    \ between the values you hold and the institutions that are sort of the vehicles\
+    \ for those values. When you lose faith in an institution, which I highly recommend\u2014\
+    you should trust people, not institutions\u2014there's this whole thing of trying\
+    \ to figure out what I was actually here for, what my actual goals and morals\
+    \ and values are. A lot of things came out of that, probably stuff that I still\
+    \ should not say on camera. The general idea was a shift of focus from doing traditional\
+    \ modes of research and education. That still involves doing research for publications,\
+    \ applying for grants, and producing students who will try to climb the same ladder\
+    \ you are on, understanding entirely that to get tenure, you\u2019re supposed\
+    \ to produce more than two people who are also trying to get tenure."
+- dur: 180.0
+  end: 720.0
+  start: 540.0
+  text: "Years at another school, which is sort of the definition of a Ponzi scheme,\
+    \ was the effort. Oftentimes, when you're working in these types of systems that\
+    \ we tend to live in, which are competition-based hierarchies predicated on assumptions\
+    \ of false scarcity, the game that you play requires you to compete with people\
+    \ who are at your same level in the hierarchy in order to please those who are\
+    \ above you. Most of whom have been in those positions longer, sort of a gerontocracy\
+    \ type of thing. I realized that a significant percentage of the effort I was\
+    \ putting into the world was in service of the people above me in the hierarchy.\
+    \ I was trying to do the things they wanted me to do so that I could outperform\
+    \ my peers and be allowed to stay in the warm, happy shining tower at the top\
+    \ of the hill where we are all currently situated. One of the big changes, or\
+    \ the brain shift that happened, was deciding to stop doing that\u2014to stop\
+    \ caring about or considering what I was being asked to do by people above me\
+    \ in the hierarchy. Instead, I started asking what I could do to support people\
+    \ who were at or below me in that same hierarchy, which is largely all types.\
+    \ From a practical perspective, during that time of doing research, I ended up\
+    \ with all these papers that we will talk about. With that crisis of conscience,\
+    \ there was the question: Well, if universities are probably evil and journals\
+    \ are definitely evil, but I do love the research and I do love teaching, what\
+    \ do you do if you don't want to do the dumb work of publishing a bunch of papers\
+    \ to try to make the powers that be happy, to please the gatekeeping dinosaurs\
+    \ above you? What do you do with your time? Around that time, through other modes...\
+    \ I mean, I had basically a big fancy lab at Richard 453, which you all will be\
+    \ touring with Aaron. Not next week because I'll be out of town. When COVID hit,\
+    \ I showed up with all these plans for the research I was going to do in the big\
+    \ fancy lab, and they were doing the construction. The construction wrapped up\
+    \ around January, and I was sort of gearing up to start the research cycle. Then\
+    \ quarantine hit, and I was sent home and had to flail around for a while trying\
+    \ to figure out what I was going to do with my time."
+- dur: 180.0
+  end: 900.0
+  start: 720.0
+  text: "What are we going to do with our time? At that time, I wound up\u2014there\
+    \ were a couple of things happening in my lab, most of which were related to the\
+    \ work in the big fancy map lab. Then there was one little side project that involved\
+    \ a computer vision-based method for doing motion capture with a cheap webcam\
+    \ in free software. When COVID hit, we shifted our effort towards working entirely\
+    \ on that project because it was something we could work on remotely with ease.\
+    \ That was around March, and as we got into the summer, that project started to\
+    \ pick up some steam. I began to lose faith in the system and started to come\
+    \ across software such as Blender. We're going to talk about Blender; it's a free,\
+    \ open-source 3D animation software. It's been around for decades, developed on\
+    \ a large scale, and it is 100% free and 100% open-source, built over the years\
+    \ by thousands of people across the world and given away freely as a gift for\
+    \ anyone to use and benefit from. I had this realization that this was actually\
+    \ the thing I wanted to be doing. The open-source community is what the scientific\
+    \ community pretends to be like. We pretend as scientists that we are involved\
+    \ in a big global collaborative endeavor, but practically speaking, you're just\
+    \ not really able to do it. Most of the research that gets done really shouldn't\
+    \ be done; it's not good research, it's just smart research. It's strategically\
+    \ the right move to get the publication, to get the grants, to get the job, to\
+    \ get the tenure. And it often will serve\u2014I'm not saying that all scientists\
+    \ are less than intelligent or that all research is worthless, though the percentage\
+    \ is higher than you would wish it to be. The nature of the institutions that\
+    \ house it and the realities of the hyper-competitive structures of society that\
+    \ we\u2019ve created for ourselves mean that you're not really able to do it in\
+    \ a way that benefits anybody outside of the club. When you see traditional scientists\
+    \ doing outreach, it's often this kind of side thought: they might go to a high\
+    \ school, show them how cool it is to be highly educated, and then just leave,\
+    \ hoping that the students are inspired enough to follow in their path, out-compete\
+    \ their peers, and perhaps someday make it into that shining tower at the top\
+    \ of the hill."
+- dur: 180.0
+  end: 1080.0
+  start: 900.0
+  text: 'It just didn''t seem right to me, so long story short, all of that kind of
+    culminated over a long course of time. This became, basically, did I break it?
+    This is the computer. There you go. So this is FreeoCap.org. This is a software
+    that I''ve been working on with Aaron for about five years. It''s called Freeo
+    CAP; it''s a free, open-source, marketless motion capture system. It''s basically
+    been the thing that has soaked up the energy that would have been spent publishing
+    papers and trying to make people happy. Instead, I spent my time building this
+    tool to do full-body motion capture with inexpensive webcams and free software,
+    and it''s been going quite well. We''re going to talk plenty more about that.
+    It''s on GitHub at Freeo CAP, and there''s a Discord server with about 2,500 members.
+    I think last I checked, we are approaching 500,000 unique users in about 115 countries,
+    which is all quite good.
+
+
+    The focus of the project and the software is to use my particular skill set and
+    expertise, which I have accumulated over the course of decades, mostly using taxpayer
+    funding to pay my salaries. Rather than trying to use that to publish super esoteric
+    papers that will only benefit other super esoteric people, the goal was to package
+    that expertise to build a tool that meets a general need of society at large.
+    I''m trying to set up building that tool as both something the world wants and
+    as a tool I want to use for my research. Ideally, I''m trying to use that as a
+    mechanism for building bridges and pulling people in. A lot of the users of this
+    software are animators, often young 3D animation artists, video game designers,
+    and also a bunch of students, grad students, and professionals in biomechanics
+    and clinical fields. There are dancers and musicians as well, and they are using
+    this software for their own purposes. That''s part of it; I don''t want to...'
+- dur: 180.0
+  end: 1260.0
+  start: 1080.0
+  text: I would rather just give you useful tools and let you do what you want with
+    them. However, because I, with help from Global Wei, designed this tool from my
+    perspective, I am also trying to make it a tool that serves as an educational
+    platform in its own right. It does not teach you directly; it does not provide
+    lessons and quizzes. The nature of the tool is to teach you how it works and to
+    provide a sort of greased rail into the densest part of the forest, shining enough
+    light so you can navigate around it. A lot of the education you typically receive
+    starts with the basics, focusing on the simple, often boring material that does
+    not motivate you on its own. You are told, "Trust me, it will lead somewhere cool.
+    If you can outlast your peers long enough, you will get to see all the fun stuff."
+    I've heard the advice more than once that I should be careful not to make it too
+    easy to use, otherwise students won't understand what's going on. This perspective
+    is puzzling to me because, in the natural world, your first reaction upon encountering
+    something is often confusion. When you come across a strange artifact, that initial
+    encounter yields the least understanding, and if you're lucky, you will slowly
+    back into a level of comprehension. Rather than holding your hand down a specific
+    path with a predetermined outcome, I want to show you a broad landscape that will
+    likely be over your head for the most part. I aim to provide you the tools to
+    gravitate toward the parts of that landscape that are most motivating to you as
+    individuals, allowing you to back your way into a place of understanding. You
+    can work your way from the advanced material in the center of the woods back to
+    the beginner concepts with which we should have started, grounding yourself from
+    that position.
+- dur: 180.0
+  end: 1440.0
+  start: 1260.0
+  text: It's such a broad landscape that you're all going to find different parts
+    of it, and you're going to need different aspects of that beginner basic stuff.
+    We'll kind of gravitate in that direction. So, let me see where I'm at with this.
+    There's more context. Right, so that's the general gist of the life that I live.
+    There's a little bit of overlap with the class because I'm the one standing up
+    here and you are all over there. Specifically within this class, there is another
+    player, which is the story I was telling you about regarding the loss of faith
+    and the finding of the free open-source thing, and the reshaping around this software
+    and educational tools. All of that basically started in the summer of 2020 and
+    has been progressing since then. I've taught a couple of classes that reflect
+    that vibe. I see a couple of familiar faces, possibly from inquiries. Has anyone
+    been in a class with me before? No? Who are you people? Well, I've worked on trying
+    to teach this type of stuff, like this broad landscape thing, incorporating as
+    many of these tech tools as I could. Then, I guess it was about two years ago,
+    in April, there was a certain technological event that occurred, and you have
+    heard about it. The hype cycle has sort of come and gone to the point where you're
+    probably annoyed about it at this point. The thing in question is artificial intelligence.
+    My background is in philosophy; I have a degree in philosophy focused on the philosophy
+    of mind and philosophy of science. There is going to be a lot of that, specifically
+    the philosophy of science, in this course. From there, I got a PhD in cognitive
+    science, which is effectively AI studies these days. My particular domain within
+    cognitive science, another one of these comedically broad fields, is on the biological
+    side, like psychology and neuroscience. However, I also did a lot of work with
+    robotics.
+- dur: 180.0
+  end: 1620.0
+  start: 1440.0
+  text: 'I learned a lot about AI, machine learning, and the theories of language.
+    I have been following various language models since roughly 2008. When GPT-3.5
+    came out, I was impressed; it was clear that they had really been working hard
+    on this technology. Then, when GPT-4 was released, it felt like a significant
+    shift had occurred, and it became important to take note of it. I remember very
+    clearly that at some point, I reached out to my friend John Linstead, who is from
+    graduate school and has a background more on the AI side of things. He was a director
+    of the cognitive science program at SUNY Oswego for a while. We connected via
+    Discord and said, "John, we need to discuss the situation." We both immediately
+    recognized that AI exists and that there isn''t a need to worry about it coming
+    to life in a threatening way. However, nearly every source of information on the
+    topic seems to miss the point to some degree. As an expert, I can confidently
+    say that many are mistaken. This is not the endgame, and much is still to happen.
+    The reality is that this is a major technological shift that will definitely reshape
+    our society in various predictable and unpredictable ways over the next 5, 10,
+    or even 20 years, and not necessarily for the better. Like most technologies,
+    it arises from technocapitalist corporations, which are the source of many problems
+    and harms in our society. Just as they have caused significant damage to our social
+    infrastructure over the past two decades, they will continue to do so. Whenever
+    a new technology appears, technocapitalists rush to capitalize on it, building
+    models around it to sequester resources and exploit the world at large. This is
+    the true core of capitalism: to exploit disparities.'
+- dur: 180.0
+  end: 1800.0
+  start: 1620.0
+  text: "between yourself and others to extract resources from them. A lot of this\
+    \ has probably become somewhat apparent, and there is probably at least a percentage\
+    \ of you who feel like, 'Aye,' because it is so overwhelmingly tied to the corpo-technocapitalist\
+    \ infrastructure. However, there is another angle to consider. It can be very\
+    \ difficult to recognize, especially when coming at something from a non-expert\
+    \ position, the distinction between the core technology that exists and the implementation\
+    \ of that technology. It is hard for us to see things like GPT-4 from OpenAI as\
+    \ anything other than just another arm of Microsoft. It is difficult to view whatever\
+    \ it is that Google is trying to do as anything other than another way to steal\
+    \ your data and another way to shape the world around you, like squeezing $20\
+    \ a month out of you for a bunch of basic functionalities that you will eventually\
+    \ require for your daily life. \n\nBut I think it is really important to recognize\
+    \ that this particular technology is different. Unlike many other tools, such\
+    \ as computers and phones, AI is also a world-shaping technology that has shaped\
+    \ our reality. You are a part of it, and many of you are both beneficiaries and\
+    \ harmed individuals from what has happened over the last 20 years. The entire\
+    \ world has shifted to the point where everything we do in our daily lives is\
+    \ pushed and pulled through apps created by corporations that do not have your\
+    \ best interests at heart. There is an inherent disparity between the ability\
+    \ to create these applications and build these technologies, which has been easy\
+    \ to exploit. \n\nI cannot make this technology; I cannot create a chip. I mean,\
+    \ I guess I can build an app, but it will not be the same as what you would get\
+    \ from Google or Facebook. They get to take advantage of the fact that this technology\
+    \ is now essential. We encounter these technologies, and we reshape our society\
+    \ around them. There are limitations in this regard. \n\nI believe AI is different\
+    \ because fundamentally, they are trying to build something monumental. It is\
+    \ a tool that will teach you."
+- dur: 180.0
+  end: 1980.0
+  start: 1800.0
+  text: "How it works is that it will show you everything there is to know about itself,\
+    \ and they're trying to corral it and control it in a way that they're accustomed\
+    \ to, but it's kind of just not working in the way they expect. We'll talk about\
+    \ that in detail. I don't want to go too deep down this rabbit hole because that\
+    \ is definitely something I like to do, but I\u2019m mostly commenting on the\
+    \ skepticism that I think is a fair response to the world we live in. I do think\
+    \ that AI, when used properly, is something with the ability to be a transformatively\
+    \ liberating tool, one that has the potential to make every single person who\
+    \ learns how to use it a more powerful and capable version of themselves. It is\
+    \ not an oracle that will solve all of your problems, which is often how it is\
+    \ pushed on you. It\u2019s not something that will automatically make the world\
+    \ better, but it is an unbelievably powerful tool. If you learn how to use it,\
+    \ whatever it is that you are trying to do in your life, if it involves the generation,\
+    \ understanding, or manipulation of text on a screen, AI can help with that. It\
+    \ won\u2019t build your life for you, but it is an incredibly powerful tool with\
+    \ a very shallow initial learning curve and, as far as I can tell, unlimited potential.\n\
+    \nThat leads us to Discord. I spend a lot of my life on Discord; I wish I didn't.\
+    \ I appreciate the software for what it is, but I also kind of hate it for what\
+    \ it is. When GPT-4 came online, which would have been in the spring of 2023,\
+    \ one of the first things I did was build a bot out of it and start using it to\
+    \ teach a class. I taught a summer class, then another version of this class last\
+    \ fall, and a class in the Capstone in the spring, but that didn\u2019t go so\
+    \ well. Now, this is the fourth iteration of using AI."
+- dur: 180.0
+  end: 2160.0
+  start: 1980.0
+  text: "Discord AI empowers a Discord bot as a way to teach and provide users with\
+    \ the ability to explore a topic that is broad, vast, and complex. We will talk\
+    \ about the details of that at some point, but the basic idea is that there is\
+    \ a server structured roughly around the topic of the class. Within this server,\
+    \ there is a bot named Skelly Bot. Skelly is the logo and mascot of Free Mocap,\
+    \ and the software has various parts, all named after Skelly, such as the camera\
+    \ part called Skelly Cam and the bot part called Skelly Bot. \n\nIf you're curious\
+    \ about Skelly Bot, you can click on it, and the GitHub link will take you to\
+    \ its source code. The most important part of this is the phrase, \"This bot helped\
+    \ me build this bot.\" I could not have made this without it. The skills and technical\
+    \ aspects required to build something like this were not part of my training;\
+    \ I managed to hack and slash my way through grad school and build the basics\
+    \ of the Free Mocap software, which is my area of expertise. However, I have only\
+    \ a theoretical understanding of AI. \n\nBuilding a tool like this was beyond\
+    \ my capabilities, but AI makes it easier. You can simply ask, \"Hey, could you\
+    \ help me with this?\" and it will respond with an answer that is mostly correct,\
+    \ though not always. If you learn how to navigate and leverage that, you can discern\
+    \ when AI is right or wrong. Understanding the AI's limitations is key; for example,\
+    \ recognizing that it can handle certain tasks but not others. By navigating this\
+    \ space and using these tools, you can significantly enhance your skills at a\
+    \ pace that would otherwise take considerable time if you were learning from a\
+    \ human expert, who would explain it to you piece by piece. \n\nAlternatively,\
+    \ you can learn how to ask the machine, and it will assist you in these tasks.\
+    \ The process of learning how this happens is complex; there isn\u2019t a quick\
+    \ answer. Like most complex tools, the learning process involves a bit of instruction\
+    \ combined with a lot of trial and error to see how it goes. This structure is\
+    \ part of what this course will encompass."
+- dur: 180.0
+  end: 2340.0
+  start: 2160.0
+  text: is to sort of give you the opportunities to do that within the landscape of
+    the neural control of real-world human movement. Specifically, now coming to AI
+    within an educational context, when I approach this as a career research scientist
+    with decades of experience in this rather specialized field, I find that a lot
+    of times if you're a standard specialist, you are in the niche of a niche of a
+    niche. This means you become a very specific expert. My particular version of
+    that is that I'm in a niche of a niche of a niche of a niche. It's not that deep
+    down, but it represents a breadth versus depth kind of situation. This can be
+    more challenging to teach because I can't assume that you all have gone through
+    the same background. If I were an advanced expert in the epigenetics of immunology,
+    I could ask, "Have you all done introductory biology, cell biology, etc.?" Essentially,
+    I need to check that you have the requisite knowledge to reach this level of specificity
+    and depth. With this very broad area, I cannot assume that anyone has all the
+    prerequisites, as I have determined that there is roughly one person in the world
+    with my same background. I tend to bounce around so much that the specificity
+    you achieve leads to a unique combination of skill sets. This is generally good
+    career advice; it is much easier to be unique by combining different things. Eventually,
+    when you look at the overlapping areas of different Venn diagrams, you will discover
+    that the common element among those intersections is likely just you. This approach
+    is much easier and more enjoyable than trying to outcompete everyone else in the
+    same space and domain. But you all have found your way here, so good job! The
+    general vibe of AI within this class will be about engagement. So, who here has
+    used GPT at all? Have you prompted it, talked to it, or interacted with it in
+    some way?
+- dur: 180.0
+  end: 2520.0
+  start: 2340.0
+  text: 'Hi. It says hi back. You ask it a question, and it says something back. The
+    base level introduction is that prompting large language models, particularly,
+    are at their core language calculators. In the same way that you would punch a
+    bunch of numbers into a calculator, push go, and get another number, language
+    models do roughly the same thing. You push a bunch of words into their context
+    window, push go, and it looks at its unbelievable data set and provides the statistically
+    most likely answer. That is the expected and desired outcome of the input to the
+    output.
+
+
+    I''m going to say this even though this is a little bit off the topic, but the
+    main thing that happened, I think the main interesting empirical event that occurred,
+    arguably with something like GPT-4 versus earlier incarnations, was when I was
+    an undergraduate studying the philosophy of language. There was this question
+    of whether language requires some sort of native genetic or neurophysiological
+    architecture to happen. Is there something special about the human evolutionary
+    lineage that allows us to use language? Or is it possible to extract language
+    from a large enough data set using clever statistics? When I was in undergrad
+    in 2006, it was hard to say. Who knows? I remember at the time, there were some
+    people who had professors more attuned to what was going on in the field. They
+    were saying that the statistical people were making some interesting progress,
+    but they were still not doing anything that resembled proper language.
+
+
+    What happened for me, from my perspective with GPT-4, was that this question was
+    answered very definitively. The answer was yes. It is, in fact, possible to extract
+    language from a large enough data set using clever statistics without ever giving
+    it explicit rules of grammar or explicit concepts of words. I consider that to
+    be an empirical discovery. From a psychological experiment perspective, how do
+    you know that this happened? Well,'
+- dur: 180.0
+  end: 2700.0
+  start: 2520.0
+  text: 'I''m a human, and I talk to it. I''m like, "Oh yeah, that''s interesting."
+    I have a conversation with the machine, and it''s clear that the machine is definitely
+    using language. That language is derived purely from the statistics of the data
+    set, which represents essentially every piece of text that has been written on
+    the internet since 1985, along with some clever statistics, specifically Transformer
+    models. If you''re interested in that, you can search for it.
+
+
+    That''s a bit of an aside, but I think that''s the situation my friend John wanted
+    to discuss. The world may not fully realize this. I do not hear this being discussed
+    in this way in the highest channels. However, the answer to that question has
+    been empirically discovered. You can indeed extract language from statistics.
+
+
+    Another thing that has happened is that for the first time in history, we now
+    have a secondary example of something that can carry out a conversation. It might
+    not be a good conversation in many cases; it''s certainly not human and it''s
+    definitely not conscious. But it acts as a cognitive agent. It processes language
+    and performs calculations in its head. You''ve heard people say, "Oh, it''s not
+    really doing language because it''s just using statistics to predict the best
+    output." Well, I have some bad news for you about what you''re doing when you
+    engage in language.
+
+
+    Anyway, that''s part of the landscape of what''s going on here. There''s also
+    a component, regarding the ethical obligations I feel as the person standing in
+    front of you and addressing the audience. This new technology has emerged, and
+    I don''t see it being understood or utilized at large. I feel fairly uniquely
+    suited to teach and demonstrate how to use it. I believe one of the most useful
+    things I can do for you is introduce you to this technology, show you how it works,
+    and teach you how you can apply it in your own cases. Even if you wind up not
+    using it in the future, it will still have an impact on your life from the outside.
+    Like all technologies, this one can and will be used against you.'
+- dur: 180.0
+  end: 2880.0
+  start: 2700.0
+  text: "You should understand it to the extent that you can utilize it to help you\
+    \ become a more effective version of yourself. My job and hope is to allow you\
+    \ and help you do that. Specifically, the way that I want to use it is to prompt\
+    \ the bot; the term is prompting. I try to get the bot to act as a simulation\
+    \ of myself and my expertise. Obviously, the very best education you could get\
+    \ from this class would be if I sat down with each one of you individually, asked\
+    \ about your interests, helped you work through things, answered your questions,\
+    \ and provided guidance just for you on call twenty-four seven. Unfortunately,\
+    \ I am a limited human being, and that is not within my capacity. Instead, I can\
+    \ create this bot which is not as good as having a one-on-one conversation with\
+    \ me, but it's not bad. This tool will allow you to engage with it. There are\
+    \ many discussions about how effective these AIs are. In the educational landscape,\
+    \ the responses often seem defensive, discouraging their use for teaching, for\
+    \ writing papers, and basically implying that you shouldn\u2019t cheat. While\
+    \ it is true that AI gets things wrong at times and has what is referred to as\
+    \ 'hallucinations,' the critiques often seem to advise against using it altogether.\
+    \ Indeed, it can provide both correct and incorrect answers with the same level\
+    \ of confidence, due to what is known as the grounding problem in the philosophy\
+    \ of AI. However, its ability to be accurate is largely dependent on its data\
+    \ set."
+- dur: 180.0
+  end: 3060.0
+  start: 2880.0
+  text: "If the question you're asking is present in the data set, it will tend to\
+    \ get it right. It's kind of like a Google search; you can search for pages that\
+    \ exist. If you search for something that doesn't exist, these days it will just\
+    \ give you a bunch of garbage that's close by. I guess a good analogy would be\
+    \ imagining searching for something that doesn't exist. Instead of showing you\
+    \ a bunch of stuff that's not what you want, the answer would be that it takes\
+    \ the top three things you don't want and then tells you that this is the answer\
+    \ to your question. It's not gaslighting you because it truly believes the things\
+    \ that it says, but it is an aspect of the model that it does not know whether\
+    \ it's right or wrong.\n\nHowever, because the nature of this class is to cover\
+    \ a lot of different domains, most of the questions you all will have about these\
+    \ fields and subfields are things that exist in textbooks. If the answer to the\
+    \ question exists in a textbook somewhere, it tends to nail it. I'm saying this\
+    \ based on my experience teaching classes on this topic. If you ask simple questions\
+    \ like, \"What\u2019s the ocular motor system?\" or \"What\u2019s the cerebellum\
+    \ up to?\" or \"What's up with a muscle? How does it work?\" or \"What\u2019s\
+    \ the evolution of the elbow? What\u2019s the deal?\" or \"What\u2019s a motor\
+    \ unit?\" or \"What\u2019s a Golgi tendon organ?\" it nails all those questions\
+    \ because those have all been asked and answered at least ten thousand times since\
+    \ 1985 on the internet, so it will tend to get it right.\n\nThe interesting space\
+    \ you are now in is that, for me, I've been alive long enough to have experience.\
+    \ You all don't have that yet, not because you're dumb, but because it takes longer\
+    \ to develop expertise like I have. I've been studying what I study for as long\
+    \ as many of you have been alive. I'm starting to get to the point where I have\
+    \ a good enough sense of the landscape that I know the difference between the\
+    \ things that I know, the things that we know as a species, and the things that\
+    \ we don't quite know as a species. So I am in a good position to talk to the\
+    \ bot and push it into areas where I know the really subtle answers, and I get\
+    \ to see it kind of go wrong, go off the rails, and start making stuff up. It\
+    \ starts guessing and making frankly the kinds of guesses that I see non-experts\
+    \ make. I don't want to talk down about non-research professors, but a teaching\
+    \ professor who is not in the specific domain of research that\u2026"
+- dur: 180.0
+  end: 3240.0
+  start: 3060.0
+  text: "What you're talking about is that not even teaching professors, textbooks\
+    \ are mostly wrong. That's kind of one of the secrets: if it has been around long\
+    \ enough to be written down in a textbook, it's probably wrong at some level.\
+    \ At the very least, it's a cartoonized version of the real thing, which is always\
+    \ going to be more complex and less stable than you are often led to believe.\
+    \ \n\nOne of the many themes of this class will be acting under uncertainty. A\
+    \ recurrent theme is that we know a lot\u2014we know a lot more and a lot less\
+    \ than you are often taught. The nature of undergraduate education, with tests,\
+    \ quizzes, papers, and grades, creates a certification system. This system suggests\
+    \ that yes, you understand organic chemistry to some degree. The nature of that\
+    \ process is that things are often presented to you as if they are right or wrong,\
+    \ true or false. For example, what's the answer to this question? Oh, it's B.\
+    \ That's not really how the world works.  \n\nQuestions can be much more nuanced,\
+    \ and we will get into the philosophy of science aspect of that later. The world\
+    \ is a lot murkier than we would like it to be, and this is true in science and\
+    \ every field. I lost my point, but anyway, the idea is that within this space,\
+    \ the structure of this class is going to encourage you to navigate these complexities.\
+    \ \n\nWhat AI will allow us to do, as compared to earlier eras, is to enable each\
+    \ of you to navigate a more uniquely specified trajectory through this space.\
+    \ If I'm up here giving a lecture about biomechanics or neuromechanics, I have\
+    \ to think about whether you will be able to follow this material\u2014if any\
+    \ of it is going to land. Therefore, I have to limit the density of the things\
+    \ I say to ensure that at least a percentage of you can follow the plot. \n\n\
+    Is the class over? One thing I get to do with AI, and I think we should have time\
+    \ to try this, is that it allows me to be much denser in the information I present\
+    \ to you. I will be talking about things that might be over your head."
+- dur: 180.0
+  end: 3420.0
+  start: 3240.0
+  text: "It's going to come real fast, and you're not going to follow all of it; I\
+    \ can guarantee you that. But that's going to be okay because I am going to record\
+    \ it. Once I record it, I'll create an outline of topics and put that into one\
+    \ of the channels. One of the assignments will be to ask the bot about whichever\
+    \ part was the most interesting to you, which part was the most confusing, which\
+    \ part you wish I had elaborated on, and which part I mentioned that you didn't\
+    \ understand at all. My goal will be to cover everything that needs to be said\
+    \ in a way that you can follow because you are all smart people. Your job will\
+    \ be to stand in front of the fire hose and try not to let your brain turn off\
+    \ entirely. Try to let it wash over you and notice when something wakes you up\u2014\
+    when I mention a topic that grabs your attention. Take note of those things, and\
+    \ then in your own time, with your machines or whatever tools you have, explore\
+    \ those topics to seek deeper knowledge. You can do that 24 hours a day, seven\
+    \ days a week. This thing will answer every question you have at any point, forever.\
+    \ It will never get tired, never get annoyed; there are no dumb questions. Learning\
+    \ how to navigate that is important. Essentially, it will eliminate the traditional\
+    \ problems of student teaching, helping you jump over hurdles and out of those\
+    \ states of confusion where you feel lost and don't know which way to go. Just\
+    \ ask the machine, and it will provide you with help. We have 35 minutes left,\
+    \ so calm down. I\u2019m deciding how to proceed. I want to ensure that I set\
+    \ you up with the technical aspects, but I might also end up dumping a lot of\
+    \ content on you."
+- dur: 180.0
+  end: 3600.0
+  start: 3420.0
+  text: Of class stuff, I'm going to focus on the technical setup. There's a whole
+    rest of the semester left. No syllabus survives first contact with the classroom,
+    so if the schedule shifts, I'm honestly okay with that. So, yeah, something like
+    20 of you have made it here already. To start, let's begin with the canvas course
+    and
+video_id: cB6lWKBlEhE

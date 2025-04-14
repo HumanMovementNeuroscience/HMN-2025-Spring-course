@@ -1,0 +1,1887 @@
+full_transcript: "Okay, hello everybody, settle down. Welcome to this Bonus Week,\
+  \ and thank you for showing up. Because this class doesn't have a class the first\
+  \ week of the semester, and the semester starts on Wednesday, it's like this weird\
+  \ little half-week that is kind of part of that. I appreciate you showing up. If\
+  \ you're watching this on a video and didn't show up, I understand.\n\nSo, the cadence\
+  \ of the semester has actually been working out pretty nicely. Last time, we had\
+  \ the fun little walkthrough of my prior research experience, providing a hypothetically\
+  \ sufficient background to cover it. Now, this is the second-to-last class of the\
+  \ semester. It's kind of a little bit of a bonus lecture.\n\nThis time, I'm going\
+  \ to talk about your autonomic nervous system, particularly as it relates to trauma\
+  \ and the neurophysiological effects of trauma on the body. We will explore the\
+  \ ways that this interacts and overlaps with all the things we've been learning\
+  \ this semester about how bodies work and the balancing act we have between the\
+  \ parts of our bodies and nervous system that we have theoretically direct access\
+  \ and control over, and the parts that are more like the ocean we float on top of.\
+  \ We'll discuss how these elements play into each other.\n\nNext week will be the\
+  \ final class of the semester; there is no proper final, so I will spend that time\
+  \ doing a wrap-up and presenting my class project. This project aims to make sense\
+  \ of the tremendous amount of input you've provided into the server. I'll create\
+  \ an official assignment on Canvas about what to do to wrap up your efforts here.\n\
+  \nI will probably spend Thanksgiving adding a few extra features to the bot and\
+  \ some of the visualizations I've been showing throughout the semester. There will\
+  \ be some assignment that will look something like this: make sure you've had at\
+  \ least this many chats here and there. Additionally, there will be an exit interview-type\
+  \ conversation where you'll talk to the bot. At that point, I hope to have a way\
+  \ of extracting your specific conversations and incorporating them into the conversation,\
+  \ so you can discuss with the bot about your experiences and insights. The semester\
+  \ went, and what you discovered and found will be fun to look at. So, let's get\
+  \ into this. I dropped a link to the sloppy notes that I have on the GitHub page,\
+  \ and I will try to go through this in a structured way. This area of neuroscience,\
+  \ at the autonomic level, is not something that I have direct professional experience\
+  \ in. A lot of the stuff we have been talking about this semester is on the perceptual\
+  \ motor side of life, such as eye movements, motion capture, and that kind of biomechanic\
+  \ stuff. That is an area in which I consider myself a contributing expert, and I\
+  \ have a solid awareness of the field, in terms of knowing the literature and understanding\
+  \ the methods, as well as being steeped in the culture of people who research that\
+  \ type of thing.\n\nHowever, this topic is getting closer to areas where I don't\
+  \ share the same relationship. I do know a lot about it in various ways, but my\
+  \ knowledge stems from what we might consider the concept of an intelligent layperson.\
+  \ This is someone who isn't a professional expert in a field but is a smart person\
+  \ who has looked into it and read about it. Much scientific writing intentionally\
+  \ targets this intelligent layperson audience. I have read some books about this\
+  \ topic, but I haven't conducted extensive research or engaged in direct research\
+  \ in the area.\n\nInterestingly, because of my background, the popular science type\
+  \ of literature that I enjoy connects with the domains where I do possess deeper\
+  \ knowledge. As you can watch throughout the lecture, you'll see how the topics\
+  \ we have discussed intersect. It's intriguing for me to examine the gaps in knowledge\
+  \ that I experience as an outsider while also recognizing that my unique perspective\
+  \ might contribute to this area in meaningful ways. So, let's get into it. Let's\
+  \ talk about your various nervous systems. You have one main one, which is roughly\
+  \ speaking your entire body. There are several other delineations of your nervous\
+  \ system, and the ones we tend to discuss the most in the field of neuroscience\
+  \ are the central nervous system and the peripheral nervous system. \n\nThe central\
+  \ nervous system is what you typically think about in neuroscience. Specifically,\
+  \ it comprises the brain, which we refer to as the cortex, and it's this large,\
+  \ lumpy pink structure on top. The peripheral nervous system is the other side of\
+  \ that. The central nervous system includes the cortex, which is the pink, wrinkly\
+  \ part on top, and it also includes the subcortical regions, like the cerebellum\
+  \ at the back, as well as areas like the basal ganglia and thalamus, which are wrapped\
+  \ inside the big pink wrinkly part. It also includes your spine and similar structures.\n\
+  \nThe basic functional delineation we use for the central nervous system is that\
+  \ it is the area where processing occurs. This is where information that has come\
+  \ in through the senses is manipulated and transformed into the basis for motor\
+  \ behavior or action. However, this distinction, like everything else here, is a\
+  \ simplified version of reality. It serves as a reasonable way to categorize things,\
+  \ but there are all sorts of overlaps and gray areas, as nature often exhibits.\n\
+  \nThis is particularly true in areas like the eye, such as in your retina, or in\
+  \ the complex array of sensors on your skin. These parts of the nervous system would\
+  \ typically be considered part of the peripheral nervous system, dealing with sensory\
+  \ and motor aspects. Yet, they perform functions that resemble computations. The\
+  \ immediate distinction between the central and peripheral nervous systems can be\
+  \ illustrated simply, where the central nervous system resembles a charming little\
+  \ off-center brain shape along with the spinal cord, while the peripheral nervous\
+  \ system is often thought of as just the wiring that brings sensory information\
+  \ from the external environment. parts of your body into the central nervous system\
+  \ and the sort of flip-flopped wires that send motor commands from the central nervous\
+  \ system out to the periphery. This is the sort of cartoon version that you will\
+  \ often see in textbooks. It's not incorrect; it\u2019s not a bad way to describe\
+  \ things, but it's inherently incomplete and cartoonified, in the way that we often\
+  \ do when we try to parse nature, which, as we've discussed in many ways on many\
+  \ days, is sort of an impossible thing to do. So first is the peripheral nervous\
+  \ system\u2014that's mostly what we've been talking about here\u2014and that kind\
+  \ of basic distinction is there. However, there are other sub-distinctions that\
+  \ we can make into other aspects of the different nerve groups that we find in the\
+  \ body. Generally speaking, neuroscience is the science of neurons, and your neurons\
+  \ sit in these different functional roles in your body. I\u2019m realizing that\
+  \ even this distinction that I'm about to make is also kind of a flipped or chopped\
+  \ up version of reality. When I sat down to write these notes, I thought of the\
+  \ central nervous system, the peripheral nervous system, the enteric nervous system,\
+  \ and the autonomic nervous system. But I realized that those could arguably be\
+  \ thought of as four distinct things, or you could consider them to be subcategories\
+  \ of the two categories I just mentioned. You could also say language is incomplete,\
+  \ and we name things as they are useful to us. Broadly speaking, the central nervous\
+  \ system is like the central processor and the main computational aspect of your\
+  \ neurons, while the peripheral nervous system consists of sensory and motor components.\
+  \ The enteric nervous system, which is a term I learned this morning, is the fancy\
+  \ term for your gut, which is one of those areas that I remember, when I started\
+  \ in grad school around 2008, people began to really understand that your gut is\
+  \ essentially its own entity. There\u2019s a lot going on in the way that the nerves\
+  \ are connected and how decisions are made regarding when various tubes will start\
+  \ doing peristalsis and which gland should secrete what into which area at which\
+  \ time. Not to mention, the whole microbiome that\u2019s present plays a critical\
+  \ role. As the complexity of that gut nervous system has gradually become more apparent\
+  \ in the scientific research community, it has been percolating out into the general\
+  \ understanding as well. In the world at large, all the things you're seeing about\
+  \ gut health and your microbiome are kind of right on schedule. They are showing\
+  \ up about a decade after they started to emerge in the scientific literature. We\
+  \ don't have as much to say about the enteric nervous system, but it will come back\
+  \ into the conversation because it interacts with the autonomic nervous system in\
+  \ a way that's interesting. We'll talk about that sort of towards the bottom. The\
+  \ last bit, the star of the show today, is your autonomic nervous system. The prefix\
+  \ 'auto' refers to the root of automatic. Your autonomic nervous system is the part\
+  \ of your nervous system that handles the basics, the essential functions that keep\
+  \ you alive. It's the low-level system that addresses what you need to survive as\
+  \ an individual organism and as a species. I mentioned at some point that the nervous\
+  \ system, particularly in the central area, could be argued by some to be distinct\
+  \ from the enteric nervous system, possibly as a subcomponent of the peripheral\
+  \ nervous system. Who knows if they would be able to defend that position to relevant\
+  \ experts, but those who like to categorize would place the autonomic nervous system\
+  \ as a subcomponent of the central nervous system. There\u2019s a distinction to\
+  \ consider. Often, when you look at the brain and the central nervous system, you\
+  \ can kind of get a map of the evolutionary history of that part of the nervous\
+  \ system by examining it from the inside out. The innermost part of your nervous\
+  \ system is typically the oldest. As you go outward, like the layers of an onion\
+  \ or a flower, the outer edges tend to be the most recently developed. The neocerebellum,\
+  \ which is sometimes referred to as the new part of the cerebellum, is also known\
+  \ as the neocortex, the new part of the cortex. A similar story is true on a smaller\
+  \ scale, in terms of volume, but on a larger scale in terms of the number of neurons\
+  \ at the cerebellum level. There\u2019s a similar distinction where the middle parts\
+  \ are the oldest, and as you move outward, you encounter the more phylogenetically\
+  \ new parts. Then the outside is the neocerebellum, which is thought to be associated\
+  \ with tool use and similar functions. The really fine motor control that we are\
+  \ good at is closely related to the autonomic nervous system. We are referring to\
+  \ the inner parts, the deep structures like the brainstem and the medulla oblongata.\
+  \ If you think of your central controller, it resembles a fist; the fist represents\
+  \ your spine coming down, with the deeper subcortical regions residing at the top.\
+  \ These areas are among the oldest parts of our nervous system. The cortex has been\
+  \ described as the flower on top of the bush. If you picture a rosebush, there is\
+  \ this beautiful red flower on top, and we spend a lot of time focusing on that\
+  \ flower. However, when you examine the plant, the majority of it is bush, with\
+  \ the flower being merely a fascinating aspect. Strictly speaking, that bush could\
+  \ still function normally without the rose, except for reproducing more bushes.\
+  \ My botanical knowledge might not be very strong here. This is also where you'll\
+  \ often hear discussions about the mammalian brain versus the reptilian brain. The\
+  \ pink, wrinkled cortex is associated with the mammalian parts, while the deeper\
+  \ regions are more connected to the reptilian aspects, as those evolved much earlier.\
+  \ Most of our vertebrate friends, who share basic functionalities such as having\
+  \ a heart and a nervous system, have a centralized set of neurons that control most\
+  \ bodily functions. This contrasts with insects or cephalopods like octopuses, which\
+  \ have a more distributed nervous system. In their systems, there isn't the same\
+  \ distinction between a concentrated area of important parts and a more diffuse\
+  \ set of responsibilities in the periphery. All of our vertebrate friends, especially\
+  \ tetrapods\u2014those with two arms and two legs\u2014share a similar structure,\
+  \ which marks the terminus of the spinal cord. Our chordate friends exhibit a similar\
+  \ shape in this regard. The autonomic nervous system manages the basic needs and\
+  \ functions. For survival, it is at this point that I get to make a joke that all\
+  \ neuroscience professors are required to make in undergraduate classrooms. The\
+  \ autonomic nervous system handles the four Fs of survival: feeding, fighting, fleeing,\
+  \ and procreation. This is the classic joke. The basic idea is that these are the\
+  \ things you need to be able to do; you need to be able to eat food, fight when\
+  \ necessary, run away when necessary, and then engage in the complex behaviors that\
+  \ help proliferate the species. The autonomic nervous system is thought to handle\
+  \ a lot of that.\n\nAs we break things down into increasingly small categories,\
+  \ your autonomic nervous system can be considered to involve two main aspects. Even\
+  \ though I do a lot of searching for images related to these topics, which sometimes\
+  \ feels a little lazy, I find it helpful to show the process. It allows us to see\
+  \ the different types of cartoons and images that we use to discuss these concepts.\
+  \ Some images have greater or lesser detail, and some have more or less resemblance\
+  \ to what you might actually observe if you were to take an organism, dissect it,\
+  \ and take pictures. Others are much more cartoonified.\n\nIt is important to notice\
+  \ that all of these images are cartoons. None of them are accurate representations,\
+  \ and none will show you what you would see if you cut open any actual human, nor\
+  \ do they represent what you would see if you cut open all possible humans, which\
+  \ I don't recommend doing either. We tend to have this fiction that these pictures\
+  \ somehow represent reality, but really, they represent the best approximation we\
+  \ have for carving up reality into conceptual boxes that are simple enough for us\
+  \ to understand.\n\nFor example, this cartoon of the brain has fewer details than\
+  \ that cartoon of the brain, but they're both cartoons and both impose false separations.\
+  \ This part is colored one way, that part is colored another. We call this part\
+  \ the parietal lobe and that part the occipital lobe, and we don\u2019t choose these\
+  \ colors randomly. They help us categorize and understand the brain's structure,\
+  \ even if simplistically. We must always remember that we put these words into nature.\
+  \ We didn't crack open the brain and see a stamp that said, \"This is the parietal\
+  \ lobe.\" We discovered that if we call this thing a certain name, then we can say\
+  \ things about the whole region, which tends to be more accurate than if we talked\
+  \ about a different part of the brain. For example, the occipital lobe is where\
+  \ the visual cortex resides. When we talk about vision, we're primarily referring\
+  \ to this area. However, you won't find visual functions exclusively in this part\
+  \ of the nervous system; you absolutely will find them in other areas as well. \n\
+  \nThere will be a particular search that shows a stark distinction between scientific\
+  \ concepts and what might be considered \"woo woo\" stuff. Much of what we discuss\
+  \ will touch on the boundary between proper science\u2014which I wouldn't recommend\u2014\
+  and popular conceptions of science, as well as what we might call pseudoscience.\
+  \ Pseudoscience does not align with our scientific understanding in the way that\
+  \ we would expect popular science to do. For instance, I would argue that undergraduate\
+  \ textbooks on neuroscience exist on the edge of popular science, as they present\
+  \ simplified versions of the story for people who do not have a strong background\
+  \ in the field. These textbooks do not convey the complexity and chaos of professional\
+  \ scientific work; instead, they start with different layers of simplification and\
+  \ then gradually guide students towards a more realistic understanding of the world,\
+  \ which is much more chaotic and mixed up.\n\nNow, regarding the autonomic nervous\
+  \ system, it has two main branches, which we refer to as the sympathetic and parasympathetic\
+  \ nervous systems. These are again simplifications. On one side, you have the fight\
+  \ or flight aspects, associated with high speed and high arousal states necessary\
+  \ for survival in a world where predation has evolved. On the other side, the parasympathetic\
+  \ nervous system is referred to as the rest and digest aspects of our nervous system,\
+  \ responsible for processes such as sleeping, digesting food, and feeling relaxed.\
+  \ Calm those kinds of things. As I was looking into the deeper aspects of this area,\
+  \ I engaged in activities such as reading, scanning review articles, and reviewing\
+  \ the Wikipedia page. I always recommend this for any new domain. I wanted to check\
+  \ the things I thought I knew and see if I could find connections to more established\
+  \ research. As is often the case, there is a lot of shifting in the way we think\
+  \ about the autonomic nervous system and the sympathetic-parasympathetic divide:\
+  \ who has what role, how we should think about them, and if it really is that straightforward.\
+  \ \n\nWhen I talk about this, I aim to appropriately mix the information I usually\
+  \ share, which is based on older concepts, with what appears to be the new ways\
+  \ of thinking emerging in the field. In general, whenever I discuss something that\
+  \ seems simple, it is never that simple. So when I say something like, \"Here\u2019\
+  s the autonomic nervous system; there are two parts: this one does this and that\
+  \ one does that,\" those hard delineations and simplified divisions of labor tend\
+  \ to mask the complexity underneath. If you actually poke at it and dig deeper,\
+  \ the reality is that it's always more complicated than that. These are the cartoon\
+  \ stories we tell because of a combination of what we used to think\u2014often simpler\
+  \ explanations than they ought to be\u2014and the basic distinctions we begin with\
+  \ when explaining concepts to others. It's not always functional to start every\
+  \ conversation by saying, \"It's too complex to understand in fifteen lifetimes,\"\
+  \ so we tend to start with the simpler cartoons. \n\nTherefore, let\u2019s stick\
+  \ with this rough delineation for now: the sympathetic and parasympathetic nervous\
+  \ systems\u2014fight or flight, rest or relax. It's very hard to remember these\
+  \ things. This is one of many areas of science, especially neuroscience, where a\
+  \ couple of centuries ago, someone decided to name two concepts with nearly identical-sounding\
+  \ words, like afferent and efferent for sensory versus motor nerves. I still don't\
+  \ know which is which. I think afferent relates to sensory nerves and happens after\
+  \ the event, while efferent affects the world and relates to motor nerves, but I\
+  \ bet whoever created that distinction thought they were quite clever. I will hold\
+  \ a grudge against them forever. Therefore, we tend to rely on these simplified\
+  \ terms. On pneumonics for that, my particular mnemonic for the sympathetic and\
+  \ parasympathetic nervous systems is that the sympathetic is the fight or flight\
+  \ response, because you're ready to confront a threat. In contrast, the parasympathetic\
+  \ is like eating a pear; you're relaxing and enjoying life. It's not a perfect mnemonic,\
+  \ but it's the best one I have. I realize that some of you may go off to medical\
+  \ school and will need to memorize information, which is something I am personally\
+  \ allowed to skim through. That could be a good use of that technology.\n\nSo, we\
+  \ have sympathetic and parasympathetic systems. Sympathetic is associated with the\
+  \ fight or flight response. One distinction I came across is that a better way to\
+  \ think of it is that the sympathetic nervous system is tuned for high-speed, fast-paced,\
+  \ low-latency actions that require arousal and typically activate your muscular-skeletal\
+  \ system in order to respond to the environment quickly. In contrast, the parasympathetic\
+  \ nervous system manages slower, calmer, and quieter processes that unfold over\
+  \ long periods of time, such as digestion and sleep, as opposed to getting into\
+  \ a fight.\n\nOf course, there are many aspects of our behavior that require a combination\
+  \ of both systems. For example, consider playing sports, where good performance\
+  \ necessitates a blend of fast and precise actions along with a calm state of mind\
+  \ to avoid panicking. There are various socio-personal and physiological processes\
+  \ that similarly need a complex balance of arousal and relaxation.\n\nWhen you look\
+  \ up the autonomic nervous system, you'll often see diagrams illustrating the functions\
+  \ of the parasympathetic and sympathetic systems; the parasympathetic system connects\
+  \ to certain parts of your body, while the sympathetic system connects to others.\
+  \ In many respects, these descriptions are reasonable, and I also believe that the\
+  \ autonomic nervous system, as described in various sources like Wikipedia, provides\
+  \ a helpful framework for understanding these concepts. On this page, we'll talk\
+  \ about the pictures in a second. There are some nice tables and a lot of physiology\
+  \ information, which, in my area of research, I tend to avoid learning too much\
+  \ about. However, these letters and numbers refer to vertebrae, such as T6, T7,\
+  \ and T8, which correspond to the sixth, seventh, and eighth vertebrae of your thoracic\
+  \ region. You have cervical, thoracic, and lumbar regions, and so on.\n\nNow, down\
+  \ here in the function section, there are nice lists that typically describe the\
+  \ aspects of your sympathetic and parasympathetic nervous systems, which tend to\
+  \ be paired with one another. The parasympathetic connection to your gut stimulates\
+  \ digestion and initiates peristalsis and secretion of various substances into different\
+  \ areas. In contrast, your sympathetic nervous system tends to shut down these functions.\
+  \ The reasoning is that if you're going to get into a fight, you don't want to waste\
+  \ energy on digestion.\n\nAs you analyze these functions, think of the things necessary\
+  \ for general survival, which are activated by the parasympathetic nervous system,\
+  \ versus the optional subsystems you would want to deactivate if you were in a fight-or-flight\
+  \ situation, activated by the sympathetic nervous system. Essentially, you don't\
+  \ digest food when you're in a fight; the thought process is that this will be handled\
+  \ later.\n\nThere are some interesting connections that we will revisit if I manage\
+  \ my time properly, such as those related to your eyes, your iris, and pupil constriction.\
+  \ I discovered an interesting fact: the parasympathetic system affects the lens\
+  \ inside your eye. When you look at something and defocus, you are controlling the\
+  \ lens, and those muscles interact interestingly with the sympathetic and parasympathetic\
+  \ functions.\n\nReturning to the anatomical aspects of your nervous system, there\
+  \ are specific characteristics that are associated with the sympathetic and parasympathetic\
+  \ parts of your body. If you are on the side of arguing that the autonomic nervous\
+  \ system (ANS) is not a part of your central nervous system, you would point to\
+  \ specific anatomical features to support your claim. You might say that these structures\
+  \ exist outside of the spine, and therefore, they belong to the peripheral nervous\
+  \ system. However, I wouldn't go so far as to define them strictly as part of the\
+  \ peripheral system because they are indeed outside of your spine, but they are\
+  \ very close to it. So, it becomes difficult to categorize them clearly. The argument\
+  \ continues, particularly regarding the sympathetic nervous system, which relates\
+  \ to an interesting aspect called the sympathetic trunk. This structure consists\
+  \ of pairs of ganglia that run down the edge of your spine on the outside. A ganglion\
+  \ is essentially a cluster of neurons. For example, we often discuss retinal ganglion\
+  \ cells that pool together different photoreceptors. Many organisms, including insects\
+  \ and other creatures lacking a central nervous system, have ganglia. For instance,\
+  \ dragonflies possess ganglia and bulbs that manage their visual inputs and motor\
+  \ outputs. When we start considering the distinction between a ganglion and a central\
+  \ nervous system, we delve into linguistic territory; the definitions become less\
+  \ clear.  \n\nThe sympathetic trunk comprises these clusters of neurons that run\
+  \ alongside your spine. This structure is essential for where your sympathetic nervous\
+  \ system interacts with your body. To visualize this, think of the top structure\
+  \ as a knob and understand that it extends down to the lower regions, such as L5,\
+  \ which is approximately located around here. At the very bottom, what we refer\
+  \ to as the cauda equina resembles a horse's tail. Along the spine, you find these\
+  \ paired sets of ganglia that are typically associated with the sympathetic nervous\
+  \ system. These ganglia become activated, triggering an increase in arousal. In\
+  \ situations that suggest a fight-or-flight response, the sympathetic nervous system\
+  \ ramps up general activation in the body. This process is managed by the ganglion\
+  \ cells that help regulate this increased level of arousal. I think about this a\
+  \ lot, particularly when considering how we need to be cautious about oversimplifying\
+  \ our understanding of the nervous system. Body and biology in general, you also\
+  \ have to be careful when doing the thing that I'm about to do, which is starting\
+  \ to use your own personal experience of being inside of one of these weird meat\
+  \ puppets to make sense of some of the stuff that you see in terms of anatomy. You\
+  \ have to be careful about it, but you don't have to be that careful about it, because\
+  \ if you think about what the nervous system, specifically the sympathetic nervous\
+  \ system, does, it tends to be a part of being startled or scared. Like, oh my God,\
+  \ there's something over there. One of my favorite nervous system responses is the\
+  \ startle reflex, which is a part of our nervous system that we share with houseflies.\
+  \ It's like a large, looming object, and you have that jump response. For me, there's\
+  \ this strong association between those types of startle responses and a light,\
+  \ like lightning, going down your spine, as if it's a shocking moment. \n\nI was\
+  \ fascinated to discover, perhaps a little embarrassingly late in my career as a\
+  \ neuroscientist\u2014partially because I started as a philosophy major, so I missed\
+  \ a lot of the standard undergraduate introduction stuff\u2014that what these responses\
+  \ do is tell your body to dump adrenaline. They crank up your muscles, increase\
+  \ sensitivities, lower pain sensitivities, and enhance a sort of low-level activation\
+  \ so you can respond quicker to stimuli. This kind of Wolverine-like response comes\
+  \ from these systems getting cranked on. Of course, I'm describing a very high level\
+  \ of crank, but the somatic experience of having this kind of lightning run down\
+  \ your spine is associated with those startle responses. \n\nAcademically, I learned\
+  \ that the startle response is associated with a set of paired ganglion cells that\
+  \ run down your spine. It's one of those things where I wonder if that's the same\
+  \ thing or if I'm just telling stories to myself. Is there a difference between\
+  \ those feelings and the cartoons we see here? Who knows? But from an anatomical\
+  \ perspective, the sympathetic nervous system is associated with these paired spinal\
+  \ ganglion cells in the sympathetic trunk. If you're wondering what this strange\
+  \ picture here is, it almost resembles a subway map. It doesn't tell you exactly\
+  \ the layout, but it indicates that if you're trying to get from this point to that\
+  \ point, you should take this route. The direction you're going is vital when considering\
+  \ how it relates to these shapes, which I believe are associated with activation\
+  \ versus inhibition. This part connects to that part, and actually, no, sorry, these\
+  \ ones up here are more peripheral. Speaking of the blue lines, the red lines represent\
+  \ the sympathetic nervous system, and the blue lines correspond to the parasympathetic\
+  \ nervous system. Here, I have to put a big disclaimer because we are now going\
+  \ to discuss the vagus nerve, which is a real anatomical feature. It's used in various\
+  \ discussions about how to calm your nervous system and relate to the world.\n\n\
+  In this realm, good-hearted people often find ways of explaining the world that\
+  \ blur the lines between what is helpful for humans and what we believe to be empirically\
+  \ true about the physical world. I'll provide a couple of hints on how you can discern\
+  \ which part of the landscape you're in as you explore topics like the vagus nerve.\
+  \ The vagus nerve is fascinating; it's the longest nerve in your body by a significant\
+  \ margin. The term 'vagal' comes from roots related to wandering, reminiscent of\
+  \ the term 'vagrant.' While I was tempted to mention 'voyage,' it may not be entirely\
+  \ appropriate, as it also denotes wandering.\n\nTherefore, it\u2019s called the\
+  \ wandering nerve. This is where I must choose my images carefully, as many illustrations\
+  \ are simplistic and miss crucial details. The vagus nerve starts where the sympathetic\
+  \ trunk runs down the spine, connecting at various vertebrae. The vagus nerve emerges\
+  \ from the brainstem. While I don't recall specifics, I can guess where it originates\
+  \ based on what I've learned. Cranial nerve X structure, I don't know one of the\
+  \ cranial nerves. It's one of the cranial nerves, so for you future doctor types,\
+  \ you will be forced to look at this list of cranial nerves, which will become very\
+  \ familiar to you. The cranial nerves include the optic nerve, which is one of them,\
+  \ and the oculomotor nerve, which controls eye movements. It's basically just the\
+  \ nerves that control your facial expressions, among others. The vagus nerve is\
+  \ one of them; it breaks out of your central nervous system in the cranium and then\
+  \ runs down through your body, wrapping around. This is all one neuron and it has\
+  \ many parts. With neurons, the long parts are called the axons, and then you have\
+  \ dendrites. I'm actually not sure if the dendrites are at the beginning or the\
+  \ end, but this is all one long neuron that tends to go down and wrap around a lot\
+  \ of the viscera of your body, including your respiratory system and down into the\
+  \ gut. When I earlier talked about the enteric nervous system, which is the gut-based\
+  \ nervous system, this is its main mode of communication. The primary way that your\
+  \ gut communicates with the central nervous system is through the vagus nerve. Similarly,\
+  \ I tend to associate the sympathetic trunk with that shocking feeling of being\
+  \ surprised. You can think about all the different emotions and feelings that relate\
+  \ to sinking feelings in your chest or your guts feeling tied up, like that empty\
+  \ feeling in the pit of your stomach. I had a similar reaction when I first saw\
+  \ pictures of this; I realized that's where all those feelings come from. If I were\
+  \ to point to those feelings, it would be these spaghetti-like cacophonies of parts\
+  \ of the vagus nerve. Yes, those are kind of like, obviously, there are many more\
+  \ details. So, sorry, I guess there are some parts that come out the bottom too.\
+  \ Your vagus nerve has connections that differ from those of the sympathetic system,\
+  \ which runs down the spine. The parasympathetic system tends to be associated with\
+  \ these long-range connections through the vagus nerve, which are not as connected\
+  \ to the musculoskeletal aspects of your body. Earlier, when we were looking at\
+  \ the list of different functions and considering the effects of parasympathetic\
+  \ activation on various processes and organs as opposed to sympathetic activation,\
+  \ this trade-off is thought to be mediated through, what's the word... there's a\
+  \ fancy term for this, but it's like a type of activation where one system tends\
+  \ to increase while the other decreases. You observe a similar effect in the way\
+  \ reflexes trade off during activities like walking. As I walk, my feet cycle through\
+  \ stance and swing with a very tight spatiotemporal coupling. As my foot hits the\
+  \ ground, my leg muscles have to be stiff and strong enough to support my body weight,\
+  \ but the second my foot leaves the ground, they become floppy to swing through\
+  \ without expending too much energy. The transition from stance to swing at the\
+  \ level of the limbs during locomotion is mediated by the upper levels of your nervous\
+  \ system, particularly through the top part of the motor hierarchy. This often involves\
+  \ shifting the gain of various low-level reflexes, like the stretch reflex that\
+  \ tends to resist motion. The transition from stance to swing at each step is mediated\
+  \ at some level by higher brain functions\u2014specifically, I think it's the cerebellum\
+  \ in that part of the region\u2014shifting the gain on that low-level stretch reflex.\
+  \ A lot of those stance-to-swing transitions occur there. There\u2019s also a similar\
+  \ component of reciprocal activation in the sympathetic and parasympathetic nervous\
+  \ systems that I was trying to discuss. Here, as I mentioned, we could teach several\
+  \ classes on the specific anatomy associated with these systems. In terms of high-level,\
+  \ broad, cartoonified versions of the story, the main anatomical aspects of the\
+  \ sympathetic and parasympathetic nervous systems are associated with the sympathetic\
+  \ trunk and the paired ganglia in the sympathetic case. In the parasympathetic sense,\
+  \ it's about the vagus nerve wandering through your body. \n\nSo, moving into a\
+  \ more functional space, the idea is to look at the transition of your nervous system\
+  \ into states associated with fight or flight\u2014high-pressure, low-time-scale,\
+  \ leave-it-all-on-the-field types of activation of your sympathetic nervous system.\
+  \ In contrast, the parasympathetic system takes over for those longer time scales\
+  \ during relaxation and restorative activities. \n\nMost of the rest of this class\
+  \ will discuss that transition and your ability to appropriately mediate between\
+  \ the different states your body should be in, depending on the condition of the\
+  \ world around you. Specifically, I want to begin discussing this in terms of measurable\
+  \ aspects. A lot of behavioral research into these areas of the autonomic nervous\
+  \ system looks at factors that are typically managed by your autonomic nervous system.\
+  \ The primary ones are breathing and heart rate. \n\nFocusing on heart rate, it\
+  \ is important because, while breathing is essential for survival, it is also subject\
+  \ to voluntary control. Most of the time, your breathing happens automatically,\
+  \ but you can choose to hold your breath, inhale, or exhale, enacting some level\
+  \ of volitional control. You can hold your breath for a while, though you can't\
+  \ do it until you die\u2014just a quick warning: don\u2019t try to pass out by holding\
+  \ your breath. \n\nOn the other hand, heart rate is a bit different; it operates\
+  \ at a deeper layer in your nervous system. You cannot control your heart rate in\
+  \ the same way you control your breath, and you can't control your breath in the\
+  \ same way you control your hand. Therefore, heart rate is one layer deeper in your\
+  \ nervous system, where you lose that direct volitional control. Examining heart\
+  \ rate as a measurement provides a fascinating and valuable window into the status\
+  \ and functionality of these systems. that layer of your nervous system control.\
+  \ One of the main concepts that comes out is the notion of heart rate variability.\
+  \ There is a certain kind of naive, mechanistic thinking about the heart, which\
+  \ I believed for quite some time. You would imagine that if you're a doctor assessing\
+  \ the health of someone's nervous system, you would look at their heart rate and\
+  \ you would look for heart rate variability. You would say heart rate variability\
+  \ is good; when it's low, we prefer our heart beats to be very regular, like a metronome,\
+  \ and when the variability in timing between beats is low, that's when your heart\
+  \ is doing its job very well. However, it turns out that, although this is the case,\
+  \ there is a caveat around this. When we think about things like heart rate variability,\
+  \ one of the things we look for, as if I were a medical doctor, is there's a healthy\
+  \ range of variability that, if you are not showing, that's a sign that something\
+  \ is going awry under the hood.\n\nBriefly, if you think about heart rate variability,\
+  \ it's literally just measuring the heart rate and then doing statistics on the\
+  \ time between beats. This is not just heart rate variability. If anyone has ever\
+  \ seen an EKG, which stands for electrocardiogram\u2014don't ask me why it starts\
+  \ with a C\u2014it's the timing between these beats that we're thinking of as the\
+  \ heartbeat. There are a lot of other things you can say about the other types of\
+  \ shapes that are going on here, which is literally below my level of analysis,\
+  \ but it's the variability between the actual beats of your heart that we associate\
+  \ with heart rate variability.\n\nSo, when we look at those numbers, there is an\
+  \ inherent time scale involved because we're talking about the statistics of a timed\
+  \ thing. You can imagine that at some point in all of our lives, we will be asked\
+  \ by our doctors to wear a heart rate monitor for 48 hours straight. They will measure\
+  \ our heartbeat and analyze various aspects of our nervous system through the statistics\
+  \ of those heart rates. You can imagine that at the 24-hour time scale, you'll notice\
+  \ the effects of the fact that you tend to sleep at night versus walk around during\
+  \ the day, leading to variability on that 24-hour scale. Faster for part of the\
+  \ day and then slower for another part of the day. But that's not the time, and\
+  \ that's an interesting time scale, but that's not the time scale that we're thinking\
+  \ about here. The time scale that we tend to associate with this conversation around\
+  \ the autonomic nervous system and these trade-offs between the sympathetic and\
+  \ parasympathetic nervous systems happens on the scale of breaths. One of the subtle\
+  \ aspects of the sympathetic and parasympathetic nervous systems is that in a healthy,\
+  \ happy, cheerfully functioning nervous system, the trade-off between the sympathetic\
+  \ and parasympathetic systems occurs every time you take a breath. Specifically,\
+  \ when you inhale, your sympathetic system starts to wake up, and your heart rate\
+  \ increases during the inhalation. Then, when you exhale, your parasympathetic system\
+  \ takes over, and your heart rate slows down during that part of your breath. It's\
+  \ very hard to feel that. At that layer, when I try to cue into my heart rate and\
+  \ determine if it's speeding up when I'm inhaling and slowing down when I'm exhaling,\
+  \ it's challenging because my ability to be aware of it is about the same as my\
+  \ ability to lie to myself about my sensations. So, I really have no idea if I'm\
+  \ actually feeling that or if I'm just expecting it. However, I think that whatever\
+  \ that personal somatic journey might be, it's easier to do when my heart rate is\
+  \ elevated. When I'm exercising and my heart rate is beating fast in general, I\
+  \ can often feel that when I inhale, especially if I hold my breath; you can feel\
+  \ your heart rate speeding up, and when you exhale, you can feel it slowing down.\
+  \ This conversation about heart rate variability ideally happens at the scale of\
+  \ your breath. Typically, when you hear people talk about heart rate variability,\
+  \ they tend to discuss it on that time scale, not on things like the 24-hour time\
+  \ scale or even the multi-hour time scale. Although, if you dig into this a little\
+  \ bit, there's plenty for people to say about heart rate variability at those kinds\
+  \ of time scales. This is where we get to a bit of jargon. In my previous explorations\
+  \ of this area, as far as I can tell, the boundary layer between what I think of\
+  \ as legitimate science on this topic versus the less credible science is the boundary\
+  \ between neurovisceral integration and polyvagal theory. Talking about polyvagal\
+  \ theory, you're probably in two towns. That doesn't mean that it's not useful on\
+  \ a personal level, but typically, I think that the term polyvagal is thrown around\
+  \ when you start discussing the ventral and dorsal pathways. The ventral does this,\
+  \ and the dorsal does that. As far as I can tell, there is no actual scientific\
+  \ backing for that anatomical distinction between the different parts of the vagus\
+  \ nerve handling different aspects of your regulatory system. So if you come across\
+  \ the term polyvagal or dorsal-ventral, it's not to say it's not useful, but just\
+  \ know that you are straying from the standard scientific narrative when you enter\
+  \ that territory.\n\nNeurovisceral integration model, or neurovisceral theory, is\
+  \ a step back from that. It simply states that what we might consider a healthy,\
+  \ happy, and well-functioning relationship between a given mammalian nervous system\
+  \ and the world at large can be measured and understood as the ability of your nervous\
+  \ system to maintain a healthy and comfortable trade-off between different aspects\
+  \ of your autonomic nervous system in a smooth and orderly manner. The ability of\
+  \ your body to transition from that arousal state associated with sympathetic activation\
+  \ and fight-or-flight response into the rest and digest state is key. The ability\
+  \ to make those transitions smoothly from one to the other is what we tend to refer\
+  \ to as neurovisceral theory. \n\nAt a broader level, this concept involves the\
+  \ idea that your neurons\u2014your nervous system, including your central nervous\
+  \ system and brain\u2014are connected to your viscera, which includes the lesser\
+  \ organs, specifically your heart rate, gut, and lungs. If you doubt this connection,\
+  \ just think about something scary and notice how your heart rate increases. There\
+  \ is a clear link between the most abstract aspects of your cognitive neural system\
+  \ and the lower-level functions necessary for pumping blood and maintaining life.\
+  \ Thus, those parts are connected. \n\nIn terms of neurovisceral theory and the\
+  \ linguistics surrounding it, when you see two words that are combined, you can\
+  \ replace the 'o' with a slash. So, 'neurovisceral' can be interpreted as neural/visceral,\
+  \ where 'viscera' refers to the lesser organs. While you might not want to frame\
+  \ your understanding of the world in this way, it is a perspective one might consider.\
+  \ Now, I am going to move away from the more visceral aspects of neuroscience. into\
+  \ the more socio-behavioral parts, speaking specifically about where the trauma\
+  \ talk comes in. I will try to thread various lines there. One of the main points,\
+  \ roughly on the timeline of my entry into neuroscience, is that it has become much\
+  \ more prevalent these days. One of the ways we have started to think about the\
+  \ nervous system, the role of your central nervous system, and the question of why\
+  \ we have a brain and a spinal cord, is that there is more and more belief that\
+  \ mostly what your nervous system is doing is predicting the future. This is what\
+  \ your cognitive, neural, and central nervous systems are primarily for. Your job\
+  \ as an organism, as a creature, as a human, as a cognitive agent, is to predict\
+  \ the future based on noisy, out-of-date information about the current state of\
+  \ the world, combined with your memories and histories, and the lessons learned\
+  \ from previous interactions. This applies across pretty much all time scales. \n\
+  \nTake the classic example of throwing a ball and catching it. My senses are the\
+  \ fastest way that I receive information from the world, and arguably the only way\
+  \ I get information from the world. However, even when I have a sensory experience,\
+  \ it is always something that has happened after the fact. Sensory information occurs\
+  \ after the event in question has taken place. Using that information, which is\
+  \ noisy and abstracted, I can make predictions based on my extensive and varied\
+  \ previous experiences interacting with the world. With the sensations I feel in\
+  \ my hand, coupled with the flashes of light I\u2019m getting from my eyes, I can\
+  \ say to myself, based on my predictions, that if I send this series of motor commands\
+  \ to my arm, it will hit the target as I expect, and the ball will land in my hand.\
+  \ You can observe this kind of predictive behavior when looking at babies trying\
+  \ to navigate and interact with their world. Particularly when they are very young,\
+  \ they tend to exhibit random movements, and there is this kind of tripping aspect\
+  \ to their behavior. Yet sometimes, they achieve something that is surprising, and\
+  \ it works. So, the way that our... The nervous system works, especially at that\
+  \ sort of developmental layer, when we make a prediction. When that works out like\
+  \ we expected it to, or like we wanted it to, there is a reinforcement that occurs.\
+  \ We want to talk about the goop again; it's thought to be associated with the dopaminergic\
+  \ system. If I am pretty sure that if I do this with my body, I'll get the outcome\
+  \ that I want, and then I achieve that outcome, there's a dopaminergic release.\
+  \ Your literal dopaminergic response is the generation of dopamine, so it releases\
+  \ these chemicals into your nervous system that effectively reinforce whatever just\
+  \ happened because it was good. We want to reinforce that those neurons should be\
+  \ connected in that way because it leads to results that I like in my life. \n\n\
+  This introduces the concept of valence. Valence is essentially a root of value;\
+  \ it's like a thumbs up or a thumbs down. Good valence things are generally good,\
+  \ while bad valence things are generally bad. For example, if I reach out to touch\
+  \ something and it has razor blades in it and I get cut, I don\u2019t like that\u2014\
+  that's bad. Similarly, if I fire 15 milliseconds too late and I miss the target\
+  \ and drop it, that\u2019s a negative valence. \n\nIt\u2019s useful to think about\
+  \ this concept because I am not discussing scale. A valence of -0.1 is negative\
+  \ in the same way that -150,000 is negative, and -0.1 is positive; -1000 is negative.\
+  \ The valence there is not a measure of the scale. \n\nThere\u2019s a relationship\
+  \ between making a prediction about the world and whether that prediction works\
+  \ out in the way we wanted, which defines whether our nervous system thinks, \"\
+  That was great, let's do more of that,\" or, \"That was bad, I didn't like that\
+  \ outcome.\" When we make bad predictions, it means we made mistakes; errors occurred\
+  \ in the calculation, and we need to correct for those things at some level. \n\n\
+  So, there\u2019s a central concept of prediction, and then this other concept of\
+  \ the outcome of those predictions, which determines how the nervous system will\
+  \ organize itself. \n\nI realize I may have put that out of order, but let\u2019\
+  s proceed. How are we doing on time? I think I forgot to put this in, so I'm not\
+  \ exactly sure about the order of operations here. One of the things I've really\
+  \ noticed very recently is that the concept of your nervous system is mostly about...\
+  \ Prediction has been in the perceptual motor literature for quite some time. It\
+  \ was already a bit old hat by the time I started grad school. I have started seeing\
+  \ that same kind of thinking coming into the way we tend to think of emotions and\
+  \ the aspect of our nervous system related to them. We tend, I think naively, to\
+  \ think of emotions as if they were sensations and reactions to the way the world\
+  \ presents itself to us. While there is some aspect where this is true, such as\
+  \ an alligator coming out of the water being scary and making me feel fear, there's\
+  \ also a predictive aspect of that emotion. I feel fear from that thing because\
+  \ I think it will hurt me. I feel happy when I see cake because I think I'm going\
+  \ to eat it. This leads to an interesting way of thinking about our emotional responses\
+  \ to the world, as being less about immediate reactions to the state of the world\
+  \ and more about a vague prediction regarding what the available information means\
+  \ down the line, at some time scale, possibly quick, possibly slow, and what I should\
+  \ do as a result of that. With the alligator coming at me, I have to respond very\
+  \ quickly, but with the cake, I can take my time. Typically, when we think about\
+  \ the emotional parts of our brain, where emotions come from, we're talking about\
+  \ things like the amygdala and other subcortical regions that are closer to the\
+  \ brain stem than to the cortex. Often, emotions occur at the neurophysiological\
+  \ level in the form of chemical releases; some chemical gets dumped into the system\
+  \ that we associate with different emotions. Many antidepressants and other pharmaceuticals\
+  \ operate by either stimulating the release of these chemicals\u2014you're consuming\
+  \ that chemical, so there\u2019s more of it floating around that regulates your\
+  \ emotions\u2014or by asking your body to release those chemicals into your brain.\
+  \ For example, MDMA works by prompting your brain to release all your happy chemicals,\
+  \ allowing people to feel happy. However, they also tend to feel sad afterward because\
+  \ they have dumped all their happy chemicals and need to wait to replenish them.\
+  \ This is where we... I sort of started getting into the trauma talk of the day.\
+  \ If you think about it, this is a combination of many factors, particularly the\
+  \ autonomic nervous system and the trade-offs of its different parts. One aspect\
+  \ of the nervous system\u2019s main job is to predict the state of the future. This\
+  \ is where we encounter traumatic events\u2014places where things happen that you\
+  \ did not like. Such events can lead to asynchronies between your autonomic nervous\
+  \ system and breakdowns of what we call the neurovisual integration theory, which\
+  \ posits that a happy and healthy state depends on your autonomic nervous system's\
+  \ ability to appropriately switch between the sympathetic and parasympathetic nervous\
+  \ systems. You can think of this as the ability to relax when it\u2019s time to\
+  \ relax because we typically don't have a problem with the other part. Now, before\
+  \ we delve deeper into psychological spaces, I want to talk about PTSD, the acronym\
+  \ we associate with post-traumatic stress disorder. The term 'post' means after\
+  \ a traumatic event, which leads to a stress disorder. I specifically want to discuss\
+  \ the term 'disorder' in the context of the concept of 'vigilance.' A disorder occurs\
+  \ anytime things obstruct your ability to live the life you want to live. In discussing\
+  \ this topic, you will see a variety of conversations informed by empirical research,\
+  \ and also hear a lot in casual environments. Sometimes, you might hear people try\
+  \ to distinguish between 'capital T trauma' and 'lowercase T trauma,' where lowercase\
+  \ T trauma might refer to a minor inconvenience, like burning your lip on a hot\
+  \ cup of coffee, while capital T trauma involves serious events, such as being in\
+  \ a car accident that instills a fear of cars. I understand why some people feel\
+  \ upset when others might seem to be watering down these important concepts by discussing\
+  \ everyday challenges alongside much more serious issues like PTSD, which can be\
+  \ very debilitating for people's lives. I think this concern is valid, but as we\u2019\
+  ve discussed, nature operates on gradients and shades of gray, and where we choose\
+  \ to draw the line between these experiences is complex and nuanced. Just normal\
+  \ relationships to the world, like, sorry kid, them's the breaks. It gets tough;\
+  \ that's the world. Those are the healthy parts of stress that help you interact\
+  \ with the world in a productive and effective way for yourself. I think I'm less\
+  \ interested in trying to figure out exactly where to draw that line and more interested\
+  \ in helping people know how to draw that line in ways that are appropriate for\
+  \ themselves. That's why I want to think about the term \"disorder\" as less of\
+  \ a thing you find in the DSM-5\u2014or maybe the DSM-6 now\u2014and more as something\
+  \ you get to choose. Is this something that is getting in the way of my ability\
+  \ to live my life as I want to, or is this just learning important life lessons\
+  \ and having the accrual of experiences that we eventually call wisdom? So, it's\
+  \ up to you.\n\nSpecifically, I think that when we think of disorder, it\u2019s\
+  \ often as if the gears of the machine have slipped in some way. Then the things\
+  \ that would normally operate as they should can\u2019t, because something is stuck.\
+  \ That\u2019s what we consider disorders like PTSD. I\u2019m also going to make\
+  \ a distinction here between PTSD and what we tend to think of as trauma, which\
+  \ is generally something really bad happened, and now I\u2019m having a hard time\
+  \ interacting with the world. Typically, it\u2019s one really bad thing that happened\u2014\
+  think of a car accident. It\u2019s a bad event where you had a very scary experience\
+  \ or came close to serious injury, and now it\u2019s affecting your ability to interact\
+  \ with the world. I would call that acute trauma\u2014one big bad thing, not \"\
+  cute\" but \"acute.\"\n\nThis is distinct from a more subtle, newer way of thinking\
+  \ about PTSD, which we call complex PTSD. This is a different type of behavior we\
+  \ tend to associate with living in a world that has general, long-term exposure\
+  \ to an unsafe environment. It\u2019s less about one big car accident and more about\
+  \ living in a context of low-grade child abuse or in food-insecure environments\
+  \ where, as a child, you can\u2019t always get food when you\u2019re hungry. There\u2019\
+  s no one big thing that stands out as bad enough to warrant, \"Oh yeah, this was\
+  \ the event I\u2019m dealing with.\" It\u2019s more about living in that constant\
+  \ state of insecurity. Long-term, there can be a low-grade harm that pervades everything.\
+  \ I don't know if you can think of any people or groups who might experience the\
+  \ world as generally unsafe, filled with small sub-threshold traumas that never\
+  \ quite reach the point where you can label them specifically. Nonetheless, these\
+  \ experiences become integrated into the way you view the world. I can't think of\
+  \ any examples, but maybe you can. \n\nI want to give a quick shout-out to some\
+  \ popular books that have been the starting point of my exploration into this space.\
+  \ A classic one is \"The Body Keeps the Score\" by Bessel van der Kolk. Although\
+  \ it doesn't clearly make a distinction between acute PTSD and complex PTSD, it\
+  \ focuses on acute PTSD. Van der Kolk was one of the authors who helped define PTSD\
+  \ in the DSM and brought it into common vernacular. This book has received criticism,\
+  \ which I think is justified, mainly because it is not written in a trauma-informed\
+  \ way. It discusses traumatic experiences in a graphic manner, making it hard to\
+  \ recommend to those who have experienced significant trauma. While it is not terrible,\
+  \ the complaints are reasonable. The writing can also be very dry and academic;\
+  \ it is dense with information, which is good, but I still include these caveats\
+  \ when recommending it. \n\nAdditionally, I've heard that Van der Kolk has had some\
+  \ troubling behavior, although I don't know the specifics. Still, books stand on\
+  \ their own. The one I tend to recommend first is \"What My Bones Know\" by Stephanie\
+  \ Fu. Fu grew up in an abusive environment and later became a journalist. Her book\
+  \ is much more focused on her journey to understanding complex PTSD and the various\
+  \ treatments she pursued, integrating these experiences into her life. It is less\
+  \ information-dense and feels more modern and aware. However, it is important to\
+  \ note that Fu's book discusses complex PTSD more specifically, while \"The Body\
+  \ Keeps the Score\" primarily focuses on PTSD and does not clearly distinguish between\
+  \ the two. In the context of the kind of topics we've been discussing, if we consider\
+  \ the role of your nervous system as primarily about predicting the future and integrating\
+  \ information and experiences, it helps us understand the state of the world and\
+  \ the appropriate behaviors we should adopt in response to it. You can see how significant\
+  \ traumatic events, or even low-grade, long-term traumatic experiences, can lead\
+  \ to a sort of slipping of the gears in the ability of your body to transition appropriately\
+  \ between the fight or flight state, governed by the sympathetic nervous system,\
+  \ and the rest and relaxation state, governed by the parasympathetic nervous system.\
+  \ Our body, including the nervous system, central nervous system, peripheral nervous\
+  \ system, and autonomic nervous system, is very sensitive to the outcomes of our\
+  \ predictions. Humans, in general, tend to be far more risk-averse than we are reward-seeking.\
+  \ For example, if you ask someone whether they would prefer $10 or a 10% chance\
+  \ of winning $10,000, numerically, those offers are equivalent; however, we overwhelmingly\
+  \ prefer the $10 due to our risk aversion. I like to say that it would be a rather\
+  \ ineffective visual system if it gave equal weight to everything in your visual\
+  \ field, noticing non-threats at the same level as real threats like tigers. Because\
+  \ of our risk-averse nature, we tend to overweight negative experiences when figuring\
+  \ out how we should interact with the world. For instance, if you find yourself\
+  \ in a car accident or face a choice between two doors\u2014one blue and one green\u2014\
+  after you open the green door and get punched in the face, while opening the blue\
+  \ door brings you cake and candy, your nervous system will evaluate whether the\
+  \ predictions we made were good. If the prediction was correct, we should reinforce\
+  \ it; if it was incorrect and led to harm or danger, your body will begin to look\
+  \ for missed signs and things you should have noticed. This process helps us realize,\
+  \ 'Oh, I should have noticed that.' That car was turning. I should have noticed\
+  \ that the door was green, and green means people are going to punch you when you\
+  \ open the door. I don't know what that is. What can happen is what we tend to call\
+  \ hypervigilance, where you sort of cue often times. What happens because the world\
+  \ is cruel and capricious is that there wasn't a thing you could have noticed, or\
+  \ at least not something you really should have noticed, given your experience.\n\
+  \nSo, what will happen is your body will just reach out for stuff. Sometimes, the\
+  \ lesson that your nervous system might learn is that I let my guard down and that\
+  \ was the mistake. This can lead to a kind of dysregulation of the nervous system,\
+  \ where your body might associate being in a state of calm and relaxed, especially\
+  \ if you're around other people, especially in an environment that, I don't know,\
+  \ is available for danger.\n\nThe sympathetic nervous system might be unwilling\
+  \ to give up that reactivity at times when it needs to, and it's thought that you\
+  \ could sort of measure that in terms of heart rate variability. If you measure\
+  \ someone's heart rate and look for those transitions of high speed versus low speed\
+  \ heart rates on the scale of breaths, you might not see that because the sympathetic\
+  \ nervous system is holding on too tight, and the parasympathetic system doesn't\
+  \ get the chance to do the slowing down that's supposed to happen.\n\nYou can imagine\
+  \ how that same type of difficulty in trading off between high state arousal versus\
+  \ low state relaxation could lead to problems in general health. Think about your\
+  \ gut doing its job, being able to sleep through the night, and being able to interact\
+  \ with people around you and let your guard down. Those are where a lot of the good\
+  \ parts of life tend to come from. \n\nSo, that hypervigilance can be one of the\
+  \ consequences of traumatic experiences. From the perspective of people who care\
+  \ about humans having happy lives, the question then becomes: if that happens, and\
+  \ when it happens, because unfortunately the world is rough and we will encounter\
+  \ difficulties, how do we try to bring things back to baseline? What might work\
+  \ there? \n\nI also want to mention, because I'm running out of time, that we're\
+  \ on a good path. However, I wanted to point out another concept, which I won't\
+  \ talk much about, which is the concept of resilience. The fact is that not everybody\
+  \ who has a negative experience results in negative outcomes. Disordered autonomic\
+  \ regulation involves various experiences, and some people are able to bounce back.\
+  \ What defines or helps us differentiate one from the other is often a question\
+  \ of baseline\u2014how many experiences have you had that show you it is safe to\
+  \ relax and put your guard down? Additionally, how likely are you to have experienced\
+  \ situations where that\u2019s not the case? If you consider this in terms of your\
+  \ life and your development, it highlights why it is so crucial to protect children\
+  \ and teach them that they can let their guard down.\n\nThink about the analogy\
+  \ of the blue versus green door. If you have a lifetime of experience with doors\
+  \ of all colors, and you open a green one and get punched in the face, you\u2019\
+  ve opened enough green doors that you know it\u2019s not the door that\u2019s the\
+  \ problem; it\u2019s just that one specific instance. But if you\u2019ve just started\
+  \ opening doors in your life with no prior experience, and you open a green door\
+  \ and get hit, then for the rest of your life, 100% of your experiences lead you\
+  \ to believe that green doors are unsafe. This might develop into a lifelong aversion\
+  \ to green doors even when it\u2019s not warranted.\n\nOne key takeaway from the\
+  \ literature, particularly discussed in \"The Body Keeps the Score,\" is how critical\
+  \ it is for us to ensure that young children have experiences of safety and comfort\
+  \ during their early years. The long-term consequences and effects of early adverse\
+  \ experiences are not insurmountable; children who face bad experiences are not\
+  \ doomed. However, those early effects will weigh more heavily than later experiences\
+  \ because, in that early phase of life, you have fewer experiences to draw upon.\n\
+  \nThere\u2019s also the idea that the world we deserve, optimistically, can only\
+  \ be achieved if we have three consecutive generations where every child gets to\
+  \ experience stability, comfort, and care for the first 18 years of their life.\
+  \ This is due to factors like epigenetics. Lastly, I want to mention that the disordered\
+  \ hypervigilance response creates a sense that nothing is safe. When you are in\
+  \ this state, you feel as though the world isn\u2019t safe and that you cannot let\
+  \ your guard down or appropriately rest and relax. In extreme cases, this can lead\
+  \ to a perpetual state of distress. In the case of interpersonal trauma, which unfortunately\
+  \ is quite common, you can experience difficulty being calm and relaxed around other\
+  \ people. This is both an understandable response and something that can be really\
+  \ diminishing for your ability to live a happy and healthy life. I would say effective,\
+  \ rather than productive, because productivity is tied to capitalism, while effectiveness\
+  \ relates more to internal motivation. \n\nAlthough this is outside my field, and\
+  \ I am certainly not a therapist or counselor, I find it interesting that many treatments\
+  \ and therapies aimed at helping people get their lives back in sync often share\
+  \ common elements. These tasks cut across the full hierarchy of the nervous system\
+  \ and aim to engage your voluntary control systems regarding parts of your body\
+  \ and nervous system at the most basic levels. You can't just decide to speed up\
+  \ or slow down your heart rate, but you can decide to hold your breath or take long,\
+  \ slow breaths. \n\nThere is this concept called the physiological sigh, which I\
+  \ believe is legitimate. I don't know if it is associated with Dan Huberman, who\
+  \ appears to be a reputable scientist, but I see him too often to fully trust him.\
+  \ Nevertheless, his research reflects something you can observe in your own life\
+  \ and in others. It involves that feeling of taking an extra breath followed by\
+  \ a deep sigh, which has empirical support and can act as a reset for your body\u2014\
+  especially when you're in an aroused or heightened state. Subsequently, it can help\
+  \ release tension and promote relaxation.\n\nEvery time you experience this, I encourage\
+  \ you to ask yourself why you were feeling heightened in the first place. Consider\
+  \ what was happening at that moment, and once you have moved past that point, reflect\
+  \ on what you can take away from it. This leads to exploring the boundaries between\
+  \ benevolent interactions among humans and Machiavellian tendencies in social cues.\
+  \ If you ever find yourself in an argument or difficult conversation, try not to\
+  \ get too angry or upset. Take a moment to pause and notice the dynamics at play.\
+  \ How others respond can be revealing, and recognizing this is essential in navigating\
+  \ such interactions. That's when you can engage more empathetically with the person\
+  \ because they have hypothetically just left that high arousal state and sort of\
+  \ entered into a more restful, relaxed kind of space. You can game it; you can cheat\
+  \ yourself because your nervous system, your body, your internal systems are brilliant.\
+  \ However, like most things that are brilliant, they're also dumb as hell. Your\
+  \ body, mind, and brain can lie to you; they can trick you and say things that are\
+  \ wrong. But you can counter that by lying just as hard to yourself, because you\
+  \ can. If you're trying to get yourself to relax\u2014and we know that breathing\
+  \ in tends to ramp up the sympathetic nervous system while breathing out tends to\
+  \ ramp up the parasympathetic\u2014just take a quick breath, breathe in quickly,\
+  \ and then exhale slowly. You're essentially gaming the system there. \n\nI also\
+  \ have a personal fascination with eye movements in this conversation. As we've\
+  \ discussed many times throughout this semester, our breathing is on the boundary\
+  \ of volitional versus autonomic control. Our eye movements are in a similar kind\
+  \ of space. You make tens of thousands of eye movements every day, the vast majority\
+  \ of which are not volitionally controlled. It's just your central nervous system\
+  \ grabbing visual information from the places that some lower region of your nervous\
+  \ system wanted the information from. We can control that, though not all the time.\
+  \ With some effort, we can grab that handle and control things. \n\nThere are treatments\
+  \ like EMDR, which stands for Eye Movement Desensitization and Reprocessing, that\
+  \ involve making patterned eye movements, like back and forth, as a way to take\
+  \ some control back over your central nervous system. Additionally, therapies often\
+  \ emphasize naming and noticing emotions, which you'll see in somatic therapies.\
+  \ It's about naming the emotion and pointing to it in your body, engaging the linguistic\
+  \ parts of your brain\u2014the most abstract, non-biological parts that exist. Putting\
+  \ a name on a feeling is like reaching across eons of the phylogenetic tree. Many\
+  \ therapies have that nature of reaching from the top down to the bottom and resting\
+  \ control that way. \n\nIn the last two minutes, I want to think about this in terms\
+  \ of having a body, having a nervous system, and living in this strange meat puppet\
+  \ that has all these... Different systems trade off against each other. Some of\
+  \ these can be influenced and controlled, while others cannot. Thinking about it\
+  \ in the context of my experiences with pets\u2014like dogs and cats\u2014cats are\
+  \ kind of like having strange alien roommates who live and operate in the same space.\
+  \ We like each other, but we can't really communicate in the same way. I think there\
+  \ are parts of your nervous system, like your gut, that feel similar. It's present,\
+  \ and you can operate in a way that elicits certain behaviors, but you can't directly\
+  \ control it, in the same way that you can control your muscular system or eye movements.\n\
+  \nDogs, on the other hand, are more like an externalized aspect of your nervous\
+  \ system. They actively look to you to determine how they should behave, allowing\
+  \ you to control their behavior more directly. They are independent beings, but\
+  \ you can say, \"calm down,\" or pet them, and if they bark, they look at you. This\
+  \ creates a much more directed form of communication with that externalized nervous\
+  \ system compared to that of a cat.\n\nThere's this concept in neuroscience known\
+  \ as the homunculus. The homunculus is the naive feeling that you are in a little\
+  \ driver's seat in your brain, observing and exerting some control over your body.\
+  \ However, that idea doesn't hold up; there isn't a smaller piece inside you\u2014\
+  a little person in your brain\u2014doing that. Instead, it's simply the system observing\
+  \ itself, and this kind of interaction is philosophically profound.\n\nIn the last\
+  \ few seconds, I want to mention Wittgenstein, a philosopher of language who was\
+  \ one of the progenitors of modern theories of the philosophy of science. He discussed\
+  \ the impossibility of language and the challenge of conveying human thought through\
+  \ language, highlighting the sad reality that we can never fully express a thought;\
+  \ we can only approximate it over time. He described this idea with a beetle in\
+  \ a box. Imagine I have this box containing a beetle. I can describe the beetle's\
+  \ characteristics\u2014it can be green with little things on its head\u2014and I\
+  \ could talk about it for a thousand years, but you'll never be able to actually\
+  \ see it. You won't get the same picture of the beetle that you would if I could\
+  \ show it to you, but I can't. In the same way that nobody else can ever see the\
+  \ beetle in your box, you can never see the box itself. I think that to really engage\
+  \ in the strange and possibly impossible task of knowing yourself and understanding\
+  \ your body, it's a combination of being able to describe your internal state. However,\
+  \ it also involves listening, hearing, and seeking help to get the full picture,\
+  \ which you can never fully achieve from a first-person perspective, as that is\
+  \ all we really have. If you\u2019re going to be doomed to push an impossible boulder\
+  \ up a hill forever, you might as well have company. That\u2019s it. Thanks for\
+  \ the class. Have a good break, and I will see you."
+title: '[HMN24#09] Prediction, Trauma, and your Auto/Para/Sympathetic Nervous System(s)'
+transcript_chunks:
+- dur: 180.0
+  end: 180.0
+  start: 0.0
+  text: 'Okay, hello everybody, settle down. Welcome to this Bonus Week, and thank
+    you for showing up. Because this class doesn''t have a class the first week of
+    the semester, and the semester starts on Wednesday, it''s like this weird little
+    half-week that is kind of part of that. I appreciate you showing up. If you''re
+    watching this on a video and didn''t show up, I understand.
+
+
+    So, the cadence of the semester has actually been working out pretty nicely. Last
+    time, we had the fun little walkthrough of my prior research experience, providing
+    a hypothetically sufficient background to cover it. Now, this is the second-to-last
+    class of the semester. It''s kind of a little bit of a bonus lecture.
+
+
+    This time, I''m going to talk about your autonomic nervous system, particularly
+    as it relates to trauma and the neurophysiological effects of trauma on the body.
+    We will explore the ways that this interacts and overlaps with all the things
+    we''ve been learning this semester about how bodies work and the balancing act
+    we have between the parts of our bodies and nervous system that we have theoretically
+    direct access and control over, and the parts that are more like the ocean we
+    float on top of. We''ll discuss how these elements play into each other.
+
+
+    Next week will be the final class of the semester; there is no proper final, so
+    I will spend that time doing a wrap-up and presenting my class project. This project
+    aims to make sense of the tremendous amount of input you''ve provided into the
+    server. I''ll create an official assignment on Canvas about what to do to wrap
+    up your efforts here.
+
+
+    I will probably spend Thanksgiving adding a few extra features to the bot and
+    some of the visualizations I''ve been showing throughout the semester. There will
+    be some assignment that will look something like this: make sure you''ve had at
+    least this many chats here and there. Additionally, there will be an exit interview-type
+    conversation where you''ll talk to the bot. At that point, I hope to have a way
+    of extracting your specific conversations and incorporating them into the conversation,
+    so you can discuss with the bot about your experiences and insights.'
+- dur: 180.0
+  end: 360.0
+  start: 180.0
+  text: 'The semester went, and what you discovered and found will be fun to look
+    at. So, let''s get into this. I dropped a link to the sloppy notes that I have
+    on the GitHub page, and I will try to go through this in a structured way. This
+    area of neuroscience, at the autonomic level, is not something that I have direct
+    professional experience in. A lot of the stuff we have been talking about this
+    semester is on the perceptual motor side of life, such as eye movements, motion
+    capture, and that kind of biomechanic stuff. That is an area in which I consider
+    myself a contributing expert, and I have a solid awareness of the field, in terms
+    of knowing the literature and understanding the methods, as well as being steeped
+    in the culture of people who research that type of thing.
+
+
+    However, this topic is getting closer to areas where I don''t share the same relationship.
+    I do know a lot about it in various ways, but my knowledge stems from what we
+    might consider the concept of an intelligent layperson. This is someone who isn''t
+    a professional expert in a field but is a smart person who has looked into it
+    and read about it. Much scientific writing intentionally targets this intelligent
+    layperson audience. I have read some books about this topic, but I haven''t conducted
+    extensive research or engaged in direct research in the area.
+
+
+    Interestingly, because of my background, the popular science type of literature
+    that I enjoy connects with the domains where I do possess deeper knowledge. As
+    you can watch throughout the lecture, you''ll see how the topics we have discussed
+    intersect. It''s intriguing for me to examine the gaps in knowledge that I experience
+    as an outsider while also recognizing that my unique perspective might contribute
+    to this area in meaningful ways.'
+- dur: 180.0
+  end: 540.0
+  start: 360.0
+  text: "So, let's get into it. Let's talk about your various nervous systems. You\
+    \ have one main one, which is roughly speaking your entire body. There are several\
+    \ other delineations of your nervous system, and the ones we tend to discuss the\
+    \ most in the field of neuroscience are the central nervous system and the peripheral\
+    \ nervous system. \n\nThe central nervous system is what you typically think about\
+    \ in neuroscience. Specifically, it comprises the brain, which we refer to as\
+    \ the cortex, and it's this large, lumpy pink structure on top. The peripheral\
+    \ nervous system is the other side of that. The central nervous system includes\
+    \ the cortex, which is the pink, wrinkly part on top, and it also includes the\
+    \ subcortical regions, like the cerebellum at the back, as well as areas like\
+    \ the basal ganglia and thalamus, which are wrapped inside the big pink wrinkly\
+    \ part. It also includes your spine and similar structures.\n\nThe basic functional\
+    \ delineation we use for the central nervous system is that it is the area where\
+    \ processing occurs. This is where information that has come in through the senses\
+    \ is manipulated and transformed into the basis for motor behavior or action.\
+    \ However, this distinction, like everything else here, is a simplified version\
+    \ of reality. It serves as a reasonable way to categorize things, but there are\
+    \ all sorts of overlaps and gray areas, as nature often exhibits.\n\nThis is particularly\
+    \ true in areas like the eye, such as in your retina, or in the complex array\
+    \ of sensors on your skin. These parts of the nervous system would typically be\
+    \ considered part of the peripheral nervous system, dealing with sensory and motor\
+    \ aspects. Yet, they perform functions that resemble computations. The immediate\
+    \ distinction between the central and peripheral nervous systems can be illustrated\
+    \ simply, where the central nervous system resembles a charming little off-center\
+    \ brain shape along with the spinal cord, while the peripheral nervous system\
+    \ is often thought of as just the wiring that brings sensory information from\
+    \ the external environment."
+- dur: 180.0
+  end: 720.0
+  start: 540.0
+  text: "parts of your body into the central nervous system and the sort of flip-flopped\
+    \ wires that send motor commands from the central nervous system out to the periphery.\
+    \ This is the sort of cartoon version that you will often see in textbooks. It's\
+    \ not incorrect; it\u2019s not a bad way to describe things, but it's inherently\
+    \ incomplete and cartoonified, in the way that we often do when we try to parse\
+    \ nature, which, as we've discussed in many ways on many days, is sort of an impossible\
+    \ thing to do. So first is the peripheral nervous system\u2014that's mostly what\
+    \ we've been talking about here\u2014and that kind of basic distinction is there.\
+    \ However, there are other sub-distinctions that we can make into other aspects\
+    \ of the different nerve groups that we find in the body. Generally speaking,\
+    \ neuroscience is the science of neurons, and your neurons sit in these different\
+    \ functional roles in your body. I\u2019m realizing that even this distinction\
+    \ that I'm about to make is also kind of a flipped or chopped up version of reality.\
+    \ When I sat down to write these notes, I thought of the central nervous system,\
+    \ the peripheral nervous system, the enteric nervous system, and the autonomic\
+    \ nervous system. But I realized that those could arguably be thought of as four\
+    \ distinct things, or you could consider them to be subcategories of the two categories\
+    \ I just mentioned. You could also say language is incomplete, and we name things\
+    \ as they are useful to us. Broadly speaking, the central nervous system is like\
+    \ the central processor and the main computational aspect of your neurons, while\
+    \ the peripheral nervous system consists of sensory and motor components. The\
+    \ enteric nervous system, which is a term I learned this morning, is the fancy\
+    \ term for your gut, which is one of those areas that I remember, when I started\
+    \ in grad school around 2008, people began to really understand that your gut\
+    \ is essentially its own entity. There\u2019s a lot going on in the way that the\
+    \ nerves are connected and how decisions are made regarding when various tubes\
+    \ will start doing peristalsis and which gland should secrete what into which\
+    \ area at which time. Not to mention, the whole microbiome that\u2019s present\
+    \ plays a critical role. As the complexity of that gut nervous system has gradually\
+    \ become more apparent in the scientific research community, it has been percolating\
+    \ out into the general understanding as well."
+- dur: 180.0
+  end: 900.0
+  start: 720.0
+  text: "In the world at large, all the things you're seeing about gut health and\
+    \ your microbiome are kind of right on schedule. They are showing up about a decade\
+    \ after they started to emerge in the scientific literature. We don't have as\
+    \ much to say about the enteric nervous system, but it will come back into the\
+    \ conversation because it interacts with the autonomic nervous system in a way\
+    \ that's interesting. We'll talk about that sort of towards the bottom. The last\
+    \ bit, the star of the show today, is your autonomic nervous system. The prefix\
+    \ 'auto' refers to the root of automatic. Your autonomic nervous system is the\
+    \ part of your nervous system that handles the basics, the essential functions\
+    \ that keep you alive. It's the low-level system that addresses what you need\
+    \ to survive as an individual organism and as a species. I mentioned at some point\
+    \ that the nervous system, particularly in the central area, could be argued by\
+    \ some to be distinct from the enteric nervous system, possibly as a subcomponent\
+    \ of the peripheral nervous system. Who knows if they would be able to defend\
+    \ that position to relevant experts, but those who like to categorize would place\
+    \ the autonomic nervous system as a subcomponent of the central nervous system.\
+    \ There\u2019s a distinction to consider. Often, when you look at the brain and\
+    \ the central nervous system, you can kind of get a map of the evolutionary history\
+    \ of that part of the nervous system by examining it from the inside out. The\
+    \ innermost part of your nervous system is typically the oldest. As you go outward,\
+    \ like the layers of an onion or a flower, the outer edges tend to be the most\
+    \ recently developed. The neocerebellum, which is sometimes referred to as the\
+    \ new part of the cerebellum, is also known as the neocortex, the new part of\
+    \ the cortex. A similar story is true on a smaller scale, in terms of volume,\
+    \ but on a larger scale in terms of the number of neurons at the cerebellum level.\
+    \ There\u2019s a similar distinction where the middle parts are the oldest, and\
+    \ as you move outward, you encounter the more phylogenetically new parts. Then\
+    \ the outside is the neocerebellum, which is thought to be associated with tool\
+    \ use and similar functions."
+- dur: 180.0
+  end: 1080.0
+  start: 900.0
+  text: "The really fine motor control that we are good at is closely related to the\
+    \ autonomic nervous system. We are referring to the inner parts, the deep structures\
+    \ like the brainstem and the medulla oblongata. If you think of your central controller,\
+    \ it resembles a fist; the fist represents your spine coming down, with the deeper\
+    \ subcortical regions residing at the top. These areas are among the oldest parts\
+    \ of our nervous system. The cortex has been described as the flower on top of\
+    \ the bush. If you picture a rosebush, there is this beautiful red flower on top,\
+    \ and we spend a lot of time focusing on that flower. However, when you examine\
+    \ the plant, the majority of it is bush, with the flower being merely a fascinating\
+    \ aspect. Strictly speaking, that bush could still function normally without the\
+    \ rose, except for reproducing more bushes. My botanical knowledge might not be\
+    \ very strong here. This is also where you'll often hear discussions about the\
+    \ mammalian brain versus the reptilian brain. The pink, wrinkled cortex is associated\
+    \ with the mammalian parts, while the deeper regions are more connected to the\
+    \ reptilian aspects, as those evolved much earlier. Most of our vertebrate friends,\
+    \ who share basic functionalities such as having a heart and a nervous system,\
+    \ have a centralized set of neurons that control most bodily functions. This contrasts\
+    \ with insects or cephalopods like octopuses, which have a more distributed nervous\
+    \ system. In their systems, there isn't the same distinction between a concentrated\
+    \ area of important parts and a more diffuse set of responsibilities in the periphery.\
+    \ All of our vertebrate friends, especially tetrapods\u2014those with two arms\
+    \ and two legs\u2014share a similar structure, which marks the terminus of the\
+    \ spinal cord. Our chordate friends exhibit a similar shape in this regard. The\
+    \ autonomic nervous system manages the basic needs and functions."
+- dur: 180.0
+  end: 1260.0
+  start: 1080.0
+  text: "For survival, it is at this point that I get to make a joke that all neuroscience\
+    \ professors are required to make in undergraduate classrooms. The autonomic nervous\
+    \ system handles the four Fs of survival: feeding, fighting, fleeing, and procreation.\
+    \ This is the classic joke. The basic idea is that these are the things you need\
+    \ to be able to do; you need to be able to eat food, fight when necessary, run\
+    \ away when necessary, and then engage in the complex behaviors that help proliferate\
+    \ the species. The autonomic nervous system is thought to handle a lot of that.\n\
+    \nAs we break things down into increasingly small categories, your autonomic nervous\
+    \ system can be considered to involve two main aspects. Even though I do a lot\
+    \ of searching for images related to these topics, which sometimes feels a little\
+    \ lazy, I find it helpful to show the process. It allows us to see the different\
+    \ types of cartoons and images that we use to discuss these concepts. Some images\
+    \ have greater or lesser detail, and some have more or less resemblance to what\
+    \ you might actually observe if you were to take an organism, dissect it, and\
+    \ take pictures. Others are much more cartoonified.\n\nIt is important to notice\
+    \ that all of these images are cartoons. None of them are accurate representations,\
+    \ and none will show you what you would see if you cut open any actual human,\
+    \ nor do they represent what you would see if you cut open all possible humans,\
+    \ which I don't recommend doing either. We tend to have this fiction that these\
+    \ pictures somehow represent reality, but really, they represent the best approximation\
+    \ we have for carving up reality into conceptual boxes that are simple enough\
+    \ for us to understand.\n\nFor example, this cartoon of the brain has fewer details\
+    \ than that cartoon of the brain, but they're both cartoons and both impose false\
+    \ separations. This part is colored one way, that part is colored another. We\
+    \ call this part the parietal lobe and that part the occipital lobe, and we don\u2019\
+    t choose these colors randomly. They help us categorize and understand the brain's\
+    \ structure, even if simplistically."
+- dur: 180.0
+  end: 1440.0
+  start: 1260.0
+  text: "We must always remember that we put these words into nature. We didn't crack\
+    \ open the brain and see a stamp that said, \"This is the parietal lobe.\" We\
+    \ discovered that if we call this thing a certain name, then we can say things\
+    \ about the whole region, which tends to be more accurate than if we talked about\
+    \ a different part of the brain. For example, the occipital lobe is where the\
+    \ visual cortex resides. When we talk about vision, we're primarily referring\
+    \ to this area. However, you won't find visual functions exclusively in this part\
+    \ of the nervous system; you absolutely will find them in other areas as well.\
+    \ \n\nThere will be a particular search that shows a stark distinction between\
+    \ scientific concepts and what might be considered \"woo woo\" stuff. Much of\
+    \ what we discuss will touch on the boundary between proper science\u2014which\
+    \ I wouldn't recommend\u2014and popular conceptions of science, as well as what\
+    \ we might call pseudoscience. Pseudoscience does not align with our scientific\
+    \ understanding in the way that we would expect popular science to do. For instance,\
+    \ I would argue that undergraduate textbooks on neuroscience exist on the edge\
+    \ of popular science, as they present simplified versions of the story for people\
+    \ who do not have a strong background in the field. These textbooks do not convey\
+    \ the complexity and chaos of professional scientific work; instead, they start\
+    \ with different layers of simplification and then gradually guide students towards\
+    \ a more realistic understanding of the world, which is much more chaotic and\
+    \ mixed up.\n\nNow, regarding the autonomic nervous system, it has two main branches,\
+    \ which we refer to as the sympathetic and parasympathetic nervous systems. These\
+    \ are again simplifications. On one side, you have the fight or flight aspects,\
+    \ associated with high speed and high arousal states necessary for survival in\
+    \ a world where predation has evolved. On the other side, the parasympathetic\
+    \ nervous system is referred to as the rest and digest aspects of our nervous\
+    \ system, responsible for processes such as sleeping, digesting food, and feeling\
+    \ relaxed."
+- dur: 180.0
+  end: 1620.0
+  start: 1440.0
+  text: "Calm those kinds of things. As I was looking into the deeper aspects of this\
+    \ area, I engaged in activities such as reading, scanning review articles, and\
+    \ reviewing the Wikipedia page. I always recommend this for any new domain. I\
+    \ wanted to check the things I thought I knew and see if I could find connections\
+    \ to more established research. As is often the case, there is a lot of shifting\
+    \ in the way we think about the autonomic nervous system and the sympathetic-parasympathetic\
+    \ divide: who has what role, how we should think about them, and if it really\
+    \ is that straightforward. \n\nWhen I talk about this, I aim to appropriately\
+    \ mix the information I usually share, which is based on older concepts, with\
+    \ what appears to be the new ways of thinking emerging in the field. In general,\
+    \ whenever I discuss something that seems simple, it is never that simple. So\
+    \ when I say something like, \"Here\u2019s the autonomic nervous system; there\
+    \ are two parts: this one does this and that one does that,\" those hard delineations\
+    \ and simplified divisions of labor tend to mask the complexity underneath. If\
+    \ you actually poke at it and dig deeper, the reality is that it's always more\
+    \ complicated than that. These are the cartoon stories we tell because of a combination\
+    \ of what we used to think\u2014often simpler explanations than they ought to\
+    \ be\u2014and the basic distinctions we begin with when explaining concepts to\
+    \ others. It's not always functional to start every conversation by saying, \"\
+    It's too complex to understand in fifteen lifetimes,\" so we tend to start with\
+    \ the simpler cartoons. \n\nTherefore, let\u2019s stick with this rough delineation\
+    \ for now: the sympathetic and parasympathetic nervous systems\u2014fight or flight,\
+    \ rest or relax. It's very hard to remember these things. This is one of many\
+    \ areas of science, especially neuroscience, where a couple of centuries ago,\
+    \ someone decided to name two concepts with nearly identical-sounding words, like\
+    \ afferent and efferent for sensory versus motor nerves. I still don't know which\
+    \ is which. I think afferent relates to sensory nerves and happens after the event,\
+    \ while efferent affects the world and relates to motor nerves, but I bet whoever\
+    \ created that distinction thought they were quite clever. I will hold a grudge\
+    \ against them forever. Therefore, we tend to rely on these simplified terms."
+- dur: 180.0
+  end: 1800.0
+  start: 1620.0
+  text: 'On pneumonics for that, my particular mnemonic for the sympathetic and parasympathetic
+    nervous systems is that the sympathetic is the fight or flight response, because
+    you''re ready to confront a threat. In contrast, the parasympathetic is like eating
+    a pear; you''re relaxing and enjoying life. It''s not a perfect mnemonic, but
+    it''s the best one I have. I realize that some of you may go off to medical school
+    and will need to memorize information, which is something I am personally allowed
+    to skim through. That could be a good use of that technology.
+
+
+    So, we have sympathetic and parasympathetic systems. Sympathetic is associated
+    with the fight or flight response. One distinction I came across is that a better
+    way to think of it is that the sympathetic nervous system is tuned for high-speed,
+    fast-paced, low-latency actions that require arousal and typically activate your
+    muscular-skeletal system in order to respond to the environment quickly. In contrast,
+    the parasympathetic nervous system manages slower, calmer, and quieter processes
+    that unfold over long periods of time, such as digestion and sleep, as opposed
+    to getting into a fight.
+
+
+    Of course, there are many aspects of our behavior that require a combination of
+    both systems. For example, consider playing sports, where good performance necessitates
+    a blend of fast and precise actions along with a calm state of mind to avoid panicking.
+    There are various socio-personal and physiological processes that similarly need
+    a complex balance of arousal and relaxation.
+
+
+    When you look up the autonomic nervous system, you''ll often see diagrams illustrating
+    the functions of the parasympathetic and sympathetic systems; the parasympathetic
+    system connects to certain parts of your body, while the sympathetic system connects
+    to others. In many respects, these descriptions are reasonable, and I also believe
+    that the autonomic nervous system, as described in various sources like Wikipedia,
+    provides a helpful framework for understanding these concepts.'
+- dur: 180.0
+  end: 1980.0
+  start: 1800.0
+  text: 'On this page, we''ll talk about the pictures in a second. There are some
+    nice tables and a lot of physiology information, which, in my area of research,
+    I tend to avoid learning too much about. However, these letters and numbers refer
+    to vertebrae, such as T6, T7, and T8, which correspond to the sixth, seventh,
+    and eighth vertebrae of your thoracic region. You have cervical, thoracic, and
+    lumbar regions, and so on.
+
+
+    Now, down here in the function section, there are nice lists that typically describe
+    the aspects of your sympathetic and parasympathetic nervous systems, which tend
+    to be paired with one another. The parasympathetic connection to your gut stimulates
+    digestion and initiates peristalsis and secretion of various substances into different
+    areas. In contrast, your sympathetic nervous system tends to shut down these functions.
+    The reasoning is that if you''re going to get into a fight, you don''t want to
+    waste energy on digestion.
+
+
+    As you analyze these functions, think of the things necessary for general survival,
+    which are activated by the parasympathetic nervous system, versus the optional
+    subsystems you would want to deactivate if you were in a fight-or-flight situation,
+    activated by the sympathetic nervous system. Essentially, you don''t digest food
+    when you''re in a fight; the thought process is that this will be handled later.
+
+
+    There are some interesting connections that we will revisit if I manage my time
+    properly, such as those related to your eyes, your iris, and pupil constriction.
+    I discovered an interesting fact: the parasympathetic system affects the lens
+    inside your eye. When you look at something and defocus, you are controlling the
+    lens, and those muscles interact interestingly with the sympathetic and parasympathetic
+    functions.
+
+
+    Returning to the anatomical aspects of your nervous system, there are specific
+    characteristics that are associated with the sympathetic and parasympathetic parts
+    of your body.'
+- dur: 180.0
+  end: 2160.0
+  start: 1980.0
+  text: "If you are on the side of arguing that the autonomic nervous system (ANS)\
+    \ is not a part of your central nervous system, you would point to specific anatomical\
+    \ features to support your claim. You might say that these structures exist outside\
+    \ of the spine, and therefore, they belong to the peripheral nervous system. However,\
+    \ I wouldn't go so far as to define them strictly as part of the peripheral system\
+    \ because they are indeed outside of your spine, but they are very close to it.\
+    \ So, it becomes difficult to categorize them clearly. The argument continues,\
+    \ particularly regarding the sympathetic nervous system, which relates to an interesting\
+    \ aspect called the sympathetic trunk. This structure consists of pairs of ganglia\
+    \ that run down the edge of your spine on the outside. A ganglion is essentially\
+    \ a cluster of neurons. For example, we often discuss retinal ganglion cells that\
+    \ pool together different photoreceptors. Many organisms, including insects and\
+    \ other creatures lacking a central nervous system, have ganglia. For instance,\
+    \ dragonflies possess ganglia and bulbs that manage their visual inputs and motor\
+    \ outputs. When we start considering the distinction between a ganglion and a\
+    \ central nervous system, we delve into linguistic territory; the definitions\
+    \ become less clear.  \n\nThe sympathetic trunk comprises these clusters of neurons\
+    \ that run alongside your spine. This structure is essential for where your sympathetic\
+    \ nervous system interacts with your body. To visualize this, think of the top\
+    \ structure as a knob and understand that it extends down to the lower regions,\
+    \ such as L5, which is approximately located around here. At the very bottom,\
+    \ what we refer to as the cauda equina resembles a horse's tail. Along the spine,\
+    \ you find these paired sets of ganglia that are typically associated with the\
+    \ sympathetic nervous system. These ganglia become activated, triggering an increase\
+    \ in arousal. In situations that suggest a fight-or-flight response, the sympathetic\
+    \ nervous system ramps up general activation in the body. This process is managed\
+    \ by the ganglion cells that help regulate this increased level of arousal. I\
+    \ think about this a lot, particularly when considering how we need to be cautious\
+    \ about oversimplifying our understanding of the nervous system."
+- dur: 180.0
+  end: 2340.0
+  start: 2160.0
+  text: "Body and biology in general, you also have to be careful when doing the thing\
+    \ that I'm about to do, which is starting to use your own personal experience\
+    \ of being inside of one of these weird meat puppets to make sense of some of\
+    \ the stuff that you see in terms of anatomy. You have to be careful about it,\
+    \ but you don't have to be that careful about it, because if you think about what\
+    \ the nervous system, specifically the sympathetic nervous system, does, it tends\
+    \ to be a part of being startled or scared. Like, oh my God, there's something\
+    \ over there. One of my favorite nervous system responses is the startle reflex,\
+    \ which is a part of our nervous system that we share with houseflies. It's like\
+    \ a large, looming object, and you have that jump response. For me, there's this\
+    \ strong association between those types of startle responses and a light, like\
+    \ lightning, going down your spine, as if it's a shocking moment. \n\nI was fascinated\
+    \ to discover, perhaps a little embarrassingly late in my career as a neuroscientist\u2014\
+    partially because I started as a philosophy major, so I missed a lot of the standard\
+    \ undergraduate introduction stuff\u2014that what these responses do is tell your\
+    \ body to dump adrenaline. They crank up your muscles, increase sensitivities,\
+    \ lower pain sensitivities, and enhance a sort of low-level activation so you\
+    \ can respond quicker to stimuli. This kind of Wolverine-like response comes from\
+    \ these systems getting cranked on. Of course, I'm describing a very high level\
+    \ of crank, but the somatic experience of having this kind of lightning run down\
+    \ your spine is associated with those startle responses. \n\nAcademically, I learned\
+    \ that the startle response is associated with a set of paired ganglion cells\
+    \ that run down your spine. It's one of those things where I wonder if that's\
+    \ the same thing or if I'm just telling stories to myself. Is there a difference\
+    \ between those feelings and the cartoons we see here? Who knows? But from an\
+    \ anatomical perspective, the sympathetic nervous system is associated with these\
+    \ paired spinal ganglion cells in the sympathetic trunk. If you're wondering what\
+    \ this strange picture here is, it almost resembles a subway map. It doesn't tell\
+    \ you exactly the layout, but it indicates that if you're trying to get from this\
+    \ point to that point, you should take this route."
+- dur: 180.0
+  end: 2520.0
+  start: 2340.0
+  text: "The direction you're going is vital when considering how it relates to these\
+    \ shapes, which I believe are associated with activation versus inhibition. This\
+    \ part connects to that part, and actually, no, sorry, these ones up here are\
+    \ more peripheral. Speaking of the blue lines, the red lines represent the sympathetic\
+    \ nervous system, and the blue lines correspond to the parasympathetic nervous\
+    \ system. Here, I have to put a big disclaimer because we are now going to discuss\
+    \ the vagus nerve, which is a real anatomical feature. It's used in various discussions\
+    \ about how to calm your nervous system and relate to the world.\n\nIn this realm,\
+    \ good-hearted people often find ways of explaining the world that blur the lines\
+    \ between what is helpful for humans and what we believe to be empirically true\
+    \ about the physical world. I'll provide a couple of hints on how you can discern\
+    \ which part of the landscape you're in as you explore topics like the vagus nerve.\
+    \ The vagus nerve is fascinating; it's the longest nerve in your body by a significant\
+    \ margin. The term 'vagal' comes from roots related to wandering, reminiscent\
+    \ of the term 'vagrant.' While I was tempted to mention 'voyage,' it may not be\
+    \ entirely appropriate, as it also denotes wandering.\n\nTherefore, it\u2019s\
+    \ called the wandering nerve. This is where I must choose my images carefully,\
+    \ as many illustrations are simplistic and miss crucial details. The vagus nerve\
+    \ starts where the sympathetic trunk runs down the spine, connecting at various\
+    \ vertebrae. The vagus nerve emerges from the brainstem. While I don't recall\
+    \ specifics, I can guess where it originates based on what I've learned."
+- dur: 180.0
+  end: 2700.0
+  start: 2520.0
+  text: Cranial nerve X structure, I don't know one of the cranial nerves. It's one
+    of the cranial nerves, so for you future doctor types, you will be forced to look
+    at this list of cranial nerves, which will become very familiar to you. The cranial
+    nerves include the optic nerve, which is one of them, and the oculomotor nerve,
+    which controls eye movements. It's basically just the nerves that control your
+    facial expressions, among others. The vagus nerve is one of them; it breaks out
+    of your central nervous system in the cranium and then runs down through your
+    body, wrapping around. This is all one neuron and it has many parts. With neurons,
+    the long parts are called the axons, and then you have dendrites. I'm actually
+    not sure if the dendrites are at the beginning or the end, but this is all one
+    long neuron that tends to go down and wrap around a lot of the viscera of your
+    body, including your respiratory system and down into the gut. When I earlier
+    talked about the enteric nervous system, which is the gut-based nervous system,
+    this is its main mode of communication. The primary way that your gut communicates
+    with the central nervous system is through the vagus nerve. Similarly, I tend
+    to associate the sympathetic trunk with that shocking feeling of being surprised.
+    You can think about all the different emotions and feelings that relate to sinking
+    feelings in your chest or your guts feeling tied up, like that empty feeling in
+    the pit of your stomach. I had a similar reaction when I first saw pictures of
+    this; I realized that's where all those feelings come from. If I were to point
+    to those feelings, it would be these spaghetti-like cacophonies of parts of the
+    vagus nerve.
+- dur: 180.0
+  end: 2880.0
+  start: 2700.0
+  text: "Yes, those are kind of like, obviously, there are many more details. So,\
+    \ sorry, I guess there are some parts that come out the bottom too. Your vagus\
+    \ nerve has connections that differ from those of the sympathetic system, which\
+    \ runs down the spine. The parasympathetic system tends to be associated with\
+    \ these long-range connections through the vagus nerve, which are not as connected\
+    \ to the musculoskeletal aspects of your body. Earlier, when we were looking at\
+    \ the list of different functions and considering the effects of parasympathetic\
+    \ activation on various processes and organs as opposed to sympathetic activation,\
+    \ this trade-off is thought to be mediated through, what's the word... there's\
+    \ a fancy term for this, but it's like a type of activation where one system tends\
+    \ to increase while the other decreases. You observe a similar effect in the way\
+    \ reflexes trade off during activities like walking. As I walk, my feet cycle\
+    \ through stance and swing with a very tight spatiotemporal coupling. As my foot\
+    \ hits the ground, my leg muscles have to be stiff and strong enough to support\
+    \ my body weight, but the second my foot leaves the ground, they become floppy\
+    \ to swing through without expending too much energy. The transition from stance\
+    \ to swing at the level of the limbs during locomotion is mediated by the upper\
+    \ levels of your nervous system, particularly through the top part of the motor\
+    \ hierarchy. This often involves shifting the gain of various low-level reflexes,\
+    \ like the stretch reflex that tends to resist motion. The transition from stance\
+    \ to swing at each step is mediated at some level by higher brain functions\u2014\
+    specifically, I think it's the cerebellum in that part of the region\u2014shifting\
+    \ the gain on that low-level stretch reflex. A lot of those stance-to-swing transitions\
+    \ occur there. There\u2019s also a similar component of reciprocal activation\
+    \ in the sympathetic and parasympathetic nervous systems that I was trying to\
+    \ discuss."
+- dur: 180.0
+  end: 3060.0
+  start: 2880.0
+  text: "Here, as I mentioned, we could teach several classes on the specific anatomy\
+    \ associated with these systems. In terms of high-level, broad, cartoonified versions\
+    \ of the story, the main anatomical aspects of the sympathetic and parasympathetic\
+    \ nervous systems are associated with the sympathetic trunk and the paired ganglia\
+    \ in the sympathetic case. In the parasympathetic sense, it's about the vagus\
+    \ nerve wandering through your body. \n\nSo, moving into a more functional space,\
+    \ the idea is to look at the transition of your nervous system into states associated\
+    \ with fight or flight\u2014high-pressure, low-time-scale, leave-it-all-on-the-field\
+    \ types of activation of your sympathetic nervous system. In contrast, the parasympathetic\
+    \ system takes over for those longer time scales during relaxation and restorative\
+    \ activities. \n\nMost of the rest of this class will discuss that transition\
+    \ and your ability to appropriately mediate between the different states your\
+    \ body should be in, depending on the condition of the world around you. Specifically,\
+    \ I want to begin discussing this in terms of measurable aspects. A lot of behavioral\
+    \ research into these areas of the autonomic nervous system looks at factors that\
+    \ are typically managed by your autonomic nervous system. The primary ones are\
+    \ breathing and heart rate. \n\nFocusing on heart rate, it is important because,\
+    \ while breathing is essential for survival, it is also subject to voluntary control.\
+    \ Most of the time, your breathing happens automatically, but you can choose to\
+    \ hold your breath, inhale, or exhale, enacting some level of volitional control.\
+    \ You can hold your breath for a while, though you can't do it until you die\u2014\
+    just a quick warning: don\u2019t try to pass out by holding your breath. \n\n\
+    On the other hand, heart rate is a bit different; it operates at a deeper layer\
+    \ in your nervous system. You cannot control your heart rate in the same way you\
+    \ control your breath, and you can't control your breath in the same way you control\
+    \ your hand. Therefore, heart rate is one layer deeper in your nervous system,\
+    \ where you lose that direct volitional control. Examining heart rate as a measurement\
+    \ provides a fascinating and valuable window into the status and functionality\
+    \ of these systems."
+- dur: 180.0
+  end: 3240.0
+  start: 3060.0
+  text: "that layer of your nervous system control. One of the main concepts that\
+    \ comes out is the notion of heart rate variability. There is a certain kind of\
+    \ naive, mechanistic thinking about the heart, which I believed for quite some\
+    \ time. You would imagine that if you're a doctor assessing the health of someone's\
+    \ nervous system, you would look at their heart rate and you would look for heart\
+    \ rate variability. You would say heart rate variability is good; when it's low,\
+    \ we prefer our heart beats to be very regular, like a metronome, and when the\
+    \ variability in timing between beats is low, that's when your heart is doing\
+    \ its job very well. However, it turns out that, although this is the case, there\
+    \ is a caveat around this. When we think about things like heart rate variability,\
+    \ one of the things we look for, as if I were a medical doctor, is there's a healthy\
+    \ range of variability that, if you are not showing, that's a sign that something\
+    \ is going awry under the hood.\n\nBriefly, if you think about heart rate variability,\
+    \ it's literally just measuring the heart rate and then doing statistics on the\
+    \ time between beats. This is not just heart rate variability. If anyone has ever\
+    \ seen an EKG, which stands for electrocardiogram\u2014don't ask me why it starts\
+    \ with a C\u2014it's the timing between these beats that we're thinking of as\
+    \ the heartbeat. There are a lot of other things you can say about the other types\
+    \ of shapes that are going on here, which is literally below my level of analysis,\
+    \ but it's the variability between the actual beats of your heart that we associate\
+    \ with heart rate variability.\n\nSo, when we look at those numbers, there is\
+    \ an inherent time scale involved because we're talking about the statistics of\
+    \ a timed thing. You can imagine that at some point in all of our lives, we will\
+    \ be asked by our doctors to wear a heart rate monitor for 48 hours straight.\
+    \ They will measure our heartbeat and analyze various aspects of our nervous system\
+    \ through the statistics of those heart rates. You can imagine that at the 24-hour\
+    \ time scale, you'll notice the effects of the fact that you tend to sleep at\
+    \ night versus walk around during the day, leading to variability on that 24-hour\
+    \ scale."
+- dur: 180.0
+  end: 3420.0
+  start: 3240.0
+  text: Faster for part of the day and then slower for another part of the day. But
+    that's not the time, and that's an interesting time scale, but that's not the
+    time scale that we're thinking about here. The time scale that we tend to associate
+    with this conversation around the autonomic nervous system and these trade-offs
+    between the sympathetic and parasympathetic nervous systems happens on the scale
+    of breaths. One of the subtle aspects of the sympathetic and parasympathetic nervous
+    systems is that in a healthy, happy, cheerfully functioning nervous system, the
+    trade-off between the sympathetic and parasympathetic systems occurs every time
+    you take a breath. Specifically, when you inhale, your sympathetic system starts
+    to wake up, and your heart rate increases during the inhalation. Then, when you
+    exhale, your parasympathetic system takes over, and your heart rate slows down
+    during that part of your breath. It's very hard to feel that. At that layer, when
+    I try to cue into my heart rate and determine if it's speeding up when I'm inhaling
+    and slowing down when I'm exhaling, it's challenging because my ability to be
+    aware of it is about the same as my ability to lie to myself about my sensations.
+    So, I really have no idea if I'm actually feeling that or if I'm just expecting
+    it. However, I think that whatever that personal somatic journey might be, it's
+    easier to do when my heart rate is elevated. When I'm exercising and my heart
+    rate is beating fast in general, I can often feel that when I inhale, especially
+    if I hold my breath; you can feel your heart rate speeding up, and when you exhale,
+    you can feel it slowing down. This conversation about heart rate variability ideally
+    happens at the scale of your breath. Typically, when you hear people talk about
+    heart rate variability, they tend to discuss it on that time scale, not on things
+    like the 24-hour time scale or even the multi-hour time scale. Although, if you
+    dig into this a little bit, there's plenty for people to say about heart rate
+    variability at those kinds of time scales. This is where we get to a bit of jargon.
+    In my previous explorations of this area, as far as I can tell, the boundary layer
+    between what I think of as legitimate science on this topic versus the less credible
+    science is the boundary between neurovisceral integration and polyvagal theory.
+- dur: 180.0
+  end: 3600.0
+  start: 3420.0
+  text: "Talking about polyvagal theory, you're probably in two towns. That doesn't\
+    \ mean that it's not useful on a personal level, but typically, I think that the\
+    \ term polyvagal is thrown around when you start discussing the ventral and dorsal\
+    \ pathways. The ventral does this, and the dorsal does that. As far as I can tell,\
+    \ there is no actual scientific backing for that anatomical distinction between\
+    \ the different parts of the vagus nerve handling different aspects of your regulatory\
+    \ system. So if you come across the term polyvagal or dorsal-ventral, it's not\
+    \ to say it's not useful, but just know that you are straying from the standard\
+    \ scientific narrative when you enter that territory.\n\nNeurovisceral integration\
+    \ model, or neurovisceral theory, is a step back from that. It simply states that\
+    \ what we might consider a healthy, happy, and well-functioning relationship between\
+    \ a given mammalian nervous system and the world at large can be measured and\
+    \ understood as the ability of your nervous system to maintain a healthy and comfortable\
+    \ trade-off between different aspects of your autonomic nervous system in a smooth\
+    \ and orderly manner. The ability of your body to transition from that arousal\
+    \ state associated with sympathetic activation and fight-or-flight response into\
+    \ the rest and digest state is key. The ability to make those transitions smoothly\
+    \ from one to the other is what we tend to refer to as neurovisceral theory. \n\
+    \nAt a broader level, this concept involves the idea that your neurons\u2014your\
+    \ nervous system, including your central nervous system and brain\u2014are connected\
+    \ to your viscera, which includes the lesser organs, specifically your heart rate,\
+    \ gut, and lungs. If you doubt this connection, just think about something scary\
+    \ and notice how your heart rate increases. There is a clear link between the\
+    \ most abstract aspects of your cognitive neural system and the lower-level functions\
+    \ necessary for pumping blood and maintaining life. Thus, those parts are connected.\
+    \ \n\nIn terms of neurovisceral theory and the linguistics surrounding it, when\
+    \ you see two words that are combined, you can replace the 'o' with a slash. So,\
+    \ 'neurovisceral' can be interpreted as neural/visceral, where 'viscera' refers\
+    \ to the lesser organs. While you might not want to frame your understanding of\
+    \ the world in this way, it is a perspective one might consider. Now, I am going\
+    \ to move away from the more visceral aspects of neuroscience."
+- dur: 180.0
+  end: 3780.0
+  start: 3600.0
+  text: "into the more socio-behavioral parts, speaking specifically about where the\
+    \ trauma talk comes in. I will try to thread various lines there. One of the main\
+    \ points, roughly on the timeline of my entry into neuroscience, is that it has\
+    \ become much more prevalent these days. One of the ways we have started to think\
+    \ about the nervous system, the role of your central nervous system, and the question\
+    \ of why we have a brain and a spinal cord, is that there is more and more belief\
+    \ that mostly what your nervous system is doing is predicting the future. This\
+    \ is what your cognitive, neural, and central nervous systems are primarily for.\
+    \ Your job as an organism, as a creature, as a human, as a cognitive agent, is\
+    \ to predict the future based on noisy, out-of-date information about the current\
+    \ state of the world, combined with your memories and histories, and the lessons\
+    \ learned from previous interactions. This applies across pretty much all time\
+    \ scales. \n\nTake the classic example of throwing a ball and catching it. My\
+    \ senses are the fastest way that I receive information from the world, and arguably\
+    \ the only way I get information from the world. However, even when I have a sensory\
+    \ experience, it is always something that has happened after the fact. Sensory\
+    \ information occurs after the event in question has taken place. Using that information,\
+    \ which is noisy and abstracted, I can make predictions based on my extensive\
+    \ and varied previous experiences interacting with the world. With the sensations\
+    \ I feel in my hand, coupled with the flashes of light I\u2019m getting from my\
+    \ eyes, I can say to myself, based on my predictions, that if I send this series\
+    \ of motor commands to my arm, it will hit the target as I expect, and the ball\
+    \ will land in my hand. You can observe this kind of predictive behavior when\
+    \ looking at babies trying to navigate and interact with their world. Particularly\
+    \ when they are very young, they tend to exhibit random movements, and there is\
+    \ this kind of tripping aspect to their behavior. Yet sometimes, they achieve\
+    \ something that is surprising, and it works. So, the way that our..."
+- dur: 180.0
+  end: 3960.0
+  start: 3780.0
+  text: "The nervous system works, especially at that sort of developmental layer,\
+    \ when we make a prediction. When that works out like we expected it to, or like\
+    \ we wanted it to, there is a reinforcement that occurs. We want to talk about\
+    \ the goop again; it's thought to be associated with the dopaminergic system.\
+    \ If I am pretty sure that if I do this with my body, I'll get the outcome that\
+    \ I want, and then I achieve that outcome, there's a dopaminergic release. Your\
+    \ literal dopaminergic response is the generation of dopamine, so it releases\
+    \ these chemicals into your nervous system that effectively reinforce whatever\
+    \ just happened because it was good. We want to reinforce that those neurons should\
+    \ be connected in that way because it leads to results that I like in my life.\
+    \ \n\nThis introduces the concept of valence. Valence is essentially a root of\
+    \ value; it's like a thumbs up or a thumbs down. Good valence things are generally\
+    \ good, while bad valence things are generally bad. For example, if I reach out\
+    \ to touch something and it has razor blades in it and I get cut, I don\u2019\
+    t like that\u2014that's bad. Similarly, if I fire 15 milliseconds too late and\
+    \ I miss the target and drop it, that\u2019s a negative valence. \n\nIt\u2019\
+    s useful to think about this concept because I am not discussing scale. A valence\
+    \ of -0.1 is negative in the same way that -150,000 is negative, and -0.1 is positive;\
+    \ -1000 is negative. The valence there is not a measure of the scale. \n\nThere\u2019\
+    s a relationship between making a prediction about the world and whether that\
+    \ prediction works out in the way we wanted, which defines whether our nervous\
+    \ system thinks, \"That was great, let's do more of that,\" or, \"That was bad,\
+    \ I didn't like that outcome.\" When we make bad predictions, it means we made\
+    \ mistakes; errors occurred in the calculation, and we need to correct for those\
+    \ things at some level. \n\nSo, there\u2019s a central concept of prediction,\
+    \ and then this other concept of the outcome of those predictions, which determines\
+    \ how the nervous system will organize itself. \n\nI realize I may have put that\
+    \ out of order, but let\u2019s proceed. How are we doing on time? I think I forgot\
+    \ to put this in, so I'm not exactly sure about the order of operations here.\
+    \ One of the things I've really noticed very recently is that the concept of your\
+    \ nervous system is mostly about..."
+- dur: 180.0
+  end: 4140.0
+  start: 3960.0
+  text: "Prediction has been in the perceptual motor literature for quite some time.\
+    \ It was already a bit old hat by the time I started grad school. I have started\
+    \ seeing that same kind of thinking coming into the way we tend to think of emotions\
+    \ and the aspect of our nervous system related to them. We tend, I think naively,\
+    \ to think of emotions as if they were sensations and reactions to the way the\
+    \ world presents itself to us. While there is some aspect where this is true,\
+    \ such as an alligator coming out of the water being scary and making me feel\
+    \ fear, there's also a predictive aspect of that emotion. I feel fear from that\
+    \ thing because I think it will hurt me. I feel happy when I see cake because\
+    \ I think I'm going to eat it. This leads to an interesting way of thinking about\
+    \ our emotional responses to the world, as being less about immediate reactions\
+    \ to the state of the world and more about a vague prediction regarding what the\
+    \ available information means down the line, at some time scale, possibly quick,\
+    \ possibly slow, and what I should do as a result of that. With the alligator\
+    \ coming at me, I have to respond very quickly, but with the cake, I can take\
+    \ my time. Typically, when we think about the emotional parts of our brain, where\
+    \ emotions come from, we're talking about things like the amygdala and other subcortical\
+    \ regions that are closer to the brain stem than to the cortex. Often, emotions\
+    \ occur at the neurophysiological level in the form of chemical releases; some\
+    \ chemical gets dumped into the system that we associate with different emotions.\
+    \ Many antidepressants and other pharmaceuticals operate by either stimulating\
+    \ the release of these chemicals\u2014you're consuming that chemical, so there\u2019\
+    s more of it floating around that regulates your emotions\u2014or by asking your\
+    \ body to release those chemicals into your brain. For example, MDMA works by\
+    \ prompting your brain to release all your happy chemicals, allowing people to\
+    \ feel happy. However, they also tend to feel sad afterward because they have\
+    \ dumped all their happy chemicals and need to wait to replenish them. This is\
+    \ where we..."
+- dur: 180.0
+  end: 4320.0
+  start: 4140.0
+  text: "I sort of started getting into the trauma talk of the day. If you think about\
+    \ it, this is a combination of many factors, particularly the autonomic nervous\
+    \ system and the trade-offs of its different parts. One aspect of the nervous\
+    \ system\u2019s main job is to predict the state of the future. This is where\
+    \ we encounter traumatic events\u2014places where things happen that you did not\
+    \ like. Such events can lead to asynchronies between your autonomic nervous system\
+    \ and breakdowns of what we call the neurovisual integration theory, which posits\
+    \ that a happy and healthy state depends on your autonomic nervous system's ability\
+    \ to appropriately switch between the sympathetic and parasympathetic nervous\
+    \ systems. You can think of this as the ability to relax when it\u2019s time to\
+    \ relax because we typically don't have a problem with the other part. Now, before\
+    \ we delve deeper into psychological spaces, I want to talk about PTSD, the acronym\
+    \ we associate with post-traumatic stress disorder. The term 'post' means after\
+    \ a traumatic event, which leads to a stress disorder. I specifically want to\
+    \ discuss the term 'disorder' in the context of the concept of 'vigilance.' A\
+    \ disorder occurs anytime things obstruct your ability to live the life you want\
+    \ to live. In discussing this topic, you will see a variety of conversations informed\
+    \ by empirical research, and also hear a lot in casual environments. Sometimes,\
+    \ you might hear people try to distinguish between 'capital T trauma' and 'lowercase\
+    \ T trauma,' where lowercase T trauma might refer to a minor inconvenience, like\
+    \ burning your lip on a hot cup of coffee, while capital T trauma involves serious\
+    \ events, such as being in a car accident that instills a fear of cars. I understand\
+    \ why some people feel upset when others might seem to be watering down these\
+    \ important concepts by discussing everyday challenges alongside much more serious\
+    \ issues like PTSD, which can be very debilitating for people's lives. I think\
+    \ this concern is valid, but as we\u2019ve discussed, nature operates on gradients\
+    \ and shades of gray, and where we choose to draw the line between these experiences\
+    \ is complex and nuanced."
+- dur: 180.0
+  end: 4500.0
+  start: 4320.0
+  text: "Just normal relationships to the world, like, sorry kid, them's the breaks.\
+    \ It gets tough; that's the world. Those are the healthy parts of stress that\
+    \ help you interact with the world in a productive and effective way for yourself.\
+    \ I think I'm less interested in trying to figure out exactly where to draw that\
+    \ line and more interested in helping people know how to draw that line in ways\
+    \ that are appropriate for themselves. That's why I want to think about the term\
+    \ \"disorder\" as less of a thing you find in the DSM-5\u2014or maybe the DSM-6\
+    \ now\u2014and more as something you get to choose. Is this something that is\
+    \ getting in the way of my ability to live my life as I want to, or is this just\
+    \ learning important life lessons and having the accrual of experiences that we\
+    \ eventually call wisdom? So, it's up to you.\n\nSpecifically, I think that when\
+    \ we think of disorder, it\u2019s often as if the gears of the machine have slipped\
+    \ in some way. Then the things that would normally operate as they should can\u2019\
+    t, because something is stuck. That\u2019s what we consider disorders like PTSD.\
+    \ I\u2019m also going to make a distinction here between PTSD and what we tend\
+    \ to think of as trauma, which is generally something really bad happened, and\
+    \ now I\u2019m having a hard time interacting with the world. Typically, it\u2019\
+    s one really bad thing that happened\u2014think of a car accident. It\u2019s a\
+    \ bad event where you had a very scary experience or came close to serious injury,\
+    \ and now it\u2019s affecting your ability to interact with the world. I would\
+    \ call that acute trauma\u2014one big bad thing, not \"cute\" but \"acute.\"\n\
+    \nThis is distinct from a more subtle, newer way of thinking about PTSD, which\
+    \ we call complex PTSD. This is a different type of behavior we tend to associate\
+    \ with living in a world that has general, long-term exposure to an unsafe environment.\
+    \ It\u2019s less about one big car accident and more about living in a context\
+    \ of low-grade child abuse or in food-insecure environments where, as a child,\
+    \ you can\u2019t always get food when you\u2019re hungry. There\u2019s no one\
+    \ big thing that stands out as bad enough to warrant, \"Oh yeah, this was the\
+    \ event I\u2019m dealing with.\" It\u2019s more about living in that constant\
+    \ state of insecurity."
+- dur: 180.0
+  end: 4680.0
+  start: 4500.0
+  text: "Long-term, there can be a low-grade harm that pervades everything. I don't\
+    \ know if you can think of any people or groups who might experience the world\
+    \ as generally unsafe, filled with small sub-threshold traumas that never quite\
+    \ reach the point where you can label them specifically. Nonetheless, these experiences\
+    \ become integrated into the way you view the world. I can't think of any examples,\
+    \ but maybe you can. \n\nI want to give a quick shout-out to some popular books\
+    \ that have been the starting point of my exploration into this space. A classic\
+    \ one is \"The Body Keeps the Score\" by Bessel van der Kolk. Although it doesn't\
+    \ clearly make a distinction between acute PTSD and complex PTSD, it focuses on\
+    \ acute PTSD. Van der Kolk was one of the authors who helped define PTSD in the\
+    \ DSM and brought it into common vernacular. This book has received criticism,\
+    \ which I think is justified, mainly because it is not written in a trauma-informed\
+    \ way. It discusses traumatic experiences in a graphic manner, making it hard\
+    \ to recommend to those who have experienced significant trauma. While it is not\
+    \ terrible, the complaints are reasonable. The writing can also be very dry and\
+    \ academic; it is dense with information, which is good, but I still include these\
+    \ caveats when recommending it. \n\nAdditionally, I've heard that Van der Kolk\
+    \ has had some troubling behavior, although I don't know the specifics. Still,\
+    \ books stand on their own. The one I tend to recommend first is \"What My Bones\
+    \ Know\" by Stephanie Fu. Fu grew up in an abusive environment and later became\
+    \ a journalist. Her book is much more focused on her journey to understanding\
+    \ complex PTSD and the various treatments she pursued, integrating these experiences\
+    \ into her life. It is less information-dense and feels more modern and aware.\
+    \ However, it is important to note that Fu's book discusses complex PTSD more\
+    \ specifically, while \"The Body Keeps the Score\" primarily focuses on PTSD and\
+    \ does not clearly distinguish between the two."
+- dur: 180.0
+  end: 4860.0
+  start: 4680.0
+  text: "In the context of the kind of topics we've been discussing, if we consider\
+    \ the role of your nervous system as primarily about predicting the future and\
+    \ integrating information and experiences, it helps us understand the state of\
+    \ the world and the appropriate behaviors we should adopt in response to it. You\
+    \ can see how significant traumatic events, or even low-grade, long-term traumatic\
+    \ experiences, can lead to a sort of slipping of the gears in the ability of your\
+    \ body to transition appropriately between the fight or flight state, governed\
+    \ by the sympathetic nervous system, and the rest and relaxation state, governed\
+    \ by the parasympathetic nervous system. Our body, including the nervous system,\
+    \ central nervous system, peripheral nervous system, and autonomic nervous system,\
+    \ is very sensitive to the outcomes of our predictions. Humans, in general, tend\
+    \ to be far more risk-averse than we are reward-seeking. For example, if you ask\
+    \ someone whether they would prefer $10 or a 10% chance of winning $10,000, numerically,\
+    \ those offers are equivalent; however, we overwhelmingly prefer the $10 due to\
+    \ our risk aversion. I like to say that it would be a rather ineffective visual\
+    \ system if it gave equal weight to everything in your visual field, noticing\
+    \ non-threats at the same level as real threats like tigers. Because of our risk-averse\
+    \ nature, we tend to overweight negative experiences when figuring out how we\
+    \ should interact with the world. For instance, if you find yourself in a car\
+    \ accident or face a choice between two doors\u2014one blue and one green\u2014\
+    after you open the green door and get punched in the face, while opening the blue\
+    \ door brings you cake and candy, your nervous system will evaluate whether the\
+    \ predictions we made were good. If the prediction was correct, we should reinforce\
+    \ it; if it was incorrect and led to harm or danger, your body will begin to look\
+    \ for missed signs and things you should have noticed. This process helps us realize,\
+    \ 'Oh, I should have noticed that.'"
+- dur: 180.0
+  end: 5040.0
+  start: 4860.0
+  text: "That car was turning. I should have noticed that the door was green, and\
+    \ green means people are going to punch you when you open the door. I don't know\
+    \ what that is. What can happen is what we tend to call hypervigilance, where\
+    \ you sort of cue often times. What happens because the world is cruel and capricious\
+    \ is that there wasn't a thing you could have noticed, or at least not something\
+    \ you really should have noticed, given your experience.\n\nSo, what will happen\
+    \ is your body will just reach out for stuff. Sometimes, the lesson that your\
+    \ nervous system might learn is that I let my guard down and that was the mistake.\
+    \ This can lead to a kind of dysregulation of the nervous system, where your body\
+    \ might associate being in a state of calm and relaxed, especially if you're around\
+    \ other people, especially in an environment that, I don't know, is available\
+    \ for danger.\n\nThe sympathetic nervous system might be unwilling to give up\
+    \ that reactivity at times when it needs to, and it's thought that you could sort\
+    \ of measure that in terms of heart rate variability. If you measure someone's\
+    \ heart rate and look for those transitions of high speed versus low speed heart\
+    \ rates on the scale of breaths, you might not see that because the sympathetic\
+    \ nervous system is holding on too tight, and the parasympathetic system doesn't\
+    \ get the chance to do the slowing down that's supposed to happen.\n\nYou can\
+    \ imagine how that same type of difficulty in trading off between high state arousal\
+    \ versus low state relaxation could lead to problems in general health. Think\
+    \ about your gut doing its job, being able to sleep through the night, and being\
+    \ able to interact with people around you and let your guard down. Those are where\
+    \ a lot of the good parts of life tend to come from. \n\nSo, that hypervigilance\
+    \ can be one of the consequences of traumatic experiences. From the perspective\
+    \ of people who care about humans having happy lives, the question then becomes:\
+    \ if that happens, and when it happens, because unfortunately the world is rough\
+    \ and we will encounter difficulties, how do we try to bring things back to baseline?\
+    \ What might work there? \n\nI also want to mention, because I'm running out of\
+    \ time, that we're on a good path. However, I wanted to point out another concept,\
+    \ which I won't talk much about, which is the concept of resilience. The fact\
+    \ is that not everybody who has a negative experience results in negative outcomes."
+- dur: 180.0
+  end: 5220.0
+  start: 5040.0
+  text: "Disordered autonomic regulation involves various experiences, and some people\
+    \ are able to bounce back. What defines or helps us differentiate one from the\
+    \ other is often a question of baseline\u2014how many experiences have you had\
+    \ that show you it is safe to relax and put your guard down? Additionally, how\
+    \ likely are you to have experienced situations where that\u2019s not the case?\
+    \ If you consider this in terms of your life and your development, it highlights\
+    \ why it is so crucial to protect children and teach them that they can let their\
+    \ guard down.\n\nThink about the analogy of the blue versus green door. If you\
+    \ have a lifetime of experience with doors of all colors, and you open a green\
+    \ one and get punched in the face, you\u2019ve opened enough green doors that\
+    \ you know it\u2019s not the door that\u2019s the problem; it\u2019s just that\
+    \ one specific instance. But if you\u2019ve just started opening doors in your\
+    \ life with no prior experience, and you open a green door and get hit, then for\
+    \ the rest of your life, 100% of your experiences lead you to believe that green\
+    \ doors are unsafe. This might develop into a lifelong aversion to green doors\
+    \ even when it\u2019s not warranted.\n\nOne key takeaway from the literature,\
+    \ particularly discussed in \"The Body Keeps the Score,\" is how critical it is\
+    \ for us to ensure that young children have experiences of safety and comfort\
+    \ during their early years. The long-term consequences and effects of early adverse\
+    \ experiences are not insurmountable; children who face bad experiences are not\
+    \ doomed. However, those early effects will weigh more heavily than later experiences\
+    \ because, in that early phase of life, you have fewer experiences to draw upon.\n\
+    \nThere\u2019s also the idea that the world we deserve, optimistically, can only\
+    \ be achieved if we have three consecutive generations where every child gets\
+    \ to experience stability, comfort, and care for the first 18 years of their life.\
+    \ This is due to factors like epigenetics. Lastly, I want to mention that the\
+    \ disordered hypervigilance response creates a sense that nothing is safe. When\
+    \ you are in this state, you feel as though the world isn\u2019t safe and that\
+    \ you cannot let your guard down or appropriately rest and relax. In extreme cases,\
+    \ this can lead to a perpetual state of distress."
+- dur: 180.0
+  end: 5400.0
+  start: 5220.0
+  text: "In the case of interpersonal trauma, which unfortunately is quite common,\
+    \ you can experience difficulty being calm and relaxed around other people. This\
+    \ is both an understandable response and something that can be really diminishing\
+    \ for your ability to live a happy and healthy life. I would say effective, rather\
+    \ than productive, because productivity is tied to capitalism, while effectiveness\
+    \ relates more to internal motivation. \n\nAlthough this is outside my field,\
+    \ and I am certainly not a therapist or counselor, I find it interesting that\
+    \ many treatments and therapies aimed at helping people get their lives back in\
+    \ sync often share common elements. These tasks cut across the full hierarchy\
+    \ of the nervous system and aim to engage your voluntary control systems regarding\
+    \ parts of your body and nervous system at the most basic levels. You can't just\
+    \ decide to speed up or slow down your heart rate, but you can decide to hold\
+    \ your breath or take long, slow breaths. \n\nThere is this concept called the\
+    \ physiological sigh, which I believe is legitimate. I don't know if it is associated\
+    \ with Dan Huberman, who appears to be a reputable scientist, but I see him too\
+    \ often to fully trust him. Nevertheless, his research reflects something you\
+    \ can observe in your own life and in others. It involves that feeling of taking\
+    \ an extra breath followed by a deep sigh, which has empirical support and can\
+    \ act as a reset for your body\u2014especially when you're in an aroused or heightened\
+    \ state. Subsequently, it can help release tension and promote relaxation.\n\n\
+    Every time you experience this, I encourage you to ask yourself why you were feeling\
+    \ heightened in the first place. Consider what was happening at that moment, and\
+    \ once you have moved past that point, reflect on what you can take away from\
+    \ it. This leads to exploring the boundaries between benevolent interactions among\
+    \ humans and Machiavellian tendencies in social cues. If you ever find yourself\
+    \ in an argument or difficult conversation, try not to get too angry or upset.\
+    \ Take a moment to pause and notice the dynamics at play. How others respond can\
+    \ be revealing, and recognizing this is essential in navigating such interactions."
+- dur: 180.0
+  end: 5580.0
+  start: 5400.0
+  text: "That's when you can engage more empathetically with the person because they\
+    \ have hypothetically just left that high arousal state and sort of entered into\
+    \ a more restful, relaxed kind of space. You can game it; you can cheat yourself\
+    \ because your nervous system, your body, your internal systems are brilliant.\
+    \ However, like most things that are brilliant, they're also dumb as hell. Your\
+    \ body, mind, and brain can lie to you; they can trick you and say things that\
+    \ are wrong. But you can counter that by lying just as hard to yourself, because\
+    \ you can. If you're trying to get yourself to relax\u2014and we know that breathing\
+    \ in tends to ramp up the sympathetic nervous system while breathing out tends\
+    \ to ramp up the parasympathetic\u2014just take a quick breath, breathe in quickly,\
+    \ and then exhale slowly. You're essentially gaming the system there. \n\nI also\
+    \ have a personal fascination with eye movements in this conversation. As we've\
+    \ discussed many times throughout this semester, our breathing is on the boundary\
+    \ of volitional versus autonomic control. Our eye movements are in a similar kind\
+    \ of space. You make tens of thousands of eye movements every day, the vast majority\
+    \ of which are not volitionally controlled. It's just your central nervous system\
+    \ grabbing visual information from the places that some lower region of your nervous\
+    \ system wanted the information from. We can control that, though not all the\
+    \ time. With some effort, we can grab that handle and control things. \n\nThere\
+    \ are treatments like EMDR, which stands for Eye Movement Desensitization and\
+    \ Reprocessing, that involve making patterned eye movements, like back and forth,\
+    \ as a way to take some control back over your central nervous system. Additionally,\
+    \ therapies often emphasize naming and noticing emotions, which you'll see in\
+    \ somatic therapies. It's about naming the emotion and pointing to it in your\
+    \ body, engaging the linguistic parts of your brain\u2014the most abstract, non-biological\
+    \ parts that exist. Putting a name on a feeling is like reaching across eons of\
+    \ the phylogenetic tree. Many therapies have that nature of reaching from the\
+    \ top down to the bottom and resting control that way. \n\nIn the last two minutes,\
+    \ I want to think about this in terms of having a body, having a nervous system,\
+    \ and living in this strange meat puppet that has all these..."
+- dur: 180.0
+  end: 5760.0
+  start: 5580.0
+  text: "Different systems trade off against each other. Some of these can be influenced\
+    \ and controlled, while others cannot. Thinking about it in the context of my\
+    \ experiences with pets\u2014like dogs and cats\u2014cats are kind of like having\
+    \ strange alien roommates who live and operate in the same space. We like each\
+    \ other, but we can't really communicate in the same way. I think there are parts\
+    \ of your nervous system, like your gut, that feel similar. It's present, and\
+    \ you can operate in a way that elicits certain behaviors, but you can't directly\
+    \ control it, in the same way that you can control your muscular system or eye\
+    \ movements.\n\nDogs, on the other hand, are more like an externalized aspect\
+    \ of your nervous system. They actively look to you to determine how they should\
+    \ behave, allowing you to control their behavior more directly. They are independent\
+    \ beings, but you can say, \"calm down,\" or pet them, and if they bark, they\
+    \ look at you. This creates a much more directed form of communication with that\
+    \ externalized nervous system compared to that of a cat.\n\nThere's this concept\
+    \ in neuroscience known as the homunculus. The homunculus is the naive feeling\
+    \ that you are in a little driver's seat in your brain, observing and exerting\
+    \ some control over your body. However, that idea doesn't hold up; there isn't\
+    \ a smaller piece inside you\u2014a little person in your brain\u2014doing that.\
+    \ Instead, it's simply the system observing itself, and this kind of interaction\
+    \ is philosophically profound.\n\nIn the last few seconds, I want to mention Wittgenstein,\
+    \ a philosopher of language who was one of the progenitors of modern theories\
+    \ of the philosophy of science. He discussed the impossibility of language and\
+    \ the challenge of conveying human thought through language, highlighting the\
+    \ sad reality that we can never fully express a thought; we can only approximate\
+    \ it over time. He described this idea with a beetle in a box. Imagine I have\
+    \ this box containing a beetle. I can describe the beetle's characteristics\u2014\
+    it can be green with little things on its head\u2014and I could talk about it\
+    \ for a thousand years, but you'll never be able to actually see it. You won't\
+    \ get the same picture of the beetle that you would if I could show it to you,\
+    \ but I can't. In the same way that nobody else can ever see the beetle in your\
+    \ box, you can never see the box itself."
+- dur: 180.0
+  end: 5940.0
+  start: 5760.0
+  text: "I think that to really engage in the strange and possibly impossible task\
+    \ of knowing yourself and understanding your body, it's a combination of being\
+    \ able to describe your internal state. However, it also involves listening, hearing,\
+    \ and seeking help to get the full picture, which you can never fully achieve\
+    \ from a first-person perspective, as that is all we really have. If you\u2019\
+    re going to be doomed to push an impossible boulder up a hill forever, you might\
+    \ as well have company. That\u2019s it. Thanks for the class. Have a good break,\
+    \ and I will see you."
+video_id: i8FPzjJ6-yI

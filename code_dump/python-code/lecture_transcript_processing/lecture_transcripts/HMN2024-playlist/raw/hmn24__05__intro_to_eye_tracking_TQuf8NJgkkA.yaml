@@ -1,0 +1,1194 @@
+full_transcript: okay hello everybody and welcome to Tuesday or whatever um so uh
+  today we're going to do something I guess not that different but with a different
+  piece of equipment uh this is an eye tracker so I'm going to put it on my face and
+  show you my eyeballs like super close up um and the goal every time I've come up
+  here I've like tried to get a short lecture and then might up talking for a long
+  time and leaving no time at the end um so this time I'm not going to give much of
+  any lecture at all I'm just I'm going to talk while I'm wearing it which will take
+  its own kind of time and kind of just give like a technical preview um ey tracking
+  this type of data takes longer to process uh than the the free moap stuff which
+  I sort of designed intentionally to be easy to sort of pop out cool things in a
+  hurry um so the idea will be several fold one will be to like just get some data
+  on the machine and then I and Aaron and whatnot can process it within the next week
+  and then on next Tuesday we can talk about the data and at that time I will say
+  more about ocular physiology and the you know visual visual aspects of your nervous
+  system and things like that um and so the kind of it's sort of again in this kind
+  of like flip floppy kind of structure where we're going to start by jumping in the
+  deep end and you're going to watch and you're going to have just all sorts of questions
+  about like what am I doing what's that thing I said and didn't mention again and
+  then also just like your own personalized interests in this topic as a whole um
+  and after I get done with that hopefully on the relatively early side of things
+  uh we going to we're going to do the sort of split off into individualized groups
+  and um have just like kind of just like a couple moments just to sort of like drop
+  some questions into the lecture thing about like yeah I'll just do it like that
+  um about like the questions that did come up for you and like the things that you
+  want to know more about and then that will give me the opportunity to like scrape
+  that stuff and see it before I actually plan for what I'm going to talk about next
+  week [Music] um and yeah so but we're not going to spend the entire second half
+  the class doing that which is why I'm sort of pausing because it's like splitting
+  time is always hard but I think I think it's fine if it's sort of like a soft transition
+  um but I will ask you kind of like to put some chat put some chats into the relevant
+  lecture chat um about vision and eye tracking and in eye movements and stuff like
+  that specifically um and then sort of I guess like smoothly transitioning from there
+  into a conversation more aligned with the AI Scrapy stuff that I have been sort
+  of showing you in various forms um and with now there is sort of um I did a little
+  bit of extra polishing but mostly I kind of just like realized that you in obsidian
+  when you're viewing the the sort of scraped data you can just search for your own
+  member ID on Discord uh and then see all the stuff that you have been talking about
+  and get like a mini little graph and so that will kind of be your first opportunity
+  to see your own extract data and I will sort of ask you kind of take a look at that
+  think about what like how much that actually represents your interests um how much
+  you sort of like thinking about how you might dump other information in there uh
+  to to make it more align with your interest and then specifically kind of like comparing
+  notes with just your local vicinity um and specifically trying to find overlap between
+  the topics that you've been discussing sort of like oh yeah we're both vaguely interested
+  in this General thing or actually even better there's this kind of empty space between
+  the things that we have been talking about that could sort of Link our particular
+  nodes together uh so in spirit of that I'm going to just quickly show you how to
+  open the data again um so you'll need uh obsidian on your computer and then a way
+  to open 7z files which I actually not sure what is and is not built in these days
+  but seven zip is the software that we tend to use um I prefer zip files because
+  they're more generally compatible but I did this on my windows partition so zip
+  files don't work because of that dumb historical limit on path lengths so uh here
+  we are in the server um I changed the picture so if you you have to scan for it
+  differently um up here under resources there's a thing at the bottom called server
+  scrape checkpoints checkpoints in software world and specific specific like Mean
+  Machine learning AI stuff generally means like this is a thing that we're going
+  to keep doing but this is like a Time dated checkpoint so that's sort of just the
+  terminology there and so click into that scroll down to the bottom um this is more
+  notes for myself just so like I can keep track of like you know be interesting to
+  see like oh yeah look a bunch of stuff popped up on this topic because of this lecture
+  blah blah blah um so click the download thing it'll download probably into your
+  downloads folder it will be D d7z um you can you might be able to just double click
+  it and it will figure it out you might have to right click it on a Windows machine
+  on Mac I guess like double tap click it go to seven zip and then do extract here
+  something like that if you don't have that option um just Google szip if that doesn't
+  work ask go open up a chat in like the general chat and just ask about like how
+  do I open a7z file it will on a Mac or whatever kind of computer you have and it
+  will help you and if you can't figure it out um don't stress someone will ask a
+  neighbor or just chill and I'll show you later um so once you have it on your computer
+  and you've uh extracted it into a regular old folder it will the folder will look
+  something like this I cleaned up some of the pathing like I don't know if youall
+  like there used to be like a bunch of like sub paths and stuff like that and I also
+  there's no raw data in here it's just the AI processed stuff if you don't remember
+  what that is does not matter um but you're going to need to know this path um if
+  you're not familiar like I'm sure I've said this before but Bears repeating files
+  on your computer are arranged hierarchically there's like a tree structure where
+  everything is and that sort of C the first one is like the specific physical drive
+  and then there's these sort of like slashes that sort of tell you which branch of
+  the tree you're going down so this thing is called a path it's sometimes also called
+  like a directory or a folder or something like that and it's just branching to tell
+  you how to get to the particular data blob that we call files and so in this case
+  I have to go all the way down here this thing is called a file MD means its markdown
+  and it's path slocation SL address SL full path name is all of these words plus
+  the file name plus the extension at the end the extension at the end is just sort
+  of a a clue for your computer about how the data is going to be structured inside
+  of it so if the computer tries to open it it's like oh it's a MD I know how to handle
+  those MD I could just Le have written txt and that would be raw text and that's
+  about as deep as I feel I need to go down that rabbit hole okay um so in obsidian
+  so last time if you followed along you probably opened um you did something similar
+  to manage Vault so I clicked down here did manage vaults probably could have done
+  contrl n or something like that um actually probably not doesn't matter and we did
+  the open folder as Vault and then you opened the last one um it just to make things
+  easier just open make a new one to say open folder as Vault like you could like
+  you can see like this one is already kind of pre-loaded with the last one I was
+  looking at um but this is this is like oh yeah and it's actually telling me where
+  I was but this is one of those cases where um you can tell that we're not using
+  the tool for its intended purpose because it's not behaving in a way that would
+  be sort of compatible um so because there isn't like an easy way actually there
+  is an easy way but I'm not going to do it um to tell it like just update the one
+  that exists with all these ones like find the parts that overlap and keep those
+  and add new stuff um I could probably just yeah but it's fine so here we are here
+  human human movement Neuroscience fall 24 checkpoint 24 1022 which is today um 639
+  when I ran it and then AI process so it's not the raw select the folder and for
+  some reason it pops back to light mode indexing complete pops up which is kind of
+  interesting for deep reasons which I won't get into and here we are again and once
+  again uh these top level folders um again obsidian calls vaults folders just the
+  same sort of branding for them um and you can more easily see kind of like the the
+  tree like hierarchy in this format Mac's kind of have this drop down menu thing
+  in their file system which is nice Windows does not um and then they don't give
+  you the extension here because it's in a software for operating under markdown file
+  so it doesn't show that by default um it's so the the code and AI that I the AI
+  prompting that I use to generate this is almost exactly the same um except that
+  I added a little bit of stuff to turn these tags also into back links which will
+  if I click on on this we'll go actually I'm not sure what we'll do oh it might want
+  double does it want double oops yeah it did want double square brackets so it's
+  fine um and if you remember last time I I think I talked about this like it the
+  tags it had were sort of like too disperate like it was sort of like you know like
+  like they would make one tag for like virtual reality and another tag for like virtual
+  reality questions or something like that um because it's processing each chat the
+  unit it's operating under the chat like so each um it's like cycling through each
+  chat object um so I just added like a little bit of extra instructions on there
+  that said tags should be like one to two words and don't like don't separate them
+  out into things like that with this type of like AI like programming prompting often
+  like just giving better instructions gives better results kind of like how humans
+  work um and so if I click on this little graph structure over here graph looking
+  icon and it pops this out I if I recall correctly I think there were like 222 chats
+  total from y'all which is nice I did also now actually um it this does not include
+  the bot playground chats so that has now officially been even though I thought it
+  was really funny when that they showed up um you can see that none of them are linked
+  together because none of the back links cuz we're not showing tags yet we're just
+  showing the back links and the only actual link that we show is this one around
+  here which is the one that I clicked on as a demo so it I think yeah so was that
+  one and then it's trying to click into that one which is an empty thing so there's
+  that so click on that um and then this is of course the fun part where we say so
+  on this thing the upper right we do drop down for filters and then we tell it to
+  show us tags and these are the tags so I don't have like direct data to compare
+  like the last time versus this time but just like eyeball wise it looks better like
+  you have fewer of these like orphan spots over here um and things are just generally
+  more connected uh neuromechanics yeah yeah and so like neuromechanics was a popular
+  thing to talk about I think just cu the name is so cool um so theoretically if I
+  click on this this will show every chat that has had that the bot has extracted
+  the tag neuromechanics from um and now if you want to start looking at your space
+  within that um I think you might so you might have to go into to user settings and
+  do developer mode come on buddy Advanced and turn on developer mode which I think
+  is not on by default and then right click on your name or double click on your name
+  and go down to copy user ID I think if that doesn't show up then you have to go
+  turn on Advance mode um so click on that it's now in your clipboard which is just
+  like a thing your computer keeps track of for you um go into here and I can search
+  for filters or in the filters box um I could I could do specific like looking for
+  a different so I could look for like a given path so I could say hey only give me
+  stuff from the path that includes the the chats from whatever category or whatever
+  Channel and that would filter at that sort of tree level um I could search by tag
+  and then I think the one that's actually coming up is by line or just I don't know
+  just raw paste so your ID is going to be a big number like that that seems wrong
+  uh I think because I haven't I got myself and I haven't really been in here so let's
+  see which unfortunate soul Catherine has been discussing D um these things and this
+  is so there's another thing that's happening here where the you're supposed like
+  it's like you're to play like video games or complicated things and it starts out
+  simple and then gets complicated and so that by the time it's complicated you're
+  sort of acclimated to it this is what your graph stuff is supposed to look like
+  when you start and you start adding notes um so well Katherine has been has had
+  1 two 3 four five chats which 222 by 40 is like pretty much smack dab on average
+  uh so good job there um minus any bot playground stuff um I'm not sure why there's
+  no tag showing up here which could just be a problem I'm not sure why the tags aren't
+  showing up here maybe it's because it's stupid no um anyways so I can also go down
+  into the second one called groups I cannot search for two at once for whatever reason
+  um because it's actually just there's nothing really explicitly tagging it to you
+  except that when I made the code to actually put the raw conversations out it happens
+  to show the user ID which is like you know I don't know if that would technically
+  count as identifying information but it's certainly not useful for most humans um
+  and then this one is the bot so every chat will have this one in it um so yeah luckily
+  I happened to put that tag in there so you can just like manually search for Stuff
+  uh search for stuff yeah your for I for folks so um so that's a good way to see
+  like your own stuff just to kind of like get a sense of what that landscape that
+  you are making of interested topics is and looks like um but to compare it against
+  your friends and neighbors um that's not going to be super helpful just for user
+  interface purposes so in the second tab down here we can do groups and then I can
+  assign a color to Catherine's chats and then do that and then see them within the
+  larger space and I can add a new group and I can look at Corina put them yellow
+  and kind of Blends in with the green let's turn off the tags and then well actually
+  that doesn't really help anymore anyway so yeah so yellow's a bad color for this
+  case so let's do like I don't know blue and then yeah so then this will be a case
+  where you could start looking for stuff and this is one of those this is like many
+  cases this is one of those things where like there's an automated way to do this
+  that's kind of hard to do there's also like a dum dum human way that you just kind
+  of like look at it and click on stuff which is you know easier to do but harder
+  to do on scale so this is kind of a way to look at things in that way okay so we'll
+  get back into that but that's just sort of try to get to like roughly this point
+  while I'm talking so that way when the actual like second half kicks in uh only
+  people who are having trouble with this need instruction so okay questions probably
+  yeah great cool we'll come back to it uh okay so ey trackers this this is an eye
+  tracker well this is a box but it has an ey tracker in it um so several lectures
+  ago now we did the thing where I set up cameras and the cameras recorded me and
+  then we extracted data from that and we talked about that data and sort of things
+  like that um this uh object uh a piece of equipment is similar in many ways it is
+  a camera based system um the term would be uh oh also while you're in obsidian land
+  if you want to just like pop open a note and just like write down your questions
+  as they come up you can do that as well you probably also know how to take notes
+  cuz you're like here um but follow your heart um so this is also a camera based
+  tracking system uh it use it has three cameras One camera right here camera here
+  and then a camera here so two cameras point in at my eyes and one camera pointing
+  out at the world uh the general the specific term here is video oculography um video
+  is video ulo is eyeball ography is like measurement in actually not measurement
+  ometry would be measurement ography would be I don't know whatever that word is
+  uh and yeah and also like before the the are relatively independent of each other
+  like they're all going to go through the same wire to be recorded but they're not
+  rigidly attached to each other so there's going to have to be a calibration process
+  like we showed before in order to be able to make sense of these things um also
+  like before it is a pain to work with here actually and I'm actually not 100% convinced
+  it will work let me phrase that I know it's not going to work to its fullest extent
+  right now um because I have already tried that earlier today and it didn't um so
+  but the problem I had was that it wasn't recording from both eyes at the same time
+  like it was having some process issues uh but that's okay because for our purposes
+  here like one eye versus two eyes is fine I have um healthy stereo Vision I do not
+  have strabismus which is the sort of uh technical term for what people call like
+  lazy eye where your eyes are not like like your eyes aren't aligned when you fixate
+  um which means that you can generally use like the behavior of one eye to tell you
+  about both eyes um yeah if I had if I did have stabismus I would just tell it to
+  point at my dominant eye uh which is the one that people who have stabismus just
+  naturally align um with uh everybody has a dominant eye like you have dominant hands
+  um yours is probably your right eye but it may not be we'll talk about that well
+  if if there's sufficient interest in the server chats we will talk about it so there
+  are many eye trackers in this world uh my favorite at the moment is the one made
+  by pupil Labs um which is a German company a spin-off of an academic group um I
+  like them because they are like very open source friendly all their code is is open
+  source I have a lot of complaints about the specifics of that code and the software
+  associated with it um but also at this point in my life I have now written enough
+  of this software that I could not possibly understand more why it is the way it
+  is so search for people Labs find you can find their their front page and find the
+  GitHub page if you're curious about what that code looks like and then there's videos
+  and stuff like that which is nice um a lot of their newer stuff is has a very like
+  machine learning bent to it like they use machine learning to track the pupil in
+  the eyes which I really don't like because it is like the this is like their old
+  system which all the tracking is like old school like classical computer vision
+  stuff um which means it is more on that space of like direct computation of available
+  data and basically no like machine learning in inference step so the process between
+  the empirical measurement that happens on the cameras and the sort of resulting
+  data that I want to analyze to do science is rigid it may not work all the time
+  but at least I know what each step is anytime you have a system that uses machine
+  learning as part of its core processing pipeline there is an inherent stochastic
+  nature to the outcome because there is a step that uses machine learning and machine
+  learning algorithms always are inference rather than direct computation it's a probabilistic
+  matching type of thing but that's not important right now uh let's see so capture
+  let's see so it's 216 want to be done within half an hour okay there you go yeah
+  as I thought so we're not going to look at both eyes it's also like a little reassuring
+  now that I've like written enough of specifically like camera code to see like I
+  now it's like oh I know what that problem is like and they also have it which means
+  I may not be a total dummy okay so that's you behold this is the world camera um
+  it is meant to mimic but is obviously not exact the same as my viewpoint so we're
+  pretending that this view is my eye view however we know that that's not the case
+  because my eye is here and the camera is here so there's at least a centimeter or
+  so misalignment between this world camera view and my actual eyeball view uh and
+  as much as I want to talk about that because I think it's cool I'm going to also
+  leave that for the future and of course the star of the show let's do my left eye
+  that's my right eye wait why is that oh is that why it's wrong excuse me did I just  is
+  this the same one I took off this side with anyone watching okay the other I put
+  the other one down then I was like wait is this the same I don't know we're going
+  to find out Welcome To Life as a scientist with ADHD it's like  did I take notes
+  no do it again fine luckily this why I also don't work with expensive equipment
+  okay so this yeah wrong I don't think this will make a difference but it is like
+  it's like I I did this earlier like I swapped the cameras out and I just noticed
+  that the the right eye was i1 and I I happen to know that it should be the other
+  way around I don't think there's anything that would make that cause the problems
+  we just saw but we're going to see okay this is now my left eye yeah all right and
+  when in doubt shut it down there's two white Bishops if you know that if I said
+  have I said that before no yeah if you're playing chess and you look at the board
+  and both of your Bishops are on the white squares there are no legal moves you can
+  make to fix it so just wipe the board and reset it up again that's why you shut
+  things down okay uh Q cap cap cap cap I also noticed today that I think I am recording
+  this at 60 FPS which means I am asking the computer to work there's no there's no
+  reason that this needs to be 60 FPS um yeah it's still failing so anyways that's
+  your intro to technical troubleshooting okay so now they don't go on the arms right
+  see it was the right way before actually still doesn't make sense why are they backwards
+  must because the it was pointing them out when I put them on the little arms some
+  of you might have been perturbed by the fact that I just dropped this unceremoniously
+  um which is fair but also this C this one at this point is kind of like my like
+  you know demo one and also I know enough about this technology to know that like
+  it's not going to be well I shouldn't say that on camera it's fine not really but
+  okay shut it down turn it off turn it back on again uh that's the classic Tech joke
+  it's because of the white Bishop's thing okay and watch it broke that'd be really
+  funny so here I'm shutting it down less powerfully I do not want to turn off the
+  computer but I will if I have to come on buddy h wait what how was that cam id2
+  people cam one I happen to know that one of the things that makes this type of stuff
+  hard is device management like your computer figuring out what camera is attached
+  to what so I had shut down the software but I hadn't unplugged the cable you may
+  not like this but this is actually what most of research is like come on hey there
+  you go great and it even says i1 so there you go all right anyways that's my I uh
+  so we are recording this is 400x 400 resolution in 90 FPS so 90 frames per second
+  which means that every frame that comes off of this thing so you're getting 90 measurements
+  per second off of this camera and uh so it's if it was 100 it would be 10 milliseconds
+  per frame it's 90 so it's a little bit more than that uh no one can do that math
+  um yeah so look at that weird eyeball look how weird it is uh um so it's a little
+  stretch now because it's 400 by 400 so it should be square um and they don't protect
+  the aspect ratio which they should but that's fine so I will actually manually scale
+  it like yeah this one of these things like so if if you take a square video and
+  you play it through like a standard video player you'll get wrong data because it
+  will be skewed cuz most of our videos are uh skewed like that but this is actually
+  just the display which is fine and see anything else I want to show you down here
+  I think I can do this let I'm not going to try to do this on the fly I can do this
+  next time I'll show you the the 3D stuff um like how the IM model actually is built
+  basically it it pretends like it's a sphere uh and I can show you the algorithm
+  oo someday this will show up come on reset window size oh that doesn't work I tell
+  you guys this old code okay so that is my eyeball um you may recognize it you may
+  have on average each of you will have slightly less than two of these and they will
+  work roughly similar to that uh there's a number of interesting parts so so you
+  can see that kind of like this is my contact lens um this part here is the iris
+  uh easily one of the top 10 human sphincters irises um and they're basically a hole
+  that will sort of contract in response to things such [Music] as light that one
+  yeah um but also to like things like emotional arousal and cognitive load and stuff
+  like that so there is some research called pupil omry that basically just looks
+  at eye trackers and looks entirely at like the behavior of your pupil and the size
+  and shape of your pupil how it changes on different tasks I'm going to talk some
+  right now um the majority of research involving eye tracking is pupilometry because
+  the majority of scientists are lazy cowards I think that the it's it is not that
+  it's not an interesting symbol not not that it's not an interesting signal to look
+  at but it is not as interesting as the volume of resarch would suggest so why do
+  we look at it because it does doesn't require you to properly calibrate your equipment
+  it doesn't require you to think about like things in the world and sort of feel
+  you know feedback loops and stuff like that um so when you look for research on
+  ey tracking the majority of it is going to be pupilometry I'm not saying don't look
+  at that but I am saying I'm not saying I'm not saying anything um so uh you will
+  also yeah so you're going to see so yeah you got the iris good old Iris you got
+  the eyelid an important important guy um eyelid job is mainly to keep it um moist
+  uh blinking is one of those behaviors that we don't think is interesting but it's
+  actually a lot that goes into when we should blink in your normal everyday life
+  you blink when your eyes are dry whatever like a cou every I don't know actually
+  don't know what the normal Cadence is but you blink when your eyes are dry no big
+  deal uh if you start doing really difficult visual tasks um like Landing a plane
+  or something like that or walking over Rocky terrain like the research I've done
+  you blink far far less often because if you're doing a really difficult task then
+  the cost of being blind for 50 milliseconds goes up and so you'll see this really
+  interesting behavior when people do hard tasks we like it's like my my research
+  walking people walking over Rocky terrain they would be standing at the front they
+  go blink blink blink blink then they'd walk and they would blink almost not at all
+  and then when they got to the end they go blink blink blink blink blink and the
+  only times you really saw blinks was when they were when they were looking from
+  the ground up to the goal and then back because that amount of time is like sort
+  of dead time so people not cognitively not like consciously but whatever the visual
+  nervous system is sort of whatever clever part handles blinking sort of knows that
+  that's a good time and there's a scheduling whatever omnipause neurons are relevant
+  to that anyway uh 25 so class is over at 125 great doing great um okay so here we
+  have an eyeball here we have a world we believe that these two things are connected
+  in some way um but what we want to be able to see is like something that tells you
+  where in this image I am looking at based off of the data that's available from
+  this image uh I have no idea why this is not showing the overlay there but again
+  I understand um ex so let me real quick just dump a little more this is the the
+  drink from the fire hose phase of the where I just say bunch of stuff and then you
+  try to notice which parts of it were interesting um you'll notice that the eye moves
+  in strange ways right sometimes it does these like jerky movements like that those
+  are called sads uh I'm looking there I'm going to look there finger to finger those
+  are called sads sad is French for jerk because they're jerky little eye movements
+  it is the fastest movement that your body can make um and yeah it's wild uh oh also
+  those two little lights there are infrared emitters IEDs I infrared emitting diode
+  like an LED but for IR it's you can see the reflection there if I cover them up
+  my eye gets very dark you can actually see my finger reflected there um and then
+  the thing that I find even more interesting than that is you you see that kind of
+  ghosty so eyeball the thing that you're but when you look at the eyeball the first
+  thing you see is technically contact lens um and then behind the contact lens you
+  see cornea which is the clear thing on the outside if you not right now but some
+  later pick a friend and try to look at their eye from the side you'll see like a
+  little bulbous uh clear Dome that's your cornea the majority of the bending of the
+  light that has to happen for your image to be in Focus happens at the cornea when
+  you wear something like a contact lens you're changing that refractive index to
+  make things line up because your eyes are not shaped the shape of your eyes is something
+  something um you past the cornea you sort of go the the the pupil is not is just
+  a void it's just an empty hole um behind that you have the lens the lens is like
+  something that you that got muscles attached to it and it stretches so if you look
+  at something close by and if you are able to like fuzz it out like just just make
+  your eyes go out of focus that activity is the activity of sort of like changing
+  the shape of your lens uh to break the the sort of automated focusing systems that
+  are going on at various stages of your um nervous system CU like how do we know
+  how to focus how do we know to focus oh I'm looking close I should make my lens
+  one shape oh I'm looking far I should make my lens a different shape somewhere in
+  the goop there is some part which has which is functionally similar to the autofocus
+  on a camera although very different in every other aspect um yeah and then you go
+  back behind the lens sus um so then it goes back through the lens then there's kind
+  of like empty sort of uh what is it called like the vitus humor which is this like
+  clear goop and then you hit the retina which is backwards for some reason um because
+  we when we crawled out of the ocean a lot of things inverted and one of the things
+  is our eyes so our eyes are backwards on the inside our retina are backwards um
+  and then you hit the pigment epithelium which is like a dark thing on the back if
+  you have albinism you don't have you don't have a hard time making melanin so you
+  don't get that and then you have problem with your vision and then you hit the back
+  of your eye which is the Scara the white part is the Scara and uh and you get optic
+  nerves and all that good stuff so if you notice the that those two white um glowy
+  B spots we're hiccuping again um oops uh that's the first reflection of the infrared
+  the IR IEDs like the brightest part is the part where off the front of the contact
+  in cornea um and then probably mention very briefly next time snail's law when light
+  hits a surface it can do one of three things it can reflect which is bounce off
+  it can be absorbed or it could refract which is change direction someone nodded
+  which makes that someone you took a class maybe um it's one of those things I learned
+  it recently and I only very recently learned that that thing is called snells so
+  I was kind of guessing so nailed it um and so you get these sort of ghosty other
+  Reflections there you can see some of which move like in Phase some which move anti-phase
+  those are going to be some version of the first second third and fourth preni images
+  um which is basically the reflection as the eye as the light moves the different
+  moves through those different tissues so from the cornea to the front of the lens
+  to the back of the lens every time it hits it it the reflection part bounces back
+  out and because the camera is so close we can see sort of where that's happening
+  which is interesting and there's some like some very very high-end eye trackers
+  will use that those like secondary tertiary and quadrin uh pingi images to do very
+  very high accuracy ey tracking um but we don't do that here and okay so we're hiccuping
+  uh another thing to note about software I happen to know that the people who write
+  this code do it on Linux so this is a Windows machine so generally if you code in
+  MA in Linux it works well on Linux and Macintosh but Windows is such a different
+  system uh that we get those errors um it's hiccuping there so okay okay let's let's
+  get close to done so so what I'm going to do now I'm going to try to calibrate the
+  ey tracker so that we can get some real- time measurement of where I'm looking in
+  real time it's not going to be as good as it could be um but I'm going to do some
+  postprocess so we can get a better calibration after the fact uh so I'm going to
+  hit C and I think if I do I think it'll pop up there I look at the thing and come
+  on buddy so I'm looking at the Bull's Eye not sufficient pupil data m oh it may
+  not happen because of this okay okay all right so I'm going to record some of this
+  data later um you just die we start default settings uh but I will show you the
+  kinds of stuff oh there it goes so that's me that's actually tracking my eye um
+  [Music] and 400 90 annual mode that's probably good okay so all right so uh eye
+  movements there so sometimes you see these really jerky eye movements those are
+  called sads those are usually voluntary uh sometimes you also see these like Smooth
+  eye movements so I'm fixating on the camera moving my head and my eyes moving nice
+  and smooth those are sometimes called Smooth eye movements um but more specifically
+  that those eye movements are the result of vestibular of the vestibular ocular reflex
+  which is one of the lowest level and like old it's extremely old reflex about as
+  we have evidence back to like bony fish which is like 450 million years ago um and
+  it is basically a very short feedback loop um connecting the vestibular system which
+  measures head acceleration and rotation that counter rotates the eye relative to
+  my head movement so that I can fixate objects in the world these have even as I'm
+  jump sort of moving around and the image on my retina remains uh clear um um because
+  yeah the the chemical that involve that if if there's any biology majors in the
+  room um the actual biochemistry of how the how Vision Works happens on the basis
+  of opsin which are strange chemicals that are photo photobiochemical electrically
+  active meaning that if they absorb a photon they change shape and that changes their
+  electrical properties and that's what sets off the sort of neural Cascade um and
+  so that's how Vision actually happens but those Ops are relatively slow like they
+  take like 10 to 15 milliseconds to to respond to light which is you know slow enough
+  to to cause problems and certainly slow enough like if you uh like if you fixate
+  your thumb and move it move move your head around the blur in the background is
+  the world moving too fast for your options to keep up um so we have a lot of gay
+  stabilization mechanisms sort of very fundamental to our nervous system um that
+  allows us to basically like pick objects that we're looking at and uh keep them
+  stabilized on the back of our retina in order to give our opss and whatnot time
+  to react to the light and send images back that are clear enough to work with um
+  so yeah so quick eye movement you basically are blind during those movements um
+  because the world moves too fast so there's a lot of complicated stuff about why
+  we can't see during sods but um like yeah uh but then when you're actually sort
+  of fixating something and moving your head around that sort of stabilization aspect
+  happens um on the basis of things like vestibular ocular reflex and optokinetic
+  nagus um and the other type of eye movements are called Smooth Pursuit eye movements
+  uh which is so I cannot with my normal healthy human nervous system uh move my eyes
+  smoothly across the world it's just not a thing I can do I'm going to try to move
+  my eyes in a smooth line along the back of the room and it's going to look like
+  that which you could probably tell is like jerky because even as I'm trying to do
+  that I'm making small sads um because of all the different clamps that happen I
+  cannot make a smooth movement except that I can if I am fixating a a Target smoothly
+  pursue that uh but only if I have a Target so that's called the smooth Pursuit eye
+  movements they are very phenetically recent they're very strange um and they're
+  strange because it's like it's dependent on the fact that I'm looking at something
+  like I have chosen to look at this and so I can now do smooth eye movements but
+  if I'm not and I can't there's some like there's interesting study that like if
+  I'm in a completely pitch dark room where I can't see my hand I can still make a
+  smooth Pursuit eye movement tracking my thumb but only my thumb which chew on that
+  another personal favorite is this eye movement which is torsional eye movement so
+  it's a uh sorry torsional it's a torsional eye movement right so you have three
+  three dimensional object called an i it can move left right up and down but can
+  also rotate around its Central axis you can see as I rotate my head I am stabilizing
+  it in that direction but not that much you can see kind of like trying to keep up
+  which is always fun um so this is let's see what am I what am I doing so I'm looking
+  at the eye what am I I don't know sort iovs are weird because it's it's one of the
+  very like we have voluntary control over many parts of our bodies but not all of
+  them like you can control your breathing but you can't control your heart rate um
+  but you but you usually don't control your breathing it's under partial Co like
+  voluntary control our eye movements are like that we can control them but we typic
+  typically don't it typically just sort of they do their thing and if we want to
+  sort of like pay attention to them and sort of clamp down on them uh like with sort
+  of cognitive voluntary control we can but there's an effort there what is that effort
+  hard to know um okay 245 12:45 um so I'm going to try I'm going to going to go ahead
+  and record the data even though I don't think it's going to work so I'll record
+  this I'll record some stuff later and I'll bring it back in um next time so we're
+  now recording from both the eye and the world camera um they are time synchronized
+  so the frames will line up in time but they're not spatially calibrated yet um move
+  that a little bit down so let rotated there and um I don't like their automated
+  calibration system so I'm going to do a separate calibration which is going to involve
+  so I'm going to be looking at the my at the my the nail of my thumb looking at that
+  there sort of rotating it so I'm giving myself a reference point in the image that
+  I know that I am looking at because of the instructions that I gave to myself uh
+  and I can use that to calibrate it after the fact and then I will importantly not
+  keep my thumb in the screen when I'm not doing that task because I won't be able
+  to tell otherwise um I'm also I'm calibrating close so I'm also going to look at
+  the recording symbol over there and Cal and sort of do that same kind of movement
+  because the calibration is somewhat distance dependent um so giving myself a a short
+  Target and a long Target will be helpful in that way so uh the measure the things
+  I want to do so again just let's test that it's actually working so looking at there
+  looking at there I don't know uh from the direct data which one I am looking at
+  but I know that I'm looking at one of those so I can I just cheat and look at this
+  look at the computer screen so that will be a way to kind of like identify what's
+  looking like there um ask yourself what you think the data will look like if you
+  were if we could see the track of my eye like what does that look like in the data
+  Trace what does that look like in the data trace and what does this look like in
+  the data Trace so this is a visual motor task and that's I'm going to see if I can
+  close my eyes and do it and I can't so um let's see anything oh yeah I'm going to
+  so now I'm going to try to trace something in the back and we know that I can't
+  and now I'm going to try to trace this and we know that I can and was there any
+  way to tell for my eyeballs the difference between this and this maybe not um and
+  just for fun look at the screen classic calibration uh okay that's roughly 3 minutes
+  of recorded data which is more than enough to spend careers analyzing because we
+  just produce we're just it's just so complicated guys um anything else oh I'm going
+  to do so here I am walking here and I'm going to turn around there oh you can't
+  actually see my eye uh I'm not going to recalibrate it because I'm going to choose
+  the same calibration which is safe enough um this is a thing I noticed when I was
+  doing my like walking studies is you could tell just from the eye data like when
+  the person turned around because you see this kind of like tick tick tick tick like
+  cuz my eye my head is rotating and the VR is trying to make it aign but it gets
+  to like a limit on the side so it sort of gets to the edge and ticks back is it
+  happening is it happen like tick tick tick is that okay cool um nervous system works
+  VR is such a low-level reflex that it's used as a proxy for brain death in emergency
+  situations like if you are looking at someone and you don't know if they're alive
+  you can rotate their head if their eyes don't counter rotate that's it like that's
+  not a that's not a reflex that can fail while the rest of the body is working um
+  kind of aob but there you go uh um great another minute of the data whole of the
+  career and yeah okay take these off luckily we can't see infrared there's a lot
+  of sort of we we use the fact that we can't see infrared in specifically in human
+  movement studies but in a lot of cases because if these were visible light I couldn't
+  use them because that would be blinded um so instead they're infrared which is both
+  like a low energy wavelength so it's hopefully not doing too much tissue damage
+  um but also you can basically blast my eyes with light and then just have a camera
+  that records in that wavelength and sort of make your life work that way okay great
+  I hope that was sufficiently enticing and confusing I think we can call it there
+  uh please dump your questions into the machine see how well it does I'll be really
+  interested because this is now getting closer to like my actual proper area of like
+  literal expertise um so I'll be really interested to see like how the bot does as
+  you ask it questions it will probably get it like totally good at the level that
+  you need to worry about it especially because we're not you not giving you tests
+  or anything like that um but I'm really curious about the nuances like sometimes
+  when you ask it like like if you push it to sort of details you push it on specifics
+  um it will probably give you like really good best guesses but I'm I'm guessing
+  that there's going to be places where it actually misalign with what I know about
+  how the field is going my my personal beliefs which is like I believe things about
+  the nervous system which I cannot prove and are not written down anywhere and other
+  experts May disagree with me so I'll be really interested to see kind of like first
+  of all what y'all are interested in and secondly how a bot that has been trained
+  by eating the internet does when you get to those sort of like limitations on the
+  sort of specifics of knowledge because as I've said before I think it tends to nail
+  anything at the level of textbook um and then it starts to fuzz out as you get into
+  sort of the the parts of the of the conversation that have less of a footprint on
+  the data set that this bot ate okay that's not bad a whole half an hour um all right
+  bye
+metadata:
+  author: Jon Matthis
+  channel_id: UCOOQxlTCtUz9mr1NPWlJyYQ
+  description: 'https://github.com/HumanMovementNeuroscience/HMN24-course\n\n#Ai Generated
+    summary: \nThe session introduces eye tracking technology, focusing on capturing
+    and processing data from eye movements using an eye tracker. The equipment involves
+    cameras that require calibration to accurately track eye and world views. The
+    discussion covers eye anatomy, different types of eye movements, and the technical
+    challenges of eye tracking, including software and device management issues. Participants
+    are encouraged to engage with the data, ask questions, and explore personal interests
+    in ocular physiology and visual aspects of the nervous system.'
+  duration: '3613'
+  like_count: ''
+  publish_date: '2024-10-29T06:52:39-07:00'
+  tags: ''
+  title: HMN24 - 05 - Intro to Eye Tracking
+  view_count: '69'
+transcript_chunks:
+- dur: 180.0
+  end: 180.0
+  start: 0.0
+  text: okay hello everybody and welcome to Tuesday or whatever um so uh today we're
+    going to do something I guess not that different but with a different piece of
+    equipment uh this is an eye tracker so I'm going to put it on my face and show
+    you my eyeballs like super close up um and the goal every time I've come up here
+    I've like tried to get a short lecture and then might up talking for a long time
+    and leaving no time at the end um so this time I'm not going to give much of any
+    lecture at all I'm just I'm going to talk while I'm wearing it which will take
+    its own kind of time and kind of just give like a technical preview um ey tracking
+    this type of data takes longer to process uh than the the free moap stuff which
+    I sort of designed intentionally to be easy to sort of pop out cool things in
+    a hurry um so the idea will be several fold one will be to like just get some
+    data on the machine and then I and Aaron and whatnot can process it within the
+    next week and then on next Tuesday we can talk about the data and at that time
+    I will say more about ocular physiology and the you know visual visual aspects
+    of your nervous system and things like that um and so the kind of it's sort of
+    again in this kind of like flip floppy kind of structure where we're going to
+    start by jumping in the deep end and you're going to watch and you're going to
+    have just all sorts of questions about like what am I doing what's that thing
+    I said and didn't mention again and then also just like your own personalized
+    interests in this topic as a whole um and after I get done with that hopefully
+    on the relatively early side of things uh we going to we're going to do the sort
+    of split off into individualized groups and um have just like kind of just like
+    a couple moments just to sort of like drop some questions into the lecture thing
+    about like yeah I'll just do it like that um about like the questions that did
+    come up for you and like the things that you want to know more about and then
+    that will give me the opportunity to like scrape that stuff and see it before
+    I actually plan for what I'm going to talk about next week [Music] um and yeah
+    so but we're not going to spend the entire second half the class doing that which
+    is why I'm sort of pausing because it's like splitting time is always hard but
+    I think I think it's fine if it's sort of like a soft transition um but I will
+    ask you kind of like to put some chat put some chats into the relevant lecture
+    chat um about vision and eye tracking and in eye movements and stuff like that
+    specifically um and then sort of I guess like smoothly transitioning from there
+    into a conversation more aligned with the AI Scrapy stuff that I have been sort
+    of showing you in various forms um
+- dur: 180.0
+  end: 360.0
+  start: 180.0
+  text: and with now there is sort of um I did a little bit of extra polishing but
+    mostly I kind of just like realized that you in obsidian when you're viewing the
+    the sort of scraped data you can just search for your own member ID on Discord
+    uh and then see all the stuff that you have been talking about and get like a
+    mini little graph and so that will kind of be your first opportunity to see your
+    own extract data and I will sort of ask you kind of take a look at that think
+    about what like how much that actually represents your interests um how much you
+    sort of like thinking about how you might dump other information in there uh to
+    to make it more align with your interest and then specifically kind of like comparing
+    notes with just your local vicinity um and specifically trying to find overlap
+    between the topics that you've been discussing sort of like oh yeah we're both
+    vaguely interested in this General thing or actually even better there's this
+    kind of empty space between the things that we have been talking about that could
+    sort of Link our particular nodes together uh so in spirit of that I'm going to
+    just quickly show you how to open the data again um so you'll need uh obsidian
+    on your computer and then a way to open 7z files which I actually not sure what
+    is and is not built in these days but seven zip is the software that we tend to
+    use um I prefer zip files because they're more generally compatible but I did
+    this on my windows partition so zip files don't work because of that dumb historical
+    limit on path lengths so uh here we are in the server um I changed the picture
+    so if you you have to scan for it differently um up here under resources there's
+    a thing at the bottom called server scrape checkpoints checkpoints in software
+    world and specific specific like Mean Machine learning AI stuff generally means
+    like this is a thing that we're going to keep doing but this is like a Time dated
+    checkpoint so that's sort of just the terminology there and so click into that
+    scroll down to the bottom um this is more notes for myself just so like I can
+    keep track of like you know be interesting to see like oh yeah look a bunch of
+    stuff popped up on this topic because of this lecture blah blah blah um so click
+    the download thing it'll download probably into your downloads folder it will
+    be D d7z um you can you might be able to just double click it and it will figure
+    it out you might have to right click it on a Windows machine on Mac I guess like
+    double tap click it go to seven zip and then do extract here something like that
+    if you don't have that option um just Google szip if that doesn't work ask go
+    open up a chat in like the general chat and just ask about like how do I open
+    a7z file it will on a Mac or whatever
+- dur: 180.0
+  end: 540.0
+  start: 360.0
+  text: kind of computer you have and it will help you and if you can't figure it
+    out um don't stress someone will ask a neighbor or just chill and I'll show you
+    later um so once you have it on your computer and you've uh extracted it into
+    a regular old folder it will the folder will look something like this I cleaned
+    up some of the pathing like I don't know if youall like there used to be like
+    a bunch of like sub paths and stuff like that and I also there's no raw data in
+    here it's just the AI processed stuff if you don't remember what that is does
+    not matter um but you're going to need to know this path um if you're not familiar
+    like I'm sure I've said this before but Bears repeating files on your computer
+    are arranged hierarchically there's like a tree structure where everything is
+    and that sort of C the first one is like the specific physical drive and then
+    there's these sort of like slashes that sort of tell you which branch of the tree
+    you're going down so this thing is called a path it's sometimes also called like
+    a directory or a folder or something like that and it's just branching to tell
+    you how to get to the particular data blob that we call files and so in this case
+    I have to go all the way down here this thing is called a file MD means its markdown
+    and it's path slocation SL address SL full path name is all of these words plus
+    the file name plus the extension at the end the extension at the end is just sort
+    of a a clue for your computer about how the data is going to be structured inside
+    of it so if the computer tries to open it it's like oh it's a MD I know how to
+    handle those MD I could just Le have written txt and that would be raw text and
+    that's about as deep as I feel I need to go down that rabbit hole okay um so in
+    obsidian so last time if you followed along you probably opened um you did something
+    similar to manage Vault so I clicked down here did manage vaults probably could
+    have done contrl n or something like that um actually probably not doesn't matter
+    and we did the open folder as Vault and then you opened the last one um it just
+    to make things easier just open make a new one to say open folder as Vault like
+    you could like you can see like this one is already kind of pre-loaded with the
+    last one I was looking at um but this is this is like oh yeah and it's actually
+    telling me where I was but this is one of those cases where um you can tell that
+    we're not using the tool for its intended purpose because it's not behaving in
+    a way that would be sort of compatible um so because there isn't like an easy
+    way actually there is an easy way but I'm not going to do it um to tell it like
+    just update the one that exists with all these ones like
+- dur: 180.0
+  end: 720.0
+  start: 540.0
+  text: find the parts that overlap and keep those and add new stuff um I could probably
+    just yeah but it's fine so here we are here human human movement Neuroscience
+    fall 24 checkpoint 24 1022 which is today um 639 when I ran it and then AI process
+    so it's not the raw select the folder and for some reason it pops back to light
+    mode indexing complete pops up which is kind of interesting for deep reasons which
+    I won't get into and here we are again and once again uh these top level folders
+    um again obsidian calls vaults folders just the same sort of branding for them
+    um and you can more easily see kind of like the the tree like hierarchy in this
+    format Mac's kind of have this drop down menu thing in their file system which
+    is nice Windows does not um and then they don't give you the extension here because
+    it's in a software for operating under markdown file so it doesn't show that by
+    default um it's so the the code and AI that I the AI prompting that I use to generate
+    this is almost exactly the same um except that I added a little bit of stuff to
+    turn these tags also into back links which will if I click on on this we'll go
+    actually I'm not sure what we'll do oh it might want double does it want double
+    oops yeah it did want double square brackets so it's fine um and if you remember
+    last time I I think I talked about this like it the tags it had were sort of like
+    too disperate like it was sort of like you know like like they would make one
+    tag for like virtual reality and another tag for like virtual reality questions
+    or something like that um because it's processing each chat the unit it's operating
+    under the chat like so each um it's like cycling through each chat object um so
+    I just added like a little bit of extra instructions on there that said tags should
+    be like one to two words and don't like don't separate them out into things like
+    that with this type of like AI like programming prompting often like just giving
+    better instructions gives better results kind of like how humans work um and so
+    if I click on this little graph structure over here graph looking icon and it
+    pops this out I if I recall correctly I think there were like 222 chats total
+    from y'all which is nice I did also now actually um it this does not include the
+    bot playground chats so that has now officially been even though I thought it
+    was really funny when that they showed
+- dur: 180.0
+  end: 900.0
+  start: 720.0
+  text: up um you can see that none of them are linked together because none of the
+    back links cuz we're not showing tags yet we're just showing the back links and
+    the only actual link that we show is this one around here which is the one that
+    I clicked on as a demo so it I think yeah so was that one and then it's trying
+    to click into that one which is an empty thing so there's that so click on that
+    um and then this is of course the fun part where we say so on this thing the upper
+    right we do drop down for filters and then we tell it to show us tags and these
+    are the tags so I don't have like direct data to compare like the last time versus
+    this time but just like eyeball wise it looks better like you have fewer of these
+    like orphan spots over here um and things are just generally more connected uh
+    neuromechanics yeah yeah and so like neuromechanics was a popular thing to talk
+    about I think just cu the name is so cool um so theoretically if I click on this
+    this will show every chat that has had that the bot has extracted the tag neuromechanics
+    from um and now if you want to start looking at your space within that um I think
+    you might so you might have to go into to user settings and do developer mode
+    come on buddy Advanced and turn on developer mode which I think is not on by default
+    and then right click on your name or double click on your name and go down to
+    copy user ID I think if that doesn't show up then you have to go turn on Advance
+    mode um so click on that it's now in your clipboard which is just like a thing
+    your computer keeps track of for you um go into here and I can search for filters
+    or in the filters box um I could I could do specific like looking for a different
+    so I could look for like a given path so I could say hey only give me stuff from
+    the path that includes the the chats from whatever category or whatever Channel
+    and that would filter at that sort of tree level um I could search by tag and
+    then I think the one that's actually coming up is by line or just I don't know
+    just raw paste so your ID is going to be a big number like that that seems wrong
+    uh I think because I haven't I got myself and I haven't really been in here so
+    let's see which unfortunate soul Catherine has been discussing D um these things
+    and this is so there's
+- dur: 180.0
+  end: 1080.0
+  start: 900.0
+  text: another thing that's happening here where the you're supposed like it's like
+    you're to play like video games or complicated things and it starts out simple
+    and then gets complicated and so that by the time it's complicated you're sort
+    of acclimated to it this is what your graph stuff is supposed to look like when
+    you start and you start adding notes um so well Katherine has been has had 1 two
+    3 four five chats which 222 by 40 is like pretty much smack dab on average uh
+    so good job there um minus any bot playground stuff um I'm not sure why there's
+    no tag showing up here which could just be a problem I'm not sure why the tags
+    aren't showing up here maybe it's because it's stupid no um anyways so I can also
+    go down into the second one called groups I cannot search for two at once for
+    whatever reason um because it's actually just there's nothing really explicitly
+    tagging it to you except that when I made the code to actually put the raw conversations
+    out it happens to show the user ID which is like you know I don't know if that
+    would technically count as identifying information but it's certainly not useful
+    for most humans um and then this one is the bot so every chat will have this one
+    in it um so yeah luckily I happened to put that tag in there so you can just like
+    manually search for Stuff uh search for stuff yeah your for I for folks so um
+    so that's a good way to see like your own stuff just to kind of like get a sense
+    of what that landscape that you are making of interested topics is and looks like
+    um but to compare it against your friends and neighbors um that's not going to
+    be super helpful just for user interface purposes so in the second tab down here
+    we can do groups and then I can assign a color to Catherine's chats and then do
+    that and then see them within the larger space and I can add a new group and I
+    can look at Corina put them yellow and kind of Blends in with the green let's
+    turn off the tags and then well actually that doesn't really help anymore anyway
+    so yeah so yellow's a bad color for this case so let's do like I don't know blue
+- dur: 180.0
+  end: 1260.0
+  start: 1080.0
+  text: and then yeah so then this will be a case where you could start looking for
+    stuff and this is one of those this is like many cases this is one of those things
+    where like there's an automated way to do this that's kind of hard to do there's
+    also like a dum dum human way that you just kind of like look at it and click
+    on stuff which is you know easier to do but harder to do on scale so this is kind
+    of a way to look at things in that way okay so we'll get back into that but that's
+    just sort of try to get to like roughly this point while I'm talking so that way
+    when the actual like second half kicks in uh only people who are having trouble
+    with this need instruction so okay questions probably yeah great cool we'll come
+    back to it uh okay so ey trackers this this is an eye tracker well this is a box
+    but it has an ey tracker in it um so several lectures ago now we did the thing
+    where I set up cameras and the cameras recorded me and then we extracted data
+    from that and we talked about that data and sort of things like that um this uh
+    object uh a piece of equipment is similar in many ways it is a camera based system
+    um the term would be uh oh also while you're in obsidian land if you want to just
+    like pop open a note and just like write down your questions as they come up you
+    can do that as well you probably also know how to take notes cuz you're like here
+    um but follow your heart um so this is also a camera based tracking system uh
+    it use it has three cameras One camera right here camera here and then a camera
+    here so two cameras point in at my eyes and one camera pointing out at the world
+    uh the general the specific term here is video oculography um video is video ulo
+    is eyeball ography is like measurement in actually not measurement ometry would
+    be measurement ography would be I don't know whatever that word is uh and yeah
+    and also like before the the are relatively independent of each other like they're
+    all going to go through the same wire to be recorded but they're not rigidly attached
+    to each other so there's going to have to be a calibration process like we showed
+    before in order to be able to make sense of these things um also like before it
+    is a pain to work with here actually and I'm actually not 100% convinced it will
+    work let me phrase
+- dur: 180.0
+  end: 1440.0
+  start: 1260.0
+  text: that I know it's not going to work to its fullest extent right now um because
+    I have already tried that earlier today and it didn't um so but the problem I
+    had was that it wasn't recording from both eyes at the same time like it was having
+    some process issues uh but that's okay because for our purposes here like one
+    eye versus two eyes is fine I have um healthy stereo Vision I do not have strabismus
+    which is the sort of uh technical term for what people call like lazy eye where
+    your eyes are not like like your eyes aren't aligned when you fixate um which
+    means that you can generally use like the behavior of one eye to tell you about
+    both eyes um yeah if I had if I did have stabismus I would just tell it to point
+    at my dominant eye uh which is the one that people who have stabismus just naturally
+    align um with uh everybody has a dominant eye like you have dominant hands um
+    yours is probably your right eye but it may not be we'll talk about that well
+    if if there's sufficient interest in the server chats we will talk about it so
+    there are many eye trackers in this world uh my favorite at the moment is the
+    one made by pupil Labs um which is a German company a spin-off of an academic
+    group um I like them because they are like very open source friendly all their
+    code is is open source I have a lot of complaints about the specifics of that
+    code and the software associated with it um but also at this point in my life
+    I have now written enough of this software that I could not possibly understand
+    more why it is the way it is so search for people Labs find you can find their
+    their front page and find the GitHub page if you're curious about what that code
+    looks like and then there's videos and stuff like that which is nice um a lot
+    of their newer stuff is has a very like machine learning bent to it like they
+    use machine learning to track the pupil in the eyes which I really don't like
+    because it is like the this is like their old system which all the tracking is
+    like old school like classical computer vision stuff um which means it is more
+    on that space of like direct computation of available data and basically no like
+    machine learning in inference step so the process between the empirical measurement
+    that happens on the cameras and the sort of resulting data that I want to analyze
+    to do science is rigid it may not work all the time but at least I know what each
+    step is anytime you have a system that uses machine learning as part of its core
+    processing pipeline there is an inherent stochastic nature to the outcome because
+    there is a step that uses machine learning and machine learning algorithms always
+    are inference rather than direct computation it's a probabilistic
+- dur: 180.0
+  end: 1620.0
+  start: 1440.0
+  text: matching type of thing but that's not important right now uh let's see so
+    capture let's see so it's 216 want to be done within half an hour okay there you
+    go yeah as I thought so we're not going to look at both eyes it's also like a
+    little reassuring now that I've like written enough of specifically like camera
+    code to see like I now it's like oh I know what that problem is like and they
+    also have it which means I may not be a total dummy okay so that's you behold
+    this is the world camera um it is meant to mimic but is obviously not exact the
+    same as my viewpoint so we're pretending that this view is my eye view however
+    we know that that's not the case because my eye is here and the camera is here
+    so there's at least a centimeter or so misalignment between this world camera
+    view and my actual eyeball view uh and as much as I want to talk about that because
+    I think it's cool I'm going to also leave that for the future and of course the
+    star of the show let's do my left eye that's my right eye wait why is that oh
+    is that why it's wrong excuse me did I just  is this the same one I took off this
+    side with anyone watching okay the other I put the other one down then I was like
+    wait is this the same I don't know we're going to find out Welcome To Life as
+    a scientist with ADHD it's like  did I take notes no do it again fine luckily
+    this why I also don't work with expensive equipment okay so this yeah wrong I
+    don't think this will make a difference but it is like it's like I I did this
+    earlier like I swapped the cameras out and I just noticed that the the right eye
+    was i1 and I I happen to know that it should be the other way around I don't think
+    there's anything that would make that cause the problems we just saw but we're
+    going to see okay this is now my left eye yeah all right and when in doubt shut
+    it down there's two white Bishops if you know that if I said have I said that
+- dur: 180.0
+  end: 1800.0
+  start: 1620.0
+  text: before no yeah if you're playing chess and you look at the board and both
+    of your Bishops are on the white squares there are no legal moves you can make
+    to fix it so just wipe the board and reset it up again that's why you shut things
+    down okay uh Q cap cap cap cap I also noticed today that I think I am recording
+    this at 60 FPS which means I am asking the computer to work there's no there's
+    no reason that this needs to be 60 FPS um yeah it's still failing so anyways that's
+    your intro to technical troubleshooting okay so now they don't go on the arms
+    right see it was the right way before actually still doesn't make sense why are
+    they backwards must because the it was pointing them out when I put them on the
+    little arms some of you might have been perturbed by the fact that I just dropped
+    this unceremoniously um which is fair but also this C this one at this point is
+    kind of like my like you know demo one and also I know enough about this technology
+    to know that like it's not going to be well I shouldn't say that on camera it's
+    fine not really but okay shut it down turn it off turn it back on again uh that's
+    the classic Tech joke it's because of the white Bishop's thing okay and watch
+    it broke that'd be really funny so here I'm shutting it down less powerfully I
+    do not want to turn off the computer but I will if I have to
+- dur: 180.0
+  end: 1980.0
+  start: 1800.0
+  text: come on buddy h wait what how was that cam id2 people cam one I happen to
+    know that one of the things that makes this type of stuff hard is device management
+    like your computer figuring out what camera is attached to what so I had shut
+    down the software but I hadn't unplugged the cable you may not like this but this
+    is actually what most of research is like come on hey there you go great and it
+    even says i1 so there you go all right anyways that's my I uh so we are recording
+    this is 400x 400 resolution in 90 FPS so 90 frames per second which means that
+    every frame that comes off of this thing so you're getting 90 measurements per
+    second off of this camera and uh so it's if it was 100 it would be 10 milliseconds
+    per frame it's 90 so it's a little bit more than that uh no one can do that math
+    um yeah so look at that weird eyeball look how weird it is uh um so it's a little
+    stretch now because it's 400 by 400 so it should be square um and they don't protect
+    the aspect ratio which they should but that's fine so I will actually manually
+    scale it like yeah this one of these things like so if if you take a square video
+    and you play it through like a standard video player you'll get wrong data because
+    it will be skewed cuz most of our videos are uh skewed like that but this is actually
+    just the display which is fine and see anything else I want to show you
+- dur: 180.0
+  end: 2160.0
+  start: 1980.0
+  text: down here I think I can do this let I'm not going to try to do this on the
+    fly I can do this next time I'll show you the the 3D stuff um like how the IM
+    model actually is built basically it it pretends like it's a sphere uh and I can
+    show you the algorithm oo someday this will show up come on reset window size
+    oh that doesn't work I tell you guys this old code okay so that is my eyeball
+    um you may recognize it you may have on average each of you will have slightly
+    less than two of these and they will work roughly similar to that uh there's a
+    number of interesting parts so so you can see that kind of like this is my contact
+    lens um this part here is the iris uh easily one of the top 10 human sphincters
+    irises um and they're basically a hole that will sort of contract in response
+    to things such [Music] as light that one yeah um but also to like things like
+    emotional arousal and cognitive load and stuff like that so there is some research
+    called pupil omry that basically just looks at eye trackers and looks entirely
+    at like the behavior of your pupil and the size and shape of your pupil how it
+    changes on different tasks I'm going to talk some right now um the majority of
+    research involving eye tracking is pupilometry because the majority of scientists
+    are lazy cowards I think that the it's it is not that it's not an interesting
+    symbol not not that it's not an interesting signal to look at but it is not as
+    interesting as the volume of resarch would suggest so why do we look at it because
+    it does doesn't require you to properly calibrate your equipment it doesn't require
+    you to think about like things in the world and sort of feel you know feedback
+    loops and stuff like that um so when you look for research on ey tracking the
+    majority of it is going to be pupilometry I'm not saying don't look at that but
+    I am saying I'm not saying I'm not saying anything um so uh you will also yeah
+    so you're going to see so yeah you got the iris good old Iris you got the eyelid
+    an important important guy um eyelid job is
+- dur: 180.0
+  end: 2340.0
+  start: 2160.0
+  text: mainly to keep it um moist uh blinking is one of those behaviors that we don't
+    think is interesting but it's actually a lot that goes into when we should blink
+    in your normal everyday life you blink when your eyes are dry whatever like a
+    cou every I don't know actually don't know what the normal Cadence is but you
+    blink when your eyes are dry no big deal uh if you start doing really difficult
+    visual tasks um like Landing a plane or something like that or walking over Rocky
+    terrain like the research I've done you blink far far less often because if you're
+    doing a really difficult task then the cost of being blind for 50 milliseconds
+    goes up and so you'll see this really interesting behavior when people do hard
+    tasks we like it's like my my research walking people walking over Rocky terrain
+    they would be standing at the front they go blink blink blink blink then they'd
+    walk and they would blink almost not at all and then when they got to the end
+    they go blink blink blink blink blink and the only times you really saw blinks
+    was when they were when they were looking from the ground up to the goal and then
+    back because that amount of time is like sort of dead time so people not cognitively
+    not like consciously but whatever the visual nervous system is sort of whatever
+    clever part handles blinking sort of knows that that's a good time and there's
+    a scheduling whatever omnipause neurons are relevant to that anyway uh 25 so class
+    is over at 125 great doing great um okay so here we have an eyeball here we have
+    a world we believe that these two things are connected in some way um but what
+    we want to be able to see is like something that tells you where in this image
+    I am looking at based off of the data that's available from this image uh I have
+    no idea why this is not showing the overlay there but again I understand um ex
+    so let me real quick just dump a little more this is the the drink from the fire
+    hose phase of the where I just say bunch of stuff and then you try to notice which
+    parts of it were interesting um you'll notice that the eye moves in strange ways
+    right sometimes it does these like jerky movements like that those are called
+    sads uh I'm looking there I'm going to look there finger to finger those are called
+    sads sad is French for jerk because they're jerky little eye movements it is the
+    fastest movement that your body can make um and yeah it's wild uh oh also those
+    two little lights there are infrared
+- dur: 180.0
+  end: 2520.0
+  start: 2340.0
+  text: emitters IEDs I infrared emitting diode like an LED but for IR it's you can
+    see the reflection there if I cover them up my eye gets very dark you can actually
+    see my finger reflected there um and then the thing that I find even more interesting
+    than that is you you see that kind of ghosty so eyeball the thing that you're
+    but when you look at the eyeball the first thing you see is technically contact
+    lens um and then behind the contact lens you see cornea which is the clear thing
+    on the outside if you not right now but some later pick a friend and try to look
+    at their eye from the side you'll see like a little bulbous uh clear Dome that's
+    your cornea the majority of the bending of the light that has to happen for your
+    image to be in Focus happens at the cornea when you wear something like a contact
+    lens you're changing that refractive index to make things line up because your
+    eyes are not shaped the shape of your eyes is something something um you past
+    the cornea you sort of go the the the pupil is not is just a void it's just an
+    empty hole um behind that you have the lens the lens is like something that you
+    that got muscles attached to it and it stretches so if you look at something close
+    by and if you are able to like fuzz it out like just just make your eyes go out
+    of focus that activity is the activity of sort of like changing the shape of your
+    lens uh to break the the sort of automated focusing systems that are going on
+    at various stages of your um nervous system CU like how do we know how to focus
+    how do we know to focus oh I'm looking close I should make my lens one shape oh
+    I'm looking far I should make my lens a different shape somewhere in the goop
+    there is some part which has which is functionally similar to the autofocus on
+    a camera although very different in every other aspect um yeah and then you go
+    back behind the lens sus um so then it goes back through the lens then there's
+    kind of like empty sort of uh what is it called like the vitus humor which is
+    this like clear goop and then you hit the retina which is backwards for some reason
+    um because we when we crawled out of the ocean a lot of things inverted and one
+    of the things is our eyes so our eyes are backwards on the inside our retina are
+    backwards um and then you hit the pigment epithelium which is like a dark thing
+    on the back if you have albinism you don't have you don't have a hard time making
+    melanin so you don't get that and then you have problem with your vision and then
+    you hit the back of your eye which is the Scara the white part is the Scara and
+    uh and you get optic nerves and all that good stuff so if you notice
+- dur: 180.0
+  end: 2700.0
+  start: 2520.0
+  text: the that those two white um glowy B spots we're hiccuping again um oops uh
+    that's the first reflection of the infrared the IR IEDs like the brightest part
+    is the part where off the front of the contact in cornea um and then probably
+    mention very briefly next time snail's law when light hits a surface it can do
+    one of three things it can reflect which is bounce off it can be absorbed or it
+    could refract which is change direction someone nodded which makes that someone
+    you took a class maybe um it's one of those things I learned it recently and I
+    only very recently learned that that thing is called snells so I was kind of guessing
+    so nailed it um and so you get these sort of ghosty other Reflections there you
+    can see some of which move like in Phase some which move anti-phase those are
+    going to be some version of the first second third and fourth preni images um
+    which is basically the reflection as the eye as the light moves the different
+    moves through those different tissues so from the cornea to the front of the lens
+    to the back of the lens every time it hits it it the reflection part bounces back
+    out and because the camera is so close we can see sort of where that's happening
+    which is interesting and there's some like some very very high-end eye trackers
+    will use that those like secondary tertiary and quadrin uh pingi images to do
+    very very high accuracy ey tracking um but we don't do that here and okay so we're
+    hiccuping uh another thing to note about software I happen to know that the people
+    who write this code do it on Linux so this is a Windows machine so generally if
+    you code in MA in Linux it works well on Linux and Macintosh but Windows is such
+    a different system uh that we get those errors um it's hiccuping there so okay
+    okay let's let's get close to done so so what I'm going to do now I'm going to
+    try to calibrate the ey tracker so that we can get some real- time measurement
+    of where I'm looking in real time it's not going to be as good as it could be
+    um but I'm going to do some postprocess so we can get a better calibration after
+    the fact uh so I'm going to hit C and I think if I do I think it'll pop up there
+    I look at the thing and come on
+- dur: 180.0
+  end: 2880.0
+  start: 2700.0
+  text: buddy so I'm looking at the Bull's Eye not sufficient pupil data m oh it may
+    not happen because of this okay okay all right so I'm going to record some of
+    this data later um you just die we start default settings uh but I will show you
+    the kinds of stuff oh there it goes so that's me that's actually tracking my eye
+    um [Music] and 400 90 annual mode that's probably good okay so all right so uh
+    eye movements there so sometimes you see these really jerky eye movements those
+    are called sads those are usually voluntary uh sometimes you also see these like
+    Smooth eye movements so I'm fixating on the camera moving my head and my eyes
+    moving nice and smooth those are sometimes called Smooth eye movements um but
+    more specifically that those eye movements are the result of vestibular of the
+    vestibular ocular reflex which is one of the lowest level and like old it's extremely
+    old reflex about as we have evidence back to like bony fish which is like 450
+    million years ago um and it is basically a very short feedback loop um connecting
+    the vestibular system which measures head acceleration and rotation that counter
+    rotates the eye relative to my head movement so that I can fixate objects in the
+    world these have even as I'm jump sort of moving around and the image on my retina
+    remains uh clear um um because yeah
+- dur: 180.0
+  end: 3060.0
+  start: 2880.0
+  text: the the chemical that involve that if if there's any biology majors in the
+    room um the actual biochemistry of how the how Vision Works happens on the basis
+    of opsin which are strange chemicals that are photo photobiochemical electrically
+    active meaning that if they absorb a photon they change shape and that changes
+    their electrical properties and that's what sets off the sort of neural Cascade
+    um and so that's how Vision actually happens but those Ops are relatively slow
+    like they take like 10 to 15 milliseconds to to respond to light which is you
+    know slow enough to to cause problems and certainly slow enough like if you uh
+    like if you fixate your thumb and move it move move your head around the blur
+    in the background is the world moving too fast for your options to keep up um
+    so we have a lot of gay stabilization mechanisms sort of very fundamental to our
+    nervous system um that allows us to basically like pick objects that we're looking
+    at and uh keep them stabilized on the back of our retina in order to give our
+    opss and whatnot time to react to the light and send images back that are clear
+    enough to work with um so yeah so quick eye movement you basically are blind during
+    those movements um because the world moves too fast so there's a lot of complicated
+    stuff about why we can't see during sods but um like yeah uh but then when you're
+    actually sort of fixating something and moving your head around that sort of stabilization
+    aspect happens um on the basis of things like vestibular ocular reflex and optokinetic
+    nagus um and the other type of eye movements are called Smooth Pursuit eye movements
+    uh which is so I cannot with my normal healthy human nervous system uh move my
+    eyes smoothly across the world it's just not a thing I can do I'm going to try
+    to move my eyes in a smooth line along the back of the room and it's going to
+    look like that which you could probably tell is like jerky because even as I'm
+    trying to do that I'm making small sads um because of all the different clamps
+    that happen I cannot make a smooth movement except that I can if I am fixating
+    a a Target smoothly pursue that uh but only if I have a Target so that's called
+    the smooth Pursuit eye movements they are very phenetically recent they're very
+    strange um and they're strange because it's like it's dependent on the fact that
+    I'm looking at something like I have chosen to look at this and so I can now do
+- dur: 180.0
+  end: 3240.0
+  start: 3060.0
+  text: smooth eye movements but if I'm not and I can't there's some like there's
+    interesting study that like if I'm in a completely pitch dark room where I can't
+    see my hand I can still make a smooth Pursuit eye movement tracking my thumb but
+    only my thumb which chew on that another personal favorite is this eye movement
+    which is torsional eye movement so it's a uh sorry torsional it's a torsional
+    eye movement right so you have three three dimensional object called an i it can
+    move left right up and down but can also rotate around its Central axis you can
+    see as I rotate my head I am stabilizing it in that direction but not that much
+    you can see kind of like trying to keep up which is always fun um so this is let's
+    see what am I what am I doing so I'm looking at the eye what am I I don't know
+    sort iovs are weird because it's it's one of the very like we have voluntary control
+    over many parts of our bodies but not all of them like you can control your breathing
+    but you can't control your heart rate um but you but you usually don't control
+    your breathing it's under partial Co like voluntary control our eye movements
+    are like that we can control them but we typic typically don't it typically just
+    sort of they do their thing and if we want to sort of like pay attention to them
+    and sort of clamp down on them uh like with sort of cognitive voluntary control
+    we can but there's an effort there what is that effort hard to know um okay 245
+    12:45 um so I'm going to try I'm going to going to go ahead and record the data
+    even though I don't think it's going to work so I'll record this I'll record some
+    stuff later and I'll bring it back in um next time so we're now recording from
+    both the eye and the world camera um they are time synchronized so the frames
+    will line up in time but they're not spatially calibrated yet um move that a little
+    bit down so let rotated there and um I don't like their automated calibration
+    system so I'm going to do a separate calibration which is going to involve so
+    I'm going to be looking at the my at the my the nail of my thumb looking at that
+    there sort of rotating it so I'm giving myself a reference point in the image
+    that I know that I am looking at because of the instructions that I gave to myself
+    uh and I can use that to calibrate it after the fact and then I will importantly
+    not keep my thumb in the screen when I'm not doing that task because I won't be
+    able to tell otherwise um I'm also I'm calibrating
+- dur: 180.0
+  end: 3420.0
+  start: 3240.0
+  text: close so I'm also going to look at the recording symbol over there and Cal
+    and sort of do that same kind of movement because the calibration is somewhat
+    distance dependent um so giving myself a a short Target and a long Target will
+    be helpful in that way so uh the measure the things I want to do so again just
+    let's test that it's actually working so looking at there looking at there I don't
+    know uh from the direct data which one I am looking at but I know that I'm looking
+    at one of those so I can I just cheat and look at this look at the computer screen
+    so that will be a way to kind of like identify what's looking like there um ask
+    yourself what you think the data will look like if you were if we could see the
+    track of my eye like what does that look like in the data Trace what does that
+    look like in the data trace and what does this look like in the data Trace so
+    this is a visual motor task and that's I'm going to see if I can close my eyes
+    and do it and I can't so um let's see anything oh yeah I'm going to so now I'm
+    going to try to trace something in the back and we know that I can't and now I'm
+    going to try to trace this and we know that I can and was there any way to tell
+    for my eyeballs the difference between this and this maybe not um and just for
+    fun look at the screen classic calibration uh okay that's roughly 3 minutes of
+    recorded data which is more than enough to spend careers analyzing because we
+    just produce we're just it's just so complicated guys um anything else oh I'm
+    going to do so here I am walking here and I'm going to turn around there oh you
+    can't actually see my eye uh I'm not going to recalibrate it because I'm going
+    to choose the same calibration which is safe enough um this is a thing I noticed
+    when I was doing my like walking studies is you could tell just from the eye data
+    like when the person turned around because you see this kind of like tick tick
+    tick tick like cuz my eye my head is rotating and the VR is trying to make it
+    aign but it gets to like a limit on the side so it sort of gets to the edge and
+    ticks back is it
+- dur: 180.0
+  end: 3600.0
+  start: 3420.0
+  text: happening is it happen like tick tick tick is that okay cool um nervous system
+    works VR is such a low-level reflex that it's used as a proxy for brain death
+    in emergency situations like if you are looking at someone and you don't know
+    if they're alive you can rotate their head if their eyes don't counter rotate
+    that's it like that's not a that's not a reflex that can fail while the rest of
+    the body is working um kind of aob but there you go uh um great another minute
+    of the data whole of the career and yeah okay take these off luckily we can't
+    see infrared there's a lot of sort of we we use the fact that we can't see infrared
+    in specifically in human movement studies but in a lot of cases because if these
+    were visible light I couldn't use them because that would be blinded um so instead
+    they're infrared which is both like a low energy wavelength so it's hopefully
+    not doing too much tissue damage um but also you can basically blast my eyes with
+    light and then just have a camera that records in that wavelength and sort of
+    make your life work that way okay great I hope that was sufficiently enticing
+    and confusing I think we can call it there uh please dump your questions into
+    the machine see how well it does I'll be really interested because this is now
+    getting closer to like my actual proper area of like literal expertise um so I'll
+    be really interested to see like how the bot does as you ask it questions it will
+    probably get it like totally good at the level that you need to worry about it
+    especially because we're not you not giving you tests or anything like that um
+    but I'm really curious about the nuances like sometimes when you ask it like like
+    if you push it to sort of details you push it on specifics um it will probably
+    give you like really good best guesses but I'm I'm guessing that there's going
+    to be places where it actually misalign with what I know about how the field is
+    going my my personal beliefs which is like I believe things about the nervous
+    system which I cannot prove and are not written down anywhere and other experts
+    May disagree with me so I'll be really interested to see kind of like first of
+    all what y'all are interested in and secondly how a bot that has been trained
+    by eating the internet does when you get to those sort of like limitations on
+    the sort of specifics of knowledge because as I've said before I think it tends
+    to nail anything at the level of textbook um and then it starts to fuzz out as
+    you get into sort of the the parts of the of the conversation that have less of
+    a footprint on the data set
+- dur: 180.0
+  end: 3780.0
+  start: 3600.0
+  text: that this bot ate okay that's not bad a whole half an hour um all right bye
+video_id: TQuf8NJgkkA

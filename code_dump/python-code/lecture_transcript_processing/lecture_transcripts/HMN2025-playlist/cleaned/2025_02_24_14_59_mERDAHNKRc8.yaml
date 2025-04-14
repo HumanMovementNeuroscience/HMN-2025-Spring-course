@@ -1,0 +1,1470 @@
+full_transcript: "Okay, hello, hello, hello, hi. All right, let's do today. I guess\
+  \ spring break is next week, so that's nice. I once again stand here before you\
+  \ as a liar and a generally untrustworthy person because I said I would have the\
+  \ stuff for this done by today. I don't. You know, I hit some, it's like, I once\
+  \ again made an assignment that requires technical capacity that did not exist at\
+  \ the time I made the assignment. So I'll give you a quick update on that. I should\
+  \ have something done by Wednesday and then just push all the deadlines out. So\
+  \ things will kind of be spread out over the next couple of weeks and you should\
+  \ all be set up for it.\n\nThe content of the lecture today is going to be about\
+  \ vision and eyeballs and sort of how that stuff generally works. We've covered\
+  \ it a little bit in the overview at the beginning of the semester, but now we will\
+  \ go a little more in depth. Some things that I probably hit pretty fast in passing,\
+  \ I'll still hit pretty fast in passing but at a slightly slower rate. Then, next\
+  \ Wednesday, so tomorrow's class, Wednesday class, I will bring in an eye tracker\
+  \ and we'll do kind of an eye tracking demo, similar to the one I did with the motion\
+  \ capture but less involved because all the cameras in that process are attached\
+  \ to my head, so it's a little bit easier to set up.\n\nThen we'll have spring break,\
+  \ and we'll go over that and the rest of the class. Let's see how much time I want\
+  \ to do this. I think I will just give a quick update on my assignment for the course\
+  \ of making sense of all your wacky nonsense. So, very quickly, the main technical\
+  \ challenge here is that I want to do these exam chats, which I talked about last\
+  \ week, but a lot of you weren't here, so I'll say it again. The goal is to create\
+  \ some chat spaces on the server where the bot has been designed with the content\
+  \ of the lecture I have been giving, recording, and putting online. There are two\
+  \ forms of that chat set up. One is designed to help you as you work through your\
+  \ chosen topic and try to connect the concepts we've discussed, particularly from\
+  \ a philosophical perspective related to empirical measurement and what is being\
+  \ recorded from the environment. The idea is to connect those thoughts to your chosen\
+  \ topic. \n\nThe other version will be specifically tuned to assist you in coming\
+  \ up with your second poster proposal, which is essentially an outline or schematic\
+  \ form of your paper. This should state, \"This is my paper; these are the methods\"\
+  \ and summarize the introduction, methods, results, and discussion in two sentences\
+  \ or less. This outline will form the content of the poster you are submitting.\
+  \ \n\nThe poster draft is due the week after spring break. I will find time in class\
+  \ to review what you have and answer questions. The draft is not the final version.\
+  \ The intention is that it is a completed poster that you could print and present\
+  \ if necessary. However, we will allow some time for revision so you can discuss\
+  \ it with your classmates and improve it. This means if you have changes you want\
+  \ to make, you can do that before the final submission. The final poster will need\
+  \ to be uploaded and printed by March 25th, so it's important you feel ready for\
+  \ it, as once it's printed, it is permanent.\n\nThe technical aspect involves condensing\
+  \ down the lectures into a format that can fit into the prompt of an AI bot. For\
+  \ passive education purposes, I will point out where that is happening in the course\
+  \ repository. At this point, I think there are about six recorded lectures. Each\
+  \ lecture lasts somewhere between an hour to an hour and a half, so that's a lot\
+  \ of words from a human being. At this point in history and in my personal development,\
+  \ it is relatively easy to pull the spoken content from a video on YouTube into\
+  \ a text-based format. However, there are a couple of challenges. For one thing,\
+  \ the number of words spoken in an hour and a half is significantly higher than\
+  \ the actual meaningful content being expressed. Additionally, when we speak aloud,\
+  \ we do not typically speak in grammatically correct sentences. If you were to write\
+  \ down what I'm saying, it might sound like a person having a stroke. We may feel\
+  \ like we are speaking in grammatical form, but we are not. \n\nI have been writing\
+  \ some AI code, which is a bit sloppy by my own standards but gets the job done.\
+  \ This code first processes the content by breaking it down into ten-minute sections.\
+  \ Then it sends each section to an AI that cleans it up, removing filler words and\
+  \ turning it into grammatical sentences. The code functions similarly to copy-pasting\
+  \ text into a Discord bot, except it operates in an automated way. For an hour-long\
+  \ lecture, which is chunked into ten-minute segments, there are a total of six segments.\
+  \ This process runs in a loop, taking the lectures and cleaning them up.\n\nThe\
+  \ first part of the process pulls the content from YouTube, and then I take those\
+  \ chunks and boil them down into an outline format. At this point, the information\
+  \ has been condensed enough to be included in a bot chat. The idea is that having\
+  \ a conversation with the bot, prompted by all this material, will provide a somewhat\
+  \ crude simulation of what it would be like to work through these topics one-on-one,\
+  \ which I would love to do. However, the realities of numbers make that difficult.\
+  \ If you're curious about this, you can look at the repository. The lecture transcripts\
+  \ contain all the words I've said to you, and it is an ongoing project. The exam\
+  \ chats involve asking you to pull in the profiles that have been extracted about\
+  \ you. We have talked about this before, but in these lectures, the chats you've\
+  \ been having with the bot are part of the process. I periodically scrape the server,\
+  \ extract those chats, and then try to compile them into the bot to determine your\
+  \ interests and focus, as well as suggest things you might want to look into and\
+  \ think about. This has been ongoing.\n\nThe latest update, which I won\u2019t go\
+  \ into detail about at this moment, includes a zip file of the latest server-wide\
+  \ analyses available on Discord in the designated channel. This zip file contains\
+  \ two folders. One folder includes student profiles based only on your chats from\
+  \ the assignments category. These are the chats you were specifically prompted to\
+  \ engage with. The other folder uses all the chats you've had in total, incorporating\
+  \ every chat you participated in.\n\nIn the zip file, you will find links and resources.\
+  \ This server scrape checkpoints folder includes data from everything that happened\
+  \ before about 8:00 a.m. this morning. The profiles in that folder are based on\
+  \ every chat that includes your ID, which means it covers all class assignments\
+  \ and all related discussions. On the other hand, the profiles from the assignments\
+  \ channel only consist of chats that are specifically within the assignments category.\n\
+  \nI just realized that I might have made a mistake in filtering, so both folders\
+  \ might actually contain all of your chats because I could have filtered by channel\
+  \ instead of by category. I will need to confirm that. This would be easy to fix.\
+  \ However, I won't dig into that right now, but if you want to check and compare\
+  \ the contents of both folders, if they are identical, then I know I made an error.\
+  \ If they are different, that\u2019s part of the analysis that we can explore further.\
+  \ The exam is a chat-based assessment. Part of that assignment involves pulling\
+  \ in that profile and copying and pasting it into the chat so that you are not starting\
+  \ from scratch. This will be one of those things where I will show you the high\
+  \ water mark for that, and you can choose how you want to take that file, edit it,\
+  \ delete things you don\u2019t think are appropriate, and add things you think are\
+  \ necessary. I will probably make both of these formats available to you, and you\
+  \ can mix and match for yourself. You can decide how you want to prompt the bot\
+  \ to know who you are, or if you don\u2019t think it\u2019s useful, you can choose\
+  \ not to do it at all and explain yourself again. Any questions about that? Does\
+  \ that make sense roughly? Cool. Great. Well, let's talk about eyeballs. Eyeballs\
+  \ live on your face. The average human has slightly less than two, and they are\
+  \ generally very useful things. This is one of those lectures that I\u2019ve given\
+  \ in various formats many times, and I've never really come up with my personal\
+  \ favorite way of doing it. So this is just kind of a list of things I want to make\
+  \ sure to hit. Let\u2019s start with a combination of drawing and things on the\
+  \ screen. Okay, so we talked a little bit about vision at the start of the class,\
+  \ but we have spent the majority of the time since then talking about motor control.\
+  \ Motor control is essentially moving in the world. Roughly speaking, anything that\
+  \ involves muscles and the generation of force that moves mass connected to your\
+  \ body falls under the category of motor control. Motor refers to movement, and\
+  \ it is certainly a good thing to be able to do. My particular area of expertise\
+  \ in studying neuroscience and the neural control of movement is in... What is generally\
+  \ called perceptual motor control, where the \"O\" in the middle means it's sort\
+  \ of perceptual motor, is the connection between the perceptual systems of the body\
+  \ and the motor systems of the body. These are two things that are often studied\
+  \ to great effect in isolation of each other. However, in natural behavior, they\
+  \ are not really separable in the same way. To move your body effectively in a complex\
+  \ and dynamic world requires you to have good perceptual information about that\
+  \ world. Knowing where things are is a very important component of planning your\
+  \ motions and your movements effectively. Vision is a very classic sense; not every\
+  \ animal uses vision entirely, and not every animal has vision as core to their\
+  \ nervous system as we do, but it is a very classic environmental energy to be tapped\
+  \ into. We are going to talk about the evolutionary elements of this at a later\
+  \ point in the semester. Essentially, this has been around for as long as there\
+  \ have been microbes or the ability to absorb photons from the world. Determining\
+  \ dark areas from bright areas is something even single-celled organisms do, such\
+  \ as rising to the top of a pool of water in the daytime and dropping down at night.\
+  \ So, let's take a quick trip through the main pathways of the perceptual system.\
+  \ Let's start with light itself. Light is covered by the study of light, which is\
+  \ generally under the field of optics. Optics is the part of physics that involves\
+  \ photons, refractions, lenses, and stuff like that. Historically, the origins of\
+  \ the study of optics as a specific field are generally attributed to Alhazen, who\
+  \ was in seventh-century modern Iraq. It wasn't called Iraq back then, but he was\
+  \ a scholar in the seventh to ninth century; I can't remember exactly when. He was\
+  \ the first person to start thinking about light specifically and to think about\
+  \ light in the context of how it functions. Light travels in straight lines and\
+  \ can be measured that way. The story goes that he created a pinhole camera. He\
+  \ was in his tent in the bright sun and noticed that if there was a pinhole in the\
+  \ otherwise opaque walls of the tent, he could see an image of the world projected\
+  \ onto the other side of the tent. This phenomenon is known as a camera obscura\
+  \ or pinhole camera. This was not the first time in history that this optical effect\
+  \ was discovered; the original reference to it appears in ancient Chinese texts.\
+  \ However, at that time, it was presented more as a documentation of a strange optical\
+  \ effect than an understanding of why it occurred or what was going on with it.\
+  \ There was less exploration into the underlying principles of the optics involved.\
+  \ Ibn al-Haytham, known for writing the Book of Optics, provided a lengthy treatise\
+  \ on the study of light and specifically how it interacts with the visual system.\
+  \ He included some very accurate anatomical models of the early visual system. These\
+  \ ideas were somewhat lost for about 500 to 600 years until Descartes came along\
+  \ and translated much of this work. The main idea here was the discovery of light\
+  \ as an entity that exists independently in nature. While people had always known\
+  \ that light existed, it hadn't been studied precisely as a distinct natural entity.\
+  \ In addition to his anatomical work, Ibn al-Haytham mapped out the basic geometries\
+  \ of optical phenomena, including why images appear inverted in a pinhole camera,\
+  \ which relates to the way light travels. All this is nice, sort of, you know, if\
+  \ the light that's coming from the Sun and bouncing off the top of the Minette travels\
+  \ down to that point, TR point, at the bottom, and then travels up to that point.\
+  \ That's how you get the kind of inverted image there. You'll see this image a lot,\
+  \ sort of like a projection in the eye. This is sort of classic textbook stuff where\
+  \ you're presenting the images sort of backward, like upside down on the retina,\
+  \ which is true, but I think it kind of misses some of the point. But that's fine.\
+  \ One of the interesting things, one of the reasons why this guy is sort of considered\
+  \ to be one of the scholars of history, is that he did a lot of that early work\
+  \ on optics, and he hit most of the major points pretty straight off the bat, particularly\
+  \ in the idea of projective geometry. Oh, it's this one I already have up. Oh yeah,\
+  \ B2 projected. So like, this is the kind of epipolar geometry that is used behind\
+  \ that motion capture thing and through the 3D projection, all that kind of stuff.\
+  \ These are sort of representative images from modern software packages on how to\
+  \ do computer vision, and most of the math for this was kind of worked out way back\
+  \ then. The main thing that he didn't have, the main thing that he couldn't quite\
+  \ figure out, was refraction and the way that light can... He understood that light\
+  \ travels in straight lines, but he didn't really understand how lenses worked.\
+  \ So when you look at some of these images of the eye, come on, man. Anyways, a\
+  \ lot of the labels and stuff that happen in here are accurate to this day, except\
+  \ for one thing that he kind of had wacky going on. In the lens of the eye, he believed\
+  \ that there was a little demon that lived there and sort of bent the light to make\
+  \ it make sense. I'm not saying that he believed there were demons living in your\
+  \ eyes, but it was sort of like a placeholder. I think I've already said this in\
+  \ this class, but it was kind of like a placeholder for 'I'm not sure what's happening.'\
+  \ I understand that the straight line math doesn't work out because your eyes are\
+  \ too small to do that kind of projection. It probably has to do with this little\
+  \ thing right here, but I don't really understand how that part works. That kind\
+  \ of projective geometry, that kind of refraction stuff, I don't quite know the\
+  \ specific history there, but that was worked out much later. I suppose I should\
+  \ also mention in the history of things that originally we believed that light\u2014\
+  before we really understood light as this environmental thing\u2014vision was conceived\
+  \ of as something that was emitted from your face. When you look at things, it's\
+  \ called emission theory. They thought there were beams of not light, but beams\
+  \ of something that shot out of your face when you looked at stuff, and that was\
+  \ how you received sensory information from the world. In the same way that you\
+  \ reach out with your limbs to touch things, they thought there was some kind of\
+  \ invisible substance being projected from your eyes, and that touching things was\
+  \ how you perceived the world. That was the dominant belief for a long time. During\
+  \ the Black Death, they would do things like cover people's eyes when they were\
+  \ sick because they knew you didn't want to touch sick people, as that would transmit\
+  \ disease. So, they thought covering the eyes would ensure you didn't get hit with\
+  \ the eye lasers. Anyway, that's kind of the old-school optics. These days, if you\
+  \ take an optics course, I think that's in the engineering department, but I'm not\
+  \ sure who teaches it\u2014probably physics. In optics, you'll learn about what's\
+  \ called Snell's Law, which tells us all the things that can happen when light hits\
+  \ a surface. As light is coming in with wavelengths and stuff like that, when it\
+  \ hits a surface, it will either transmit (go straight through it), be absorbed\
+  \ into the material itself, or reflect. So, transmission, absorption, and reflection\
+  \ are the three things that light can do when it hits a surface, and every surface\
+  \ in the world will... have properties related to this, and if it is transmitted,\
+  \ transmission also has a refraction angle. Sometimes when light passes through\
+  \ a surface, it goes straight through, and for other surfaces, it will refract by\
+  \ a certain amount. The refraction angle depends on the angle at which it hits the\
+  \ surface, as well as the index of refraction, which is a property that materials\
+  \ possess. Substances like glass have a very low index of refraction, so when you\
+  \ look straight through it, not much happens. Other surfaces, such as lenses, have\
+  \ refractive aspects that bend the light to the point where it focuses. If light\
+  \ hits the lens straight on, it goes straight through; if it comes in from an angle,\
+  \ it is refracted. This is basically how a lens can focus light, and it is also\
+  \ how cameras work and how glasses function. This outlines Snell's Law Optics of\
+  \ what happens when light from the world first hits your eye.\n\nLet's do this\u2014\
+  sure, yeah, nice. This is an eyeball or a picture of an eyeball, and we can use\
+  \ this to figure things out. This is very much not to scale, but it does the job.\
+  \ This is a side view of your eyeball. This thick part here looks very thick to\
+  \ me; I don't know how accurate that is. But this thick part out here is called\
+  \ the cornea. The cornea is the clear surface on the outside of your eye when you're\
+  \ looking at somebody's eyes. We are looking at the corneas because that's the outermost\
+  \ surface. It is thick and has refractive properties. When light comes in from the\
+  \ world, the first thing it hits is the cornea. The majority of the refraction that\
+  \ focuses the image on the back of your retina occurs passively due to the refractive\
+  \ properties of the cornea. We will come back to that and look for a better picture\
+  \ of this next part. Actually, this is the better picture. Here you go. This is\
+  \ the cornea. This proportionality looks closer to me. There is also an empty space\
+  \ that contains a lot of fluid-filled cavities in your eye, filled with a substance\
+  \ called aqueous humor, which is basically a clear, gelatinous fluid. When light\
+  \ hits your cornea, it is refracted; the number I remember is about 80% of the refraction\
+  \ happens at the cornea level. This refraction occurs every time light hits a surface\
+  \ with a different density than the one it is currently traveling through. Light\
+  \ does not refract when it is moving through air, except when it bounces off water\
+  \ molecules suspended in the air, which is why the sky is blue\u2014a whole other\
+  \ conversation. For our purposes, we can assume that the refraction process occurs\
+  \ every time there is a boundary between transmissive fluids of one density transitioning\
+  \ to a different density. The first refraction point happens at the end of the cornea,\
+  \ and then it goes through this opening here. This opening is called your pupil;\
+  \ perhaps you've heard of it. The pupil is an interesting feature because it doesn't\
+  \ have an independent existence; it is essentially the name we give to a void of\
+  \ space. Your pupil is basically the opening. In the center of your iris is a sphincter\
+  \ muscle, one of your body's finest sphincters. Its job is basically to open and\
+  \ close to let through different amounts of light, relative to the environment you're\
+  \ in. There's a lot of interesting reflexes that happen there. The main one you\
+  \ probably think about is that when you're in a very bright room, your pupil constricts,\
+  \ which lets through less light. When you're in a darker setting, your pupil expands,\
+  \ which lets through more light. This has a lot of optical properties related to\
+  \ the aperture, similar to photography. I won't go into too much detail about that.\
+  \ \n\nThere are other factors that affect your pupil's dilation, such as aspects\
+  \ of your physiology, including fear and relaxation. For example, if you get startled\
+  \ or surprised, an adrenaline burst will constrict your pupils. There is a lot of\
+  \ literature studying pupillometry; I think there\u2019s too much literature on\
+  \ it. We'll discuss this in the context of the eye tracker on Wednesday. \n\nIt's\
+  \ one of those things where, because it's fairly easy to measure pupil size with\
+  \ an eye tracker, researchers can look at that signal independently from the actual\
+  \ context in which it's occurring. As a result, there tends to be a sociological\
+  \ effect where people study pupillometry and the effects of different emotional\
+  \ states and stimuli on pupil size. This area is studied excessively, mostly because\
+  \ it is relatively easy to research, so the field gets flooded with studies focusing\
+  \ on that type of outcome. \n\nI'm not saying we shouldn't study it, but if you\
+  \ go out and start looking at papers on eye tracking, you'll find a lot of papers\
+  \ about pupillometry. You'll be forgiven for thinking this is the most important\
+  \ thing to consider here. But resist that notion; it is not the most critical aspect.\
+  \ It\u2019s fine, but let\u2019s switch pictures again. So, yes, the light is coming\
+  \ through... Directions: You're always being hit by all the light that's bouncing\
+  \ and scattering off of everything in the world. As that light bounces, it becomes\
+  \ coupled with the things it's bouncing off of. If you really want to dig into the\
+  \ quantum aspects of it, they show up here. When light bounces off of an object\
+  \ of a given color, that color is absorbed, meaning the light that comes off of\
+  \ it reflects that color. For example, if that wall back there is green, then when\
+  \ the light bounces off of it, all the red wavelengths are absorbed, and the light\
+  \ that comes off of it is green, assuming that the light in the environment is generally\
+  \ white, which it usually is\u2014a broad spectrum. The light bouncing into my retina\
+  \ from that part of the room has had all the red wavelengths sucked out of it, so\
+  \ the light that comes in is only within the wavelength band that corresponds to\
+  \ that bluish-greenish color of the back wall. That's jumping ahead a bit, but the\
+  \ light comes through, refracts, and some of it makes it through the pupil. Aqueous\
+  \ humor, there; humor is another one of those medieval science terms. Talk about\
+  \ your humors and balance, stuff like that. So this is from that sort of era. Then,\
+  \ once the light makes it to your pupil, it hits the second main refractive substance\
+  \ in your eye, which is the lens. The lens looks like a little lens made out of\
+  \ a clear structural biological material. It's not goop because the aqueous humor\
+  \ is a goop. The lens is more of an object; it has its own structure, but it's elastic,\
+  \ clear, and oblong in that way. It is also actively controlled. Your brain, at\
+  \ some level, controls how much it should compress this lens. There are ligaments\
+  \ attached, and I believe there are also muscles attached. The muscles pull the\
+  \ lens to different shapes, and the different shapes have different refractive indexes.\
+  \ If it's oriented one way, it refracts more, and when you pull it more elongated,\
+  \ it refracts less. All of these factors change the focal point of the light. Traveling\
+  \ through your eyes is relative to the point in space that you're fixating on. When\
+  \ you're looking at something and it's in focus on the back of your eyes, where\
+  \ \"in focus\" means that you can tell the difference between thin lines and similar\
+  \ details, that focus implies that the focal point of the light is on your retina.\
+  \ Your brain, using a variety of complex mechanisms, is going to try to stretch\
+  \ and bend the lens structure to put that focal point on the back of your retina.\
+  \ How does it know when things are in focus? How does it control it? What are the\
+  \ feedback loops? These are all great questions that I can guess at, but I don't\
+  \ really know, as I'm somewhat at my depth with some of this eye physiology stuff.\n\
+  \nIt's also the case that you can control this yourself. This might be one of those\
+  \ things like wiggling your ears, where not everybody can do it on their own, but\
+  \ you can at least try. If you look at something and kind of fuzz it out, if you\
+  \ look at an object and flex whatever muscle you need to make that object go in\
+  \ and out of focus, you are controlling your lens. That's what you are flexing:\
+  \ your lens. \n\nMany of you, including me, are probably wearing some sort of corrective\
+  \ lenses\u2014glasses, contacts, or something similar\u2014because you might find\
+  \ some shy medical information online suggesting that you can exercise the lens\
+  \ muscle so you won't need glasses anymore. That is not actually true, due to the\
+  \ sort of 80/20 division of labor. Remember, about 80% of the refraction occurs\
+  \ at the cornea level, and the length of the eye only does a little more. So, you're\
+  \ not going to be able to actively correct for the whole thing being out of whack,\
+  \ such as with amblyopia, where your eye might be too oblong. If you're farsighted\
+  \ your eye is too oblong, and if you're nearsighted, it's whatever shape that is.\
+  \ The corrective lenses you have are basically augmenting the cornea. If you're\
+  \ in contacts, you're putting another layer on top of it, or if you're in glasses,\
+  \ you're using another lens to bend the light a bit before it even hits the retina,\
+  \ ensuring the light is generally in focus on the back of your eye. Yes, that's\
+  \ related to astigmatism, which I don't really understand fully. I know what you're\
+  \ talking about, and it's important because astigmatism refers to a layer of optometry\
+  \ that I haven't delved into deeply. The context involves contact lenses that sit\
+  \ on top of the cornea; they have some kind of suction mechanism that slightly alters\
+  \ the shape of the cornea to help change its passive refractive properties. This\
+  \ effect lasts about a day, so you wear them overnight, and then when you wake up,\
+  \ the results are quite surprising. We've advanced past the old technology of hard\
+  \ contact lenses; in the past, contact lenses were hard glass objects. You have\
+  \ a question about larger or stronger lenses, correct? Yes, astigmatism is related\
+  \ to the shape of the overall eyeball, including the cornea itself. The shaping\
+  \ that occurs at the eye involves the corneal shape. You definitely need to take\
+  \ your contacts out for sanitation and hygiene purposes. However, regarding what\
+  \ you mentioned, I'm not sure if that's accurate. If an eye doctor is saying that,\
+  \ then maybe there's merit to it, but if not, I don't believe that is correct. As\
+  \ someone who is also technically a doctor, I can state that I don't think that's\
+  \ how it works. Your eyes change over time and eventually stabilize. For me, I was\
+  \ getting different prescriptions every time I went to the doctor until I turned\
+  \ 25, and then I settled on the same prescription since then. We also have very\
+  \ different perspectives on how much focus and precision we expect from our vision.\
+  \ I know people who wear glasses but don\u2019t use them, and they say, \"I can\
+  \ see just fine.\" I can tell immediately their level of vision differs from mine.\
+  \ I had a friend who was similar; we would look at something, and I would mention\
+  \ I could see the sign that says the speed limit is 25. They would respond, \"You\
+  \ can see that?\" We have distances beyond which we don't expect to see clearly.\
+  \ For instance, if someone were holding up an 8.5 by 11-inch paper on the sidewalk,\
+  \ I might see that they are holding something, but I wouldn\u2019t be able to read\
+  \ it\u2014or that wouldn't bother me at all. I tend to get my contacts updated frequently,\
+  \ which means I can read the street sign, while someone else who doesn\u2019t update\
+  \ their prescription could say, \"I can\u2019t read that,\" but it wouldn't concern\
+  \ me. If you stop wearing contacts or glasses, you'll become more comfortable with\
+  \ not seeing things and can still lead a full and happy life. There are multiple\
+  \ types of LASIK surgery. In some versions, they shave some of the cornea off, while\
+  \ in others, they pull up a flap and insert something clear underneath. I don\u2019\
+  t know the exact mechanics, but there are some measurements that involve shining\
+  \ a laser through the eye and imaging it on the back of the retina. The aim is to\
+  \ ensure that a laser point results in a precise point. If you look through it and\
+  \ see diffusion or refraction, you can adjust accordingly. There\u2019s a fascinating\
+  \ history behind this technology; it was originally created for spy satellites.\
+  \ ...the cold war was when researchers began to focus on reading data from both\
+  \ low and high earth orbit. It was after this period that they enlisted astronomers\
+  \ to help look down from orbit, but then the technology was classified. Eventually,\
+  \ they realized they could repurpose this technology for space telescopes. They\
+  \ developed a method for Adaptive Optics that compensates for atmospheric distortion.\
+  \ This involves shining a sodium laser into the atmosphere and adjusting the lens\
+  \ until the point created by the laser appears as a perfect point. This allows us\
+  \ to correct for distortions caused by the atmosphere and obtain clearer images.\n\
+  \nInterestingly, this technology was later adapted for imaging through the retina.\
+  \ I want to highlight that when discussing peripheral blindness, it's important\
+  \ to note that there are various sources of this condition. Once we start addressing\
+  \ peripheral blindness, we're usually looking at issues that occur beyond the cornea.\
+  \ There are many disorders that can affect the eye, with everything in the eye potentially\
+  \ going wrong. For instance, glaucoma involves hardening of the lens, which often\
+  \ occurs with age.\n\nThere are surgical options for this condition. If you're interested\
+  \ and not squeamish, you can find videos online of eye surgeries where doctors break\
+  \ up a hardened, calcified lens and replace it with an artificial lens, usually\
+  \ made of high-quality silicone. This approach has been quite effective, demonstrating\
+  \ that in some areas of medical biology, we can successfully replace biological\
+  \ components. Similarly, procedures like LASIK benefit from our understanding of\
+  \ the physical properties that influence eye function, allowing us to control them\
+  \ effectively.\n\nRegarding stem cells and whether they can assist with biological\
+  \ issues, the answer is likely yes. The challenge with exploring this area...\n\
+  \ Things like stem cells involve getting them to perform specific functions. One\
+  \ area where stem cells are commonly used is in parts of the body that do not generally\
+  \ heal on their own, which typically includes non-vascular tissue such as cartilage\
+  \ and the meniscus found in the knees. Because there is no blood flow in these areas,\
+  \ they do not heal like tissues where blood circulation is present. For example,\
+  \ when you cut your arm, the healing process occurs because stem cells in your blood\
+  \ attach to the damaged tissue and facilitate the healing. However, tissues like\
+  \ cartilage do not have blood flow, which inhibits this type of natural healing.\n\
+  \nThe eye does have vasculature, meaning it has some blood running through it, but\
+  \ not significantly in the clear parts. I wouldn't be surprised to find research\
+  \ about repairing eye damage over time with the help of stem cells. However, as\
+  \ far as I know, there is nothing established in clinical practice. I would bet\
+  \ they are conducting experiments on rats. The eye, like many other parts of the\
+  \ body, can accumulate damage over time. This is why I tend to wear sunglasses outdoors\
+  \ during the day. Ultraviolet light and blue light can cause damage to the sensitive\
+  \ biological tissues in the eye. While the eye does have some ability to heal, particularly\
+  \ in the neural areas at the back, it does not heal indefinitely. The rate at which\
+  \ it heals may not keep pace with environmental damage.\n\nYou can dismiss the idea\
+  \ that staring at bright lights for too long is inherently damaging. For example,\
+  \ while staring directly at a bright light is not advisable, I don't believe that\
+  \ regular TV exposure is significantly harmful. This ties into the study of how\
+  \ we are exceptionally good at adapting to different light levels. If you look at\
+  \ your phone in the middle of the night, the screen appears overwhelmingly bright.\
+  \ Yet, in daylight, even on a cloudy day, you can barely see it due to the surrounding\
+  \ light. The screen remains the same brightness, but your perception changes significantly\
+  \ based on your environment and the lighting conditions around you. The screen is\
+  \ the same brightness at either time; it's just the adaptation of your lens and\
+  \ your visual system. This is a complicated process that involves more than just\
+  \ your cornea; it adapts very well. For example, sitting too close to a TV makes\
+  \ us feel like TVs are extremely bright, but they're nothing compared to being outside\
+  \ on a sunny day. As for your eye doctor, I don't think the concerns about glasses\
+  \ are valid. You should wear your glasses if you want to see well; it's not something\
+  \ to worry about, like thinking you might be wearing them too much. That sounds\
+  \ insane to me.\n\nNow, spending a lot of time discussing the eye doesn't bother\
+  \ me, so let's cover most of the optical processes occurring in your eyeball. The\
+  \ refraction and bending of light, focusing of the image\u2014this happens largely\
+  \ through passive means at the level of the cornea, while the lens plays a more\
+  \ active and reflective role. Once light passes through these optical components,\
+  \ it has essentially completed its task, and your body will then process that information.\
+  \ The signal from the environment, once it has traveled through these optically\
+  \ non-neural surfaces, has not yet been converted into neural activity. However,\
+  \ we are continually discovering new ways that the body responds to light. For instance,\
+  \ it was recently discovered that some parts of the eye respond to blue light differently\
+  \ than others, which are not part of the main visual system. This is thought to\
+  \ be related to circadian rhythms.\n\nOnce we get past this stage, we start to delve\
+  \ into the more interesting aspects from a neuroscience perspective, primarily the\
+  \ retina. The retina is located at the back of your eye and serves as a crucial\
+  \ component. That is the neural surface; that is the place where the light from\
+  \ the world is actually first absorbed and converted into neural activity and patterns\
+  \ of neural activity which are correlated with the light that comes through the\
+  \ eye. The retina is a fascinating structure. Let's see, there\u2019s a nice picture.\
+  \ \n\nThe first thing we'll talk about is the photoreceptors. Photoreceptors are\
+  \ receptors for photons; they are part of your nervous system. These are the kinds\
+  \ of neurons whose job it is to absorb light and convert it into electrical signals\
+  \ in your eyes. You have two main types: rods and cones. Generally speaking, rods\
+  \ are rod-shaped. \n\nRods and cones respond differently to light. Rods are generally\
+  \ more sensitive to lower quantities of light, but they tend to saturate very quickly.\
+  \ On the other hand, cones require much more light to operate, but they can function\
+  \ over a much wider range. We refer to rods as the primary photoreceptors for night\
+  \ vision, while cones are responsible for precision visual information. \n\nThis\
+  \ is also pushing the limits of my anatomy knowledge. I\u2019m not sure about that\
+  \ oil droplet; that's something new to me. However, these discs here are where the\
+  \ opsins live. We\u2019ve talked about these before. I believe they start in a kinked\
+  \ shape, and when the photons come in, they get absorbed and that changes the shape\
+  \ of these strange chemicals. The absorption of the light initiates the process\
+  \ of converting it into neural signals. A photon bumps the electron into a higher\
+  \ orbital, which changes the ionic properties of the system. The general status\
+  \ of how many of the opsin in the rod or cone in question have absorbed their favorite\
+  \ wavelength of photon changes the electrochemical properties of the entire system.\
+  \ The connected structures notice that a particular rod is ramped up; it has absorbed\
+  \ a lot of its favorite kind of light. This is part of the cascade of neural activity\
+  \ that represents your perceptual experience. I think this varies by animal, but\
+  \ for us, our rods tend to be focused on green. Green is a good color to be sensitive\
+  \ to since it is abundant on Earth. The cones associated with color vision are typically\
+  \ represented as red, green, and blue. Generally, these correspond to short, medium,\
+  \ and long wavelengths of light, where blue is short wavelength, red is long wavelength,\
+  \ and green is in the middle. They all reside there and have a certain distribution.\
+  \ Another thing to note is that this is the back of the eye, and light comes in\
+  \ this way. You might expect that the part of the rods and cones most sensitive\
+  \ to light would face the light, but that is not how it is set up. In fact, the\
+  \ cones face away from the light, so light has to pass through several layers of\
+  \ cells first. After the photoreceptors, there are middle layers followed by ganglion\
+  \ cells. These cells are doing all sorts of complex processing. Textbook images\
+  \ often make the visual system seem cleaner than it is. Our vision system is backwards;\
+  \ it is the opposite of how you would expect it to be, and there are optical consequences\
+  \ because everything we see is imaged through a couple of layers of dense cells.\
+  \ culture, and that's thought to be related to when we first crawled out of the\
+  \ oceans. The way that the light refracts is significant because our eyes are very\
+  \ close in density to seawater, whereas they are very different from air. If you\
+  \ have a visual system that first evolved in an environment that is roughly the\
+  \ same density as your eye, you're going to need different refractive strategies.\
+  \ For example, if you have an eye that essentially holds a little bubble of seawater\
+  \ within itself, and then it refracts light that\u2019s traveling through an air\
+  \ medium, it will behave differently.\n\nThings like cephalopods\u2014octopuses,\
+  \ squids, and cuttlefish\u2014their eyes are oriented correctly and they have very\
+  \ good vision. Their photoreceptors actually face outward, which is a curious aspect\
+  \ of their anatomy. \n\nIt's also kind of amusing because, having given this lecture\
+  \ many times before, I always realize that you could dedicate an entire session\
+  \ just to discussing the eye. This is also the point in the lecture where I acknowledge\
+  \ that I won\u2019t be able to delve into the neural parts of the visual cortex\
+  \ as much as I would like. But that's okay. I tend to focus on what's important\
+  \ regarding eye function.\n\nAs a consequence of the unique history of our eyes\
+  \ having these flipped retinas, I won't go too deep into details about the outer\
+  \ features, even though they are very interesting and deserve their own discussion.\
+  \ If you're curious, you can look up more about the middle layers of the retina\
+  \ and the ganglion cells.\n\nNow, I would say the most interesting part of the eye,\
+  \ at least my favorite part, is this small divot in the back of the retina called\
+  \ the fovea. 'Fovea' is Latin for 'pit.' It's the area that you point your eyes\
+  \ at when you're focusing on something, like when you look at a nice cat, for example.\
+  \ Here, that is pointing at your retina. So, the act of pointing my eyes at something\
+  \ is basically lining up all this refractive machinery with this little pit on the\
+  \ back of my eye, and that pit is called the fovea. Yes, there's an actual one.\
+  \ There we go, like this guy right here. So, basically, this is a part of the eye\
+  \ where all the extra stuff has been pushed out of the way to leave an unobstructed\
+  \ viewpoint onto this portion of your eyeball, where there is, by very, very wide\
+  \ margin, the highest density of photoreceptors in your eye.\n\nIf you look at your\
+  \ eye, there are many ways that your eyes are not like cameras. One of the most\
+  \ important ways is that with a camera, you have an equal... Yes, look at all. There\
+  \ are always fun pictures here. Yes, this is a good representation of how focusing\
+  \ works. It's like you're trying to constrain the world. It's not showing the refraction\
+  \ at the cornea. This person was too inspired by the shape of the lens to understand\
+  \ how that works. The bending should be happening here, and then this should be\
+  \ kind of like extra.\n\nBut the distribution... So with a camera, the sensor on\
+  \ the back of the camera has a roughly equal density of photosensitive silicone\
+  \ pits. Your eye has a much, much different orientation. So if we're specifically\
+  \ looking at your cones... There we go, like this. Yes, your cones, the red ones.\
+  \ This is the one that we generally think of as when we think of your vision in\
+  \ terms of how good is my vision. You\u2019re generally considering that in terms\
+  \ of the behavior and performance of... Your cones and the distributions of cones\
+  \ on the back of your retina resemble a sort of red spike. This represents eccentricity,\
+  \ where zero is on the fovea, and then plus or minus however many degrees. You can\
+  \ see that roughly 50% of your photoreceptors are in that ventral one degree of\
+  \ your eye. If you were to look into the back of your retina and count all of the\
+  \ photoreceptors, you would find that the vast majority are very densely packed\
+  \ in that foveal central region of your eye. When you move your eyes around, you\
+  \ are optimizing your eye movements to point this super high, super densely packed\
+  \ region of photoreceptors at the object in question. This is also the area where\
+  \ the core design of the retina has been mitigated by pushing out the structures\
+  \ that obstruct it.\n\nSomething else you might notice is the distribution of the\
+  \ cones versus the rods. The rods, shown in purple, pertain to your peripheral vision.\
+  \ Their distribution is spread out to the periphery, which is thought to be for\
+  \ several reasons. These rods respond to smaller amounts of light and tend to respond\
+  \ faster. When we think about peripheral vision, its job is not to provide us with\
+  \ precise levels of vision, like the ability to read text, but rather to give us\
+  \ very fast information about external stimuli, which is important for things like\
+  \ the startle response. Things that are looming objects from the outside trigger\
+  \ a behavioral response, and that's often driven by the rods. This is also why,\
+  \ if you're ever out in the dead of night looking at the stars, the best way to\
+  \ see something, when your eyes are very dark adapted, is not to look directly at\
+  \ it. In the middle of the night, your rods aren't really working very well, so\
+  \ if you look directly at something, you're going to be getting less light than\
+  \ you want. Astronomers learn that if you're interested in a particular star, the\
+  \ best way to see it is to look a little bit off to the side of it and let your\
+  \ rods do the work of providing the information from the incoming light. So next\
+  \ time you're out on a nice starry night, you can try that out. For example, the\
+  \ Seven Sisters, or Pleiades, is a cluster of stars where I've noticed this effect\
+  \ a lot. If I look directly at it, I can't make out the individual stars, but if\
+  \ I look a little off to the side, I can start to count that there are seven of\
+  \ them. There's a lot of challenges in looking not directly at the thing that you\
+  \ care the most about, which is its own kind of mental game that we probably won't\
+  \ discuss in detail right now. Now that I've talked about some of these structural\
+  \ aspects of the eye and the retina, I will try to be strategic about what I cover\
+  \ next. We've been discussing the eye in terms of its passive optical properties,\
+  \ such as how light bends and is absorbed, and the kind of photo receptors involved.\
+  \ However, a lot of what we do with our eyes is shaped by that, specifically in\
+  \ the context of eye movements. We move our eyes quite a lot; this is not unique\
+  \ to humans. In fact, most animals move their eyes, although not every animal does.\
+  \ Other primates of our general nature, I believe the family we belong to is called\
+  \ Hominidae, not H, not family, whatever group. Our nervous system is very heavily\
+  \ geared towards our vision, and our vision is designed to enable us to move our\
+  \ eyes rapidly and precisely in order to focus the highly acute regions of our fovea\
+  \ on things that we care about with great speed and spatial accuracy. Each of your\
+  \ eyes has six muscles. For example, if this is my eye, there are two muscles on\
+  \ the top and bottom that move the eye up and down, and two muscles on the sides\
+  \ that move the eye left and right. Additionally, there are two other muscles at\
+  \ the top and bottom that rotate the eye around its optical axis; these are known\
+  \ as torsional eye movements. I will be able to demonstrate this to you when I'm\
+  \ wearing an eye tracker, but this rotation happens all the time. If you do this\
+  \ motion, your eyes are rotating in their optical axis, although not excessively.\
+  \ These muscles, the one on the bottom comes in from below and the one on top passes\
+  \ through a ligamentous sling. There is a ligament that loops around the superior\
+  \ oblique muscle that attaches to the top of your eye and allows it to rotate. Much\
+  \ of what we will observe when I put the eye tracker on is the eye bouncing around\
+  \ on the screen. The majority of those eye movements are just stabilizing my head\
+  \ against the motion of my head because we move our heads a lot. The opsin, which\
+  \ is the part that absorbs light, operates relatively slowly\u2014not in terms of\
+  \ photon absorption, but in how slowly it resets. There is a biochemical process\
+  \ in your eye that occurs after the opsin absorbs a photon, which requires time\
+  \ to reset before it can absorb light again, mediated by vitamin A or something\
+  \ like that. You've seen this before: if you look at a bright light and then look\
+  \ away, you can see an afterimage of that light in your vision because those opsins\
+  \ have absorbed photons, and it takes time for them to reset. You can no longer\
+  \ absorb light from that portion of your visual field because it's sort of been\
+  \ maxed out. Because of that, you have to stabilize your eyeball in relation to\
+  \ the world in order for it to have time to form an image from the light that is\
+  \ making it through this complicated process to reach your retina. A lot of the\
+  \ purpose of eye movements is to stabilize your eye in the world. This happens simultaneously\
+  \ with another process of information gathering eye movements, where I can actually\
+  \ move my eyes to specific places because I care about the information coming from\
+  \ that portion of my visual field. We will have much more to say about that when\
+  \ we look closely at eyeballs. It's very complicated and very fast. Your eyeballs\
+  \ are the fastest and most precise motor structures in your body. When you are engaging\
+  \ in fast, interesting behavior, such as walking across a rocky field or playing\
+  \ sports or video games, which require very fast and precise visual information,\
+  \ you are making eye movements at a rate of about one every 150 milliseconds, which\
+  \ is the fastest they can go. That is roughly the minimum time it takes for the\
+  \ neural architecture to extract information from that pipeline. Most of the time,\
+  \ eye movements are not made nearly that fast, but they can go up to that speed.\
+  \ This can happen while your body is jumping and running around, and as you run,\
+  \ your head is bobbing around. There is a very complex machinery of stabilization\
+  \ such that information gathering, known as saccades\u2014fast eye movements\u2014\
+  happens on top of those stabilization mechanisms that allow your eye to be still\
+  \ long enough to absorb the information necessary to form an image. A lot of the\
+  \ field of visual neuroscience involves looking at illusions. and learning about\
+  \ what the illusions say about our visual system. For example, when you were asking\
+  \ about peripheral vision, that's happening at a different part of the eye, not\
+  \ the cornea. There are similarly illusions that we can attribute to different parts\
+  \ of the visual system. One of them, which you may have seen, is called a Hermann\
+  \ grid. If you look at it, you'll probably see little ghostly black dots. When you\
+  \ look at a dot, it's white, but the ones that you're not looking at will appear\
+  \ to be a different color. Similarly, this is another classic illusion where all\
+  \ the intersections are white. I promise you they are all white, but if you look\
+  \ at them, you'll probably see little shadowy ghostly shapes in the corners of the\
+  \ other dots. For a while, one generation of MacBook had this effect on the keyboard,\
+  \ but I think they probably fixed that. This is basically caused by... Not why don't\
+  \ we have these things? So, one, two, three, four, five, six, seven, eight, nine,\
+  \ ten, eleven, twelve, thirteen, fourteen, fifteen, sixteen, seventeen, eighteen.\
+  \ This one has the effect that you cannot\u2014 I don't know if it works with the\
+  \ artifact there, but if you just Google \"Hermann grid 12 dots,\" like, this is\
+  \ one of the things. It's hard to display these things on a screen because they\
+  \ don't always work out. You can't see all of them at once because of the interactions\
+  \ with your ganglion cells, which have to do with the ganglion retina cells. This\
+  \ is a layer that I just can't quite get to. The ganglion cells have to do with\
+  \ the pooling that happens, where it's kind of like this layer where the photoreceptors\
+  \ from different areas get pulled together and respond as if they become one nerve\
+  \ coming off the back of your retina. In the center of your visual field, in that\
+  \ fovea region, it's almost a one-to-one mapping where almost every photoreceptor\
+  \ has an axon coming down and going back through your optic nerve. But around the\
+  \ periphery, the signals from multiple receptors get pulled together. A lot of these\
+  \ effects happen because of the interactions in that region. If you're looking at\
+  \ the dot in question, you see it correctly, but the periphery is doing pooling\
+  \ over that region of the retinal field. So, the whiteness of this dot gets sort\
+  \ of mixed in with the darkness of the surrounding regions, and your brain interprets\
+  \ it as being a different color than it is. Then, when you move your eye towards\
+  \ it, now it looks white. However, the thing you were looking at has this other\
+  \ effect. Let's see if this side is still running. So, fovea shader toy. This is\
+  \ one of my favorite versions of that fovea detector. So, if it's working for me\u2014\
+  every one of these crosses is rotating the entire time, but if you're looking at\
+  \ it, tell me if this is working from your perspective. Only the part that you're\
+  \ looking at should have rotation, and the rest of them should look still. Is that\
+  \ working? That's because of your phobia, and because your phobia is so much more\
+  \ sensitive than the others. If you just Google \"phobia detector Shader toy,\"\
+  \ you'll find this, and it looks better on your screen. It's one of these areas\
+  \ where your ability to identify the motion is designed to be at your threshold.\
+  \ The only portion of the screen where you can actually see the motion is at that\
+  \ focal place. The effect is very strange; as you look around, it will look like\
+  \ there is only a little patch of it that is rotating, and that patch will follow\
+  \ wherever you choose to point your eyes. Someday, whoever is hosting this site\
+  \ will stop hosting it, and that will be sad. Also, the first time I found this,\
+  \ I couldn't interpret the code, but now I'm better at that. I know how to pull\
+  \ this into my own life and have more control over it. \n\nThe point is that your\
+  \ vision is complicated, and it's complicated before it even hits your brain. There\
+  \ is a sort of interesting aspect when I mentioned peripheral versus central nervous\
+  \ system; I intended to mention the retina as a kind of gray area. When talking\
+  \ about central versus peripheral nervous system, you often discuss which part of\
+  \ your eye is doing processing and which part is just funneling the information\
+  \ either to or from the central nervous system. The retina is one of those cases\
+  \ where it would be very hard to argue that what\u2019s happening in the middle\
+  \ layers of the retina wouldn't count as processing. A lot of the effects I just\
+  \ showed you, those illusions, happen before the light and the neural activity driven\
+  \ by the light ever leave your eye. \n\nOh, another visual effect: just look up\
+  \ your blind spot too. Just do me a favor and pretend like I did that in class.\
+  \ Google \"Blind Spot demo\" and do the thing where you learn to find the blind\
+  \ spot where your thumb disappears, and then just reflect on that. The eye is a\
+  \ very complicated thing, and the eyeball itself has a lot going on. We will talk\
+  \ more about this later. The primary visual cortex is typically where visual processing\
+  \ occurs in the brain. A significant portion of our brain is devoted to vision,\
+  \ and in the visual cortex area, roughly 50% is dedicated to processing the central\
+  \ one degree of your phobia. Your phobia, by the way, is about the size of your\
+  \ thumbnail at arm's length. Thus, about 50% of your photoreceptors and 50% of your\
+  \ visual cortex are devoted to processing this small portion of your visual field.\
+  \ Essentially, 50% of the architecture of your visual system is devoted to just\
+  \ 1% of your visual field. This highlights how the ability to move our eyes precisely\
+  \ enables us to guide our motor behavior effectively. That concludes the class.\
+  \ Next Wednesday, I will come in with\u2026"
+title: 2025 02 24 14 59
+transcript_chunks:
+- dur: 180.0
+  end: 180.0
+  start: 0.0
+  text: 'Okay, hello, hello, hello, hi. All right, let''s do today. I guess spring
+    break is next week, so that''s nice. I once again stand here before you as a liar
+    and a generally untrustworthy person because I said I would have the stuff for
+    this done by today. I don''t. You know, I hit some, it''s like, I once again made
+    an assignment that requires technical capacity that did not exist at the time
+    I made the assignment. So I''ll give you a quick update on that. I should have
+    something done by Wednesday and then just push all the deadlines out. So things
+    will kind of be spread out over the next couple of weeks and you should all be
+    set up for it.
+
+
+    The content of the lecture today is going to be about vision and eyeballs and
+    sort of how that stuff generally works. We''ve covered it a little bit in the
+    overview at the beginning of the semester, but now we will go a little more in
+    depth. Some things that I probably hit pretty fast in passing, I''ll still hit
+    pretty fast in passing but at a slightly slower rate. Then, next Wednesday, so
+    tomorrow''s class, Wednesday class, I will bring in an eye tracker and we''ll
+    do kind of an eye tracking demo, similar to the one I did with the motion capture
+    but less involved because all the cameras in that process are attached to my head,
+    so it''s a little bit easier to set up.
+
+
+    Then we''ll have spring break, and we''ll go over that and the rest of the class.
+    Let''s see how much time I want to do this. I think I will just give a quick update
+    on my assignment for the course of making sense of all your wacky nonsense. So,
+    very quickly, the main technical challenge here is that I want to do these exam
+    chats, which I talked about last week, but a lot of you weren''t here, so I''ll
+    say it again.'
+- dur: 180.0
+  end: 360.0
+  start: 180.0
+  text: "The goal is to create some chat spaces on the server where the bot has been\
+    \ designed with the content of the lecture I have been giving, recording, and\
+    \ putting online. There are two forms of that chat set up. One is designed to\
+    \ help you as you work through your chosen topic and try to connect the concepts\
+    \ we've discussed, particularly from a philosophical perspective related to empirical\
+    \ measurement and what is being recorded from the environment. The idea is to\
+    \ connect those thoughts to your chosen topic. \n\nThe other version will be specifically\
+    \ tuned to assist you in coming up with your second poster proposal, which is\
+    \ essentially an outline or schematic form of your paper. This should state, \"\
+    This is my paper; these are the methods\" and summarize the introduction, methods,\
+    \ results, and discussion in two sentences or less. This outline will form the\
+    \ content of the poster you are submitting. \n\nThe poster draft is due the week\
+    \ after spring break. I will find time in class to review what you have and answer\
+    \ questions. The draft is not the final version. The intention is that it is a\
+    \ completed poster that you could print and present if necessary. However, we\
+    \ will allow some time for revision so you can discuss it with your classmates\
+    \ and improve it. This means if you have changes you want to make, you can do\
+    \ that before the final submission. The final poster will need to be uploaded\
+    \ and printed by March 25th, so it's important you feel ready for it, as once\
+    \ it's printed, it is permanent.\n\nThe technical aspect involves condensing down\
+    \ the lectures into a format that can fit into the prompt of an AI bot. For passive\
+    \ education purposes, I will point out where that is happening in the course repository.\
+    \ At this point, I think there are about six recorded lectures."
+- dur: 180.0
+  end: 540.0
+  start: 360.0
+  text: "Each lecture lasts somewhere between an hour to an hour and a half, so that's\
+    \ a lot of words from a human being. At this point in history and in my personal\
+    \ development, it is relatively easy to pull the spoken content from a video on\
+    \ YouTube into a text-based format. However, there are a couple of challenges.\
+    \ For one thing, the number of words spoken in an hour and a half is significantly\
+    \ higher than the actual meaningful content being expressed. Additionally, when\
+    \ we speak aloud, we do not typically speak in grammatically correct sentences.\
+    \ If you were to write down what I'm saying, it might sound like a person having\
+    \ a stroke. We may feel like we are speaking in grammatical form, but we are not.\
+    \ \n\nI have been writing some AI code, which is a bit sloppy by my own standards\
+    \ but gets the job done. This code first processes the content by breaking it\
+    \ down into ten-minute sections. Then it sends each section to an AI that cleans\
+    \ it up, removing filler words and turning it into grammatical sentences. The\
+    \ code functions similarly to copy-pasting text into a Discord bot, except it\
+    \ operates in an automated way. For an hour-long lecture, which is chunked into\
+    \ ten-minute segments, there are a total of six segments. This process runs in\
+    \ a loop, taking the lectures and cleaning them up.\n\nThe first part of the process\
+    \ pulls the content from YouTube, and then I take those chunks and boil them down\
+    \ into an outline format. At this point, the information has been condensed enough\
+    \ to be included in a bot chat. The idea is that having a conversation with the\
+    \ bot, prompted by all this material, will provide a somewhat crude simulation\
+    \ of what it would be like to work through these topics one-on-one, which I would\
+    \ love to do. However, the realities of numbers make that difficult. If you're\
+    \ curious about this, you can look at the repository. The lecture transcripts\
+    \ contain all the words I've said to you, and it is an ongoing project."
+- dur: 180.0
+  end: 720.0
+  start: 540.0
+  text: "The exam chats involve asking you to pull in the profiles that have been\
+    \ extracted about you. We have talked about this before, but in these lectures,\
+    \ the chats you've been having with the bot are part of the process. I periodically\
+    \ scrape the server, extract those chats, and then try to compile them into the\
+    \ bot to determine your interests and focus, as well as suggest things you might\
+    \ want to look into and think about. This has been ongoing.\n\nThe latest update,\
+    \ which I won\u2019t go into detail about at this moment, includes a zip file\
+    \ of the latest server-wide analyses available on Discord in the designated channel.\
+    \ This zip file contains two folders. One folder includes student profiles based\
+    \ only on your chats from the assignments category. These are the chats you were\
+    \ specifically prompted to engage with. The other folder uses all the chats you've\
+    \ had in total, incorporating every chat you participated in.\n\nIn the zip file,\
+    \ you will find links and resources. This server scrape checkpoints folder includes\
+    \ data from everything that happened before about 8:00 a.m. this morning. The\
+    \ profiles in that folder are based on every chat that includes your ID, which\
+    \ means it covers all class assignments and all related discussions. On the other\
+    \ hand, the profiles from the assignments channel only consist of chats that are\
+    \ specifically within the assignments category.\n\nI just realized that I might\
+    \ have made a mistake in filtering, so both folders might actually contain all\
+    \ of your chats because I could have filtered by channel instead of by category.\
+    \ I will need to confirm that. This would be easy to fix. However, I won't dig\
+    \ into that right now, but if you want to check and compare the contents of both\
+    \ folders, if they are identical, then I know I made an error. If they are different,\
+    \ that\u2019s part of the analysis that we can explore further."
+- dur: 180.0
+  end: 900.0
+  start: 720.0
+  text: "The exam is a chat-based assessment. Part of that assignment involves pulling\
+    \ in that profile and copying and pasting it into the chat so that you are not\
+    \ starting from scratch. This will be one of those things where I will show you\
+    \ the high water mark for that, and you can choose how you want to take that file,\
+    \ edit it, delete things you don\u2019t think are appropriate, and add things\
+    \ you think are necessary. I will probably make both of these formats available\
+    \ to you, and you can mix and match for yourself. You can decide how you want\
+    \ to prompt the bot to know who you are, or if you don\u2019t think it\u2019s\
+    \ useful, you can choose not to do it at all and explain yourself again. Any questions\
+    \ about that? Does that make sense roughly? Cool. Great. Well, let's talk about\
+    \ eyeballs. Eyeballs live on your face. The average human has slightly less than\
+    \ two, and they are generally very useful things. This is one of those lectures\
+    \ that I\u2019ve given in various formats many times, and I've never really come\
+    \ up with my personal favorite way of doing it. So this is just kind of a list\
+    \ of things I want to make sure to hit. Let\u2019s start with a combination of\
+    \ drawing and things on the screen. Okay, so we talked a little bit about vision\
+    \ at the start of the class, but we have spent the majority of the time since\
+    \ then talking about motor control. Motor control is essentially moving in the\
+    \ world. Roughly speaking, anything that involves muscles and the generation of\
+    \ force that moves mass connected to your body falls under the category of motor\
+    \ control. Motor refers to movement, and it is certainly a good thing to be able\
+    \ to do. My particular area of expertise in studying neuroscience and the neural\
+    \ control of movement is in..."
+- dur: 180.0
+  end: 1080.0
+  start: 900.0
+  text: What is generally called perceptual motor control, where the "O" in the middle
+    means it's sort of perceptual motor, is the connection between the perceptual
+    systems of the body and the motor systems of the body. These are two things that
+    are often studied to great effect in isolation of each other. However, in natural
+    behavior, they are not really separable in the same way. To move your body effectively
+    in a complex and dynamic world requires you to have good perceptual information
+    about that world. Knowing where things are is a very important component of planning
+    your motions and your movements effectively. Vision is a very classic sense; not
+    every animal uses vision entirely, and not every animal has vision as core to
+    their nervous system as we do, but it is a very classic environmental energy to
+    be tapped into. We are going to talk about the evolutionary elements of this at
+    a later point in the semester. Essentially, this has been around for as long as
+    there have been microbes or the ability to absorb photons from the world. Determining
+    dark areas from bright areas is something even single-celled organisms do, such
+    as rising to the top of a pool of water in the daytime and dropping down at night.
+    So, let's take a quick trip through the main pathways of the perceptual system.
+    Let's start with light itself. Light is covered by the study of light, which is
+    generally under the field of optics. Optics is the part of physics that involves
+    photons, refractions, lenses, and stuff like that. Historically, the origins of
+    the study of optics as a specific field are generally attributed to Alhazen, who
+    was in seventh-century modern Iraq. It wasn't called Iraq back then, but he was
+    a scholar in the seventh to ninth century; I can't remember exactly when. He was
+    the first person to start thinking about light specifically and to think about
+    light in the context of how it functions.
+- dur: 180.0
+  end: 1260.0
+  start: 1080.0
+  text: Light travels in straight lines and can be measured that way. The story goes
+    that he created a pinhole camera. He was in his tent in the bright sun and noticed
+    that if there was a pinhole in the otherwise opaque walls of the tent, he could
+    see an image of the world projected onto the other side of the tent. This phenomenon
+    is known as a camera obscura or pinhole camera. This was not the first time in
+    history that this optical effect was discovered; the original reference to it
+    appears in ancient Chinese texts. However, at that time, it was presented more
+    as a documentation of a strange optical effect than an understanding of why it
+    occurred or what was going on with it. There was less exploration into the underlying
+    principles of the optics involved. Ibn al-Haytham, known for writing the Book
+    of Optics, provided a lengthy treatise on the study of light and specifically
+    how it interacts with the visual system. He included some very accurate anatomical
+    models of the early visual system. These ideas were somewhat lost for about 500
+    to 600 years until Descartes came along and translated much of this work. The
+    main idea here was the discovery of light as an entity that exists independently
+    in nature. While people had always known that light existed, it hadn't been studied
+    precisely as a distinct natural entity. In addition to his anatomical work, Ibn
+    al-Haytham mapped out the basic geometries of optical phenomena, including why
+    images appear inverted in a pinhole camera, which relates to the way light travels.
+- dur: 180.0
+  end: 1440.0
+  start: 1260.0
+  text: All this is nice, sort of, you know, if the light that's coming from the Sun
+    and bouncing off the top of the Minette travels down to that point, TR point,
+    at the bottom, and then travels up to that point. That's how you get the kind
+    of inverted image there. You'll see this image a lot, sort of like a projection
+    in the eye. This is sort of classic textbook stuff where you're presenting the
+    images sort of backward, like upside down on the retina, which is true, but I
+    think it kind of misses some of the point. But that's fine. One of the interesting
+    things, one of the reasons why this guy is sort of considered to be one of the
+    scholars of history, is that he did a lot of that early work on optics, and he
+    hit most of the major points pretty straight off the bat, particularly in the
+    idea of projective geometry. Oh, it's this one I already have up. Oh yeah, B2
+    projected. So like, this is the kind of epipolar geometry that is used behind
+    that motion capture thing and through the 3D projection, all that kind of stuff.
+    These are sort of representative images from modern software packages on how to
+    do computer vision, and most of the math for this was kind of worked out way back
+    then. The main thing that he didn't have, the main thing that he couldn't quite
+    figure out, was refraction and the way that light can... He understood that light
+    travels in straight lines, but he didn't really understand how lenses worked.
+    So when you look at some of these images of the eye, come on, man. Anyways, a
+    lot of the labels and stuff that happen in here are accurate to this day, except
+    for one thing that he kind of had wacky going on. In the lens of the eye, he believed
+    that there was a little demon that lived there and sort of bent the light to make
+    it make sense. I'm not saying that he believed there were demons living in your
+    eyes, but it was sort of like a placeholder. I think I've already said this in
+    this class, but it was kind of like a placeholder for 'I'm not sure what's happening.'
+- dur: 180.0
+  end: 1620.0
+  start: 1440.0
+  text: "I understand that the straight line math doesn't work out because your eyes\
+    \ are too small to do that kind of projection. It probably has to do with this\
+    \ little thing right here, but I don't really understand how that part works.\
+    \ That kind of projective geometry, that kind of refraction stuff, I don't quite\
+    \ know the specific history there, but that was worked out much later. I suppose\
+    \ I should also mention in the history of things that originally we believed that\
+    \ light\u2014before we really understood light as this environmental thing\u2014\
+    vision was conceived of as something that was emitted from your face. When you\
+    \ look at things, it's called emission theory. They thought there were beams of\
+    \ not light, but beams of something that shot out of your face when you looked\
+    \ at stuff, and that was how you received sensory information from the world.\
+    \ In the same way that you reach out with your limbs to touch things, they thought\
+    \ there was some kind of invisible substance being projected from your eyes, and\
+    \ that touching things was how you perceived the world. That was the dominant\
+    \ belief for a long time. During the Black Death, they would do things like cover\
+    \ people's eyes when they were sick because they knew you didn't want to touch\
+    \ sick people, as that would transmit disease. So, they thought covering the eyes\
+    \ would ensure you didn't get hit with the eye lasers. Anyway, that's kind of\
+    \ the old-school optics. These days, if you take an optics course, I think that's\
+    \ in the engineering department, but I'm not sure who teaches it\u2014probably\
+    \ physics. In optics, you'll learn about what's called Snell's Law, which tells\
+    \ us all the things that can happen when light hits a surface. As light is coming\
+    \ in with wavelengths and stuff like that, when it hits a surface, it will either\
+    \ transmit (go straight through it), be absorbed into the material itself, or\
+    \ reflect. So, transmission, absorption, and reflection are the three things that\
+    \ light can do when it hits a surface, and every surface in the world will..."
+- dur: 180.0
+  end: 1800.0
+  start: 1620.0
+  text: "have properties related to this, and if it is transmitted, transmission also\
+    \ has a refraction angle. Sometimes when light passes through a surface, it goes\
+    \ straight through, and for other surfaces, it will refract by a certain amount.\
+    \ The refraction angle depends on the angle at which it hits the surface, as well\
+    \ as the index of refraction, which is a property that materials possess. Substances\
+    \ like glass have a very low index of refraction, so when you look straight through\
+    \ it, not much happens. Other surfaces, such as lenses, have refractive aspects\
+    \ that bend the light to the point where it focuses. If light hits the lens straight\
+    \ on, it goes straight through; if it comes in from an angle, it is refracted.\
+    \ This is basically how a lens can focus light, and it is also how cameras work\
+    \ and how glasses function. This outlines Snell's Law Optics of what happens when\
+    \ light from the world first hits your eye.\n\nLet's do this\u2014sure, yeah,\
+    \ nice. This is an eyeball or a picture of an eyeball, and we can use this to\
+    \ figure things out. This is very much not to scale, but it does the job. This\
+    \ is a side view of your eyeball. This thick part here looks very thick to me;\
+    \ I don't know how accurate that is. But this thick part out here is called the\
+    \ cornea. The cornea is the clear surface on the outside of your eye when you're\
+    \ looking at somebody's eyes."
+- dur: 180.0
+  end: 1980.0
+  start: 1800.0
+  text: "We are looking at the corneas because that's the outermost surface. It is\
+    \ thick and has refractive properties. When light comes in from the world, the\
+    \ first thing it hits is the cornea. The majority of the refraction that focuses\
+    \ the image on the back of your retina occurs passively due to the refractive\
+    \ properties of the cornea. We will come back to that and look for a better picture\
+    \ of this next part. Actually, this is the better picture. Here you go. This is\
+    \ the cornea. This proportionality looks closer to me. There is also an empty\
+    \ space that contains a lot of fluid-filled cavities in your eye, filled with\
+    \ a substance called aqueous humor, which is basically a clear, gelatinous fluid.\
+    \ When light hits your cornea, it is refracted; the number I remember is about\
+    \ 80% of the refraction happens at the cornea level. This refraction occurs every\
+    \ time light hits a surface with a different density than the one it is currently\
+    \ traveling through. Light does not refract when it is moving through air, except\
+    \ when it bounces off water molecules suspended in the air, which is why the sky\
+    \ is blue\u2014a whole other conversation. For our purposes, we can assume that\
+    \ the refraction process occurs every time there is a boundary between transmissive\
+    \ fluids of one density transitioning to a different density. The first refraction\
+    \ point happens at the end of the cornea, and then it goes through this opening\
+    \ here. This opening is called your pupil; perhaps you've heard of it. The pupil\
+    \ is an interesting feature because it doesn't have an independent existence;\
+    \ it is essentially the name we give to a void of space. Your pupil is basically\
+    \ the opening."
+- dur: 180.0
+  end: 2160.0
+  start: 1980.0
+  text: "In the center of your iris is a sphincter muscle, one of your body's finest\
+    \ sphincters. Its job is basically to open and close to let through different\
+    \ amounts of light, relative to the environment you're in. There's a lot of interesting\
+    \ reflexes that happen there. The main one you probably think about is that when\
+    \ you're in a very bright room, your pupil constricts, which lets through less\
+    \ light. When you're in a darker setting, your pupil expands, which lets through\
+    \ more light. This has a lot of optical properties related to the aperture, similar\
+    \ to photography. I won't go into too much detail about that. \n\nThere are other\
+    \ factors that affect your pupil's dilation, such as aspects of your physiology,\
+    \ including fear and relaxation. For example, if you get startled or surprised,\
+    \ an adrenaline burst will constrict your pupils. There is a lot of literature\
+    \ studying pupillometry; I think there\u2019s too much literature on it. We'll\
+    \ discuss this in the context of the eye tracker on Wednesday. \n\nIt's one of\
+    \ those things where, because it's fairly easy to measure pupil size with an eye\
+    \ tracker, researchers can look at that signal independently from the actual context\
+    \ in which it's occurring. As a result, there tends to be a sociological effect\
+    \ where people study pupillometry and the effects of different emotional states\
+    \ and stimuli on pupil size. This area is studied excessively, mostly because\
+    \ it is relatively easy to research, so the field gets flooded with studies focusing\
+    \ on that type of outcome. \n\nI'm not saying we shouldn't study it, but if you\
+    \ go out and start looking at papers on eye tracking, you'll find a lot of papers\
+    \ about pupillometry. You'll be forgiven for thinking this is the most important\
+    \ thing to consider here. But resist that notion; it is not the most critical\
+    \ aspect. It\u2019s fine, but let\u2019s switch pictures again. So, yes, the light\
+    \ is coming through..."
+- dur: 180.0
+  end: 2340.0
+  start: 2160.0
+  text: "Directions: You're always being hit by all the light that's bouncing and\
+    \ scattering off of everything in the world. As that light bounces, it becomes\
+    \ coupled with the things it's bouncing off of. If you really want to dig into\
+    \ the quantum aspects of it, they show up here. When light bounces off of an object\
+    \ of a given color, that color is absorbed, meaning the light that comes off of\
+    \ it reflects that color. For example, if that wall back there is green, then\
+    \ when the light bounces off of it, all the red wavelengths are absorbed, and\
+    \ the light that comes off of it is green, assuming that the light in the environment\
+    \ is generally white, which it usually is\u2014a broad spectrum. The light bouncing\
+    \ into my retina from that part of the room has had all the red wavelengths sucked\
+    \ out of it, so the light that comes in is only within the wavelength band that\
+    \ corresponds to that bluish-greenish color of the back wall. That's jumping ahead\
+    \ a bit, but the light comes through, refracts, and some of it makes it through\
+    \ the pupil. Aqueous humor, there; humor is another one of those medieval science\
+    \ terms. Talk about your humors and balance, stuff like that. So this is from\
+    \ that sort of era. Then, once the light makes it to your pupil, it hits the second\
+    \ main refractive substance in your eye, which is the lens. The lens looks like\
+    \ a little lens made out of a clear structural biological material. It's not goop\
+    \ because the aqueous humor is a goop. The lens is more of an object; it has its\
+    \ own structure, but it's elastic, clear, and oblong in that way. It is also actively\
+    \ controlled. Your brain, at some level, controls how much it should compress\
+    \ this lens. There are ligaments attached, and I believe there are also muscles\
+    \ attached. The muscles pull the lens to different shapes, and the different shapes\
+    \ have different refractive indexes. If it's oriented one way, it refracts more,\
+    \ and when you pull it more elongated, it refracts less. All of these factors\
+    \ change the focal point of the light."
+- dur: 180.0
+  end: 2520.0
+  start: 2340.0
+  text: "Traveling through your eyes is relative to the point in space that you're\
+    \ fixating on. When you're looking at something and it's in focus on the back\
+    \ of your eyes, where \"in focus\" means that you can tell the difference between\
+    \ thin lines and similar details, that focus implies that the focal point of the\
+    \ light is on your retina. Your brain, using a variety of complex mechanisms,\
+    \ is going to try to stretch and bend the lens structure to put that focal point\
+    \ on the back of your retina. How does it know when things are in focus? How does\
+    \ it control it? What are the feedback loops? These are all great questions that\
+    \ I can guess at, but I don't really know, as I'm somewhat at my depth with some\
+    \ of this eye physiology stuff.\n\nIt's also the case that you can control this\
+    \ yourself. This might be one of those things like wiggling your ears, where not\
+    \ everybody can do it on their own, but you can at least try. If you look at something\
+    \ and kind of fuzz it out, if you look at an object and flex whatever muscle you\
+    \ need to make that object go in and out of focus, you are controlling your lens.\
+    \ That's what you are flexing: your lens. \n\nMany of you, including me, are probably\
+    \ wearing some sort of corrective lenses\u2014glasses, contacts, or something\
+    \ similar\u2014because you might find some shy medical information online suggesting\
+    \ that you can exercise the lens muscle so you won't need glasses anymore. That\
+    \ is not actually true, due to the sort of 80/20 division of labor. Remember,\
+    \ about 80% of the refraction occurs at the cornea level, and the length of the\
+    \ eye only does a little more. So, you're not going to be able to actively correct\
+    \ for the whole thing being out of whack, such as with amblyopia, where your eye\
+    \ might be too oblong. If you're farsighted your eye is too oblong, and if you're\
+    \ nearsighted, it's whatever shape that is. The corrective lenses you have are\
+    \ basically augmenting the cornea. If you're in contacts, you're putting another\
+    \ layer on top of it, or if you're in glasses, you're using another lens to bend\
+    \ the light a bit before it even hits the retina, ensuring the light is generally\
+    \ in focus on the back of your eye."
+- dur: 180.0
+  end: 2700.0
+  start: 2520.0
+  text: Yes, that's related to astigmatism, which I don't really understand fully.
+    I know what you're talking about, and it's important because astigmatism refers
+    to a layer of optometry that I haven't delved into deeply. The context involves
+    contact lenses that sit on top of the cornea; they have some kind of suction mechanism
+    that slightly alters the shape of the cornea to help change its passive refractive
+    properties. This effect lasts about a day, so you wear them overnight, and then
+    when you wake up, the results are quite surprising. We've advanced past the old
+    technology of hard contact lenses; in the past, contact lenses were hard glass
+    objects. You have a question about larger or stronger lenses, correct? Yes, astigmatism
+    is related to the shape of the overall eyeball, including the cornea itself. The
+    shaping that occurs at the eye involves the corneal shape. You definitely need
+    to take your contacts out for sanitation and hygiene purposes. However, regarding
+    what you mentioned, I'm not sure if that's accurate. If an eye doctor is saying
+    that, then maybe there's merit to it, but if not, I don't believe that is correct.
+    As someone who is also technically a doctor, I can state that I don't think that's
+    how it works.
+- dur: 180.0
+  end: 2880.0
+  start: 2700.0
+  text: "Your eyes change over time and eventually stabilize. For me, I was getting\
+    \ different prescriptions every time I went to the doctor until I turned 25, and\
+    \ then I settled on the same prescription since then. We also have very different\
+    \ perspectives on how much focus and precision we expect from our vision. I know\
+    \ people who wear glasses but don\u2019t use them, and they say, \"I can see just\
+    \ fine.\" I can tell immediately their level of vision differs from mine. I had\
+    \ a friend who was similar; we would look at something, and I would mention I\
+    \ could see the sign that says the speed limit is 25. They would respond, \"You\
+    \ can see that?\" We have distances beyond which we don't expect to see clearly.\
+    \ For instance, if someone were holding up an 8.5 by 11-inch paper on the sidewalk,\
+    \ I might see that they are holding something, but I wouldn\u2019t be able to\
+    \ read it\u2014or that wouldn't bother me at all. I tend to get my contacts updated\
+    \ frequently, which means I can read the street sign, while someone else who doesn\u2019\
+    t update their prescription could say, \"I can\u2019t read that,\" but it wouldn't\
+    \ concern me. If you stop wearing contacts or glasses, you'll become more comfortable\
+    \ with not seeing things and can still lead a full and happy life. There are multiple\
+    \ types of LASIK surgery. In some versions, they shave some of the cornea off,\
+    \ while in others, they pull up a flap and insert something clear underneath.\
+    \ I don\u2019t know the exact mechanics, but there are some measurements that\
+    \ involve shining a laser through the eye and imaging it on the back of the retina.\
+    \ The aim is to ensure that a laser point results in a precise point. If you look\
+    \ through it and see diffusion or refraction, you can adjust accordingly. There\u2019\
+    s a fascinating history behind this technology; it was originally created for\
+    \ spy satellites."
+- dur: 180.0
+  end: 3060.0
+  start: 2880.0
+  text: '...the cold war was when researchers began to focus on reading data from
+    both low and high earth orbit. It was after this period that they enlisted astronomers
+    to help look down from orbit, but then the technology was classified. Eventually,
+    they realized they could repurpose this technology for space telescopes. They
+    developed a method for Adaptive Optics that compensates for atmospheric distortion.
+    This involves shining a sodium laser into the atmosphere and adjusting the lens
+    until the point created by the laser appears as a perfect point. This allows us
+    to correct for distortions caused by the atmosphere and obtain clearer images.
+
+
+    Interestingly, this technology was later adapted for imaging through the retina.
+    I want to highlight that when discussing peripheral blindness, it''s important
+    to note that there are various sources of this condition. Once we start addressing
+    peripheral blindness, we''re usually looking at issues that occur beyond the cornea.
+    There are many disorders that can affect the eye, with everything in the eye potentially
+    going wrong. For instance, glaucoma involves hardening of the lens, which often
+    occurs with age.
+
+
+    There are surgical options for this condition. If you''re interested and not squeamish,
+    you can find videos online of eye surgeries where doctors break up a hardened,
+    calcified lens and replace it with an artificial lens, usually made of high-quality
+    silicone. This approach has been quite effective, demonstrating that in some areas
+    of medical biology, we can successfully replace biological components. Similarly,
+    procedures like LASIK benefit from our understanding of the physical properties
+    that influence eye function, allowing us to control them effectively.
+
+
+    Regarding stem cells and whether they can assist with biological issues, the answer
+    is likely yes. The challenge with exploring this area...
+
+    '
+- dur: 180.0
+  end: 3240.0
+  start: 3060.0
+  text: 'Things like stem cells involve getting them to perform specific functions.
+    One area where stem cells are commonly used is in parts of the body that do not
+    generally heal on their own, which typically includes non-vascular tissue such
+    as cartilage and the meniscus found in the knees. Because there is no blood flow
+    in these areas, they do not heal like tissues where blood circulation is present.
+    For example, when you cut your arm, the healing process occurs because stem cells
+    in your blood attach to the damaged tissue and facilitate the healing. However,
+    tissues like cartilage do not have blood flow, which inhibits this type of natural
+    healing.
+
+
+    The eye does have vasculature, meaning it has some blood running through it, but
+    not significantly in the clear parts. I wouldn''t be surprised to find research
+    about repairing eye damage over time with the help of stem cells. However, as
+    far as I know, there is nothing established in clinical practice. I would bet
+    they are conducting experiments on rats. The eye, like many other parts of the
+    body, can accumulate damage over time. This is why I tend to wear sunglasses outdoors
+    during the day. Ultraviolet light and blue light can cause damage to the sensitive
+    biological tissues in the eye. While the eye does have some ability to heal, particularly
+    in the neural areas at the back, it does not heal indefinitely. The rate at which
+    it heals may not keep pace with environmental damage.
+
+
+    You can dismiss the idea that staring at bright lights for too long is inherently
+    damaging. For example, while staring directly at a bright light is not advisable,
+    I don''t believe that regular TV exposure is significantly harmful. This ties
+    into the study of how we are exceptionally good at adapting to different light
+    levels. If you look at your phone in the middle of the night, the screen appears
+    overwhelmingly bright. Yet, in daylight, even on a cloudy day, you can barely
+    see it due to the surrounding light. The screen remains the same brightness, but
+    your perception changes significantly based on your environment and the lighting
+    conditions around you.'
+- dur: 180.0
+  end: 3420.0
+  start: 3240.0
+  text: "The screen is the same brightness at either time; it's just the adaptation\
+    \ of your lens and your visual system. This is a complicated process that involves\
+    \ more than just your cornea; it adapts very well. For example, sitting too close\
+    \ to a TV makes us feel like TVs are extremely bright, but they're nothing compared\
+    \ to being outside on a sunny day. As for your eye doctor, I don't think the concerns\
+    \ about glasses are valid. You should wear your glasses if you want to see well;\
+    \ it's not something to worry about, like thinking you might be wearing them too\
+    \ much. That sounds insane to me.\n\nNow, spending a lot of time discussing the\
+    \ eye doesn't bother me, so let's cover most of the optical processes occurring\
+    \ in your eyeball. The refraction and bending of light, focusing of the image\u2014\
+    this happens largely through passive means at the level of the cornea, while the\
+    \ lens plays a more active and reflective role. Once light passes through these\
+    \ optical components, it has essentially completed its task, and your body will\
+    \ then process that information. The signal from the environment, once it has\
+    \ traveled through these optically non-neural surfaces, has not yet been converted\
+    \ into neural activity. However, we are continually discovering new ways that\
+    \ the body responds to light. For instance, it was recently discovered that some\
+    \ parts of the eye respond to blue light differently than others, which are not\
+    \ part of the main visual system. This is thought to be related to circadian rhythms.\n\
+    \nOnce we get past this stage, we start to delve into the more interesting aspects\
+    \ from a neuroscience perspective, primarily the retina. The retina is located\
+    \ at the back of your eye and serves as a crucial component."
+- dur: 180.0
+  end: 3600.0
+  start: 3420.0
+  text: "That is the neural surface; that is the place where the light from the world\
+    \ is actually first absorbed and converted into neural activity and patterns of\
+    \ neural activity which are correlated with the light that comes through the eye.\
+    \ The retina is a fascinating structure. Let's see, there\u2019s a nice picture.\
+    \ \n\nThe first thing we'll talk about is the photoreceptors. Photoreceptors are\
+    \ receptors for photons; they are part of your nervous system. These are the kinds\
+    \ of neurons whose job it is to absorb light and convert it into electrical signals\
+    \ in your eyes. You have two main types: rods and cones. Generally speaking, rods\
+    \ are rod-shaped. \n\nRods and cones respond differently to light. Rods are generally\
+    \ more sensitive to lower quantities of light, but they tend to saturate very\
+    \ quickly. On the other hand, cones require much more light to operate, but they\
+    \ can function over a much wider range. We refer to rods as the primary photoreceptors\
+    \ for night vision, while cones are responsible for precision visual information.\
+    \ \n\nThis is also pushing the limits of my anatomy knowledge. I\u2019m not sure\
+    \ about that oil droplet; that's something new to me. However, these discs here\
+    \ are where the opsins live. We\u2019ve talked about these before. I believe they\
+    \ start in a kinked shape, and when the photons come in, they get absorbed and\
+    \ that changes the shape of these strange chemicals. The absorption of the light\
+    \ initiates the process of converting it into neural signals."
+- dur: 180.0
+  end: 3780.0
+  start: 3600.0
+  text: A photon bumps the electron into a higher orbital, which changes the ionic
+    properties of the system. The general status of how many of the opsin in the rod
+    or cone in question have absorbed their favorite wavelength of photon changes
+    the electrochemical properties of the entire system. The connected structures
+    notice that a particular rod is ramped up; it has absorbed a lot of its favorite
+    kind of light. This is part of the cascade of neural activity that represents
+    your perceptual experience. I think this varies by animal, but for us, our rods
+    tend to be focused on green. Green is a good color to be sensitive to since it
+    is abundant on Earth. The cones associated with color vision are typically represented
+    as red, green, and blue. Generally, these correspond to short, medium, and long
+    wavelengths of light, where blue is short wavelength, red is long wavelength,
+    and green is in the middle. They all reside there and have a certain distribution.
+    Another thing to note is that this is the back of the eye, and light comes in
+    this way. You might expect that the part of the rods and cones most sensitive
+    to light would face the light, but that is not how it is set up. In fact, the
+    cones face away from the light, so light has to pass through several layers of
+    cells first. After the photoreceptors, there are middle layers followed by ganglion
+    cells. These cells are doing all sorts of complex processing. Textbook images
+    often make the visual system seem cleaner than it is. Our vision system is backwards;
+    it is the opposite of how you would expect it to be, and there are optical consequences
+    because everything we see is imaged through a couple of layers of dense cells.
+- dur: 180.0
+  end: 3960.0
+  start: 3780.0
+  text: "culture, and that's thought to be related to when we first crawled out of\
+    \ the oceans. The way that the light refracts is significant because our eyes\
+    \ are very close in density to seawater, whereas they are very different from\
+    \ air. If you have a visual system that first evolved in an environment that is\
+    \ roughly the same density as your eye, you're going to need different refractive\
+    \ strategies. For example, if you have an eye that essentially holds a little\
+    \ bubble of seawater within itself, and then it refracts light that\u2019s traveling\
+    \ through an air medium, it will behave differently.\n\nThings like cephalopods\u2014\
+    octopuses, squids, and cuttlefish\u2014their eyes are oriented correctly and they\
+    \ have very good vision. Their photoreceptors actually face outward, which is\
+    \ a curious aspect of their anatomy. \n\nIt's also kind of amusing because, having\
+    \ given this lecture many times before, I always realize that you could dedicate\
+    \ an entire session just to discussing the eye. This is also the point in the\
+    \ lecture where I acknowledge that I won\u2019t be able to delve into the neural\
+    \ parts of the visual cortex as much as I would like. But that's okay. I tend\
+    \ to focus on what's important regarding eye function.\n\nAs a consequence of\
+    \ the unique history of our eyes having these flipped retinas, I won't go too\
+    \ deep into details about the outer features, even though they are very interesting\
+    \ and deserve their own discussion. If you're curious, you can look up more about\
+    \ the middle layers of the retina and the ganglion cells.\n\nNow, I would say\
+    \ the most interesting part of the eye, at least my favorite part, is this small\
+    \ divot in the back of the retina called the fovea. 'Fovea' is Latin for 'pit.'\
+    \ It's the area that you point your eyes at when you're focusing on something,\
+    \ like when you look at a nice cat, for example."
+- dur: 180.0
+  end: 4140.0
+  start: 3960.0
+  text: "Here, that is pointing at your retina. So, the act of pointing my eyes at\
+    \ something is basically lining up all this refractive machinery with this little\
+    \ pit on the back of my eye, and that pit is called the fovea. Yes, there's an\
+    \ actual one. There we go, like this guy right here. So, basically, this is a\
+    \ part of the eye where all the extra stuff has been pushed out of the way to\
+    \ leave an unobstructed viewpoint onto this portion of your eyeball, where there\
+    \ is, by very, very wide margin, the highest density of photoreceptors in your\
+    \ eye.\n\nIf you look at your eye, there are many ways that your eyes are not\
+    \ like cameras. One of the most important ways is that with a camera, you have\
+    \ an equal... Yes, look at all. There are always fun pictures here. Yes, this\
+    \ is a good representation of how focusing works. It's like you're trying to constrain\
+    \ the world. It's not showing the refraction at the cornea. This person was too\
+    \ inspired by the shape of the lens to understand how that works. The bending\
+    \ should be happening here, and then this should be kind of like extra.\n\nBut\
+    \ the distribution... So with a camera, the sensor on the back of the camera has\
+    \ a roughly equal density of photosensitive silicone pits. Your eye has a much,\
+    \ much different orientation. So if we're specifically looking at your cones...\
+    \ There we go, like this. Yes, your cones, the red ones. This is the one that\
+    \ we generally think of as when we think of your vision in terms of how good is\
+    \ my vision. You\u2019re generally considering that in terms of the behavior and\
+    \ performance of..."
+- dur: 180.0
+  end: 4320.0
+  start: 4140.0
+  text: 'Your cones and the distributions of cones on the back of your retina resemble
+    a sort of red spike. This represents eccentricity, where zero is on the fovea,
+    and then plus or minus however many degrees. You can see that roughly 50% of your
+    photoreceptors are in that ventral one degree of your eye. If you were to look
+    into the back of your retina and count all of the photoreceptors, you would find
+    that the vast majority are very densely packed in that foveal central region of
+    your eye. When you move your eyes around, you are optimizing your eye movements
+    to point this super high, super densely packed region of photoreceptors at the
+    object in question. This is also the area where the core design of the retina
+    has been mitigated by pushing out the structures that obstruct it.
+
+
+    Something else you might notice is the distribution of the cones versus the rods.
+    The rods, shown in purple, pertain to your peripheral vision. Their distribution
+    is spread out to the periphery, which is thought to be for several reasons. These
+    rods respond to smaller amounts of light and tend to respond faster. When we think
+    about peripheral vision, its job is not to provide us with precise levels of vision,
+    like the ability to read text, but rather to give us very fast information about
+    external stimuli, which is important for things like the startle response.'
+- dur: 180.0
+  end: 4500.0
+  start: 4320.0
+  text: Things that are looming objects from the outside trigger a behavioral response,
+    and that's often driven by the rods. This is also why, if you're ever out in the
+    dead of night looking at the stars, the best way to see something, when your eyes
+    are very dark adapted, is not to look directly at it. In the middle of the night,
+    your rods aren't really working very well, so if you look directly at something,
+    you're going to be getting less light than you want. Astronomers learn that if
+    you're interested in a particular star, the best way to see it is to look a little
+    bit off to the side of it and let your rods do the work of providing the information
+    from the incoming light. So next time you're out on a nice starry night, you can
+    try that out. For example, the Seven Sisters, or Pleiades, is a cluster of stars
+    where I've noticed this effect a lot. If I look directly at it, I can't make out
+    the individual stars, but if I look a little off to the side, I can start to count
+    that there are seven of them. There's a lot of challenges in looking not directly
+    at the thing that you care the most about, which is its own kind of mental game
+    that we probably won't discuss in detail right now. Now that I've talked about
+    some of these structural aspects of the eye and the retina, I will try to be strategic
+    about what I cover next. We've been discussing the eye in terms of its passive
+    optical properties, such as how light bends and is absorbed, and the kind of photo
+    receptors involved. However, a lot of what we do with our eyes is shaped by that,
+    specifically in the context of eye movements. We move our eyes quite a lot; this
+    is not unique to humans. In fact, most animals move their eyes, although not every
+    animal does.
+- dur: 180.0
+  end: 4680.0
+  start: 4500.0
+  text: "Other primates of our general nature, I believe the family we belong to is\
+    \ called Hominidae, not H, not family, whatever group. Our nervous system is very\
+    \ heavily geared towards our vision, and our vision is designed to enable us to\
+    \ move our eyes rapidly and precisely in order to focus the highly acute regions\
+    \ of our fovea on things that we care about with great speed and spatial accuracy.\
+    \ Each of your eyes has six muscles. For example, if this is my eye, there are\
+    \ two muscles on the top and bottom that move the eye up and down, and two muscles\
+    \ on the sides that move the eye left and right. Additionally, there are two other\
+    \ muscles at the top and bottom that rotate the eye around its optical axis; these\
+    \ are known as torsional eye movements. I will be able to demonstrate this to\
+    \ you when I'm wearing an eye tracker, but this rotation happens all the time.\
+    \ If you do this motion, your eyes are rotating in their optical axis, although\
+    \ not excessively. These muscles, the one on the bottom comes in from below and\
+    \ the one on top passes through a ligamentous sling. There is a ligament that\
+    \ loops around the superior oblique muscle that attaches to the top of your eye\
+    \ and allows it to rotate. Much of what we will observe when I put the eye tracker\
+    \ on is the eye bouncing around on the screen. The majority of those eye movements\
+    \ are just stabilizing my head against the motion of my head because we move our\
+    \ heads a lot. The opsin, which is the part that absorbs light, operates relatively\
+    \ slowly\u2014not in terms of photon absorption, but in how slowly it resets.\
+    \ There is a biochemical process in your eye that occurs after the opsin absorbs\
+    \ a photon, which requires time to reset before it can absorb light again, mediated\
+    \ by vitamin A or something like that. You've seen this before: if you look at\
+    \ a bright light and then look away, you can see an afterimage of that light in\
+    \ your vision because those opsins have absorbed photons, and it takes time for\
+    \ them to reset."
+- dur: 180.0
+  end: 4860.0
+  start: 4680.0
+  text: "You can no longer absorb light from that portion of your visual field because\
+    \ it's sort of been maxed out. Because of that, you have to stabilize your eyeball\
+    \ in relation to the world in order for it to have time to form an image from\
+    \ the light that is making it through this complicated process to reach your retina.\
+    \ A lot of the purpose of eye movements is to stabilize your eye in the world.\
+    \ This happens simultaneously with another process of information gathering eye\
+    \ movements, where I can actually move my eyes to specific places because I care\
+    \ about the information coming from that portion of my visual field. We will have\
+    \ much more to say about that when we look closely at eyeballs. It's very complicated\
+    \ and very fast. Your eyeballs are the fastest and most precise motor structures\
+    \ in your body. When you are engaging in fast, interesting behavior, such as walking\
+    \ across a rocky field or playing sports or video games, which require very fast\
+    \ and precise visual information, you are making eye movements at a rate of about\
+    \ one every 150 milliseconds, which is the fastest they can go. That is roughly\
+    \ the minimum time it takes for the neural architecture to extract information\
+    \ from that pipeline. Most of the time, eye movements are not made nearly that\
+    \ fast, but they can go up to that speed. This can happen while your body is jumping\
+    \ and running around, and as you run, your head is bobbing around. There is a\
+    \ very complex machinery of stabilization such that information gathering, known\
+    \ as saccades\u2014fast eye movements\u2014happens on top of those stabilization\
+    \ mechanisms that allow your eye to be still long enough to absorb the information\
+    \ necessary to form an image. A lot of the field of visual neuroscience involves\
+    \ looking at illusions."
+- dur: 180.0
+  end: 5040.0
+  start: 4860.0
+  text: and learning about what the illusions say about our visual system. For example,
+    when you were asking about peripheral vision, that's happening at a different
+    part of the eye, not the cornea. There are similarly illusions that we can attribute
+    to different parts of the visual system. One of them, which you may have seen,
+    is called a Hermann grid. If you look at it, you'll probably see little ghostly
+    black dots. When you look at a dot, it's white, but the ones that you're not looking
+    at will appear to be a different color. Similarly, this is another classic illusion
+    where all the intersections are white. I promise you they are all white, but if
+    you look at them, you'll probably see little shadowy ghostly shapes in the corners
+    of the other dots. For a while, one generation of MacBook had this effect on the
+    keyboard, but I think they probably fixed that. This is basically caused by...
+- dur: 180.0
+  end: 5220.0
+  start: 5040.0
+  text: "Not why don't we have these things? So, one, two, three, four, five, six,\
+    \ seven, eight, nine, ten, eleven, twelve, thirteen, fourteen, fifteen, sixteen,\
+    \ seventeen, eighteen. This one has the effect that you cannot\u2014 I don't know\
+    \ if it works with the artifact there, but if you just Google \"Hermann grid 12\
+    \ dots,\" like, this is one of the things. It's hard to display these things on\
+    \ a screen because they don't always work out. You can't see all of them at once\
+    \ because of the interactions with your ganglion cells, which have to do with\
+    \ the ganglion retina cells. This is a layer that I just can't quite get to. The\
+    \ ganglion cells have to do with the pooling that happens, where it's kind of\
+    \ like this layer where the photoreceptors from different areas get pulled together\
+    \ and respond as if they become one nerve coming off the back of your retina.\
+    \ In the center of your visual field, in that fovea region, it's almost a one-to-one\
+    \ mapping where almost every photoreceptor has an axon coming down and going back\
+    \ through your optic nerve. But around the periphery, the signals from multiple\
+    \ receptors get pulled together. A lot of these effects happen because of the\
+    \ interactions in that region. If you're looking at the dot in question, you see\
+    \ it correctly, but the periphery is doing pooling over that region of the retinal\
+    \ field. So, the whiteness of this dot gets sort of mixed in with the darkness\
+    \ of the surrounding regions, and your brain interprets it as being a different\
+    \ color than it is. Then, when you move your eye towards it, now it looks white.\
+    \ However, the thing you were looking at has this other effect. Let's see if this\
+    \ side is still running. So, fovea shader toy. This is one of my favorite versions\
+    \ of that fovea detector. So, if it's working for me\u2014every one of these crosses\
+    \ is rotating the entire time, but if you're looking at it, tell me if this is\
+    \ working from your perspective. Only the part that you're looking at should have\
+    \ rotation, and the rest of them should look still. Is that working?"
+- dur: 180.0
+  end: 5400.0
+  start: 5220.0
+  text: "That's because of your phobia, and because your phobia is so much more sensitive\
+    \ than the others. If you just Google \"phobia detector Shader toy,\" you'll find\
+    \ this, and it looks better on your screen. It's one of these areas where your\
+    \ ability to identify the motion is designed to be at your threshold. The only\
+    \ portion of the screen where you can actually see the motion is at that focal\
+    \ place. The effect is very strange; as you look around, it will look like there\
+    \ is only a little patch of it that is rotating, and that patch will follow wherever\
+    \ you choose to point your eyes. Someday, whoever is hosting this site will stop\
+    \ hosting it, and that will be sad. Also, the first time I found this, I couldn't\
+    \ interpret the code, but now I'm better at that. I know how to pull this into\
+    \ my own life and have more control over it. \n\nThe point is that your vision\
+    \ is complicated, and it's complicated before it even hits your brain. There is\
+    \ a sort of interesting aspect when I mentioned peripheral versus central nervous\
+    \ system; I intended to mention the retina as a kind of gray area. When talking\
+    \ about central versus peripheral nervous system, you often discuss which part\
+    \ of your eye is doing processing and which part is just funneling the information\
+    \ either to or from the central nervous system. The retina is one of those cases\
+    \ where it would be very hard to argue that what\u2019s happening in the middle\
+    \ layers of the retina wouldn't count as processing. A lot of the effects I just\
+    \ showed you, those illusions, happen before the light and the neural activity\
+    \ driven by the light ever leave your eye. \n\nOh, another visual effect: just\
+    \ look up your blind spot too. Just do me a favor and pretend like I did that\
+    \ in class. Google \"Blind Spot demo\" and do the thing where you learn to find\
+    \ the blind spot where your thumb disappears, and then just reflect on that. The\
+    \ eye is a very complicated thing, and the eyeball itself has a lot going on.\
+    \ We will talk more about this later."
+- dur: 180.0
+  end: 5580.0
+  start: 5400.0
+  text: "The primary visual cortex is typically where visual processing occurs in\
+    \ the brain. A significant portion of our brain is devoted to vision, and in the\
+    \ visual cortex area, roughly 50% is dedicated to processing the central one degree\
+    \ of your phobia. Your phobia, by the way, is about the size of your thumbnail\
+    \ at arm's length. Thus, about 50% of your photoreceptors and 50% of your visual\
+    \ cortex are devoted to processing this small portion of your visual field. Essentially,\
+    \ 50% of the architecture of your visual system is devoted to just 1% of your\
+    \ visual field. This highlights how the ability to move our eyes precisely enables\
+    \ us to guide our motor behavior effectively. That concludes the class. Next Wednesday,\
+    \ I will come in with\u2026"
+video_id: mERDAHNKRc8

@@ -1,0 +1,1777 @@
+full_transcript: "okay Hello everybody welcome back to this space uh hope you had\
+  \ good Spring Breaks spring has broken and you were all inside which I take is a\
+  \ tremendous compliment so thank you um I have brought still more technology so\
+  \ I brought this is very exciting I brought both an ey tracker and a computer to\
+  \ today which is many consider to be the minimum equipment set required to actually\
+  \ record ey tracking so that's good um let's see I'm pull this no that um all right\
+  \ so so today as promised we're going to be doing an ey tracking demo know have\
+  \ you can see my eyes very big on the screen um I don't think that will take up\
+  \ the whole time but I've been historically bad at predicting how much time things\
+  \ will take um but uh I think that what it'll probably happen is like let me rephrase\
+  \ that like I know that the recording can't take up the whole time because I can't\
+  \ record that long and have anything to say about it so uh what I suspect we'll\
+  \ do today is I'm going to do some kind of catch-up stuff and sort of talking about\
+  \ various states of various things and assignments and posters and all that good\
+  \ stuff um and then I'll talk a little bit about eye tracking kind of in general\
+  \ and then I'll do the actual ey tracking demo and then at the end um we'll see\
+  \ where we're at uh and if not either we'll be at the end and we'll call it good\
+  \ or um we'll spend the last chunk of the of the day um I'm going to I want to introduce\
+  \ you guys to some of the other like AI tools that I found recently that are very\
+  \ nice and helpful and maybe beneficial to you in your daily lives skybot is a useful\
+  \ tool for being kind of a you know class Wrangler but there's a lot of additional\
+  \ tools people have put out that can do things like search Pub Med and search the\
+  \ internet and look at PDFs and stuff like that um so if there is time we can we'll\
+  \ take some time to kind of like you know work do some of those together or youall\
+  \ to work on it and I'll go around talking to you um or uh I'll just tell you about\
+  \ them and you can do them yourself okay okay um have I pulled this down yes yeah\
+  \ okay so this is the this is the schedule as it exists um we're on week 10 out\
+  \ of 15 so whatever that that proportionality is 2/3 sounds right um and today we're\
+  \ going to do the ey tracking demo uh next time this is going to be another kind\
+  \ of like hybrid uh thing so my plan is to record the data today and I'm not going\
+  \ to be able to just like spin it around and show it to you because it'll take a\
+  \ little bit more finagling than that um so I will either have a chance to kind\
+  \ of crank something out before Wednesday or I'll just push it to the next dime\
+  \ and we'll kind of Shuffle around the topics that way um in terms of topics I'll\
+  \ talk about the assignments in a second but in terms of topics this B an dragonflies\
+  \ also just like three papers that I really like about um perceptual motor systems\
+  \ in insects which is personally near and dear hobby or sort of topic to my heart\
+  \ for no particular reason other than I think it's cool um so if I can I kind of\
+  \ like blast through those three and just sort of show you what the papers look\
+  \ like tell you the general story and just kind of give you more like experience\
+  \ looking into the nitty-gritties of particular papers um this Evolution thing is\
+  \ just like a a little sort of a semic canned lecture that I like to do about the\
+  \ broad history of everything sort of leading up to the muscule skeletal and nervous\
+  \ system that you are currently walking around with which just provides lot of context\
+  \ with things Gap filling isn't kind just sort of it's kind of just empty spot R\
+  \ just I'll put whatever is in there if that needs to be in there when think shake\
+  \ out um next Monday uh we will take wait no two Mondays from that um the poster\
+  \ upload is Thea is Tuesday so we'll take that Monday to have just like in class\
+  \ kind of like let's go over our posters together and sort of make sure that we're\
+  \ happy with them make sure the formatting is all looking good and the PDFs are\
+  \ the right shape and all that type sort of stuff um and then if you're in class\
+  \ you can do the upload there uh so that way that can be sorted um that the next\
+  \ day I'm going to talk about my own dumb research uh history um which is sort of\
+  \ you know a fair amount there but I've talked about it a lot so I can be moderately\
+  \ efficient with it um but it's sort of like especially after the evolution talk\
+  \ um you have at least been officially exposed to the majority of the context that\
+  \ my research has occurred within so I feel sort of like part of the way that I\
+  \ kind of organized this class is like okay what would have to be kind of in the\
+  \ background for me to be able to talk about the research that I do without spending\
+  \ the entire time talking about like the wise and the context and things like that\
+  \ so good fun um after that another semican uh lecture I like to give on the autonomic\
+  \ nervous system which is uh sort of at one point in this class I said you have\
+  \ a central nervous system and a periperal peripheral nervous system but that's\
+  \ a bit of an oversimplification um things like the autonomic nervous system could\
+  \ arguably be considered kind of like separate from those two uh not to mention\
+  \ the inter inter nervous system the gut whatever the gut is um and that ANS sort\
+  \ of has a lot of ties things like trauma and PTSD which I think is a good uh just\
+  \ kind of like a public service announcement like hey you're a human person and\
+  \ this is how your body responds to stress of varying levels um so this is good\
+  \ to know for yourself and also for interactions with other humans who have been\
+  \ Shackled with similar strengths and weaknesses um after that the this last Wednesday\
+  \ here that I guess will be in April at that point um we'll spend that time doing\
+  \ sort of poster practice at that point your posters will be kind of locked in like\
+  \ the the physical poster will be I think printed by that point oh yeah we print\
+  \ um yeah I'm not sure my question how that works but um posters will be printed\
+  \ um so we can sort of either if we have physical posters bring them in here but\
+  \ that might get crowded or just kind of like have a bit of practice describing\
+  \ your poster to fellow humans just to kind of like give you a little bit of practice\
+  \ and kind of give you some experience kind of like trying to speak the content\
+  \ of the poster because it is a very human and recurring experience to feel like\
+  \ it's like oh yeah I 100% have this in my head and then you actually try to do\
+  \ it and you're like wait I haven't actually ever produced these sounds in this\
+  \ order before and it's just it's a good idea I mean no matter what you'll have\
+  \ your poster feeli lock down pat by the end of your poster session um but if we\
+  \ do a little practice beforehand it will free you up from some the first couple\
+  \ will always be a bit clunky but ideally we can do that in a more controlled environment\
+  \ um the week of the poster presentation itself uh I will give you an assignment\
+  \ of like which day you're presenting and which day you're observing um if you have\
+  \ a strong preference like if there's something else going on let me know but otherwise\
+  \ it's just you know it's during this class period so I know you're free so uh and\
+  \ you're supposed to go to all of the sessions and you'll either be presenting your\
+  \ poster or going around and sort of collecting you know check marks people who\
+  \ have you every going going to posters um and we'll talk about how to sort of wrangle\
+  \ that but basically the goal is to both get experience being at a poster which\
+  \ is its own kind of skill um and also give the person that you're talking to the\
+  \ person that's presenting the poster you know the constructive feedback that you\
+  \ kind of need an external set of eyeballs to do and then last week we'll do some\
+  \ retrospective some wrap-ups um I'll show you how to make your own Skelly bot server\
+  \ if you're into that talk about sort of some you know I will have sort of finalized\
+  \ is uh data analysis of the course and some representations of that and uh we'll\
+  \ call that good so I'll talk about the assignments in a second but in terms of\
+  \ content is there any thoughts feelings questions emotional helpers related to\
+  \ that seems fine cool okay in terms of assignments and assignment like objects\
+  \ um I have put up so I've seen a a a number of you all have already had the the\
+  \ midterm chat let got update um which just in the in the in the course server in\
+  \ the assignment Channel there's a midterm chat and in that channel the bot has\
+  \ been prompted to kind of help you connect your interests and topic to the broader\
+  \ topics of the course um and we talked last time about the The Prompt has now expanded\
+  \ in complexity a lot I added a lot of like basically summarizations and sort of\
+  \ condensations of everything that I've been talking about in the lectures of the\
+  \ course so uh and just kind of scanning it like does anyone who's had the chat\
+  \ like how how are the Vibes now are they does it seem similar does it seem anything\
+  \ has it gone weird has it does it like talk too much or too little or say anything\
+  \ yeah my scan sort of cursory scan of what's going on seems good to me it's one\
+  \ of those things where like I can tell tell that there's a shift in the way that\
+  \ it talks about stuff in a way that it feels really good from my perspective um\
+  \ I'm not sure if you would notice the changes that happened um because like from\
+  \ my perspective it's kind of like because y'all you all tend to come in and you\
+  \ say like hey I've got this that and the other interest and then the bot sort of\
+  \ previously was told about what the class is about but wasn't given like the details\
+  \ of like the actual lectures so if you say something like hey I'm interested in\
+  \ like sports biome mechanics the bot gives you kind of the in the way that these\
+  \ things tend to do sort of the belly of the bell curve like middle of the road\
+  \ like statistically most likely answer of a b with this prompting kind of like\
+  \ answering the question of like hey what is biomechanics now that it has this sort\
+  \ of Fairly excessive level of pre- prompting um with you know the content being\
+  \ like the lectures that I have given the way that it answers those questions feels\
+  \ much more to me like the way that I would answer the questions like the the things\
+  \ that it highlights the thing that it brings up the things that it kind of ties\
+  \ in is more aligned with the kinds of things that I personally would if you asked\
+  \ me hey what's biomechanics I would give you a different answer than if you asked\
+  \ you know some hypothetical statistically average biomechanist person um so it's\
+  \ one of those and it's one of these things it's like there's no way for you to\
+  \ quite know that but from my perspective it looks better so as long as it's not\
+  \ getting weird like like if it ever starts just like repeating the same word over\
+  \ and over and over and over again like stuff like that that is uh that is one of\
+  \ the ways these things brains can break so um but I think even though it feels\
+  \ like a lot of prompting I think in the scheme of the landscape of this technology\
+  \ it's not actually that much cool um oh yeah and then there is now a official canvas\
+  \ assignment for for that um so uh if you've already done it just go in there and\
+  \ kind of check the box um I I I added has anyone seen the assignment yet like on\
+  \ canvas when did you post it like this morning oh yeah I was going to say I checked\
+  \ for it yeah yeah yeah like when I say and morning I think is a broad term in this\
+  \ weird daylight savings time um so there should be like an entry for like a URL\
+  \ is that right I just is that accurate yeah okay cuz I just checked the box of\
+  \ like URL entry um that URL is supposed to be like a uh just post a link to the\
+  \ chat so you can get that in various ways just right click it uh actually it might\
+  \ need to be the the message yeah so basically any message attached to the chat\
+  \ either top level or in it just so that I can see that um there um and mostly that\
+  \ is because I realized I don't actually have like I don't have like a mapping from\
+  \ your Discord ID to your ex student ID um so I'm going to try to like extract that\
+  \ semi passively uh and I have also now added this poster outline so um in terms\
+  \ of assignments an assignment like objects just because things need deadlines um\
+  \ both the midterm chat and a poster outline chat um or poster outline I guess uh\
+  \ full stop um are officially due at the end of this week meaning like Sunday before\
+  \ next week um you know it they will it I don't please do it but I don't I'm not\
+  \ going to like chase you down or ruin your future or anything like that um and\
+  \ the midterm teds like have a conversation like you know like you write at least\
+  \ five messages so there's at least 10 total um but obviously you can keep talking\
+  \ if it's interesting and then the uh second one here is um specifically to help\
+  \ you come up with like the outline form of your paper so like the the things we've\
+  \ talked about of like here's my paper here's the you know intro methods uh what's\
+  \ it called uh results conclusions and kind of like making sure that you know you\
+  \ know which images you're going to copy paste into thing don't put images in the\
+  \ chats um I think it might actually break if you do that um yeah I'm not 100% sure\
+  \ what will happen but if you put a video if you put an image in there and it stops\
+  \ responding then just like make another chat uh and then don't do that um and this\
+  \ one was doing some very expedient and elegant prompting to tell it to pay attention\
+  \ to the assignment I think one of things because the the base prompt is gotten\
+  \ so long when I put little instructions in the channels it often ignores them so\
+  \ uh repetition is a very efficient form of emphasis so I just basically yelled\
+  \ at it until it started responding it start until it started because it would be\
+  \ the kind of thing as like it would start the conversation just saying like hey\
+  \ how's it going and i' be like is there something you're supposed to do and it's\
+  \ like oh yeah we're supposed to do this outline thing um so I just added this and\
+  \ just copy pasted it so that now when you start the chat it will be like oh hey\
+  \ we're doing this house it's just outline thing um also let me know if it Behavior\
+  \ gets weird um but I think it should be fine um this kind of stuff also is it it's\
+  \ pretty effective but it's a kind of thing like I wouldn't be surprised if it starts\
+  \ if like the personality gets weird and sort of more like I don't know traditional\
+  \ like teacher student types of relationship stuff of like not we need to talk about\
+  \ anything that's not like hard to find in the assignment but we'll see um and again\
+  \ the oh go oh it's over here yeah and I'm I'm I'm making both of those assignments\
+  \ that have due dates and all that stuff um the midterm is like official they're\
+  \ both official assignments but and specifically the postra line is designed to\
+  \ help you out and just make sure that you have those ideas together all these things\
+  \ are decided to help you out I'm not really design I'm not attempting to like twist\
+  \ your arm and make you struggle just this all this is all really to help you do\
+  \ the kind of synthesis and integration and kind of like connecting the vague thoughts\
+  \ to your specific interests um and then the the sort of um the output of the poster\
+  \ outline is you're supposed to ask it for a sort of structured summary that you\
+  \ can copy paste into the assignment um into the the canus assignment and you are\
+  \ welcome to do that just sort of copy pasting type of thing don't copy paste from\
+  \ your paper um but if you take if you have a conversation and then at the end you\
+  \ say hey give me an outline um you can specifically prompt it to like just copy\
+  \ this into the thing um that's valid uh if if you don't like its responses um you\
+  \ can either do what I the natural human behavior of keep telling it to fix it over\
+  \ and over again and then never and never being satisfied with the response or you\
+  \ can do something crazy which is copy paste it into like a word editor and then\
+  \ just like change it yourself or if you're really feeling saucy just write yourself\
+  \ it won't take you that long um and yeah then copy that in and uh and yeah and\
+  \ then the next week the assignment is the poster draft um and that will be do again\
+  \ kind of the the Sunday before the upload day um and that is just a singular um\
+  \ I guess I'll ask you for the pdf version of it at that point um but if you have\
+  \ hard time making that happen um it's fine to just give me the the PowerPoint or\
+  \ whatever other format you want and we'll we'll figure out the PDF stuff in class\
+  \ um yeah and that's you know again to make sure that you have something prepared\
+  \ enough ahead of time that we can make sure that everybody's uploading their poster\
+  \ at the appropriate time yeah and then other than that poster presentation obviously\
+  \ required and then there's going to be one last kind of like outro chat basically\
+  \ the opposite of the intro chat that's just kind of like okay now we know who you\
+  \ are you've been around here so talk about your experiences and all that good stuff\
+  \ which is always my favorite part so we'll do that when it comes around okay okay\
+  \ feelings around that sounds good seems okay cool um yeah I did also put yet another\
+  \ uh checkpoint into the resources server stra checkpoints tab bottom there um starting\
+  \ to get kind of interesting the structure of it I'm not going to dig into it today\
+  \ but I was looking through it and it's like it's starting to get to the point where\
+  \ there's enough content in the server and kind of some things have shifted uh like\
+  \ at some point in the semester I told it to start wrapping keywords in the in the\
+  \ square brackets which I'm sure you've noticed which creates internal links for\
+  \ obsidian so that sort of if if you say oh hey you know tell me about Sports biomechanics\
+  \ it's like oh yeah blah blah blah biomechanics and it gets those square brackets\
+  \ around it that makes an automatic link to any other conversation that has had\
+  \ that similar tag um so it kind of changes some of the uh um word yeah it makes\
+  \ it's starting to make some interesting structures emerge um so feel free to poke\
+  \ around because it's interesting let's see okay cool all righty now let's get this\
+  \ computer a little bit work so in this course we have discussed a wide variety\
+  \ of things around the neural control of real world human movement and uh discuss\
+  \ it from a lot of different angles um and a lot of kind of focus on the Empirical\
+  \ research associated with that with that topic of neurally controlled human movement\
+  \ um and you know focusing on both like you know the interest and like sort of like\
+  \ the why you want to study it um some of the kind of like cartoonified stories\
+  \ that we tell around like what we know about those systems like anytime I give\
+  \ you a lecture where just like oh yeah here's this there's this part of the brain\
+  \ it talks that part of the brain and it's connected to this side of thing and then\
+  \ there's this spine it has it has these this that and the other properties like\
+  \ those are the kind of the narrative stories that we extract from whatever the\
+  \ strange activity of research is um uh but those are also obviously abstractions\
+  \ um they're not the type of thing that is precise enough to be nature even if words\
+  \ were precise it's just you know I can say oh yeah you have a spine and it has\
+  \ these parts and it does these these these roles but there's always obviously going\
+  \ to be a disconnect between that and your actual spine and the actual configurations\
+  \ of neurons within it not to mention the fact that each one of you is an individual\
+  \ um and your spines are similar in the same way that all of your faces are similar\
+  \ and all of your hands are similar which is to say like they they share rough roughly\
+  \ the same form but they are all individually unique and different in their own\
+  \ rights um so uh we also one of the themes I think has been um connecting and sort\
+  \ of really thinking about the connection between the empirical data that we can\
+  \ measure and the tools that we use to record that data and the kind of the the\
+  \ different sort of like modes and sort of pipelines of inference and computation\
+  \ that that leads us from you know voltages on a sensor recorded on a computer to\
+  \ something like oh yeah you have a spine and eyeballs and they do this that and\
+  \ the other kind of thing um at some point we pulled in a bunch of cameras and I\
+  \ showed you what motion capture looks like which is a way to measure the kinematics\
+  \ of the body kamatics means movement basically um and today we and biomechanics\
+  \ and all that stuff uh which is very focused on the um like the output of the system\
+  \ so when you talk about the perceptual motor system you're talking about perception\
+  \ and motor so perceptual is basically pulling information from the environment\
+  \ or pulling energy from the environment into your system uh and converting it into\
+  \ various sort of patterns of neural activity processed by various physiological\
+  \ structures um and then you do something what we might call cognition computation\
+  \ you know whatever sort of State transitions happen um from the input stage of\
+  \ the perceptual system something happens that becomes moving you make decisions\
+  \ internally you know uncountably many times per second and the end result is that\
+  \ your muscles the the motor units in your muscles fire and that causes your muscles\
+  \ to constrict and that causes forces in the world and you get movement and motion\
+  \ and things like that um so so with something like motion capture you're pretty\
+  \ much only getting that output you could there's ways that you could talk about\
+  \ there being in there there are inputs I guess being measured when you're look\
+  \ doing motion capture because we do have things like proprioception so I I there\
+  \ is internal perception of things like my joint angles and the pressure under my\
+  \ feet and things like that so that is a part of the perceptual system um but it's\
+  \ not we don't that's sort of very different kind of conceptually from the kind\
+  \ of perception you get from Vision uh humans are very very Vision oriented animals\
+  \ we have a lot of our nervous system dedicated to Vision in the processing of vision\
+  \ um and in particular our sort of personal species level um strategy for the kind\
+  \ of precise fast uh visual systems that we have is to have very very mobile eyes\
+  \ with a phobia um a phobia is the sort of the central spot we showed videos of\
+  \ the eye sort of pictures of the eye that sort of like like there's a place where\
+  \ all the wiring is kind of pushed out of the way um and that's that's your fobia\
+  \ it's a center visual feel it's about the size of your thumb at arms length and\
+  \ 50% of your visual cortex is devoted to processing that 1% of your visual field\
+  \ um and there's obviously lots and lots to say about that um but the main thing\
+  \ that I want to say here is that the way that we use our vision and really the\
+  \ way that you experience your perceptual world is very very coupled to your ability\
+  \ to make very fast and very precise eye movements at a pretty surprising rate um\
+  \ like you all now have this experience this visual experience of living in a colorful\
+  \ detailed and precise visual world like you have this sense that you see color\
+  \ from everywhere you see Precision you see sort of fine edges from everywhere in\
+  \ your visual field but the reality is that you only actually see that level of\
+  \ precision in that color from that Central node of your of your uh visual field\
+  \ um and your abil and the reason why it feels like you have that level of precision\
+  \ of your entire visual fuel is because that information is always very readily\
+  \ available to you because if you ever decide that you care about the color in the\
+  \ upper left part of your visual field you can always make an eye movement to there\
+  \ and have that information within 50 to 100 milliseconds um and so when we are\
+  \ thinking about human movement and we're thinking about human movement in the natural\
+  \ world uh the question of eye movement sort of becomes uh pretty pretty incumbent\
+  \ pretty quickly um for a number of interesting reasons uh ey tracking is really\
+  \ I think very interesting and very powerful sort of window and kind of like I consider\
+  \ it to be kind of there's like a there's a kind of like a like oh like isn't that\
+  \ lucky kind of sense of ey pading like because because we are humans because we\
+  \ have these very mobile eyes um and because you know we're sort of in this classroom\
+  \ you know people empirically studying that thing it's very very convenient that\
+  \ such a Cornerstone of our visual cognitive and behavioral experience exists in\
+  \ the form of something that is visible on the outside of your body that moves um\
+  \ so in the same sense that you can use cameras to record movement of the body you\
+  \ can also use cameras to record the movement of the eyes and because of how fast\
+  \ and how precise your your cognitive system is with the way that it makes those\
+  \ eye movements um it can be said and I have said and I will say and I will say\
+  \ again uh that studying the movement of your eyes is kind of there's it's like\
+  \ a behavioral analog to your cognitive process it's it's your your brain is deciding\
+  \ where to put your eyes in the world and it's happening at a speed and precision\
+  \ that's pretty far below your level of conscious experience like I've been studying\
+  \ IM moov movements and eye tracking since uh I guess about 11 years now um so I'm\
+  \ pretty tuned into to my own eye movements um but even still when I look at the\
+  \ patterns that my eyes make when I'm doing anything of interest um it's surprising\
+  \ it's surprising how fast and how many eye movements are happening within the space\
+  \ of time of that behavior uh so without any further do I guess let's go ahead and\
+  \ take a look at it so this is an ey tracker it's a people Labs ey tracker um people\
+  \ Labs is a s of a nice company makes so this this it tracker costs about $2,000\
+  \ which in the space of the research world is like very very cheap um and all their\
+  \ software is free and open source which I appreciate um their new stuff is kind\
+  \ of like this is the pup core it tracker um which seems like they're really they're\
+  \ not really developing it in the way that they used to and they're moving towards\
+  \ more like machine learning Solutions which I kind of don't like um they they're\
+  \ faster and the calibration is good but I just I don't like having machine learning\
+  \ in my inference pipelines if I can avoid it so I still prefer these systems which\
+  \ use more old school classical comper Vision um there's three cameras on here so\
+  \ you have one World camera that's sort of facing out sort of capturing roughly\
+  \ my point of view uh and then you have two eyeball cameras which are pointing in\
+  \ at my eyes here um these are infrared cameras which is important for reasons we'll\
+  \ show in a second um and this is an RGB camera so color camera like red green blue\
+  \ um which ready to go into details there but uh that is the case um yeah let me\
+  \ just go ahead and turn it up the software is not I would say the most reliable\
+  \ in the universe but I think we should probably be able to make it work and okay\
+  \ there's one there two and two eyeballs yes one of the eye cameras isn't working\
+  \ in this one so happy to have any that work okay so that's all of you and then\
+  \ let's look at let's just look at this one all right PR my right High Overexposed\
+  \ we'll deal with that in a second and resolution 400 400 okay then let me get this\
+  \ one the same is my left eye okay all right so this is my eyle congratulations\
+  \ um that's specifically my right eye and you can see come yeah you see there's\
+  \ my te duct right there Rush my eye see my so the white card is the spara and the\
+  \ color the the part of my eye which is normally blue is gray that's the iris and\
+  \ then the black spot is my pupil um and as we discussed last time um so the first\
+  \ thing you'll notice that this is Grays scale it's black and white um that is not\
+  \ necessarily so that this is an infrared camera um meaning it's sensitive to the\
+  \ wavelengths around 800 to 1,000 nanometers um we cannot see infrared light um\
+  \ except very very barely in very dark rooms you can see like a little bit of a\
+  \ red glow but that's Point um and uh the benefit of that is several FS one is that\
+  \ you'll see these two little white spots here um those are infrared emitters IED\
+  \ so LED light emitting diode IED infrared emitting diode just a a color of an LED\
+  \ and they're not like massively bright uh LEDs but if they were a color that I\
+  \ could see this would be a very uncomfortable thing to wear um because it would\
+  \ basically I would be blind I just be like blasted in the eyes would like um and\
+  \ I would be able to see but because it's blasting light in a wavelength that I\
+  \ am not sensitive to I don't see anything there it's just there's nothing going\
+  \ on um so basically that means that you can have all the benefits of having a bright\
+  \ light in a in a camera um but you don't blind your participants uh by blasting\
+  \ light in their eyeballs um the other benefit of this is that because we we are\
+  \ humans we like to see things and so one of the main technologies that we really\
+  \ don't give enough credit is that we have artificial Lighting in all of our living\
+  \ spaces um and because we cannot see infrared light we don't care or notice the\
+  \ fact that none of these artificial lighting system Sy produce infrared light they're\
+  \ all you know we target ways of putting light into rooms that are um that hour\
+  \ was the word uh yeah in the visible rate so like 450 to 720 nimet is roughly the\
+  \ sensitivity of visible light um so so as a result uh when I look at these lights\
+  \ you're not seeing reflections in my eyes from the lights out there um however\
+  \ uh actually let see this if I could you open that real quick yeah you can kind\
+  \ of see see there there's a little bit of Reflection from the from the window um\
+  \ I need to close the back sorry uh yeah the lights go in the wrong direction onwi\
+  \ actually hold on one second let me can we see that I don't know maybe yeah go\
+  \ ahead and close it thank you um the sun has a lot of infrared in it the sun glows\
+  \ in the black body radiation you did a great job thank you um so wearing if I was\
+  \ wearing this outside this image would be fully washed out like you wouldn't like\
+  \ there' be reflections of the world on my eyes because there's a lot of infrared\
+  \ in the world it would mess with the signal and when I have done research outside\
+  \ it's a problem and I wound up actually making people wear this like big kind of\
+  \ Da Punk green base shield that's infrared blocking and uh I'll show you a video\
+  \ of that when I give a lecture on that topic um uh Yeah so basically this camera\
+  \ is equivalent to having a a camera in a dark room with a spotlight shining on\
+  \ the thing that you're filming and everything else in the room is basically pitch\
+  \ black um and yeah so you see a lot of infrared so a lot of motion capture like\
+  \ traditional motion capture with markers uses infrared cameras for the same reason\
+  \ where you can basically have like infrared spotlights all through the room um\
+  \ that do not actually they're not actually visible um yeah and another thing so\
+  \ thing it's a little hard to tell let show this real quick so there's a there's\
+  \ a cool effect that's kind of somewhat hard to see but you can see um her keni\
+  \ images peni is one of these jerks that like discovered a bunch of stuff and because\
+  \ in the western tradition we love to name things after people because we're narcissists\
+  \ um when there's a person who just like discovers a bunch of stuff usually because\
+  \ they invented some kind of a method and then sort of like thaning her name and\
+  \ everything you have this thing where like everything in the field is named pinji\
+  \ so there's there's like everything in vision is pinji shift pinji effect pinji\
+  \ this pinji that it's just like sake like can we just name things after what they\
+  \ are instead of whoever found it first anyways freni images is a thing where uh\
+  \ uh if you have a light source we talk about sells law I believe it was about um\
+  \ this is I'm I'm now standing in there and Visually there's a huge bright light\
+  \ right there from the projector but there's no there's no reflection in my eye\
+  \ um so hard to be impressed by something that isn't there but I promise you this\
+  \ would not work nearly as well if that that was not the case um yeah so there's\
+  \ your eye a light source coming in from the out outside world is going to produce\
+  \ four different Reflections every time it chain the medium through which it is\
+  \ passing changes density I think it's how how to the right way to say that so you\
+  \ get a reflection from the outside of the cornea the inside of the cornea the outside\
+  \ of the lens and then the inside of the lens and there's all these sort of weird\
+  \ you know refractive angles and Stu like that and if you look very closely you\
+  \ can see there's some the ghosty dots you see here are the Ki images from those\
+  \ Reflections uh unfortunately like I used to have a version from this it trer that\
+  \ produced 1080p videos at 30 HZ as opposed to 400 uh at 400 by 400 pixels at 120\
+  \ HZ for research purposes 100 that's much better to have that faster frame rate\
+  \ than it is to have higher uh resolution but for demonstration purposes I really\
+  \ miss being able to have those high resolution images of the eye um St lucky uh\
+  \ yeah you can also see my contact lenses that there there see get some so I don't\
+  \ have a flashl on my oh there it is you also see some people construction so I\
+  \ mentioned hometry is a field that people study sort of like the measure like there's\
+  \ a lot of to-do done about this construction effect although specifically not so\
+  \ this is the one when we think of people constriction we think about I don't know\
+  \ what you think about but the the main effects of people constriction is that if\
+  \ the world is bright your people constrict so that you let in less light um it's\
+  \ sort of like the aperture of a camera um and it's just one of the many ways that\
+  \ we can adapt as aggressively as we do to change the luminance in our seen so you\
+  \ can you can see stuff at night walking around in the dark and you can also see\
+  \ stuff in the middle of the bright sunny day um and you can notice the difference\
+  \ if you pay attention but you can still like you can operate in level at at a range\
+  \ of light levels that we again don't really think about as much as we probably\
+  \ should um but it's a pretty dramatic range um next time it's like a full moon\
+  \ night and I guess you have to be like out somewhere Darth but um yeah it's pupil\
+  \ construction is one of the many ways that we sort of have that sensitivity uh\
+  \ um but there's also like effects of things like emotional state and arousal and\
+  \ compter and whatnot and so there's a lot of research that just looks at the people\
+  \ constriction signal as like a measure of Behavioral performance and I have beef\
+  \ with that whole field not because I don't think it's a real effect but because\
+  \ I don't think it deserves the level of attention that it gets and I think that\
+  \ most people I think that people study it because you can study it without knowing\
+  \ how to calibrate your equipment and and I just think I think scientists are most\
+  \ scientists are lazy cowards um and they should get better at using their tools\
+  \ uh so there meet someone who studies people on a tree let them know let them know\
+  \ whatever you want not my problem okay so what do you notice what is there anything\
+  \ that you notice about the imov that it's like that's surprising any just about\
+  \ what you would think your eyes look like yeah what's that it's more jally that's\
+  \ yes it is no no yeah yeah no that's it's it's jerkier than you would think um\
+  \ because because I've been talking about how you know that's I support the linguistic\
+  \ effort of attaching meaning to words without uh yeah creatively um but yeah it\
+  \ is the the IMs are jerkier than you would think they would be uh and in particular\
+  \ if you'll notice that there's there's kind of two types of IMS there's there's\
+  \ these ones uh and then there's these ones so there's slowe movements here and\
+  \ then there's jerky eye movements here so right now I'm just looking at each of\
+  \ your faces uh as quickly as I can which um I can't look at this I guess I can't\
+  \ look at the screen but it's sort of um the difference there is between what are\
+  \ called sads which is French for jerk so jerky moving is literally the term that\
+  \ is the correct one um s aons and it is yeah that image this is going to be one\
+  \ of those things we like I'm going to talk about these things I'll do a recording\
+  \ and then we'll come back and we'll see okay look at that thing because this is\
+  \ also getting into like a part of the research field where like I am just generally\
+  \ dissatisfied with the offerings of modern science when it comes to being able\
+  \ to look at eye movements and natural behavior um my postto adviser Mary heho is\
+  \ one of the sort of I say progenitors of the study of ey movements and natural\
+  \ behavior um and you know she's on she's in she's on kind of her own level and\
+  \ a lot of the field I mean science in general as we talked about a lot has like\
+  \ a very strong emphasis on like reductionism and sort of like nailing everything\
+  \ down so a lot of so and I think that's where you get things like pupilometry dominating\
+  \ in fact it's such a minor part of our visual system and you get you know a lot\
+  \ of a stimuli look just like like this a face which is in a black space with that\
+  \ promise you is just being viewed by a participant whose like head isn't a literal\
+  \ Vice and so they they study eye movements and sort of absence of real behavior\
+  \ um but that's okay uh but so it's a Cod and the kind ofing data like this so we\
+  \ have time on this axis then we have a safe I horizontal position um on this axis\
+  \ so I if I I'm looking if you look at my eyes here right as I'm so it's at one\
+  \ part of the screen it's at the other part of the screen one part of the screen\
+  \ other part of the screen and so if this is one part of the screen and I make an\
+  \ eye movement the other side and to jump like that I jumped that like that so it's\
+  \ got this kind of really really uh steep slope because the velocity is very high\
+  \ this is the same so this is a form of motion capture this is the same kind of\
+  \ thing as studying you know the body moving around um and you know same kind of\
+  \ idea there so sads for if your head is not moving sods resemble a square wave\
+  \ so a square wave is a wave that looks like a square um and the slope here indicates\
+  \ the speed and sads are very very very fast they are the fastest movement that\
+  \ your body can make um and they are done like the way that we produce them is very\
+  \ sort of interesting and complex and ties in to part like many different levels\
+  \ and aspects of the of the ocul motor system kind so the ocul motor system is often\
+  \ considered like in separation from like the visual system so or it's like a portion\
+  \ of the visual system and the part when I talk about like the visual cortex like\
+  \ the thing in the back of your head that's mostly about visual perception ction\
+  \ um and like your perception of the world which is dependent on where your eye\
+  \ is pointing at any given time like a lot of the that part of the brain is uh split\
+  \ up retinotopically retino toop retinotopic map so retinotopy retina as in like\
+  \ retin the map of the toy is map retina is Retina so a retina topic map is like\
+  \ a map of your retina and if this is your field of view which is not actually a\
+  \ circle um the the Wikipedia page about your peripheral vision is nice that's a\
+  \ lot of nice pictures but if you think about the center of your visual field this\
+  \ is kind of map here and if you look into your visual cortex it's sort of arranged\
+  \ along that kind of a map so your visual cortex is kind of defined by your eyeball\
+  \ like the center of your visual field and so your ocul motor system job is to move\
+  \ that Center in round to the areas that have the most interesting important and\
+  \ relevant information to whatever task you may be performing in the time um yeah\
+  \ the complicated stuff there uh yeah so sads are what we call fast eye movements\
+  \ um and then there's also these other kind of movements which are these ones so\
+  \ these are slow ey movements and anyone why is my why am my why are my eyes moving\
+  \ right now so I so right now I'm looking at you my eyes are looking at you my retina\
+  \ is extracting information and now and but my eyes are moving all over the place\
+  \ even though I'm still looking at you because they are they're in my head right\
+  \ uh we move our heads a lot not as much as but a lot but a fair amount that's fun\
+  \ a a percentage of the class just went like oh yeah you do um and when we we talk\
+  \ about options and like the things in your retina that sort of have that absorb\
+  \ light and they change shape and how that whole sort of retina top that sort of\
+  \ cascade occurs um and one of the main things I've mentioned that is that that\
+  \ process is relatively slow um slow meaning it takes you know a dozen milliseconds\
+  \ to operate and then longer than that to sort of clean itself up um that's why\
+  \ you get like after effect you look at bried lights um so what that means is that\
+  \ in order for your eyeballs to be able to extract the precise information that\
+  \ we want them to extract they have to be remain fixed in the world relative to\
+  \ the thing that you're looking at so if I'm looking at someone in the distance\
+  \ and I'm mooving my head around in order for me to be able to extract uh the information\
+  \ that I need from that area my eyes have to stay fixed relative to that point and\
+  \ so your eye so your eye muscles have it's kind of like a gimbal situation um OC\
+  \ ocul motor muscles um yeah see your eyes have this kind of a gimbal shape where\
+  \ they have two muscles that control the upward downward movement two muscles that\
+  \ control the side to side movements and then two weird ones on the top deck control\
+  \ tortion which is the rotation around the visual axis and those eye muscles do\
+  \ multiple jobs and one of them is to make what you can think of as kind of information\
+  \ gathering sads so if I'm looking at Q and I'm sort of while I'm looking like oh\
+  \ I wonder what that clock says even though it's been stopped incorrectly the entire\
+  \ semester I might make a Cod up there so I'm looking here and I look over there\
+  \ and I look back so looking in this direction at whatever I'm looking at back up\
+  \ to the clock back here so that's like an information gathering theot um or I could\
+  \ be looking at the clock and kind of bouncing around and then you get this sort\
+  \ of movement which is like a stabilization slow stabilization kind of gimbal like\
+  \ if anyone's ever played with like a drone like the quadcopter drone and they have\
+  \ the camera that moves that's a symbol that's a two AIS gimbal this thing here\
+  \ is a two AIS gimbal um we have a three AIS gimbal because we also have this axis\
+  \ there so this one this is called portion uh and it's basically as you it that's\
+  \ that Optical AIS rotation that you that you get from those weird top and bottom\
+  \ what they called uh interior and and Superior oblique muscle um and it's a relatively\
+  \ uh like what's the word um the range of motion is pretty constrained for that\
+  \ I think it's plus orus 7\xB0 um and you can see as I Mo so if I move my head a\
+  \ little bit you can see my gaze kind of rotating around that Optical axis trying\
+  \ to keep the image on the back of my retina as close to stable as can but you can\
+  \ also see if I keep rotating it kind of ticks over is that's basically it gets\
+  \ to its limit and then kind of gives up and ticks back so tick tick tick tick that's\
+  \ fun um and you can do this yourself like next time you get a chance just have\
+  \ a like turn your your camera around to face you and then kind of like look at\
+  \ your eye and you can kind of see some of these things however what you will not\
+  \ you can see a ya I thought you were just shocked that at the exist forward facing\
+  \ cameras um and um yeah so you'll be able to see the slow eye movements if you're\
+  \ looking in in the mirror or in the camera or something like that and you move\
+  \ your head around you'll be able to see the eye movements and you'll start to it's\
+  \ one of those things it's like if you've never thought about your eye movements\
+  \ before con congratulations you're going to be thinking about them a lot um and\
+  \ it's just kind of yeah sort of a fascinating thing um one of the thing and so\
+  \ you'll be able to see these slow eye movements but you will what you will not\
+  \ be able to see somewhat strangely is the Scot like if you're looking at the camera\
+  \ maybe with your with the phone cam the phone camera because it is slightly delayed\
+  \ from reality you might be able to see it um but in a mirror you won't be able\
+  \ to see aod because your your vision is suppressed when you're making a Fast eye\
+  \ movement so when your eye is moving at this speed um it's so that the movement\
+  \ is so fast that the opsins in your retina have no time to do anything with it\
+  \ so even if you so one of these sort of complicated things were like even if you\
+  \ were able to see during that time you wouldn't see anything of Interest it would\
+  \ be blurry it'd be kind of like if you focus on your finger and move around you\
+  \ can see the world kind of like blurring out and and sort of smearing out in the\
+  \ background that's what it would look like if you could see during this Cod um\
+  \ but you can't because you're it appears that your visual system suppresses it\
+  \ like you could be having a perceptual experience but something at some level any\
+  \ time you talk about the the nervous system at this level of abstraction just understand\
+  \ I'm like I'm trying to scrape what I know about a a pretty deep subfield which\
+  \ is fairly murky in itself um it's appeared that your visual system has adopted\
+  \ a strategy to not process visual information during a sad um because because is\
+  \ also a very dangerous word um because there's no point there it's it's not useful\
+  \ information and so your nervous system does other stuff during that time there's\
+  \ evidence that during that sort of trans setic period um trans like during transition\
+  \ whatever that the visual system is kind of preparing for what it thinks is going\
+  \ to be under your phobia when when your eyeball gets to that point um because imov\
+  \ are kind of a predictive thing like because we do have a fairly broad peripheral\
+  \ field um when we when I make an ey movement to the clock I expect to see a clock\
+  \ when I get there because I can see the little white patch I know that there's\
+  \ a clock there and so there's evidence that like you're down to level of like V1\
+  \ primary visual cortex there kind of a preparatory thing happening where the visual\
+  \ system is expecting to see a CT the stimulus that it sort of sees in its periphery\
+  \ um which both makes it much faster to process once you get there and also makes\
+  \ it much faster to process if something goes wrong so if I'm expecting to see a\
+  \ certain thing and then I wind up seeing something else that mismatch is triggered\
+  \ much more quickly because of whatever weird magic is happening during the transic\
+  \ period and uh yeah so these ey movements slow ones are uh mostly driven by V which\
+  \ is arguably my favorite uh my favorite reflex um vestibulo ocular reflex v um\
+  \ I've certainly I've mentioned this a little bit at least at some point um but\
+  \ V is the connection between your vestibular organs uh which is what people often\
+  \ call your inner ear and your eyeball and so basically these so these movements\
+  \ in my eye are are directly canceling out the movements of my head so if my head\
+  \ moves left my and I 18 fixation when I head my head my head moves left my eyes\
+  \ move right and vice versa and so the two cancel each other out which is in effect\
+  \ that I arguably the reason why I got this job is because I figured out how to\
+  \ sort of take advantage of that coupling to to calibrate ey tractors into motion\
+  \ capture systems and that's sort of part of the the technical basis of like the\
+  \ laser skeleton stuff show up at some point um but it's a it's an extremely lowlevel\
+  \ an extremely old reflex and your vular organs are these very interesting things\
+  \ in the back of your head there are these fluid filed canals um that basically\
+  \ when you move the the fluid like gel fluid um has inertia so if you move your\
+  \ head it takes a second for the the gel to catch up and it had there's these you\
+  \ know hair cells that are sort of ingrained in that gel um and so as the gel wobbles\
+  \ uh the it is picked up by the hair cells and that's part of how your your brain\
+  \ part how your nervous system tells your head is moving it's a specifically head\
+  \ Centric measurement um that tells you the six degree Freedom uh acceleration of\
+  \ your head so translation and then rotation you have these like semicircular canals\
+  \ which are literal like Circles of of of Goo that are sort of they look kind of\
+  \ like this semicircular canals and they measure rotation in all three directions\
+  \ and so um you ever not that any of you would but if you ever like drink alcohol\
+  \ and then lay down and get the stins um it's thought to be related to to these\
+  \ things because when you drink alcohol the density of your blood thins ever so\
+  \ slightly and your body is very very sensitive to that type of thing so if you're\
+  \ walking around with your eyes open you can tell that the world isn't moving because\
+  \ you know your eyes are pretty good at doing that kind of stuff um but when you\
+  \ close your eyes and lay down the only signal that you have telling you whether\
+  \ or not you're rotating and are these fluid filed canals which have just had the\
+  \ density of their requisite fluid lowered in an artificial way so that is why if\
+  \ you ever have the experience of drinking alcohol and lying down and feeling like\
+  \ you're spinning it's because your body starts relying on the vestibular organs\
+  \ and they start and they're giving faulty information because you have altered\
+  \ the density of the fluid in your blood so slightly so if that ever happens just\
+  \ open your eyes grab on to something give your body any kind of a clue that you\
+  \ are not in fact spinning um and and hope for the best and uh also yeah don't don't\
+  \ drink too much it's not drinking a lot isn't cool it's just like it's not that\
+  \ it isn't cool it's just like lame cuz you just become a burden every around you\
+  \ but they forgive you probably um uh I would um yeah okay cool one other piece\
+  \ of so I I so I I you have the fast eye movements of sads these kind of jerky movements\
+  \ jerky jittery movements um you have the slow movements of the stipular ocular\
+  \ reflex and there's a couple others too um a relative uh newcomer to the sort of\
+  \ Pantheon of eye movements with the sort of evolutionary time is this one so notice\
+  \ that my head is not moving and yet my eyes are now still going to have a nice\
+  \ smooth movement uh this is called Smooth Pursuit and it's me tracking the basically\
+  \ I'm tracking an object in the world so I'm looking at my finger and tracking it\
+  \ smoothly and because of that sort of like visual Anchor Point I am able to generate\
+  \ some of the diamonds but if I were try if I I'm just now going to do this on the\
+  \ back wall I'm going to attempt to make a smooth eye movement from the left to\
+  \ the right and I can't necess I actually I can't do it because I'm sort of trained\
+  \ into stuff but as even if I this as smooth as I try to make it you'll notice that\
+  \ I'm actually just making a series of cots from one point to the other but if I\
+  \ track my my finger I can track it smoothly across the back wall so they're called\
+  \ Smooth Pursuit eye movements and they are a strange and somewhat mysterious thing\
+  \ um you cannot do them without a visual reference point like your visual system\
+  \ just will not move smoothly like that there's too many mechanisms that sort of\
+  \ clamp down on the visual environment that you're looking at um but if you're if\
+  \ you're looking at something and tracking it the there's feedback loops there that\
+  \ allow you to make smooth eye moov an exception to that rule is that apparently\
+  \ you can do that tracking with without a visual reference point if you're in a\
+  \ completely pit black room and you're tracking your own finger so if you're in\
+  \ a room moving your finger it's pitch black so you can't see your finger but somehow\
+  \ you're able to make that kind of like connection of what's called efference copy\
+  \ of the of the movement of your limb is able to smooth out the eye movements in\
+  \ a very S I would say interesting and mysterious way uh [Music] all right so we\
+  \ got 20 minutes left and I need probably the last 15 minutes to do the actual recording\
+  \ uh any questions thoughts things you want me to see me do uh yeah um should I\
+  \ speak up uh I think that you can kind of feel your eyes so it doesn't necessarily\
+  \ roll back in your head um what's that so what I will say is that blinking is a\
+  \ strange and interesting behavior um and like the way that we choose when to Blink\
+  \ is also kind of like strategically aligned within the the eye movement in a way\
+  \ that's sort of because like the purpose of a blink is that these are are mucous\
+  \ membranes they have to stay wet um so if you keep your eyes open too long they\
+  \ dry out and so we blink to sort of reup the tier me the tier film that keeps your\
+  \ eyes sort of you know happy um and it is also the case that if you blink you are\
+  \ blind because your eyes are closed um and uh there's interesting effects where\
+  \ if you give people difficult tasks they time their blinks to happen during big\
+  \ cats so first of all if you're doing a difficult task so like the classic St study\
+  \ is on Pilots you have like a pilot flying a plane they blink at a normal rate\
+  \ but during takeoff and Landing they basically stop blinking um and so they're\
+  \ when they're when they're coming in for the landing their eyes stay open and then\
+  \ when they actually get to the point where they're now safe they go blink blink\
+  \ blink blink blink and I noticed that when I was having that people sort of walk\
+  \ on the rocky terrain like when they are walking in the terrain they make very\
+  \ very few blinks and then when they get to the end they blink blink blink blinkink\
+  \ um the exception to that rule is that if you're making a big sad like when they\
+  \ look when they're walking and they look up to see the Target and look back down\
+  \ during that period of like a big CAD people will blink and it'll even half blink\
+  \ so like they'll like while my eye is moving because I am blind during that sad\
+  \ anyway somehow my nervous system knows to time the blinks during that 50 milliseconds\
+  \ of of of dead Z of dead time um which is just yeah wild and interesting stuff\
+  \ and there's army stuff so uh and don't think our eyes we don't it's just not there\
+  \ there's not enough time for our eyes to move really during a blink but it is shockingly\
+  \ complex Behavior everything is so complicated even blinking blinking blinking\
+  \ is complicated enough for like multiple careers like this is why I like insects\
+  \ they just like they're small it seems doable um yeah um yeah okay actually get\
+  \ started for here you go um I can show more Stu later okay um how we feel about\
+  \ all this quarter so now I'm going to do a a quick recording that we can I'm going\
+  \ to analyze later I'm going to try to because as everybody knows when when the\
+  \ record button turns on you get significantly dumber and that is magnified by the\
+  \ number of cameras so it's important to plan ahead uh so so I'm going to start\
+  \ by doing a calibration L calibration and then horizontal Andals movements I guess\
+  \ if I got that um smooth suit and then fun stuff and then oh that's not do I'm\
+  \ not going to do okay so let's go ahead and get started and I'm not going to calibrate\
+  \ this so 3 2 one okay so we are recording I'm going to give it a second at the\
+  \ start so it can sort of fill the IM model which I'll talk about later and then\
+  \ I give it a calibration scene which is okay so and looking here look up try again\
+  \ let's try that again and okay so give it a second at the beginning to sort of\
+  \ stabilize its model good job and then calibrate the ey tracker there there so\
+  \ much more bont movement than there is vertical okay so now that is not calibrated\
+  \ but I have the information in the video that I need to calibrate it and now horiz\
+  \ okay yeah so horizontal Cuts so looking at from finger to finger vertical Cuts\
+  \ finger controlled by different part of your visual system turns out apparently\
+  \ there's separation between horizontal and vertical S I don't know much more than\
+  \ what I just said so uh a second V which I'm already doing that but this is something\
+  \ that may or may not work out and that's fine um smooth Pursuit so now I'm going\
+  \ to do the thing I did before so I'm tracking my finger on the back wall and that\
+  \ will be nice and smooth that's some vertically why not a little bit busted because\
+  \ I'm like looking through the Eye camera for that one and now I'm going to try\
+  \ to make the eye movement without that and when we get the data back we'll see\
+  \ that I fa okay and now now we do this so brightly colored balls with a visual\
+  \ motor task this is one of those things where I throw the ball and I have some\
+  \ information about the throw and that defines a trajectory defines a rigid trajectory\
+  \ in space bistic but my information about that trajectory is noisy because it's\
+  \ dependent on like weird Sensations from my hand so what happens uh is at least\
+  \ a natural tendency um you don't have to do this eventually but we tend to look\
+  \ at the Apex of of the throw so we find we suot over to where the we we suot over\
+  \ to where we think the ball is going to be and we track it up until it sort of\
+  \ gets to the Apex at that point we have all the information we need to put our\
+  \ hand in the right location and we're good to go uh so we'll see what that looks\
+  \ like and I should read something okay let me read something okay the vestibular\
+  \ there is a reflex that go gaze in the head and eye movements and blah blah blah\
+  \ blah blah gaze is held steady on a location with there for example and the head\
+  \ moves to the right since that is there blah blah blah okay um done with that that's\
+  \ as much reading as I do right now reading is like another classic ey tracking\
+  \ task um and yeah I can still read with this amount of available Cog information\
+  \ or cognitive capacity I guess okay anything else to do before we turn it off no\
+  \ I think that's good okay and uh okay cool all right let me just make sure that\
+  \ I got that data I didn't do anything wacky to it 31 this is the last time I talk\
+  \ this CL uh uh a different class but same demo um um this is the one that I turned\
+  \ off this is the one that I used and we go ey it's upside down because the right\
+  \ just the nature of the geometry of the left and right eye one of them has to be\
+  \ flipped um but the data doesn't care and also you really can't see it on the screen\
+  \ it looks better on um this data will be available you at some point um cool and\
+  \ also so yeah this is this is just like a fun visual of the the geometry that's\
+  \ being solved for the eye tracker um so first of all this eye tractor does not\
+  \ track torsion no ey tractor that I'm aware of tracks torsion um uh so you'll see\
+  \ the the the pupil the the sphere kind of just like spins around in its axis because\
+  \ it's just an untracked Dimension it's also kind of noisy but that's the way it\
+  \ is um this is another kind of thing that in the field there is a completely incorrect\
+  \ belief in many sort of areas of traditional Neuroscience that like ctional are\
+  \ just like not behaviorally relevant and don't really sort of happen in an interesting\
+  \ way and there sort of arguments that they don't basically gives people a pass\
+  \ to ignore them um which are really predicated on the fact that most of the times\
+  \ so if your head is not moving you don't need torsion but if it is you do and any\
+  \ hard to describe uh that's a deeper beef that I have time to get into you right\
+  \ now um but basically the the algorithm that's being used here is it's assuming\
+  \ that your eye is a sphere which it's not but it's close enough and if and assume\
+  \ that your pupil is a circle on the surface of that sphere sphere um and so if\
+  \ that is the case and you see and if you see the dark the dark circle which is\
+  \ the part of the um Circle there uh and you're seeing if it if you're if it appears\
+  \ to to be a circle then you must be staring straight down pupil you see it as an\
+  \ ellipse then you must be seeing it from the side and so this sort of noisy thing\
+  \ is based off of that sort of geometric assumption um let me see if this works\
+  \ I feel like they disabled this at some point but if they didn't algorithm yay\
+  \ um so this is a representation of the calculation that's actually processing the\
+  \ image um the blue is the the everything that's below I think this so this is a\
+  \ measure of the luminance of the pixels like brightest brightest darkest I think\
+  \ the bottom is the darkest and so this is the blue are the pixels that fall within\
+  \ this bottom range this is called a dark pupil detector it's detecting the Dark\
+  \ of the pupil and then you can see it gets a little confused once I go to the edge\
+  \ because there's it gets dark which wish I checked this beforehand I going change\
+  \ the the exposure um and then the yellow is the brightest tracking so that it's\
+  \ also it's tracking the that reflection of The Infrareds of the ireds um on that's\
+  \ they're called the corneal reflection and so sort of part of the algorithm there\
+  \ and then yeah and then once it it detects that dark Splash and says okay that's\
+  \ probably the pupil and then it fits an ellipse within that dark patch and then\
+  \ it assumes that's the pupil and then it does that 3D conversion thing and then\
+  \ the result is the table that I will show you either next time or this time after\
+  \ that um yeah there you go that's eye tracking in a nutshell um it's it's a fun\
+  \ thing the data is super rich like problematically rich like motion capture data\
+  \ so motion capture data is also very rich but it's also higher dimensional so like\
+  \ it's a it's big Blobby data with like a complicated movement this is the data\
+  \ is a low it's lower dimensional meaning that the you get X and Y position of of\
+  \ the Gaze in the screen per frame um because we don't measure torsion the the signal\
+  \ that you get out of this is just literally like up down left right so it's a much\
+  \ lower um yeah just lower dimensionality um but it's so much of it and it's so\
+  \ the Precision is there complexity is there and it's kind of like it's a more abstract\
+  \ like the the goals are more abstract like you don't have the benefits of like\
+  \ Isaac Newton telling you what what physics are or what mechanic like what mechanical\
+  \ trth yeah like you don't have like the three laws of motion you have Snell's law\
+  \ and that's about it you have Snell's law and the assumption that we have a phobia\
+  \ so that's what we're trying to point at the things that we care about and then\
+  \ um for me so this is where I think Mary my Mary heill my adviser like a lot of\
+  \ her claim to fame I think in terms of like the the the research sort of umbrella\
+  \ that she has built is the conception of of tax being a driver of eye during natural\
+  \ behavior so if you can figure out what the task is that can help you understand\
+  \ what the eye elements are so in this case and that task can be very abstract like\
+  \ that's why things like juggling are nice because this is a very it's a it's a\
+  \ fast it's a repetitive and it's uh success and failure is Optimus um and this\
+  \ kind right now my task is give a lecture to a room full of of people and so if\
+  \ you look at my adents I'm going to be basically face to face trying to figure\
+  \ out like like scotting from face to face trying to figure out like you know how\
+  \ we're doing and you know what's what's Landing what's not um and yeah I will say\
+  \ this before we go uh just for history sake humans Love Faces it's like our favorite\
+  \ thing uh Yaris and if you're looking at a person I guess depending on which way\
+  \ they're facing um we mostly look at faces it's our absolutely favorite thing in\
+  \ the world to look at is a human face and if you put it a human face in a visual\
+  \ scene people just naturally look to it and then when we look at it we tend to\
+  \ adopt this pattern of like I I mouth I I mouth I I mouth I've seen this like there's\
+  \ like a weird Trend in the sort of the pseudo science of the internet people start\
+  \ talking about like oh yeah the triangle method you got to look at your eyes look\
+  \ at the mouth and it's like as if it's like a strategy that you can like some people\
+  \ have seen this I promise you that's all anyone's ever doing when they look at\
+  \ you and that's all you're doing when you look at anyone I ey mouth that's that's\
+  \ what we care about um because that's where the information is that's where all\
+  \ that's sort of there's also an unfortunate reality of like if a person's not looking\
+  \ at you there's another part of the body that you tend to look at um which you\
+  \ can put all sorts of information onto that but it's also the most informative\
+  \ part of the back of a person like it tells you a lot about where they're moving\
+  \ um but it does mean that I've had to learn how to design experiments that tend\
+  \ not to Happ humans facing away from the participant because it's just not polite\
+  \ to to measure that um yeah this is from uh Jaris 1967 uh they just showed people\
+  \ faces and then showed them pictures and said things like you know uh what do you\
+  \ think people are doing you know what do you think their socioeconomic status is\
+  \ like you know what era is this image from and then based off of instructions you\
+  \ get different eye movement patterns looking for that same kind of information\
+  \ um ey tracking used to look like like this so in like the weird eye contact lenses\
+  \ space uh this is like the stuff that my advisor got her degree doing like they\
+  \ would put like a suction cup on your spara with a with a mirror on it like a tiny\
+  \ little mirror like attached to your eye and then it would shine a bright light\
+  \ in your face so that the mirror would shine onto a projector screen then they\
+  \ would film the projector screen and then track the dot there and just do all the\
+  \ geometry to sort of figure out back what was going on um from the eye so we are\
+  \ grateful and using like apparatuses like this which this is actually what a lot\
+  \ of visual Neuroscience looks like it's like put your head in the device and then\
+  \ point this is like a high perent this is an old feure but you still see stuff\
+  \ like this in the modern era and these cameras are the kinds of cameras that we\
+  \ can make these days and they can be very very high act very high resolution very\
+  \ high frame rate um okay and that's that's all the time we have today uh perplexity\
+  \ Ai and notebook LM that's those are the tools I particularly like notebook LM\
+  \ as a Google product um just go there sign with your whatever Google account and\
+  \ then just like ask it about your paper and tell it that it can search puet for\
+  \ you you and have fun it's a very powerful tool okay uh and that's it thank you\
+  \ see you Wednesday"
+metadata:
+  author: Jon Matthis
+  channel_id: UCOOQxlTCtUz9mr1NPWlJyYQ
+  description: ''
+  duration: '5320'
+  like_count: ''
+  publish_date: '2025-03-31T08:32:01-07:00'
+  tags: ''
+  title: 2025 03 10 15 02
+  view_count: '0'
+transcript_chunks:
+- dur: 180.0
+  end: 180.0
+  start: 0.0
+  text: okay Hello everybody welcome back to this space uh hope you had good Spring
+    Breaks spring has broken and you were all inside which I take is a tremendous
+    compliment so thank you um I have brought still more technology so I brought this
+    is very exciting I brought both an ey tracker and a computer to today which is
+    many consider to be the minimum equipment set required to actually record ey tracking
+    so that's good um let's see I'm pull this no that um all right so so today as
+    promised we're going to be doing an ey tracking demo know have you can see my
+    eyes very big on the screen um I don't think that will take up the whole time
+    but I've been historically bad at predicting how much time things will take um
+    but uh I think that what it'll probably happen is like let me rephrase that like
+    I know that the recording can't take up the whole time because I can't record
+    that long and have anything to say about it so uh what I suspect we'll do today
+    is I'm going to do some kind of catch-up stuff and sort of talking about various
+    states of various things and assignments and posters and all that good stuff um
+    and then I'll talk a little bit about eye tracking kind of in general and then
+    I'll do the actual ey tracking demo and then at the end um we'll see where we're
+    at uh and if not either we'll be at the end and we'll call it good or um we'll
+    spend the last chunk of the of the day um I'm going to I want to introduce you
+    guys to some of the other like AI tools that I found recently that are very nice
+    and helpful and maybe beneficial to you in your daily lives skybot is a useful
+    tool for being kind of a you know class Wrangler but there's a lot of additional
+    tools people have put out that can do things like search Pub Med and search the
+    internet and look at PDFs and stuff like that um so if there is time we can we'll
+    take some time to kind of like you know work do some of those together or youall
+    to work on it and I'll go around talking to you um or uh I'll just tell you about
+    them and you can do them yourself okay okay um have I pulled this down yes yeah
+    okay so this is the this is the schedule as it exists um we're on week 10 out
+    of 15 so whatever that that
+- dur: 180.0
+  end: 360.0
+  start: 180.0
+  text: proportionality is 2/3 sounds right um and today we're going to do the ey
+    tracking demo uh next time this is going to be another kind of like hybrid uh
+    thing so my plan is to record the data today and I'm not going to be able to just
+    like spin it around and show it to you because it'll take a little bit more finagling
+    than that um so I will either have a chance to kind of crank something out before
+    Wednesday or I'll just push it to the next dime and we'll kind of Shuffle around
+    the topics that way um in terms of topics I'll talk about the assignments in a
+    second but in terms of topics this B an dragonflies also just like three papers
+    that I really like about um perceptual motor systems in insects which is personally
+    near and dear hobby or sort of topic to my heart for no particular reason other
+    than I think it's cool um so if I can I kind of like blast through those three
+    and just sort of show you what the papers look like tell you the general story
+    and just kind of give you more like experience looking into the nitty-gritties
+    of particular papers um this Evolution thing is just like a a little sort of a
+    semic canned lecture that I like to do about the broad history of everything sort
+    of leading up to the muscule skeletal and nervous system that you are currently
+    walking around with which just provides lot of context with things Gap filling
+    isn't kind just sort of it's kind of just empty spot R just I'll put whatever
+    is in there if that needs to be in there when think shake out um next Monday uh
+    we will take wait no two Mondays from that um the poster upload is Thea is Tuesday
+    so we'll take that Monday to have just like in class kind of like let's go over
+    our posters together and sort of make sure that we're happy with them make sure
+    the formatting is all looking good and the PDFs are the right shape and all that
+    type sort of stuff um and then if you're in class you can do the upload there
+    uh so that way that can be sorted um that the next day I'm going to talk about
+    my own dumb research uh history um which is sort of you know a fair amount there
+    but I've talked about it a lot so I can be moderately efficient with it um but
+    it's sort of like especially after the evolution talk um you have at least been
+    officially exposed to the majority of the context that my research has occurred
+    within so I feel sort of like part of the way that I kind of organized this class
+    is like okay what would have to be kind of in the background for me to be able
+    to talk about the research that I do without spending the entire time talking
+    about like the wise and the context and things like that so good fun um after
+    that another semican uh lecture I like to give on the autonomic nervous system
+    which is uh sort of at one point in this class I said you have a central nervous
+    system and a
+- dur: 180.0
+  end: 540.0
+  start: 360.0
+  text: periperal peripheral nervous system but that's a bit of an oversimplification
+    um things like the autonomic nervous system could arguably be considered kind
+    of like separate from those two uh not to mention the inter inter nervous system
+    the gut whatever the gut is um and that ANS sort of has a lot of ties things like
+    trauma and PTSD which I think is a good uh just kind of like a public service
+    announcement like hey you're a human person and this is how your body responds
+    to stress of varying levels um so this is good to know for yourself and also for
+    interactions with other humans who have been Shackled with similar strengths and
+    weaknesses um after that the this last Wednesday here that I guess will be in
+    April at that point um we'll spend that time doing sort of poster practice at
+    that point your posters will be kind of locked in like the the physical poster
+    will be I think printed by that point oh yeah we print um yeah I'm not sure my
+    question how that works but um posters will be printed um so we can sort of either
+    if we have physical posters bring them in here but that might get crowded or just
+    kind of like have a bit of practice describing your poster to fellow humans just
+    to kind of like give you a little bit of practice and kind of give you some experience
+    kind of like trying to speak the content of the poster because it is a very human
+    and recurring experience to feel like it's like oh yeah I 100% have this in my
+    head and then you actually try to do it and you're like wait I haven't actually
+    ever produced these sounds in this order before and it's just it's a good idea
+    I mean no matter what you'll have your poster feeli lock down pat by the end of
+    your poster session um but if we do a little practice beforehand it will free
+    you up from some the first couple will always be a bit clunky but ideally we can
+    do that in a more controlled environment um the week of the poster presentation
+    itself uh I will give you an assignment of like which day you're presenting and
+    which day you're observing um if you have a strong preference like if there's
+    something else going on let me know but otherwise it's just you know it's during
+    this class period so I know you're free so uh and you're supposed to go to all
+    of the sessions and you'll either be presenting your poster or going around and
+    sort of collecting you know check marks people who have you every going going
+    to posters um and we'll talk about how to sort of wrangle that but basically the
+    goal is to both get experience being at a poster which is its own kind of skill
+    um and also give the person that you're talking to the person that's presenting
+    the poster you know the constructive feedback that you kind of need an external
+    set of eyeballs to do and then last week we'll do some retrospective some wrap-ups
+    um I'll show you how to make your own Skelly bot server if you're into that talk
+    about sort of some you know I will have sort of finalized
+- dur: 180.0
+  end: 720.0
+  start: 540.0
+  text: is uh data analysis of the course and some representations of that and uh
+    we'll call that good so I'll talk about the assignments in a second but in terms
+    of content is there any thoughts feelings questions emotional helpers related
+    to that seems fine cool okay in terms of assignments and assignment like objects
+    um I have put up so I've seen a a a number of you all have already had the the
+    midterm chat let got update um which just in the in the in the course server in
+    the assignment Channel there's a midterm chat and in that channel the bot has
+    been prompted to kind of help you connect your interests and topic to the broader
+    topics of the course um and we talked last time about the The Prompt has now expanded
+    in complexity a lot I added a lot of like basically summarizations and sort of
+    condensations of everything that I've been talking about in the lectures of the
+    course so uh and just kind of scanning it like does anyone who's had the chat
+    like how how are the Vibes now are they does it seem similar does it seem anything
+    has it gone weird has it does it like talk too much or too little or say anything
+    yeah my scan sort of cursory scan of what's going on seems good to me it's one
+    of those things where like I can tell tell that there's a shift in the way that
+    it talks about stuff in a way that it feels really good from my perspective um
+    I'm not sure if you would notice the changes that happened um because like from
+    my perspective it's kind of like because y'all you all tend to come in and you
+    say like hey I've got this that and the other interest and then the bot sort of
+    previously was told about what the class is about but wasn't given like the details
+    of like the actual lectures so if you say something like hey I'm interested in
+    like sports biome mechanics the bot gives you kind of the in the way that these
+    things tend to do sort of the belly of the bell curve like middle of the road
+    like statistically most likely answer of a b with this prompting kind of like
+    answering the question of like hey what is biomechanics now that it has this sort
+    of Fairly excessive level of pre- prompting um with you know the content being
+    like the lectures that I have given the way that it answers those questions feels
+    much more to me like the way that I would answer the questions like the the things
+    that it highlights the thing that it brings up the things that it kind of ties
+    in is more aligned with the kinds of things that I personally would if you asked
+    me hey what's biomechanics I would give you a different answer than if you asked
+    you know some hypothetical statistically average biomechanist person um so it's
+    one of those and it's one of these things it's like there's no way for you to
+    quite know that but from my perspective it looks better so as long as it's not
+    getting weird like like if
+- dur: 180.0
+  end: 900.0
+  start: 720.0
+  text: it ever starts just like repeating the same word over and over and over and
+    over again like stuff like that that is uh that is one of the ways these things
+    brains can break so um but I think even though it feels like a lot of prompting
+    I think in the scheme of the landscape of this technology it's not actually that
+    much cool um oh yeah and then there is now a official canvas assignment for for
+    that um so uh if you've already done it just go in there and kind of check the
+    box um I I I added has anyone seen the assignment yet like on canvas when did
+    you post it like this morning oh yeah I was going to say I checked for it yeah
+    yeah yeah like when I say and morning I think is a broad term in this weird daylight
+    savings time um so there should be like an entry for like a URL is that right
+    I just is that accurate yeah okay cuz I just checked the box of like URL entry
+    um that URL is supposed to be like a uh just post a link to the chat so you can
+    get that in various ways just right click it uh actually it might need to be the
+    the message yeah so basically any message attached to the chat either top level
+    or in it just so that I can see that um there um and mostly that is because I
+    realized I don't actually have like I don't have like a mapping from your Discord
+    ID to your ex student ID um so I'm going to try to like extract that semi passively
+    uh and I have also now added this poster outline so um in terms of assignments
+    an assignment like objects just because things need deadlines um both the midterm
+    chat and a poster outline chat um or poster outline I guess uh full stop um are
+    officially due at the end of this week meaning like Sunday before next week um
+    you know it they will it I don't please do it but I don't I'm not going to like
+    chase you down or ruin your future or anything like that um and the midterm teds
+    like have a conversation like you know like you write at least five messages so
+    there's at least 10 total um but obviously you can keep talking if it's interesting
+    and then the uh second one here is um specifically to help you come up with like
+    the outline form of your paper so like the the things we've talked about of like
+    here's my paper here's the you know intro methods uh what's it called uh results
+    conclusions and kind of like making sure that you know you know which images you're
+    going to copy paste into thing don't put images in the chats um I think it might
+    actually break if you do that um yeah I'm not 100% sure what will
+- dur: 180.0
+  end: 1080.0
+  start: 900.0
+  text: happen but if you put a video if you put an image in there and it stops responding
+    then just like make another chat uh and then don't do that um and this one was
+    doing some very expedient and elegant prompting to tell it to pay attention to
+    the assignment I think one of things because the the base prompt is gotten so
+    long when I put little instructions in the channels it often ignores them so uh
+    repetition is a very efficient form of emphasis so I just basically yelled at
+    it until it started responding it start until it started because it would be the
+    kind of thing as like it would start the conversation just saying like hey how's
+    it going and i' be like is there something you're supposed to do and it's like
+    oh yeah we're supposed to do this outline thing um so I just added this and just
+    copy pasted it so that now when you start the chat it will be like oh hey we're
+    doing this house it's just outline thing um also let me know if it Behavior gets
+    weird um but I think it should be fine um this kind of stuff also is it it's pretty
+    effective but it's a kind of thing like I wouldn't be surprised if it starts if
+    like the personality gets weird and sort of more like I don't know traditional
+    like teacher student types of relationship stuff of like not we need to talk about
+    anything that's not like hard to find in the assignment but we'll see um and again
+    the oh go oh it's over here yeah and I'm I'm I'm making both of those assignments
+    that have due dates and all that stuff um the midterm is like official they're
+    both official assignments but and specifically the postra line is designed to
+    help you out and just make sure that you have those ideas together all these things
+    are decided to help you out I'm not really design I'm not attempting to like twist
+    your arm and make you struggle just this all this is all really to help you do
+    the kind of synthesis and integration and kind of like connecting the vague thoughts
+    to your specific interests um and then the the sort of um the output of the poster
+    outline is you're supposed to ask it for a sort of structured summary that you
+    can copy paste into the assignment um into the the canus assignment and you are
+    welcome to do that just sort of copy pasting type of thing don't copy paste from
+    your paper um but if you take if you have a conversation and then at the end you
+    say hey give me an outline um you can specifically prompt it to like just copy
+    this into the thing um that's valid uh if if you don't like its responses um you
+    can either do what I the natural human behavior of keep telling it to fix it over
+    and over again and then never and never being satisfied with the response or you
+    can do something crazy which is copy paste it into like a word editor and then
+    just like change it yourself or if you're really feeling saucy just write yourself
+    it won't take you that long um and yeah
+- dur: 180.0
+  end: 1260.0
+  start: 1080.0
+  text: then copy that in and uh and yeah and then the next week the assignment is
+    the poster draft um and that will be do again kind of the the Sunday before the
+    upload day um and that is just a singular um I guess I'll ask you for the pdf
+    version of it at that point um but if you have hard time making that happen um
+    it's fine to just give me the the PowerPoint or whatever other format you want
+    and we'll we'll figure out the PDF stuff in class um yeah and that's you know
+    again to make sure that you have something prepared enough ahead of time that
+    we can make sure that everybody's uploading their poster at the appropriate time
+    yeah and then other than that poster presentation obviously required and then
+    there's going to be one last kind of like outro chat basically the opposite of
+    the intro chat that's just kind of like okay now we know who you are you've been
+    around here so talk about your experiences and all that good stuff which is always
+    my favorite part so we'll do that when it comes around okay okay feelings around
+    that sounds good seems okay cool um yeah I did also put yet another uh checkpoint
+    into the resources server stra checkpoints tab bottom there um starting to get
+    kind of interesting the structure of it I'm not going to dig into it today but
+    I was looking through it and it's like it's starting to get to the point where
+    there's enough content in the server and kind of some things have shifted uh like
+    at some point in the semester I told it to start wrapping keywords in the in the
+    square brackets which I'm sure you've noticed which creates internal links for
+    obsidian so that sort of if if you say oh hey you know tell me about Sports biomechanics
+    it's like oh yeah blah blah blah biomechanics and it gets those square brackets
+    around it that makes an automatic link to any other conversation that has had
+    that similar tag um so it kind of changes some of the uh um word yeah it makes
+    it's starting to make some interesting structures emerge um so feel free to poke
+    around because it's interesting let's
+- dur: 180.0
+  end: 1440.0
+  start: 1260.0
+  text: see okay cool all righty now let's get this computer a little bit work so
+    in this course we have discussed a wide variety of things around the neural control
+    of real world human movement and uh discuss it from a lot of different angles
+    um and a lot of kind of focus on the Empirical research associated with that with
+    that topic of neurally controlled human movement um and you know focusing on both
+    like you know the interest and like sort of like the why you want to study it
+    um some of the kind of like cartoonified stories that we tell around like what
+    we know about those systems like anytime I give you a lecture where just like
+    oh yeah here's this there's this part of the brain it talks that part of the brain
+    and it's connected to this side of thing and then there's this spine it has it
+    has these this that and the other properties like those are the kind of the narrative
+    stories that we extract from whatever the strange activity of research is um uh
+    but those are also obviously abstractions um they're not the type of thing that
+    is precise enough to be nature even if words were precise it's just you know I
+    can say oh yeah you have a spine and it has these parts and it does these these
+    these roles but there's always obviously going to be a disconnect between that
+    and your actual spine and the actual configurations of neurons within it not to
+    mention the fact that each one of you is an individual um and your spines are
+    similar in the same way that all of your faces are similar and all of your hands
+    are similar which is to say like they they share rough roughly the same form but
+    they are all individually unique and different in their own rights um so uh we
+    also one of the themes I think has been um connecting and sort of really thinking
+    about the connection between the empirical data that we can measure and the tools
+    that we use to record that data and the kind of the the different sort of like
+    modes and sort of pipelines of inference and computation that that leads us from
+    you know voltages on a sensor recorded on a computer to something like oh yeah
+    you have a spine and eyeballs and they do this that and the other kind of thing
+    um at some point we pulled in a bunch of cameras and I showed you what motion
+    capture looks like which is a way to measure the kinematics of the body kamatics
+    means movement
+- dur: 180.0
+  end: 1620.0
+  start: 1440.0
+  text: basically um and today we and biomechanics and all that stuff uh which is
+    very focused on the um like the output of the system so when you talk about the
+    perceptual motor system you're talking about perception and motor so perceptual
+    is basically pulling information from the environment or pulling energy from the
+    environment into your system uh and converting it into various sort of patterns
+    of neural activity processed by various physiological structures um and then you
+    do something what we might call cognition computation you know whatever sort of
+    State transitions happen um from the input stage of the perceptual system something
+    happens that becomes moving you make decisions internally you know uncountably
+    many times per second and the end result is that your muscles the the motor units
+    in your muscles fire and that causes your muscles to constrict and that causes
+    forces in the world and you get movement and motion and things like that um so
+    so with something like motion capture you're pretty much only getting that output
+    you could there's ways that you could talk about there being in there there are
+    inputs I guess being measured when you're look doing motion capture because we
+    do have things like proprioception so I I there is internal perception of things
+    like my joint angles and the pressure under my feet and things like that so that
+    is a part of the perceptual system um but it's not we don't that's sort of very
+    different kind of conceptually from the kind of perception you get from Vision
+    uh humans are very very Vision oriented animals we have a lot of our nervous system
+    dedicated to Vision in the processing of vision um and in particular our sort
+    of personal species level um strategy for the kind of precise fast uh visual systems
+    that we have is to have very very mobile eyes with a phobia um a phobia is the
+    sort of the central spot we showed videos of the eye sort of pictures of the eye
+    that sort of like like there's a place where all the wiring is kind of pushed
+    out of the way um and that's that's your fobia it's a center visual feel it's
+    about the size of your thumb at arms length and 50% of your visual cortex is devoted
+    to processing that 1% of your visual field um
+- dur: 180.0
+  end: 1800.0
+  start: 1620.0
+  text: and there's obviously lots and lots to say about that um but the main thing
+    that I want to say here is that the way that we use our vision and really the
+    way that you experience your perceptual world is very very coupled to your ability
+    to make very fast and very precise eye movements at a pretty surprising rate um
+    like you all now have this experience this visual experience of living in a colorful
+    detailed and precise visual world like you have this sense that you see color
+    from everywhere you see Precision you see sort of fine edges from everywhere in
+    your visual field but the reality is that you only actually see that level of
+    precision in that color from that Central node of your of your uh visual field
+    um and your abil and the reason why it feels like you have that level of precision
+    of your entire visual fuel is because that information is always very readily
+    available to you because if you ever decide that you care about the color in the
+    upper left part of your visual field you can always make an eye movement to there
+    and have that information within 50 to 100 milliseconds um and so when we are
+    thinking about human movement and we're thinking about human movement in the natural
+    world uh the question of eye movement sort of becomes uh pretty pretty incumbent
+    pretty quickly um for a number of interesting reasons uh ey tracking is really
+    I think very interesting and very powerful sort of window and kind of like I consider
+    it to be kind of there's like a there's a kind of like a like oh like isn't that
+    lucky kind of sense of ey pading like because because we are humans because we
+    have these very mobile eyes um and because you know we're sort of in this classroom
+    you know people empirically studying that thing it's very very convenient that
+    such a Cornerstone of our visual cognitive and behavioral experience exists in
+    the form of something that is visible on the outside of your body that moves um
+    so in the same sense that you can use cameras to record movement of the body you
+    can also use cameras to record the movement of the eyes and because of how fast
+    and how precise your your cognitive system is with the way that it makes those
+    eye movements um it can be said and I have said and I will say and I will say
+    again uh that studying the movement of your eyes is kind of there's it's like
+    a behavioral analog to your cognitive process it's it's your your brain is deciding
+    where to put your eyes in the world and it's happening at a speed and precision
+    that's pretty far below your level of conscious experience like I've been studying
+    IM moov movements and eye tracking since uh I guess about 11 years
+- dur: 180.0
+  end: 1980.0
+  start: 1800.0
+  text: now um so I'm pretty tuned into to my own eye movements um but even still
+    when I look at the patterns that my eyes make when I'm doing anything of interest
+    um it's surprising it's surprising how fast and how many eye movements are happening
+    within the space of time of that behavior uh so without any further do I guess
+    let's go ahead and take a look at it so this is an ey tracker it's a people Labs
+    ey tracker um people Labs is a s of a nice company makes so this this it tracker
+    costs about $2,000 which in the space of the research world is like very very
+    cheap um and all their software is free and open source which I appreciate um
+    their new stuff is kind of like this is the pup core it tracker um which seems
+    like they're really they're not really developing it in the way that they used
+    to and they're moving towards more like machine learning Solutions which I kind
+    of don't like um they they're faster and the calibration is good but I just I
+    don't like having machine learning in my inference pipelines if I can avoid it
+    so I still prefer these systems which use more old school classical comper Vision
+    um there's three cameras on here so you have one World camera that's sort of facing
+    out sort of capturing roughly my point of view uh and then you have two eyeball
+    cameras which are pointing in at my eyes here um these are infrared cameras which
+    is important for reasons we'll show in a second um and this is an RGB camera so
+    color camera like red green blue um which ready to go into details there but uh
+    that is the case um yeah let me just go ahead and turn it up the software is not
+    I would say the most reliable in the universe but I think we should probably be
+    able to make it work and okay there's one there two and two eyeballs yes one of
+    the eye cameras isn't working in this one so happy to have any that work
+- dur: 180.0
+  end: 2160.0
+  start: 1980.0
+  text: okay so that's all of you and then let's look at let's just look at this one
+    all right PR my right High Overexposed we'll deal with that in a second and resolution
+    400 400 okay then let me get this one the same is my left eye okay all right so
+    this is my eyle congratulations um that's specifically my right eye and you can
+    see come yeah you see there's my te duct right there Rush my eye see my so the
+    white card is the spara and the color the the part of my eye which is normally
+    blue is gray that's the iris and then the black spot is my pupil um and as we
+    discussed last time um so the first thing you'll notice that this is Grays scale
+    it's black and white um that is not necessarily so that this is an infrared camera
+    um meaning it's sensitive to the wavelengths around 800 to 1,000 nanometers um
+    we cannot see infrared light um except very very barely in very dark
+- dur: 180.0
+  end: 2340.0
+  start: 2160.0
+  text: rooms you can see like a little bit of a red glow but that's Point um and
+    uh the benefit of that is several FS one is that you'll see these two little white
+    spots here um those are infrared emitters IED so LED light emitting diode IED
+    infrared emitting diode just a a color of an LED and they're not like massively
+    bright uh LEDs but if they were a color that I could see this would be a very
+    uncomfortable thing to wear um because it would basically I would be blind I just
+    be like blasted in the eyes would like um and I would be able to see but because
+    it's blasting light in a wavelength that I am not sensitive to I don't see anything
+    there it's just there's nothing going on um so basically that means that you can
+    have all the benefits of having a bright light in a in a camera um but you don't
+    blind your participants uh by blasting light in their eyeballs um the other benefit
+    of this is that because we we are humans we like to see things and so one of the
+    main technologies that we really don't give enough credit is that we have artificial
+    Lighting in all of our living spaces um and because we cannot see infrared light
+    we don't care or notice the fact that none of these artificial lighting system
+    Sy produce infrared light they're all you know we target ways of putting light
+    into rooms that are um that hour was the word uh yeah in the visible rate so like
+    450 to 720 nimet is roughly the sensitivity of visible light um so so as a result
+    uh when I look at these lights you're not seeing reflections in my eyes from the
+    lights out there um however uh actually let see this if I could you open that
+    real quick yeah you can kind of see see there there's a little bit of Reflection
+    from the from the window um I need to close the back sorry uh yeah the lights
+    go in the wrong direction onwi actually hold on one second let me can we see that
+    I don't know maybe yeah go ahead and close it thank you um the sun has a lot of
+    infrared in it the sun glows in the black body radiation you did a great job thank
+    you um so wearing if I was wearing this outside
+- dur: 180.0
+  end: 2520.0
+  start: 2340.0
+  text: this image would be fully washed out like you wouldn't like there' be reflections
+    of the world on my eyes because there's a lot of infrared in the world it would
+    mess with the signal and when I have done research outside it's a problem and
+    I wound up actually making people wear this like big kind of Da Punk green base
+    shield that's infrared blocking and uh I'll show you a video of that when I give
+    a lecture on that topic um uh Yeah so basically this camera is equivalent to having
+    a a camera in a dark room with a spotlight shining on the thing that you're filming
+    and everything else in the room is basically pitch black um and yeah so you see
+    a lot of infrared so a lot of motion capture like traditional motion capture with
+    markers uses infrared cameras for the same reason where you can basically have
+    like infrared spotlights all through the room um that do not actually they're
+    not actually visible um yeah and another thing so thing it's a little hard to
+    tell let show this real quick so there's a there's a cool effect that's kind of
+    somewhat hard to see but you can see um her keni images peni is one of these jerks
+    that like discovered a bunch of stuff and because in the western tradition we
+    love to name things after people because we're narcissists um when there's a person
+    who just like discovers a bunch of stuff usually because they invented some kind
+    of a method and then sort of like thaning her name and everything you have this
+    thing where like everything in the field is named pinji so there's there's like
+    everything in vision is pinji shift pinji effect pinji this pinji that it's just
+    like sake like can we just name things after what they are instead of whoever
+    found it first anyways freni images is a thing where uh uh if you have a light
+    source we talk about sells law I believe it was about um this is I'm I'm now standing
+    in there and Visually there's a huge bright light right there from the projector
+    but there's no there's no reflection in my eye um so hard to be impressed by something
+    that isn't there but I promise you this would not work nearly as well if that
+    that was not the case um yeah so there's your eye a light source coming in from
+    the out outside world is going to produce four different Reflections every time
+    it chain the medium through which it is passing changes density I think it's how
+    how to the right way to
+- dur: 180.0
+  end: 2700.0
+  start: 2520.0
+  text: say that so you get a reflection from the outside of the cornea the inside
+    of the cornea the outside of the lens and then the inside of the lens and there's
+    all these sort of weird you know refractive angles and Stu like that and if you
+    look very closely you can see there's some the ghosty dots you see here are the
+    Ki images from those Reflections uh unfortunately like I used to have a version
+    from this it trer that produced 1080p videos at 30 HZ as opposed to 400 uh at
+    400 by 400 pixels at 120 HZ for research purposes 100 that's much better to have
+    that faster frame rate than it is to have higher uh resolution but for demonstration
+    purposes I really miss being able to have those high resolution images of the
+    eye um St lucky uh yeah you can also see my contact lenses that there there see
+    get some so I don't have a flashl on my oh there it is you also see some people
+    construction so I mentioned hometry is a field that people study sort of like
+    the measure like there's a lot of to-do done about this construction effect although
+    specifically not so this is the one when we think of people constriction we think
+    about I don't know what you think about but the the main effects of people constriction
+    is that if the world is bright your people constrict so that you let in less light
+    um it's sort of like the aperture of a camera um and it's just one of the many
+    ways that we can adapt as aggressively as we do to change the luminance in our
+    seen so you can you can see stuff at night walking around in the dark and you
+    can also see stuff in the middle of the bright sunny day um and you can notice
+    the difference if you pay attention but you can still like you can operate in
+    level at at a range of light levels that we again don't really think about as
+    much as we probably should um but it's a pretty dramatic range um next time it's
+    like a full moon night and I guess you have to be like out somewhere Darth but
+    um yeah it's pupil construction is one of the many ways that we sort of have that
+    sensitivity uh um but there's also like effects of things like emotional state
+    and arousal and compter and whatnot and so there's a lot of research
+- dur: 180.0
+  end: 2880.0
+  start: 2700.0
+  text: that just looks at the people constriction signal as like a measure of Behavioral
+    performance and I have beef with that whole field not because I don't think it's
+    a real effect but because I don't think it deserves the level of attention that
+    it gets and I think that most people I think that people study it because you
+    can study it without knowing how to calibrate your equipment and and I just think
+    I think scientists are most scientists are lazy cowards um and they should get
+    better at using their tools uh so there meet someone who studies people on a tree
+    let them know let them know whatever you want not my problem okay so what do you
+    notice what is there anything that you notice about the imov that it's like that's
+    surprising any just about what you would think your eyes look like yeah what's
+    that it's more jally that's yes it is no no yeah yeah no that's it's it's jerkier
+    than you would think um because because I've been talking about how you know that's
+    I support the linguistic effort of attaching meaning to words without uh yeah
+    creatively um but yeah it is the the IMs are jerkier than you would think they
+    would be uh and in particular if you'll notice that there's there's kind of two
+    types of IMS there's there's these ones uh and then there's these ones so there's
+    slowe movements here and then there's jerky eye movements here so right now I'm
+    just looking at each of your faces uh as quickly as I can which um I can't look
+    at this I guess I can't look at the screen but it's sort of um the difference
+    there is between what are called sads which is French for jerk so jerky moving
+    is literally the term that is the correct one um s aons and it is yeah that image
+    this is going to be one of those things we like I'm going to talk about these
+    things I'll do a recording and then we'll come back and we'll see okay look at
+    that thing because this is also getting into like a part of the research field
+    where like I am just generally dissatisfied with the offerings of modern science
+    when it comes to being able to look at eye movements and natural behavior um my
+    postto adviser
+- dur: 180.0
+  end: 3060.0
+  start: 2880.0
+  text: Mary heho is one of the sort of I say progenitors of the study of ey movements
+    and natural behavior um and you know she's on she's in she's on kind of her own
+    level and a lot of the field I mean science in general as we talked about a lot
+    has like a very strong emphasis on like reductionism and sort of like nailing
+    everything down so a lot of so and I think that's where you get things like pupilometry
+    dominating in fact it's such a minor part of our visual system and you get you
+    know a lot of a stimuli look just like like this a face which is in a black space
+    with that promise you is just being viewed by a participant whose like head isn't
+    a literal Vice and so they they study eye movements and sort of absence of real
+    behavior um but that's okay uh but so it's a Cod and the kind ofing data like
+    this so we have time on this axis then we have a safe I horizontal position um
+    on this axis so I if I I'm looking if you look at my eyes here right as I'm so
+    it's at one part of the screen it's at the other part of the screen one part of
+    the screen other part of the screen and so if this is one part of the screen and
+    I make an eye movement the other side and to jump like that I jumped that like
+    that so it's got this kind of really really uh steep slope because the velocity
+    is very high this is the same so this is a form of motion capture this is the
+    same kind of thing as studying you know the body moving around um and you know
+    same kind of idea there so sads for if your head is not moving sods resemble a
+    square wave so a square wave is a wave that looks like a square um and the slope
+    here indicates the speed and sads are very very very fast they are the fastest
+    movement that your body can make um and they are done like the way that we produce
+    them is very sort of interesting and complex and ties in to part like many different
+    levels and aspects of the of the ocul motor system kind so the ocul motor system
+    is often considered like in separation from like the visual system so or it's
+    like a portion of the visual system and the part when I talk about like the visual
+    cortex like the thing in the back of your head that's mostly about visual perception
+    ction um and like your perception of the world which is
+- dur: 180.0
+  end: 3240.0
+  start: 3060.0
+  text: dependent on where your eye is pointing at any given time like a lot of the
+    that part of the brain is uh split up retinotopically retino toop retinotopic
+    map so retinotopy retina as in like retin the map of the toy is map retina is
+    Retina so a retina topic map is like a map of your retina and if this is your
+    field of view which is not actually a circle um the the Wikipedia page about your
+    peripheral vision is nice that's a lot of nice pictures but if you think about
+    the center of your visual field this is kind of map here and if you look into
+    your visual cortex it's sort of arranged along that kind of a map so your visual
+    cortex is kind of defined by your eyeball like the center of your visual field
+    and so your ocul motor system job is to move that Center in round to the areas
+    that have the most interesting important and relevant information to whatever
+    task you may be performing in the time um yeah the complicated stuff there uh
+    yeah so sads are what we call fast eye movements um and then there's also these
+    other kind of movements which are these ones so these are slow ey movements and
+    anyone why is my why am my why are my eyes moving right now so I so right now
+    I'm looking at you my eyes are looking at you my retina is extracting information
+    and now and but my eyes are moving all over the place even though I'm still looking
+    at you because they are they're in my head right uh we move our heads a lot not
+    as much as but a lot but a fair amount that's fun a a percentage of the class
+    just went like oh yeah you do um and when we we talk about options and like the
+    things in your retina that sort of have that absorb light and they change shape
+    and how that whole sort of retina top that sort of cascade occurs um and one of
+    the main things I've mentioned that is that that process is relatively slow um
+    slow meaning it takes you know a dozen milliseconds to operate and then longer
+    than that to sort of clean itself up um that's why you get like after effect you
+    look at bried lights um so what that means is that in order for your eyeballs
+    to be able to extract the precise information that we want them to extract they
+    have to be remain fixed in the world relative to the thing that you're looking
+    at so if I'm looking at someone in the distance and I'm mooving my head around
+    in order for me to be able to extract uh the
+- dur: 180.0
+  end: 3420.0
+  start: 3240.0
+  text: "information that I need from that area my eyes have to stay fixed relative\
+    \ to that point and so your eye so your eye muscles have it's kind of like a gimbal\
+    \ situation um OC ocul motor muscles um yeah see your eyes have this kind of a\
+    \ gimbal shape where they have two muscles that control the upward downward movement\
+    \ two muscles that control the side to side movements and then two weird ones\
+    \ on the top deck control tortion which is the rotation around the visual axis\
+    \ and those eye muscles do multiple jobs and one of them is to make what you can\
+    \ think of as kind of information gathering sads so if I'm looking at Q and I'm\
+    \ sort of while I'm looking like oh I wonder what that clock says even though\
+    \ it's been stopped incorrectly the entire semester I might make a Cod up there\
+    \ so I'm looking here and I look over there and I look back so looking in this\
+    \ direction at whatever I'm looking at back up to the clock back here so that's\
+    \ like an information gathering theot um or I could be looking at the clock and\
+    \ kind of bouncing around and then you get this sort of movement which is like\
+    \ a stabilization slow stabilization kind of gimbal like if anyone's ever played\
+    \ with like a drone like the quadcopter drone and they have the camera that moves\
+    \ that's a symbol that's a two AIS gimbal this thing here is a two AIS gimbal\
+    \ um we have a three AIS gimbal because we also have this axis there so this one\
+    \ this is called portion uh and it's basically as you it that's that Optical AIS\
+    \ rotation that you that you get from those weird top and bottom what they called\
+    \ uh interior and and Superior oblique muscle um and it's a relatively uh like\
+    \ what's the word um the range of motion is pretty constrained for that I think\
+    \ it's plus orus 7\xB0 um and you can see as I Mo so if I move my head a little\
+    \ bit you can see my gaze kind of rotating around that Optical axis trying to\
+    \ keep the image on the back of my retina as close to stable as can but you can\
+    \ also see if I keep rotating it kind of ticks over is that's basically it gets\
+    \ to its limit and then kind of gives up and ticks back so tick tick tick tick\
+    \ that's fun um and you can do this yourself like next time you get a chance just\
+    \ have a like turn your your camera around to face you and then kind of like look\
+    \ at your eye and you can kind of see some of these things however what you will\
+    \ not you can see a ya I thought you were just shocked"
+- dur: 180.0
+  end: 3600.0
+  start: 3420.0
+  text: that at the exist forward facing cameras um and um yeah so you'll be able
+    to see the slow eye movements if you're looking in in the mirror or in the camera
+    or something like that and you move your head around you'll be able to see the
+    eye movements and you'll start to it's one of those things it's like if you've
+    never thought about your eye movements before con congratulations you're going
+    to be thinking about them a lot um and it's just kind of yeah sort of a fascinating
+    thing um one of the thing and so you'll be able to see these slow eye movements
+    but you will what you will not be able to see somewhat strangely is the Scot like
+    if you're looking at the camera maybe with your with the phone cam the phone camera
+    because it is slightly delayed from reality you might be able to see it um but
+    in a mirror you won't be able to see aod because your your vision is suppressed
+    when you're making a Fast eye movement so when your eye is moving at this speed
+    um it's so that the movement is so fast that the opsins in your retina have no
+    time to do anything with it so even if you so one of these sort of complicated
+    things were like even if you were able to see during that time you wouldn't see
+    anything of Interest it would be blurry it'd be kind of like if you focus on your
+    finger and move around you can see the world kind of like blurring out and and
+    sort of smearing out in the background that's what it would look like if you could
+    see during this Cod um but you can't because you're it appears that your visual
+    system suppresses it like you could be having a perceptual experience but something
+    at some level any time you talk about the the nervous system at this level of
+    abstraction just understand I'm like I'm trying to scrape what I know about a
+    a pretty deep subfield which is fairly murky in itself um it's appeared that your
+    visual system has adopted a strategy to not process visual information during
+    a sad um because because is also a very dangerous word um because there's no point
+    there it's it's not useful information and so your nervous system does other stuff
+    during that time there's evidence that during that sort of trans setic period
+    um trans like during transition whatever that the visual system is kind of preparing
+    for what it thinks is going to be under your phobia when when your eyeball gets
+    to that point um because imov are kind of a predictive thing like because we do
+    have a fairly broad peripheral field um when we when I make an ey movement to
+    the clock I expect to see a clock when I get there because I can see the little
+    white patch I know that there's a clock there and so there's evidence that like
+    you're down to level of like V1 primary visual cortex there kind of a preparatory
+    thing happening where the visual system is expecting to see a CT the stimulus
+    that it sort of sees in its periphery um
+- dur: 180.0
+  end: 3780.0
+  start: 3600.0
+  text: which both makes it much faster to process once you get there and also makes
+    it much faster to process if something goes wrong so if I'm expecting to see a
+    certain thing and then I wind up seeing something else that mismatch is triggered
+    much more quickly because of whatever weird magic is happening during the transic
+    period and uh yeah so these ey movements slow ones are uh mostly driven by V which
+    is arguably my favorite uh my favorite reflex um vestibulo ocular reflex v um
+    I've certainly I've mentioned this a little bit at least at some point um but
+    V is the connection between your vestibular organs uh which is what people often
+    call your inner ear and your eyeball and so basically these so these movements
+    in my eye are are directly canceling out the movements of my head so if my head
+    moves left my and I 18 fixation when I head my head my head moves left my eyes
+    move right and vice versa and so the two cancel each other out which is in effect
+    that I arguably the reason why I got this job is because I figured out how to
+    sort of take advantage of that coupling to to calibrate ey tractors into motion
+    capture systems and that's sort of part of the the technical basis of like the
+    laser skeleton stuff show up at some point um but it's a it's an extremely lowlevel
+    an extremely old reflex and your vular organs are these very interesting things
+    in the back of your head there are these fluid filed canals um that basically
+    when you move the the fluid like gel fluid um has inertia so if you move your
+    head it takes a second for the the gel to catch up and it had there's these you
+    know hair cells that are sort of ingrained in that gel um and so as the gel wobbles
+    uh the it is picked up by the hair cells and that's part of how your your brain
+    part how your nervous system tells your head is moving it's a specifically head
+    Centric measurement um that tells you the six degree Freedom uh acceleration of
+    your head so translation and then rotation you have these like semicircular canals
+    which are literal like Circles of of of Goo that are sort of they look kind of
+    like this semicircular
+- dur: 180.0
+  end: 3960.0
+  start: 3780.0
+  text: canals and they measure rotation in all three directions and so um you ever
+    not that any of you would but if you ever like drink alcohol and then lay down
+    and get the stins um it's thought to be related to to these things because when
+    you drink alcohol the density of your blood thins ever so slightly and your body
+    is very very sensitive to that type of thing so if you're walking around with
+    your eyes open you can tell that the world isn't moving because you know your
+    eyes are pretty good at doing that kind of stuff um but when you close your eyes
+    and lay down the only signal that you have telling you whether or not you're rotating
+    and are these fluid filed canals which have just had the density of their requisite
+    fluid lowered in an artificial way so that is why if you ever have the experience
+    of drinking alcohol and lying down and feeling like you're spinning it's because
+    your body starts relying on the vestibular organs and they start and they're giving
+    faulty information because you have altered the density of the fluid in your blood
+    so slightly so if that ever happens just open your eyes grab on to something give
+    your body any kind of a clue that you are not in fact spinning um and and hope
+    for the best and uh also yeah don't don't drink too much it's not drinking a lot
+    isn't cool it's just like it's not that it isn't cool it's just like lame cuz
+    you just become a burden every around you but they forgive you probably um uh
+    I would um yeah okay cool one other piece of so I I so I I you have the fast eye
+    movements of sads these kind of jerky movements jerky jittery movements um you
+    have the slow movements of the stipular ocular reflex and there's a couple others
+    too um a relative uh newcomer to the sort of Pantheon of eye movements with the
+    sort of evolutionary time is this one so notice that my head is not moving and
+    yet my eyes are now still going to have a nice smooth movement uh this is called
+    Smooth Pursuit and it's me tracking the basically I'm tracking an object in the
+    world so I'm looking at my finger and tracking it smoothly and because of that
+    sort of like visual Anchor Point I am able to generate some of the diamonds but
+    if I were try if I I'm just now going to do this on the back wall I'm going to
+    attempt to make a smooth eye movement from the left to the right
+- dur: 180.0
+  end: 4140.0
+  start: 3960.0
+  text: and I can't necess I actually I can't do it because I'm sort of trained into
+    stuff but as even if I this as smooth as I try to make it you'll notice that I'm
+    actually just making a series of cots from one point to the other but if I track
+    my my finger I can track it smoothly across the back wall so they're called Smooth
+    Pursuit eye movements and they are a strange and somewhat mysterious thing um
+    you cannot do them without a visual reference point like your visual system just
+    will not move smoothly like that there's too many mechanisms that sort of clamp
+    down on the visual environment that you're looking at um but if you're if you're
+    looking at something and tracking it the there's feedback loops there that allow
+    you to make smooth eye moov an exception to that rule is that apparently you can
+    do that tracking with without a visual reference point if you're in a completely
+    pit black room and you're tracking your own finger so if you're in a room moving
+    your finger it's pitch black so you can't see your finger but somehow you're able
+    to make that kind of like connection of what's called efference copy of the of
+    the movement of your limb is able to smooth out the eye movements in a very S
+    I would say interesting and mysterious way uh [Music] all right so we got 20 minutes
+    left and I need probably the last 15 minutes to do the actual recording uh any
+    questions thoughts things you want me to see me do uh yeah um should I speak up
+    uh I think that you can kind of feel your eyes so it doesn't necessarily roll
+    back in your head um what's that so what I will say is that blinking is a strange
+    and interesting behavior um and like the way that we choose when to Blink is also
+    kind of like strategically aligned within the the eye movement in a way that's
+    sort of because like the purpose of a blink is that these are are mucous membranes
+    they have to stay wet um so if you keep your eyes open too long they dry out and
+    so we blink to sort of reup the tier me the tier film that keeps your eyes sort
+    of you know happy um and it is also the case that if
+- dur: 180.0
+  end: 4320.0
+  start: 4140.0
+  text: you blink you are blind because your eyes are closed um and uh there's interesting
+    effects where if you give people difficult tasks they time their blinks to happen
+    during big cats so first of all if you're doing a difficult task so like the classic
+    St study is on Pilots you have like a pilot flying a plane they blink at a normal
+    rate but during takeoff and Landing they basically stop blinking um and so they're
+    when they're when they're coming in for the landing their eyes stay open and then
+    when they actually get to the point where they're now safe they go blink blink
+    blink blink blink and I noticed that when I was having that people sort of walk
+    on the rocky terrain like when they are walking in the terrain they make very
+    very few blinks and then when they get to the end they blink blink blink blinkink
+    um the exception to that rule is that if you're making a big sad like when they
+    look when they're walking and they look up to see the Target and look back down
+    during that period of like a big CAD people will blink and it'll even half blink
+    so like they'll like while my eye is moving because I am blind during that sad
+    anyway somehow my nervous system knows to time the blinks during that 50 milliseconds
+    of of of dead Z of dead time um which is just yeah wild and interesting stuff
+    and there's army stuff so uh and don't think our eyes we don't it's just not there
+    there's not enough time for our eyes to move really during a blink but it is shockingly
+    complex Behavior everything is so complicated even blinking blinking blinking
+    is complicated enough for like multiple careers like this is why I like insects
+    they just like they're small it seems doable um yeah um yeah okay actually get
+    started for here you go um I can show more Stu later okay um how we feel about
+    all this quarter so now I'm going to do a a quick recording that we can I'm going
+    to analyze later I'm going to try to because as everybody knows when when the
+    record button turns on you get significantly dumber and that is magnified by the
+    number of cameras so it's important to plan ahead uh so so I'm going to start
+    by doing a calibration L calibration and
+- dur: 180.0
+  end: 4500.0
+  start: 4320.0
+  text: then horizontal Andals movements I guess if I got that um smooth suit and
+    then fun stuff and then oh that's not do I'm not going to do okay so let's go
+    ahead and get started and I'm not going to calibrate this so 3 2 one okay so we
+    are recording I'm going to give it a second at the start so it can sort of fill
+    the IM model which I'll talk about later and then I give it a calibration scene
+    which is okay so and looking here look up try again let's try that again and okay
+    so give it a second at the beginning to sort of stabilize its model good job and
+    then calibrate the ey tracker there there so much more bont movement than there
+    is vertical okay so now that is not calibrated but I have the information in the
+    video that I need to calibrate it and now horiz okay yeah so horizontal Cuts so
+    looking at from finger to finger vertical Cuts finger controlled by different
+    part of your visual system turns out apparently there's separation between horizontal
+    and vertical S I don't know
+- dur: 180.0
+  end: 4680.0
+  start: 4500.0
+  text: much more than what I just said so uh a second V which I'm already doing that
+    but this is something that may or may not work out and that's fine um smooth Pursuit
+    so now I'm going to do the thing I did before so I'm tracking my finger on the
+    back wall and that will be nice and smooth that's some vertically why not a little
+    bit busted because I'm like looking through the Eye camera for that one and now
+    I'm going to try to make the eye movement without that and when we get the data
+    back we'll see that I fa okay and now now we do this so brightly colored balls
+    with a visual motor task this is one of those things where I throw the ball and
+    I have some information about the throw and that defines a trajectory defines
+    a rigid trajectory in space bistic but my information about that trajectory is
+    noisy because it's dependent on like weird Sensations from my hand so what happens
+    uh is at least a natural tendency um you don't have to do this eventually but
+    we tend to look at the Apex of of the throw so we find we suot over to where the
+    we we suot over to where we think the ball is going to be and we track it up until
+    it sort of gets to the Apex at that point we have all the information we need
+    to put our hand in the right location and we're good to go uh so we'll see what
+    that looks like and I should read something okay let me read something okay the
+    vestibular there is a reflex that go gaze in the head and eye movements and blah
+    blah blah blah blah gaze is held steady on a location with there for example and
+    the head moves to the right since that is there blah blah blah okay um done with
+    that that's as much reading as I do right now reading is like another classic
+    ey tracking task um and yeah I can still read with this amount of available Cog
+    information or cognitive capacity I guess okay anything else to do before we turn
+    it off no I think that's good okay and uh okay cool
+- dur: 180.0
+  end: 4860.0
+  start: 4680.0
+  text: all right let me just make sure that I got that data I didn't do anything
+    wacky to it 31 this is the last time I talk this CL uh uh a different class but
+    same demo um um this is the one that I turned off this is the one that I used
+    and we go ey it's upside down because the right just the nature of the geometry
+    of the left and right eye one of them has to be flipped um but the data doesn't
+    care and also you really can't see it on the screen it looks better on um this
+    data will be available you at some point um cool and also so yeah this is this
+    is just like a fun visual of the the geometry that's being solved for the eye
+    tracker um so first of all this eye tractor does not track torsion no ey tractor
+    that I'm aware of tracks torsion um uh so you'll see the the the pupil the the
+    sphere kind of just like spins around in its axis because it's just an untracked
+    Dimension it's also kind of noisy but that's the way it is um this is another
+    kind of thing that in the field there is a completely incorrect belief in many
+    sort of areas of traditional Neuroscience that like ctional are just like not
+    behaviorally relevant and don't really sort of happen in an interesting way and
+    there sort of arguments that they don't basically gives people a pass to ignore
+    them um which are really predicated on the fact that most of the times so if your
+    head is not moving you don't need torsion but if it is you do and any hard to
+    describe uh that's a deeper beef that I have time to get into you right now um
+    but basically the the algorithm that's being used here is it's assuming that your
+    eye is a sphere which it's not but it's close enough and if and assume that your
+    pupil is a circle on the surface of that sphere sphere um and so if that is the
+    case and you see and if you see the dark the dark circle which is the part of
+    the um Circle there uh and you're seeing if it if you're if it appears to to be
+    a circle then you must be staring straight down pupil you see it as an ellipse
+    then you must be
+- dur: 180.0
+  end: 5040.0
+  start: 4860.0
+  text: seeing it from the side and so this sort of noisy thing is based off of that
+    sort of geometric assumption um let me see if this works I feel like they disabled
+    this at some point but if they didn't algorithm yay um so this is a representation
+    of the calculation that's actually processing the image um the blue is the the
+    everything that's below I think this so this is a measure of the luminance of
+    the pixels like brightest brightest darkest I think the bottom is the darkest
+    and so this is the blue are the pixels that fall within this bottom range this
+    is called a dark pupil detector it's detecting the Dark of the pupil and then
+    you can see it gets a little confused once I go to the edge because there's it
+    gets dark which wish I checked this beforehand I going change the the exposure
+    um and then the yellow is the brightest tracking so that it's also it's tracking
+    the that reflection of The Infrareds of the ireds um on that's they're called
+    the corneal reflection and so sort of part of the algorithm there and then yeah
+    and then once it it detects that dark Splash and says okay that's probably the
+    pupil and then it fits an ellipse within that dark patch and then it assumes that's
+    the pupil and then it does that 3D conversion thing and then the result is the
+    table that I will show you either next time or this time after that um yeah there
+    you go that's eye tracking in a nutshell um it's it's a fun thing the data is
+    super rich like problematically rich like motion capture data so motion capture
+    data is also very rich but it's also higher dimensional so like it's a it's big
+    Blobby data with like a complicated movement this is the data is a low it's lower
+    dimensional meaning that the you get X and Y position of of the Gaze in the screen
+    per frame um because we don't measure torsion the the signal that you get out
+    of this is just literally like up down left right so it's a much lower um yeah
+    just lower dimensionality um but it's so much of it and it's so the Precision
+    is there complexity is there and it's kind of like it's a more abstract like the
+    the goals are more abstract like you don't have the benefits of like Isaac Newton
+    telling you what what physics are or what mechanic like what mechanical trth yeah
+    like you don't have like the three laws of motion you have Snell's law and
+- dur: 180.0
+  end: 5220.0
+  start: 5040.0
+  text: that's about it you have Snell's law and the assumption that we have a phobia
+    so that's what we're trying to point at the things that we care about and then
+    um for me so this is where I think Mary my Mary heill my adviser like a lot of
+    her claim to fame I think in terms of like the the the research sort of umbrella
+    that she has built is the conception of of tax being a driver of eye during natural
+    behavior so if you can figure out what the task is that can help you understand
+    what the eye elements are so in this case and that task can be very abstract like
+    that's why things like juggling are nice because this is a very it's a it's a
+    fast it's a repetitive and it's uh success and failure is Optimus um and this
+    kind right now my task is give a lecture to a room full of of people and so if
+    you look at my adents I'm going to be basically face to face trying to figure
+    out like like scotting from face to face trying to figure out like you know how
+    we're doing and you know what's what's Landing what's not um and yeah I will say
+    this before we go uh just for history sake humans Love Faces it's like our favorite
+    thing uh Yaris and if you're looking at a person I guess depending on which way
+    they're facing um we mostly look at faces it's our absolutely favorite thing in
+    the world to look at is a human face and if you put it a human face in a visual
+    scene people just naturally look to it and then when we look at it we tend to
+    adopt this pattern of like I I mouth I I mouth I I mouth I've seen this like there's
+    like a weird Trend in the sort of the pseudo science of the internet people start
+    talking about like oh yeah the triangle method you got to look at your eyes look
+    at the mouth and it's like as if it's like a strategy that you can like some people
+    have seen this I promise you that's all anyone's ever doing when they look at
+    you and that's all you're doing when you look at anyone I ey mouth that's that's
+    what we care about um because that's where the information is that's where all
+    that's sort of there's also an unfortunate reality of like if a person's not looking
+    at you there's another part of the body that you tend to look at um which you
+    can put all sorts of information onto that but it's also the most informative
+    part of the back of a person like it tells you a lot about where they're moving
+    um but it does mean that I've had to learn how to design experiments that tend
+    not to Happ humans facing away from the participant because it's just not polite
+    to to measure that um yeah this is from uh Jaris 1967 uh they just showed people
+    faces and then showed them pictures and said things like you know uh what do you
+    think people are doing you know what do you think their socioeconomic status is
+    like you know what era is this image from and then based off of instructions you
+    get different eye movement patterns looking for that same kind of information
+- dur: 180.0
+  end: 5400.0
+  start: 5220.0
+  text: um ey tracking used to look like like this so in like the weird eye contact
+    lenses space uh this is like the stuff that my advisor got her degree doing like
+    they would put like a suction cup on your spara with a with a mirror on it like
+    a tiny little mirror like attached to your eye and then it would shine a bright
+    light in your face so that the mirror would shine onto a projector screen then
+    they would film the projector screen and then track the dot there and just do
+    all the geometry to sort of figure out back what was going on um from the eye
+    so we are grateful and using like apparatuses like this which this is actually
+    what a lot of visual Neuroscience looks like it's like put your head in the device
+    and then point this is like a high perent this is an old feure but you still see
+    stuff like this in the modern era and these cameras are the kinds of cameras that
+    we can make these days and they can be very very high act very high resolution
+    very high frame rate um okay and that's that's all the time we have today uh perplexity
+    Ai and notebook LM that's those are the tools I particularly like notebook LM
+    as a Google product um just go there sign with your whatever Google account and
+    then just like ask it about your paper and tell it that it can search puet for
+    you you and have fun it's a very powerful tool okay uh and that's it thank you
+    see you Wednesday
+video_id: 8r_k5YfaATg

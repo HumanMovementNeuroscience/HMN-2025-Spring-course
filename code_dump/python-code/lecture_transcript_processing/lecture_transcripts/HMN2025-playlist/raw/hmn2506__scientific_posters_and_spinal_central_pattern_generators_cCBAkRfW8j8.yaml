@@ -1,0 +1,1975 @@
+full_transcript: okay all right what hello everybody sorry for the slow start um trying
+  to get some stuff downloaded I should have downloaded at home um yeah so standard
+  check in so we are officially in week number six uh which is a Fine Place to be
+  um so we've covered a lot of stuff uh I would say we've covered the majority of
+  like the the I guess like the bi the hardcore biomechanics stuff like to I've almost
+  said like the motor control stuff but I probably will get back to it um but we're
+  going to take a little bit of time this week uh talking about just like we're g
+  like today we're going to go through some examples of papers like direct like published
+  papers something that i' really like so of have some experience sort of going through
+  a published article and sort of try to make sense of that um and then on Wednesday
+  we'll do kind of like the like a sort of a small group kind of assignment to help
+  you all prepare for the sort of exam like assignment SL poster proposal too that
+  we'll be do probably they'll both be kind of like connected to each other and be
+  du at the end of that's this week um right next week um so yeah that's I got these
+  wrong I'll fix that later um the so basically the idea is like you know at this
+  point I've talked about some of the kind of the topic area stuff usually in the
+  riew and then we spend a good amount of time recording some data in class and kind
+  of just like eyeballing it like looking through it and sort of trying to figure
+  out what kind of stories could be told there we came in with some sort of basic
+  hypotheses and things like that um and so uh what I want the kind of this sort of
+  Next twoe Period to be which you know next Monday is a holiday so it'll be next
+  three classes is to prepare yall to kind of start thinking about your own chosen
+  topic whatever that happens to have been um using the kind of like thought processes
+  and mental Frameworks and stuff like that that I've been talking about in the context
+  of human body human movement research uh based off of kinematic motion capture data
+  um so what that's going to look like is you know sort of figuring out what the topic
+  area you've chosen is um you've already done that to some extent um but sort of
+  just you know digging into that a little bit more and then starting to think about
+  uh the methodologies that are used to pursue your your topic of interest um I know
+  that sort of the way that we gathered that it was sort of a combination of talking
+  about topics and also picking a paper and the paper part is the sort of technically
+  the most relevant part to the poster proposal but I want to make sure that that's
+  couched in the context of like there's a reason why I like this paper and this because
+  I'm interested in this topic um so trying to trying to sort of flesh out like the
+  methodologies involved in your area of research um the kind of like and like the
+  empirical sort of grounding of it like in the sense of so what are the methodologies
+  used what are the tools that are used to collect the relevant data for whatever
+  the topic may be um and then how does that kind of map on to the kind of conversations
+  we've been having around cameras and motion capture and sort of you know what is
+  the what is the sort of the core empirical tool involved what does it measure what
+  are the sort of what are the units that get derived from that and what are the you
+  know what are the the the data types and structures that the um that the sort of
+  scientific insights in your area of focus are sort of build on top of um and that
+  will kind of culminate into a sort of like a follow-up proposal like proposal proposal
+  number two which will be uh sort of like a fleshed out version of the original sort
+  of of like here's a paper I care about thing um so been thinking about like how
+  what kind of mechanism I want to use for that sort of thing um and I think what
+  it will wind up being is a a a a base level assignment that will live on canvas
+  and in the GitHub repo uh that will involve you copy pasting some text uh from your
+  own kind of like the profile thing that you have been generating and pasting that
+  into a set of chats from the bot that will be sort of prompted in in the server
+  um that will be sort of the idea will be like you'll you'll go in there you you'll
+  start with whatever your last um whatever the the most relevant blob of text you
+  have about what your interest are and what the paper is that you in the topic You'
+  chosen take that into a chat space and then the bot in that space will be prompted
+  to ask you about a certain sort of layer of the I've been talking about um and then
+  at the end of that you'll ask it for a summary possibly using a prompt that I'll
+  provide and then take that and put it into another chat and then have another sort
+  of layer of conversation um and then the output of sort of those set of conversations
+  will be something resembling the poster proposal to that will sort of be the fleshed
+  out version of what you're looking at um and the reason for the structure is like
+  I thought about trying to make just like like one chat like we've been doing that
+  sort of does all the stuff but that starts getting really difficult and that starts
+  getting into the space that these types of AI sort of as implemented here just can't
+  really do like they're not really like it's like if you give it a set of instructions
+  it's not really good at like two-part instructions like do this and then do that
+  like it's just not set up for that you can set up the code on the back end to handle
+  some of the stuff automatically but it's much much easier to just like make two
+  versions of the prompt and then just give you the intelligent humans instructions
+  that say do this and then do that um and the idea will be kind of like you know
+  you'll be setting yourself up for the next conversation and that will also give
+  you some sort of experience but like directed prompting and that kind of like aiish
+  training thing um and like the the the conversations and prompts that I set up for
+  you will be kind of built out of the lectures that I've been giving Which on the
+  YouTube playlist which is linked in the server um so I'll be like you know doing
+  something I've been doing might may not be obvious to you like of uh pulling the
+  transcripts from those lectures and kind of pulling out the main points and sort
+  of using that to help drive the conversation um and so that's why it will sort of
+  I'm counting that sort of set of chats as like an exam like object where you will
+  have a set of things to do um and if you don't do those things you'll get a bad
+  gr and it will be somehow culminative and based off of stuff that has happened before
+  which I think is like the legal definition of a test um and then that will kind
+  of set you up for The Proposal Part which is another requirement of the structure
+  of the classes to make sure that by this week um pushing it um you're set up to
+  actually hypothetically start working on the actual poster with the kind of fleshed
+  out nature that that needs to be um so I will it's the the lecture pulling stuff
+  is the reason why I'm not ready to give you anything today but I have all that stuff
+  it's kind of like uploading like the videos they they take a long time to upload
+  so I have to wait for the last one to get up there because I only put it up this
+  morning um but I'll have something kind of put together and started for that by
+  next Wednesday um so that way we can sort of talk about it in class you can ask
+  questions things like that um and then you know leading in that be sort of uh hypothetically
+  Doe by the end of week seven which is next week and so now I'm going to give a little
+  bit of time talking about the the posters themselves and sort of I'll put some templates
+  into the um into the server and I I'll get those in the relevant place on campus
+  soon um but before I do that before you look to closly uh there any questions so
+  far any sort of like concerns stress levels things that if you knew you would feel
+  more comfortable about your status here someone sent me an email asking about the
+  poster like structure itself for that's what we're going to talk about today um
+  yeah great okay okay so the poster itself these are just some examples that I found
+  um from previous courses taught uh which is made more difficult because I don't
+  have PowerPoint on this computer um but that's okay okay we that one um so this
+  is a PowerPoint slide uh it is you know PowerPoint or Google Slides I think it's
+  the equivalent or keynote on Mac is the equivalent of that um I'm sure a lot of
+  you has PowerPoint slides in it um but it's long story short the nice thing about
+  something like a PowerPoint is that is a vector-based art thing um meaning that
+  these visuals are defined not by sort of pixels on an image like a lot like most
+  images like if you zoom in on them they start you could start to see the pixels
+  um uh Vector base Graphics are not like that they are because they're defined mathematically
+  like this curve here is not defined as a set of dots it's defined as like a mathematical
+  definition of how to draw this shape and everything on the PowerPoint page is that
+  way so the advantage there is that you can zoom it up infinitely and you'll never
+  see the pixels because it is not based on pixels um the opposite of vector base
+  is raster based um and that's most images where if like you take a screenshot and
+  zoom in it start you can only zoom in to the level of the resolution of the image
+  um so most posters are made with a vector-based visualization method um PowerPoint
+  is I would say like the entry level version of that PowerPoint are an equivalent
+  of PowerPoint um and for the vast majority of you I would say almost all of you
+  except for someone who has like a really specific interest in like design um I would
+  just say use use PowerPoint use Google whatever it is use whatever just make basically
+  a single page a single slide that has information about your poster there if you're
+  feeling fancy and want to do the prograde version of this um the professional version
+  of a vector graphics editor is called Adobe Adobe Illustrator is like the main one
+  um you all have free access to the Adobe Creative s Suite through your Northeastern
+  email email um you don't know how to do that just ask someone that's not me um how
+  to get access no yeah just yeah you just kind of you just download and log in right
+  you just download Creative Cloud and just log in with your north eastern account
+  no you have to uh you have to go to a a specific website and then go to and submit
+  a request for a license okay well that's too bad but it takes like a day or so a
+  day or two yeah so if you're into that you can do it um there's also um inkscape
+  is a free version of Adobe Illustrator um which I've used it I sort of in the way
+  that these things tend to go like the free version has kind of been in development
+  for a long time when I was in grad school it wasn't very good and wouldn't be what
+  I would consider like like an like a viable alternative um but I've used it recently
+  and it's gotten pretty good I think for basic usage it might be helpful but it but
+  realistically don't expect it to sort of be at the same level as illustrator but
+  also realistically if you're new to that space you're not going to be using the
+  pro tool to the pro level so you can give it a shot um and whatever you choose I
+  would say like the stuff that we'll be doing to prepare like the content of the
+  poster will be independent of the poster itself so if you want to try a fancy thing
+  and then sort of be like I don't want to do this um you can convert later uh okay
+  so what should actually go on the poster itself um the basically a poster is like
+  a distillation of a paper that's kind of I think the best way to think about it
+  at the level that we're doing in this class um that's not all that a poster has
+  to be um it could be other things um but the default sort of purpose of a poster
+  is to kind of give you a representation of a particular study typically that you
+  typically i' say almost exclusively that you yourself are doing um so that you can
+  take it to something like a conference and then put it up and then have then stand
+  next to it and hope people come by and talk to you about it um I showed you some
+  pictures of like scientific conference poster sessions you can just you know sort
+  of uh that's the that is the the structure that's being sort of mimicked here um
+  so and at the end of the semester that roughly speaking where they go uh the week
+  of April 7th there will be a poster session for all the inquiries classes and you'll
+  be assigned one of the days and that will be your day to present um and you'll present
+  your poster along with half of the students in each other class and then if you're
+  not presenting then your assignment will be to go around and partake in the posters
+  um including you know a certain number of posters from this class and a certain
+  number of posters from the other classes so you can kind of like get the experience
+  of what that sort of process looks like and feels like um yeah so yeah so like I
+  said I said before and we'll say again um there there's kind of there's the default
+  version of the assignment and then there's kind of the whatever else you want to
+  do part of the assignment um so I'm mostly going to be talking about the default
+  assignment which is just pick a paper and present that paper as if you were you
+  know a person I don't I don't know if they like what the other class say in terms
+  of like should be like role playing like a grass in the lab or should you I think
+  that gets kind of weird just or you can just be like my paper they blah blah blah
+  just talk about it in the third person um but yeah but you also have the option
+  of like you know if you want to add more citations there if you want to talk about
+  other things um I think if you want to use any of the data that we use in this class
+  as part of your poster um we can sort of set that up basically like any of the data
+  that you've seen before now before April 7th I'll have I'll make that into a place
+  where you can like pull screenshots and sort of just like talk about it um if you
+  wanted to have the experience of using like actual data that you've been a part
+  of as part of your presentation that's a viable option um yeah so in terms of yeah
+  so in terms of like how do you put the poster together together how do you you know
+  from a given paper or topic area how do you actually create a poster uh that's where
+  there is sort of like instructions about that um which I think might on this one
+  there are some instructions from other classes that I'll I'll pull up that are sort
+  of more written setup but um the basic idea is that you're not what you're not supposed
+  to do is put all the information in the poster all the information in the paper
+  on the poster um you don't want to have what we call affectionately um a wall of
+  text poster we all know what it feels like to be confronted with a big wall of text
+  it's not fun um and it doesn't really it's not helpful to you as a as a person coming
+  in um something that I think really needs to be driven home over and over and over
+  again is that science the scientific process is primarily a process of communication
+  if you're sitting alone in your lab collecting data and running running numbers
+  and stuff like that and you never actually show it to anybody else you're not actually
+  doing science you're just kind of like you're doing an investigation you're playing
+  around with data but the process of science is is a process of communication so
+  when you're present in this sort of interface of a poster or a paper um is the traditional
+  method for communicating science to other people uh presenting a poster in a conference
+  kind of you know I I say unofficially counts as a peer- review type of session but
+  you can't say this is a peer reviewed poster um but you are getting it reviewed
+  by your peers um in the sense that you know people other people who know the area
+  are going to look at what you've done and hypothetically have the option of saying
+  oh hey you made a mistake here there or the other um which is a Cornerstone of how
+  we do sort of science you know I'm sort of I'm talking about a system that I'm pretty
+  uh jaded about so I'll talk about it kind of in the idealized form um so so yeah
+  so so when you are translating whatever poster you're doing whatever topic you're
+  doing whatever project you're doing into poster form it your job is to kind of do
+  the distillation like it's you're the you're the person hypothetically who understands
+  the project better than anyone else like argue like if it's your research project
+  you probably understand the nitty-gritty of it better than anybody else in the world
+  and the people that you're going to be communicating with are only going to be talking
+  to you for like a couple of minutes like you know 5 10 minutes at most you know
+  not at most but um a very short amount of time like if you look at you know the
+  picture of like sfn or something like that there's thousands and thousands of posters
+  and if you're a person you're not going to see all of them you're going to go to
+  a particular area but you're not going to be spending hours and hours on each poster
+  you're going to be kind of coming up and saying hey what's what's the deal here
+  and your job as the presenter is to be able to give them the deal like tell them
+  what was what the study was and what what happened at a level where if they just
+  sat there quietly and listen to you then you could get sort of from start to finish
+  let's say within 3 to 5 minutes um and the person listening knows enough of what's
+  going on that they can walk away and say oh yeah that poster they did this thing
+  they found this result they you know they will if you've done a good job they will
+  walk away with a certain sort of gut level takeaway um that they can that they will
+  then be able to explain what your study was about without having to know all the
+  details itself um so there's a certain strategy on what you put on a poster uh where
+  you want to make sure that you are like the takeaways that that person walks away
+  with should be the takeaways that you want them to walk away with like there's a
+  lot of things in a given research study um and you can present the same study in
+  five different ways and sort of have the person walk away with five different hopefully
+  not like in hopefully not like incon herent inconsistent beliefs but you know you
+  can focus on you know one thing or another and you want to make sure that you're
+  packaging it in a way that will they will be able to understand that will stick
+  and that they will be able to walk away and when they say hey that study over there
+  was was about this person doing this thing and finding this result that they're
+  saying roughly speaking what you believe about that thing um now I said if that's
+  what would happen if the person just stands there politely and doesn't say anything
+  which sometimes is what happens and typically it's not uh the um it's not it's not
+  necessarily an insult especially at conferences that people are tired and they want
+  to get the the the gist but um in general in Academia and the Sciences if somebody
+  starts criticizing your work a lot and then just starts pulling it to pieces and
+  picking up the threads it's that's a compliment like they care enough about what
+  you're doing to think about it and ask questions and it could be really offputting
+  to people especially students who are used to fatigue being like to give you a a
+  rank order in your grade um but if I'm asking a lot of questions it's because I
+  want to know more and I'm I'm using my time and my energy and my attention to do
+  the thing that I was train to do as a scientist who is peer reviewing other other
+  research which is to look for problems look for mistakes um not necessarily to like
+  not necessarily like to Target the mistakes but just because I want to understand
+  what's going on and I want to make sure that it was done right because we're trying
+  to sort of create new knowledge here um so that's where the second part of the strategy
+  comes in where if you're presenting the poster you're never please do not just read
+  it to the person that's not fun for anybody um but you're going to present it in
+  a high level way and then so that when the person asks questions ideally you have
+  the answer to that question right there W waiting so even though you might be just
+  zipping through this and sort of like moving past this stuff because it's your study
+  there's a certain like the first time you present something you might be surprised
+  by the questions that you get but after the first couple of conversations you realize
+  that 90% of the questions that you get are predictable in some way and so you should
+  just have those questions sort of answerable from the data that's on the paper so
+  you know this type of stuff is a good example where I wouldn't want to be talking
+  about um oh yeah we did this study with this mouse Maze and there was the water
+  was this deep and the thing was this big I don't want to be describing the size
+  of the whole of the of the apparatus but if the person asks how deep it was I should
+  have an answer for it and actually they wouldn't even have to ask that question
+  they can just look at the picture and get that themselves um similarly with a lot
+  of like the the method like often times that's where you put like details that you
+  know you wouldn't necessarily say you could say oh yeah we have this rat do this
+  thing and this maze but the details are there so the person can just kind of skim
+  them and kind of know the answer there um and yeah and I will say I think that the
+  you know there should be some kind of a methods section uh which should have some
+  visual representation of like what you actually did what the study actually was
+  like you know this is a good example because it's like I know by looking at this
+  that you looked at mice in a water bucket with a camera you know you could just
+  as easily have you know if you skip this type of thing oh yeah you have this with
+  a camera and I know that there were three conditions and one of them was a sham
+  meaning they didn't give it do anything one is injured and one is whatever this
+  condition is and so now I have a sense of like what it is that you actually did
+  it's really easy when you know something too well to skip the parts I call it skipping
+  Step Zero it's like the things the immediate questions that anybody coming into
+  would ask are the first things that you forget to explain when you get into it so
+  it's like you know you can have this if you're just showing the result blah blah
+  blah blah blah I could be like halfway into my conversation but then my person asked
+  wait are these mice are they rats are they fruit flies are are they on a treadmill
+  are these celegans you know they start asking questions that make it clear it's
+  like oh they don't even know like basic thing that I did which is stand in a room
+  with m in a water bat um so the method section should always have something that
+  just makes it clear what that is in my preference that will typically be figure
+  one in whatever paper you're looking at this isn't always the case but I I think
+  this is true for papers as well like figure one or something very close to figure
+  one should be some kind of a picture that makes it clear what you're actually doing
+  and the results over here um should be some representation of the data that was
+  recorded uh typically there's going to be I guess yeah you want there to be some
+  nice Harmony here um and this is also typically where you are it's your job to kind
+  of choose the most important data um for a lot of papers and certainly for a lot
+  of studies you're produce a lot of data um and a lot of visualizations showing various
+  things related to the data that you recorded um like whatever paper you choose like
+  it could have you know five six 10 or more um figures of data in it but your job
+  is to understand what's the main figure what's the main result you know and if I
+  if if I can only show one or two results from this paper what should those results
+  be and those should be the results that back up the conclusions and then keep your
+  directions if that's appropriate um of the study itself so I you know introduction
+  is typically it's kind of like the you know here's why we did this this is where
+  you can have citations if you want them like we did this because it's related to
+  this other study that did this other thing we did this because there is this group
+  of papers that sort of suggested this effect is true and so we did this study to
+  test if that effect is true um breaking it out into research question hypothesis
+  is fine not everything has this stuff so delineate if it's fine uh some kind of
+  method saying here's what we did some kind of a data data representation of like
+  here's the main results and some kind of a conclusion because of all the stuff that
+  we did we believe that some fact of the world is the case um some new proposed fact
+  of the world is the case like I this this is ifate the part where you say the things
+  that you now believe because of the research that you did and you hope that after
+  going through this little journey people that you're talking to the people who are
+  reading the paper um will also believe you they'll say yeah the things that you're
+  describing seem supported they seem reasonable I will go along with you on this
+  you know and then if enough people are convinced by the story that you've told it
+  becomes a quote unquote scientific fact which is always something to be wary of
+  because we're always wrong about everything and and every scientific fact will be
+  proven wrong in the fullness of time um so but we do our best in the moment um one
+  so the so generally speaking uh by generally speaking I'll say you will pretty much
+  never read a poster to a person like if it's your poster don't read it to the person
+  have some other way of talking about it but the idea is that if the person had the
+  poster given to them and they read it from start to finish they would know roughly
+  speaking the story that you're trying to tell um and so in the poster itself for
+  the actual presentation is kind of there as like an it's sort of an aid for you
+  um explaining what you're doing so you have so you you don't you can remember what
+  they're talking about you have things you can point to you have data you can point
+  to um but yeah sort of a yeah it's kind of the process there I should also say this
+  is another sort of classic uh way of presenting data where these a points up here
+  are what you would call Representative data and then this here is some measure of
+  the like the statistics of that data so representative data is basically like you
+  can choose like you the researcher because you are a trustworthy person who's not
+  lying and has ear methods appropriately documented you are allowed to look at the
+  big body of data that you have and pick a particular recording that is representative
+  of the of what you're trying to show um so you might record um so yeah so in this
+  case they put mice in a water bucket and then they had to learn where platform was
+  so they can sort of get out of the water um and our case we were doing stuff like
+  you know the jumping task or you know the standing task and so for the standing
+  so imagine for the standing task we recorded 25 different uh participants and you
+  know and each of them did 10 different repetitions of beta that's that 200 some
+  of Trials whatever um you can go in and kind of pick one trial or even one section
+  of one trial that exemplifies the effect that you're trying to show um and then
+  just click about that one little part sort of clean up and then past it there and
+  say this is representing a data from a subject in the partip stud um but that's
+  not really that's an without additional support that is anecdotal that is you just
+  sort of picking one from a set of a thousand options and saying this is the one
+  that looks like the story that I'm trying to tell that's not that that's not really
+  evidence on itself so you want to have you want to be able to back that up by having
+  some kind of a measure of Statistics that is looking at all 1,000 trials that you
+  did and sort of appropriately comparing you know subjects to subjects and conditions
+  to conditions and da da da um so that this is where you actually start having statistical
+  power and statistically supported statements and this is these are the data that
+  kind of like this is where like the real grounding and sort of knowledge generation
+  comes from um but it's good to kind of pair both because you know the representative
+  subject data helps the kind of understand what you're talking about um or the statistical
+  data helps them understand that this is a thing that happens in general um that's
+  always going to be different based on the studies and stuff that you're that you're
+  doing um you want to see posters um generally if you just walk around a department
+  in the school you'll see posters on the wall um people put their favorite posters
+  on the walls outside their lab uh and so you can just walk around and take a look
+  at what they would look like and sort of just get a sense of the sort of the styles
+  that are available and sort of the choices that are made and you'll see some with
+  a ton of words on them you'll see some with very few words on them um and I recommend
+  just doing that just go whatever hours the day you want through whatever you know
+  wherever the various Departments of the school are and you'll you'll typically find
+  posters on the wall that you can sort of look at um in our case the sizes can be
+  very different I've gone to conferences where the posters are like 6ot by 4ot so
+  very very large I've gone to some conferences where they're like 3T X 3T which is
+  very small um I can't actually remember I I want to say that our posters are 24
+  by 36 Ines um which is like this big but I can't recall I'll I'll look that up that's
+  that's a relevant thing to have but mostly that will just affect the font size that
+  you use um this is again with the vector scale stuff like the actual scale shouldn't
+  matter too much um yeah so but it does depend like you know you want to make sure
+  that the font size is not oppressive [Music] um yeah also just Google scientific
+  poster you'll find a lot of examples uh is the kind of thing that there will be
+  many many layers of explication and tutorials about how to make a good this and
+  how to do a good that and that will all be relevant here um with the exception that
+  you won't be writing paper yourself a lot of this stuff is just going to be sort
+  of copy pasting from the paper itself just you know get the figure put it up and
+  um then these sort of the section down here in the bottom right will be where you
+  put your citations that will be generated from Soo or whatever else uh yeah yeah
+  so we'll we'll go through this and then on a particular day of yeah so yeah so the
+  the poster needs to be uploaded by Tuesday March 25th uh which means that you'll
+  upload a PDF and then it'll get printed um they charge you for it I want to say
+  like 20 something bucks I can't remember exactly I'll get that number too um but
+  that's due at the end where 25th is oh that's due on the Monday so two weeks before
+  the actual poster session which is mostly um because as you can imagine the the
+  printer office gets for this course hundreds I guess of posters so we want to make
+  sure to give them enough lead time that they can get it all pretty in case anything
+  goes wrong um and there'll be instructions on how to do that and you know all that
+  good stuff yeah and this I will um so I'm going to drop these into the Discord server
+  before I put them on canvas just so it's available I please load up any questions
+  or confusions s okay yeah so like I just do my poster on one paper I just do that
+  on paper is there any otheres not really no um like by the the base level assignment
+  that so so they had a couple yeah um that was S I say again was that they only reference
+  it in int I'm actually I was looking for that uh cuz I actually can't see see where
+  these citations actually happen in the poster uh I guess this that might be something
+  I can't remember so I would actually say they may have this may have just been like
+  incorrectly done because you're supposed to site stuff here but this again for this
+  assignment it's a little bit weird um so I'd say like the default assumption is
+  that there's you know the base level assignment is that there's only going to be
+  one citation here and it's the citation of the actual p paper um where you got the
+  things um I would still say you should site it somewhere in the like in either in
+  the introduction or in the conclusions and say you know this and that study did
+  this you know you this one either have the one or CH at all 2018 just had that cited
+  somewhere in the text um and yeah so in default assumption is that's just the one
+  paper uh it's also the kind of case I think as you go into your paper there might
+  be some other obvious choices to site like you know you know future directions could
+  you like oh there are some follow-up studies that were done after this was post
+  to be cited there um in in their introduction they might say we're doing this because
+  of this other paper and then you can just site that one too um if you wind up you
+  know they're using some weird method that you don't understand and then you go find
+  the review article that says here's how that method works and how it's used if you
+  use that as part of your development of the poster that's a good thing that you
+  would want to just have some citations somewhere and then just put it down there
+  um you know citations in this context are often used as kind of like you know it's
+  a rubric it's like it's like oh you have to have this many in order for it to be
+  a valid thing um but that's obviously nonsense that's not how we use it in in the
+  real world when you're you just you site stuff that you have used to say to understand
+  all the work in this poster that I'm presenting and this research that I'm presenting
+  you have to also go back and sort of like I am doing I I am building this study
+  and this knowledge on the basis of the stuff that I have you know read before like
+  I'm I'm building this on other people's work and if I'm doing that I need to cite
+  it because you know for if you're trying to figure out if you should trust this
+  resource that I'm presenting you I need to tell you that the stuff I'm presenting
+  depends on work that has come before me and this is that work so hypothetically
+  if you really really didn't trust somebody when they're presenting their data to
+  you you can go back and look at all the things that they're depending on and this
+  is where you get into this Con there's like a concept of like citation networks
+  and stuff like that where you know any study that has a certain am number of citations
+  you can Bounce from that study to other studies and sort of navigate all the empirical
+  work that has been done in the world for you know at least since whatever 1800s
+  when sure of keeping track of this stuff um so so yeah so but for the for the strict
+  assignment it's just one thing and in general when it comes to posters the citation
+  thing is a little it's it's it's much squishier like like posters are generally
+  speaking kind of an informal type of presentation um not always some conferences
+  are are pretty serious about them but I think for the convers that are serious about
+  their poster sessions the posters are always paired with a paper so you write a
+  six-page paper or whatever Accord that to go along with a poster and the poster
+  itself is you sort of often just sort of like you print it for the conference and
+  then you just use it to discuss at the conference and then it's not going to go
+  into some like you know the anals of some scientific Society or something like that
+  so they're generally just sort of treat it as a much more informal type of thing
+  and then the actual like the actual proper like review process is done at the level
+  of Articles and papers make sense yeah anything else any other questions thoughts
+  feelings cool all right yeah yeah we'll we'll I'll be sure to plan some time somewhere
+  probably somewhere in this sort of two week chunk oh yeah do at the beginning of
+  this week so I'll plan there'll be something in this chunk to kind of like practice
+  your poster now I'll try to do it the week before it goes because it's often like
+  you put you put the poster together and then you start explaining you're like oh
+  this is not at all what I want so I will do some sort of we can do some kind of
+  demo run probably in this week um so that you'll have a you have a chance to kind
+  of go through it with your peers before you're doing it in person um it is also
+  just absolutely standard experience that when you're presenting a poster for the
+  first time the first couple people that you present it to get the worst version
+  of the story and generally speaking speaking by the end of the session which you
+  know for a lot of conferences can be like you know 3 4 hours rather long time um
+  you have by by the end of that poster session you have the story of your research
+  so down like so perfectly down that it's like if you ever find yourself going to
+  a conference and presenting a poster I beg of you to do yourself the favor of taking
+  notes voice notes text notes whatever you can about what you've been talking about
+  in your poster like the moment the poster session is done because the story that
+  you're trying to tell will never be clearer in your mind than it will be after you
+  have pulled it you know however many dozens of times you do um and that's another
+  like within the context of like how science operates and sort of a practical communal
+  sense that is often the purpose of a poster session um not always the case but generally
+  the case posters and also talks like most of the times when you're when you're presenting
+  stuff at a conference it's stuff that you're working on it's not stuff that's you
+  you typically I mean it sort of depends on the cycle but you I think if if you're
+  really using the conference to its fullest extent you should be presenting stuff
+  that's not quite done yet it's not ready for prime time it's not published it's
+  not peer-reviewed it's the paper that you're currently writing not the one that
+  you just published um because this poster session the poster session in particular
+  is a really great opportunity to like hone the story that you're telling um and
+  when you know and ask questions someone you know say oh yeah we use this method
+  I'm kind of I'm new to this and someone's going to come by and like oh I actually
+  know that method quite well and then you can ask them that question when it comes
+  up um you know you might have a certain way of saying it that like the first couple
+  times you do it people don't really get it and then you figure out some turn of
+  phrase that makes everyone go oh right now I see what's going on and that's the
+  way that you want to describe it like you know when you're describing the methods
+  like you know you'll you'll often this is this is absolutely the most classic student
+  behavior that ever exists you'll describe it in way too much detail um and then
+  eventually you'll learn all the details that you can leave out that help people
+  understand what it is with with the minimum amount of time and then that's the way
+  you should learn how to talk about the stuff that you're doing they're very classic
+  especially for grass students like The Birth down grass students start presenting
+  uh research they will um they will spend the amount the amount of time they spend
+  discussing a particular area is proportional to the amount of time that they spent
+  working on that area and that's almost never what you should do like it's possible
+  that whoever these people are spent a good four to five months trying to figure
+  out how to make the water in the stupid thing stopped leaking out and they kept
+  using there some thing that wasn't working and they figured out the glue and then
+  blah blah blah blah blah and like that's and then when they actually got it working
+  the data just kind of fell out of it and so when they give the presentation they're
+  going to spend the first half of the conversation talking about all the glue that
+  they had to use and how the the leak you know how they sort of got the the water
+  up to the right level and da da da da da that stuff shouldn't even be a part of
+  the conversation you just that part off sometimes when I'm giving a presentation
+  I'll just say in this slide transition was 6 months of my life and then I just show
+  the result where it worked and not the 15 iterations of failed attempts that I had
+  to do before I got the version that works um if the things that you were doing to
+  make it work are interesting you might want to record them in another place but
+  a poster is almost never that time um and then that might be the case where someone
+  comes along go how'd you get your stupid thing to fill up because ours keeps leaking
+  that's when you can say oh yeah we use this glue and not the other glue and that's
+  the place where like at the end of the paper that you wind up publishing on it you
+  can have the very long methods where you can have a little section about why you
+  have to use this glue and not the other glue and da da da da um yeah so it's the
+  process of kind of distillation that I think is really the nut of this assignment
+  um and it is your job as the sort of the ambassador of This research study to to
+  to make the call to make the Judgment call about what what's the most important
+  part and what's the narrative that we're going to try to pursue here okay yeah right
+  we good cool um yeah and we will have plenty more opportunity to talk about this
+  stuff in your specific case but um cool all right now with all of that said let
+  us just let's go and look at at a paper and let's see so we have approximately 40
+  minutes left and I am going to attempt to do to look at two separate papers which
+  is a terrible idea because I've already done the thing of saying this is going to
+  have an and in the lecture um and I love the papers I'm talking about and I'm going
+  to want to dive deeply into them um but I think it's fun to do the the quick run
+  through so we'll do that and I'll try to keep myself to a particular time um I will
+  also finish up a thought I meant to have like half an hour ago wishes uh after we
+  do this sort of aside around the the papers and the assignment and the exam like
+  object um we're going to transition into Vision stuff um like eyeballs and I'll
+  bring in an eye tracker and we sort of like talk more about visual Neuroscience
+  I record semit tracking data of like go through it to the similar to how we did
+  before um it's going to be a bit of a different vibe there just because the nature
+  of the equipment and the data but um we're going to do Vision stuff um which yeah
+  is always fun uh yeah vision and specifically eye movements um which are technically
+  a part of motor control because it involves muscles but sort of a interesting space
+  there okay so in 20 minutes or less which will put us at 410 uh I'm going to look
+  up so C prot cpg is one of those things I forgot for that m um storing volary there
+  we go 2012 this used to be a new study now it's old that's not that old it's just
+  over a decade at this point so I just for so this is a paper published in science
+  which is one of the bigger journals out there there sort of there's two journals
+  which are sort of like categorically the biggest journals biggest and most prestigious
+  science and nature um that sort of cultural reality of there being a biggest thing
+  is generally toxic and leads to a lot of bad outcomes but nonetheless uh if you
+  see something published in science or nature that's a good study good and prestigious
+  study um generally speaking the more generic the name of the journal is the more
+  prestigious it is so the Portuguese study of ankle Prosthetics research is generally
+  going to be lower Prestige than you know Journal of Prosthetics which is going to
+  be lower prestige in Journal of biology which is going to which so science and nature
+  are about as big as you can get in that space Also cell is a very good one for biology
+  [Music] um and because we are on campus I could just download this here um but just
+  for fun we're going to go to scub uh and punch it in there and add that way uh I'm
+  using this dark reader thing so turn that off so it looks like it would normally
+  look okay and I have 15 some OD minutes to go through this I probably won get to
+  a second we'll see okay so this is kind of normal um the when you download the PDF
+  the front page is just kind of like info about the thing um title arti artist author
+  list Journal at all means there's more of them um and there's links here to things
+  like supporting material supporting online material other things that site this
+  article sites um with modern papers typically there's going to be supplemental data
+  or supplemental data supplemental methods and stuff like that um modern contemporary
+  Journal articles are tend to have very very constrained lengths um so the core studies
+  are typically going to be quite short um unless it's like a Journal Review or like
+  an older you know that all varies very much by um by Journal um so to kind of get
+  around that they'll often have these like supplemental stuff so like either something
+  like the methods will not be a part of the word count and or um you have the opportunity
+  to present additional data there um and yeah so so what I'm going to do now with
+  this study because I know this study quite well uh I'm going to try to give you
+  something like a very high level overview of this paper that ideally will both be
+  fast enough that I can do it in the next 15 minutes um comprehensible enough that
+  you'll be able to follow the story despite not being sort of particularly trained
+  in this area um and ideally a sort of fair and honest representation of what was
+  actually being done so that if you were to take the time so sort of read this paper
+  in depth and sort of get through all the nitty-gritty you would come out of it saying
+  oh yeah everything that John said about this is an accurate representation like
+  I'm creating the cartoon Narrative of the study so that I can present it to you
+  in a way that will sort of handle itself and if you became an expert on this area
+  and on this paper ideally you would be able to evaluate my choices of cartoon ification
+  and understand why I choosing this form of the cartoon and not some other form of
+  the cartoon this so so yeah so this is a study about the spinal cord and particular
+  it's looking at spinal cord injury and trying to get at something like a what has
+  been a sort of Holy Grail type of thing for quite some time which is the ability
+  to heal spinal cord injuries like you you know you get an injur you get an accident
+  your spinal cord is damaged and you lose control of your limbs below that area may
+  you might lose control of your legs you might lose control of your whole body depending
+  on where that injury occurs and we really really would like it if we could correct
+  that in some way um which yeah the same way that we can correct it when you break
+  your ankle or you know damage some muscle damage some skin we would love to be able
+  to correct that on a person um yeah so this here is the abstract of the paper um
+  again different journals will sort of format this in different ways this one's not
+  even labeling it as the abstract they kind of assume that you know that um but sometimes
+  it might be called a summary sometimes it might be called something else um I know
+  noticed that on yeah so on the actual website they're giving a sort of a high level
+  summary in addition to the abstract um but yeah all the information should rly speaking
+  be there um so this study Builds on so this study so the the application is for
+  uh is in the space of trying to sort of heal spinal cord injury um but this study
+  is not looking at patient populations they're not looking at people who have spinal
+  cord injuries um they are looking specifically at rats um and this is where like
+  if you look at any so these numbers here are the citations and if you scroll to
+  the the end of the paper uh they will correspond to the actual citations there um
+  these are in science format um sometimes you'll see citations where it's like author
+  year so it's like you know Mathis edel 2019 or something like that that's APA format
+  this is a more engineering style literally just because it's it's made to be shorter
+  um and see if you look at these citations they will be referencing clinical studies
+  and medical studies and things like that um but they are not themselves doing research
+  on humans this is a this is an application with a basic science sort of motivation
+  where they're trying to have a theoretical they're trying to increase theoretical
+  understanding but they're doing it in service of being able to move towards this
+  applied goal um and they are building on a history of studies of um studying Central
+  pattern gener spinal Central pattern generators in mammals um those Central pattern
+  generators exist in pretty much all animals not not necessarily all animals but
+  many many animals um and they they generally refer to neural architectures that
+  generate rhythmic Activation so it's some sort of like a metronome type of activ
+  of activity uh which is the basis of a lot of motor behavior and just um General
+  life so let's see so so this is a really fun animation of a ant walking alternating
+  tripod gate so the red or one tripod blue or another tripod that's how insects operate
+  and that's a rhythmic Behavior breathing is a rhythmic Behavior most forms of locomotion
+  ayic Behavior flapping is a rhythmic Behavior it's the kind of thing that is present
+  down to invertebrates like insects and also present up to mammals like us and um
+  spinal cpg cat uh and this particular study is following a particular sort of branch
+  of um of ways of studying that idea of central pendon where specifically as they
+  exist in the spines of invertebrates um because it's kind of this like there's a
+  general question around like we know that cpgs are present in lower animals we can
+  study them very carefully in those animals um because they're simpler and you know
+  we can sort of open them up and sort of see these things happening um but then the
+  question kind of arises like what is the role of these types of neural architectures
+  in more complex animals like mammals who have many many many more neurons and have
+  many many many or mag more complex behaviors um but still have the same sort of
+  evolutionary history um so this is a a a video which is quite old and kind of from
+  an era sort of a different era of like animal rights I'll say um so this shows a
+  cat that has been uh decerebrated um so it's hard to see but this is this is the
+  cat and it's being supported by these liars and this cat has had its spine SED here
+  so from so let's see how you drop so that's the brain and then that's the cerebellum
+  and that's their spine and then these are the legs and I think for this era they
+  would sever the spine there so they they surgically cut the spinal cord so that
+  there is no information going from the legs to the brain and no information going
+  from the brain to the legs um and so the legs are still connected to the spinal
+  cord here um and then kind of the interesting result here is that if the cat is
+  supported and walking on a treadmill the hind limbs are still walking they're still
+  doing the rhythmic behavior of locomotion being driven by the sensory motor Loops
+  from the feet up through the spine and sort of back so this is kind of counter to
+  a lot of our intuitions about how the Spine Works um which we tend to think of it
+  as like a there yeah um you have to think of this just kind of like extension cables
+  that sort of lead from like the brain down to the dumb muscles um but this type
+  of stuff shows that there is processing happening in there like your spinal cord
+  is a part of your central nervous system and it can handle simple stuff like the
+  sensory information coming off of the feet um is enough to generate the behavior
+  that leavs the feet to sort of like if I'm being pushed backwards at a certain point
+  I should lift up go forward and come down again and the two limbs are sort of reciprocally
+  activated by Central pattern generators in the spine and so that not only can the
+  cat walk um despite having no cerebral implant to their spine to the back legs as
+  the as the treadmill speeds up they speed up with it um which is just sort of chew
+  on that you seem perturbed it just feels wrong yeah yeah yeah yeah uh it's it's
+  it's a wild result just to be clear and it absolutely is baffling in many layers
+  and levels um but and probably is when I like to study so much um and it's kind
+  of like you know as is often the case um it's those parts of the empirical investigation
+  where you go oh wait that's not what I was expecting we're often the best investigations
+  live um because despite how strange that is uh I'm giving up on the second paper
+  we're going to focus on this one um for the rest of the class uh we'll talk about
+  the next one the next one about dragon flies we'll talk about that once we've done
+  more Vision stuff about vision and dragon flies we'll get there um so so yeah so
+  the um so despite that being a sort of strange and baffling study um um it has it's
+  also venerable like it's it's been around for a while we've known about this for
+  a while that there are these Central pattern generators that govern movement and
+  they handle like things like the basic trade-offs between you know the limbs going
+  from stance to swing and stuff like that um and so there's been active areas of
+  research since then trying to understand the nature of these spinal cpgs and trying
+  to understand like you know where they how they operate and sort of what the connection
+  is between the brain and the and the like the upper level of the brain and the lower
+  level of the spine and sort of into the peripheral nerves and stuff like that um
+  and those Studies have evolved uh there was some point in time I'm not really sure
+  the exact history here uh where you know the animal rights rules kind of evolved
+  uh and at some point they were like don't use cats for that anymore um the rules
+  about animal ethics are interesting and complicated I'll talk about them at some
+  point um but there are kind of like rules about like which animal you're allowed
+  to use for which study and there are some kind of like strange designations for
+  like higher higher level versus lower level and typically speaking the closer you
+  get to a humanlike animal the the the more stringent the standards are so like we
+  do still use non human primates for Neuroscience research we don't use apes and
+  chimpanzees um but if you want to do monkey research you have to really really justify
+  that you that you're doing research that needs to be done that it needs to be done
+  on a non-human primate um and so at some point they you know they decided that you
+  can't do it on cats anymore so now they do similar stuff with rats so this study
+  was done with rats um and this also by the way has a really fun Ted talk about it
+  um where Greg Lut is very very like smarmy French type of thing which is is a really
+  good presentation um if you can get past the kind of like the Ted Talk of it all
+  um but it's a good job of like telling an interesting story um although yeah the
+  way he tells his story is actually not the way I tell my story because that's another
+  sort of point to to call out here I am telling you this story as I have internalized
+  it like I me as a particular individual human scientist with a particular background
+  and sort of like area of the world that I'm trying to make sense of when I tell
+  you the story about this paper it's going to be different than if the the authors
+  of the study told you this paper or if somebody with a different background and
+  interest set were tell you the story of this paper um there's this sort of context
+  of like narrative that keeps coming up um that feels sort of like unexpected in
+  a sort of discussion of like scientific empirical studies but remember this is all
+  stuff being done by humans and we only remember stories that make sense to us um
+  and so I'm going to tell the story I'm going to tell you sort of highlights a particular
+  area of this that I think is sort of I found motivating um since I gave myself a
+  little bit more time also talk a little bit more structurally about this paper uh
+  so these are all authors of the paper they all contributed in some way um the the
+  person at the front is the first author typically speaking this is like the owner
+  of this the person who like did the work and sort of own the project generally speaking
+  um this is going to be like a grad student or a post do or something like that the
+  last author is the often times the senior author um so generally speaking not always
+  the case um and this does this is somewhat Fu dependent but in most like biology
+  related neuroscience types of of of studies the last author is the person who runs
+  the lab where the study was done and the first author is the person in the lab that
+  generally did that work um again it's very it's very that's all very very it varies
+  dramatically by paper and by field and by whatnot um but if you're like in grad
+  school or a postd something like that like you they you will be considering your
+  first author Publications differently from your non-ir author Publications the people
+  in the middle are people typically people that like helped out in some way um but
+  they were not like the owner of the study um yeah then once you get to not once
+  you start publishing papers and start looking doing things that involve paper publishing
+  um people will ask you questions about how many first author Publications do you
+  have versus second author Publications typically you'll have more second author
+  pubs than first author pubs and then once you get to the point where you actually
+  are running lab people will start asking questions about how many last author Publications
+  you have meaning are you training people to do this work appropriately um again
+  that's very field dependent um math people when they publish math papers they publish
+  their authors alphabetically which is wild to me um but what I'm describing here
+  is like sort of like standard cultural practice in contemporary scientific publishing
+  um down here you got all these little citations showing what these numbers correspond
+  to so like where they're working most of the work with done in Switzerland U and
+  it's also going to tag um oh here's a tag that says okay so these two have a star
+  that says these authors contributed equally to this work which is something it's
+  a way that people try to get around the the first authoress of it but I guarantee
+  you there was a discussion about despite them being starred who actually gets to
+  be first and then this one is also important uh this is the corresponding author
+  so this little symbol here says that if you want to ask a question about this paper
+  you should contact this guy so that's typically going to be in there um and also
+  I will go to the end just because again from a structural perspective um there's
+  always going to be something like an acknowledgement somewhere in the paper and
+  they're going to they'll do like thanks you know thank you for this person for helping
+  with the robotic interface and da da d da um but they will also generally not not
+  generally always should um site their funding sources so where did the money come
+  from like in in this case they're listing a bunch of Grants from uh European research
+  councils and d d this is an expensive St there a bunch of Grants but it's sort of
+  a you know there's always going to be something saying thanks to the NIH for giving
+  me this grant or whatever um and typically uh this is another place where like you
+  say hey thanks for giving me this Grant and you tell you say this is this is you
+  know Grant number is this so you can for public grants which most of these are you
+  can go on you can go look up the grant that was written to fund This research and
+  sort of see what they were talking about there so it's just kind of another way
+  that people kind of keep connected to the larger uh Community when they're publishing
+  particular papers um yeah modern papers also tend to talk they have a like a of
+  like very like more recent than 2012 you'll it's more common to see uh sections
+  that say that list out what each author did so like this person helped collect the
+  data this person wrote the thing and there'll be a a paragraph or two saying what
+  each author actually did when they were like how do they earn their spot on the
+  on the author list okay so this particular study um this is your figure one figure
+  one this style of figure is very common in like science and nature um journals because
+  science and nature journals are very very short and very very dense this is also
+  specifically um a report um which is you know generally speaking the journal will
+  have like oh we have articles which are full length and like report which is short
+  length and you know brief communication which is some other length and it's just
+  so this is a report which is like this the T it's not the longest format it's the
+  second it's like a a shorter form and this whole this whole study is five pages
+  including uh the this front page so it's only four written pages of text and then
+  probably if you go to those supplemental documents it's going to be when you go
+  to the supplemental stuff it's typically going to look like a Microsoft Word document
+  converted to PDF and it's going to be dozens to possibly more um Pages um but this
+  study yeah so this picture with very dense with like letter um sort of sub panels
+  um in particular with this kind of like professional looking animation sort of or
+  visualization here very indicative of this type of Journal um if you go to sort
+  of more like standard bread and butter types of journals like anything that's like
+  Journal of like biomechanics Journal of blank um the the the the figures will generally
+  look more like a real regular human made them rather than like a professional Graphics
+  design team which in this case is what happens um so yeah and then um when I'm looking
+  at a new paper uh I will look at the title I'll look at roughly speaking who wrote
+  it like not the PE see if I recognize any names and kind of just look at where they're
+  working um I'll read the abstract um and then I'll kind of skim the paper and look
+  you know start out by just looking at the figures I typically like and by typically
+  I will pretty much never just like sit down with a new paper and just read it from
+  start to finish like it's a novel like that's just not how we tend to interrogate
+  scientific papers usually it's it's kind of like jpeg compression like you do a
+  you do skims at different levels and you kind of because you want to have the full
+  picture and then you can sort of like choose to to sort of to Zone in um to different
+  levels of analysis to different sort of parts of the paper um and science is a no
+  clickbait situation so if we're if we're writing a good paper the title is a summary
+  the abstract is a summary and then the paper itself will have sort of repetitive
+  summaries within it um so so yeah so we're going to look at this this so this is
+  figure one which will be referenced in the article somewhere yeah here so figure
+  oh that's S1 so S1 is supplemental figure um but yeah so if you this even they're
+  even they're citing figures which are not in the main article they're in this only
+  you have to go to the supplemental information to get the get the results there
+  um but this is the first one I'm seeing Figure 1 C represents this figure and the
+  letter corresponds to this section here the figure will always have a caption the
+  caption will always have a sort of one sentence summary of like what we're looking
+  at here and then each lettered subsection will have some little write up of what's
+  going on in that section um so yeah um yeah so this one is kind of doing uh like
+  I said I think generally figure one should always be a methods figure and that you
+  should also always or ideally have representative data this is doing both this is
+  both a methods paper methods figure and a representation of Representative data
+  okay so what were they actually doing here um so looking at stal Central pattern
+  generators in mammals they're looking at it in rats specifically or they're using
+  a rat as their model organism they don't they don't actually care about rats that
+  much they're but they're using rats as a proxy animal that we believe has sufficient
+  complexity that if we learn something about how supping Works in a rat that will
+  be helpful in getting uh a treatment into humans and I happen to know that if you
+  look at what this guy's been up to recently they have been able to apply this stuff
+  in humans and I think they are actually like getting to the point of I don't know
+  about like fully healing but I think they are restoring voluntary control of locomotion
+  after a paralyzed spinal cord injury so I I haven't checked in on him in a couple
+  like two or three years I guess so um but he's like he's like one of these like
+  Mega people like they if you go to sfn he has like several rows that's just like
+  a bunch of people that work in his lab because he just you know he's like the it's
+  like a like a business owner type of thing so it's a very very different vibe if
+  you have like a lab with 150 people in it versus if you have a lab like mine which
+  has like three people in it so uh I don't want to run a lab like that that sounds
+  terrible um so the idea was so they they they they took the M the rats and they
+  yeah um so they took the the rats and they they gave them a surgical spinal cord
+  injury they they went to in there and they they they gave them an injury that damaged
+  their spine and severed all the fibers going to their brain so this is a picture
+  of the central nervous system of a rat these are the two loads of the brain and
+  then this is I'm not going to draw it uh but this is the spinal cord itself and
+  the idea here this is kind of like the clever part is so this is the spine they
+  didn't just cut straight across um they did two cuts one like 60% of the way through
+  up here and then a little bit below it they cut it again going down there so all
+  of the fibers that are going through here get severed but they're not just chopping
+  it out so there is still a sort of a path hypothetically to go through so if it
+  was possible for these fibers to kind of regrow and reform and reconnect to each
+  other then you could theoretically have a signal coming from here and sort of like
+  bypassing these injury points and getting back up to the brain um and so the idea
+  was that they so this is and this is the process of sort of the decerebration part
+  that's sort of similar to what they did in the Cat video um and literally it just
+  you know they went in there and did surgery on these rats and went in with a little
+  scalpel and cut them in certain areas and I'm sure if you go yeah adult threat received
+  a left lateral over hem section at thoracic T vertebrae t7 and a right lateral hem
+  section at T10 one of those things like if you knew what all those words meant then
+  you would be able to say oh okay I understand all the details there over hem section
+  means a little over half so they they didn't go to the halfway point they went over
+  that um and so then what they do and so see if I can uh this on so now we put the
+  mouse the rat mouse rat in this little robotic G entry system so this this is a
+  uh there's other studies on this particular system but this is kind of the 2012
+  version of that little wire wire uh support and treadmill thing from the cat um
+  and so basically what they were able to do is it's like I think this is the best
+  picture we're going to get in here and actually yeah I think well the almost certainly
+  the supplemental information for the paper has many many things to say about this
+  particular robotic system but basically it's like a kind of like a 3D printer if
+  you ever seen that where it's kind of like a a a motor control that sort of moves
+  over a 2d plane and then it sort of goes down to this kind of like supportive mechanism
+  oh jeez and it supports the mouse of the Rat um partial body weight support so it's
+  not it's not floating off the ground but it's also not holding its full body weight
+  and and um and it allows it to turn and stuff like that while maintaining that body
+  weight support so you know no matter what happens it's detecting what's going on
+  and it's always making sure that the rat has you know 10 to 20% of its body weight
+  on the ground the say and sure enough as we are sort of not surpris to learn um
+  even after so this is the the activity also they they hold it upright so it walks
+  in this kind of like bipedal way which is sort of would be cute if it wasn't so
+  mob um and this is what intact means not chopped up um so the intact uh animal looks
+  the the behavior looks like this so the trajectories in blue here are the trajectories
+  of the feet um and this is all and they go here so we're not we are not shocked
+  to learn that um even after uh yeah that even after this injury they can still walk
+  decently okay like if you put them in a little robotic thing and drag them along
+  they can walk just fine there's this complicated sort of like electrochemical thing
+  that they put into their spine to make sure that the neurons are still sort of active
+  and healthy and sort of firing hard enough to move the limbs um what they found
+  with those cats is that even like the video you saw was probably right after that
+  surgery was done but typically what happens is the behaviors kind of extinguish
+  over time so like after a couple of hours or days or I think not more than not more
+  than weeks um the cat would stop doing that behavior and if you put it back on the
+  trebal would just kind of wind up dragging its feet um and so one of the results
+  that they built on from their own labs building this sort of combination of like
+  a pharmaceutical cocktail and a particular electrical stimulation pattern that allows
+  them to keep the animals do like the deated animals doing this movement for a sort
+  of arbitrary amount of time um and uh and yeah so that's I think that's the main
+  that's the setup so we've got these we've got these they've been deated and they
+  can do this sort of walking task and good for them um and so now here's where so
+  that's all cool but none of it is shocking this is all stuff that we already knew
+  when we showed the Cat video um so they're specific thing that they're trying to
+  do is restore the animals ability to initiate walking um so a lot of this stuff
+  is kind of like they're dragging it along like on a treadmill so it it gets this
+  stimulus that it needs like the feet drag and they sort of pick then sensory signals
+  pick up and they start taking steps um but that but the the rat cannot just sit
+  there and just decide to start walking forward um so they're trying to restore that
+  ability to do that and this is where there's a lot there's a lot going on here in
+  terms of methodology that I'm not there's just too much depth to get into but I
+  will say that they then they broke the animals up into two groups um one of the
+  animals one of the groups of animals was getting the um the control condition I
+  guess which was training so they they would they would do this surgery to them they
+  would give them this Electro chemical prosthetic that allows them to sort of keep
+  walking and then they would put them in this sort of robotic suit and they would
+  have them do this like movement training so it take a bunch of steps in a bunch
+  you know in a row um then the other group and this is where I think the main sort
+  of like interesting nut of the paper comes in the other group would do a matched
+  amount of training so a matched amount of steps but before they would start the
+  robot thing pulling them forward they would put chocolate in front of their face
+  and apparently rats like chocolate and so they put the chocolate in front of their
+  face and the r goes oh I really want the chocolate and then the robot kind of pulls
+  them forward and then they do the stepping behavior and then they get to eat the
+  chocolate that was sort of presented to them so now we have two match groups of
+  rats one is being trained and taking a bunch of steps with this robotic Gantry system
+  the other is doing the exact same behaviors but they are being given a motivating
+  a motivating food thing then they do the exact same steps and they receive the food
+  as a reward for doing that and in the last 2 minutes of class if you sort of dig
+  into all of this stuff what happens is that the animals that only do the base training
+  don't get better and eventually they the behavior still becomes extinguished and
+  they sort of they never regain that capacity the animals that get the chocolate
+  reward experience this kind of regrowth pattern where they over enough time they
+  see these connections getting formed that sort of bypass the injury site and over
+  time they can put the chocolate in front of the the rat and the rat can actually
+  initiate the stepping behavior before the robotic Gantry kind of pulls them forward
+  and that is I think really amazing and the idea is that it Taps into the kind of
+  the way that we that we move our bodies in the world it wasn't enough for the for
+  the for the control rats to keep doing the stepping Behavior because it wasn't connected
+  to anything in the world around it whereas the ones with the chocolate condition
+  um they had the experience of oh there's a state there's something out there in
+  the world that I want it's in front of me I need to walk to get it they start walking
+  they don't know that they're being dragged by a robot and then as a result of that
+  behavior they get to eat the chocolate and so when that happens it triggers this
+  other concept of the dopamin neric reward system where basically basically the the
+  brain gets flooded with this reward chemical that called dopamine and a bunch of
+  other stuff that basically has the the the effect of reinforcing all the neurons
+  that were just firing just dup energic award system is kind of how that works and
+  so it's that connection between that sort of that frontal area that volitional sort
+  of prefrontal lobe cortex thing of I wish I was over there so I could eat the chocolate
+  and then a bunch of neural fa activity happens then you get to eat the chocolate
+  and then your brain gets flooded with neurons that say whatever was just happening
+  reinforce that and then that is enough to trigger regrowth of neurons at the spinal
+  level and that is as much as I'm going to say about this paper and uh end of class
+  so thanks for following along and uh I'll see you all on Wednesday going to do two
+  papers someday I'll learn I'll never learn
+metadata:
+  author: Jon Matthis
+  channel_id: UCOOQxlTCtUz9mr1NPWlJyYQ
+  description: '**Video Title:** 2025 02 10 15 00  \n**Author:** Jon Matthis  \n**Duration:**
+    5458  \n**Date Published:** February 11, 2025  \n\n### One-Sentence Summary\nThe
+    lecture guides students in preparing scientific posters, emphasizing effective
+    communication of research and includes a case study on spinal cord injury in rats.\n\n###
+    Chapters\n```\n00:00 Course Progress and Focus\n01:00 Assignment Overview and
+    Poster Proposal\n05:00 Using AI for Proposal Development\n09:00 Poster Preparation
+    and Tools\n13:00 Content and Structure of Scientific Posters\n18:00 Importance
+    of Scientific Communication\n22:00 Practical Tips for Poster Presentations\n47:00
+    Case Study: Spinal Cord Injury Research\n55:00 Understanding Central Pattern Generators\n80:00
+    Methodology and Findings of the Study\n```\n\n### Pull Quotes\n- \'
+  duration: '5458'
+  like_count: ''
+  publish_date: '2025-02-12T21:00:37-08:00'
+  tags: ''
+  title: HMN25-06 - Scientific Posters and Spinal Central Pattern Generators
+  view_count: '39'
+transcript_chunks:
+- dur: 180.0
+  end: 180.0
+  start: 0.0
+  text: okay all right what hello everybody sorry for the slow start um trying to
+    get some stuff downloaded I should have downloaded at home um yeah so standard
+    check in so we are officially in week number six uh which is a Fine Place to be
+    um so we've covered a lot of stuff uh I would say we've covered the majority of
+    like the the I guess like the bi the hardcore biomechanics stuff like to I've
+    almost said like the motor control stuff but I probably will get back to it um
+    but we're going to take a little bit of time this week uh talking about just like
+    we're g like today we're going to go through some examples of papers like direct
+    like published papers something that i' really like so of have some experience
+    sort of going through a published article and sort of try to make sense of that
+    um and then on Wednesday we'll do kind of like the like a sort of a small group
+    kind of assignment to help you all prepare for the sort of exam like assignment
+    SL poster proposal too that we'll be do probably they'll both be kind of like
+    connected to each other and be du at the end of that's this week um right next
+    week um so yeah that's I got these wrong I'll fix that later um the so basically
+    the idea is like you know at this point I've talked about some of the kind of
+    the topic area stuff usually in the riew and then we spend a good amount of time
+    recording some data in class and kind of just like eyeballing it like looking
+    through it and sort of trying to figure out what kind of stories could be told
+    there we came in with some sort of basic hypotheses and things like that um and
+    so uh what I want the kind of this sort of Next twoe Period to be which you know
+    next Monday is a holiday so it'll be next three classes is to prepare yall to
+    kind of start thinking about your own chosen topic whatever that happens to have
+    been um using the kind of like thought processes and mental Frameworks and stuff
+    like that that I've been talking about in the context of human body human movement
+    research uh based off of kinematic motion capture data um so what that's going
+    to look like is you know sort of figuring out what the topic area you've chosen
+    is um you've already done that to some extent um but sort of just you know digging
+    into that a little bit more and then starting to think
+- dur: 180.0
+  end: 360.0
+  start: 180.0
+  text: about uh the methodologies that are used to pursue your your topic of interest
+    um I know that sort of the way that we gathered that it was sort of a combination
+    of talking about topics and also picking a paper and the paper part is the sort
+    of technically the most relevant part to the poster proposal but I want to make
+    sure that that's couched in the context of like there's a reason why I like this
+    paper and this because I'm interested in this topic um so trying to trying to
+    sort of flesh out like the methodologies involved in your area of research um
+    the kind of like and like the empirical sort of grounding of it like in the sense
+    of so what are the methodologies used what are the tools that are used to collect
+    the relevant data for whatever the topic may be um and then how does that kind
+    of map on to the kind of conversations we've been having around cameras and motion
+    capture and sort of you know what is the what is the sort of the core empirical
+    tool involved what does it measure what are the sort of what are the units that
+    get derived from that and what are the you know what are the the the data types
+    and structures that the um that the sort of scientific insights in your area of
+    focus are sort of build on top of um and that will kind of culminate into a sort
+    of like a follow-up proposal like proposal proposal number two which will be uh
+    sort of like a fleshed out version of the original sort of of like here's a paper
+    I care about thing um so been thinking about like how what kind of mechanism I
+    want to use for that sort of thing um and I think what it will wind up being is
+    a a a a base level assignment that will live on canvas and in the GitHub repo
+    uh that will involve you copy pasting some text uh from your own kind of like
+    the profile thing that you have been generating and pasting that into a set of
+    chats from the bot that will be sort of prompted in in the server um that will
+    be sort of the idea will be like you'll you'll go in there you you'll start with
+    whatever your last um whatever the the most relevant blob of text you have about
+    what your interest are and what the paper is that you in the topic You' chosen
+    take that into a chat space and then the bot in that space will be prompted to
+    ask you about a certain sort of layer of the I've been talking about um and then
+    at the end of that you'll ask it for a summary possibly using a prompt that I'll
+    provide and then take that and put it into another chat and then have another
+    sort of layer of conversation um and then the output of sort of those set of conversations
+    will be something resembling the poster proposal to that will sort of be the fleshed
+    out version of what you're looking at um and the reason for the structure is like
+    I thought about trying to make just like like one chat like we've been doing that
+- dur: 180.0
+  end: 540.0
+  start: 360.0
+  text: sort of does all the stuff but that starts getting really difficult and that
+    starts getting into the space that these types of AI sort of as implemented here
+    just can't really do like they're not really like it's like if you give it a set
+    of instructions it's not really good at like two-part instructions like do this
+    and then do that like it's just not set up for that you can set up the code on
+    the back end to handle some of the stuff automatically but it's much much easier
+    to just like make two versions of the prompt and then just give you the intelligent
+    humans instructions that say do this and then do that um and the idea will be
+    kind of like you know you'll be setting yourself up for the next conversation
+    and that will also give you some sort of experience but like directed prompting
+    and that kind of like aiish training thing um and like the the the conversations
+    and prompts that I set up for you will be kind of built out of the lectures that
+    I've been giving Which on the YouTube playlist which is linked in the server um
+    so I'll be like you know doing something I've been doing might may not be obvious
+    to you like of uh pulling the transcripts from those lectures and kind of pulling
+    out the main points and sort of using that to help drive the conversation um and
+    so that's why it will sort of I'm counting that sort of set of chats as like an
+    exam like object where you will have a set of things to do um and if you don't
+    do those things you'll get a bad gr and it will be somehow culminative and based
+    off of stuff that has happened before which I think is like the legal definition
+    of a test um and then that will kind of set you up for The Proposal Part which
+    is another requirement of the structure of the classes to make sure that by this
+    week um pushing it um you're set up to actually hypothetically start working on
+    the actual poster with the kind of fleshed out nature that that needs to be um
+    so I will it's the the lecture pulling stuff is the reason why I'm not ready to
+    give you anything today but I have all that stuff it's kind of like uploading
+    like the videos they they take a long time to upload so I have to wait for the
+    last one to get up there because I only put it up this morning um but I'll have
+    something kind of put together and started for that by next Wednesday um so that
+    way we can sort of talk about it in class you can ask questions things like that
+    um and then you know leading in that be sort of uh hypothetically Doe by the end
+    of week seven which is next week and so now I'm going to give a little bit of
+    time talking about the the posters themselves and sort of I'll put some templates
+    into the um into the server and I I'll get those in the relevant place on campus
+    soon um but before I do that before you look to closly uh there any questions
+    so far any
+- dur: 180.0
+  end: 720.0
+  start: 540.0
+  text: sort of like concerns stress levels things that if you knew you would feel
+    more comfortable about your status here someone sent me an email asking about
+    the poster like structure itself for that's what we're going to talk about today
+    um yeah great okay okay so the poster itself these are just some examples that
+    I found um from previous courses taught uh which is made more difficult because
+    I don't have PowerPoint on this computer um but that's okay okay we that one um
+    so this is a PowerPoint slide uh it is you know PowerPoint or Google Slides I
+    think it's the equivalent or keynote on Mac is the equivalent of that um I'm sure
+    a lot of you has PowerPoint slides in it um but it's long story short the nice
+    thing about something like a PowerPoint is that is a vector-based art thing um
+    meaning that these visuals are defined not by sort of pixels on an image like
+    a lot like most images like if you zoom in on them they start you could start
+    to see the pixels um uh Vector base Graphics are not like that they are because
+    they're defined mathematically like this curve here is not defined as a set of
+    dots it's defined as like a mathematical definition of how to draw this shape
+    and everything on the PowerPoint page is that way so the advantage there is that
+    you can zoom it up infinitely and you'll never see the pixels because it is not
+    based on pixels um the opposite of vector base is raster based um and that's most
+    images where if like you take a screenshot and zoom in it start you can only zoom
+    in to the level of the resolution of the image um so most posters are made with
+    a vector-based visualization method um PowerPoint is I would say like the entry
+    level version of that PowerPoint are an equivalent of PowerPoint um and for the
+    vast majority of you I would say almost all of you except for someone who has
+    like a really specific interest in like design um I would just say use use PowerPoint
+    use Google whatever it is use whatever just make basically a single page a single
+    slide that has information about your poster there if you're feeling fancy and
+    want to do the prograde version of this um the professional version of a vector
+    graphics editor is called Adobe Adobe Illustrator is like the main one um you
+    all have free access to the Adobe Creative s Suite through your Northeastern email
+    email um you don't
+- dur: 180.0
+  end: 900.0
+  start: 720.0
+  text: know how to do that just ask someone that's not me um how to get access no
+    yeah just yeah you just kind of you just download and log in right you just download
+    Creative Cloud and just log in with your north eastern account no you have to
+    uh you have to go to a a specific website and then go to and submit a request
+    for a license okay well that's too bad but it takes like a day or so a day or
+    two yeah so if you're into that you can do it um there's also um inkscape is a
+    free version of Adobe Illustrator um which I've used it I sort of in the way that
+    these things tend to go like the free version has kind of been in development
+    for a long time when I was in grad school it wasn't very good and wouldn't be
+    what I would consider like like an like a viable alternative um but I've used
+    it recently and it's gotten pretty good I think for basic usage it might be helpful
+    but it but realistically don't expect it to sort of be at the same level as illustrator
+    but also realistically if you're new to that space you're not going to be using
+    the pro tool to the pro level so you can give it a shot um and whatever you choose
+    I would say like the stuff that we'll be doing to prepare like the content of
+    the poster will be independent of the poster itself so if you want to try a fancy
+    thing and then sort of be like I don't want to do this um you can convert later
+    uh okay so what should actually go on the poster itself um the basically a poster
+    is like a distillation of a paper that's kind of I think the best way to think
+    about it at the level that we're doing in this class um that's not all that a
+    poster has to be um it could be other things um but the default sort of purpose
+    of a poster is to kind of give you a representation of a particular study typically
+    that you typically i' say almost exclusively that you yourself are doing um so
+    that you can take it to something like a conference and then put it up and then
+    have then stand next to it and hope people come by and talk to you about it um
+    I showed you some pictures of like scientific conference poster sessions you can
+    just you know sort of uh that's the that is the the structure that's being sort
+    of mimicked here um so and at the end of the semester that roughly speaking where
+    they go uh the week of April 7th there will be a poster session for all the inquiries
+    classes and you'll be assigned one of the days and that will be your day to present
+    um and you'll present your poster along with half of the students in each other
+    class and then if you're not presenting then your assignment will be to go around
+    and partake in the posters um including
+- dur: 180.0
+  end: 1080.0
+  start: 900.0
+  text: you know a certain number of posters from this class and a certain number
+    of posters from the other classes so you can kind of like get the experience of
+    what that sort of process looks like and feels like um yeah so yeah so like I
+    said I said before and we'll say again um there there's kind of there's the default
+    version of the assignment and then there's kind of the whatever else you want
+    to do part of the assignment um so I'm mostly going to be talking about the default
+    assignment which is just pick a paper and present that paper as if you were you
+    know a person I don't I don't know if they like what the other class say in terms
+    of like should be like role playing like a grass in the lab or should you I think
+    that gets kind of weird just or you can just be like my paper they blah blah blah
+    just talk about it in the third person um but yeah but you also have the option
+    of like you know if you want to add more citations there if you want to talk about
+    other things um I think if you want to use any of the data that we use in this
+    class as part of your poster um we can sort of set that up basically like any
+    of the data that you've seen before now before April 7th I'll have I'll make that
+    into a place where you can like pull screenshots and sort of just like talk about
+    it um if you wanted to have the experience of using like actual data that you've
+    been a part of as part of your presentation that's a viable option um yeah so
+    in terms of yeah so in terms of like how do you put the poster together together
+    how do you you know from a given paper or topic area how do you actually create
+    a poster uh that's where there is sort of like instructions about that um which
+    I think might on this one there are some instructions from other classes that
+    I'll I'll pull up that are sort of more written setup but um the basic idea is
+    that you're not what you're not supposed to do is put all the information in the
+    poster all the information in the paper on the poster um you don't want to have
+    what we call affectionately um a wall of text poster we all know what it feels
+    like to be confronted with a big wall of text it's not fun um and it doesn't really
+    it's not helpful to you as a as a person coming in um something that I think really
+    needs to be driven home over and over and over again is that science the scientific
+    process is primarily a process of communication if you're
+- dur: 180.0
+  end: 1260.0
+  start: 1080.0
+  text: sitting alone in your lab collecting data and running running numbers and
+    stuff like that and you never actually show it to anybody else you're not actually
+    doing science you're just kind of like you're doing an investigation you're playing
+    around with data but the process of science is is a process of communication so
+    when you're present in this sort of interface of a poster or a paper um is the
+    traditional method for communicating science to other people uh presenting a poster
+    in a conference kind of you know I I say unofficially counts as a peer- review
+    type of session but you can't say this is a peer reviewed poster um but you are
+    getting it reviewed by your peers um in the sense that you know people other people
+    who know the area are going to look at what you've done and hypothetically have
+    the option of saying oh hey you made a mistake here there or the other um which
+    is a Cornerstone of how we do sort of science you know I'm sort of I'm talking
+    about a system that I'm pretty uh jaded about so I'll talk about it kind of in
+    the idealized form um so so yeah so so when you are translating whatever poster
+    you're doing whatever topic you're doing whatever project you're doing into poster
+    form it your job is to kind of do the distillation like it's you're the you're
+    the person hypothetically who understands the project better than anyone else
+    like argue like if it's your research project you probably understand the nitty-gritty
+    of it better than anybody else in the world and the people that you're going to
+    be communicating with are only going to be talking to you for like a couple of
+    minutes like you know 5 10 minutes at most you know not at most but um a very
+    short amount of time like if you look at you know the picture of like sfn or something
+    like that there's thousands and thousands of posters and if you're a person you're
+    not going to see all of them you're going to go to a particular area but you're
+    not going to be spending hours and hours on each poster you're going to be kind
+    of coming up and saying hey what's what's the deal here and your job as the presenter
+    is to be able to give them the deal like tell them what was what the study was
+    and what what happened at a level where if they just sat there quietly and listen
+    to you then you could get sort of from start to finish let's say within 3 to 5
+    minutes um and the person listening knows enough of what's going on that they
+    can walk away and say oh yeah that poster they did this thing they found this
+    result they you know they will if you've done a good job they will walk away with
+    a certain sort of gut level takeaway um that they can that they will then be able
+    to explain what your study was about without having to know all the details itself
+    um so there's a certain strategy on what you put on a poster uh where you want
+    to make sure that you are like the takeaways that that person walks away with
+    should be the takeaways that you want them to walk away with like there's a lot
+    of things in a given research
+- dur: 180.0
+  end: 1440.0
+  start: 1260.0
+  text: study um and you can present the same study in five different ways and sort
+    of have the person walk away with five different hopefully not like in hopefully
+    not like incon herent inconsistent beliefs but you know you can focus on you know
+    one thing or another and you want to make sure that you're packaging it in a way
+    that will they will be able to understand that will stick and that they will be
+    able to walk away and when they say hey that study over there was was about this
+    person doing this thing and finding this result that they're saying roughly speaking
+    what you believe about that thing um now I said if that's what would happen if
+    the person just stands there politely and doesn't say anything which sometimes
+    is what happens and typically it's not uh the um it's not it's not necessarily
+    an insult especially at conferences that people are tired and they want to get
+    the the the gist but um in general in Academia and the Sciences if somebody starts
+    criticizing your work a lot and then just starts pulling it to pieces and picking
+    up the threads it's that's a compliment like they care enough about what you're
+    doing to think about it and ask questions and it could be really offputting to
+    people especially students who are used to fatigue being like to give you a a
+    rank order in your grade um but if I'm asking a lot of questions it's because
+    I want to know more and I'm I'm using my time and my energy and my attention to
+    do the thing that I was train to do as a scientist who is peer reviewing other
+    other research which is to look for problems look for mistakes um not necessarily
+    to like not necessarily like to Target the mistakes but just because I want to
+    understand what's going on and I want to make sure that it was done right because
+    we're trying to sort of create new knowledge here um so that's where the second
+    part of the strategy comes in where if you're presenting the poster you're never
+    please do not just read it to the person that's not fun for anybody um but you're
+    going to present it in a high level way and then so that when the person asks
+    questions ideally you have the answer to that question right there W waiting so
+    even though you might be just zipping through this and sort of like moving past
+    this stuff because it's your study there's a certain like the first time you present
+    something you might be surprised by the questions that you get but after the first
+    couple of conversations you realize that 90% of the questions that you get are
+    predictable in some way and so you should just have those questions sort of answerable
+    from the data that's on the paper so you know this type of stuff is a good example
+    where I wouldn't want to be talking about um oh yeah we did this study with this
+    mouse Maze and there was the water was this deep and the thing was this big I
+    don't want to be describing the size of the whole of the of the apparatus but
+    if the person asks how deep it was I should have an answer for it and actually
+    they wouldn't even have to ask
+- dur: 180.0
+  end: 1620.0
+  start: 1440.0
+  text: that question they can just look at the picture and get that themselves um
+    similarly with a lot of like the the method like often times that's where you
+    put like details that you know you wouldn't necessarily say you could say oh yeah
+    we have this rat do this thing and this maze but the details are there so the
+    person can just kind of skim them and kind of know the answer there um and yeah
+    and I will say I think that the you know there should be some kind of a methods
+    section uh which should have some visual representation of like what you actually
+    did what the study actually was like you know this is a good example because it's
+    like I know by looking at this that you looked at mice in a water bucket with
+    a camera you know you could just as easily have you know if you skip this type
+    of thing oh yeah you have this with a camera and I know that there were three
+    conditions and one of them was a sham meaning they didn't give it do anything
+    one is injured and one is whatever this condition is and so now I have a sense
+    of like what it is that you actually did it's really easy when you know something
+    too well to skip the parts I call it skipping Step Zero it's like the things the
+    immediate questions that anybody coming into would ask are the first things that
+    you forget to explain when you get into it so it's like you know you can have
+    this if you're just showing the result blah blah blah blah blah I could be like
+    halfway into my conversation but then my person asked wait are these mice are
+    they rats are they fruit flies are are they on a treadmill are these celegans
+    you know they start asking questions that make it clear it's like oh they don't
+    even know like basic thing that I did which is stand in a room with m in a water
+    bat um so the method section should always have something that just makes it clear
+    what that is in my preference that will typically be figure one in whatever paper
+    you're looking at this isn't always the case but I I think this is true for papers
+    as well like figure one or something very close to figure one should be some kind
+    of a picture that makes it clear what you're actually doing and the results over
+    here um should be some representation of the data that was recorded uh typically
+    there's going to be I guess yeah you want there to be some nice Harmony here um
+    and this is also typically where you are it's your job to kind of choose the most
+    important data um for a lot of papers and certainly for a lot of studies you're
+    produce a lot of data um and a lot of visualizations showing various things related
+    to the data that you recorded um like whatever paper you choose like it could
+    have you know five six 10 or more um figures of data in it but your job is to
+    understand what's the main figure what's the main result you know and if I if
+    if I can only show one or two results from this
+- dur: 180.0
+  end: 1800.0
+  start: 1620.0
+  text: paper what should those results be and those should be the results that back
+    up the conclusions and then keep your directions if that's appropriate um of the
+    study itself so I you know introduction is typically it's kind of like the you
+    know here's why we did this this is where you can have citations if you want them
+    like we did this because it's related to this other study that did this other
+    thing we did this because there is this group of papers that sort of suggested
+    this effect is true and so we did this study to test if that effect is true um
+    breaking it out into research question hypothesis is fine not everything has this
+    stuff so delineate if it's fine uh some kind of method saying here's what we did
+    some kind of a data data representation of like here's the main results and some
+    kind of a conclusion because of all the stuff that we did we believe that some
+    fact of the world is the case um some new proposed fact of the world is the case
+    like I this this is ifate the part where you say the things that you now believe
+    because of the research that you did and you hope that after going through this
+    little journey people that you're talking to the people who are reading the paper
+    um will also believe you they'll say yeah the things that you're describing seem
+    supported they seem reasonable I will go along with you on this you know and then
+    if enough people are convinced by the story that you've told it becomes a quote
+    unquote scientific fact which is always something to be wary of because we're
+    always wrong about everything and and every scientific fact will be proven wrong
+    in the fullness of time um so but we do our best in the moment um one so the so
+    generally speaking uh by generally speaking I'll say you will pretty much never
+    read a poster to a person like if it's your poster don't read it to the person
+    have some other way of talking about it but the idea is that if the person had
+    the poster given to them and they read it from start to finish they would know
+    roughly speaking the story that you're trying to tell um and so in the poster
+    itself for the actual presentation is kind of there as like an it's sort of an
+    aid for you um explaining what you're doing so you have so you you don't you can
+    remember what they're talking about you have things you can point to you have
+    data you can point to um but yeah sort of a yeah it's kind of the process there
+    I should also say this is another sort of classic uh way of presenting data where
+    these a points up here are what you would call Representative data and then this
+    here is some measure of the like the statistics of that data so representative
+    data is basically like you can choose like you the researcher because you are
+    a trustworthy person who's not lying and has ear methods
+- dur: 180.0
+  end: 1980.0
+  start: 1800.0
+  text: appropriately documented you are allowed to look at the big body of data that
+    you have and pick a particular recording that is representative of the of what
+    you're trying to show um so you might record um so yeah so in this case they put
+    mice in a water bucket and then they had to learn where platform was so they can
+    sort of get out of the water um and our case we were doing stuff like you know
+    the jumping task or you know the standing task and so for the standing so imagine
+    for the standing task we recorded 25 different uh participants and you know and
+    each of them did 10 different repetitions of beta that's that 200 some of Trials
+    whatever um you can go in and kind of pick one trial or even one section of one
+    trial that exemplifies the effect that you're trying to show um and then just
+    click about that one little part sort of clean up and then past it there and say
+    this is representing a data from a subject in the partip stud um but that's not
+    really that's an without additional support that is anecdotal that is you just
+    sort of picking one from a set of a thousand options and saying this is the one
+    that looks like the story that I'm trying to tell that's not that that's not really
+    evidence on itself so you want to have you want to be able to back that up by
+    having some kind of a measure of Statistics that is looking at all 1,000 trials
+    that you did and sort of appropriately comparing you know subjects to subjects
+    and conditions to conditions and da da da um so that this is where you actually
+    start having statistical power and statistically supported statements and this
+    is these are the data that kind of like this is where like the real grounding
+    and sort of knowledge generation comes from um but it's good to kind of pair both
+    because you know the representative subject data helps the kind of understand
+    what you're talking about um or the statistical data helps them understand that
+    this is a thing that happens in general um that's always going to be different
+    based on the studies and stuff that you're that you're doing um you want to see
+    posters um generally if you just walk around a department in the school you'll
+    see posters on the wall um people put their favorite posters on the walls outside
+    their lab uh and so you can just walk around and take a look at what they would
+    look like and sort of just get a sense of the sort of the styles that are available
+    and sort of the choices that are made and you'll see some with a ton of words
+    on them you'll see some with very few words on them um and I recommend just doing
+    that just go whatever hours the day you want through whatever you know wherever
+    the various Departments of the school are and you'll you'll typically find posters
+    on the wall that you can sort of look at um in our case the sizes can be very
+- dur: 180.0
+  end: 2160.0
+  start: 1980.0
+  text: different I've gone to conferences where the posters are like 6ot by 4ot so
+    very very large I've gone to some conferences where they're like 3T X 3T which
+    is very small um I can't actually remember I I want to say that our posters are
+    24 by 36 Ines um which is like this big but I can't recall I'll I'll look that
+    up that's that's a relevant thing to have but mostly that will just affect the
+    font size that you use um this is again with the vector scale stuff like the actual
+    scale shouldn't matter too much um yeah so but it does depend like you know you
+    want to make sure that the font size is not oppressive [Music] um yeah also just
+    Google scientific poster you'll find a lot of examples uh is the kind of thing
+    that there will be many many layers of explication and tutorials about how to
+    make a good this and how to do a good that and that will all be relevant here
+    um with the exception that you won't be writing paper yourself a lot of this stuff
+    is just going to be sort of copy pasting from the paper itself just you know get
+    the figure put it up and um then these sort of the section down here in the bottom
+    right will be where you put your citations that will be generated from Soo or
+    whatever else uh yeah yeah so we'll we'll go through this and then on a particular
+    day of yeah so yeah so the the poster needs to be uploaded by Tuesday March 25th
+    uh which means that you'll upload a PDF and then it'll get printed um they charge
+    you for it I want to say like 20 something bucks I can't remember exactly I'll
+    get that number too um but that's due at the end where 25th is oh that's due on
+    the Monday so two weeks before the actual poster session which is mostly um because
+    as you can imagine the the printer office gets for this course hundreds I guess
+    of posters so we want to make sure to give them enough lead time that they can
+    get it all pretty in case anything goes wrong um and there'll be instructions
+    on how to do that and you know all that good stuff yeah and this I will um so
+    I'm going to drop these into the Discord server before I put them on
+- dur: 180.0
+  end: 2340.0
+  start: 2160.0
+  text: canvas just so it's available I please load up any questions or confusions
+    s okay yeah so like I just do my poster on one paper I just do that on paper is
+    there any otheres not really no um like by the the base level assignment that
+    so so they had a couple yeah um that was S I say again was that they only reference
+    it in int I'm actually I was looking for that uh cuz I actually can't see see
+    where these citations actually happen in the poster uh I guess this that might
+    be something I can't remember so I would actually say they may have this may have
+    just been like incorrectly done because you're supposed to site stuff here but
+    this again for this assignment it's a little bit weird um so I'd say like the
+    default assumption is that there's you know the base level assignment is that
+    there's only going to be one citation here and it's the citation of the actual
+    p paper um where you got the things um I would still say you should site it somewhere
+    in the like in either in the introduction or in the conclusions and say you know
+    this and that study did this you know you this one either have the one or CH at
+    all 2018 just had that cited somewhere in the text um and yeah so in default assumption
+    is that's just the one paper uh it's also the kind of case I think as you go into
+    your paper there might be some other obvious choices to site like you know you
+    know future directions could you like oh there are some follow-up studies that
+    were done after this was post to be cited there um in in their introduction they
+    might say we're doing this because of this other paper and then you can just site
+    that one too um if you wind up you know they're using some weird method that you
+    don't understand and then you go find the review article that says here's how
+    that method works and how it's used if you use that as part of your development
+    of the poster that's a good thing that you would want to just have some citations
+    somewhere and then just put it down there um you know citations in this context
+    are often used as kind of like you know it's a rubric it's like it's like oh you
+    have to have this many in order for it to be a valid thing um but that's obviously
+    nonsense that's not how we use it in in the real world when you're you just you
+    site stuff that you have used to say to understand all the work in this poster
+    that I'm presenting and this research that I'm presenting you have to also go
+- dur: 180.0
+  end: 2520.0
+  start: 2340.0
+  text: back and sort of like I am doing I I am building this study and this knowledge
+    on the basis of the stuff that I have you know read before like I'm I'm building
+    this on other people's work and if I'm doing that I need to cite it because you
+    know for if you're trying to figure out if you should trust this resource that
+    I'm presenting you I need to tell you that the stuff I'm presenting depends on
+    work that has come before me and this is that work so hypothetically if you really
+    really didn't trust somebody when they're presenting their data to you you can
+    go back and look at all the things that they're depending on and this is where
+    you get into this Con there's like a concept of like citation networks and stuff
+    like that where you know any study that has a certain am number of citations you
+    can Bounce from that study to other studies and sort of navigate all the empirical
+    work that has been done in the world for you know at least since whatever 1800s
+    when sure of keeping track of this stuff um so so yeah so but for the for the
+    strict assignment it's just one thing and in general when it comes to posters
+    the citation thing is a little it's it's it's much squishier like like posters
+    are generally speaking kind of an informal type of presentation um not always
+    some conferences are are pretty serious about them but I think for the convers
+    that are serious about their poster sessions the posters are always paired with
+    a paper so you write a six-page paper or whatever Accord that to go along with
+    a poster and the poster itself is you sort of often just sort of like you print
+    it for the conference and then you just use it to discuss at the conference and
+    then it's not going to go into some like you know the anals of some scientific
+    Society or something like that so they're generally just sort of treat it as a
+    much more informal type of thing and then the actual like the actual proper like
+    review process is done at the level of Articles and papers make sense yeah anything
+    else any other questions thoughts feelings cool all right yeah yeah we'll we'll
+    I'll be sure to plan some time somewhere probably somewhere in this sort of two
+    week chunk oh yeah do at the beginning of this week so I'll plan there'll be something
+    in this chunk to kind of like practice your poster now I'll try to do it the week
+    before it goes because it's often like you put you put the poster together and
+    then you start explaining you're like oh this is not at all what I want so I will
+    do some sort of we can do some kind of
+- dur: 180.0
+  end: 2700.0
+  start: 2520.0
+  text: demo run probably in this week um so that you'll have a you have a chance
+    to kind of go through it with your peers before you're doing it in person um it
+    is also just absolutely standard experience that when you're presenting a poster
+    for the first time the first couple people that you present it to get the worst
+    version of the story and generally speaking speaking by the end of the session
+    which you know for a lot of conferences can be like you know 3 4 hours rather
+    long time um you have by by the end of that poster session you have the story
+    of your research so down like so perfectly down that it's like if you ever find
+    yourself going to a conference and presenting a poster I beg of you to do yourself
+    the favor of taking notes voice notes text notes whatever you can about what you've
+    been talking about in your poster like the moment the poster session is done because
+    the story that you're trying to tell will never be clearer in your mind than it
+    will be after you have pulled it you know however many dozens of times you do
+    um and that's another like within the context of like how science operates and
+    sort of a practical communal sense that is often the purpose of a poster session
+    um not always the case but generally the case posters and also talks like most
+    of the times when you're when you're presenting stuff at a conference it's stuff
+    that you're working on it's not stuff that's you you typically I mean it sort
+    of depends on the cycle but you I think if if you're really using the conference
+    to its fullest extent you should be presenting stuff that's not quite done yet
+    it's not ready for prime time it's not published it's not peer-reviewed it's the
+    paper that you're currently writing not the one that you just published um because
+    this poster session the poster session in particular is a really great opportunity
+    to like hone the story that you're telling um and when you know and ask questions
+    someone you know say oh yeah we use this method I'm kind of I'm new to this and
+    someone's going to come by and like oh I actually know that method quite well
+    and then you can ask them that question when it comes up um you know you might
+    have a certain way of saying it that like the first couple times you do it people
+    don't really get it and then you figure out some turn of phrase that makes everyone
+    go oh right now I see what's going on and that's the way that you want to describe
+    it like you know when you're describing the methods like you know you'll you'll
+    often this is this is absolutely the most classic student behavior that ever exists
+    you'll describe it in way too much detail um and then eventually you'll learn
+    all the details that you can leave out that help people understand what it is
+    with with the minimum amount of time and then that's the way you should learn
+    how to talk about the stuff that you're doing they're very classic especially
+    for grass students like The Birth down grass students start presenting uh research
+    they will um they will spend
+- dur: 180.0
+  end: 2880.0
+  start: 2700.0
+  text: the amount the amount of time they spend discussing a particular area is proportional
+    to the amount of time that they spent working on that area and that's almost never
+    what you should do like it's possible that whoever these people are spent a good
+    four to five months trying to figure out how to make the water in the stupid thing
+    stopped leaking out and they kept using there some thing that wasn't working and
+    they figured out the glue and then blah blah blah blah blah and like that's and
+    then when they actually got it working the data just kind of fell out of it and
+    so when they give the presentation they're going to spend the first half of the
+    conversation talking about all the glue that they had to use and how the the leak
+    you know how they sort of got the the water up to the right level and da da da
+    da da that stuff shouldn't even be a part of the conversation you just that part
+    off sometimes when I'm giving a presentation I'll just say in this slide transition
+    was 6 months of my life and then I just show the result where it worked and not
+    the 15 iterations of failed attempts that I had to do before I got the version
+    that works um if the things that you were doing to make it work are interesting
+    you might want to record them in another place but a poster is almost never that
+    time um and then that might be the case where someone comes along go how'd you
+    get your stupid thing to fill up because ours keeps leaking that's when you can
+    say oh yeah we use this glue and not the other glue and that's the place where
+    like at the end of the paper that you wind up publishing on it you can have the
+    very long methods where you can have a little section about why you have to use
+    this glue and not the other glue and da da da da um yeah so it's the process of
+    kind of distillation that I think is really the nut of this assignment um and
+    it is your job as the sort of the ambassador of This research study to to to make
+    the call to make the Judgment call about what what's the most important part and
+    what's the narrative that we're going to try to pursue here okay yeah right we
+    good cool um yeah and we will have plenty more opportunity to talk about this
+    stuff in your specific case but um cool all right now with all of that said let
+    us just let's go and look at at a paper and let's see so we have approximately
+    40 minutes left and I am going to attempt to do to look at two separate papers
+    which is a terrible idea because I've already done the thing of saying this is
+    going to have an and in the lecture um and I love the papers I'm talking about
+    and I'm going to want to dive deeply into them um but I think it's fun to do the
+    the quick
+- dur: 180.0
+  end: 3060.0
+  start: 2880.0
+  text: run through so we'll do that and I'll try to keep myself to a particular time
+    um I will also finish up a thought I meant to have like half an hour ago wishes
+    uh after we do this sort of aside around the the papers and the assignment and
+    the exam like object um we're going to transition into Vision stuff um like eyeballs
+    and I'll bring in an eye tracker and we sort of like talk more about visual Neuroscience
+    I record semit tracking data of like go through it to the similar to how we did
+    before um it's going to be a bit of a different vibe there just because the nature
+    of the equipment and the data but um we're going to do Vision stuff um which yeah
+    is always fun uh yeah vision and specifically eye movements um which are technically
+    a part of motor control because it involves muscles but sort of a interesting
+    space there okay so in 20 minutes or less which will put us at 410 uh I'm going
+    to look up so C prot cpg is one of those things I forgot for that m
+- dur: 180.0
+  end: 3240.0
+  start: 3060.0
+  text: um storing volary there we go 2012 this used to be a new study now it's old
+    that's not that old it's just over a decade at this point so I just for so this
+    is a paper published in science which is one of the bigger journals out there
+    there sort of there's two journals which are sort of like categorically the biggest
+    journals biggest and most prestigious science and nature um that sort of cultural
+    reality of there being a biggest thing is generally toxic and leads to a lot of
+    bad outcomes but nonetheless uh if you see something published in science or nature
+    that's a good study good and prestigious study um generally speaking the more
+    generic the name of the journal is the more prestigious it is so the Portuguese
+    study of ankle Prosthetics research is generally going to be lower Prestige than
+    you know Journal of Prosthetics which is going to be lower prestige in Journal
+    of biology which is going to which so science and nature are about as big as you
+    can get in that space Also cell is a very good one for biology [Music] um and
+    because we are on campus I could just download this here um but just for fun we're
+    going to go to scub uh and punch it in there and add that way uh I'm using this
+    dark reader thing so turn that off so it looks like it would normally look okay
+    and I have 15 some OD minutes to go through this I probably won get to a second
+    we'll see okay so this is kind of normal um the when you download the PDF the
+    front page is just kind of like info about the thing um title arti artist author
+    list Journal at all means there's more of them um and there's links here to things
+    like supporting material supporting online material other things that site this
+    article sites um with modern papers typically there's going to be supplemental
+    data or supplemental data supplemental methods and stuff like that um modern contemporary
+    Journal articles are tend to have very very constrained lengths um so the core
+    studies are typically going to be quite short um
+- dur: 180.0
+  end: 3420.0
+  start: 3240.0
+  text: unless it's like a Journal Review or like an older you know that all varies
+    very much by um by Journal um so to kind of get around that they'll often have
+    these like supplemental stuff so like either something like the methods will not
+    be a part of the word count and or um you have the opportunity to present additional
+    data there um and yeah so so what I'm going to do now with this study because
+    I know this study quite well uh I'm going to try to give you something like a
+    very high level overview of this paper that ideally will both be fast enough that
+    I can do it in the next 15 minutes um comprehensible enough that you'll be able
+    to follow the story despite not being sort of particularly trained in this area
+    um and ideally a sort of fair and honest representation of what was actually being
+    done so that if you were to take the time so sort of read this paper in depth
+    and sort of get through all the nitty-gritty you would come out of it saying oh
+    yeah everything that John said about this is an accurate representation like I'm
+    creating the cartoon Narrative of the study so that I can present it to you in
+    a way that will sort of handle itself and if you became an expert on this area
+    and on this paper ideally you would be able to evaluate my choices of cartoon
+    ification and understand why I choosing this form of the cartoon and not some
+    other form of the cartoon this so so yeah so this is a study about the spinal
+    cord and particular it's looking at spinal cord injury and trying to get at something
+    like a what has been a sort of Holy Grail type of thing for quite some time which
+    is the ability to heal spinal cord injuries like you you know you get an injur
+    you get an accident your spinal cord is damaged and you lose control of your limbs
+    below that area may you might lose control of your legs you might lose control
+    of your whole body depending on where that injury occurs and we really really
+    would like it if we could correct that in some way um which yeah the same way
+    that we can correct it when you break your ankle or you know damage some muscle
+    damage some skin we would love to be able to correct that on a person um yeah
+    so this here is the abstract of the paper um again different journals will sort
+    of format this in different ways this one's not even labeling it as the abstract
+    they kind of assume that you know that um but sometimes it might be called a summary
+    sometimes it might be called something else um I know noticed that on yeah so
+    on the actual website they're
+- dur: 180.0
+  end: 3600.0
+  start: 3420.0
+  text: giving a sort of a high level summary in addition to the abstract um but yeah
+    all the information should rly speaking be there um so this study Builds on so
+    this study so the the application is for uh is in the space of trying to sort
+    of heal spinal cord injury um but this study is not looking at patient populations
+    they're not looking at people who have spinal cord injuries um they are looking
+    specifically at rats um and this is where like if you look at any so these numbers
+    here are the citations and if you scroll to the the end of the paper uh they will
+    correspond to the actual citations there um these are in science format um sometimes
+    you'll see citations where it's like author year so it's like you know Mathis
+    edel 2019 or something like that that's APA format this is a more engineering
+    style literally just because it's it's made to be shorter um and see if you look
+    at these citations they will be referencing clinical studies and medical studies
+    and things like that um but they are not themselves doing research on humans this
+    is a this is an application with a basic science sort of motivation where they're
+    trying to have a theoretical they're trying to increase theoretical understanding
+    but they're doing it in service of being able to move towards this applied goal
+    um and they are building on a history of studies of um studying Central pattern
+    gener spinal Central pattern generators in mammals um those Central pattern generators
+    exist in pretty much all animals not not necessarily all animals but many many
+    animals um and they they generally refer to neural architectures that generate
+    rhythmic Activation so it's some sort of like a metronome type of activ of activity
+    uh which is the basis of a lot of motor behavior and just um General life so let's
+    see so so this is a really fun animation of a ant walking alternating tripod gate
+    so the red or one tripod blue or another tripod that's how insects operate and
+    that's a rhythmic Behavior breathing is a rhythmic Behavior most forms of locomotion
+    ayic Behavior flapping is a rhythmic Behavior it's the kind of thing that is present
+    down to invertebrates like insects and also present up to mammals like us and
+- dur: 180.0
+  end: 3780.0
+  start: 3600.0
+  text: um spinal cpg cat uh and this particular study is following a particular sort
+    of branch of um of ways of studying that idea of central pendon where specifically
+    as they exist in the spines of invertebrates um because it's kind of this like
+    there's a general question around like we know that cpgs are present in lower
+    animals we can study them very carefully in those animals um because they're simpler
+    and you know we can sort of open them up and sort of see these things happening
+    um but then the question kind of arises like what is the role of these types of
+    neural architectures in more complex animals like mammals who have many many many
+    more neurons and have many many many or mag more complex behaviors um but still
+    have the same sort of evolutionary history um so this is a a a video which is
+    quite old and kind of from an era sort of a different era of like animal rights
+    I'll say um so this shows a cat that has been uh decerebrated um so it's hard
+    to see but this is this is the cat and it's being supported by these liars and
+    this cat has had its spine SED here so from so let's see how you drop so that's
+    the brain and then that's the cerebellum and that's their spine and then these
+    are the legs and I think for this era they would sever the spine there so they
+    they surgically cut the spinal cord so that there is no information going from
+    the legs to the brain and no information going from the brain to the legs um and
+    so the legs are still connected to the spinal cord here um and then kind of the
+    interesting result here is that if the cat is supported and walking on a treadmill
+    the hind limbs are still walking they're still doing the rhythmic behavior of
+    locomotion being driven by the sensory motor Loops from the feet up through the
+    spine and sort of back so this is kind of counter to a lot of our intuitions about
+    how the Spine Works um which we tend to think of it as like a there yeah um you
+    have to think of this just kind of like extension cables that sort of lead from
+    like the brain down to the dumb muscles um but this
+- dur: 180.0
+  end: 3960.0
+  start: 3780.0
+  text: type of stuff shows that there is processing happening in there like your
+    spinal cord is a part of your central nervous system and it can handle simple
+    stuff like the sensory information coming off of the feet um is enough to generate
+    the behavior that leavs the feet to sort of like if I'm being pushed backwards
+    at a certain point I should lift up go forward and come down again and the two
+    limbs are sort of reciprocally activated by Central pattern generators in the
+    spine and so that not only can the cat walk um despite having no cerebral implant
+    to their spine to the back legs as the as the treadmill speeds up they speed up
+    with it um which is just sort of chew on that you seem perturbed it just feels
+    wrong yeah yeah yeah yeah uh it's it's it's a wild result just to be clear and
+    it absolutely is baffling in many layers and levels um but and probably is when
+    I like to study so much um and it's kind of like you know as is often the case
+    um it's those parts of the empirical investigation where you go oh wait that's
+    not what I was expecting we're often the best investigations live um because despite
+    how strange that is uh I'm giving up on the second paper we're going to focus
+    on this one um for the rest of the class uh we'll talk about the next one the
+    next one about dragon flies we'll talk about that once we've done more Vision
+    stuff about vision and dragon flies we'll get there um so so yeah so the um so
+    despite that being a sort of strange and baffling study um um it has it's also
+    venerable like it's it's been around for a while we've known about this for a
+    while that there are these Central pattern generators that govern movement and
+    they handle like things like the basic trade-offs between you know the limbs going
+    from stance to swing and stuff like that um and so there's been active areas of
+    research since then trying to understand the nature of these spinal cpgs and trying
+    to understand like you know where they how they operate and sort of what the connection
+    is between the brain and the and the like the upper level of the brain and the
+    lower level of the spine and sort of into the peripheral nerves and stuff like
+    that um and those Studies have evolved uh there was some point in time I'm not
+    really sure the exact history here uh where you know the animal rights rules kind
+    of evolved uh and at some point they were like don't use cats for that anymore
+    um the rules about animal ethics are
+- dur: 180.0
+  end: 4140.0
+  start: 3960.0
+  text: interesting and complicated I'll talk about them at some point um but there
+    are kind of like rules about like which animal you're allowed to use for which
+    study and there are some kind of like strange designations for like higher higher
+    level versus lower level and typically speaking the closer you get to a humanlike
+    animal the the the more stringent the standards are so like we do still use non
+    human primates for Neuroscience research we don't use apes and chimpanzees um
+    but if you want to do monkey research you have to really really justify that you
+    that you're doing research that needs to be done that it needs to be done on a
+    non-human primate um and so at some point they you know they decided that you
+    can't do it on cats anymore so now they do similar stuff with rats so this study
+    was done with rats um and this also by the way has a really fun Ted talk about
+    it um where Greg Lut is very very like smarmy French type of thing which is is
+    a really good presentation um if you can get past the kind of like the Ted Talk
+    of it all um but it's a good job of like telling an interesting story um although
+    yeah the way he tells his story is actually not the way I tell my story because
+    that's another sort of point to to call out here I am telling you this story as
+    I have internalized it like I me as a particular individual human scientist with
+    a particular background and sort of like area of the world that I'm trying to
+    make sense of when I tell you the story about this paper it's going to be different
+    than if the the authors of the study told you this paper or if somebody with a
+    different background and interest set were tell you the story of this paper um
+    there's this sort of context of like narrative that keeps coming up um that feels
+    sort of like unexpected in a sort of discussion of like scientific empirical studies
+    but remember this is all stuff being done by humans and we only remember stories
+    that make sense to us um and so I'm going to tell the story I'm going to tell
+    you sort of highlights a particular area of this that I think is sort of I found
+    motivating um since I gave myself a little bit more time also talk a little bit
+    more structurally about this paper uh so these are all authors of the paper they
+    all contributed in some way um the the person at the front is the first author
+    typically speaking this is like the owner of this the person who like did the
+    work and sort of own the project generally speaking um this is going to be like
+    a grad student or a post do or something like that the last author is the often
+    times the senior author um so generally speaking not always the case um and this
+    does this is somewhat Fu dependent but in most like biology related neuroscience
+    types of of of studies the last author is the person who runs the lab where the
+    study was
+- dur: 180.0
+  end: 4320.0
+  start: 4140.0
+  text: done and the first author is the person in the lab that generally did that
+    work um again it's very it's very that's all very very it varies dramatically
+    by paper and by field and by whatnot um but if you're like in grad school or a
+    postd something like that like you they you will be considering your first author
+    Publications differently from your non-ir author Publications the people in the
+    middle are people typically people that like helped out in some way um but they
+    were not like the owner of the study um yeah then once you get to not once you
+    start publishing papers and start looking doing things that involve paper publishing
+    um people will ask you questions about how many first author Publications do you
+    have versus second author Publications typically you'll have more second author
+    pubs than first author pubs and then once you get to the point where you actually
+    are running lab people will start asking questions about how many last author
+    Publications you have meaning are you training people to do this work appropriately
+    um again that's very field dependent um math people when they publish math papers
+    they publish their authors alphabetically which is wild to me um but what I'm
+    describing here is like sort of like standard cultural practice in contemporary
+    scientific publishing um down here you got all these little citations showing
+    what these numbers correspond to so like where they're working most of the work
+    with done in Switzerland U and it's also going to tag um oh here's a tag that
+    says okay so these two have a star that says these authors contributed equally
+    to this work which is something it's a way that people try to get around the the
+    first authoress of it but I guarantee you there was a discussion about despite
+    them being starred who actually gets to be first and then this one is also important
+    uh this is the corresponding author so this little symbol here says that if you
+    want to ask a question about this paper you should contact this guy so that's
+    typically going to be in there um and also I will go to the end just because again
+    from a structural perspective um there's always going to be something like an
+    acknowledgement somewhere in the paper and they're going to they'll do like thanks
+    you know thank you for this person for helping with the robotic interface and
+    da da d da um but they will also generally not not generally always should um
+    site their funding sources so where did the money come from like in in this case
+    they're listing a bunch of Grants from uh European research councils and d d this
+    is an expensive St there a bunch of Grants but it's sort of a you know there's
+    always going to be something saying thanks to the NIH for giving me this grant
+    or whatever um and
+- dur: 180.0
+  end: 4500.0
+  start: 4320.0
+  text: typically uh this is another place where like you say hey thanks for giving
+    me this Grant and you tell you say this is this is you know Grant number is this
+    so you can for public grants which most of these are you can go on you can go
+    look up the grant that was written to fund This research and sort of see what
+    they were talking about there so it's just kind of another way that people kind
+    of keep connected to the larger uh Community when they're publishing particular
+    papers um yeah modern papers also tend to talk they have a like a of like very
+    like more recent than 2012 you'll it's more common to see uh sections that say
+    that list out what each author did so like this person helped collect the data
+    this person wrote the thing and there'll be a a paragraph or two saying what each
+    author actually did when they were like how do they earn their spot on the on
+    the author list okay so this particular study um this is your figure one figure
+    one this style of figure is very common in like science and nature um journals
+    because science and nature journals are very very short and very very dense this
+    is also specifically um a report um which is you know generally speaking the journal
+    will have like oh we have articles which are full length and like report which
+    is short length and you know brief communication which is some other length and
+    it's just so this is a report which is like this the T it's not the longest format
+    it's the second it's like a a shorter form and this whole this whole study is
+    five pages including uh the this front page so it's only four written pages of
+    text and then probably if you go to those supplemental documents it's going to
+    be when you go to the supplemental stuff it's typically going to look like a Microsoft
+    Word document converted to PDF and it's going to be dozens to possibly more um
+    Pages um but this study yeah so this picture with very dense with like letter
+    um sort of sub panels um in particular with this kind of like professional looking
+    animation sort of or visualization here very indicative of this type of Journal
+    um if you go to sort of more like standard bread and butter types of journals
+    like anything that's like Journal of like biomechanics Journal of blank um the
+    the the the figures will generally look more like a real regular human made them
+    rather than like a professional Graphics design team which in this case is what
+    happens um
+- dur: 180.0
+  end: 4680.0
+  start: 4500.0
+  text: so yeah and then um when I'm looking at a new paper uh I will look at the
+    title I'll look at roughly speaking who wrote it like not the PE see if I recognize
+    any names and kind of just look at where they're working um I'll read the abstract
+    um and then I'll kind of skim the paper and look you know start out by just looking
+    at the figures I typically like and by typically I will pretty much never just
+    like sit down with a new paper and just read it from start to finish like it's
+    a novel like that's just not how we tend to interrogate scientific papers usually
+    it's it's kind of like jpeg compression like you do a you do skims at different
+    levels and you kind of because you want to have the full picture and then you
+    can sort of like choose to to sort of to Zone in um to different levels of analysis
+    to different sort of parts of the paper um and science is a no clickbait situation
+    so if we're if we're writing a good paper the title is a summary the abstract
+    is a summary and then the paper itself will have sort of repetitive summaries
+    within it um so so yeah so we're going to look at this this so this is figure
+    one which will be referenced in the article somewhere yeah here so figure oh that's
+    S1 so S1 is supplemental figure um but yeah so if you this even they're even they're
+    citing figures which are not in the main article they're in this only you have
+    to go to the supplemental information to get the get the results there um but
+    this is the first one I'm seeing Figure 1 C represents this figure and the letter
+    corresponds to this section here the figure will always have a caption the caption
+    will always have a sort of one sentence summary of like what we're looking at
+    here and then each lettered subsection will have some little write up of what's
+    going on in that section um so yeah um yeah so this one is kind of doing uh like
+    I said I think generally figure one should always be a methods figure and that
+    you should also always or ideally have representative data this is doing both
+    this is both a methods paper methods figure and a representation of Representative
+    data okay so what were they actually doing here um so looking at stal Central
+    pattern generators in mammals they're looking at it in rats specifically or they're
+    using a rat as
+- dur: 180.0
+  end: 4860.0
+  start: 4680.0
+  text: their model organism they don't they don't actually care about rats that much
+    they're but they're using rats as a proxy animal that we believe has sufficient
+    complexity that if we learn something about how supping Works in a rat that will
+    be helpful in getting uh a treatment into humans and I happen to know that if
+    you look at what this guy's been up to recently they have been able to apply this
+    stuff in humans and I think they are actually like getting to the point of I don't
+    know about like fully healing but I think they are restoring voluntary control
+    of locomotion after a paralyzed spinal cord injury so I I haven't checked in on
+    him in a couple like two or three years I guess so um but he's like he's like
+    one of these like Mega people like they if you go to sfn he has like several rows
+    that's just like a bunch of people that work in his lab because he just you know
+    he's like the it's like a like a business owner type of thing so it's a very very
+    different vibe if you have like a lab with 150 people in it versus if you have
+    a lab like mine which has like three people in it so uh I don't want to run a
+    lab like that that sounds terrible um so the idea was so they they they they took
+    the M the rats and they yeah um so they took the the rats and they they gave them
+    a surgical spinal cord injury they they went to in there and they they they gave
+    them an injury that damaged their spine and severed all the fibers going to their
+    brain so this is a picture of the central nervous system of a rat these are the
+    two loads of the brain and then this is I'm not going to draw it uh but this is
+    the spinal cord itself and the idea here this is kind of like the clever part
+    is so this is the spine they didn't just cut straight across um they did two cuts
+    one like 60% of the way through up here and then a little bit below it they cut
+    it again going down there so all of the fibers that are going through here get
+    severed but they're not just chopping it out so there is still a sort of a path
+    hypothetically to go through so if it was possible for these fibers to kind of
+    regrow and reform and reconnect to each other then you could theoretically have
+- dur: 180.0
+  end: 5040.0
+  start: 4860.0
+  text: a signal coming from here and sort of like bypassing these injury points and
+    getting back up to the brain um and so the idea was that they so this is and this
+    is the process of sort of the decerebration part that's sort of similar to what
+    they did in the Cat video um and literally it just you know they went in there
+    and did surgery on these rats and went in with a little scalpel and cut them in
+    certain areas and I'm sure if you go yeah adult threat received a left lateral
+    over hem section at thoracic T vertebrae t7 and a right lateral hem section at
+    T10 one of those things like if you knew what all those words meant then you would
+    be able to say oh okay I understand all the details there over hem section means
+    a little over half so they they didn't go to the halfway point they went over
+    that um and so then what they do and so see if I can uh this on so now we put
+    the mouse the rat mouse rat in this little robotic G entry system so this this
+    is a uh there's other studies on this particular system but this is kind of the
+    2012 version of that little wire wire uh support and treadmill thing from the
+    cat um and so basically what they were able to do is it's like I think this is
+    the best picture we're going to get in here and actually yeah I think well the
+    almost certainly the supplemental information for the paper has many many things
+    to say about this particular robotic system but basically it's like a kind of
+    like a 3D printer if you ever seen that where it's kind of like a a a motor control
+    that sort of moves over a 2d plane and then it sort of goes down to this kind
+    of like supportive mechanism oh jeez and it supports the mouse of the Rat um partial
+    body weight support so it's not it's not floating off the ground but it's also
+    not holding its full body weight and and um and it allows it to turn and stuff
+    like that while maintaining that body weight support so you know no matter what
+    happens it's detecting what's going on and it's always making sure that the rat
+    has you know 10 to 20% of its body weight on the ground the say and sure enough
+    as we are sort of not surpris to learn um even after so this is the the
+- dur: 180.0
+  end: 5220.0
+  start: 5040.0
+  text: activity also they they hold it upright so it walks in this kind of like bipedal
+    way which is sort of would be cute if it wasn't so mob um and this is what intact
+    means not chopped up um so the intact uh animal looks the the behavior looks like
+    this so the trajectories in blue here are the trajectories of the feet um and
+    this is all and they go here so we're not we are not shocked to learn that um
+    even after uh yeah that even after this injury they can still walk decently okay
+    like if you put them in a little robotic thing and drag them along they can walk
+    just fine there's this complicated sort of like electrochemical thing that they
+    put into their spine to make sure that the neurons are still sort of active and
+    healthy and sort of firing hard enough to move the limbs um what they found with
+    those cats is that even like the video you saw was probably right after that surgery
+    was done but typically what happens is the behaviors kind of extinguish over time
+    so like after a couple of hours or days or I think not more than not more than
+    weeks um the cat would stop doing that behavior and if you put it back on the
+    trebal would just kind of wind up dragging its feet um and so one of the results
+    that they built on from their own labs building this sort of combination of like
+    a pharmaceutical cocktail and a particular electrical stimulation pattern that
+    allows them to keep the animals do like the deated animals doing this movement
+    for a sort of arbitrary amount of time um and uh and yeah so that's I think that's
+    the main that's the setup so we've got these we've got these they've been deated
+    and they can do this sort of walking task and good for them um and so now here's
+    where so that's all cool but none of it is shocking this is all stuff that we
+    already knew when we showed the Cat video um so they're specific thing that they're
+    trying to do is restore the animals ability to initiate walking um so a lot of
+    this stuff is kind of like they're dragging it along like on a treadmill so it
+    it gets this stimulus that it needs like the feet drag and they sort of pick then
+    sensory signals pick up and they start taking steps um but that but the the rat
+    cannot just sit there and just decide to start walking forward um so they're trying
+    to restore that ability to do that and this is where there's a lot there's a lot
+    going on here in terms of methodology that I'm not there's just too much depth
+    to get into but I will say that they then they broke the animals up into two groups
+    um one of the
+- dur: 180.0
+  end: 5400.0
+  start: 5220.0
+  text: animals one of the groups of animals was getting the um the control condition
+    I guess which was training so they they would they would do this surgery to them
+    they would give them this Electro chemical prosthetic that allows them to sort
+    of keep walking and then they would put them in this sort of robotic suit and
+    they would have them do this like movement training so it take a bunch of steps
+    in a bunch you know in a row um then the other group and this is where I think
+    the main sort of like interesting nut of the paper comes in the other group would
+    do a matched amount of training so a matched amount of steps but before they would
+    start the robot thing pulling them forward they would put chocolate in front of
+    their face and apparently rats like chocolate and so they put the chocolate in
+    front of their face and the r goes oh I really want the chocolate and then the
+    robot kind of pulls them forward and then they do the stepping behavior and then
+    they get to eat the chocolate that was sort of presented to them so now we have
+    two match groups of rats one is being trained and taking a bunch of steps with
+    this robotic Gantry system the other is doing the exact same behaviors but they
+    are being given a motivating a motivating food thing then they do the exact same
+    steps and they receive the food as a reward for doing that and in the last 2 minutes
+    of class if you sort of dig into all of this stuff what happens is that the animals
+    that only do the base training don't get better and eventually they the behavior
+    still becomes extinguished and they sort of they never regain that capacity the
+    animals that get the chocolate reward experience this kind of regrowth pattern
+    where they over enough time they see these connections getting formed that sort
+    of bypass the injury site and over time they can put the chocolate in front of
+    the the rat and the rat can actually initiate the stepping behavior before the
+    robotic Gantry kind of pulls them forward and that is I think really amazing and
+    the idea is that it Taps into the kind of the way that we that we move our bodies
+    in the world it wasn't enough for the for the for the control rats to keep doing
+    the stepping Behavior because it wasn't connected to anything in the world around
+    it whereas the ones with the chocolate condition um they had the experience of
+    oh there's a state there's something out there in the world that I want it's in
+    front of me I need to walk to get it they start walking they don't know that they're
+    being dragged by a robot and then as a result of that behavior they get to eat
+    the chocolate and so when that happens it triggers this other concept of the dopamin
+    neric reward system where basically basically the the brain gets flooded with
+    this reward chemical that called dopamine and a bunch of other stuff that basically
+- dur: 180.0
+  end: 5580.0
+  start: 5400.0
+  text: has the the the effect of reinforcing all the neurons that were just firing
+    just dup energic award system is kind of how that works and so it's that connection
+    between that sort of that frontal area that volitional sort of prefrontal lobe
+    cortex thing of I wish I was over there so I could eat the chocolate and then
+    a bunch of neural fa activity happens then you get to eat the chocolate and then
+    your brain gets flooded with neurons that say whatever was just happening reinforce
+    that and then that is enough to trigger regrowth of neurons at the spinal level
+    and that is as much as I'm going to say about this paper and uh end of class so
+    thanks for following along and uh I'll see you all on Wednesday going to do two
+    papers someday I'll learn I'll never learn
+video_id: cCBAkRfW8j8

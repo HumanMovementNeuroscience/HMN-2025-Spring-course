@@ -1,0 +1,1784 @@
+full_transcript: "okay All right Hello everybody and let's see where we're at So we're\
+  \ here at the end of week 11 and today we're going to be doing kind of like a gap\
+  \ filling sort of a conversation Um I will going to talk more about the eyetracking\
+  \ data that we sort of like looked into last time Um last time we spent kind of\
+  \ a lot of time talking about like the raw data from the eye camera itself and we'll\
+  \ spend a little bit of time looking at the actual data um from the sort of the\
+  \ out like the the far end of that processing pipeline Um you know like I said last\
+  \ time it's not the cleanest data in the world but it's not the worst either we\
+  \ can say what we need to say about it and take a look at kind of you know what\
+  \ eyetracking data looks like in real life and you know try to get some insights\
+  \ into the various sort of parts of ocular motor control that we clued into um and\
+  \ yeah the that's the kind of thing that I'm certain I could spend a million years\
+  \ talking about that data but uh I want to also spend a little bit of time filling\
+  \ in a bit of gaps Uh specifically I want to spend some time talking about neurons\
+  \ Neurons themselves the guy itself the little weird little cell that likes to spike\
+  \ and has all sorts of strange aspects Um which I think we we can certainly do both\
+  \ of those things Um I am so I call myself a neuroscientist but like obviously my\
+  \ actual background is like this weird diverse sort of mish mash of things Um I\
+  \ think traditional neuroscience typically I think the people who have like the\
+  \ most sort of like claim to the to the title of neuroscience or electrphysiologists\
+  \ who are the people who are like putting electrodes into brain tissue and measuring\
+  \ like spikes and stuff like that Um or just you know people who are sort of like\
+  \ interacting with like individual neurons at some meaningful level Um which is\
+  \ not me I tend to work on a much more zoomed out view of of a system And you know\
+  \ I've said before I I I describe what I do as kind of like where neuroscience overlaps\
+  \ with robotics Um it's definitely neuroscience because if you remove the nervous\
+  \ system people can't do the behaviors I care about Um but you know I think it's\
+  \ worth thinking about it's definitely worth thinking about um the actual kind of\
+  \ like the the the cellular underpinnings and the sort of the biochemical underpinnings\
+  \ of neural activity uh both just to sort of know what that looks like and also\
+  \ to kind of have that kind of that grounding because I think when we're talking\
+  \ about the sort of like the general philosophical distinction between like holistic\
+  \ approaches to science by measuring sort zoomed out organismal scale sort of questions\
+  \ which is what I tend to focus on um versus a more reductionist view of the kind\
+  \ of like really zoomed in like microscopic microscope type of research where you've\
+  \ removed a lot of the things that make the thing that you're studying you know\
+  \ able to operate in its natural environment but you have in in exchange for removing\
+  \ the kind of ecological validity aspect of the research um you gain a tremendous\
+  \ amount of experimental control and you can start saying much much more precise\
+  \ things which are realistically much much more grounded to like empirical measurements\
+  \ and stuff like that So in a what is probably sort of a t a general flipping of\
+  \ the typical order of teaching we started with a sort of really zoomed out view\
+  \ of neuroscience and we we we're going to talk a little bit about the actual cellular\
+  \ grounding of where these things come from We'll talk about my the sort of the\
+  \ yeah biochemical process which has caused me more existential anxiety than any\
+  \ other that I'm aware of which is the sodium potassium ion pump which really stresses\
+  \ me out in a pretty serious way um by definition but also like emotionally Uh so\
+  \ yeah so I have a little bit time to talk about that Um in terms of like course\
+  \ operations uh technically the f the full poster draft is due this week Um I don't\
+  \ I realize I haven't made like a an actual assignment submission repository on\
+  \ the Canvas So I'll put that up there But it's it's not like I'm not too stressed\
+  \ about you actually turning in the the PowerPoint slide or whatever like that Uh\
+  \ the most important thing is having it ready to upload to the poster printer by\
+  \ Tuesday of next week So as I have stated before and we'll well I guess I won't\
+  \ say it again until we're actually doing it but uh Monday of next week is devoted\
+  \ towards just that kind of poster preparation stuff So um you would be wise to\
+  \ show up with your poster done uh so that we can work on the formatting to a PDF\
+  \ and you know last minute little fiddly bits and stuff like that uh before submitting\
+  \ it to uh print Um yeah and then sort of got two planned lectures on you know evolution\
+  \ We're going to talk about that on the previous Wednesday autonomic nervous system\
+  \ PTSD on the previous Monday That Wednesday will be spent doing poster practice\
+  \ stuff So like small groups kind of like practicing presenting your poster I'm\
+  \ kind of imagining we can do some of that with the poster prep stuff too Like depending\
+  \ on where you are as an individual and your sort of development process like if\
+  \ you're done with your poster like it's not actually that much work to convert\
+  \ it to a PDF and submit it So um hopefully you'll have a little bit of time to\
+  \ kind of like go over it with somebody else There's sort of the you know two classic\
+  \ methods for finding bugs which is uh having somebody else look at it because they\
+  \ will always find all the typos that you somehow gloss over Um and then the other\
+  \ classic method is the the rubber ducky approach which is um traditional in the\
+  \ sort of software development world where if you're if you're trying to figure\
+  \ out like where the problems are in your code or in things you work on Uh the game\
+  \ is you try to explain how things work to like a little rubber duck and typically\
+  \ the process of explaining it uncovers where the where the where the problems lie\
+  \ Um so yeah so my kind of my thinking is that in in Monday's class we'll be doing\
+  \ we'll just sort of try to get everybody together so that they can submit uh you\
+  \ know as appropriate sort of doing some last minute cleanup stuff Um and then the\
+  \ final class session before the poster presentation week itself uh we'll spend\
+  \ doing just demo runs So just kind of like small groups kind of go around the circle\
+  \ and kind of present your stuff um which intention there is to keep is to give\
+  \ you kind of the the motor practice of actually presenting your work so that you're\
+  \ the first time you present it on the actual day itself won't be the first time\
+  \ you've presented it to anyone uh which will be beneficial to you uh from a like\
+  \ there's not this is not a particularly high stakes type of spa space people are\
+  \ going to be friendly and supportive um in the in general in the sciences if you're\
+  \ presenting a poster at conference like everyone's on your side If they're not\
+  \ on your side they're an [\___\_] Um there is a base level assumption in the sciences\
+  \ and academia and any kind of setting like this that you're like you're supposed\
+  \ to criticize the things that you see Like that's part of the peerreview culture\
+  \ is that if I if you are showing me your science and I am looking at it and I see\
+  \ a problem with it I am supposed to say something about that Um whether or not\
+  \ I will or not is sort of depending on like how much emotional energy I have to\
+  \ have that conversation Um but it's kind of it's part of the game of like how we\
+  \ can attempt to you know do such a wacky thing is like generate real knowledge\
+  \ for other people which like when we when we show stuff to other people you're\
+  \ supposed to kind of help by criticizing the the small fiddly bits of it Uh yeah\
+  \ So it's a little unclear in the official instructions and it might say multiple\
+  \ things in like different places Uh you can kind of I'll say no Um just because\
+  \ it's kind of weird when you're doing like it's sort of like the the structure\
+  \ of the assignment is that you are kind of you are kind of like pretending that\
+  \ this is work that you did Um but you know I don't think you have to do like the\
+  \ full sort of cosplay of being like like oh yeah I'm the first author here That's\
+  \ me But it's kind of like it's the the intention of the assignment is to sort of\
+  \ give you the experience of like preparing a poster and presenting it Um so it's\
+  \ it's kind of like it's I I would sort of say probably just don't just use like\
+  \ third person pronouns and not first person pronouns just because so we don't know\
+  \ what we say So this is a very that's a it's a it's a great question and it's a\
+  \ very it's a very real question because uh Q&A always has kind of like a performance\
+  \ aspect to it because you're like you're being asked a question in real time and\
+  \ you want to be able to say oh yes the answer to the question that you asked Um\
+  \ but reality is is that you might not know So you know you should have at this\
+  \ point read your paper enough to be able to either answer to the specificity that\
+  \ they described it Um or at the very least know sort of where like where the the\
+  \ questions are Like if they say you know what brand of monitor did they use and\
+  \ you like like I don't know it's in the method somewhere Like that's a valid response\
+  \ If they say like were the people on a treadmill or were they walking outside it's\
+  \ like that one you should probably know the answer to Um but I think that like\
+  \ you know if if this was a real thing that you had done um or if you're like giving\
+  \ a talk and someone like raises their hand at the end um you know people will often\
+  \ ask you questions that you don't know the answer to And if you don't know that\
+  \ answer that's kind of it's that's you know it's highlighting like a hole in your\
+  \ understanding And that's not necessarily something that you need to be like upset\
+  \ about you know like it's more like oh I you know that's some that's something\
+  \ if if they ask you a question and it's like a valid on topic good kind of question\
+  \ and you don't have the answer to that You kind of lock you want to lock that away\
+  \ as like I should know the answer to that question and then you might look it up\
+  \ later Um in the moment what you say is that's a really great question I'm actually\
+  \ not sure And then you kind of like vamp like you you kind of guess around the\
+  \ answer And this is where like the strategy of giving a presentation and the strategy\
+  \ of like responding to Q&A kind of comes up Um it assuming that you are feeling\
+  \ like you're in a like a confrontational place where you want to like you know\
+  \ look like you know what you're doing like maybe it's like a job interview or something\
+  \ like that Um there is there is like a skill to answering questions that you don't\
+  \ know the answer to and and still sort of displaying your expertise while you're\
+  \ doing it And like for me like if I'm talking to like you know grad student or\
+  \ undergrad or something like that like of course you don't know the answer to all\
+  \ the questions Like you've just sort of started doing this Um but so if they ask\
+  \ a question that you don't know the answer to kind of the game is like you want\
+  \ to be like productively confused right you want to be like that's a good question\
+  \ because of this that and the other thing because it connects to this other part\
+  \ that I do understand that's a good trick sort of like oh yeah it's a great question\
+  \ let me talk about let me let me connect it to this thing I can say more about\
+  \ um but you know I think being able to understand like why the question is valid\
+  \ and then just kind of like connect it to stuff and say like you know oh I don't\
+  \ know the specific answer there but I do know that that's connected to this that\
+  \ and the other thing like I'm not sure if it was a force instrumented treadmill\
+  \ but I do know like if it was then we could get the footfalls more accurately you\
+  \ know and so and that's that's a totally valid thing to do Like no one's going\
+  \ to be sitting there like checking off points based on whether or not you you gave\
+  \ a valid response Um but yeah and that that's kind of what I mean by like posters\
+  \ are kind of um practice runs for papers Like if you go to a conference cuz another\
+  \ thing too is like if you're let's say you're a grad student and you're working\
+  \ in a lab and you you know your stuff inside and out but then you realize that\
+  \ you know your stuff inside and out relative to the kind of questions that you're\
+  \ going to get from people in your lab or people at your department or people at\
+  \ your school And then now you go to a conference and that conference has people\
+  \ from all over the place including people who study you know like whatever some\
+  \ some little layer of biochemistry that's just not represented in your lab or in\
+  \ your school And then when those people show up they ask what's the most obvious\
+  \ question to them and you've never even heard of the things that they're talking\
+  \ about um that's that's actually great news for you because you have now had this\
+  \ this sort of spotlight shown on a gap in your understanding and so in that situation\
+  \ you say I didn't know about that uh can you tell me about it you seem to know\
+  \ a lot about it and sort of get them talking and that's and I think like that kind\
+  \ of question I think is where the this the gap between like the actual operation\
+  \ of science versus like taking classes and getting grades and that kind of thing\
+  \ really starts to break apart because in classes there's this really strange fiction\
+  \ that you're supposed to know all the answers to the things that are being asked\
+  \ of you and you are literally given a score based off of like how many of the boxes\
+  \ you get to check um in a more collaborative type of arrangement which you know\
+  \ real life is intended to be um it you kind of get that like if someone asks you\
+  \ a question that you don't know the answer to that's a good thing because it means\
+  \ it that's showing you where to do some work Um was a long speaking of like long\
+  \ rambling answers to simple questions Was that help yeah Any other questions about\
+  \ that about the does the basic sort of structure of what we're going to do in the\
+  \ poster session itself make sense i haven't assigned you days or anything like\
+  \ that but yeah Yeah Yeah And again I'll just say it again Um the first time you\
+  \ run through your poster with somebody will be the worst time Um by the end of\
+  \ the whatever hour and 40 minutes of the class period when you've done it you know\
+  \ 2 three four five six times um you'll be so much smoother with it than you thought\
+  \ that you could be Um and yeah if this was an actual if this was a paper you were\
+  \ planning to publish the end of a poster session is the absolute best time to sort\
+  \ of take down your notes Um in this particular case you know you don't really have\
+  \ to stress about that but you know it's sort of like you want to think about what\
+  \ your your your story is in terms of like what is the what's like the top layer\
+  \ of like what's what is the takeaway like what is the singular message like if\
+  \ when someone walks away and they say \"Oh that poster was cool because you know\
+  \ it was they were looking at this you know they they did you know the people did\
+  \ this experiment and did this method and sort of got this result and sort of like\
+  \ you know it's cool because of this They were they were studying that.\" Like that's\
+  \ kind of what you want to focus on Um and that is going to be um it's going to\
+  \ be different for every p paper It's going to be different for every person Um\
+  \ and yeah you just want to be able to kind of go you want to be able to also go\
+  \ through your story at different levels of abstraction Like you want to be able\
+  \ to have the the 30 second like oh yeah this is the general vibe of this thing\
+  \ Uh versus like the longer run you know like you know 5 10 minute sort of run through\
+  \ of of like explaining the details Yeah Okay Um let's see here Let's look at some\
+  \ eyeballs Okay So trying to remember like where I got to with everything last time\
+  \ Yeah Okay So here we are And so that's y'all These are my eyes And this crosshair\
+  \ is roughly speaking the estimate of where my eyeballs are pointing relative to\
+  \ this scene Um so the you want to think about it in terms of like you know imagine\
+  \ that I had two lasers coming out of each eye uh passing through the back of the\
+  \ eye and this sort of phobia So if that's my eye that's my you know what's that\
+  \ optic nerve and then that's my phobia So that's the that sort of pit on the back\
+  \ of my retina where I have the highest acuity Um if the system is well calibrated\
+  \ which it is enough for you know close enough for government work as they say Um\
+  \ and if I am fixating as precisely as it feels like I am which is a sort of a secondary\
+  \ question Um this uh this point right here in the image is the point that would\
+  \ be projected onto the back of my eye So if you could put a little camera into\
+  \ my eye and somehow image like the light that's hitting the back of my retina it\
+  \ will look like an inverted version of this picture Um sort of onto the back of\
+  \ each eye Uh this circle right here is very very roughly the size of it's plus\
+  \ or minus one visual degree um which is roughly the size of the phobia in the world\
+  \ So as I'm looking here everything that's inside of the circle is sort of again\
+  \ hypothetically being absorbed and processed by the phobia of my retina And uh\
+  \ there so the world camera here is recording at 30 frames per second The eye cameras\
+  \ are recording at 120 frames per second There's two eye trackers So that means\
+  \ for every uh frame of the of the video there's going to be eight of these red\
+  \ crosshairs on on the on the world camera because that's you have eight time you\
+  \ have many many more data points from the eye camera than you do from the world\
+  \ camera So and this is what a lot of what we're going to see in this data because\
+  \ of the like the shadowing that's happening here Um you'll be able to see like\
+  \ these little things circling the pupil like they'll kind of jump around a little\
+  \ bit Um and that's where these like little spreads come from Uh this is one of\
+  \ those places where having a good understanding of the kind of the way that eyes\
+  \ actually move helps kind of see through the noise in the recording Like I happen\
+  \ to know that eyes do not move fast enough to sort of bounce down here and then\
+  \ bounce back up in the space of the 33 milliseconds of a single frame of this recording\
+  \ Um so it's easy for me to sort of label this as like oh that's just tracker noise\
+  \ Um if I didn't know that if I was like oh you know our eyes can move infinitely\
+  \ fast and sometimes they do um it would be hard to differentiate between quote\
+  \ unquote good data and bad data Um so knowing what the system what the neural system\
+  \ is capable of is really helpful Uh yeah Yeah So here's one So for whatever reason\
+  \ on this frame the red circle is finding something else I'm actually not sure what\
+  \ the colors mean like what the red versus the yellow they're both clearly One of\
+  \ them is estimating the pupil from the two-dimensional image of the eye The other\
+  \ is representing the three-dimensional sort of spherical estimate I'm not sure\
+  \ which one is which Um but you can see how it's kind of off by that frame Yeah\
+  \ And so now we are in a good spot where I am calibrating on this ball this green\
+  \ ball This is the the process where I was like doing this with my head Um actually\
+  \ can I Ah I wish I had done that but that's okay Oh there we go Yeah great Cool\
+  \ Now I can use the arrows Right So guess I can just play this Do I play let's play\
+  \ it full speed So little bit jumpy but more or less tracking Um and this is another\
+  \ one of those cases where like so this is a good example of so right now I'm looking\
+  \ at the ball I know I'm looking at the ball and then right here actually so as\
+  \ I'm I'm going up you see there's still some error there but it's more or less\
+  \ working And so look at this little part where I I'm depending on how we feel about\
+  \ the data I either make a quick sacad to look at the palm of my hand and then bounce\
+  \ back to look at the ball which would represent like a a minor deviation from my\
+  \ my task of like fixate on the ball and then like ah let me just like look at my\
+  \ my palm for a moment Um and that's actually Yeah Yeah Look So if you see this\
+  \ I did move my eye So that's that is real data So that's fun Um and that's that\
+  \ remains because this type of thing that the eye does move like that I know that\
+  \ I know that the eye moves like that Um and and it's also it's recording multiple\
+  \ frames from this location So even though this is actually not tracking properly\
+  \ um on this frame this is quote good data Um keep track of the time Um yeah So\
+  \ now that's me looking at the screen and then there's me looking out in the world\
+  \ So couple things you might notice One is it moving really fast This is just there's\
+  \ one of these sort of rules of thumb I have that like video from an eye tracker\
+  \ doesn't make sense when played at full speed Um it really kind of needs to be\
+  \ slowed down by a factor of like four to really make sense Um and I can't ever\
+  \ figure out if that's interesting or not because I experienced this at full speed\
+  \ Like that's when I when I was doing this like I was moving as quickly as the video\
+  \ was playing Um but when I watched the video later I can't make any sense of it\
+  \ Um so however you want to parse that Um and in my personal experience like a a\
+  \ slowdown of about 4x is about what I need to make sense of what's going on Um\
+  \ so there is kind of a just a general question about visual processing Um also\
+  \ the I did try to record the audio The audio did not record because I'm pretty\
+  \ sure this software just doesn't do that Um so I have to kind of make some estimates\
+  \ about what's going on Um let me try to show here Okay So here you can see me kind\
+  \ of reading which is so this is a very um what's the word um the way that we tend\
+  \ to look around the world in natural behavior There's this guy named Mike Land\
+  \ who did a lot of studies in his kitchen and Mary Ciho was my former adviser did\
+  \ a lot of studies looking at you know general tasks and stuff like that And the\
+  \ way that we tend to navigate and sort of investigate the world is we if I look\
+  \ if I'm interested in something over there I will first move my eyes in that direction\
+  \ and then I'll point my head and then I'll point my body And it kind of tends to\
+  \ happen in that way So if you're searching around your eyes lead and then if you\
+  \ find the thing that you're actually looking for then you might commit a little\
+  \ more to pointing your head than you might commit a little more to pointing your\
+  \ body Um because in general we like to keep our eyes pretty fixed in the middle\
+  \ of our head like we don't really like to have our eyes anything other than central\
+  \ in our orbits because doing so requires muscle activation and we tend to be pretty\
+  \ uh stingy about using our muscles if we can avoid it Um and so if we do make big\
+  \ eye movements are almost always followed up with either a sacad back to center\
+  \ or moving your head so that your eye is back in the orbit So you can see here\
+  \ my both my eyes are kind of off to the left Um but as I go around it gets closer\
+  \ I guess I must be like looking off to the side here But this is tends to be the\
+  \ way that we read stuff is making sacads So looking at that and then bouncing down\
+  \ to this was like the list of tasks that I was going to do Um yeah so this was\
+  \ a sakad so this is a single frame uh so from frame what is where's the number\
+  \ there I don't see the number anyways um so in this 30 millisecond period between\
+  \ frame one and frame frame whatever this is frame 12 and frame 13 Um I sac from\
+  \ there to there Uh which is a fairly large sacad but at roughly the right speed\
+  \ So you know I don't know if that's interesting to other people but it's always\
+  \ like I think things like things like reading is are it's interesting to look at\
+  \ things like reading because you can see some of the precision that comes out in\
+  \ the eyetracking record Uh whereas in the like when I'm just looking around the\
+  \ world it can be hard to tell like how precisely I'm looking at stuff But in this\
+  \ case I'm making these sacads and I'm making them very precisely to the points\
+  \ on the board where the information is Um later on I look at that page and you\
+  \ sort of see some more precision going on there Um I'm also Yeah there you go Doing\
+  \ it on purpose Um yeah here I'm doing these sacad like big sakads from the right\
+  \ and left And in a little bit we're going to pull out the actual like time series\
+  \ trace and sort of see what that looks like But those are big horizontal cacods\
+  \ Um and then big vertical sacads Um yeah So I wish I had the audio on this but\
+  \ that's okay Yeah So I also want to point out um so I talked about VR vestibular\
+  \ ocular reflex where that's the one where if you're like looking at yourself in\
+  \ the mirror you can move your head around and your gaze stays fixed Um your eyes\
+  \ keep pointing in the same direction because your head is sort of counterrotating\
+  \ Um and when I'm making a big turn like this you can see So look at this So as\
+  \ I'm turning I look all the way that way to the left And as I'm turning like I\
+  \ I cannot I cannot ignore the head acceleration signal The VR is a very very very\
+  \ low level reflex that does not turn off Um it's actually it's used as a measure\
+  \ of brain death for sort of uh um yeah like I don't know situations where they\
+  \ don't have better tools um if they're trying to see if somebody is like alive\
+  \ in a coma or just dead um they'll take the head and they'll move it back and forth\
+  \ and if the eyes counterrotate with the head motion then that person still has\
+  \ something going on on the inside If they don't then that person is no longer living\
+  \ because it is because the VR does not there there is no state of your body where\
+  \ your V doesn't work and your brain does Um I guess that's probably not fully true\
+  \ but it is a very very low-level reflex that has been around for about as long\
+  \ as skeletons Like we have evidence from like bony fish to for four 450 million\
+  \ years ago that they had something like the vestibular ocular reflex keeping their\
+  \ gaze stabilized But yeah so see how it kind of So first of all there's this sort\
+  \ of like uh double double tick thing happening So as I turn it my my eyes go forward\
+  \ they kind of track back and then they bounce back again And that's because as\
+  \ I'm rotating my eyes can only go so far So as I rotate my head I can turn around\
+  \ in a full circle but my eyes cannot So they go to as far as they can in the orbit\
+  \ They tick back to center and then they start tracking again with the with the\
+  \ VR and then they sort of align where they want to go which is looking at that\
+  \ screen Uh okay we got that Yeah Yeah So there's me tracking smoothly tracking\
+  \ my my finger and then I think the next one is I will try to track without that\
+  \ finger and do a bad job Yeah So you can see try as I might to track smoothly I\
+  \ am not able to do it without a reference point So I just make these big sakads\
+  \ along the back wall Um oh what's that okay And now we bring up the juggling balls\
+  \ So I should be writing down these frame numbers Um juggling starts at 2 978 So\
+  \ with something like throwing and catching um there's two components of that One\
+  \ is the throw the other is the catch And as we do I have any I do I still have\
+  \ them in here So we have discussed ballistic trajectories in this class and centers\
+  \ of mass and those sort of base level like Newtonian mechanics Um and one of the\
+  \ nice things about throwing and catching from a sort of perceptual motor research\
+  \ level is that it has a lot of things going on there So there's the motor aspect\
+  \ of throwing the ball which is weird complicated hand trajectories to sort of impart\
+  \ a particular physics on the ball so that when it leaves my hand it is following\
+  \ a ballistic trajectory that is going to land it in the place that I want it to\
+  \ Um but your motor commands always have noise in them So as I throw the ball I\
+  \ I desire to throw it in a certain trajectory but the actual reality is going to\
+  \ differ from that somewhat And so I have data the sensory data off of my hand about\
+  \ how that throw went Um that gives me some rough estimate about where the ball\
+  \ will be Um but that may or may not be good enough for me to actually catch the\
+  \ ball like to actually put my hand at the location where the ball is going to land\
+  \ So what you see is there's very sort of classic strategy where you Let me see\
+  \ if I can find a good one Yeah So in this case I'm about to throw the the green\
+  \ ball Um I wish I had tilted the world camera down a little bit so I could see\
+  \ a little more of that but that's okay I guess I can do this Forgot That's nice\
+  \ Um and so presumably right around now Oh we're not there Oh I went the wrong direction\
+  \ There's something jumping Oh there is That's fine Yeah So as so first of all just\
+  \ to be clear one of the things that eye trackers can can be misleading about is\
+  \ because there is a crosshairs and because there is a singular point within the\
+  \ crosshairs it's really easy to think about that in terms of like if you're not\
+  \ looking at it you can't see it but that is obviously not the case We have a fair\
+  \ amount of peripheral vision Like I can see my hands out to about here And if I\
+  \ move my fingers I can see them out to about here because we're more sensitive\
+  \ to motion in the periphery which is its own kind of weird Um but so I so I don't\
+  \ need to directly fixate the ball in order to see it Like I can do a lot of work\
+  \ with uh peripheral vision In particular I can because I've now I'm not like great\
+  \ at juggling but I've been doing it for long enough that I'm not as like as you\
+  \ get better at something you need less and less information to perform it well\
+  \ enough to not drop the balls Um but in any case you can see that there is this\
+  \ kind of predictive sacad So as the green ball starts coming up I make this sacad\
+  \ over to roughly where it's going to roughly where it is um sort of closer to where\
+  \ it is And typically you know on the assumption that I am currently gathering information\
+  \ about this green ball during this particular point of the recording um we tend\
+  \ to look at the ball at its peak Uh so when it's in it this nice ballistic trajectory\
+  \ we tend to look at it mostly when it's at that sort of apex of its trajectory\
+  \ because because it's a fully defined uh movement If you know the position of that\
+  \ apex point you can fully predict where it's going to be in the you know milliseconds\
+  \ after when I'm actually need to get my hand in that location So you can Yeah there's\
+  \ some gaps here So you can see this kind of So as this ball goes through I sac\
+  \ over to it sort of would just get the one two three you know 100 to 150 milliseconds\
+  \ of information that I need to Um and then once I sort of have that presumably\
+  \ I have presumably I'm already moving my hand in the direction I need to to to\
+  \ get to get this ball Um but with that last little 100 milliseconds or so of visual\
+  \ information of precisely fixated information I get the little last minute of corrections\
+  \ that I need to do to make sure that the hand is in the location that the ball\
+  \ will be at the appropriate time And then once I'm done with that I sac over to\
+  \ this one and I repeat that process So there's often this sort of predictive element\
+  \ of vision Um particular when you're walking over rocks which I I showed it at\
+  \ the beginning and I'll show it again at the end of that when I'm talking about\
+  \ my actual research But it when you're walking over rocky terrain um it's very\
+  \ obvious that what you are doing is gathering the visual information for what is\
+  \ going to be happening in the future Um so you're typically performing the motor\
+  \ action like you're placing your feet on the ground relative to the place that\
+  \ you looked maybe a second and a half or two seconds prior to that So there's your\
+  \ your your nervous system if you're engaging in a sort of complex perceptual motor\
+  \ task um is typically doing sort of two things at the same time in a kind of overlapping\
+  \ way where you are simultaneously gathering the information that you will need\
+  \ in the future so that you can so that you can in the moment perform the motor\
+  \ action that is the most appropriate for the way that the world currently is So\
+  \ if you think about it like the classic example is like slalom skiing So if you're\
+  \ coming down so seems like you go around the the flags like if you're going down\
+  \ and you know you're going around you know one two three like if you're going around\
+  \ flag one if you're only looking at flag one then by the time you clear it and\
+  \ you start looking for flag two you're kind of already on the wrong trajectory\
+  \ So what people have found when you put eye trackers on people doing so tasks and\
+  \ stuff like that is typically when we're when we're actually sliding around flag\
+  \ number one we're already looking ahead to flag number two And then by the time\
+  \ we sort of get into this terminal phase of going around flag number two we're\
+  \ already looking ahead to flag number three So there's this often this kind of\
+  \ this offset between your perceptual system which is gathering information about\
+  \ the future um and your motor system which is operating and and and driving itself\
+  \ on the basis of the information that was gathered at some point in the past And\
+  \ the time frame of that can vary but not that much For really fine grain motor\
+  \ behaviors like catching a ball or you know slaloming around a a a flag uh your\
+  \ your brain can sort of hold on to precise visual information um for about two\
+  \ seconds That's about roughly that's you know when we think about memory there's\
+  \ all sorts of scales There's long-term memory which is like you know years and\
+  \ lifetimes of memory There's short-term memory which is like you know what did\
+  \ you eat for breakfast this morning which you know you will forget in a month but\
+  \ you remember today Um there's and then there's shorter time scales which we tend\
+  \ to call visual memory or sensory memory which is kind of the like if I if I throw\
+  \ the ball and look at it I can catch it and sort of operate on that time scale\
+  \ of like the kind the the level of of information of of precision that is necessary\
+  \ to guide really fine grain motor tasks tends to live for about a second and a\
+  \ half or 2 seconds in your brain So there's this point I'm trying to make here\
+  \ is just that there is that kind of temporal offset between the perceptual system\
+  \ and the motor system Um not always though Sometimes you are guiding things in\
+  \ more directly like if you're threading a needle that's a that's a feedback system\
+  \ So you're not you don't like you're like you're staring at the thing the whole\
+  \ time So you're getting information in sort of a real-time feedback loop But anyways\
+  \ this is where things get complicated This is where you could spend several lifetimes\
+  \ studying the details but uh my goal is just to let you see how weird it is and\
+  \ then we can deal with it later Okay So juggle juggle juggle That's too long Too\
+  \ long That's enough Okay Uh 4384 Okay Yeah So here's me reading and So 4873 So\
+  \ this is it's a Wikipedia article about vestibular ocular reflex and I am reading\
+  \ it dutifully It's not tracking super great but you can see that reading reading\
+  \ involves little sakads across the line But I think I was getting flustered at\
+  \ this point so I don't think I was actually reading very well So I'm looking at\
+  \ the data it looks like I'm just going across the top row and it's possible that\
+  \ I was but also like sometimes the the the the vertical position of the eye tracker\
+  \ is dependent on depth Um which I'm not going to focus on that but yeah You can\
+  \ actually see me failing to read this as I start skipping around and going back\
+  \ to other parts But if I was reading this very carefully we tend to make little\
+  \ sacads So like from here to here to here back to here So because I I don't have\
+  \ to read word by word If you like if it was a language that I didn't speak very\
+  \ well if it was you know some if I was just learning how to read um I probably\
+  \ would be looking at each individual word one at a time But because I speak English\
+  \ and I can sort of scan pretty well I can make bigger jumps and sort of chunk the\
+  \ the world out differently This is another thing that you tend to see um when you\
+  \ start talking about uh like expertise development which is a really common thing\
+  \ to look at with eyetracking Um as you get better and better at a given task your\
+  \ ability to chunk it out gets better So when you're first starting to read you're\
+  \ thinking about it on the letter by letter level When you start getting better\
+  \ you start thinking about it word by word And until eventually you start thinking\
+  \ about reading in terms of like you know it's not like not necessarily sentence\
+  \ by sentence maybe phrase by phrase you start learn you you gain the ability to\
+  \ scan and skim in a way that you couldn't if you were a beginner Um yeah expertise\
+  \ development it's a whole thing Um 5356 Yeah And so you see me as I'm looking around\
+  \ the room Um this is another place where the uh have time for this thing It's actually\
+  \ not necessary Basically this is my eye This is the camera of the world And so\
+  \ and then let's say this is the the the depth that I calibrated at The way that\
+  \ the calibration works is my eye is looking at this point and we calibrate it so\
+  \ that the camera is also displaying the dot at that location But the reason why\
+  \ but but because the camera is not actually on my eyeballs axis it's offset by\
+  \ a little bit Um there is a vertical offset there So if this is the distance that\
+  \ I calibrated at um if I'm going to look at something in front of that the image\
+  \ is the estimate is going to be above the location that I thought it would be Whereas\
+  \ if it's something farther than that it's going to be below So when I'm if I calibrated\
+  \ at arms length and then I look out into the world the estimates are going to be\
+  \ off a little bit downward I think or the opposite I might have gotten that should\
+  \ be right Um the people that have cameras do try to do a little bit of correction\
+  \ for what's called virgin So when if I'm looking at something it's easier to notice\
+  \ if I'm looking at directly in front of me if both my eyes are looking at my finger\
+  \ they're crossed inwards in order to like keep the image sort of sort of aligned\
+  \ Um and that's that remains true even sort of out to a certain depth Um but at\
+  \ farther distances the angle that I'm tilting in is tiny tiny tiny Um so the this\
+  \ eye tracker does attempt to look at the virgin signal between the two eyes in\
+  \ order to estimate the depth that I'm looking at and then correct for this type\
+  \ of a thing Um but I never know how much to trust that correction So I can tell\
+  \ you yeah actually you can see it like I am looking at your faces Um but it's showing\
+  \ me looking at like desk level Um because of the just the distances there and and\
+  \ okay I think that's everything I did that's worth noting So now I'm going to look\
+  \ at the actual data trace And but before I do that I'm going to finish grabbing\
+  \ these frames So V from 346 So I'm measuring just the frame numbers that the behaviors\
+  \ are happening So that way later when we're looking at the actual data Oh wait\
+  \ Is that going to work though it'll be proportional Uh 693 cuz I realize I'm pulling\
+  \ the frames from the world camera but I think the plots I'm going to show you are\
+  \ in eye tracker time stamp coordinates Um okay Then I do the finger thing I think\
+  \ D Okay So so from 11:41 to 1,200 I was doing the horizontal sacads and then I\
+  \ do 144 So let's say let's say 12 50 to 1400 I'm doing vertical Okay I think that's\
+  \ enough to work with Um yeah So now let's look at the actual data like the So everything\
+  \ we've talked about up until now well so the raw videos are raw data Um and this\
+  \ video is is not this is not really data in the sense of what I usually mean as\
+  \ a scientist when I talk about data This is a visualization of data Um it's but\
+  \ it's not really it's not set up to do like proper science about like you can't\
+  \ really do statistics on this kind of thing So I'm going around saying \"Oh yeah\
+  \ look I'm looking here I'm looking there.\" And I say \"Oh you can see me make\
+  \ a sakad I'm moving my ass from there to there but I'm kind of just I guess for\
+  \ lack of a better term eyeballing what's happening on the screen Um I don't have\
+  \ the precision to actually do analyses here And I I don't have the kind of numbers\
+  \ I would need to be able to um say things about pull this down like the eye movements\
+  \ Um in order to do that I would have to look into the actual data traces and sort\
+  \ of look look at the things that are sort of more better suited to actually extract\
+  \ things like statistics and velocities and positions in a more precise way Um and\
+  \ in this case uh let's see that's going to look like Looking at copy this path\
+  \ So this thing which I did show last time um I'll show it again Yes Uh so these\
+  \ are this is some like this folder of exports is the derived data of the of the\
+  \ recording which we derived computed whatever you want to say Um and so this is\
+  \ the when we got the raw data of the eye videos and we did the analyses to track\
+  \ the pupil and all that good stuff Um we basically we can get those numbers for\
+  \ each recorded frame and then we write them down according to where we got them\
+  \ So um this is the data from the eye cameras and you see here this world index\
+  \ that's the frame of the world camera that we were looking at So earlier when we're\
+  \ looking through the videos and there's all like the you know a bunch of red crosshairs\
+  \ on on a single frame of the video that happens because there is you know 1 2 3\
+  \ 4 5 6 7 eight um samples pulled from the eye videos for each frame of the world\
+  \ video Um and as we talked about last time these numbers basically each row is\
+  \ one observation of the eye uh I the ID is either zero or one for the right or\
+  \ left eye and then you have the confidence value and the position on the screen\
+  \ and stuff like that So uh the video that I was showing is a is a data visualization\
+  \ It's not set up to do like proper science about um but it is a representation\
+  \ of this data that is sort of better suited for our human brains right like you\
+  \ can look at this all day and not see me make a s aad because these numbers are\
+  \ there's too many of them and they're too precise or they're just too you know\
+  \ there's too many of them but you put it as a red crosshairs on top of a video\
+  \ and all of a sudden it makes sense to us Um so yeah there's just always a sort\
+  \ of complex relationship between the intuitive interpretability of data and like\
+  \ the hard level sort of precision of it Um and typically you want to have a little\
+  \ bit of both So with any luck I should be able to process this I realize I really\
+  \ should have done this I did do that Is that okay i did do that And okay so this\
+  \ is a little piece of code that I wrote up to help me basically clean up this data\
+  \ because this this data output has a lot of stuff in it like the eye the different\
+  \ eyeballs are interled with each other there's a bunch of information about the\
+  \ the 2D estimates versus the 3D estimates and things like that Um and so what I\
+  \ really want to see is just a singular trace that says this is what your let's\
+  \ say right eye was doing at each sort of recorded frame of the of the video And\
+  \ the reason why I want to see that is because there are certain shapes that I expect\
+  \ to see um when I look at those data So time wise doing all right So so if this\
+  \ is my so if this is a plot that that I a plot that I've already generated but\
+  \ let's do some sort of predictions here Um and then this horizontal axis is time\
+  \ which can be measured in frames it can be measured in seconds it could be measured\
+  \ whatever you want And then let's say that this vertical axis is the horizontal\
+  \ position So I'm looking from a top down If I if I'm looking here versus looking\
+  \ there you know that's going to if I'm if I'm looking all the way to the left let's\
+  \ say that's going to be over here Looking all the way to the right let's say that's\
+  \ going to be over here Then when I'm looking when I'm doing those sacads in this\
+  \ sort of phase of the of the recording where I'm sort of bouncing back and forth\
+  \ to the from the different points on my finger you know that's going to look like\
+  \ I'm bouncing here and then I shoot over here hang out there for a while Let's\
+  \ shoot over here Hang out there for a while Shoot out here Hang out there for a\
+  \ while And so you're going to get these like step functions here And the fact that\
+  \ this slope is so steep is a testament to how fast your eyes move If my eyes move\
+  \ slower so for example in the the the calibration part where I'm sort of smoothing\
+  \ my head I we're doing horizontal So I'm moving my head back and forth like this\
+  \ It's not going to look like these big square wave step functions it's going to\
+  \ look more like a smooth transition because that's what my eyes are are doing And\
+  \ so you can kind of tell uh which system which of which part of my ocular motor\
+  \ system is driving the eye movement by the shape that gets traced out when we look\
+  \ at the data on the plot That make rough sense And then you know similar stories\
+  \ for the horizontal There is actually this this this gets to a level of the ocular\
+  \ motor system that I personally am not aware of I don't know I can't tell you the\
+  \ details here but I do know that um we apparently handle horizontal eye movements\
+  \ in a different part of our brain than we handle vertical eye movements which kind\
+  \ of weirds me out Um and if I wanted to tell stories about that I could say that\
+  \ you know horizontal ab movements have a lot of like you're like generally searching\
+  \ around for stuff versus vertical ab movements is kind of like you're walking You're\
+  \ kind of looking ahead So when you're walking on the ground you know most of the\
+  \ eye movements are are upwards like you sacat you track the point down you sacata\
+  \ head you track the point down Um but anyways just say that Um yeah so without\
+  \ any further ado let's look at these data so we can leave enough time to talk about\
+  \ neurons Um so this CSV is the filtered data So I have is that the right one what's\
+  \ data yeah So I I just went through and what the code was doing was pulling stuff\
+  \ out of the previous bigger recording folder And so now there's only I0 which is\
+  \ my right eye Um and not that just Oh that might be part of the problem Can I do\
+  \ that really quick can I do that in a hurry filter DF Oh okay Okay I might be making\
+  \ a terrible mistake here but that's okay Let's just go ahead and do it So I just\
+  \ realized by looking at it that I I hadn't I was going to say that I filtered out\
+  \ the I and I also filtered out the method and I was like \"Oh wait no I didn't\
+  \ because it's still in there.\" And then I realized that I had done that in two\
+  \ steps and hadn't cleaned up the step properly So the data might actually be cleaner\
+  \ than I originally thought it was if and only if this actually runs in this moment\
+  \ which we'll find out in a second if it does Huh Huh Unbelievable That never happens\
+  \ Um so yeah So there you go So there's the data Any questions probably Yeah Just\
+  \ disappointing right too much like what's going on here i promise you these nice\
+  \ pretty square functions and square waves and and swoopy things and instead I get\
+  \ all this like junk Um why is it so noisy when it could have been cleaner right\
+  \ what is what is the horizontal axis time And so how long does it take to make\
+  \ a sakat so if I'm talking about you know let's say let's say we're we're looking\
+  \ at the part of the of the video where I'm doing big horizontal sats And so it's\
+  \ supposed to look like this right how how how big of a duration should this be\
+  \ like a minute is that an hour like a day am I going hotter or colder short Yeah\
+  \ like it's like less than a second And so if you look at these this is frame number\
+  \ I really should have converted it to seconds but it's frame number And you maybe\
+  \ can't see it but this is 25K So this is 25,000 frames on this horizontal axis\
+  \ So the reason why it looks so noisy is because it's zoomed way way out And so\
+  \ this is the trace for the entire recording as opposed to from this particular\
+  \ point where I'm doing that Luckily for me I I know where that was happening So\
+  \ I can zoom in Um and thankfully I am using a method that does that So so I'm plotting\
+  \ theta and fi Um some people say f I say fi Uh I think theta is horizontal and\
+  \ fi is vertical Pretty sure that's the case but if I'm not it's the it's it's either\
+  \ that or the other way around Um so let's I don't know if these are locked either\
+  \ So let's zoom in that spot right there I don't know why it's so slow Yeah So there\
+  \ you go So now you can see the numbers are a little more tractable We're now we\
+  \ now got from 1,600 to 3,200 So if you want to divide that by 120 frames per second\
+  \ you can sort of figure out that time interval Um and you see the the noise Um\
+  \ but you also see this shape Um and so this shape happens So in the V this is the\
+  \ problem with Oh I got these numbers because this is where like these numbers you\
+  \ have to like multiply them by four I guess So four would be down to like 1,200\
+  \ um to 700 would be four,200 So yeah you know so this is the part of doing this\
+  \ is the the horizontal This is the the vertical VR Um this is another one of those\
+  \ cases like because I know how eyes move I know that this is junk in noise And\
+  \ I know that if I had a perfect eye tracker that was tracking perfectly with no\
+  \ with no error in noise it would give me a signal that looks something like this\
+  \ Um but this is giving me noise on top of that Um and so basically because of my\
+  \ knowledge of how the system works I can with my it's hard because we have so many\
+  \ visual analogies I can eyeball the data and know okay I need to clean out this\
+  \ noise here However what I cannot do is I I'm I'm not quite able to make that same\
+  \ kind of claim about this little chunk of data Why are you so slow um so this is\
+  \ now a much smaller interval So we got 820 to 1920 So this this is about 1 second\
+  \ of data and you can see here here and then we bounce down here for a while It's\
+  \ noisy in that phase then it bounces back up and you have a similar thing happening\
+  \ on the on the horizontal Um this is tiny uh and it's got these noise in it So\
+  \ I actually can't tell you if this is real data or noise um by looking at it If\
+  \ I go back to the video and I do that sort of frame thing I can look and like with\
+  \ my human eyes I can look at the video of the eyes and sort of try to determine\
+  \ if it's moving But even then like I don't know if this is within my my range of\
+  \ of my ability to tell the difference And this kind of like bouncy around noise\
+  \ like this could very easily be tracker error and not an actual eye movement So\
+  \ this is a very common thing that happens where like for a certain level of precision\
+  \ the the data that you get is enough to make certain claims But at a but as you\
+  \ sort of zoom in and it zoom in more and more you start to get to a point where\
+  \ the the the like I know that we do make tiny tiny sakads Like we make teensy teensy\
+  \ tiny sakads Next time you have the misfortune of having like a coin in your life\
+  \ just look at the coin and then notice that you can look at different parts of\
+  \ the coin So like if you're looking at Abraham Lincoln you can choose to look at\
+  \ his his eye or his ear or his nose And I will have to promise you that if you\
+  \ were in a sufficiently advanced eye tracker your eye does move down to the level\
+  \ of like arc seconds arc minutes maybe arc minutes a an arc minute is 60 chunks\
+  \ of a degree and arc second is things out there and I think that they we've we\
+  \ measure like micro sacads happen at the scale of like a dozen arc minutes um and\
+  \ I think even below so my visual system does produce sakads that are on this scale\
+  \ but I can't tell from this data set if this is a real one of those or if this\
+  \ is just tracker noise um and this is again something that has to sort come out\
+  \ of a knowledge of the system that you're measuring and the precision of the data\
+  \ that you get out of the technology that you have available to you given your budget\
+  \ and year of living You know in 20 or 30 years I could tell you with very high\
+  \ confidence whether or not this was like with you know the eye trackers of the\
+  \ future I could tell you with high confidence but with the eye trackctor that I\
+  \ had with the calibration that I had this is sort of within at at what we might\
+  \ call the noise floor of the recording Okay we are running out of time as is tradition\
+  \ Um but yeah and so these right here these are the quite noisy unfortunately but\
+  \ Yeah there we go So these are again it's very noisy and I apologize for that Um\
+  \ but this is also I think a a this is a decent representation of of what an eye\
+  \ trackctor looks like of what a sacad looks like with this type of an eye tracker\
+  \ So this is the rough position of my eye I make this big sacad and then this little\
+  \ slope right here means that I probably made a sakad and then like move my head\
+  \ to catch up with it And that's kind of a thing like we tend not to hold our heads\
+  \ fixed We tend to move our heads and if we move our heads our eyes counter rotate\
+  \ That's the vestibular ocular reflex So this type of thing where you see like a\
+  \ sacad and then kind of like a relaxation is very common where I kind of like it's\
+  \ like move my eyes and then kind of move my head to fit and then move my eyes and\
+  \ move my head to fit Like that's what you're kind of seeing here Then I keep that\
+  \ fixation then I bounce down here This is another sort of case where like I have\
+  \ no idea if this is real eye movements or if this is tracker noise It's just that\
+  \ that's below the scale that we can make that estimate But I can say that I'm looking\
+  \ This is where my eye was in the head like this I trust this I don't know And and\
+  \ then back and forth and back and forth blah blah blah Um and again you can kind\
+  \ of see So with eye movements you have these like sacads that look like square\
+  \ waves and you have these like slow swoopy movements that that that are caused\
+  \ by the vestibular ocular reflex And in in the case where we're doing these like\
+  \ prescribed motions and trying to keep my head fixed um you see some sort of super\
+  \ supervenience of where like the the two the two types of movements are kind of\
+  \ like on top of each other So even though I am maintaining fixation here I'm moving\
+  \ my head So the actual trace that you see is sort of like a combination of these\
+  \ two things sort of added together Sorry I'm kind of a my mustache is tickling\
+  \ my nose Sorry Um and try to find some other stuff again Noisy noisy Um yeah this\
+  \ right here Where'd it go this right here this gut-wise feels like a real eye movement\
+  \ to me Like this is probably around the smallest sakad I would expect I I I would\
+  \ reliably believe the system could measure And mostly it's because the data are\
+  \ kind of all in the same place So looking at the difference here like even though\
+  \ it is small it's consistent and compare that to come on Why are you so slow there's\
+  \ really no excuse for this to be running this slowly Like there's something weird\
+  \ going on Um but yeah so compare that this little jump right here to like this\
+  \ little spiky stuff right here where the data that's coming out of the eye tracker\
+  \ is jumping around from frame to frame Um so each one of these data points represents\
+  \ 8 milliseconds So if this was a real eye movement then my eye would have to be\
+  \ moving at that speed of like jumping from one place to another um within the space\
+  \ of 8 milliseconds which again eyeballs just don't do that Uh yeah we're down here\
+  \ is back to the space where I was like I don't really know about this because also\
+  \ yeah you start getting like time scales and sort of a lot of complicated stuff\
+  \ Okay Um so where I want to get to now okay I once again um probably not we're\
+  \ not going to get to talk about neurons because I someday in my life will learn\
+  \ the lesson that if my lesson plan involves the word and it will not happen Um\
+  \ but not today apparently Um cuz I want to find I got to fix this Why is it so\
+  \ goddamn slow try to find some of the juggling stuff in the middle Yeah there you\
+  \ go Oh actually you know what just realized because the the data in the eye is\
+  \ shaded on the on the outer sides of it I'll bet the horizontal eye movements are\
+  \ noisier than the vertical because the the the the the gradient in in luminance\
+  \ that I think is the cause of a lot of this error is a horizontal gradient not\
+  \ a vertical gradient So the I should probably be looking at these um vertical movements\
+  \ in the blue Um but anyway there we go So this this despite the noise and the jitter\
+  \ and the and the and the goop this is what eyes tend to look like during natural\
+  \ behavior And this honestly even with the noise because this noise is cleanable\
+  \ Like if I was to if I was to spend a little more time with this data I could probably\
+  \ get a lot of this noise out of there and sort of get a cleaner signal out Um but\
+  \ you can this is where you can start to see these kind of shapes on top of each\
+  \ other This might be a blink or it might be a sacad Hard to say but you can see\
+  \ how there's kind of this these shapes And then this this is the horizontal because\
+  \ I'm moving my head more So you can see like these swoops are more sort of noticeable\
+  \ in that direction And so like big sacad up here head rotation down there sacad\
+  \ So you can see like there are these cacods like I I am moving my head quickly\
+  \ there but then this sloop swoop downwards that's from my head rotating the other\
+  \ direction Um yeah and then these are sort of the corresponding vertical high eye\
+  \ movements and these will pro these will tend to overlap each other uh probably\
+  \ mostly although not necessarily because like I said sometimes like like we're\
+  \ generally not great at making diagonal sakats like we often will make like left\
+  \ like horizontal then vertical sort of vice versa like that Um but yeah is there\
+  \ anything else I want to look at oh it could be Yeah So so yeah So despite the\
+  \ noise in the data uh you can still kind of see some ghosts in the fog here and\
+  \ you can see like some of the trace of the nervous system that in of interest um\
+  \ generating behaviors that were measurable uh which is which is a lot like I want\
+  \ to point out like even though it it's it's something that bears repeating and\
+  \ bears belaboring that we are now We I took some cameras on a 3D printed glasses\
+  \ frame pointed them at my eyes pushed record ran some computer vision algorithms\
+  \ on it and now we're looking at this data which noisy though it may be it's valid\
+  \ It's val we could work with this if if this was the best we could do we could\
+  \ we could work with this and we could generate the kind of data that you would\
+  \ need to do to get like a publication and sort of like you know contribute to human\
+  \ knowledge And we're seeing shapes and patterns that correspond to to neural activity\
+  \ in very specific parts of your nervous system or of my nervous system I suppose\
+  \ Um and that's there just something I think kind of mind-blowing like baffling\
+  \ about it like like how like just the idea that you can like you know if I wanted\
+  \ to say that the the people who have the most claim on neuroscience are the ones\
+  \ who are cracking open the skull and sort of putting electrodes into cortex um\
+  \ you know that's a pretty bold move on its Um but it's sort of it's not surprising\
+  \ that you can do that and sort of say things about what's happening in the brain\
+  \ because it's a very very direct measurement This is not a direct measurement This\
+  \ is a direct measurement of the position of my eyes But the ability to interpret\
+  \ it in the context of eye movements requires a lot of a lot of assumptions and\
+  \ a lot of knowledge Like I was trained in eye movement studies by people who have\
+  \ been who are working who've been working on this for their whole lives and who\
+  \ were trained by people who have been working on it for their whole lives And it\
+  \ sort of travels back through time and sort of like the ability to interpret these\
+  \ kind of noisy signals is not um I don't know not to be taken for granted Um and\
+  \ it also is like a conven it's I don't want to say convenient but the fact that\
+  \ we can measure eye movements with a camera um didn't have to be the case like\
+  \ it didn't like there it's it's sort of I don't know you might call like convergent\
+  \ technological evolution there where like the fact that we have this very particular\
+  \ way that we move our eyes um you know humans in particular but primates and like\
+  \ humans primates mammals animals anything with vision um like the realities and\
+  \ sort of the the specifics about that uh sort of visual system happens to have\
+  \ this effect that you can use a camera to measure the output and sort of the output\
+  \ of of whatever part of the nervous system handles eye movements Um and so because\
+  \ we are clever clever humans we built tools that take advantage of that in order\
+  \ to give us a window into the nervous system that we wouldn't have otherwise if\
+  \ we had a different kind of visual system Like if we were birds and birds birds\
+  \ don't really move their eyes and their heads very much They do a little bit Um\
+  \ but they tend but their eyes tend to be an appreciable percentage of the mass\
+  \ of their heads as a whole So they tend to move their vision around using their\
+  \ neck Like that's that's like the the the chicken sort of stabilization thing If\
+  \ we had a visual system like that then the visual neuroscience of the chicken world\
+  \ would probably have a much much more precise way of measuring head position because\
+  \ that would have been the place that the that that the insight comes from Um so\
+  \ yeah it's a very just I spend a lot of time kind of thinking about the fact that\
+  \ I've like built something of a career on the strange convenience of having the\
+  \ type of nervous system that produces a movement that like a readout that can be\
+  \ measured with a camera and some you know 80s 1980s era computer vision That's\
+  \ probably unfair but you know relatively basic computer vision algorithms can track\
+  \ the eyes and give you a readout of the cognitive system and allows me to sort\
+  \ of have something like throwing a ball back and forth And I can get data that\
+  \ tells me not only sort of where my my body is moving but also the information\
+  \ not not only where my body is moving not only where the information that was available\
+  \ to me visually but the location that my nervous system wanted to get the information\
+  \ from Like when I when I make an eye movement there's a decision that was made\
+  \ I didn't like the the the person the the level of my consciousness that's sitting\
+  \ here saying English words and thinking like that I didn't make that decision like\
+  \ that ver that level of my consciousness did not make the decision to move my eyes\
+  \ from here to there but nonetheless a decision was made and that decision was based\
+  \ off of whatever 40 years of experience of living in a world constrained by physics\
+  \ and you know however many years of experience throwing and catching balls had\
+  \ was somehow baked into the nervous system enough that my at at this point in time\
+  \ my ocular motor visual system said the best place for you to move your eyes in\
+  \ order to get the information you need to to complete the task is here And that\
+  \ decision happened hundreds of times in the several sec several minutes of recording\
+  \ And it happens continuously you know 100,000 200,000 times a day for us We make\
+  \ these eye movements that sort of are based off of these like little invisible\
+  \ decisions inside of our nervous system So I think that's where we're going to\
+  \ probably leave that for now Um but you know we'll talk when we get to this part\
+  \ where we're talking about my particular research I'll show you some of the things\
+  \ that I've done using data like this to try to gain actual insight Um in this particular\
+  \ case the first thing I would do is record it again and try to get cleaner data\
+  \ Um but this is despite the the jaggediness here this is the kind of data that\
+  \ I've used to get uh like sort of real data and produced what could optimistically\
+  \ be called new knowledge um which I then took and threw on the giant pile of human\
+  \ knowledge and then you know went back and started doing it again So uh yeah I\
+  \ think we'll call that there Um so yeah so I'll see you all next week Um try to\
+  \ get your poster done by Monday Um I also wanted to say uh I I'm apparently the\
+  \ schedule's out and I am teaching a class next semester uh which I will be teaching\
+  \ Um the class it's it's like a once a week uh elective class and the topic will\
+  \ be pretty much the same as this Like I only really teach one class and it's this\
+  \ one over and over and over again Um so if you are interested in this stuff I I\
+  \ do encourage you to take it There will be a lot of things that look familiar Um\
+  \ but it will kind of be at a higher sort of level and less of a focus on this um\
+  \ like the poster project itself and more of a focus on like actually like gathering\
+  \ data and like trying to do something more resembling like an empirical research\
+  \ study with this I think I'll probably get you all set up like doing Skellybots\
+  \ like building your own Skellyybot thing on like the first day and kind of like\
+  \ have more of like a a back and forth between like kind of lectury stuff and sort\
+  \ of more like nitty-gritty hands-on like like looking at like recording data and\
+  \ looking at it trying to generate insights from that So if that is interested you\
+  \ interesting to you um go ahead and sign up Um I don't know if it'll fill up but\
+  \ I think I might ask them to increase the class size or just whatever because you\
+  \ know I think a way that I teach these classes like the size of the group doesn't\
+  \ really constrain very much because it's like either lecture or like small group\
+  \ kind of going around So um yeah and you know it's like a lot of the way we teach\
+  \ classes is kind of like this very step-wise thing of like you do this and then\
+  \ you're ready for the next level then you're ready for the next level And I think\
+  \ that's a little it's a little bonkers and I really kind of like just like you\
+  \ know if I if I gave you like the exact same lecture again uh you would get different\
+  \ things out of it Um so I think repetition is a very useful thing So uh that's\
+  \ a little pitch I don't know why I don't really need to pitch You can take your\
+  \ own classes but um just to answer the question of like because the topic is so\
+  \ similar should you take it again and that's kind of it's obviously up to you But\
+  \ like the topic I feel like these topics and the way that I teach are beneficial\
+  \ from like I learn new things every time I give the lecture and I'm sure you would\
+  \ too and you would have more of an opportunity to kind of like dig into data and\
+  \ try to like think about building uh actual actual empirical studies using this\
+  \ type of stuff Small scale obviously because it's like a once a week class but\
+  \ we'll do what we can Uh all right And I didn't talk about neurons I'll I'll I'll\
+  \ put that in at some point"
+metadata:
+  author: Jon Matthis
+  channel_id: UCOOQxlTCtUz9mr1NPWlJyYQ
+  description: ''
+  duration: '5460'
+  like_count: ''
+  publish_date: '2025-03-31T08:35:45-07:00'
+  tags: ''
+  title: 2025 03 19 14 57
+  view_count: '0'
+transcript_chunks:
+- dur: 180.0
+  end: 180.0
+  start: 0.0
+  text: okay All right Hello everybody and let's see where we're at So we're here
+    at the end of week 11 and today we're going to be doing kind of like a gap filling
+    sort of a conversation Um I will going to talk more about the eyetracking data
+    that we sort of like looked into last time Um last time we spent kind of a lot
+    of time talking about like the raw data from the eye camera itself and we'll spend
+    a little bit of time looking at the actual data um from the sort of the out like
+    the the far end of that processing pipeline Um you know like I said last time
+    it's not the cleanest data in the world but it's not the worst either we can say
+    what we need to say about it and take a look at kind of you know what eyetracking
+    data looks like in real life and you know try to get some insights into the various
+    sort of parts of ocular motor control that we clued into um and yeah the that's
+    the kind of thing that I'm certain I could spend a million years talking about
+    that data but uh I want to also spend a little bit of time filling in a bit of
+    gaps Uh specifically I want to spend some time talking about neurons Neurons themselves
+    the guy itself the little weird little cell that likes to spike and has all sorts
+    of strange aspects Um which I think we we can certainly do both of those things
+    Um I am so I call myself a neuroscientist but like obviously my actual background
+    is like this weird diverse sort of mish mash of things Um I think traditional
+    neuroscience typically I think the people who have like the most sort of like
+    claim to the to the title of neuroscience or electrphysiologists who are the people
+    who are like putting electrodes into brain tissue and measuring like spikes and
+    stuff like that Um or just you know people who are sort of like interacting with
+    like individual neurons at some meaningful level Um which is not me I tend to
+    work on a much more zoomed out view of of a system And you know I've said before
+    I I I describe what I do as kind of like where neuroscience overlaps with robotics
+    Um it's definitely neuroscience because if you remove the nervous system people
+    can't do the behaviors I care about Um but you know I think it's worth thinking
+    about it's definitely worth thinking about um the actual kind of like the the
+    the cellular underpinnings and the sort of the biochemical underpinnings of neural
+    activity uh both just to sort of know what that
+- dur: 180.0
+  end: 360.0
+  start: 180.0
+  text: looks like and also to kind of have that kind of that grounding because I
+    think when we're talking about the sort of like the general philosophical distinction
+    between like holistic approaches to science by measuring sort zoomed out organismal
+    scale sort of questions which is what I tend to focus on um versus a more reductionist
+    view of the kind of like really zoomed in like microscopic microscope type of
+    research where you've removed a lot of the things that make the thing that you're
+    studying you know able to operate in its natural environment but you have in in
+    exchange for removing the kind of ecological validity aspect of the research um
+    you gain a tremendous amount of experimental control and you can start saying
+    much much more precise things which are realistically much much more grounded
+    to like empirical measurements and stuff like that So in a what is probably sort
+    of a t a general flipping of the typical order of teaching we started with a sort
+    of really zoomed out view of neuroscience and we we we're going to talk a little
+    bit about the actual cellular grounding of where these things come from We'll
+    talk about my the sort of the yeah biochemical process which has caused me more
+    existential anxiety than any other that I'm aware of which is the sodium potassium
+    ion pump which really stresses me out in a pretty serious way um by definition
+    but also like emotionally Uh so yeah so I have a little bit time to talk about
+    that Um in terms of like course operations uh technically the f the full poster
+    draft is due this week Um I don't I realize I haven't made like a an actual assignment
+    submission repository on the Canvas So I'll put that up there But it's it's not
+    like I'm not too stressed about you actually turning in the the PowerPoint slide
+    or whatever like that Uh the most important thing is having it ready to upload
+    to the poster printer by Tuesday of next week So as I have stated before and we'll
+    well I guess I won't say it again until we're actually doing it but uh Monday
+    of next week is devoted towards just that kind of poster preparation stuff So
+    um you would be wise to show up with your poster done uh so that we can work on
+    the formatting to a PDF and you know last minute little fiddly bits and stuff
+    like that uh before submitting it to uh print Um yeah and then sort of got two
+    planned lectures on you know evolution We're going to talk about that on the previous
+    Wednesday autonomic nervous system PTSD on the previous Monday That Wednesday
+    will be spent doing poster practice stuff So like small groups kind of like
+- dur: 180.0
+  end: 540.0
+  start: 360.0
+  text: "practicing presenting your poster I'm kind of imagining we can do some of\
+    \ that with the poster prep stuff too Like depending on where you are as an individual\
+    \ and your sort of development process like if you're done with your poster like\
+    \ it's not actually that much work to convert it to a PDF and submit it So um\
+    \ hopefully you'll have a little bit of time to kind of like go over it with somebody\
+    \ else There's sort of the you know two classic methods for finding bugs which\
+    \ is uh having somebody else look at it because they will always find all the\
+    \ typos that you somehow gloss over Um and then the other classic method is the\
+    \ the rubber ducky approach which is um traditional in the sort of software development\
+    \ world where if you're if you're trying to figure out like where the problems\
+    \ are in your code or in things you work on Uh the game is you try to explain\
+    \ how things work to like a little rubber duck and typically the process of explaining\
+    \ it uncovers where the where the where the problems lie Um so yeah so my kind\
+    \ of my thinking is that in in Monday's class we'll be doing we'll just sort of\
+    \ try to get everybody together so that they can submit uh you know as appropriate\
+    \ sort of doing some last minute cleanup stuff Um and then the final class session\
+    \ before the poster presentation week itself uh we'll spend doing just demo runs\
+    \ So just kind of like small groups kind of go around the circle and kind of present\
+    \ your stuff um which intention there is to keep is to give you kind of the the\
+    \ motor practice of actually presenting your work so that you're the first time\
+    \ you present it on the actual day itself won't be the first time you've presented\
+    \ it to anyone uh which will be beneficial to you uh from a like there's not this\
+    \ is not a particularly high stakes type of spa space people are going to be friendly\
+    \ and supportive um in the in general in the sciences if you're presenting a poster\
+    \ at conference like everyone's on your side If they're not on your side they're\
+    \ an [\___\_] Um there is a base level assumption in the sciences and academia\
+    \ and any kind of setting like this that you're like you're supposed to criticize\
+    \ the things that you see Like that's part of the peerreview culture is that if\
+    \ I if you are showing me your science and I am looking at it and I see a problem\
+    \ with it I am supposed to say something about that Um whether or not I will or\
+    \ not is sort of depending on like how much emotional energy I have to have that\
+    \ conversation Um but it's kind of it's part of the game of like how we can attempt\
+    \ to you know do such a wacky thing is like generate real knowledge for other\
+    \ people which like when we when we show stuff to other people you're supposed\
+    \ to kind of help by criticizing the the small fiddly bits of it Uh yeah So it's\
+    \ a little unclear in the official"
+- dur: 180.0
+  end: 720.0
+  start: 540.0
+  text: instructions and it might say multiple things in like different places Uh
+    you can kind of I'll say no Um just because it's kind of weird when you're doing
+    like it's sort of like the the structure of the assignment is that you are kind
+    of you are kind of like pretending that this is work that you did Um but you know
+    I don't think you have to do like the full sort of cosplay of being like like
+    oh yeah I'm the first author here That's me But it's kind of like it's the the
+    intention of the assignment is to sort of give you the experience of like preparing
+    a poster and presenting it Um so it's it's kind of like it's I I would sort of
+    say probably just don't just use like third person pronouns and not first person
+    pronouns just because so we don't know what we say So this is a very that's a
+    it's a it's a great question and it's a very it's a very real question because
+    uh Q&A always has kind of like a performance aspect to it because you're like
+    you're being asked a question in real time and you want to be able to say oh yes
+    the answer to the question that you asked Um but reality is is that you might
+    not know So you know you should have at this point read your paper enough to be
+    able to either answer to the specificity that they described it Um or at the very
+    least know sort of where like where the the questions are Like if they say you
+    know what brand of monitor did they use and you like like I don't know it's in
+    the method somewhere Like that's a valid response If they say like were the people
+    on a treadmill or were they walking outside it's like that one you should probably
+    know the answer to Um but I think that like you know if if this was a real thing
+    that you had done um or if you're like giving a talk and someone like raises their
+    hand at the end um you know people will often ask you questions that you don't
+    know the answer to And if you don't know that answer that's kind of it's that's
+    you know it's highlighting like a hole in your understanding And that's not necessarily
+    something that you need to be like upset about you know like it's more like oh
+    I you know that's some that's something if if they ask you a question and it's
+    like a valid on topic good kind of question and you don't have the answer to that
+    You kind of lock you want to lock that away as like I should know the answer to
+    that question and then you might look it up later Um in the moment what you say
+    is that's a really great question I'm actually not sure And then you kind of like
+    vamp like you you kind of guess around the answer And this is where like the strategy
+    of giving a presentation and the strategy of like responding to Q&A kind of comes
+- dur: 180.0
+  end: 900.0
+  start: 720.0
+  text: up Um it assuming that you are feeling like you're in a like a confrontational
+    place where you want to like you know look like you know what you're doing like
+    maybe it's like a job interview or something like that Um there is there is like
+    a skill to answering questions that you don't know the answer to and and still
+    sort of displaying your expertise while you're doing it And like for me like if
+    I'm talking to like you know grad student or undergrad or something like that
+    like of course you don't know the answer to all the questions Like you've just
+    sort of started doing this Um but so if they ask a question that you don't know
+    the answer to kind of the game is like you want to be like productively confused
+    right you want to be like that's a good question because of this that and the
+    other thing because it connects to this other part that I do understand that's
+    a good trick sort of like oh yeah it's a great question let me talk about let
+    me let me connect it to this thing I can say more about um but you know I think
+    being able to understand like why the question is valid and then just kind of
+    like connect it to stuff and say like you know oh I don't know the specific answer
+    there but I do know that that's connected to this that and the other thing like
+    I'm not sure if it was a force instrumented treadmill but I do know like if it
+    was then we could get the footfalls more accurately you know and so and that's
+    that's a totally valid thing to do Like no one's going to be sitting there like
+    checking off points based on whether or not you you gave a valid response Um but
+    yeah and that that's kind of what I mean by like posters are kind of um practice
+    runs for papers Like if you go to a conference cuz another thing too is like if
+    you're let's say you're a grad student and you're working in a lab and you you
+    know your stuff inside and out but then you realize that you know your stuff inside
+    and out relative to the kind of questions that you're going to get from people
+    in your lab or people at your department or people at your school And then now
+    you go to a conference and that conference has people from all over the place
+    including people who study you know like whatever some some little layer of biochemistry
+    that's just not represented in your lab or in your school And then when those
+    people show up they ask what's the most obvious question to them and you've never
+    even heard of the things that they're talking about um that's that's actually
+    great news for you because you have now had this this sort of spotlight shown
+    on a gap in your understanding and so in that situation you say I didn't know
+    about that uh can you tell me about it you seem to know a lot about it and sort
+    of get them talking and that's and I think like that kind of question I think
+    is where the this the gap between like the actual operation of science versus
+    like taking classes and getting grades and that kind of thing really starts to
+    break apart because in classes there's this really strange fiction that you're
+    supposed to know all the answers to the things that are being asked of you and
+    you are literally given a score based off of like how many of the boxes you get
+    to check um in a more collaborative type of
+- dur: 180.0
+  end: 1080.0
+  start: 900.0
+  text: arrangement which you know real life is intended to be um it you kind of get
+    that like if someone asks you a question that you don't know the answer to that's
+    a good thing because it means it that's showing you where to do some work Um was
+    a long speaking of like long rambling answers to simple questions Was that help
+    yeah Any other questions about that about the does the basic sort of structure
+    of what we're going to do in the poster session itself make sense i haven't assigned
+    you days or anything like that but yeah Yeah Yeah And again I'll just say it again
+    Um the first time you run through your poster with somebody will be the worst
+    time Um by the end of the whatever hour and 40 minutes of the class period when
+    you've done it you know 2 three four five six times um you'll be so much smoother
+    with it than you thought that you could be Um and yeah if this was an actual if
+    this was a paper you were planning to publish the end of a poster session is the
+    absolute best time to sort of take down your notes Um in this particular case
+    you know you don't really have to stress about that but you know it's sort of
+    like you want to think about what your your your story is in terms of like what
+    is the what's like the top layer of like what's what is the takeaway like what
+    is the singular message like if when someone walks away and they say "Oh that
+    poster was cool because you know it was they were looking at this you know they
+    they did you know the people did this experiment and did this method and sort
+    of got this result and sort of like you know it's cool because of this They were
+    they were studying that." Like that's kind of what you want to focus on Um and
+    that is going to be um it's going to be different for every p paper It's going
+    to be different for every person Um and yeah you just want to be able to kind
+    of go you want to be able to also go through your story at different levels of
+    abstraction Like you want to be able to have the the 30 second like oh yeah this
+    is the general vibe of this thing Uh versus like the longer run you know like
+    you know 5 10 minute sort of run through of of like explaining the details Yeah
+    Okay Um let's see here Let's look at some eyeballs
+- dur: 180.0
+  end: 1260.0
+  start: 1080.0
+  text: Okay So trying to remember like where I got to with everything last time Yeah
+    Okay So here we are And so that's y'all These are my eyes And this crosshair is
+    roughly speaking the estimate of where my eyeballs are pointing relative to this
+    scene Um so the you want to think about it in terms of like you know imagine that
+    I had two lasers coming out of each eye uh passing through the back of the eye
+    and this sort of phobia So if that's my eye that's my you know what's that optic
+    nerve and then that's my phobia So that's the that sort of pit on the back of
+    my retina where I have the highest acuity Um if the system is well calibrated
+    which it is enough for you know close enough for government work as they say Um
+    and if I am fixating as precisely as it feels like I am which is a sort of a secondary
+    question Um this uh this point right here in the image is the point that would
+    be projected onto the back of my eye So if you could put a little camera into
+    my eye and somehow image like the light that's hitting the back of my retina it
+    will look like an inverted version of this picture Um sort of onto the back of
+    each eye Uh this circle right here is very very roughly the size of it's plus
+    or minus one visual degree um which is roughly the size of the phobia in the world
+    So as I'm looking here everything that's inside of the circle is sort of again
+    hypothetically being absorbed and processed by the phobia of my retina And uh
+    there so the world camera here is recording at 30 frames per second The eye cameras
+    are recording at 120 frames per second There's two eye trackers So that means
+    for every uh frame of the of the video there's going to be eight of these red
+    crosshairs on on the on the world camera because that's you have eight time you
+    have many many more data points from the eye camera than you do from the world
+    camera So and this is what a lot of what we're going to see in this data because
+    of the
+- dur: 180.0
+  end: 1440.0
+  start: 1260.0
+  text: like the shadowing that's happening here Um you'll be able to see like these
+    little things circling the pupil like they'll kind of jump around a little bit
+    Um and that's where these like little spreads come from Uh this is one of those
+    places where having a good understanding of the kind of the way that eyes actually
+    move helps kind of see through the noise in the recording Like I happen to know
+    that eyes do not move fast enough to sort of bounce down here and then bounce
+    back up in the space of the 33 milliseconds of a single frame of this recording
+    Um so it's easy for me to sort of label this as like oh that's just tracker noise
+    Um if I didn't know that if I was like oh you know our eyes can move infinitely
+    fast and sometimes they do um it would be hard to differentiate between quote
+    unquote good data and bad data Um so knowing what the system what the neural system
+    is capable of is really helpful Uh yeah Yeah So here's one So for whatever reason
+    on this frame the red circle is finding something else I'm actually not sure what
+    the colors mean like what the red versus the yellow they're both clearly One of
+    them is estimating the pupil from the two-dimensional image of the eye The other
+    is representing the three-dimensional sort of spherical estimate I'm not sure
+    which one is which Um but you can see how it's kind of off by that frame Yeah
+    And so now we are in a good spot where I am calibrating on this ball this green
+    ball This is the the process where I was like doing this with my head Um actually
+    can I Ah I wish I had done that but that's okay Oh there we go Yeah great Cool
+    Now I can use the arrows Right So guess I can just play this Do I play let's play
+    it full speed So little bit jumpy but more or less tracking
+- dur: 180.0
+  end: 1620.0
+  start: 1440.0
+  text: Um and this is another one of those cases where like so this is a good example
+    of so right now I'm looking at the ball I know I'm looking at the ball and then
+    right here actually so as I'm I'm going up you see there's still some error there
+    but it's more or less working And so look at this little part where I I'm depending
+    on how we feel about the data I either make a quick sacad to look at the palm
+    of my hand and then bounce back to look at the ball which would represent like
+    a a minor deviation from my my task of like fixate on the ball and then like ah
+    let me just like look at my my palm for a moment Um and that's actually Yeah Yeah
+    Look So if you see this I did move my eye So that's that is real data So that's
+    fun Um and that's that remains because this type of thing that the eye does move
+    like that I know that I know that the eye moves like that Um and and it's also
+    it's recording multiple frames from this location So even though this is actually
+    not tracking properly um on this frame this is quote good data Um keep track of
+    the time Um yeah So now that's me looking at the screen and then there's me looking
+    out in the world So couple things you might notice One is it moving really fast
+    This is just there's one of these sort of rules of thumb I have that like video
+    from an eye tracker doesn't make sense when played at full speed Um it really
+    kind of needs to be slowed down by a factor of like four to really make sense
+    Um and I can't ever figure out if that's interesting or not because I experienced
+    this at full speed Like that's when I when I was doing this like I was moving
+    as quickly as the video was playing Um but when I watched the video later I can't
+    make any sense of it Um so however you want to parse that Um and in my personal
+    experience like a a slowdown of about 4x is about what I need to make sense of
+    what's going on Um so there is kind of a just a general question about visual
+    processing
+- dur: 180.0
+  end: 1800.0
+  start: 1620.0
+  text: Um also the I did try to record the audio The audio did not record because
+    I'm pretty sure this software just doesn't do that Um so I have to kind of make
+    some estimates about what's going on Um let me try to show here Okay So here you
+    can see me kind of reading which is so this is a very um what's the word um the
+    way that we tend to look around the world in natural behavior There's this guy
+    named Mike Land who did a lot of studies in his kitchen and Mary Ciho was my former
+    adviser did a lot of studies looking at you know general tasks and stuff like
+    that And the way that we tend to navigate and sort of investigate the world is
+    we if I look if I'm interested in something over there I will first move my eyes
+    in that direction and then I'll point my head and then I'll point my body And
+    it kind of tends to happen in that way So if you're searching around your eyes
+    lead and then if you find the thing that you're actually looking for then you
+    might commit a little more to pointing your head than you might commit a little
+    more to pointing your body Um because in general we like to keep our eyes pretty
+    fixed in the middle of our head like we don't really like to have our eyes anything
+    other than central in our orbits because doing so requires muscle activation and
+    we tend to be pretty uh stingy about using our muscles if we can avoid it Um and
+    so if we do make big eye movements are almost always followed up with either a
+    sacad back to center or moving your head so that your eye is back in the orbit
+    So you can see here my both my eyes are kind of off to the left Um but as I go
+    around it gets closer I guess I must be like looking off to the side here But
+    this is tends to be the way that we read stuff is making sacads So looking at
+    that and then bouncing down to this was like the list of tasks that I was going
+    to do Um yeah so this was a sakad so this is a single frame uh so from frame what
+    is where's the number there I don't see the number anyways um so in this 30 millisecond
+    period
+- dur: 180.0
+  end: 1980.0
+  start: 1800.0
+  text: between frame one and frame frame whatever this is frame 12 and frame 13 Um
+    I sac from there to there Uh which is a fairly large sacad but at roughly the
+    right speed So you know I don't know if that's interesting to other people but
+    it's always like I think things like things like reading is are it's interesting
+    to look at things like reading because you can see some of the precision that
+    comes out in the eyetracking record Uh whereas in the like when I'm just looking
+    around the world it can be hard to tell like how precisely I'm looking at stuff
+    But in this case I'm making these sacads and I'm making them very precisely to
+    the points on the board where the information is Um later on I look at that page
+    and you sort of see some more precision going on there Um I'm also Yeah there
+    you go Doing it on purpose Um yeah here I'm doing these sacad like big sakads
+    from the right and left And in a little bit we're going to pull out the actual
+    like time series trace and sort of see what that looks like But those are big
+    horizontal cacods Um and then big vertical sacads Um yeah So I wish I had the
+    audio on this but that's okay Yeah So I also want to point out um so I talked
+    about VR vestibular ocular reflex where that's the one where if you're like looking
+    at yourself in the mirror you can move your head around and your gaze stays fixed
+    Um your eyes keep pointing in the same direction because your head is sort of
+    counterrotating Um and when I'm making a big turn like this you can see So look
+    at this So as I'm turning I look all the way that way to the left And as I'm turning
+    like I I cannot I cannot ignore the head acceleration signal The VR is a very
+    very very low level reflex that does not turn off Um it's actually it's used as
+    a measure of brain death for sort of uh um yeah like I don't know situations where
+    they don't have better tools um if they're trying to see if somebody is like alive
+    in a coma or just dead um they'll take the head and they'll move it back and forth
+    and if the eyes counterrotate with
+- dur: 180.0
+  end: 2160.0
+  start: 1980.0
+  text: the head motion then that person still has something going on on the inside
+    If they don't then that person is no longer living because it is because the VR
+    does not there there is no state of your body where your V doesn't work and your
+    brain does Um I guess that's probably not fully true but it is a very very low-level
+    reflex that has been around for about as long as skeletons Like we have evidence
+    from like bony fish to for four 450 million years ago that they had something
+    like the vestibular ocular reflex keeping their gaze stabilized But yeah so see
+    how it kind of So first of all there's this sort of like uh double double tick
+    thing happening So as I turn it my my eyes go forward they kind of track back
+    and then they bounce back again And that's because as I'm rotating my eyes can
+    only go so far So as I rotate my head I can turn around in a full circle but my
+    eyes cannot So they go to as far as they can in the orbit They tick back to center
+    and then they start tracking again with the with the VR and then they sort of
+    align where they want to go which is looking at that screen Uh okay we got that
+    Yeah Yeah So there's me tracking smoothly tracking my my finger and then I think
+    the next one is I will try to track without that finger and do a bad job Yeah
+    So you can see try as I might to track smoothly I am not able to do it without
+    a reference point So I just make these big sakads along the back wall Um oh what's
+    that okay And now we bring up the juggling balls So I should be writing down these
+    frame numbers Um juggling starts at 2 978 So with something like throwing and
+    catching um there's two components of that One is the throw the other is the catch
+    And as we do I have any I do I still have them in here So we have discussed ballistic
+    trajectories in this class and centers of mass and those sort of base level like
+    Newtonian mechanics Um and one of the nice things about throwing and catching
+    from a sort of perceptual motor research level is that it has a lot of things
+    going on there So
+- dur: 180.0
+  end: 2340.0
+  start: 2160.0
+  text: there's the motor aspect of throwing the ball which is weird complicated hand
+    trajectories to sort of impart a particular physics on the ball so that when it
+    leaves my hand it is following a ballistic trajectory that is going to land it
+    in the place that I want it to Um but your motor commands always have noise in
+    them So as I throw the ball I I desire to throw it in a certain trajectory but
+    the actual reality is going to differ from that somewhat And so I have data the
+    sensory data off of my hand about how that throw went Um that gives me some rough
+    estimate about where the ball will be Um but that may or may not be good enough
+    for me to actually catch the ball like to actually put my hand at the location
+    where the ball is going to land So what you see is there's very sort of classic
+    strategy where you Let me see if I can find a good one Yeah So in this case I'm
+    about to throw the the green ball Um I wish I had tilted the world camera down
+    a little bit so I could see a little more of that but that's okay I guess I can
+    do this Forgot That's nice Um and so presumably right around now Oh we're not
+    there Oh I went the wrong direction There's something jumping Oh there is That's
+    fine Yeah So as so first of all just to be clear one of the things that eye trackers
+    can can be misleading about is because there is a crosshairs and because there
+    is a singular point within the crosshairs it's really easy to think about that
+    in terms of like if you're not looking at it you can't see it but that is obviously
+    not the case We have a fair amount of peripheral vision Like I can see my hands
+    out to about here And if I move my fingers I can see them out to about here because
+    we're more sensitive to motion in the periphery which is its own kind of weird
+    Um but so I so I don't need to directly fixate the ball in order to see it Like
+    I can do a lot of work with uh peripheral vision In particular I can because I've
+    now I'm not like great at juggling but I've been doing it for long enough that
+    I'm not as like as you get better at something you need less and less information
+    to perform it well enough to not drop the balls Um but in any case you can see
+    that there is this kind
+- dur: 180.0
+  end: 2520.0
+  start: 2340.0
+  text: of predictive sacad So as the green ball starts coming up I make this sacad
+    over to roughly where it's going to roughly where it is um sort of closer to where
+    it is And typically you know on the assumption that I am currently gathering information
+    about this green ball during this particular point of the recording um we tend
+    to look at the ball at its peak Uh so when it's in it this nice ballistic trajectory
+    we tend to look at it mostly when it's at that sort of apex of its trajectory
+    because because it's a fully defined uh movement If you know the position of that
+    apex point you can fully predict where it's going to be in the you know milliseconds
+    after when I'm actually need to get my hand in that location So you can Yeah there's
+    some gaps here So you can see this kind of So as this ball goes through I sac
+    over to it sort of would just get the one two three you know 100 to 150 milliseconds
+    of information that I need to Um and then once I sort of have that presumably
+    I have presumably I'm already moving my hand in the direction I need to to to
+    get to get this ball Um but with that last little 100 milliseconds or so of visual
+    information of precisely fixated information I get the little last minute of corrections
+    that I need to do to make sure that the hand is in the location that the ball
+    will be at the appropriate time And then once I'm done with that I sac over to
+    this one and I repeat that process So there's often this sort of predictive element
+    of vision Um particular when you're walking over rocks which I I showed it at
+    the beginning and I'll show it again at the end of that when I'm talking about
+    my actual research But it when you're walking over rocky terrain um it's very
+    obvious that what you are doing is gathering the visual information for what is
+    going to be happening in the future Um so you're typically performing the motor
+    action like you're placing your feet on the ground relative to the place that
+    you looked maybe a second and a half or two seconds prior to that So there's your
+    your your nervous system if you're engaging in a sort of complex perceptual motor
+    task um is typically doing sort of two things at the same time in a kind of overlapping
+    way where you are simultaneously gathering the information that you will need
+    in the future so that
+- dur: 180.0
+  end: 2700.0
+  start: 2520.0
+  text: you can so that you can in the moment perform the motor action that is the
+    most appropriate for the way that the world currently is So if you think about
+    it like the classic example is like slalom skiing So if you're coming down so
+    seems like you go around the the flags like if you're going down and you know
+    you're going around you know one two three like if you're going around flag one
+    if you're only looking at flag one then by the time you clear it and you start
+    looking for flag two you're kind of already on the wrong trajectory So what people
+    have found when you put eye trackers on people doing so tasks and stuff like that
+    is typically when we're when we're actually sliding around flag number one we're
+    already looking ahead to flag number two And then by the time we sort of get into
+    this terminal phase of going around flag number two we're already looking ahead
+    to flag number three So there's this often this kind of this offset between your
+    perceptual system which is gathering information about the future um and your
+    motor system which is operating and and and driving itself on the basis of the
+    information that was gathered at some point in the past And the time frame of
+    that can vary but not that much For really fine grain motor behaviors like catching
+    a ball or you know slaloming around a a a flag uh your your brain can sort of
+    hold on to precise visual information um for about two seconds That's about roughly
+    that's you know when we think about memory there's all sorts of scales There's
+    long-term memory which is like you know years and lifetimes of memory There's
+    short-term memory which is like you know what did you eat for breakfast this morning
+    which you know you will forget in a month but you remember today Um there's and
+    then there's shorter time scales which we tend to call visual memory or sensory
+    memory which is kind of the like if I if I throw the ball and look at it I can
+    catch it and sort of operate on that time scale of like the kind the the level
+    of of information of of precision that is necessary to guide really fine grain
+    motor tasks tends to live for about a second and a half or 2 seconds in your brain
+    So there's this point I'm trying to make here is just that there is that kind
+    of temporal offset between the perceptual system and the motor system Um not always
+    though Sometimes you are guiding things in more directly like if you're threading
+    a needle that's a that's a feedback system So you're not you don't like you're
+    like you're staring at the thing the whole time So you're getting information
+    in sort of a real-time feedback loop But anyways this is where things get
+- dur: 180.0
+  end: 2880.0
+  start: 2700.0
+  text: complicated This is where you could spend several lifetimes studying the details
+    but uh my goal is just to let you see how weird it is and then we can deal with
+    it later Okay So juggle juggle juggle That's too long Too long That's enough Okay
+    Uh 4384 Okay Yeah So here's me reading and So 4873 So this is it's a Wikipedia
+    article about vestibular ocular reflex and I am reading it dutifully It's not
+    tracking super great but you can see that reading reading involves little sakads
+    across the line But I think I was getting flustered at this point so I don't think
+    I was actually reading very well So I'm looking at the data it looks like I'm
+    just going across the top row and it's possible that I was but also like sometimes
+    the the the the vertical position of the eye tracker is dependent on depth Um
+    which I'm not going to focus on that but yeah You can actually see me failing
+    to read this as I start skipping around and going back to other parts But if I
+    was reading this very carefully we tend to make little sacads So like from here
+    to here to here back to here So because I I don't have to read word by word If
+    you like if it was a language that I didn't speak very well if it was you know
+    some if I was just learning how to read um I probably would be looking at each
+    individual word one at a time But because I speak English and I can sort of scan
+    pretty well I can make bigger jumps and sort of chunk the the world out differently
+    This is another thing that you tend to see um when you
+- dur: 180.0
+  end: 3060.0
+  start: 2880.0
+  text: start talking about uh like expertise development which is a really common
+    thing to look at with eyetracking Um as you get better and better at a given task
+    your ability to chunk it out gets better So when you're first starting to read
+    you're thinking about it on the letter by letter level When you start getting
+    better you start thinking about it word by word And until eventually you start
+    thinking about reading in terms of like you know it's not like not necessarily
+    sentence by sentence maybe phrase by phrase you start learn you you gain the ability
+    to scan and skim in a way that you couldn't if you were a beginner Um yeah expertise
+    development it's a whole thing Um 5356 Yeah And so you see me as I'm looking around
+    the room Um this is another place where the uh have time for this thing It's actually
+    not necessary Basically this is my eye This is the camera of the world And so
+    and then let's say this is the the the depth that I calibrated at The way that
+    the calibration works is my eye is looking at this point and we calibrate it so
+    that the camera is also displaying the dot at that location But the reason why
+    but but because the camera is not actually on my eyeballs axis it's offset by
+    a little bit Um there is a vertical offset there So if this is the distance that
+    I calibrated at um if I'm going to look at something in front of that the image
+    is the estimate is going to be above the location that I thought it would be Whereas
+    if it's something farther than that it's going to be below So when I'm if I calibrated
+    at arms length and then I look out into the world the estimates are going to be
+    off a little bit downward I think or the opposite I might have gotten that should
+    be right Um the people that have cameras do try to do a little bit of correction
+    for what's called virgin So when if I'm looking at something it's easier to notice
+    if I'm looking at directly in front of me if both my eyes are looking at my finger
+    they're crossed inwards in order to like keep the image sort of sort of aligned
+    Um and that's that remains true even sort of out to a certain depth Um but at
+    farther distances the angle that I'm tilting in is tiny tiny tiny Um so the this
+    eye tracker does attempt to look at the virgin signal between the two eyes in
+    order to estimate the depth that I'm looking at and then correct for this type
+    of a thing Um but I never know how much to trust that correction
+- dur: 180.0
+  end: 3240.0
+  start: 3060.0
+  text: So I can tell you yeah actually you can see it like I am looking at your faces
+    Um but it's showing me looking at like desk level Um because of the just the distances
+    there and and okay I think that's everything I did that's worth noting So now
+    I'm going to look at the actual data trace And but before I do that I'm going
+    to finish grabbing these frames So V from 346 So I'm measuring just the frame
+    numbers that the behaviors are happening So that way later when we're looking
+    at the actual data Oh wait Is that going to work though it'll be proportional
+    Uh 693 cuz I realize I'm pulling the frames from the world camera but I think
+    the plots I'm going to show you are in eye tracker time stamp coordinates Um okay
+    Then I do the finger thing I think D Okay So so from 11:41 to 1,200 I was doing
+    the horizontal sacads and then I do 144 So let's say let's say 12 50 to 1400 I'm
+    doing vertical Okay I think that's enough to work with Um yeah So now let's look
+    at the actual data like the So everything we've talked about up until now well
+    so the raw videos are raw data Um and this video is is not this is not really
+    data in the sense of what I usually mean as a scientist when I talk about data
+    This is
+- dur: 180.0
+  end: 3420.0
+  start: 3240.0
+  text: a visualization of data Um it's but it's not really it's not set up to do
+    like proper science about like you can't really do statistics on this kind of
+    thing So I'm going around saying "Oh yeah look I'm looking here I'm looking there."
+    And I say "Oh you can see me make a sakad I'm moving my ass from there to there
+    but I'm kind of just I guess for lack of a better term eyeballing what's happening
+    on the screen Um I don't have the precision to actually do analyses here And I
+    I don't have the kind of numbers I would need to be able to um say things about
+    pull this down like the eye movements Um in order to do that I would have to look
+    into the actual data traces and sort of look look at the things that are sort
+    of more better suited to actually extract things like statistics and velocities
+    and positions in a more precise way Um and in this case uh let's see that's going
+    to look like Looking at copy this path So this thing which I did show last time
+    um I'll show it again Yes Uh so these are this is some like this folder of exports
+    is the derived data of the of the recording which we derived computed whatever
+    you want to say Um and so this is the when we got the raw data of the eye videos
+    and we did the analyses to track the pupil and all that good stuff Um we basically
+    we can get those numbers for each recorded frame and then we write them down according
+    to where we got them So um this is the data from the eye cameras and you see here
+    this world index that's the frame of the world camera that we were looking at
+    So earlier when we're looking through the videos and there's all like the you
+    know a bunch of red crosshairs on on a single frame of the video that happens
+    because there is you know 1 2 3 4 5 6 7 eight um samples pulled from the eye videos
+    for each frame of the world video Um and as we talked about last time these numbers
+    basically each row is one observation of the eye uh I the ID is either zero or
+    one for the right or left eye and then you have
+- dur: 180.0
+  end: 3600.0
+  start: 3420.0
+  text: the confidence value and the position on the screen and stuff like that So
+    uh the video that I was showing is a is a data visualization It's not set up to
+    do like proper science about um but it is a representation of this data that is
+    sort of better suited for our human brains right like you can look at this all
+    day and not see me make a s aad because these numbers are there's too many of
+    them and they're too precise or they're just too you know there's too many of
+    them but you put it as a red crosshairs on top of a video and all of a sudden
+    it makes sense to us Um so yeah there's just always a sort of complex relationship
+    between the intuitive interpretability of data and like the hard level sort of
+    precision of it Um and typically you want to have a little bit of both So with
+    any luck I should be able to process this I realize I really should have done
+    this I did do that Is that okay i did do that And okay so this is a little piece
+    of code that I wrote up to help me basically clean up this data because this this
+    data output has a lot of stuff in it like the eye the different eyeballs are interled
+    with each other there's a bunch of information about the the 2D estimates versus
+    the 3D estimates and things like that Um and so what I really want to see is just
+    a singular trace that says this is what your let's say right eye was doing at
+    each sort of recorded frame of the of the video And the reason why I want to see
+    that is because there are certain shapes that I expect to see um when I look at
+    those data So time wise doing all right So so if this is my so if this is a plot
+    that that I a plot that I've already generated but let's do some sort of predictions
+    here Um and then this horizontal axis is time which can be measured in frames
+    it can be measured in seconds it could be measured whatever you want And then
+    let's say that this vertical axis is the horizontal position So I'm looking from
+    a top down If I if I'm looking here versus looking there you know that's going
+    to if I'm if I'm
+- dur: 180.0
+  end: 3780.0
+  start: 3600.0
+  text: looking all the way to the left let's say that's going to be over here Looking
+    all the way to the right let's say that's going to be over here Then when I'm
+    looking when I'm doing those sacads in this sort of phase of the of the recording
+    where I'm sort of bouncing back and forth to the from the different points on
+    my finger you know that's going to look like I'm bouncing here and then I shoot
+    over here hang out there for a while Let's shoot over here Hang out there for
+    a while Shoot out here Hang out there for a while And so you're going to get these
+    like step functions here And the fact that this slope is so steep is a testament
+    to how fast your eyes move If my eyes move slower so for example in the the the
+    calibration part where I'm sort of smoothing my head I we're doing horizontal
+    So I'm moving my head back and forth like this It's not going to look like these
+    big square wave step functions it's going to look more like a smooth transition
+    because that's what my eyes are are doing And so you can kind of tell uh which
+    system which of which part of my ocular motor system is driving the eye movement
+    by the shape that gets traced out when we look at the data on the plot That make
+    rough sense And then you know similar stories for the horizontal There is actually
+    this this this gets to a level of the ocular motor system that I personally am
+    not aware of I don't know I can't tell you the details here but I do know that
+    um we apparently handle horizontal eye movements in a different part of our brain
+    than we handle vertical eye movements which kind of weirds me out Um and if I
+    wanted to tell stories about that I could say that you know horizontal ab movements
+    have a lot of like you're like generally searching around for stuff versus vertical
+    ab movements is kind of like you're walking You're kind of looking ahead So when
+    you're walking on the ground you know most of the eye movements are are upwards
+    like you sacat you track the point down you sacata head you track the point down
+    Um but anyways just say that Um yeah so without any further ado let's look at
+    these data so we can leave enough time to talk about neurons Um so this CSV is
+    the filtered data So I have is that the right one what's data yeah So I I just
+    went through and what the code was doing was pulling stuff out of the previous
+    bigger recording folder And so now there's only I0 which is my right eye Um and
+    not that just Oh that might be part of the problem Can I do that really quick
+    can I do that in a hurry filter DF Oh okay
+- dur: 180.0
+  end: 3960.0
+  start: 3780.0
+  text: Okay I might be making a terrible mistake here but that's okay Let's just
+    go ahead and do it So I just realized by looking at it that I I hadn't I was going
+    to say that I filtered out the I and I also filtered out the method and I was
+    like "Oh wait no I didn't because it's still in there." And then I realized that
+    I had done that in two steps and hadn't cleaned up the step properly So the data
+    might actually be cleaner than I originally thought it was if and only if this
+    actually runs in this moment which we'll find out in a second if it does Huh Huh
+    Unbelievable That never happens Um so yeah So there you go So there's the data
+    Any questions probably Yeah Just disappointing right too much like what's going
+    on here i promise you these nice pretty square functions and square waves and
+    and swoopy things and instead I get all this like junk Um why is it so noisy when
+    it could have been cleaner right what is what is the horizontal axis time And
+    so how long does it take to make a sakat so if I'm talking about you know let's
+    say let's say we're we're looking at the part of the of the video where I'm doing
+    big horizontal sats And so it's supposed to look like this right how how how big
+    of a duration should this be like a minute is that an hour like a day am I going
+    hotter or colder short Yeah like it's like less than a second And so if you look
+    at these this is frame number I really should have converted it to seconds but
+    it's frame number And you maybe can't see it but this is 25K So this is 25,000
+    frames on this horizontal axis So the reason why it looks so noisy is because
+    it's zoomed way way out And so this is the trace for the entire recording as opposed
+    to from this particular point where I'm doing that Luckily for me I I know where
+    that was happening So I can zoom in Um and thankfully I am using a method that
+    does that
+- dur: 180.0
+  end: 4140.0
+  start: 3960.0
+  text: So so I'm plotting theta and fi Um some people say f I say fi Uh I think theta
+    is horizontal and fi is vertical Pretty sure that's the case but if I'm not it's
+    the it's it's either that or the other way around Um so let's I don't know if
+    these are locked either So let's zoom in that spot right there I don't know why
+    it's so slow Yeah So there you go So now you can see the numbers are a little
+    more tractable We're now we now got from 1,600 to 3,200 So if you want to divide
+    that by 120 frames per second you can sort of figure out that time interval Um
+    and you see the the noise Um but you also see this shape Um and so this shape
+    happens So in the V this is the problem with Oh I got these numbers because this
+    is where like these numbers you have to like multiply them by four I guess So
+    four would be down to like 1,200 um to 700 would be four,200 So yeah you know
+    so this is the part of doing this is the the horizontal This is the the vertical
+    VR Um this is another one of those cases like because I know how eyes move I know
+    that this is junk in noise And I know that if I had a perfect eye tracker that
+    was tracking perfectly with no with no error in noise it would give me a signal
+    that looks something like this Um but this is giving me noise on top of that Um
+    and so basically because of my knowledge of how the system works I can with my
+    it's hard because we have so many visual analogies I can eyeball the data and
+    know okay I need to clean out this noise here However what I cannot do is I I'm
+    I'm not quite able to make that same kind of claim about this little chunk of
+    data Why are you so slow um so this is now a much smaller interval So we got 820
+    to 1920 So this this is about 1 second of data and you can see here here and then
+    we bounce down here for a while It's noisy in that phase then it bounces back
+    up and you have a similar thing happening on the on the horizontal Um this is
+    tiny uh and it's got these noise in it So I actually can't tell you if this is
+    real data or noise um by looking at it If I go back to the video and I do that
+    sort of frame thing I can look and like with my human eyes I can
+- dur: 180.0
+  end: 4320.0
+  start: 4140.0
+  text: look at the video of the eyes and sort of try to determine if it's moving
+    But even then like I don't know if this is within my my range of of my ability
+    to tell the difference And this kind of like bouncy around noise like this could
+    very easily be tracker error and not an actual eye movement So this is a very
+    common thing that happens where like for a certain level of precision the the
+    data that you get is enough to make certain claims But at a but as you sort of
+    zoom in and it zoom in more and more you start to get to a point where the the
+    the like I know that we do make tiny tiny sakads Like we make teensy teensy tiny
+    sakads Next time you have the misfortune of having like a coin in your life just
+    look at the coin and then notice that you can look at different parts of the coin
+    So like if you're looking at Abraham Lincoln you can choose to look at his his
+    eye or his ear or his nose And I will have to promise you that if you were in
+    a sufficiently advanced eye tracker your eye does move down to the level of like
+    arc seconds arc minutes maybe arc minutes a an arc minute is 60 chunks of a degree
+    and arc second is things out there and I think that they we've we measure like
+    micro sacads happen at the scale of like a dozen arc minutes um and I think even
+    below so my visual system does produce sakads that are on this scale but I can't
+    tell from this data set if this is a real one of those or if this is just tracker
+    noise um and this is again something that has to sort come out of a knowledge
+    of the system that you're measuring and the precision of the data that you get
+    out of the technology that you have available to you given your budget and year
+    of living You know in 20 or 30 years I could tell you with very high confidence
+    whether or not this was like with you know the eye trackers of the future I could
+    tell you with high confidence but with the eye trackctor that I had with the calibration
+    that I had this is sort of within at at what we might call the noise floor of
+    the recording Okay we are running out of time as is tradition Um but yeah and
+    so these right here these are the quite noisy unfortunately but
+- dur: 180.0
+  end: 4500.0
+  start: 4320.0
+  text: Yeah there we go So these are again it's very noisy and I apologize for that
+    Um but this is also I think a a this is a decent representation of of what an
+    eye trackctor looks like of what a sacad looks like with this type of an eye tracker
+    So this is the rough position of my eye I make this big sacad and then this little
+    slope right here means that I probably made a sakad and then like move my head
+    to catch up with it And that's kind of a thing like we tend not to hold our heads
+    fixed We tend to move our heads and if we move our heads our eyes counter rotate
+    That's the vestibular ocular reflex So this type of thing where you see like a
+    sacad and then kind of like a relaxation is very common where I kind of like it's
+    like move my eyes and then kind of move my head to fit and then move my eyes and
+    move my head to fit Like that's what you're kind of seeing here Then I keep that
+    fixation then I bounce down here This is another sort of case where like I have
+    no idea if this is real eye movements or if this is tracker noise It's just that
+    that's below the scale that we can make that estimate But I can say that I'm looking
+    This is where my eye was in the head like this I trust this I don't know And and
+    then back and forth and back and forth blah blah blah Um and again you can kind
+    of see So with eye movements you have these like sacads that look like square
+    waves and you have these like slow swoopy movements that that that are caused
+    by the vestibular ocular reflex And in in the case where we're doing these like
+    prescribed motions and trying to keep my head fixed um you see some sort of super
+    supervenience of where like the the two the two types of movements are kind of
+    like on top of each other So even though I am maintaining fixation here I'm moving
+    my head So the actual trace that you see is sort of like a combination of these
+    two things sort of added together Sorry I'm kind of a my mustache is tickling
+    my nose Sorry Um and try to find some other stuff again Noisy noisy Um yeah this
+    right here Where'd it go this right
+- dur: 180.0
+  end: 4680.0
+  start: 4500.0
+  text: here this gut-wise feels like a real eye movement to me Like this is probably
+    around the smallest sakad I would expect I I I would reliably believe the system
+    could measure And mostly it's because the data are kind of all in the same place
+    So looking at the difference here like even though it is small it's consistent
+    and compare that to come on Why are you so slow there's really no excuse for this
+    to be running this slowly Like there's something weird going on Um but yeah so
+    compare that this little jump right here to like this little spiky stuff right
+    here where the data that's coming out of the eye tracker is jumping around from
+    frame to frame Um so each one of these data points represents 8 milliseconds So
+    if this was a real eye movement then my eye would have to be moving at that speed
+    of like jumping from one place to another um within the space of 8 milliseconds
+    which again eyeballs just don't do that Uh yeah we're down here is back to the
+    space where I was like I don't really know about this because also yeah you start
+    getting like time scales and sort of a lot of complicated stuff Okay Um so where
+    I want to get to now okay I once again um probably not we're not going to get
+    to talk about neurons because I someday in my life will learn the lesson that
+    if my lesson plan involves the word and it will not happen Um but not today apparently
+    Um cuz I want to find I got to fix this Why is it so goddamn slow try to find
+    some of the juggling stuff in the middle Yeah there you go Oh actually you know
+    what just realized because the the data in the eye is shaded on the on the outer
+    sides of it I'll bet the horizontal eye movements are noisier than the vertical
+    because the the the the the gradient in in luminance that I think is the cause
+    of a
+- dur: 180.0
+  end: 4860.0
+  start: 4680.0
+  text: lot of this error is a horizontal gradient not a vertical gradient So the
+    I should probably be looking at these um vertical movements in the blue Um but
+    anyway there we go So this this despite the noise and the jitter and the and the
+    and the goop this is what eyes tend to look like during natural behavior And this
+    honestly even with the noise because this noise is cleanable Like if I was to
+    if I was to spend a little more time with this data I could probably get a lot
+    of this noise out of there and sort of get a cleaner signal out Um but you can
+    this is where you can start to see these kind of shapes on top of each other This
+    might be a blink or it might be a sacad Hard to say but you can see how there's
+    kind of this these shapes And then this this is the horizontal because I'm moving
+    my head more So you can see like these swoops are more sort of noticeable in that
+    direction And so like big sacad up here head rotation down there sacad So you
+    can see like there are these cacods like I I am moving my head quickly there but
+    then this sloop swoop downwards that's from my head rotating the other direction
+    Um yeah and then these are sort of the corresponding vertical high eye movements
+    and these will pro these will tend to overlap each other uh probably mostly although
+    not necessarily because like I said sometimes like like we're generally not great
+    at making diagonal sakats like we often will make like left like horizontal then
+    vertical sort of vice versa like that Um but yeah is there anything else I want
+    to look at oh it could be Yeah So so yeah So despite the noise in the data uh
+    you can still kind of see some ghosts in the fog here and you can see like some
+    of the trace of the nervous system that in of interest um generating behaviors
+    that were measurable uh which is which is a lot like I want to point out like
+    even though it it's it's something that bears repeating and bears belaboring that
+    we are now We I took some cameras
+- dur: 180.0
+  end: 5040.0
+  start: 4860.0
+  text: on a 3D printed glasses frame pointed them at my eyes pushed record ran some
+    computer vision algorithms on it and now we're looking at this data which noisy
+    though it may be it's valid It's val we could work with this if if this was the
+    best we could do we could we could work with this and we could generate the kind
+    of data that you would need to do to get like a publication and sort of like you
+    know contribute to human knowledge And we're seeing shapes and patterns that correspond
+    to to neural activity in very specific parts of your nervous system or of my nervous
+    system I suppose Um and that's there just something I think kind of mind-blowing
+    like baffling about it like like how like just the idea that you can like you
+    know if I wanted to say that the the people who have the most claim on neuroscience
+    are the ones who are cracking open the skull and sort of putting electrodes into
+    cortex um you know that's a pretty bold move on its Um but it's sort of it's not
+    surprising that you can do that and sort of say things about what's happening
+    in the brain because it's a very very direct measurement This is not a direct
+    measurement This is a direct measurement of the position of my eyes But the ability
+    to interpret it in the context of eye movements requires a lot of a lot of assumptions
+    and a lot of knowledge Like I was trained in eye movement studies by people who
+    have been who are working who've been working on this for their whole lives and
+    who were trained by people who have been working on it for their whole lives And
+    it sort of travels back through time and sort of like the ability to interpret
+    these kind of noisy signals is not um I don't know not to be taken for granted
+    Um and it also is like a conven it's I don't want to say convenient but the fact
+    that we can measure eye movements with a camera um didn't have to be the case
+    like it didn't like there it's it's sort of I don't know you might call like convergent
+    technological evolution there where like the fact that we have this very particular
+    way that we move our eyes um you know humans in particular but primates and like
+    humans primates mammals animals anything with vision um like the realities and
+    sort of the the specifics about that uh sort of visual system happens to have
+    this effect that you can use a camera to measure the output and sort of the output
+    of of whatever part of the nervous system handles eye movements Um and so because
+    we are clever clever humans we built tools that take advantage of that in order
+    to give
+- dur: 180.0
+  end: 5220.0
+  start: 5040.0
+  text: us a window into the nervous system that we wouldn't have otherwise if we
+    had a different kind of visual system Like if we were birds and birds birds don't
+    really move their eyes and their heads very much They do a little bit Um but they
+    tend but their eyes tend to be an appreciable percentage of the mass of their
+    heads as a whole So they tend to move their vision around using their neck Like
+    that's that's like the the the chicken sort of stabilization thing If we had a
+    visual system like that then the visual neuroscience of the chicken world would
+    probably have a much much more precise way of measuring head position because
+    that would have been the place that the that that the insight comes from Um so
+    yeah it's a very just I spend a lot of time kind of thinking about the fact that
+    I've like built something of a career on the strange convenience of having the
+    type of nervous system that produces a movement that like a readout that can be
+    measured with a camera and some you know 80s 1980s era computer vision That's
+    probably unfair but you know relatively basic computer vision algorithms can track
+    the eyes and give you a readout of the cognitive system and allows me to sort
+    of have something like throwing a ball back and forth And I can get data that
+    tells me not only sort of where my my body is moving but also the information
+    not not only where my body is moving not only where the information that was available
+    to me visually but the location that my nervous system wanted to get the information
+    from Like when I when I make an eye movement there's a decision that was made
+    I didn't like the the the person the the level of my consciousness that's sitting
+    here saying English words and thinking like that I didn't make that decision like
+    that ver that level of my consciousness did not make the decision to move my eyes
+    from here to there but nonetheless a decision was made and that decision was based
+    off of whatever 40 years of experience of living in a world constrained by physics
+    and you know however many years of experience throwing and catching balls had
+    was somehow baked into the nervous system enough that my at at this point in time
+    my ocular motor visual system said the best place for you to move your eyes in
+    order to get the information you need to to complete the task is here And that
+    decision happened hundreds of times in the several sec several minutes of recording
+    And it happens continuously you know 100,000 200,000 times a day for us We
+- dur: 180.0
+  end: 5400.0
+  start: 5220.0
+  text: make these eye movements that sort of are based off of these like little invisible
+    decisions inside of our nervous system So I think that's where we're going to
+    probably leave that for now Um but you know we'll talk when we get to this part
+    where we're talking about my particular research I'll show you some of the things
+    that I've done using data like this to try to gain actual insight Um in this particular
+    case the first thing I would do is record it again and try to get cleaner data
+    Um but this is despite the the jaggediness here this is the kind of data that
+    I've used to get uh like sort of real data and produced what could optimistically
+    be called new knowledge um which I then took and threw on the giant pile of human
+    knowledge and then you know went back and started doing it again So uh yeah I
+    think we'll call that there Um so yeah so I'll see you all next week Um try to
+    get your poster done by Monday Um I also wanted to say uh I I'm apparently the
+    schedule's out and I am teaching a class next semester uh which I will be teaching
+    Um the class it's it's like a once a week uh elective class and the topic will
+    be pretty much the same as this Like I only really teach one class and it's this
+    one over and over and over again Um so if you are interested in this stuff I I
+    do encourage you to take it There will be a lot of things that look familiar Um
+    but it will kind of be at a higher sort of level and less of a focus on this um
+    like the poster project itself and more of a focus on like actually like gathering
+    data and like trying to do something more resembling like an empirical research
+    study with this I think I'll probably get you all set up like doing Skellybots
+    like building your own Skellyybot thing on like the first day and kind of like
+    have more of like a a back and forth between like kind of lectury stuff and sort
+    of more like nitty-gritty hands-on like like looking at like recording data and
+    looking at it trying to generate insights from that So if that is interested you
+    interesting to you um go ahead and sign up Um I don't know if it'll fill up but
+    I think I might ask them to increase the class size or just whatever because you
+    know I think a way that I teach these classes like the size of the group doesn't
+    really constrain very much because it's like either lecture or like small group
+    kind of going around So um yeah and you know it's like a lot of the way we teach
+    classes is kind of like this very step-wise thing of like you do this and then
+    you're ready for the next level then you're ready for the next level And I think
+    that's a little it's a little bonkers and I really kind of like
+- dur: 180.0
+  end: 5580.0
+  start: 5400.0
+  text: just like you know if I if I gave you like the exact same lecture again uh
+    you would get different things out of it Um so I think repetition is a very useful
+    thing So uh that's a little pitch I don't know why I don't really need to pitch
+    You can take your own classes but um just to answer the question of like because
+    the topic is so similar should you take it again and that's kind of it's obviously
+    up to you But like the topic I feel like these topics and the way that I teach
+    are beneficial from like I learn new things every time I give the lecture and
+    I'm sure you would too and you would have more of an opportunity to kind of like
+    dig into data and try to like think about building uh actual actual empirical
+    studies using this type of stuff Small scale obviously because it's like a once
+    a week class but we'll do what we can Uh all right And I didn't talk about neurons
+    I'll I'll I'll put that in at some point
+video_id: 78AuS-GGikw

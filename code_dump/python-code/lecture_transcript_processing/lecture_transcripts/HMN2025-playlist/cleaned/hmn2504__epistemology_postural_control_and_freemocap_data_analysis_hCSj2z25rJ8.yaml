@@ -1,0 +1,1661 @@
+full_transcript: "Let's try that again. Okay, hello everybody and welcome to this,\
+  \ I guess, February. We made it to February, which is great\u2014an additional month.\
+  \ Last time we recorded a bunch of data, and today we're going to look at it at\
+  \ various stages of development. This is kind of the output of one of the recordings\
+  \ that we can talk about. The kind of semantic level refers to meaning, while the\
+  \ syntactic level refers to structure.\n\nBefore we do that, just a standard weekly\
+  \ update on the status of my main project for the semester, which is making sense\
+  \ of all the good data you've been pumping into the machine. Just again, it's a\
+  \ standard scrape of the server, recalculating stuff, and shoving it into a zip\
+  \ file you can open in Obsidian. This one is slightly different. Speaking of what\
+  \ I just discussed syntactically, these two outputs are exactly the same; they have\
+  \ all the same folders and probably all the same file names. However, semantically,\
+  \ meaning-wise, in the most recent one, the user profile part that looks at what\
+  \ you've been talking about and guesses your interests only considers your chats\
+  \ in the assignments category\u2014so the stuff you've been doing in class\u2014\
+  and any of the bot playground stuff is not included in that calculation.\n\nI didn't\
+  \ really check it too closely for how that changed things, but if you don't mind,\
+  \ pop it open, take a look at yours, and hypothetically, it should be a better match\
+  \ to your interests. Also, you can check and see if you have two chats in both places\
+  \ and it's only showing one. If so, let me know from a bug report perspective, but\
+  \ don't stress too much about it. We're not going to look at that right now\u2014\
+  maybe sometime soon.\n\nI have also been informed that I am required to give you\
+  \ an exam. So, we're going to do another chat thing if that one's going to be an\
+  \ exam, and you'll receive a grade on whether or not you did it. However, I think\
+  \ it will be a little more structured. I'll put in a little more effort into the\
+  \ prompt; it will ask you questions about your chosen topic and relate it to the\
+  \ empirical stuff we've been doing before, such as: for your topic, what are the\
+  \ units that are involved? What are the methodological approaches? What do their\
+  \ measurements look like? What do their studies look like? I'll be asking you about\
+  \ the units that are relevant to that domain. The bot will interview you about your\
+  \ chosen topic, which is relevant to the conversation we've been discussing before.\
+  \ You have seen how this thing operates; it is not going to withhold information.\
+  \ It will be asking you questions, but it will also be there to help. If you don't\
+  \ know something, just ask it, and do yourself a favor\u2014look it up. On Wednesday,\
+  \ I have in mind another kind of group class activity that will be based on forming\
+  \ small groups and taking turns trying to find an additional paper relevant to your\
+  \ chosen topic. The goal is to intentionally choose papers that are very dissimilar\
+  \ from the ones you chose initially, yet still within the same domain, in order\
+  \ to flesh out the material. After that session, I will do the pseudo exam Chat\
+  \ thing the following week. If anybody asks, just say it's an exam, and you're very\
+  \ stressed out, feeling pressured to perform and out-compete your peers. Make sure\
+  \ to tell them you're being rank-ordered by human quality, which is rather disgusting.\
+  \ Anyway, does that sound good? Any emotional outbursts, thoughts, feelings? Great!\
+  \ Last time we recorded, let's make our way towards the review. A while ago, we\
+  \ talked about units and space, and also about Euclidean geometry, three-dimensional\
+  \ stuff, and SI units in terms of mass, kilograms, and seconds. I often notice that\
+  \ kilograms are the SI unit instead of grams or that kilograms are a thousand grams.\
+  \ I think there's some history behind choosing a base unit for grams, and they later\
+  \ decided that was too small, so they made kilograms because it\u2019s more viable.\
+  \ Anyway, that's not particularly relevant to our present conversation. We talked\
+  \ about mass, kilograms, and seconds, along with derived units like Newtons, which\
+  \ are defined as kilograms times meters per second squared, and we discussed other\
+  \ derived units like speed and milligrams per second. Then we talked about Joules,\
+  \ which are defined as kilogram meters squared per second squared. We covered all\
+  \ of that, as well as pendulums swinging back and forth, and inverted pendulums,\
+  \ which can be balanced above the ground through a minimally hinged joint. \n\n\
+  While we're here, this is a nice model of a person, where these two components represent\
+  \ muscles in the ankle joint. So, this is you trying to stand up\u2014look at you\
+  \ go! You're doing great! \n\nWe laid all of this out to set the landscape for the\
+  \ general study of human movement at a holistic human scale approach, rather than\
+  \ zooming in on cells or individual muscles. This is a much more zoomed-out examination\
+  \ of the physical system to the level of fidelity that we can record and reconstruct\
+  \ it.  \n\nThis software that I'm using is called Blender. It is an animation software\
+  \ that is free and open-source; you can download it. I will endeavor to have the\
+  \ data that we recorded available in a format that is easy for you to download and\
+  \ explore by Wednesday. It's not available just yet, but I will try to get that\
+  \ up by Wednesday so that you can click around and explore. Depending on your interests,\
+  \ I think we will focus on the paper assignment this Wednesday, and later on, we\
+  \ might have some more individualized work where you can decide if you want to dig\
+  \ deeper into this aspect. \n\nIn service of understanding and studying human movement\
+  \ in the natural world, we are presenting this rough couple of square meters of\
+  \ space as the natural world. This is my ecological niche, the space of the environment\
+  \ where this particular organism operates, so it is valid. I have spent a lot of\
+  \ time in front of cameras, so... You know, there is not too much artifice here.\
+  \ We recorded five separate recordings. The first one is calibration; that was the\
+  \ part where I set up the cameras and showed that grid-like shape, which is an object\
+  \ of known shape and size that is very easy to track. I used this to characterize\
+  \ the positions of the cameras and localize them in space, which is necessary. Calibration\
+  \ generally involves setting up your equipment, then measuring something that you\
+  \ already know the answer to. The principle is that if I use the tool to measure\
+  \ something I already know and it gives me the correct answer, that indicates the\
+  \ tool is measuring the world in a meaningful way. From there, I can move on to\
+  \ measuring things in the world where I don\u2019t know the answer; in this case,\
+  \ it involves observing movement in space. We started with two matched experiments.\
+  \ The first recording involved standing balance as a control condition, split into\
+  \ three phases: standing on two feet, standing on one foot (left), and then standing\
+  \ on the other foot (right). This experimental condition isn't particularly exciting;\
+  \ it's a classic case where I chose an experiment for which I was fairly sure of\
+  \ the outcome. I'm trying to make a point regarding my theoretical description of\
+  \ the objectives of my research study. In this case, it's about expounding on the\
+  \ neural control of human balance. I called this condition standing with support,\
+  \ and it includes matched parameters where I perform all the same actions in the\
+  \ manipulated condition. I seem to forget the control conditions... The one where\
+  \ you didn't change anything\u2014 I forget the name of the one where you change\
+  \ something. But in this one, I am doing the same behaviors, except now I'm using\
+  \ that stick as a point of support. With this sort of difference in the behaviors\
+  \ and the measurement fidelity that I expect to achieve, along with the theoretical\
+  \ framework of this strange idea that we can boil down a human into a singular point\
+  \ mass, there might be insights about the behavior in question. These elements come\
+  \ together, allowing us to make predictions about the future, and then we can use\
+  \ the data that we have to check those predictions. I'm not going to spoil the game\
+  \ just yet, but I'll bet you can make some guesses about how these conditions will\
+  \ vary. Oh, and importantly, for the two-feet standing condition, I didn't just\
+  \ stand here straight; I was leaning as far as I could in all directions, based\
+  \ on my internal sense of how far I could lean without needing to take a step to\
+  \ stay upright. Then there are these two other conditions: one which I call \"three\
+  \ big jumps.\" Putting \"three\" in the title is just a hint for me because, eventually,\
+  \ you want to chop this up into smaller pieces. So telling myself that there are\
+  \ three here helps me know how many to look for. The second one is repeated jumps\u2014\
+  \ for some amount of time. I don't know. I also want to clarify that saying this\
+  \ is three big jumps is not to suggest that this is a good way to name your trials\
+  \ and record data. This is actually not a good way; you should avoid embedding that\
+  \ kind of stuff into the title. However, this is kind of easy\u2014 I'm allowing\
+  \ it for myself, and you can do it too. You'll discover through practice why it's\
+  \ not a good idea, and I'll leave that as an exercise for your future. Great, do\
+  \ we feel caught up? Do we feel aware of the situation? I'll leave that there. Today,\
+  \ I think I'm going to focus on the two standing conditions. We'll see how far we\
+  \ get with that. We talked about the jumping data from last time. At least the big\
+  \ jump data, but we'll get back to it. Actually, there's one more distinction I\
+  \ want to highlight here. This is less about the data we recorded and more about\
+  \ a difference between these behaviors. Specifically, the balance and posture behavior\
+  \ versus the jumping behavior. It gets interesting with the big jumps versus the\
+  \ repeated jumps. With the standing posture, it's a continuous control problem.\
+  \ I'm standing here, my feet are on the ground, and my base of support is a certain\
+  \ space. I'm continuously trying to keep my center of mass within that base of support\
+  \ by using whatever I'm doing with my leg muscles and my equilibrium sense. It's\
+  \ a continuous overtime behavior. This is different from something like a jump,\
+  \ which is a more discreet, momentary behavior. There's a period of time before\
+  \ the jump, then the jump itself, and a period of time after. So this involves the\
+  \ wind-up, the jump itself, and the landing. Unlike the continuous control, this\
+  \ is a discreet behavior that you're doing once; in this case, it's jumping off\
+  \ the ground. There\u2019s all the physics involved, like the moment of liftoff\
+  \ and the moment of contact. You could compare that to throwing something in the\
+  \ air, either throwing it and then catching it or simply throwing it at a target.\
+  \ This is more of a discreet, singular targeted behavior. If I'm trying to hit a\
+  \ target, I aim, set up, wind up, throw, and at some point, the object leaves my\
+  \ hand and is out of my control. This contrasts with something more like pin the\
+  \ tail on the donkey, where I might be trying to steer it in and I'm controlling\
+  \ it the entire time. There are a lot of deeper layers here; it's a very intuitive\
+  \ distinction, but there are many differences once you start thinking about this\
+  \ in terms of robotics and control systems. Continuous control starts getting into\
+  \ feedback control, while the more discreet control relates to feed-forward control\
+  \ and model-based predictions. None of which we're really going to talk much about,\
+  \ but just so you know, those are the deeper layers in this discussion. There is\
+  \ a distinction between three big jumps, where I sort of wind up putting everything\
+  \ I can into the ground, landing, resetting, and then doing it again, versus a repeated\
+  \ jump scenario, where it is more of a continuous process. In the latter, the force\
+  \ of compression from the landing of the previous jump becomes the force that carries\
+  \ me into the next one. So there isn't that period of reset and reestablishment.\
+  \ With the three big jumps, you can look at each of them individually, aside from\
+  \ factors like fatigue. However, with repeated jumps, they carry into each other\
+  \ so well that you cannot consider one without considering the jump that came before\
+  \ it. This is more similar to walking, running, or juggling, or some kind of continuous\
+  \ behavior. Running, in particular, shows this case, where you are coming off the\
+  \ ground at discrete intervals, and the force from landing one step compresses the\
+  \ spring of your body, which contributes part of the energy that propels you into\
+  \ the next step.\n\nThere are many deep layers involved, particularly concerning\
+  \ the motor neural control of movement. There are distinctions about where different\
+  \ types of control may reside in your cortex, subcortex, or spinal region. The compression\
+  \ from one jump leading into the next, and the forces from one step setting you\
+  \ up for the step that comes after it, gets very close to the physics. The closer\
+  \ you are to the physics, the lower in the motor hierarchy you tend to operate.\
+  \ A lot of aspects of locomotion are thought to have their control at the spinal\
+  \ level, specifically in spinal central pattern generators. These are believed to\
+  \ initiate the process, and once it starts, it gets shunted down to the lower layers\
+  \ of your nervous system.\n\nFor example, as far as I understand, and I haven\u2019\
+  t checked in a while, this was one of my pet questions as a graduate student: How\
+  \ much of locomotion is controlled by the motor cortex versus controlled by the\
+  \ lower levels of the nervous system? The last time I explored this, I found that\
+  \ when you initiate gait\u2014when you start walking\u2014there is a lot of activity\
+  \ in the motor cortex. However, during continuous locomotion, like walking from\
+  \ one part of campus to another, you're in... Happily in locomotion mode, moving\
+  \ at a relatively constant preferred walking speed, there's not a lot happening\
+  \ in the cortex at that point. If you start getting onto rocky terrain where you're\
+  \ picking your step, it might show back up. But sort of the idea is that the motor\
+  \ cortex initiates the gait behavior and terminates the gait behavior. So you start\
+  \ walking, and then you come to a stop. But during its sort of standard operation,\
+  \ a lot of the basic control is handled by the lower parts of your nervous system.\
+  \ Your vision is thought to go through subcortical pathways to keep looking for\
+  \ tripping hazards and avoid stepping on a stick, for example, as well as keeping\
+  \ balance and not falling over. There's some indication that this visual path goes\
+  \ subcortical, so it doesn\u2019t actually go into the pink wrinkly thing up top;\
+  \ it kind of bypasses that. Now we are directly at the forefront of how much we\
+  \ know about that kind of stuff, so I\u2019ll just leave it there. Great question!\n\
+  \nThere\u2019s such a thing as what\u2019s called the startle response. It's the\
+  \ thing that we all know, it's kind of like, \u201Cah!\u201D That\u2019s one of\
+  \ those places where the cartoon starts to break down between, oh, this part is\
+  \ controlled by the higher level and this part is controlled by the lower level.\
+  \ The startle response is very basic; all vertebrates startle. It\u2019s triggered\
+  \ by looming objects or situations where you might be slipping. This would suggest\
+  \ it\u2019s a lower level of control, but it has characteristics that are more sophisticated\
+  \ than you would expect. For example, if I\u2019m falling, I reach out and grab\
+  \ something. So whatever system is controlling those kinds of startle responses\
+  \ and balance correction responses has access to aspects that we tend to associate\
+  \ with the higher levels.\n\nSo it starts to get complicated. That\u2019s one of\
+  \ those questions that you could ask the bot a lot about, and it would say a lot\
+  \ of things. However, I wouldn\u2019t trust anything it says in the specifics because\
+  \ as an expert in that area, I know that it gets complicated and murky. If you try\
+  \ to find recent papers about it, you could probably find stuff in rodents about\
+  \ startle responses. But when you start looking at research in humans, the quality\
+  \ of that research is harder to assess because it\u2019s challenging to study humans,\
+  \ and you can't conduct invasive studies on them. But yes, sort of like that. There\
+  \ is a study that I saw which looked at walking in VR, and every so often the VR\
+  \ world would rotate as if you were falling over. They measured responses at the\
+  \ full body level, at the muscular level, and found that there were these responses\
+  \ in the ankle musculature that occurred about 120 milliseconds after the perturbation.\
+  \ This is way too fast to go through the visual cortex, as that is thought to be\
+  \ a much slower process. \n\nThere are also studies of people running on a treadmill\
+  \ where they drop a plate that the participants have to step over, and you see responses\
+  \ within 50 to 100 milliseconds. This again provides evidence of a sort of subcortical\
+  \ pathway\u2014subcortical meaning below the cortex and bypassing the cortical processing.\
+  \ However, these are just cartoons; we're talking about bundles of millions of fibers\
+  \ of neurons. When we say it bypasses this part of the cortex, we mean that most\
+  \ of those fibers don't project onto the cortex, but if 20,000 fibers go back, we're\
+  \ really talking in terms of statistics, which gets murky really fast. \n\nI don't\
+  \ know if there is a great answer to this question because I don't think anyone\
+  \ does. There might be some people who could give you a few extra layers, but you\
+  \ quickly get into a space that is hard to define, which is actually a good place\
+  \ to be\u2014where all the work happens. \n\nAny other thoughts or questions? Yes,\
+  \ great. Let's talk about standing\u2014the noblest of behaviors, outstanding in\
+  \ our fields. \n\nFirst things first, let's take a moment to mourn the reality that\
+  \ we will never truly know the answers to what was happening here, here, or here.\
+  \ We will be looking at, thinking about, analyzing, and considering events that\
+  \ happened like last week. Those moments are gone. We are going to try to make inferences\
+  \ about things like: What was my musculature doing? What was my nervous system doing?\
+  \ Where was the state of my body, and what was the mass distribution at different\
+  \ points in time? These are the questions we want to answer, but the reality is\
+  \ that the true answer to those questions is lost. It's gone. What happened is now\
+  \ gone; it dissolves into the past, like thermodynamic foam and all that good stuff.\
+  \ Any questions we might want to ask about it will never have definitive answers.\
+  \ The only reason we can state anything about the past event is that we have an\
+  \ empirical apparatus set up, calibrated, and recording. This recording was able\
+  \ to capture some bare shadows of data that we believe correlate to the hypothetical\
+  \ true fact of the universe regarding what I was doing in that space at that specific\
+  \ point in the past. \n\nIn this particular case, the data we collected is in the\
+  \ form of videos. I don't know if you've heard of them, but they're great and super\
+  \ useful. Unfortunately, the recordings themselves were not my greatest work; the\
+  \ camera setups were not ideal, and it was super dark. Therefore, the fidelity of\
+  \ the data we obtained may not be the best in the universe, but it's sufficient.\
+  \ \n\nThis video is a record of the data we recorded, and the empirical measurement\
+  \ it represents is samples from a particular cone of light from a specific location\
+  \ in space. The video runs at 30 frames per second, which is somewhat slow for scientific\
+  \ data, but standard for most videos you encounter. It is 720p, which is pretty\
+  \ standard. \n\nThe video resolution is 720 pixels high by 1280 pixels wide, meaning\
+  \ if you see things like HD (high definition) 1080p by 1920, 4K is simply whatever\
+  \ 1080 times two is divided by whatever 1920 times two is. This is a raster plot\
+  \ or raster recording: the 720 refers to the vertical pixel count, and if you zoom\
+  \ way into these tiny pixels and count them, there will be 720 in that direction\
+  \ and then 1280 in the other direction. In each of these little squares, there are\
+  \ actually three recordings: one in the red channel, one in the green channel, and\
+  \ one in the blue channel. The pixel itself represents a number between 0 and 255,\
+  \ which is 2 to the power of 8. If it\u2019s zero, it means that that tiny little\
+  \ section of whatever sensor is on the back of the camera recorded zero intensities\
+  \ of photons. I guess the unit would be Candelas, but I don\u2019t really know how\
+  \ that works. The number in this spot will be between zero and, let\u2019s say,\
+  \ not worry about the exact number. We can say it\u2019s between 0 and 100%, where\
+  \ 100% is the maximum value that little sensor at that section of the video was\
+  \ able to record. Roughly speaking, this represents white, which is 100% active,\
+  \ and this represents black, which is 0% active. Thus, we get one of these images\
+  \ every 33 milliseconds, resulting in a weird file called a video MP4. Before that,\
+  \ it\u2019s just a file format; it\u2019s just like an instruction set that the\
+  \ computer uses to turn this into something that our primate eyes like to look at.\
+  \ There are three channels, and this is analogous to the way I\u2019ve talked about\
+  \ vision before, with moments where environmental energy gets transduced into a\
+  \ different form of energy. In your eyes, light is absorbed by opsin and converted\
+  \ into electrochemical potentials. In a camera, light is absorbed by some special\
+  \ crystal of silicon, which then turns into a pattern of voltages that gets measured,\
+  \ recorded, and converted into this picture. We believe there\u2019s something in\
+  \ the activation pattern on the back of the camera sensor, at the different time\
+  \ points of recording, that is correlated with reality. The reason we believe this\
+  \ is that when we look at it, we say, \"Yeah, that looks like a person.\" Not only\
+  \ does it look like a person, it looks like the person who was standing in front\
+  \ of the camera at the time I saw that person. Then, the person pressed record.\
+  \ I look at it and say, \"Yes, that seems right; I think I understand how cameras\
+  \ work.\" It\u2019s that weird intuitive gut check of, \"Yeah, this seems like a\
+  \ vaguely valid recording. That\u2019s the empirical basis of everything,\" Everything\
+  \ I am about to show you will involve computations based on these foundational empirical\
+  \ measurements. It is interesting to discuss this in the context of low-quality\
+  \ videos from webcams, but I assure you that every empirical investigation you conduct\
+  \ from this point forward will follow a similar structure. Typically, there will\
+  \ be some empirical measurement, unless it is a computational study, which is an\
+  \ entirely different area. There will be a piece of equipment that you have calibrated\
+  \ against a known value, recording either a single empirical measurement or a time\
+  \ series of empirical measurements. You must have some level of trust regarding\
+  \ whether this equipment accurately reflects a true reality of the world, which\
+  \ often refers to historical data that may or may not be reproducible. In this case,\
+  \ you could capture the same behavior again, but you would not have the opportunity\
+  \ to record this exact moment in time again. Practically speaking, as a researcher,\
+  \ this data is not particularly precious because I can always redo it. However,\
+  \ if this were, for instance, an amputee patient whom I had to recruit, and they\
+  \ traveled across town just to stand in front of the camera for the recording, then\
+  \ if the lighting was too poor or if the camera was incorrectly positioned, it would\
+  \ be a much bigger disappointment because recreating that specific data would be\
+  \ much more challenging.\n\nSo, learn your equipment. When you reach the point of\
+  \ recording important data, it is crucial to understand all the ways it can fail.\
+  \ Additionally, there is another empirical measurement at play here: the timestamps\
+  \ from the videos. I have measures of the computer's time stamps from each recorded\
+  \ frame. I do not trust it down to nanoseconds, but I do trust it to about milliseconds\u2014\
+  though that's questionable. This is another aspect where, if I deleted these timestamps,\
+  \ I could never recreate them. Videos generally do not encode the specific time\
+  \ each image was recorded; rather, they indicate a frame rate, like 30 frames per\
+  \ second, regardless of the actual time variations. There are many deeper complexities\
+  \ in the video capture software concerning these timestamps, but we will not delve\
+  \ into those details in this context, as they are quite intricate. Recording and\
+  \ getting everything nicely and temporarily synced between the multiple cameras\
+  \ is important. So this is the base data: videos from multiple locations. We also\
+  \ have this calibration data which tells us the positions of the cameras in space.\
+  \ For example, camera one has trip rotation translation, which involves position\
+  \ and rotation. When combined, these give us the orientation with six degrees of\
+  \ freedom, along with the positions of the cameras. This is another instance where,\
+  \ without the calibration data for the cameras' locations, I cannot recreate the\
+  \ scene. It would be very difficult to do so. If I absolutely had to, I could write\
+  \ some code to reconstruct the camera positions without the checkerboard, just using\
+  \ marks on the board and similar references, but I prefer not to do that. I consider\
+  \ the calibration data to be a crucial part of the base data; without it or if it\
+  \ were done incorrectly, recreation would become very challenging. For instance,\
+  \ if I used the wrong checkerboard or mistakenly included another checkerboard in\
+  \ the background without noticing, that process would fail. I would then need to\
+  \ either figure out how to fix it or record the data again. This is something that\
+  \ may come up in your career; however, my personal belief and advice is that it's\
+  \ usually a much better idea to record data, even if it is poor quality, learn from\
+  \ the experience, and then record it again. Don't spend too much time trying to\
+  \ fix bad data if you can avoid it. You can't always avoid that scenario, but generally\
+  \ speaking, if you have the option, it's best to identify what went wrong and then\
+  \ record again. That's my personal advice as a beleaguered scientist. So, let's\
+  \ set aside all those issues and focus on the base data, which consists of the videos.\
+  \ If that is the base data, then this is the output data. This represents the approximation\
+  \ of what we've achieved. Let's turn off the mesh, which is primarily for visual\
+  \ purposes. This demonstrates the level of fidelity we have in reconstructing the\
+  \ human body. It involved a lot of hard work to achieve this level of detail; it\
+  \ took years of effort on my part. Life and years to come was to produce this data,\
+  \ and I'm quite proud of it, but also it's garbage. There is nothing like this;\
+  \ it is such an impoverished recreation. This thing is like a couple of chunks of\
+  \ wood, and I am several trillion cells and billions of neurons, along with thoughts,\
+  \ dreams, histories, and stuff like that. The feet here are just solid blocks, whereas\
+  \ my feet have this very complicated muscular-skeletal structure. This thing doesn't\
+  \ have any neurons; it's extremely impoverished, but it's the best we've got.\n\n\
+  And then all of this... this point is not worth the time I'm taking to make it.\
+  \ So, this is the actual data model that we're looking at here. This is the whole\
+  \ thing boiled down to a singular center of mass. It doesn't even have rotation;\
+  \ it just has position. It's a long way to make it down to an extremely condensed\
+  \ form, an extremely low-dimensional representation of something that is infinitely\
+  \ dimensional. You would require... I don't know how many numbers. This thing requires\
+  \ three numbers to perfectly define its position in space at any moment in time.\
+  \ I don't know how many numbers it would take to define me as a person at any moment\
+  \ in time, but it's a very, very large number.\n\nThis thing, I think, has 1, 2,\
+  \ 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14... so 14 multiplied by 3 equals 42. This\
+  \ is 13 joints and three degrees of freedom, which requires 42 numbers to define\
+  \ at any moment in time. So, if you want to know questions about things like joint\
+  \ angles, this is not sufficient. However, if you're just looking at things like\
+  \ the center of mass versus the base of support, it's nice to have the low-dimensional\
+  \ representation. Output, and then I do that. I'll come back; I do this, and it\
+  \ goes away. Great. Okay, so how do we get from point A to point B here? Well, the\
+  \ first thing we have to do is just a little bit of magic. By magic, of course,\
+  \ I mean some form of stochastic process involving machine learning. These days,\
+  \ in the year of our Lord 2025, there is a lot of AI talk everywhere. If you've\
+  \ been paying attention, there's been a lot of machine learning talk for quite a\
+  \ long time\u2014since as long as you've been alive, easily. But if you're looking\
+  \ for a specific date, like 1986, Rumelhart and some other guy came up with backpropagation,\
+  \ which is a very important technique that basically makes neural networks work.\
+  \ So, since then, everything has the term \"AI\" in it, which is basically just\
+  \ a marketing term that means a neural network that has language capacity. This\
+  \ is kind of a problem. I obviously like AI; we're using it in this class a lot,\
+  \ but it's a problem empirically because machine learning involves, by definition,\
+  \ some form of trained networks\u2014a trained neural network where there's some\
+  \ empirical data that gets combined with machine learning processes to produce a\
+  \ neural network that generates an output of some kind. So when you talk to the\
+  \ bot on Discord, behind the scenes\u2014many layers behind the scenes\u2014the\
+  \ thing that actually produces the words that come back onto the screen and sort\
+  \ of feel like a human response is generated probabilistically from a neural network\
+  \ that was trained on language data. Importantly, I'm saying probabilistically because\
+  \ neural networks, machine learning algorithms, and computations based on neural\
+  \ networks only operate in that probabilistic, stochastic space; they do not perform\
+  \ hard computations that will give you deterministic responses. For example, a deterministic\
+  \ calculation would be the distance between two points. You would use the Pythagorean\
+  \ theorem for that. Whatever the coordinates X and Y are, L equals the square root\
+  \ of (X^2 + Y^2). The Pythagorean theorem helps measure the distance between two\
+  \ points; you can perform this computation and you will always get the same number\
+  \ if you input the same values. In contrast, machine learning algorithms, neural\
+  \ networks, and any AI-based solutions, as the marketing folks would say, do not\
+  \ have that characteristic. There will always be some variability and stochastic\
+  \ aspects to it. In this pipeline, I have been very careful; there is only one point\
+  \ in the process that involves a machine learning algorithm, which is this particular\
+  \ step where we convert the video into something that's lower dimensional and directly\
+  \ related to the aspect we care about. This involves a bit of jargon\u2014a convolutional\
+  \ neural network, which is essentially a trained model developed from many hand-labeled\
+  \ videos and images. People went through these images and marked where the shoulders,\
+  \ hips, and wrists are located. The neural network's convolutional part means it\
+  \ runs a sort of search pattern over the image looking for specific features. For\
+  \ example, the ankle detector continuously searches for ankles and has separate\
+  \ detectors for right and left ankles. When it identifies a probable ankle location\
+  \ on the screen, it peaks at the probability curve and draws a dot to indicate where\
+  \ the ankle is. This is a sort of strange magic, something that, despite seeming\
+  \ impossible, is now a reality. Before 2017, this capability was not available.\
+  \ However, in 2017, some researchers from Carnegie Mellon published a paper called\
+  \ OpenPose and released a model named OpenPose. It was the first of its kind; building\
+  \ on existing models and techniques, they produced an output that could reliably\
+  \ draw a two-dimensional stick figure over a picture of a person. If you Google\
+  \ OpenPose now, you will find the repository, which can be quite complex to use\
+  \ but is incredibly useful. That technology is the underlying advancement that makes\
+  \ the rest of this possible. Video has always been an unusual form of data because,\
+  \ as visually adept primates, we excel at interpreting videos and extracting information.\
+  \ You do this constantly; when watching a video, you perceive a rectangle of light\
+  \ flickering and discern the actions of the person within it. Petting a cat is like\
+  \ riding a bike; you're very good at that. You can tell many truth-preserving things\
+  \ about an image with your giant human brain. Scientifically, video has been used\
+  \ for a long time, but it has always been very challenging to convert that qualitative,\
+  \ gut-check sense of what's going on in the video into something that is empirically\
+  \ grounded enough for scientific investigation. Historically, one of the best methods\
+  \ we had was hand coding. You would train a group of typically undergraduates to\
+  \ look at videos. Much of developmental psychology involves watching videos of babies\
+  \ doing things and having undergraduates observe these actions, noting timestamps\
+  \ like, at 12 seconds the baby grabbed the toy, at 13 seconds they handed it to\
+  \ mom, at 14 seconds, and so on. This manual labeling of videos produces base data,\
+  \ such as understanding that babies like to reach for toys or analyzing whether\
+  \ a child is looking at their mother, and assessing the odds related to autism spectrum\
+  \ based on shared attention.\n\nThis method is valid, but it also presents a huge\
+  \ bottleneck. If we needed to rely solely on humans to manually draw points on the\
+  \ screen, it would be a significant limitation. However, due to the advent of convolutional\
+  \ neural networks, we can now send images at 30 frames per second from multiple\
+  \ cameras to a machine, which will autonomously draw the necessary points on the\
+  \ screen. Critically, the step that operates as the machine learning stochastic\
+  \ 'magic box' produces data that manifests in the form of a stick figure drawn over\
+  \ an image of a person. If you evaluate how well this process draws a stick figure\
+  \ on an image, you can tap into billions of years of evolution of your visual cortex\
+  \ to determine its accuracy. Now, even though we incorporate the 'magic box' step\
+  \ into our process, we can still gut-check ourselves and regain some of the trust\
+  \ we associate with established processes, like the Pythagorean theorem\u2014trust\
+  \ that may be lacking when we deal with neural networks, machine learning algorithms,\
+  \ or AI.\n\nThis relates to the field of epistemology, which is the study of knowledge\
+  \ and the question of how we know what we know. The reason I trust this data is\
+  \ that the step of the process I trust the least is visually verifiable. I have\
+  \ reviewed it and... I know this process well enough that I no longer have to spot\
+  \ check all the videos to trust them. I have done that enough to say, \"Okay, this\
+  \ is a vaguely big word here, not an important term here.\" This is a truth-preserving\
+  \ process; I believe that this step is not throwing fake data into my computational\
+  \ engine, so I now trust the output. \n\nThere are other paid software programs\
+  \ that do marketless motion capture, and as far as I understand, most or all of\
+  \ them are closed source. I have various people on the inside, and they have a step\
+  \ in their process where they use a machine learning algorithm to clean their data.\
+  \ When there are jiggles and wiggles, and weird stuff going on, they have a neural\
+  \ network trained to clean that data and produce data without that noise. However,\
+  \ that is a non-truth preserving process because you can't spot check it. That's\
+  \ okay for them because they are generally producing this for artists and similar\
+  \ purposes, but you cannot do that if you want the data to come out scientifically\
+  \ and empirically valid. \n\nAnyways, moving on. This is the high technology part,\
+  \ the weird magic box part. The output of that is going to be, ignoring the face,\
+  \ the XY positions of, I think, 32 points not counting the face and hands. In this\
+  \ particular stick figure model, there are about 32 points. For each frame of each\
+  \ video, there are going to be 32 times 2 numbers produced. These numbers are related\
+  \ to an image where (0, 0) is at the upper left, so you start counting from there.\
+  \ We tend to think of X as going this way and Y as going that way, but for image\
+  \ coordinates, X is this way and Y is that way. It's confusing because the top left\
+  \ corner is zero, and then the bottom corner is 1280, meaning you count upwards\
+  \ going down. You get used to it. Z represents the depth plane into the scene. For\
+  \ one frame and one joint, you get the position of that joint in two dimensions,\
+  \ with the units being pixels. Once you have that two-dimensional data and you already\
+  \ have the positions of the cameras, you can perform the triangulation step. You\
+  \ have camera one, camera two, and camera three. This is me. Camera one sees the\
+  \ position here, camera two sees it there, and camera three sees it there. Using\
+  \ epipolar geometry, which is like old school geometry, you can do the triangulation\
+  \ math. I'm not sure from exactly what era epipolar geometry originates, but it\
+  \ involves similar triangles, which is classic geometry. The idea is that by knowing\
+  \ the position of each camera and being able to identify the location of the pixel\
+  \ from the camera's point of view, you can calculate the 3D location. \n\nTo illustrate,\
+  \ imagine you are standing on a rooftop with a laser pointer aimed at a target.\
+  \ From your position, you can say, \"I need to move this far over and this far down\"\
+  \ to know the direction of the target, but you cannot tell how far away it is because\
+  \ the laser does not provide that information. If a friend on another rooftop is\
+  \ also aiming a laser at the same target, they know how to adjust their angle too;\
+  \ they also need to turn this way and down that way. They know the direction but\
+  \ not the depth. \n\nNow, picture it being a foggy night, and you are on a third\
+  \ rooftop where you can see the paths of both lasers. Where those two laser paths\
+  \ intersect is the position of the target they are aiming at. If you know where\
+  \ those two people are in space and the direction of their laser beams, you can\
+  \ calculate the X, Y, and Z three-dimensional position of the object in question.\
+  \ You repeat this process thirty times per second, several hundred times per frame,\
+  \ to produce these measurements. Again, this part is all computation. This is truth-preserving\
+  \ math. These are hard numbers and hard math. You do the same thing, and you get\
+  \ the same answer every time. I guess I should say that, assuming perfect data from\
+  \ the two-dimensional stuff, the accuracy of this data will depend on the accuracy\
+  \ of your calibration. If you are off in the calibration, then you will be off in\
+  \ the position of the cameras, and consequently, you will be off in the estimated\
+  \ position of the three-dimensional object. That's called... what do we call that?\
+  \ Accumulating error? It's not exactly accumulating error, but whatever it is, the\
+  \ veracity, the truth value of this measurement derives its accuracy from the validity\
+  \ of the camera position estimation and the validity of the position in the image.\
+  \ Let's not even start asking questions like, when you say that my shoulder is here,\
+  \ why is it here? Is it here? Is it here? What are we targeting there? Is it some\
+  \ anatomical thing? Is it the muscle? Is it the meat? Let's not ask those questions\
+  \ just yet. Or ever. Well, maybe someday. Now, after all of this, we have, on every\
+  \ frame... I look over there... the 3D position of the body in space, and it looks\
+  \ something like that. Not like that. Actually, I wanted to see the mesh. Where\
+  \ is the mesh? So, looking at this point, that point, and then the point over there,\
+  \ triangulated gives you this point right here, which is the XYZ position of my\
+  \ shoulder, which in this particular case looks like its position. I am 1.6 meters\
+  \ up and then 27.28 meters on the ground, so I'm roughly 1.8 meters tall. This seems\
+  \ to check out. Oh, I didn't mention that there's a conversion into meter steps\
+  \ that comes from the fact that I know the size of the squares on that board. Otherwise,\
+  \ these would come out in arbitrary numbers based on pixels and similar metrics.\
+  \ In fact, it would be in units of the size of the square on that board. At some\
+  \ point in the process, I literally multiply the numbers that come out of the triangulation\
+  \ by 58, which is the millimeter scale of that square, and then divide that by 1,000\
+  \ to get meters. This is roughly accurate, but also for most of the things I do\
+  \ in my life, the specific units don't super matter; what matters is where something\
+  \ is on frame one versus frame ten. What\u2019s important is the relative difference,\
+  \ like this one is twice as many as that one, and things like that.\n\nOkay, so\
+  \ now this is one of those places where there's a certain intuitive approach I took,\
+  \ which you may or may not have been offended by. I was discussing these computational\
+  \ measurements and then said, 'And here you go, that's the data,' while pointing\
+  \ to the output of what is clearly visualization software. This is not data in the\
+  \ sense that I can't perform calculations on this; this is like a dot floating in\
+  \ space. You can tell it's related to hard numbers that must come from somewhere,\
+  \ but this is not the data itself. This is a visual representation of the data,\
+  \ which is very, very useful to have, but the actual data in this context lives\
+  \ in a file called a CSV, which stands for comma-separated values. Here you go:\
+  \ it knows x, it knows y, it knows z. There's a number, there's a comma, another\
+  \ number, another comma, and so on. There are a lot of these numbers\u2014just look\
+  \ at all these numbers!\n\nCSV is a very standard data format. You probably know\
+  \ it in its Microsoft proprietary form, which is XLS, as in Excel spreadsheet. An\
+  \ Excel spreadsheet is essentially just CSVs with a bunch of formatting under the\
+  \ hood. So, in the same way that I rail against... What's it called? A .dox file.\
+  \ I prefer things like Markdown. This is where I express my preference against formats\
+  \ like .xlsx and say I prefer CSV. However, it is also somewhat annoying to view\
+  \ it that way. We can open it, and this is the LibreOffice version of Excel. I don't\
+  \ really use Excel or Excel-like objects for anything except once or twice a year\
+  \ to open it up and show a room full of undergraduates, saying, \"Ooh, look at all\
+  \ the numbers!\" The default file format is not whatever; go to town.\n\nSo, why\
+  \ am I looking over there? Again, LibreOffice Calc, Microsoft Excel, Google Sheets\u2014\
+  these are all applications that can process CSV files, which stands for Comma Separated\
+  \ Values. It can also have Tab Separated Values. These are all just limited values;\
+  \ whatever, it doesn't matter. This is just a nice format that takes the values.\
+  \ The columns are the names of one type of data that you have, and in this case,\
+  \ the row is supposed to represent the frame number. Although, looking at this now,\
+  \ it shouldn't be like this\u2014there should be a column called 'Frame Number'\
+  \ and another one called 'Timestamp.' But we will get there.\n\nThere are as many\
+  \ rows as there are frames in the video. The reason why I like pulling this stuff\
+  \ up is to embark on a little journey that serves multiple purposes for your brain.\
+  \ One is that there should be a level of this that makes total sense. Maybe you\
+  \ know the geometry but not the math, or maybe you're not familiar with how convolutional\
+  \ neural networks work. Generally speaking, what I'm describing makes some vague\
+  \ kind of sense. If I desperately needed to, I could go through with a marker, mark\
+  \ frame by frame, and measure the distance from the sides and the pixels. If necessary,\
+  \ I could manually calculate the geometry and work that out by hand, but never in\
+  \ a hundred lifetimes could I do it this many times or this quickly. Moreover, I\
+  \ certainly couldn't then take that and draw whatever 392 images that I could then\
+  \ compile into a flipbook from as many angles as I want. Then, I could look at the\
+  \ data and interrogate it. This is, long story short, why. Computers are very useful\
+  \ things to have. It's not because they're smart, it's because they're dumb but\
+  \ super fast. They can only do exactly what you tell them to do, but they can do\
+  \ it very, very quickly. For those of you who may encounter some aspects of computers\
+  \ at some point in your life, if you write programs or code, there will come a time\
+  \ when you might think, \"Man, this computer is really smart,\" but in that case,\
+  \ it's actually not; humans are smart, and they made this dumb box of rocks do very\
+  \ clever things. Alternatively, if you're writing code, you might get frustrated\
+  \ with the computer because it did something you didn't want it to do. I promise\
+  \ you, the computer did exactly what you told it to; it followed your instructions\
+  \ precisely. If the output was not what you wanted, it is, in fact, your fault.\n\
+  \nSo, these are a big matrix of numbers, and that's not even all of them. That's\
+  \ just the body. There are other similar data structures for the face, the left\
+  \ hand, the right hand, and another for the center of mass. Remember if I did that?\
+  \ So, this is the center of mass data, and instead of being a big square of numbers,\
+  \ this is just a three-column vector. You still have the same number of rows as\
+  \ there are frames in the video, but now there's only center of mass X, Y, and Z.\
+  \ When I say we've decreased the dimensionality, this is what I mean. Instead of\
+  \ being 720 by... let's see... 720 multiplied by 12, which equals 8,640, that is\
+  \ 921,000 pixels per image, per frame, per camera. For each of those pixels, you\
+  \ need three numbers to define its state because of red, green, and blue. So, we\
+  \ go from that unbelievably high-dimensional data down to this much smaller, but\
+  \ still fairly intractable amount of data. Actually, I really like this. Here is\
+  \ a zoomed-out picture. of the full document, so each of these columns represents\
+  \ one of the data types. From all of that, we go down even further. The nice thing\
+  \ about this is that it starts to get to a place where your brain might start thinking,\
+  \ \"Yeah, I can handle this. This is more tractable. This is something I can fit\
+  \ into my head.\" From that place of mental comfort, you can start asking scientific\
+  \ questions that relate to the thing you actually care about, which is how does\
+  \ this thing stand up? Let's make some assumptions. Somewhere between this hyper-simplified\
+  \ model of the thing and the true facts of reality, there is such a thing as a nervous\
+  \ system. This nervous system has characteristics such as peripheral and central\
+  \ components, motor hierarchy, cortex, cerebellum, brain stem, and all that stuff.\
+  \ Let's assume this is happening in the context of all that fancy neuroscience stuff.\
+  \ Luckily, in this room, we don't have to do all that research ourselves because\
+  \ we can look at what other people have said about it. I don't have to do research\
+  \ on the cerebellum directly; I can just read about the people who are conducting\
+  \ more constrained biological work, like looking at rabbits in uncomfortable positions.\
+  \ I can incorporate what they tell me about these neural systems and subsystems\
+  \ into my attempts to understand and represent this data at a scale that\u2019s\
+  \ just not amenable to that level of neural biological precision. So, okay. With\
+  \ all of that context, I have 20 minutes left, which I think is just barely enough\
+  \ time to kind of make the main point of differentiation between the data from those\
+  \ two recordings. Before we do that, I think that\u2019s enough time to do it. Is\
+  \ there anything to say about the nonsense I said before? A lot of it is kind of\
+  \ like an intuition pump, a little bit of song and dance. Again, in that space,\
+  \ I'm trying to convey a bunch of stuff that makes sense, something you might already\
+  \ know at some intuitive level, while making that very specific point about the\
+  \ data flow. This is the computational pipeline from empirical measurement in the\
+  \ form of transducing environmental energy into electrons and voltages. We then\
+  \ go through various conversions, computations, and calculations to transform the\
+  \ base data into a format suitable for actual empirical research investigation.\
+  \ I must mention that I skipped an unbelievable number of steps. It is not just\
+  \ in the area where I perform the calculations myself, but also in the basics of\
+  \ how a camera works. I know vaguely how a camera operates at an engineering level,\
+  \ but I do not understand it in detail. Additionally, I do not fully comprehend\
+  \ how it sends signals down a wire, which gets absorbed by the USB port. This USB\
+  \ port is managed by the USB Foundation, which is an unknown group of possibly hundreds\
+  \ to thousands of individuals who have been working for decades on how to read data\
+  \ from a voltage pin of a small rectangular port on a computer. Once the data goes\
+  \ into the computer, it involves CPUs, RAM, and hard drives. The processes behind\
+  \ all of this are quite complex. This is why no human operates alone; we all stand\
+  \ on each other's shoulders and utilize the lifetimes of labor of others nearby,\
+  \ allowing us to focus on our own tasks. Furthermore, we should acknowledge Blender,\
+  \ the visualization software that is open-source and developed publicly by mostly\
+  \ volunteers since around 1993, or Python, the code I use for analysis, which is\
+  \ another open-source project that has existed for decades. There\u2019s also the\
+  \ history of computation, the metallurgy used for the stand, and the materials like\
+  \ plastic and glass. It is overwhelming. So, we boil it down and move on. Yes, the\
+  \ existential crises are where real learning occurs. Here I am, a fun little skeleton,\
+  \ and let's set the range for the frame. Say 150 to 150, display custom color. Great.\
+  \ Okay, so look at me go. Here I am. I am standing. This is Skelly. Skelly's the\
+  \ logo for the FreeAt Foundation. Good job, buddy! I have roughly similar bones\
+  \ in my body, so there you go. And this is a mesh; it's sort of like an animation\
+  \ thing. It's not really data; it's more just for visuals. These are the rigid bodies.\
+  \ These are the simplified segments that we're going to call parts of my body. Then,\
+  \ this is my center of mass, calculated with those anthropometry tables I talked\
+  \ about prior. And this sort of red line here\u2014let's make that pink\u2014represents\
+  \ the vertical projection of that three-dimensional point.\n\nNow, you see these\
+  \ terms like vertical projection, and it sounds very mathy and complex. It kind\
+  \ of is, but also this is the ground. Let's say the ground is where Z is zero. You\
+  \ could just define anything the way you want; let's just say the ground is at zero\
+  \ height. If I am here and I have an x, y, z location, let's say Z is like 1 or\
+  \ 1.2 height. If I want to know the vertical projection of that point, I just say\
+  \ x, y, 0. So that's how I take the vertical projection: I set x and I set the height\
+  \ to zero. Now, this has the same ground x-y horizontal position but is just directly\
+  \ underneath the point that I care about.\n\nWhy do I want to see that? It's because\
+  \ I'm talking about balance. Whenever I talk about balance, I keep using these terms\
+  \ like center of mass and base of support. The base of support is on the ground,\
+  \ so I'm\u2014I'm not really wanting to\u2014I'm even boiling this down further.\
+  \ I can say I actually don't care, for this task, for the jumping task. I care very\
+  \ much about the height of it; for the balance task, I don't care about the height\
+  \ at all. I only care about its position on the ground plane. So I'm going to project\
+  \ it down onto the ground plane and I want to compare it to the base of support.\
+  \ Where is the base of support here? There's a thing that's supposed to make it\
+  \ show up here, but I just can't. Never make that work; maybe next semester. But\
+  \ in here, very intuitively, the base of support is where my feet are. It's the\
+  \ extent of where my feet are, behold, my base of support on the ground. So everywhere\
+  \ I can sort of, yeah, that's where my feet go. That's the region of the ground\
+  \ where I can exert pressure and sort of change the forces to affect my center of\
+  \ mass. I can push it outside of my base of support, but when I do that, I have\
+  \ to move my other foot, or I will hit the deck. For this task, as we have defined\
+  \ it, I told myself as a research participant that my goal was to lean without moving\
+  \ my feet. So we can assume, in this context, that if my feet move, then I have\
+  \ failed the task at hand. We can assume that the neural control that I'm exhibiting\
+  \ is in the service of completing that task. We've defined success and failure in\
+  \ this task, again giving us a little bit more leverage to interpret this weird\
+  \ squiggly wiggly line here in terms of how it relates to things like balance and\
+  \ posture. I'm going to say 300z, update, I'll paths, great. The pink line now is\
+  \ showing the previous 10 seconds. That's too many; bye, going to move his base\
+  \ of support, no nervous system, my fault. Okay, now I'm trying to... I brought\
+  \ a mouse today because it's hard enough to navigate these 3D spaces, but with a\
+  \ trackpad, it's like, 'Jesus Christ!' So this is also... So I start out outside\
+  \ of the screen. This is what we call invalid data. This is not... I didn't do this.\
+  \ You were all here; if I did, you would have noticed. But this is what happens\
+  \ when there's nothing in the screen on the CSV. This data looks just the same as\
+  \ the data where it's actually like a stick figure; it's just not real. So I come\
+  \ in and I say, 'Oh yeah,' then it snaps on top of me. Let's see here. So here I\
+  \ am, I'm standing and leaning forward, and there's something... oh, let's do it\
+  \ like that. Oh, there we... So, I'm leaning all the way over; it's a little bit\
+  \ outside. There's another layer to this, where I'm calculating how to orient myself\
+  \ on the ground, which I don't fully trust. I don't fully trust this data. Theoretically,\
+  \ the prediction is that I should be right at the edge of my foot when I'm leaning\
+  \ all the way this way. However, if we examine the data about what's being tracked\
+  \ on my feet, it's a very impoverished model of the foot. I have a heel and I have\
+  \ a toe, but I don't have the outer extent of my foot represented. Even though I\
+  \ can apply force into the ground all the way out here, the data we have represents\
+  \ my foot as just a thin line on the ground. Furthermore, because this was not designed\
+  \ to be scientific software, those predictions will vary slightly based on the viewpoints\
+  \ of the cameras. There's a whole layer upon layer of how much you can trust things\
+  \ like the very specific data about where the feet are versus the full-body data\
+  \ about where the body is. But, you know, we kind of get by; it's close enough.\
+  \ It's also hard for many reasons. \n\nGenerally speaking, when studying human behavior,\
+  \ the harder the task, the easier it is to interpret. The harder the task, the fewer\
+  \ options there are to successfully complete it. For example, standing on two feet\
+  \ is easier than standing on one foot because the base of support is larger. Thus,\
+  \ making predictions about where the center of that base of support, or the center\
+  \ of mass, is going to be is necessarily more difficult when you\u2019re considering\
+  \ a larger area. When I'm on one foot, the base of support is much smaller, and\
+  \ so assuming I'm successfully standing on one foot, the ability to predict where\
+  \ the center of mass will be in this small region is easier because there are fewer\
+  \ variables in play. In this case, if we look at this moment where I'm standing\
+  \ on my right foot and observe that vertical projection of the center of mass, let's\
+  \ see... 11:37 So from frame 1137 to 2058, for these thousand frames, I am standing\
+  \ over my right foot. What do you know? The vertical projection is right over my\
+  \ right foot. Hooray! Science works, physics works, and mechanics are true! This\
+  \ isn't enough to tell me about my hip torque; the center of mass on its own isn't\
+  \ going to tell me about things like my hip torque or my knee flexion and stuff\
+  \ like that. But in terms of the base level task of whether I am keeping my foot\
+  \ in the right location relative to my body to stay upright, sure enough, I am.\
+  \ And there we go. You can see, again, this is sort of easy to belittle or easy\
+  \ to overlook. This is cool; this is a cool thing. Just so you know, I am proud\
+  \ of it, so you're welcome. Sorry, I said that. Okay, so in terms of base standing\
+  \ posture, we could look at the left foot, but we're running out of time very quickly.\
+  \ Let's assume for practical purposes that the left side of my body and the right\
+  \ side of my body are similar enough that we don't have to care about the left side\
+  \ versus the right side. That's not actually true, because there's handedness and\
+  \ footedness. I think I'm better on my right foot than I am on my left foot, or\
+  \ vice versa; I can't remember. But for the sake of expedience, this is what it\
+  \ looks like when I'm standing under my own power and my own anatomical base of\
+  \ support. Prediction-wise, how might this change if I'm holding something additional,\
+  \ like something outside of my body? You can ask the question: what aspects of the\
+  \ description of this physical model no longer apply when there's something that\
+  \ I'm touching that's outside of my body? There are a lot of things. One of them\
+  \ is that first thing I said, where my ability to put force into the world to move\
+  \ my body is constrained to where my feet are when I'm standing on the ground like\
+  \ this. My base of support is defined by my feet because that's where I can put\
+  \ force. That's Newton's third law: for every action I put into the world, the world\
+  \ does a reaction and pushes me back. In this context, that's called the ground\
+  \ reaction force, which is very, very useful. You use it every day. Because of that\
+  \ constraint on my ability to put force into the world, sort of being attached to\
+  \ where my feet are, in order for me to stay upright, I have to keep my center of\
+  \ mass above the base of support. If I'm now touching something else, that statement\
+  \ is no longer true. I can now get a reaction force from the table, which is not\
+  \ noticeably where my foot is. Additionally, in this data recording, I have no record\
+  \ of where the table was, so if I'm looking at this, I can't make the same prediction\
+  \ about where the center of mass would be. I can predict which direction I'm allowed\
+  \ to go out of that base of support and which direction would require me to fall\
+  \ over. I just want to mention briefly that in 2015, there was a DARPA robotics\
+  \ challenge where a bunch of bipeds were walking around. They performed somewhat\
+  \ hilariously badly, but it was still a significant advance for the field. One of\
+  \ the issues they really struggled with was calculating the reaction forces. They\
+  \ had very good sensors on the ground, but they didn't have good sensors elsewhere.\
+  \ There was at least one case where one of the robots was standing in a doorway,\
+  \ trying to figure out what to do. They were calculating the force needed to move\
+  \ in the right direction but didn't realize that its arm was touching the door frame.\
+  \ As a result, when calculating the forces, they didn't account for this additional\
+  \ force. Consequently, when they tried to make the correct step, it fell over, and\
+  \ then had a balance response that was also incorrect because they hadn't calculated\
+  \ that into it. If you Google '2015 DARPA robotics challenges', you will find many\
+  \ entertaining clips of bipeds falling over dramatically, which remind us of the\
+  \ power needed to move something with such an incredible mechanical disadvantage.\
+  \ Anyway, three minutes isn't enough time, but let's continue. Hopefully, we can\
+  \ get this in. Regarding the center of mass, I am now holding this stick. I believe\
+  \ I am holding it in my right hand. I do want to hide you, yes, and I grab\u2014\
+  \ I don't think we need the Tails. Now we should be able to make a nice prediction,\
+  \ especially because I was there. Here we go, 1182, 1182. Actually, I do want that\
+  \ about 2,000, and I do want to put a round frame, 500 before zero afterwards. Calculate\
+  \ the whole thing and display. No key frames; color is going to be green. Great!\
+  \ And what do you know? Sure enough, it's on the outside of the foot. So understandably,\
+  \ before we said this, we were hesitant to trust the locations of the foot to this\
+  \ high level of fidelity, which is a fair point. However, we also saw in that control\
+  \ condition that when I'm standing on one foot, it's pretty close to that line between\
+  \ the heel and the toe. Now that I have this unmeasured balance support over here,\
+  \ my actual base of support is no longer just the foot; it's the foot plus a little\
+  \ balance point over there. The reality is that, you know, I weigh about 200 pounds,\
+  \ which is a lot of force. I can't really put an appreciable percentage of that\
+  \ force into that little weenie stick. So it\u2019s not that the point is as good\
+  \ as the foot, but mathematically, I can pull some force from that direction. My\
+  \ actual effective base of support is going to extend outside of my foot in the\
+  \ direction of that support. There you go; empirical measurement result on the fly,\
+  \ in person! Hooray! Okay, that's cool; I feel good about that. We have very close\
+  \ timing. We'll probably talk about this just a touch more next Wednesday, and then\
+  \ we'll do that group work. Keep an eye on it! Keep an eye on the Discord server\
+  \ if I announce anything, but I probably won't before Wednesday. Thank you, enjoy\
+  \ the rest of your lives. Thank you, goodbye."
+title: HMN25-04 - Epistemology, postural control, and FreeMoCap data analysis
+transcript_chunks:
+- dur: 180.0
+  end: 180.0
+  start: 0.0
+  text: "Let's try that again. Okay, hello everybody and welcome to this, I guess,\
+    \ February. We made it to February, which is great\u2014an additional month. Last\
+    \ time we recorded a bunch of data, and today we're going to look at it at various\
+    \ stages of development. This is kind of the output of one of the recordings that\
+    \ we can talk about. The kind of semantic level refers to meaning, while the syntactic\
+    \ level refers to structure.\n\nBefore we do that, just a standard weekly update\
+    \ on the status of my main project for the semester, which is making sense of\
+    \ all the good data you've been pumping into the machine. Just again, it's a standard\
+    \ scrape of the server, recalculating stuff, and shoving it into a zip file you\
+    \ can open in Obsidian. This one is slightly different. Speaking of what I just\
+    \ discussed syntactically, these two outputs are exactly the same; they have all\
+    \ the same folders and probably all the same file names. However, semantically,\
+    \ meaning-wise, in the most recent one, the user profile part that looks at what\
+    \ you've been talking about and guesses your interests only considers your chats\
+    \ in the assignments category\u2014so the stuff you've been doing in class\u2014\
+    and any of the bot playground stuff is not included in that calculation.\n\nI\
+    \ didn't really check it too closely for how that changed things, but if you don't\
+    \ mind, pop it open, take a look at yours, and hypothetically, it should be a\
+    \ better match to your interests. Also, you can check and see if you have two\
+    \ chats in both places and it's only showing one. If so, let me know from a bug\
+    \ report perspective, but don't stress too much about it. We're not going to look\
+    \ at that right now\u2014maybe sometime soon.\n\nI have also been informed that\
+    \ I am required to give you an exam. So, we're going to do another chat thing\
+    \ if that one's going to be an exam, and you'll receive a grade on whether or\
+    \ not you did it. However, I think it will be a little more structured. I'll put\
+    \ in a little more effort into the prompt; it will ask you questions about your\
+    \ chosen topic and relate it to the empirical stuff we've been doing before, such\
+    \ as: for your topic, what are the units that are involved? What are the methodological\
+    \ approaches? What do their measurements look like? What do their studies look\
+    \ like? I'll be asking you about the units that are relevant to that domain."
+- dur: 180.0
+  end: 360.0
+  start: 180.0
+  text: "The bot will interview you about your chosen topic, which is relevant to\
+    \ the conversation we've been discussing before. You have seen how this thing\
+    \ operates; it is not going to withhold information. It will be asking you questions,\
+    \ but it will also be there to help. If you don't know something, just ask it,\
+    \ and do yourself a favor\u2014look it up. On Wednesday, I have in mind another\
+    \ kind of group class activity that will be based on forming small groups and\
+    \ taking turns trying to find an additional paper relevant to your chosen topic.\
+    \ The goal is to intentionally choose papers that are very dissimilar from the\
+    \ ones you chose initially, yet still within the same domain, in order to flesh\
+    \ out the material. After that session, I will do the pseudo exam Chat thing the\
+    \ following week. If anybody asks, just say it's an exam, and you're very stressed\
+    \ out, feeling pressured to perform and out-compete your peers. Make sure to tell\
+    \ them you're being rank-ordered by human quality, which is rather disgusting.\
+    \ Anyway, does that sound good? Any emotional outbursts, thoughts, feelings? Great!\
+    \ Last time we recorded, let's make our way towards the review. A while ago, we\
+    \ talked about units and space, and also about Euclidean geometry, three-dimensional\
+    \ stuff, and SI units in terms of mass, kilograms, and seconds. I often notice\
+    \ that kilograms are the SI unit instead of grams or that kilograms are a thousand\
+    \ grams. I think there's some history behind choosing a base unit for grams, and\
+    \ they later decided that was too small, so they made kilograms because it\u2019\
+    s more viable. Anyway, that's not particularly relevant to our present conversation."
+- dur: 180.0
+  end: 540.0
+  start: 360.0
+  text: "We talked about mass, kilograms, and seconds, along with derived units like\
+    \ Newtons, which are defined as kilograms times meters per second squared, and\
+    \ we discussed other derived units like speed and milligrams per second. Then\
+    \ we talked about Joules, which are defined as kilogram meters squared per second\
+    \ squared. We covered all of that, as well as pendulums swinging back and forth,\
+    \ and inverted pendulums, which can be balanced above the ground through a minimally\
+    \ hinged joint. \n\nWhile we're here, this is a nice model of a person, where\
+    \ these two components represent muscles in the ankle joint. So, this is you trying\
+    \ to stand up\u2014look at you go! You're doing great! \n\nWe laid all of this\
+    \ out to set the landscape for the general study of human movement at a holistic\
+    \ human scale approach, rather than zooming in on cells or individual muscles.\
+    \ This is a much more zoomed-out examination of the physical system to the level\
+    \ of fidelity that we can record and reconstruct it.  \n\nThis software that I'm\
+    \ using is called Blender. It is an animation software that is free and open-source;\
+    \ you can download it. I will endeavor to have the data that we recorded available\
+    \ in a format that is easy for you to download and explore by Wednesday. It's\
+    \ not available just yet, but I will try to get that up by Wednesday so that you\
+    \ can click around and explore. Depending on your interests, I think we will focus\
+    \ on the paper assignment this Wednesday, and later on, we might have some more\
+    \ individualized work where you can decide if you want to dig deeper into this\
+    \ aspect. \n\nIn service of understanding and studying human movement in the natural\
+    \ world, we are presenting this rough couple of square meters of space as the\
+    \ natural world. This is my ecological niche, the space of the environment where\
+    \ this particular organism operates, so it is valid. I have spent a lot of time\
+    \ in front of cameras, so..."
+- dur: 180.0
+  end: 720.0
+  start: 540.0
+  text: "You know, there is not too much artifice here. We recorded five separate\
+    \ recordings. The first one is calibration; that was the part where I set up the\
+    \ cameras and showed that grid-like shape, which is an object of known shape and\
+    \ size that is very easy to track. I used this to characterize the positions of\
+    \ the cameras and localize them in space, which is necessary. Calibration generally\
+    \ involves setting up your equipment, then measuring something that you already\
+    \ know the answer to. The principle is that if I use the tool to measure something\
+    \ I already know and it gives me the correct answer, that indicates the tool is\
+    \ measuring the world in a meaningful way. From there, I can move on to measuring\
+    \ things in the world where I don\u2019t know the answer; in this case, it involves\
+    \ observing movement in space. We started with two matched experiments. The first\
+    \ recording involved standing balance as a control condition, split into three\
+    \ phases: standing on two feet, standing on one foot (left), and then standing\
+    \ on the other foot (right). This experimental condition isn't particularly exciting;\
+    \ it's a classic case where I chose an experiment for which I was fairly sure\
+    \ of the outcome. I'm trying to make a point regarding my theoretical description\
+    \ of the objectives of my research study. In this case, it's about expounding\
+    \ on the neural control of human balance. I called this condition standing with\
+    \ support, and it includes matched parameters where I perform all the same actions\
+    \ in the manipulated condition. I seem to forget the control conditions..."
+- dur: 180.0
+  end: 900.0
+  start: 720.0
+  text: "The one where you didn't change anything\u2014 I forget the name of the one\
+    \ where you change something. But in this one, I am doing the same behaviors,\
+    \ except now I'm using that stick as a point of support. With this sort of difference\
+    \ in the behaviors and the measurement fidelity that I expect to achieve, along\
+    \ with the theoretical framework of this strange idea that we can boil down a\
+    \ human into a singular point mass, there might be insights about the behavior\
+    \ in question. These elements come together, allowing us to make predictions about\
+    \ the future, and then we can use the data that we have to check those predictions.\
+    \ I'm not going to spoil the game just yet, but I'll bet you can make some guesses\
+    \ about how these conditions will vary. Oh, and importantly, for the two-feet\
+    \ standing condition, I didn't just stand here straight; I was leaning as far\
+    \ as I could in all directions, based on my internal sense of how far I could\
+    \ lean without needing to take a step to stay upright. Then there are these two\
+    \ other conditions: one which I call \"three big jumps.\" Putting \"three\" in\
+    \ the title is just a hint for me because, eventually, you want to chop this up\
+    \ into smaller pieces. So telling myself that there are three here helps me know\
+    \ how many to look for. The second one is repeated jumps\u2014 for some amount\
+    \ of time. I don't know. I also want to clarify that saying this is three big\
+    \ jumps is not to suggest that this is a good way to name your trials and record\
+    \ data. This is actually not a good way; you should avoid embedding that kind\
+    \ of stuff into the title. However, this is kind of easy\u2014 I'm allowing it\
+    \ for myself, and you can do it too. You'll discover through practice why it's\
+    \ not a good idea, and I'll leave that as an exercise for your future. Great,\
+    \ do we feel caught up? Do we feel aware of the situation? I'll leave that there.\
+    \ Today, I think I'm going to focus on the two standing conditions. We'll see\
+    \ how far we get with that. We talked about the jumping data from last time."
+- dur: 180.0
+  end: 1080.0
+  start: 900.0
+  text: "At least the big jump data, but we'll get back to it. Actually, there's one\
+    \ more distinction I want to highlight here. This is less about the data we recorded\
+    \ and more about a difference between these behaviors. Specifically, the balance\
+    \ and posture behavior versus the jumping behavior. It gets interesting with the\
+    \ big jumps versus the repeated jumps. With the standing posture, it's a continuous\
+    \ control problem. I'm standing here, my feet are on the ground, and my base of\
+    \ support is a certain space. I'm continuously trying to keep my center of mass\
+    \ within that base of support by using whatever I'm doing with my leg muscles\
+    \ and my equilibrium sense. It's a continuous overtime behavior. This is different\
+    \ from something like a jump, which is a more discreet, momentary behavior. There's\
+    \ a period of time before the jump, then the jump itself, and a period of time\
+    \ after. So this involves the wind-up, the jump itself, and the landing. Unlike\
+    \ the continuous control, this is a discreet behavior that you're doing once;\
+    \ in this case, it's jumping off the ground. There\u2019s all the physics involved,\
+    \ like the moment of liftoff and the moment of contact. You could compare that\
+    \ to throwing something in the air, either throwing it and then catching it or\
+    \ simply throwing it at a target. This is more of a discreet, singular targeted\
+    \ behavior. If I'm trying to hit a target, I aim, set up, wind up, throw, and\
+    \ at some point, the object leaves my hand and is out of my control. This contrasts\
+    \ with something more like pin the tail on the donkey, where I might be trying\
+    \ to steer it in and I'm controlling it the entire time. There are a lot of deeper\
+    \ layers here; it's a very intuitive distinction, but there are many differences\
+    \ once you start thinking about this in terms of robotics and control systems.\
+    \ Continuous control starts getting into feedback control, while the more discreet\
+    \ control relates to feed-forward control and model-based predictions. None of\
+    \ which we're really going to talk much about, but just so you know, those are\
+    \ the deeper layers in this discussion."
+- dur: 180.0
+  end: 1260.0
+  start: 1080.0
+  text: "There is a distinction between three big jumps, where I sort of wind up putting\
+    \ everything I can into the ground, landing, resetting, and then doing it again,\
+    \ versus a repeated jump scenario, where it is more of a continuous process. In\
+    \ the latter, the force of compression from the landing of the previous jump becomes\
+    \ the force that carries me into the next one. So there isn't that period of reset\
+    \ and reestablishment. With the three big jumps, you can look at each of them\
+    \ individually, aside from factors like fatigue. However, with repeated jumps,\
+    \ they carry into each other so well that you cannot consider one without considering\
+    \ the jump that came before it. This is more similar to walking, running, or juggling,\
+    \ or some kind of continuous behavior. Running, in particular, shows this case,\
+    \ where you are coming off the ground at discrete intervals, and the force from\
+    \ landing one step compresses the spring of your body, which contributes part\
+    \ of the energy that propels you into the next step.\n\nThere are many deep layers\
+    \ involved, particularly concerning the motor neural control of movement. There\
+    \ are distinctions about where different types of control may reside in your cortex,\
+    \ subcortex, or spinal region. The compression from one jump leading into the\
+    \ next, and the forces from one step setting you up for the step that comes after\
+    \ it, gets very close to the physics. The closer you are to the physics, the lower\
+    \ in the motor hierarchy you tend to operate. A lot of aspects of locomotion are\
+    \ thought to have their control at the spinal level, specifically in spinal central\
+    \ pattern generators. These are believed to initiate the process, and once it\
+    \ starts, it gets shunted down to the lower layers of your nervous system.\n\n\
+    For example, as far as I understand, and I haven\u2019t checked in a while, this\
+    \ was one of my pet questions as a graduate student: How much of locomotion is\
+    \ controlled by the motor cortex versus controlled by the lower levels of the\
+    \ nervous system? The last time I explored this, I found that when you initiate\
+    \ gait\u2014when you start walking\u2014there is a lot of activity in the motor\
+    \ cortex. However, during continuous locomotion, like walking from one part of\
+    \ campus to another, you're in..."
+- dur: 180.0
+  end: 1440.0
+  start: 1260.0
+  text: "Happily in locomotion mode, moving at a relatively constant preferred walking\
+    \ speed, there's not a lot happening in the cortex at that point. If you start\
+    \ getting onto rocky terrain where you're picking your step, it might show back\
+    \ up. But sort of the idea is that the motor cortex initiates the gait behavior\
+    \ and terminates the gait behavior. So you start walking, and then you come to\
+    \ a stop. But during its sort of standard operation, a lot of the basic control\
+    \ is handled by the lower parts of your nervous system. Your vision is thought\
+    \ to go through subcortical pathways to keep looking for tripping hazards and\
+    \ avoid stepping on a stick, for example, as well as keeping balance and not falling\
+    \ over. There's some indication that this visual path goes subcortical, so it\
+    \ doesn\u2019t actually go into the pink wrinkly thing up top; it kind of bypasses\
+    \ that. Now we are directly at the forefront of how much we know about that kind\
+    \ of stuff, so I\u2019ll just leave it there. Great question!\n\nThere\u2019s\
+    \ such a thing as what\u2019s called the startle response. It's the thing that\
+    \ we all know, it's kind of like, \u201Cah!\u201D That\u2019s one of those places\
+    \ where the cartoon starts to break down between, oh, this part is controlled\
+    \ by the higher level and this part is controlled by the lower level. The startle\
+    \ response is very basic; all vertebrates startle. It\u2019s triggered by looming\
+    \ objects or situations where you might be slipping. This would suggest it\u2019\
+    s a lower level of control, but it has characteristics that are more sophisticated\
+    \ than you would expect. For example, if I\u2019m falling, I reach out and grab\
+    \ something. So whatever system is controlling those kinds of startle responses\
+    \ and balance correction responses has access to aspects that we tend to associate\
+    \ with the higher levels.\n\nSo it starts to get complicated. That\u2019s one\
+    \ of those questions that you could ask the bot a lot about, and it would say\
+    \ a lot of things. However, I wouldn\u2019t trust anything it says in the specifics\
+    \ because as an expert in that area, I know that it gets complicated and murky.\
+    \ If you try to find recent papers about it, you could probably find stuff in\
+    \ rodents about startle responses. But when you start looking at research in humans,\
+    \ the quality of that research is harder to assess because it\u2019s challenging\
+    \ to study humans, and you can't conduct invasive studies on them."
+- dur: 180.0
+  end: 1620.0
+  start: 1440.0
+  text: "But yes, sort of like that. There is a study that I saw which looked at walking\
+    \ in VR, and every so often the VR world would rotate as if you were falling over.\
+    \ They measured responses at the full body level, at the muscular level, and found\
+    \ that there were these responses in the ankle musculature that occurred about\
+    \ 120 milliseconds after the perturbation. This is way too fast to go through\
+    \ the visual cortex, as that is thought to be a much slower process. \n\nThere\
+    \ are also studies of people running on a treadmill where they drop a plate that\
+    \ the participants have to step over, and you see responses within 50 to 100 milliseconds.\
+    \ This again provides evidence of a sort of subcortical pathway\u2014subcortical\
+    \ meaning below the cortex and bypassing the cortical processing. However, these\
+    \ are just cartoons; we're talking about bundles of millions of fibers of neurons.\
+    \ When we say it bypasses this part of the cortex, we mean that most of those\
+    \ fibers don't project onto the cortex, but if 20,000 fibers go back, we're really\
+    \ talking in terms of statistics, which gets murky really fast. \n\nI don't know\
+    \ if there is a great answer to this question because I don't think anyone does.\
+    \ There might be some people who could give you a few extra layers, but you quickly\
+    \ get into a space that is hard to define, which is actually a good place to be\u2014\
+    where all the work happens. \n\nAny other thoughts or questions? Yes, great. Let's\
+    \ talk about standing\u2014the noblest of behaviors, outstanding in our fields.\
+    \ \n\nFirst things first, let's take a moment to mourn the reality that we will\
+    \ never truly know the answers to what was happening here, here, or here. We will\
+    \ be looking at, thinking about, analyzing, and considering events that happened\
+    \ like last week. Those moments are gone. We are going to try to make inferences\
+    \ about things like: What was my musculature doing? What was my nervous system\
+    \ doing? Where was the state of my body, and what was the mass distribution at\
+    \ different points in time? These are the questions we want to answer, but the\
+    \ reality is that the true answer to those questions is lost. It's gone."
+- dur: 180.0
+  end: 1800.0
+  start: 1620.0
+  text: "What happened is now gone; it dissolves into the past, like thermodynamic\
+    \ foam and all that good stuff. Any questions we might want to ask about it will\
+    \ never have definitive answers. The only reason we can state anything about the\
+    \ past event is that we have an empirical apparatus set up, calibrated, and recording.\
+    \ This recording was able to capture some bare shadows of data that we believe\
+    \ correlate to the hypothetical true fact of the universe regarding what I was\
+    \ doing in that space at that specific point in the past. \n\nIn this particular\
+    \ case, the data we collected is in the form of videos. I don't know if you've\
+    \ heard of them, but they're great and super useful. Unfortunately, the recordings\
+    \ themselves were not my greatest work; the camera setups were not ideal, and\
+    \ it was super dark. Therefore, the fidelity of the data we obtained may not be\
+    \ the best in the universe, but it's sufficient. \n\nThis video is a record of\
+    \ the data we recorded, and the empirical measurement it represents is samples\
+    \ from a particular cone of light from a specific location in space. The video\
+    \ runs at 30 frames per second, which is somewhat slow for scientific data, but\
+    \ standard for most videos you encounter. It is 720p, which is pretty standard.\
+    \ \n\nThe video resolution is 720 pixels high by 1280 pixels wide, meaning if\
+    \ you see things like HD (high definition) 1080p by 1920, 4K is simply whatever\
+    \ 1080 times two is divided by whatever 1920 times two is. This is a raster plot\
+    \ or raster recording: the 720 refers to the vertical pixel count, and if you\
+    \ zoom way into these tiny pixels and count them, there will be 720 in that direction\
+    \ and then 1280 in the other direction."
+- dur: 180.0
+  end: 1980.0
+  start: 1800.0
+  text: "In each of these little squares, there are actually three recordings: one\
+    \ in the red channel, one in the green channel, and one in the blue channel. The\
+    \ pixel itself represents a number between 0 and 255, which is 2 to the power\
+    \ of 8. If it\u2019s zero, it means that that tiny little section of whatever\
+    \ sensor is on the back of the camera recorded zero intensities of photons. I\
+    \ guess the unit would be Candelas, but I don\u2019t really know how that works.\
+    \ The number in this spot will be between zero and, let\u2019s say, not worry\
+    \ about the exact number. We can say it\u2019s between 0 and 100%, where 100%\
+    \ is the maximum value that little sensor at that section of the video was able\
+    \ to record. Roughly speaking, this represents white, which is 100% active, and\
+    \ this represents black, which is 0% active. Thus, we get one of these images\
+    \ every 33 milliseconds, resulting in a weird file called a video MP4. Before\
+    \ that, it\u2019s just a file format; it\u2019s just like an instruction set that\
+    \ the computer uses to turn this into something that our primate eyes like to\
+    \ look at. There are three channels, and this is analogous to the way I\u2019\
+    ve talked about vision before, with moments where environmental energy gets transduced\
+    \ into a different form of energy. In your eyes, light is absorbed by opsin and\
+    \ converted into electrochemical potentials. In a camera, light is absorbed by\
+    \ some special crystal of silicon, which then turns into a pattern of voltages\
+    \ that gets measured, recorded, and converted into this picture. We believe there\u2019\
+    s something in the activation pattern on the back of the camera sensor, at the\
+    \ different time points of recording, that is correlated with reality. The reason\
+    \ we believe this is that when we look at it, we say, \"Yeah, that looks like\
+    \ a person.\" Not only does it look like a person, it looks like the person who\
+    \ was standing in front of the camera at the time I saw that person. Then, the\
+    \ person pressed record. I look at it and say, \"Yes, that seems right; I think\
+    \ I understand how cameras work.\" It\u2019s that weird intuitive gut check of,\
+    \ \"Yeah, this seems like a vaguely valid recording. That\u2019s the empirical\
+    \ basis of everything,\""
+- dur: 180.0
+  end: 2160.0
+  start: 1980.0
+  text: "Everything I am about to show you will involve computations based on these\
+    \ foundational empirical measurements. It is interesting to discuss this in the\
+    \ context of low-quality videos from webcams, but I assure you that every empirical\
+    \ investigation you conduct from this point forward will follow a similar structure.\
+    \ Typically, there will be some empirical measurement, unless it is a computational\
+    \ study, which is an entirely different area. There will be a piece of equipment\
+    \ that you have calibrated against a known value, recording either a single empirical\
+    \ measurement or a time series of empirical measurements. You must have some level\
+    \ of trust regarding whether this equipment accurately reflects a true reality\
+    \ of the world, which often refers to historical data that may or may not be reproducible.\
+    \ In this case, you could capture the same behavior again, but you would not have\
+    \ the opportunity to record this exact moment in time again. Practically speaking,\
+    \ as a researcher, this data is not particularly precious because I can always\
+    \ redo it. However, if this were, for instance, an amputee patient whom I had\
+    \ to recruit, and they traveled across town just to stand in front of the camera\
+    \ for the recording, then if the lighting was too poor or if the camera was incorrectly\
+    \ positioned, it would be a much bigger disappointment because recreating that\
+    \ specific data would be much more challenging.\n\nSo, learn your equipment. When\
+    \ you reach the point of recording important data, it is crucial to understand\
+    \ all the ways it can fail. Additionally, there is another empirical measurement\
+    \ at play here: the timestamps from the videos. I have measures of the computer's\
+    \ time stamps from each recorded frame. I do not trust it down to nanoseconds,\
+    \ but I do trust it to about milliseconds\u2014though that's questionable. This\
+    \ is another aspect where, if I deleted these timestamps, I could never recreate\
+    \ them. Videos generally do not encode the specific time each image was recorded;\
+    \ rather, they indicate a frame rate, like 30 frames per second, regardless of\
+    \ the actual time variations. There are many deeper complexities in the video\
+    \ capture software concerning these timestamps, but we will not delve into those\
+    \ details in this context, as they are quite intricate."
+- dur: 180.0
+  end: 2340.0
+  start: 2160.0
+  text: 'Recording and getting everything nicely and temporarily synced between the
+    multiple cameras is important. So this is the base data: videos from multiple
+    locations. We also have this calibration data which tells us the positions of
+    the cameras in space. For example, camera one has trip rotation translation, which
+    involves position and rotation. When combined, these give us the orientation with
+    six degrees of freedom, along with the positions of the cameras. This is another
+    instance where, without the calibration data for the cameras'' locations, I cannot
+    recreate the scene. It would be very difficult to do so. If I absolutely had to,
+    I could write some code to reconstruct the camera positions without the checkerboard,
+    just using marks on the board and similar references, but I prefer not to do that.
+    I consider the calibration data to be a crucial part of the base data; without
+    it or if it were done incorrectly, recreation would become very challenging. For
+    instance, if I used the wrong checkerboard or mistakenly included another checkerboard
+    in the background without noticing, that process would fail. I would then need
+    to either figure out how to fix it or record the data again. This is something
+    that may come up in your career; however, my personal belief and advice is that
+    it''s usually a much better idea to record data, even if it is poor quality, learn
+    from the experience, and then record it again. Don''t spend too much time trying
+    to fix bad data if you can avoid it. You can''t always avoid that scenario, but
+    generally speaking, if you have the option, it''s best to identify what went wrong
+    and then record again. That''s my personal advice as a beleaguered scientist.
+    So, let''s set aside all those issues and focus on the base data, which consists
+    of the videos. If that is the base data, then this is the output data. This represents
+    the approximation of what we''ve achieved. Let''s turn off the mesh, which is
+    primarily for visual purposes. This demonstrates the level of fidelity we have
+    in reconstructing the human body. It involved a lot of hard work to achieve this
+    level of detail; it took years of effort on my part.'
+- dur: 180.0
+  end: 2520.0
+  start: 2340.0
+  text: 'Life and years to come was to produce this data, and I''m quite proud of
+    it, but also it''s garbage. There is nothing like this; it is such an impoverished
+    recreation. This thing is like a couple of chunks of wood, and I am several trillion
+    cells and billions of neurons, along with thoughts, dreams, histories, and stuff
+    like that. The feet here are just solid blocks, whereas my feet have this very
+    complicated muscular-skeletal structure. This thing doesn''t have any neurons;
+    it''s extremely impoverished, but it''s the best we''ve got.
+
+
+    And then all of this... this point is not worth the time I''m taking to make it.
+    So, this is the actual data model that we''re looking at here. This is the whole
+    thing boiled down to a singular center of mass. It doesn''t even have rotation;
+    it just has position. It''s a long way to make it down to an extremely condensed
+    form, an extremely low-dimensional representation of something that is infinitely
+    dimensional. You would require... I don''t know how many numbers. This thing requires
+    three numbers to perfectly define its position in space at any moment in time.
+    I don''t know how many numbers it would take to define me as a person at any moment
+    in time, but it''s a very, very large number.
+
+
+    This thing, I think, has 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14... so 14
+    multiplied by 3 equals 42. This is 13 joints and three degrees of freedom, which
+    requires 42 numbers to define at any moment in time. So, if you want to know questions
+    about things like joint angles, this is not sufficient. However, if you''re just
+    looking at things like the center of mass versus the base of support, it''s nice
+    to have the low-dimensional representation.'
+- dur: 180.0
+  end: 2700.0
+  start: 2520.0
+  text: "Output, and then I do that. I'll come back; I do this, and it goes away.\
+    \ Great. Okay, so how do we get from point A to point B here? Well, the first\
+    \ thing we have to do is just a little bit of magic. By magic, of course, I mean\
+    \ some form of stochastic process involving machine learning. These days, in the\
+    \ year of our Lord 2025, there is a lot of AI talk everywhere. If you've been\
+    \ paying attention, there's been a lot of machine learning talk for quite a long\
+    \ time\u2014since as long as you've been alive, easily. But if you're looking\
+    \ for a specific date, like 1986, Rumelhart and some other guy came up with backpropagation,\
+    \ which is a very important technique that basically makes neural networks work.\
+    \ So, since then, everything has the term \"AI\" in it, which is basically just\
+    \ a marketing term that means a neural network that has language capacity. This\
+    \ is kind of a problem. I obviously like AI; we're using it in this class a lot,\
+    \ but it's a problem empirically because machine learning involves, by definition,\
+    \ some form of trained networks\u2014a trained neural network where there's some\
+    \ empirical data that gets combined with machine learning processes to produce\
+    \ a neural network that generates an output of some kind. So when you talk to\
+    \ the bot on Discord, behind the scenes\u2014many layers behind the scenes\u2014\
+    the thing that actually produces the words that come back onto the screen and\
+    \ sort of feel like a human response is generated probabilistically from a neural\
+    \ network that was trained on language data. Importantly, I'm saying probabilistically\
+    \ because neural networks, machine learning algorithms, and computations based\
+    \ on neural networks only operate in that probabilistic, stochastic space; they\
+    \ do not perform hard computations that will give you deterministic responses.\
+    \ For example, a deterministic calculation would be the distance between two points.\
+    \ You would use the Pythagorean theorem for that. Whatever the coordinates X and\
+    \ Y are, L equals the square root of (X^2 + Y^2)."
+- dur: 180.0
+  end: 2880.0
+  start: 2700.0
+  text: "The Pythagorean theorem helps measure the distance between two points; you\
+    \ can perform this computation and you will always get the same number if you\
+    \ input the same values. In contrast, machine learning algorithms, neural networks,\
+    \ and any AI-based solutions, as the marketing folks would say, do not have that\
+    \ characteristic. There will always be some variability and stochastic aspects\
+    \ to it. In this pipeline, I have been very careful; there is only one point in\
+    \ the process that involves a machine learning algorithm, which is this particular\
+    \ step where we convert the video into something that's lower dimensional and\
+    \ directly related to the aspect we care about. This involves a bit of jargon\u2014\
+    a convolutional neural network, which is essentially a trained model developed\
+    \ from many hand-labeled videos and images. People went through these images and\
+    \ marked where the shoulders, hips, and wrists are located. The neural network's\
+    \ convolutional part means it runs a sort of search pattern over the image looking\
+    \ for specific features. For example, the ankle detector continuously searches\
+    \ for ankles and has separate detectors for right and left ankles. When it identifies\
+    \ a probable ankle location on the screen, it peaks at the probability curve and\
+    \ draws a dot to indicate where the ankle is. This is a sort of strange magic,\
+    \ something that, despite seeming impossible, is now a reality. Before 2017, this\
+    \ capability was not available. However, in 2017, some researchers from Carnegie\
+    \ Mellon published a paper called OpenPose and released a model named OpenPose.\
+    \ It was the first of its kind; building on existing models and techniques, they\
+    \ produced an output that could reliably draw a two-dimensional stick figure over\
+    \ a picture of a person. If you Google OpenPose now, you will find the repository,\
+    \ which can be quite complex to use but is incredibly useful. That technology\
+    \ is the underlying advancement that makes the rest of this possible. Video has\
+    \ always been an unusual form of data because, as visually adept primates, we\
+    \ excel at interpreting videos and extracting information. You do this constantly;\
+    \ when watching a video, you perceive a rectangle of light flickering and discern\
+    \ the actions of the person within it."
+- dur: 180.0
+  end: 3060.0
+  start: 2880.0
+  text: "Petting a cat is like riding a bike; you're very good at that. You can tell\
+    \ many truth-preserving things about an image with your giant human brain. Scientifically,\
+    \ video has been used for a long time, but it has always been very challenging\
+    \ to convert that qualitative, gut-check sense of what's going on in the video\
+    \ into something that is empirically grounded enough for scientific investigation.\
+    \ Historically, one of the best methods we had was hand coding. You would train\
+    \ a group of typically undergraduates to look at videos. Much of developmental\
+    \ psychology involves watching videos of babies doing things and having undergraduates\
+    \ observe these actions, noting timestamps like, at 12 seconds the baby grabbed\
+    \ the toy, at 13 seconds they handed it to mom, at 14 seconds, and so on. This\
+    \ manual labeling of videos produces base data, such as understanding that babies\
+    \ like to reach for toys or analyzing whether a child is looking at their mother,\
+    \ and assessing the odds related to autism spectrum based on shared attention.\n\
+    \nThis method is valid, but it also presents a huge bottleneck. If we needed to\
+    \ rely solely on humans to manually draw points on the screen, it would be a significant\
+    \ limitation. However, due to the advent of convolutional neural networks, we\
+    \ can now send images at 30 frames per second from multiple cameras to a machine,\
+    \ which will autonomously draw the necessary points on the screen. Critically,\
+    \ the step that operates as the machine learning stochastic 'magic box' produces\
+    \ data that manifests in the form of a stick figure drawn over an image of a person.\
+    \ If you evaluate how well this process draws a stick figure on an image, you\
+    \ can tap into billions of years of evolution of your visual cortex to determine\
+    \ its accuracy. Now, even though we incorporate the 'magic box' step into our\
+    \ process, we can still gut-check ourselves and regain some of the trust we associate\
+    \ with established processes, like the Pythagorean theorem\u2014trust that may\
+    \ be lacking when we deal with neural networks, machine learning algorithms, or\
+    \ AI.\n\nThis relates to the field of epistemology, which is the study of knowledge\
+    \ and the question of how we know what we know. The reason I trust this data is\
+    \ that the step of the process I trust the least is visually verifiable. I have\
+    \ reviewed it and..."
+- dur: 180.0
+  end: 3240.0
+  start: 3060.0
+  text: "I know this process well enough that I no longer have to spot check all the\
+    \ videos to trust them. I have done that enough to say, \"Okay, this is a vaguely\
+    \ big word here, not an important term here.\" This is a truth-preserving process;\
+    \ I believe that this step is not throwing fake data into my computational engine,\
+    \ so I now trust the output. \n\nThere are other paid software programs that do\
+    \ marketless motion capture, and as far as I understand, most or all of them are\
+    \ closed source. I have various people on the inside, and they have a step in\
+    \ their process where they use a machine learning algorithm to clean their data.\
+    \ When there are jiggles and wiggles, and weird stuff going on, they have a neural\
+    \ network trained to clean that data and produce data without that noise. However,\
+    \ that is a non-truth preserving process because you can't spot check it. That's\
+    \ okay for them because they are generally producing this for artists and similar\
+    \ purposes, but you cannot do that if you want the data to come out scientifically\
+    \ and empirically valid. \n\nAnyways, moving on. This is the high technology part,\
+    \ the weird magic box part. The output of that is going to be, ignoring the face,\
+    \ the XY positions of, I think, 32 points not counting the face and hands. In\
+    \ this particular stick figure model, there are about 32 points. For each frame\
+    \ of each video, there are going to be 32 times 2 numbers produced. These numbers\
+    \ are related to an image where (0, 0) is at the upper left, so you start counting\
+    \ from there. We tend to think of X as going this way and Y as going that way,\
+    \ but for image coordinates, X is this way and Y is that way. It's confusing because\
+    \ the top left corner is zero, and then the bottom corner is 1280, meaning you\
+    \ count upwards going down. You get used to it. Z represents the depth plane into\
+    \ the scene."
+- dur: 180.0
+  end: 3420.0
+  start: 3240.0
+  text: "For one frame and one joint, you get the position of that joint in two dimensions,\
+    \ with the units being pixels. Once you have that two-dimensional data and you\
+    \ already have the positions of the cameras, you can perform the triangulation\
+    \ step. You have camera one, camera two, and camera three. This is me. Camera\
+    \ one sees the position here, camera two sees it there, and camera three sees\
+    \ it there. Using epipolar geometry, which is like old school geometry, you can\
+    \ do the triangulation math. I'm not sure from exactly what era epipolar geometry\
+    \ originates, but it involves similar triangles, which is classic geometry. The\
+    \ idea is that by knowing the position of each camera and being able to identify\
+    \ the location of the pixel from the camera's point of view, you can calculate\
+    \ the 3D location. \n\nTo illustrate, imagine you are standing on a rooftop with\
+    \ a laser pointer aimed at a target. From your position, you can say, \"I need\
+    \ to move this far over and this far down\" to know the direction of the target,\
+    \ but you cannot tell how far away it is because the laser does not provide that\
+    \ information. If a friend on another rooftop is also aiming a laser at the same\
+    \ target, they know how to adjust their angle too; they also need to turn this\
+    \ way and down that way. They know the direction but not the depth. \n\nNow, picture\
+    \ it being a foggy night, and you are on a third rooftop where you can see the\
+    \ paths of both lasers. Where those two laser paths intersect is the position\
+    \ of the target they are aiming at. If you know where those two people are in\
+    \ space and the direction of their laser beams, you can calculate the X, Y, and\
+    \ Z three-dimensional position of the object in question. You repeat this process\
+    \ thirty times per second, several hundred times per frame, to produce these measurements."
+- dur: 180.0
+  end: 3600.0
+  start: 3420.0
+  text: Again, this part is all computation. This is truth-preserving math. These
+    are hard numbers and hard math. You do the same thing, and you get the same answer
+    every time. I guess I should say that, assuming perfect data from the two-dimensional
+    stuff, the accuracy of this data will depend on the accuracy of your calibration.
+    If you are off in the calibration, then you will be off in the position of the
+    cameras, and consequently, you will be off in the estimated position of the three-dimensional
+    object. That's called... what do we call that? Accumulating error? It's not exactly
+    accumulating error, but whatever it is, the veracity, the truth value of this
+    measurement derives its accuracy from the validity of the camera position estimation
+    and the validity of the position in the image. Let's not even start asking questions
+    like, when you say that my shoulder is here, why is it here? Is it here? Is it
+    here? What are we targeting there? Is it some anatomical thing? Is it the muscle?
+    Is it the meat? Let's not ask those questions just yet. Or ever. Well, maybe someday.
+    Now, after all of this, we have, on every frame... I look over there... the 3D
+    position of the body in space, and it looks something like that. Not like that.
+    Actually, I wanted to see the mesh. Where is the mesh? So, looking at this point,
+    that point, and then the point over there, triangulated gives you this point right
+    here, which is the XYZ position of my shoulder, which in this particular case
+    looks like its position.
+- dur: 180.0
+  end: 3780.0
+  start: 3600.0
+  text: "I am 1.6 meters up and then 27.28 meters on the ground, so I'm roughly 1.8\
+    \ meters tall. This seems to check out. Oh, I didn't mention that there's a conversion\
+    \ into meter steps that comes from the fact that I know the size of the squares\
+    \ on that board. Otherwise, these would come out in arbitrary numbers based on\
+    \ pixels and similar metrics. In fact, it would be in units of the size of the\
+    \ square on that board. At some point in the process, I literally multiply the\
+    \ numbers that come out of the triangulation by 58, which is the millimeter scale\
+    \ of that square, and then divide that by 1,000 to get meters. This is roughly\
+    \ accurate, but also for most of the things I do in my life, the specific units\
+    \ don't super matter; what matters is where something is on frame one versus frame\
+    \ ten. What\u2019s important is the relative difference, like this one is twice\
+    \ as many as that one, and things like that.\n\nOkay, so now this is one of those\
+    \ places where there's a certain intuitive approach I took, which you may or may\
+    \ not have been offended by. I was discussing these computational measurements\
+    \ and then said, 'And here you go, that's the data,' while pointing to the output\
+    \ of what is clearly visualization software. This is not data in the sense that\
+    \ I can't perform calculations on this; this is like a dot floating in space.\
+    \ You can tell it's related to hard numbers that must come from somewhere, but\
+    \ this is not the data itself. This is a visual representation of the data, which\
+    \ is very, very useful to have, but the actual data in this context lives in a\
+    \ file called a CSV, which stands for comma-separated values. Here you go: it\
+    \ knows x, it knows y, it knows z. There's a number, there's a comma, another\
+    \ number, another comma, and so on. There are a lot of these numbers\u2014just\
+    \ look at all these numbers!\n\nCSV is a very standard data format. You probably\
+    \ know it in its Microsoft proprietary form, which is XLS, as in Excel spreadsheet.\
+    \ An Excel spreadsheet is essentially just CSVs with a bunch of formatting under\
+    \ the hood. So, in the same way that I rail against..."
+- dur: 180.0
+  end: 3960.0
+  start: 3780.0
+  text: "What's it called? A .dox file. I prefer things like Markdown. This is where\
+    \ I express my preference against formats like .xlsx and say I prefer CSV. However,\
+    \ it is also somewhat annoying to view it that way. We can open it, and this is\
+    \ the LibreOffice version of Excel. I don't really use Excel or Excel-like objects\
+    \ for anything except once or twice a year to open it up and show a room full\
+    \ of undergraduates, saying, \"Ooh, look at all the numbers!\" The default file\
+    \ format is not whatever; go to town.\n\nSo, why am I looking over there? Again,\
+    \ LibreOffice Calc, Microsoft Excel, Google Sheets\u2014these are all applications\
+    \ that can process CSV files, which stands for Comma Separated Values. It can\
+    \ also have Tab Separated Values. These are all just limited values; whatever,\
+    \ it doesn't matter. This is just a nice format that takes the values. The columns\
+    \ are the names of one type of data that you have, and in this case, the row is\
+    \ supposed to represent the frame number. Although, looking at this now, it shouldn't\
+    \ be like this\u2014there should be a column called 'Frame Number' and another\
+    \ one called 'Timestamp.' But we will get there.\n\nThere are as many rows as\
+    \ there are frames in the video. The reason why I like pulling this stuff up is\
+    \ to embark on a little journey that serves multiple purposes for your brain.\
+    \ One is that there should be a level of this that makes total sense. Maybe you\
+    \ know the geometry but not the math, or maybe you're not familiar with how convolutional\
+    \ neural networks work. Generally speaking, what I'm describing makes some vague\
+    \ kind of sense. If I desperately needed to, I could go through with a marker,\
+    \ mark frame by frame, and measure the distance from the sides and the pixels.\
+    \ If necessary, I could manually calculate the geometry and work that out by hand,\
+    \ but never in a hundred lifetimes could I do it this many times or this quickly.\
+    \ Moreover, I certainly couldn't then take that and draw whatever 392 images that\
+    \ I could then compile into a flipbook from as many angles as I want. Then, I\
+    \ could look at the data and interrogate it. This is, long story short, why."
+- dur: 180.0
+  end: 4140.0
+  start: 3960.0
+  text: 'Computers are very useful things to have. It''s not because they''re smart,
+    it''s because they''re dumb but super fast. They can only do exactly what you
+    tell them to do, but they can do it very, very quickly. For those of you who may
+    encounter some aspects of computers at some point in your life, if you write programs
+    or code, there will come a time when you might think, "Man, this computer is really
+    smart," but in that case, it''s actually not; humans are smart, and they made
+    this dumb box of rocks do very clever things. Alternatively, if you''re writing
+    code, you might get frustrated with the computer because it did something you
+    didn''t want it to do. I promise you, the computer did exactly what you told it
+    to; it followed your instructions precisely. If the output was not what you wanted,
+    it is, in fact, your fault.
+
+
+    So, these are a big matrix of numbers, and that''s not even all of them. That''s
+    just the body. There are other similar data structures for the face, the left
+    hand, the right hand, and another for the center of mass. Remember if I did that?
+    So, this is the center of mass data, and instead of being a big square of numbers,
+    this is just a three-column vector. You still have the same number of rows as
+    there are frames in the video, but now there''s only center of mass X, Y, and
+    Z. When I say we''ve decreased the dimensionality, this is what I mean. Instead
+    of being 720 by... let''s see... 720 multiplied by 12, which equals 8,640, that
+    is 921,000 pixels per image, per frame, per camera. For each of those pixels,
+    you need three numbers to define its state because of red, green, and blue. So,
+    we go from that unbelievably high-dimensional data down to this much smaller,
+    but still fairly intractable amount of data. Actually, I really like this. Here
+    is a zoomed-out picture.'
+- dur: 180.0
+  end: 4320.0
+  start: 4140.0
+  text: "of the full document, so each of these columns represents one of the data\
+    \ types. From all of that, we go down even further. The nice thing about this\
+    \ is that it starts to get to a place where your brain might start thinking, \"\
+    Yeah, I can handle this. This is more tractable. This is something I can fit into\
+    \ my head.\" From that place of mental comfort, you can start asking scientific\
+    \ questions that relate to the thing you actually care about, which is how does\
+    \ this thing stand up? Let's make some assumptions. Somewhere between this hyper-simplified\
+    \ model of the thing and the true facts of reality, there is such a thing as a\
+    \ nervous system. This nervous system has characteristics such as peripheral and\
+    \ central components, motor hierarchy, cortex, cerebellum, brain stem, and all\
+    \ that stuff. Let's assume this is happening in the context of all that fancy\
+    \ neuroscience stuff. Luckily, in this room, we don't have to do all that research\
+    \ ourselves because we can look at what other people have said about it. I don't\
+    \ have to do research on the cerebellum directly; I can just read about the people\
+    \ who are conducting more constrained biological work, like looking at rabbits\
+    \ in uncomfortable positions. I can incorporate what they tell me about these\
+    \ neural systems and subsystems into my attempts to understand and represent this\
+    \ data at a scale that\u2019s just not amenable to that level of neural biological\
+    \ precision. So, okay. With all of that context, I have 20 minutes left, which\
+    \ I think is just barely enough time to kind of make the main point of differentiation\
+    \ between the data from those two recordings. Before we do that, I think that\u2019\
+    s enough time to do it. Is there anything to say about the nonsense I said before?\
+    \ A lot of it is kind of like an intuition pump, a little bit of song and dance.\
+    \ Again, in that space, I'm trying to convey a bunch of stuff that makes sense,\
+    \ something you might already know at some intuitive level, while making that\
+    \ very specific point about the data flow."
+- dur: 180.0
+  end: 4500.0
+  start: 4320.0
+  text: "This is the computational pipeline from empirical measurement in the form\
+    \ of transducing environmental energy into electrons and voltages. We then go\
+    \ through various conversions, computations, and calculations to transform the\
+    \ base data into a format suitable for actual empirical research investigation.\
+    \ I must mention that I skipped an unbelievable number of steps. It is not just\
+    \ in the area where I perform the calculations myself, but also in the basics\
+    \ of how a camera works. I know vaguely how a camera operates at an engineering\
+    \ level, but I do not understand it in detail. Additionally, I do not fully comprehend\
+    \ how it sends signals down a wire, which gets absorbed by the USB port. This\
+    \ USB port is managed by the USB Foundation, which is an unknown group of possibly\
+    \ hundreds to thousands of individuals who have been working for decades on how\
+    \ to read data from a voltage pin of a small rectangular port on a computer. Once\
+    \ the data goes into the computer, it involves CPUs, RAM, and hard drives. The\
+    \ processes behind all of this are quite complex. This is why no human operates\
+    \ alone; we all stand on each other's shoulders and utilize the lifetimes of labor\
+    \ of others nearby, allowing us to focus on our own tasks. Furthermore, we should\
+    \ acknowledge Blender, the visualization software that is open-source and developed\
+    \ publicly by mostly volunteers since around 1993, or Python, the code I use for\
+    \ analysis, which is another open-source project that has existed for decades.\
+    \ There\u2019s also the history of computation, the metallurgy used for the stand,\
+    \ and the materials like plastic and glass. It is overwhelming. So, we boil it\
+    \ down and move on. Yes, the existential crises are where real learning occurs.\
+    \ Here I am, a fun little skeleton, and let's set the range for the frame."
+- dur: 180.0
+  end: 4680.0
+  start: 4500.0
+  text: "Say 150 to 150, display custom color. Great. Okay, so look at me go. Here\
+    \ I am. I am standing. This is Skelly. Skelly's the logo for the FreeAt Foundation.\
+    \ Good job, buddy! I have roughly similar bones in my body, so there you go. And\
+    \ this is a mesh; it's sort of like an animation thing. It's not really data;\
+    \ it's more just for visuals. These are the rigid bodies. These are the simplified\
+    \ segments that we're going to call parts of my body. Then, this is my center\
+    \ of mass, calculated with those anthropometry tables I talked about prior. And\
+    \ this sort of red line here\u2014let's make that pink\u2014represents the vertical\
+    \ projection of that three-dimensional point.\n\nNow, you see these terms like\
+    \ vertical projection, and it sounds very mathy and complex. It kind of is, but\
+    \ also this is the ground. Let's say the ground is where Z is zero. You could\
+    \ just define anything the way you want; let's just say the ground is at zero\
+    \ height. If I am here and I have an x, y, z location, let's say Z is like 1 or\
+    \ 1.2 height. If I want to know the vertical projection of that point, I just\
+    \ say x, y, 0. So that's how I take the vertical projection: I set x and I set\
+    \ the height to zero. Now, this has the same ground x-y horizontal position but\
+    \ is just directly underneath the point that I care about.\n\nWhy do I want to\
+    \ see that? It's because I'm talking about balance. Whenever I talk about balance,\
+    \ I keep using these terms like center of mass and base of support. The base of\
+    \ support is on the ground, so I'm\u2014I'm not really wanting to\u2014I'm even\
+    \ boiling this down further. I can say I actually don't care, for this task, for\
+    \ the jumping task. I care very much about the height of it; for the balance task,\
+    \ I don't care about the height at all. I only care about its position on the\
+    \ ground plane. So I'm going to project it down onto the ground plane and I want\
+    \ to compare it to the base of support. Where is the base of support here? There's\
+    \ a thing that's supposed to make it show up here, but I just can't."
+- dur: 180.0
+  end: 4860.0
+  start: 4680.0
+  text: Never make that work; maybe next semester. But in here, very intuitively,
+    the base of support is where my feet are. It's the extent of where my feet are,
+    behold, my base of support on the ground. So everywhere I can sort of, yeah, that's
+    where my feet go. That's the region of the ground where I can exert pressure and
+    sort of change the forces to affect my center of mass. I can push it outside of
+    my base of support, but when I do that, I have to move my other foot, or I will
+    hit the deck. For this task, as we have defined it, I told myself as a research
+    participant that my goal was to lean without moving my feet. So we can assume,
+    in this context, that if my feet move, then I have failed the task at hand. We
+    can assume that the neural control that I'm exhibiting is in the service of completing
+    that task. We've defined success and failure in this task, again giving us a little
+    bit more leverage to interpret this weird squiggly wiggly line here in terms of
+    how it relates to things like balance and posture. I'm going to say 300z, update,
+    I'll paths, great. The pink line now is showing the previous 10 seconds. That's
+    too many; bye, going to move his base of support, no nervous system, my fault.
+    Okay, now I'm trying to... I brought a mouse today because it's hard enough to
+    navigate these 3D spaces, but with a trackpad, it's like, 'Jesus Christ!' So this
+    is also... So I start out outside of the screen. This is what we call invalid
+    data. This is not... I didn't do this. You were all here; if I did, you would
+    have noticed. But this is what happens when there's nothing in the screen on the
+    CSV. This data looks just the same as the data where it's actually like a stick
+    figure; it's just not real. So I come in and I say, 'Oh yeah,' then it snaps on
+    top of me. Let's see here. So here I am, I'm standing and leaning forward, and
+    there's something... oh, let's do it like that. Oh, there we...
+- dur: 180.0
+  end: 5040.0
+  start: 4860.0
+  text: "So, I'm leaning all the way over; it's a little bit outside. There's another\
+    \ layer to this, where I'm calculating how to orient myself on the ground, which\
+    \ I don't fully trust. I don't fully trust this data. Theoretically, the prediction\
+    \ is that I should be right at the edge of my foot when I'm leaning all the way\
+    \ this way. However, if we examine the data about what's being tracked on my feet,\
+    \ it's a very impoverished model of the foot. I have a heel and I have a toe,\
+    \ but I don't have the outer extent of my foot represented. Even though I can\
+    \ apply force into the ground all the way out here, the data we have represents\
+    \ my foot as just a thin line on the ground. Furthermore, because this was not\
+    \ designed to be scientific software, those predictions will vary slightly based\
+    \ on the viewpoints of the cameras. There's a whole layer upon layer of how much\
+    \ you can trust things like the very specific data about where the feet are versus\
+    \ the full-body data about where the body is. But, you know, we kind of get by;\
+    \ it's close enough. It's also hard for many reasons. \n\nGenerally speaking,\
+    \ when studying human behavior, the harder the task, the easier it is to interpret.\
+    \ The harder the task, the fewer options there are to successfully complete it.\
+    \ For example, standing on two feet is easier than standing on one foot because\
+    \ the base of support is larger. Thus, making predictions about where the center\
+    \ of that base of support, or the center of mass, is going to be is necessarily\
+    \ more difficult when you\u2019re considering a larger area. When I'm on one foot,\
+    \ the base of support is much smaller, and so assuming I'm successfully standing\
+    \ on one foot, the ability to predict where the center of mass will be in this\
+    \ small region is easier because there are fewer variables in play. In this case,\
+    \ if we look at this moment where I'm standing on my right foot and observe that\
+    \ vertical projection of the center of mass, let's see..."
+- dur: 180.0
+  end: 5220.0
+  start: 5040.0
+  text: '11:37 So from frame 1137 to 2058, for these thousand frames, I am standing
+    over my right foot. What do you know? The vertical projection is right over my
+    right foot. Hooray! Science works, physics works, and mechanics are true! This
+    isn''t enough to tell me about my hip torque; the center of mass on its own isn''t
+    going to tell me about things like my hip torque or my knee flexion and stuff
+    like that. But in terms of the base level task of whether I am keeping my foot
+    in the right location relative to my body to stay upright, sure enough, I am.
+    And there we go. You can see, again, this is sort of easy to belittle or easy
+    to overlook. This is cool; this is a cool thing. Just so you know, I am proud
+    of it, so you''re welcome. Sorry, I said that. Okay, so in terms of base standing
+    posture, we could look at the left foot, but we''re running out of time very quickly.
+    Let''s assume for practical purposes that the left side of my body and the right
+    side of my body are similar enough that we don''t have to care about the left
+    side versus the right side. That''s not actually true, because there''s handedness
+    and footedness. I think I''m better on my right foot than I am on my left foot,
+    or vice versa; I can''t remember. But for the sake of expedience, this is what
+    it looks like when I''m standing under my own power and my own anatomical base
+    of support. Prediction-wise, how might this change if I''m holding something additional,
+    like something outside of my body? You can ask the question: what aspects of the
+    description of this physical model no longer apply when there''s something that
+    I''m touching that''s outside of my body? There are a lot of things. One of them
+    is that first thing I said, where my ability to put force into the world to move
+    my body is constrained to where my feet are when I''m standing on the ground like
+    this. My base of support is defined by my feet because that''s where I can put
+    force. That''s Newton''s third law: for every action I put into the world, the
+    world does a reaction and pushes me back. In this context, that''s called the
+    ground reaction force, which is very, very useful. You use it every day.'
+- dur: 180.0
+  end: 5400.0
+  start: 5220.0
+  text: Because of that constraint on my ability to put force into the world, sort
+    of being attached to where my feet are, in order for me to stay upright, I have
+    to keep my center of mass above the base of support. If I'm now touching something
+    else, that statement is no longer true. I can now get a reaction force from the
+    table, which is not noticeably where my foot is. Additionally, in this data recording,
+    I have no record of where the table was, so if I'm looking at this, I can't make
+    the same prediction about where the center of mass would be. I can predict which
+    direction I'm allowed to go out of that base of support and which direction would
+    require me to fall over. I just want to mention briefly that in 2015, there was
+    a DARPA robotics challenge where a bunch of bipeds were walking around. They performed
+    somewhat hilariously badly, but it was still a significant advance for the field.
+    One of the issues they really struggled with was calculating the reaction forces.
+    They had very good sensors on the ground, but they didn't have good sensors elsewhere.
+    There was at least one case where one of the robots was standing in a doorway,
+    trying to figure out what to do. They were calculating the force needed to move
+    in the right direction but didn't realize that its arm was touching the door frame.
+    As a result, when calculating the forces, they didn't account for this additional
+    force. Consequently, when they tried to make the correct step, it fell over, and
+    then had a balance response that was also incorrect because they hadn't calculated
+    that into it. If you Google '2015 DARPA robotics challenges', you will find many
+    entertaining clips of bipeds falling over dramatically, which remind us of the
+    power needed to move something with such an incredible mechanical disadvantage.
+    Anyway, three minutes isn't enough time, but let's continue. Hopefully, we can
+    get this in. Regarding the center of mass, I am now holding this stick. I believe
+    I am holding it in my right hand.
+- dur: 180.0
+  end: 5580.0
+  start: 5400.0
+  text: "I do want to hide you, yes, and I grab\u2014 I don't think we need the Tails.\
+    \ Now we should be able to make a nice prediction, especially because I was there.\
+    \ Here we go, 1182, 1182. Actually, I do want that about 2,000, and I do want\
+    \ to put a round frame, 500 before zero afterwards. Calculate the whole thing\
+    \ and display. No key frames; color is going to be green. Great! And what do you\
+    \ know? Sure enough, it's on the outside of the foot. So understandably, before\
+    \ we said this, we were hesitant to trust the locations of the foot to this high\
+    \ level of fidelity, which is a fair point. However, we also saw in that control\
+    \ condition that when I'm standing on one foot, it's pretty close to that line\
+    \ between the heel and the toe. Now that I have this unmeasured balance support\
+    \ over here, my actual base of support is no longer just the foot; it's the foot\
+    \ plus a little balance point over there. The reality is that, you know, I weigh\
+    \ about 200 pounds, which is a lot of force. I can't really put an appreciable\
+    \ percentage of that force into that little weenie stick. So it\u2019s not that\
+    \ the point is as good as the foot, but mathematically, I can pull some force\
+    \ from that direction. My actual effective base of support is going to extend\
+    \ outside of my foot in the direction of that support. There you go; empirical\
+    \ measurement result on the fly, in person! Hooray! Okay, that's cool; I feel\
+    \ good about that. We have very close timing. We'll probably talk about this just\
+    \ a touch more next Wednesday, and then we'll do that group work. Keep an eye\
+    \ on it!"
+- dur: 180.0
+  end: 5760.0
+  start: 5580.0
+  text: Keep an eye on the Discord server if I announce anything, but I probably won't
+    before Wednesday. Thank you, enjoy the rest of your lives. Thank you, goodbye.
+video_id: hCSj2z25rJ8

@@ -1,0 +1,1332 @@
+full_transcript: "Okay, great. Hello, and welcome to October. If you already had one\
+  \ of those, welcome to October 8th. So, today we're going to talk about balance,\
+  \ the center of mass, and base of support. After about an hour of discussing these\
+  \ topics, we'll do some group activities again. This will be our first technical\
+  \ split option. If you are interested in code and programming, you'll have the opportunity\
+  \ to focus on that. If you're not interested in that area, you can hang out, and\
+  \ we'll do more literature review-type activities. If you've never done it but are\
+  \ curious, then you can still participate, as interest and experience are separate\
+  \ matters. \n\nThe first thing I want to show before we get into the meat of today's\
+  \ discussion is a rolling checkpoint throughout the semester. This involves the\
+  \ AI aspect of the class, where I have now an initial example of scraping the server.\
+  \ This means pulling all of the chats you've been having with the bot. Effectively,\
+  \ I extract the markdown text file attached to the top of each chat, run it through\
+  \ the AI to summarize it, and pull out the main points and topics. I do this for\
+  \ each chat, each channel, each category, and then for the whole server. The idea\
+  \ is to use this to get a sense of what you are all working on and what interests\
+  \ you. For now, it\u2019s descriptive; it reflects what you are doing, and you can\
+  \ look at it if you want. \n\nIn the second half of class, we will start to steer\
+  \ this a bit more. We\u2019ll look at what topics seem to be coming up for many\
+  \ of you and gather more details about those subjects. We can analyze and say, 'Oh,\
+  \ they are really interested in this topic. Let's discuss it in the next lecture.'\
+  \ This process is more of a feedback type of approach. The results will be provided\
+  \ as a ZIP file, which you can download to your downloads folder, whatever that\
+  \ may be for you. You can unzip that so that it's just a regular folder. Oh, come\
+  \ on now. Is it giving you that invalid message? So, it's here. In the server, in\
+  \ the resources channel at the top, there's a thread called \"Server Scrape Checkpoints\"\
+  \ and there's a zip file. I am totally happy saying that this checkpoint zip file\
+  \ is corrupted, and we'll figure that out later. Cool! So, if you can figure it\
+  \ out, great. If not, it's basically a bunch of poorly formatted summaries of the\
+  \ things we've been talking about, and we just call this foreshadowing.\n\nThere\
+  \ are a couple of other things in that resources channel too that I added. One is\
+  \ this link up here to a YouTube playlist of these videos, except for the last video's\
+  \ video, because I forgot to save it. I forgot to hit save at the end of this, and\
+  \ I wasn't saving to a video format that is forgiving of closing the thing mid-recording,\
+  \ so that video was lost. RIP lost data; it happens.\n\nAnd then, yeah, that's another\
+  \ one of those like maybe we'll get to the point where I can scrape the video, pull\
+  \ the transcript, and get the topics out to put that into the notes, but we'll see\
+  \ about that. There's also this link to another playlist called \"AI Stuff,\" where\
+  \ I talk about things like building Skelly Bot and using it in classroom settings\
+  \ like this, so if you're interested in that kind of meta AI ed-tech stuff, watch\
+  \ that.\n\nYeah, and then the third thing I added to the server is in this lectures\
+  \ category over here. This one down here has a string of numbers which is the date:\
+  \ 2024-01-08. That's just a way to write your date concisely; it's called little-endian,\
+  \ meaning the little things are at the end of the number. So, big-endian, little-endian\u2014\
+  that's what that means if you ever come across it again. Composite people might\
+  \ know it; no one else will.\n\nIn that, I put a link to an outline of what I'm\
+  \ going to talk about today, which is some tutorial notes. These links don\u2019\
+  t work, but maybe you can figure it out. They\u2019re over here. Okay, cool. Well,\
+  \ so far I don\u2019t really give you any options. Um, yeah, so Obsidian calls folders.\
+  \ Vaults. You want to be opening that folder as a vault. If you feel like playing\
+  \ with that stuff, go to any chat and just download the MBB, which stands for markdown.\
+  \ It's the thing that turns plain text into formatted text. You just type it out\
+  \ in the raw, and then if the .md thing that you're looking at knows how to process\
+  \ markdown files, it turns it into that. So, download any chat at the top or download\
+  \ this markdown file. I feel it is the seed of the resolution revolution because\
+  \ we have just generally internalized this idea that text is like Microsoft or Google,\
+  \ when it really isn\u2019t. Text is like a behavior that you do on a keyboard,\
+  \ and we want it to look nice, but this is the raw that we actually care about.\
+  \ It's also the first sort of entry point to acknowledge that there\u2019s such\
+  \ a thing as interpreted text. You type this thing, and the computer knows how to\
+  \ make it pretty. Also, Google Aaron Schwartz. If you don\u2019t know who that is,\
+  \ he\u2019s one of the people who came up with the original definitions for markdown.\
+  \ You should look up who he is and then steal every paper ever published. A lot\
+  \ of professors say, \"Be careful; don\u2019t go to HUB or you\u2019ll accidentally\
+  \ steal papers.\" I'm telling you explicitly, go to sci-hub, steal papers, steal\
+  \ textbooks from LibGen. As a scientist operating under my academic freedom, it\
+  \ is the best thing I can do for you to say steal everything from the publishing\
+  \ industry. They think it's their intellectual property; it's not. It's ours to\
+  \ take back. None of that is relevant though. We\u2019ve been talking a lot about\
+  \ the center of mass. I\u2019ve sort of described it at various levels, and today\
+  \ I\u2019ve brought a series of props to help present that. Aaron, could you screw\
+  \ that together? Thank you. Part of the pattern that\u2019s emerging is that I show\
+  \ up late, setting up takes a while, I get frustrated and sweaty. I eventually get\
+  \ it working, I give a little update on the technical backend and AI nonsense, I\
+  \ have some sort of moral outrage moment, and then I talk a little bit about the\
+  \ philosophy of science before we get into the actual topic of discussion. This\
+  \ is the philosophy of science part. I\u2019ve talked about the concept of reductionism,\
+  \ which is one of those things where it\u2019s such a fundamental aspect of the\
+  \ way we live in this society and the way\u2026 Basically, the way that we do science\
+  \ in the Western tradition is a heavily reductionist tradition. This means that\
+  \ you take a big, complicated thing and chop it up into tiny, tiny pieces. Then\
+  \ you look at those pieces in isolated environments and hope that the things you\
+  \ learn about those small-scale isolated items will scale up to the larger actual\
+  \ desideratum of your study. Generally speaking, it does. That's why we do cell\
+  \ biology, genetics, particle physics, and study periodic tables. These are all\
+  \ fundamentally reductionist approaches to science. Reductionism may sound like\
+  \ an insult, but it's not; it's just a description of a way of looking at things.\
+  \ \n\nThe counter to that doesn't really have a defined name, but I generally think\
+  \ of it as more of a holism. Instead of taking the thing and chopping it into little\
+  \ parts\u2014because the problem that reductionism solves is that science is impossible;\
+  \ rule number one: it can't be done. We mere primates do not have access to capital\
+  \ T true facts of the world. We can only approximate them with a bunch of sloppy\
+  \ empirical measurements and then statistics. The problem of induction and black\
+  \ swans are related concepts you might want to dig into. \n\nSince we can't actually\
+  \ achieve true knowledge of the real world, we have to cheat and take various side\
+  \ steps. The traditional Western reductionist view of science is to chop things\
+  \ up into little pieces and hope those pieces fit together into something that resembles\
+  \ the whole. A more holistic approach cheats in a different way. Instead of taking\
+  \ the whole thing and chopping it into smaller parts to consider in isolation, you\
+  \ take the whole complicated thing and try to squish it down into what you think\
+  \ is the simplest possible model that captures the dynamics of the whole system.\
+  \ \n\nFor example, the concept of center of mass, which I'll show pictures of in\
+  \ a moment, fundamentally illustrates this approach. I've mentioned before that\
+  \ this is not something you're likely to find in specific textbooks; it\u2019s more\
+  \ about ideas I've cobbled together in my research, inspired largely by robotics\
+  \ approaches. If you look up passive dynamic walkers, that's a classic case\u2014\
+  Andy Ruina, Steve Collins, and others have explored how taking a complex object\
+  \ and reducing it down to a single point mass can be very helpful in trying to understand\
+  \ its dynamics. What's going on there? I think I forgot to mention that I brought\
+  \ a stick. This stick is like the middle part of a floor lamp, and I found it on\
+  \ the street. I tried to use it, but it didn't really work right. Then I realized\
+  \ that the middle part not only comes apart, allowing me to put it in my backpack\
+  \ and bring it to class, but it also pulls up very nicely. It turns out to be actually\
+  \ one meter long. I think somewhere at some factory, someone ordered a bunch of\
+  \ meter-long poles and cut them up, and now this is a meter stick. \n\nIt is aluminum\
+  \ or actually metal and roughly straight. It has some bends, but we can ignore that.\
+  \ It also has an even section; this part here is the geometric center of the stick.\
+  \ If I place this little thing here, then I can know that this is both the geometric\
+  \ center of the stick and the center of mass of the stick. \n\nIf I take this object\
+  \ and focus on it, basically, if I take this stick and chop it up into 1 cm sections,\
+  \ there would be 100 in a row. I would take the average position of each of those\
+  \ points: literally, just take the XYZ of this one, then the XYZ of that one, and\
+  \ the XYZ of that one. I would add up all the X's, add up all the Y's, and then\
+  \ divide them by the number of chunks. The resulting average position will be here,\
+  \ and it turns out that from the point of view of balance physics, that is the point\
+  \ you need to support to keep the thing from falling down.\n\nSo, that is true when\
+  \ you're supporting it from the bottom. It is also true if you pull the loop through\
+  \ itself; that's called a dirt pitch. If you pull it through again, it's called\
+  \ a pric, and it tends to stay. I have trusted my life and the lives of many people\
+  \ I love to knots in various contexts. A pric can nicely go over that little yellow\
+  \ spot and be cranked down so it will stay, in the same way that balancing... The\
+  \ center of mass keeps the object in the right position. From above, it's the same\
+  \ basic idea. There is more mass on this side than there is on that side, so when\
+  \ I move it over a little bit, it bounces back into place. In this case, because\
+  \ this is a uniformly massed object, the geometric center and the center of mass\
+  \ are the same location. I also found these on the street; there are a lot of fun\
+  \ things on the street if you know where to look. These are like old-school ankle\
+  \ weights, and you put them on your ankle. This is carpet padding, so it has high\
+  \ friction. By changing both the geometry and mass distribution, I\u2019ve altered\
+  \ the dynamics. The geometry along the long axis of this object hasn't changed much\
+  \ at all; it remains the same length. For any 3D object, there is a long axis, a\
+  \ middle axis\u2014sometimes referred to as the intermediate axis\u2014and a short\
+  \ axis. Often, they are symmetric, and in this case, the middle and intermediate\
+  \ axes are symmetric. You can also Google the intermediate axis theorem, otherwise\
+  \ known as the tennis racket theorem, which states that you can spin the object\
+  \ around the short axis, the long axis, and the middle axis. It flips midair, which\
+  \ is not directly relevant but interesting. There are some cool videos of people\
+  \ doing experiments on the space station, though that's not important right now.\
+  \ Essentially, I've changed the geometry a little bit, but not in a significant\
+  \ dimension; however, I've significantly changed the physics. Now, one side is much\
+  \ heavier than the other side. Previously, we were taking the geometric mean by\
+  \ averaging the positions of the mass points, which aligned with the center of mass.\
+  \ But in this case, that approach doesn't work because all the added points do not\
+  \ have the same density. For example, this is filled with sand or something similar.\
+  \ I can position the object accordingly, and that should be about right. There we\
+  \ go; now this is the center of mass. Although the geometry for our basic approximations\
+  \ hasn't changed, the physics has changed considerably, and consequently, the center\
+  \ of mass and balance point have also changed. Both when you're supporting it from\
+  \ the bottom and when you're supporting it from the top, the basic idea is that\
+  \ if I wanted to do another one, I think there are two of them. Here we go, once\
+  \ again, even heavier, so I can move it basically all the way over here. It's not\
+  \ quite right, but now the center of mass of the whole stick system is very close\
+  \ to the big bob at the end. Notice that the first time I moved it, I had to move\
+  \ it all the way over here. The second time, I had to move it far less. That's because\
+  \ torque is a thing. This is really hard. This is really easy. When we talk about\
+  \ the musculoskeletal system, this will come up again. If you're curious about how...\
+  \ Notice that my arm also resembles a long stick, and my shoulder, which is the\
+  \ main thing lifting it up, is this long and attached right here. So it's much more\
+  \ like doing this than doing this. Spoiler alert: Your muscles are unbelievably\
+  \ strong relative to the tasks they can perform because they're operating on a massive\
+  \ mechanical disadvantage. That's not important right now. So, okay, this is the\
+  \ intuitive center of mass. There is a difference between the geometric center of\
+  \ a rigid object and the center of mass. The center of mass, which you'll often\
+  \ hear referred to as the center of gravity, are the same thing. This is gravity\
+  \ being used in the term like density. The center of gravity just feels a little\
+  \ more old school to me, or in space, like in all contexts that matter for us, the\
+  \ center of mass and center of gravity are the same thing. So if you ever see COG\
+  \ in a paper, it's the same thing; it's just using a different term. Yeah, the center\
+  \ of... it's like, yeah, basically, the center of density would be another way to\
+  \ say that, but that's not quite right. Okay, so this is a stick made of trash I\
+  \ found on the street. Excuse me, this is a little wooden fellow, and it also has\
+  \ a center of mass, which I could measure if I wanted to. I'm allowed to chop this\
+  \ up, but I don't want to. But it is here. If our friend did one of those... Oh\
+  \ look, it tips over! So I have to move it sort of more this way, in the abdominal\
+  \ area. So as you move the... The mass of your body and the center of mass shift,\
+  \ as I said last time. The center of mass is not a part of your body; it is a description\
+  \ of your body. If you have one of these types of shapes, the center of mass can\
+  \ be outside your body. So, the center of mass is here because it's below that point\
+  \ of rotation. It becomes passively stable, which can kind of reject perturbations,\
+  \ and we'll talk about this shortly. This would be linked, but it's not. I placed\
+  \ it over here. So, this center of mass approximation is, I think, a very important\
+  \ and very useful hyper-simplification of the full complex object. It falls under\
+  \ the general heading of classical mechanics, which is a part of mechanical engineering\
+  \ if you can find the right building to walk into. Specifically, it falls under\
+  \ what I believe is called the finite element theorem, which basically says that\
+  \ you're allowed to look at the center of mass as a proxy for the dynamics of the\
+  \ whole object. So, you take this complicated object, chop it up into finite elements,\
+  \ which are small but not zero, and then examining the mean of those points can\
+  \ tell you things about the dynamics of the full complex object. I find this concept\
+  \ helpful to think about because the setup can be complex and gangly. However, if\
+  \ you do throw it, regardless of what you do, it still follows a nicely ballistic\
+  \ trajectory. You can also use this to show that even if it\u2019s spinning, it\
+  \ will spin around its center of mass and follow a ballistic trajectory. Each of\
+  \ these keys is a rigid body, connected by rigid bodies. Therefore, there is no\
+  \ stretch or strain or anything like that in the ballistic case; it wouldn't matter.\
+  \ But it's worth doing this with people. In this case, I don\u2019t know how much\
+  \ this stick weighs. I know that it is one meter long, and I don\u2019t know how\
+  \ much these ankle weights weigh, but if we wanted to, we could determine the mass\
+  \ of the weights in units of stick mass, using this kind of math, and learn things\
+  \ about the forces at play and other relevant factors. Controlling this with muscles,\
+  \ that information would be very relevant to us. If you want to do that for a human\
+  \ person, basically, I want to be able to calculate the center of mass of a person.\
+  \ But how do I get those numbers? Well, it turns out someone chopped up a bunch\
+  \ of dead people, weighed them, and we have these anthropometry tables. A really\
+  \ common one is Winter, which is from a biomechanics book. I think these tables\
+  \ show where they came from. It was like Air Force data; they chopped up cadavers\
+  \ and looked at the relative densities, did a bunch of statistical analyses, and\
+  \ you get numbers. This is the geometry of it. These numbers here, like .52H, where\
+  \ H is the total height of the person, are estimates of the relative proportions\
+  \ of different body segments in terms of units of height. Importantly, all the dead\
+  \ people they chopped up were men and they were old men because they were deceased.\
+  \ There\u2019s often a correlation between age and time. There are newer anthropometry\
+  \ tables that look at a broader demographic\u2014different genders, different body\
+  \ mass indices\u2014but by and large, a lot of those differences are small. Relative\
+  \ to the scales that I tend to look at in my research, they don\u2019t really shift\
+  \ the numbers that much, so I just kind of use these because it's a standard and\
+  \ it\u2019s around. These names here correspond roughly to the anatomy above, and\
+  \ they give you the name of the thing, the definition in terms of anatomical axes.\
+  \ For example, the foot is defined as the lateral malleolus to the head of the second\
+  \ metatarsal. The malleolus is on the outside; the metatarsal refers to your toe\
+  \ knuckle. It gives you the segment weight as a proportion of total body weight.\
+  \ For a standard-sized hand, your hand is roughly 6% of your body mass. The forearm\
+  \ and upper arm proportions can vary, and your foot is about 14%, which seems high,\
+  \ but I don\u2019t know. Your leg is\u2026 Oh sorry, 4%. Yeah, the thigh is 10%,\
+  \ and then it gives you the foot and leg, which are added up from the ones above\
+  \ it. In the center of mass calculation, I was showing last time with the blender\
+  \ demonstration, that little ball moving around was calculated using these numbers.\
+  \ We will talk about that in a little bit, but I just wanted to show roughly where\
+  \ that information comes from. \n\nI also, some time ago, in a different life, made\
+  \ a bunch of GIFs and posted them on Reddit. In fact, this was before Reddit was\
+  \ as it is now; it was still a cesspit, but a different kind. Basically, I would\
+  \ find videos of people doing interesting things and overlay them with basic center\
+  \ of mass analyses. \n\nThis is the hand forearm in a planar view, meaning it's\
+  \ a view from straight down one of the x, y, or z axes. So you get to ignore the\
+  \ 3D aspect of it and just focus on the 2D. The vertical lines show the extent of\
+  \ the base of support, which is where the hand is. The important thing to notice\
+  \ is that the center of mass always stays within that boundary because if it didn't,\
+  \ it would fall over. \n\nThere are a bunch of these GIFs. This one is wacky. I\
+  \ was getting fancier with stabilizing the image, and this athlete is very good\
+  \ at this type of movement. Again, the center of mass always stays within that boundary.\
+  \ He shifts his hands, and you can see how complicated this is. Yes, he's extraordinary.\
+  \ \n\nUsing dynamics, he pops himself up but keeps it within this range. The important\
+  \ thing to note is that his hand can only push on the ground. If the center of mass\
+  \ ever leaves those boundaries, he cannot pull it back; he can only push it farther\
+  \ away. \n\nThis next example is a violation of that rule. This is a balance beam,\
+  \ otherwise known as the hardest thing in sports. She does this cool move, but oh\
+  \ no, she falls. However, she manages to pull it back in. The most important part\
+  \ of that video for me is this moment right here, where she goes out but has a grip\
+  \ on the bar, allowing her to pull back in. This is the same basic principle. The\
+  \ idea of the wobble in the center of mass is noise in the estimates. All right,\
+  \ so those links are all there. There's a bunch of them; click through them. We\
+  \ will talk about them at some later date. So, roughly speaking, the important thing\
+  \ there is the center of mass. We did talk about the concept of the base of support.\
+  \ Your base of support is just the shape on the ground of your support surface.\
+  \ My base of support is defined by my feet, while this object's base of support\
+  \ is defined by that little point. It is not passively stable.\n\nOkay, so real\
+  \ quick, physics: Newton was a guy; he did a thing. Among other things, he came\
+  \ up with this sort of theory of mechanics, which is embodied by Newton's three\
+  \ laws of motion. These laws are false and wrong theoretical models of reality.\
+  \ I think this is a great example of how wrong theories can still be useful. Newton\
+  \ had a theory of reality where there was such a thing as position and velocity,\
+  \ but it wasn't until far later that a guy named Einstein came along and wrote some\
+  \ papers.\n\nI really don't like ascribing these thoughts to specific people because\
+  \ they are just the first humans who wrote them down. People say Newton invented\
+  \ calculus, but Leibniz also invented calculus at the same time in Germany, using\
+  \ better notations. Oftentimes, these are just ideas that are ready to be discovered.\
+  \ So, Newton's theory of classical mechanics is false on a scientific theoretical\
+  \ basis. If we wanted to actually calculate things like momentum, we would have\
+  \ to take into account things like relativity theory and E=mc\xB2 and whatnot. However,\
+  \ we tend to move at speeds that are so much slower than the speed of light that\
+  \ it would be not only insane to require that level of... Precision is crucial,\
+  \ but it's impossible to measure at that level of precision, so we instead use the\
+  \ three regular laws of motion. Basically, law one is that inertia exists. Things\
+  \ that are moving in a straight line tend to keep moving unless acted upon by an\
+  \ outside force. An object in motion tends to stay in motion unless acted upon by\
+  \ a force. Law two, which is really our best friend here, is F = ma, or force equals\
+  \ mass times acceleration. If you have a mass that is accelerating, that is called\
+  \ a force. Mass is measured in kilograms, acceleration is measured in meters per\
+  \ second squared. Distance is measured in meters, and time is measured in seconds.\
+  \ So, acceleration can be expressed as meters per second squared, and therefore,\
+  \ we call that Newtons. Law three states that for every action, there is an equal\
+  \ and opposite reaction. So, if you push on something, it pushes back.\n\nI spent\
+  \ a lot of my earlier academic life thinking about pendulums. I even brought a children's\
+  \ book called \"Seven Tales of the Pendulum.\" It's great; it's about seven cases\
+  \ where pendulums have been core to the way we do science for a very long time.\
+  \ There are all sorts of fascinating stories in there, such as using clocks to traverse\
+  \ the Atlantic Ocean. You had to invent the clock before you could traverse an ocean,\
+  \ using changes in the period of a pendulum to determine the density of the ground\
+  \ below you to find iron, and Foucault pendulums, which are the ones in museums\
+  \ that knock sticks down if they go in a circle.\n\nThis is called a free-body diagram,\
+  \ and this is a hanging pendulum. Let's call this 'L.' So, that\u2019s basically\
+  \ it. We have a point mass dangling below a point of rotation, and we're going to\
+  \ pretend that this stick has no mass, which we approximate by considering that\
+  \ the mass is heavily concentrated toward this side. I'm going to relate this to\
+  \ balance and posture shortly by lifting this up, but let's focus on the basics\
+  \ for now. This is the mass, and then this is... Gravity is 9.8 meters per second\
+  \ squared; let's call it 10. So, gravity is pulling down, which means that this\
+  \ string is pulling up. Because gravity is pulling down at 10 meters per second\
+  \ squared, but this thing isn't moving, we know that if there's a force acting on\
+  \ a mass, then it has to be moving. If there's a force acting on the mass and it's\
+  \ not moving, there has to be an equal and opposite force acting; it's statically\
+  \ stable.\n\nGreat, so now let's push it up here. This is still the same length;\
+  \ let's call this A. You don't have to worry about it. Gravity is still pulling\
+  \ down with the same force and the same mass that it has, except now we know that\
+  \ it will pull. This will now accelerate, so gravity is pulling like this. Then\
+  \ we do some vector decomposition thing, right? The string is still pulling on it,\
+  \ but it's not aligned with the axis of gravity. So, there's this leftover vector,\
+  \ and that vector is pushing this way, which means it's going to accelerate that\
+  \ way.\n\nIt does like this. So, details, details; but the important thing here\
+  \ is just to note that basically you have a mass here that you can lift when it's\
+  \ at its zero point. Right now, we can look at it. So, the angle, when it's here,\
+  \ is zero. Let's say the angle of deflection from the vertical point is zero. Great.\
+  \ Then we move it over here and say the angle is Theta, which is just some arbitrary\
+  \ angular number\u2014it could be 12 degrees, could be one radian, doesn't matter.\
+  \ When we put it over here and let it go, it will swing back. Intuitively, we kind\
+  \ of know this; we've probably seen the demo where you pull the thing, let it go,\
+  \ and it comes back and hits your face\u2014whatever! Unless, of course, the internet\
+  \ edited the video and I didn't get hit in the face.\n\nAs it goes over here, it\
+  \ will pick up speed, it'll pick up momentum, and it'll get back to the same point\
+  \ that it was before. Except now, instead of its angle being zero and its velocity\
+  \ being zero, its angle will still be zero, but its velocity will be high because\
+  \ it's swinging. Then that will sort of take it up over here until it bleeds off\
+  \ all that speed. And then, spoiler alert, that will be negative Theta if there's\
+  \ no friction or whatever in the system. Now we're over here, and we're in the same\
+  \ place we were before, so we're going to go back, and so we... Swing back and forth,\
+  \ and there are two main things to note here. First, think about mechanics; you\
+  \ essentially have potential and kinetic energy. If you don't, you're not considering\
+  \ things like stretch and strain. When I take an object and throw it up, and then\
+  \ catch it, when it leaves my hand, it has kinetic energy going up. But potential\
+  \ and kinetic energy\u2014potential energy is mass times gravity times height. Mass\
+  \ doesn't change, and gravity doesn't change. Let's just say potential energy is\
+  \ the same as height. Kinetic energy is one half of mass times speed squared. Mass\
+  \ doesn't change; who cares about the square? Let's just say kinetic energy is the\
+  \ same thing as speed. So, you have your height and your speed, which essentially\
+  \ define your mechanics. When you throw something into the air, you start out with\
+  \ a lot of kinetic energy pointing up. As you go up to the next time step, gravity\
+  \ will pull down, bleeding off some of your vertical height. Eventually, it will\
+  \ take all of your upward kinetic energy, and then you'll be at this Apex Point,\
+  \ at maximum height with zero velocity vertically. Then, it repeats that process,\
+  \ following a nice parabolic trajectory. If you want it to be nicely parabolic,\
+  \ you have to care about the square, but that's not important right now.\n\nNow,\
+  \ regarding hanging pendulums\u2014I'll just mention this for the sake of symmetry,\
+  \ as it may come up later, especially with jumping and similar concepts. When you\
+  \ have a pendulum that is a simple harmonic oscillator swinging back and forth,\
+  \ there are typically two to three key points to consider. One is at the apex where\
+  \ it has maximum height but zero velocity, another is down at the minimum height\
+  \ where it has maximum velocity, and then there's the opposite on the other side.\
+  \ If you want to delve into state spaces, you can see the height here and the velocity\
+  \ there; a nice pendulum will trace a beautiful ellipse. I recommend looking up\
+  \ the Wikipedia page on pendulums; you'll find some fascinating GIFs of the state\
+  \ space diagrams of hanging pendulums. The most important and relevant aspect for\
+  \ the standing posture case is... What we're here to talk about is that this system\
+  \ is passively stable. If I perturb it from its sort of happy zero point, the resulting\
+  \ acceleration will pull it back towards that stable point. Because there's damping,\
+  \ and energy gets lost in the system, it will eventually return back to where it\
+  \ is. So, if this is time, we're doing dynamical systems modeling because I put\
+  \ time on the axis. Congratulations, you now know how to do that. Now, this is Theta.\
+  \ If I deflect this thing down to whatever Theta is, it will pull itself back towards\
+  \ theta equals zero. It will pass through it because of the momentum and will oscillate\
+  \ back and forth. If there's no friction, it will just do that forever. If there\
+  \ is friction, it will return to its stable point.\n\nNow, all of these same dynamics\
+  \ work if you flip it upside down, except it is no longer friendly and passively\
+  \ stable. This is where it becomes Neuroscience. So now this is the floor. We were\
+  \ doing a regular pendulum; we're now going to do an inverted pendulum. This is\
+  \ another highly Google-able term: inverted pendulum human movement. You can find\
+  \ all sorts of information regarding locomotion. \n\nSo now we have the same structure\
+  \ attached to a point on the floor. We still have length L and mass M. I forgot\
+  \ to mention that if you wanted to calculate the forces, like the Newtons and so\
+  \ forth, since this is a meter, you could calculate those in units, although you\
+  \ might not know kilograms either, but you could come up with a peculiar unit that\
+  \ is equivalent. So, let's call the center M and the base of support. Remember,\
+  \ with this type of system, I drew the vertical lines showing where the extent of\
+  \ the base of support is. This area defines the region of controllability. Infimal,\
+  \ a non-existent thing, is basically this deflection point here where Thea equals\
+  \ Z. Whereas before, with a hanging pendulum, if I perturb it from that point, the\
+  \ resulting acceleration will pull it back towards that point, and it will cycle\
+  \ through there. If you're up here, you're not quite so lucky. This is the place\
+  \ where\u2014this is called the vertical projection of the thing\u2014if this was\
+  \ X, Y, let's say Y equals Z, and now this is X, that's the vertical projection.\
+  \ Just like before, at some point in my life, I started erasing things on a board,\
+  \ which is always fun. So, kind of like before, you have gravity pulling down on\
+  \ this thing here, which means you have gravity pulling down here, and you have\
+  \ the structure of the stick pushing up. If it's balanced here happily, then these\
+  \ things cancel each other out perfectly and nothing bad happens. Now, if there's\
+  \ a little bit of deflection from that point, in the same way, gravity is still\
+  \ pulling down, the stick is doing its best, but they're misaligned. So, there's\
+  \ a resulting force. Yeah, that's right. There are some geometry concepts you can\
+  \ apply here, like trigonometry. But basically, the amount that they are separated\
+  \ from each other means that the force\u2014basically, this stick is doing its best\
+  \ to keep you up, but now it is also pushing you away. Gravity is pulling and also\
+  \ leading to a force in a direction away from that happy, stable point. So with\
+  \ a hanging pendulum, a deflection leads to a nice result, you know, relaxing back\
+  \ to zero. This is even a small deflection that will push it. A passively unstable\
+  \ system is one that, if disturbed, may not return to its original position. For\
+  \ example, if you consider the ground as a reference point, when you hit the ground\
+  \ or move around the angle, it tends to go back down to the bottom and is ultimately\
+  \ pulled to the attractor point, which is the bottom. This is technically a stable\
+  \ point; however, any infinitesimal shift will cause accumulating error, and it\
+  \ will be pushed away. If you examine a state space diagram, you will notice regions\
+  \ of the space that can be analyzed. I won't explain the details here, but you can\
+  \ look for pictures or ask a bot about it. It's called beta, and there are both\
+  \ periodic and non-periodic orbits within this space. In our particular case, a\
+  \ non-periodic orbit implies that you fall over and hit the ground, or you have\
+  \ to change your base of support to avoid hitting the floor. Much like science,\
+  \ standing can be impossible in this context because it is a passively unstable\
+  \ system that cannot be reconciled. Fortunately, we do have nervous systems that\
+  \ provide passive stability. Congratulations! It can maintain balance, and it still\
+  \ behaves like an inverted pendulum\u2014it's just that the center of mass is so\
+  \ close to the ground that you have to perturb it significantly to push it out of\
+  \ the stable zone, yet it can still fall off. The center of the base of support\
+  \ remains a point with some extent. However, if I let go, it will slowly accelerate.\
+  \ This is one of those compounding errors: it starts with a small acceleration,\
+  \ but with each time step, the acceleration increases slightly, causing it to pick\
+  \ up speed until it finally falls over. If that were the whole story, that would\
+  \ be quite limiting. Luckily for us, we have a nonzero base of support and a whole\
+  \ nervous system connected to various feedback mechanisms that we can use to actively\
+  \ control it. This phenomenon is something many have experienced while balancing\
+  \ a broom; if you haven't tried it, you should. I am monitoring the error in the\
+  \ deflection from zero, using a combination of the weight in my hand and observing\
+  \ the movement. I am actively moving the base of support; if it is accelerating\
+  \ in one direction, I move the base of support in that direction. I'm trying to\
+  \ keep it as close to zero as possible. I could allow it to swing back and forth,\
+  \ but it's an active process that I'm engaged in, which allows the system to stay\
+  \ upright, even though it is passively unstable. \n\nThe best video I have about\
+  \ that shows a person standing on a ball. This is similar to the wobble board concept.\
+  \ I put a link to that part; I'll fix it later. Since she is on her toes, her anatomical\
+  \ base of support is very small. However, being on the ball allows her to spread\
+  \ out the center of pressure, which enables her to maneuver her center of pressure\
+  \ effectively to counteract movement.  \n\nWhen I see someone standing on that ball,\
+  \ I think it's so impressive. It is impressive, but it's actually easier than standing\
+  \ on solid ground because it extends her ability to move her base of support. If\
+  \ I had an overlay, I would illustrate that. It\u2019s quite a lot of information,\
+  \ and while it will all be on the test, there is actually no test. But do look up\
+  \ the Wikipedia page about pendulums; it\u2019s surprisingly in-depth. Wikipedia\
+  \ is the greatest intellectual achievement of humankind up to the present moment,\
+  \ and anyone who says otherwise is mistaken. \n\nNow we will look very briefly at\
+  \ what we discussed last time when I was here recording. We had the two recordings\
+  \ of me balancing on my feet. On the one hand, I was balancing; I was standing on\
+  \ two feet, leaning all the way forward, all the way back, all the way to the right,\
+  \ and all the way to the left, and then sitting on one foot. I'm going to play this;\
+  \ we will probably be able to tell which one it is. You can see that the ball here\
+  \ represents the center of mass calculated in the ways that we do that. The sticks\
+  \ are the rigid body segments that we used to make approximations. The mass of each\
+  \ one has been calculated according to a table, with the center based off a point\
+  \ on that table that shows where the mass is relative to the proximal and distal\
+  \ joints. Proximal is close to the center, and distal is far away from the center.\
+  \ You can sort of see stuff happening there. I'm going to go back to this at a later\
+  \ date to show some additional information. This is the Blender stuff, and Aaron\
+  \ was kind enough to pull in the raw data and get started showing basic representations\
+  \ that are better equipped to illustrate the differences between those two conditions.\
+  \ You can eyeball this, and you might see some differences, but that's not really\
+  \ the results, and the effects are actually small and hard to see with the naked\
+  \ eye. So, I'm going to show you more about this. It doesn't actually show that\
+  \ distinction, but it provides a quick presentation of the kinds of ways we can\
+  \ start analyzing this data to explore those distinctions. People who want to know\
+  \ more about this can split off and learn about that. For others, we can start discussing\
+  \ the neural systems and anatomical systems that contribute to that type of balance\
+  \ and support.\n\nLong story short, if you're not familiar with coding, just let\
+  \ it wash over you. Remember before I showed you that large spreadsheet of numbers?\
+  \ The first thing you do is install the packages you need. NumPy is for numerical\
+  \ processing in Python, pandas is for handling large spreadsheets, and Plotly is\
+  \ for making plots. Many people have worked on these packages for many years. NumPy,\
+  \ in particular, has a significant place in the history of numerical computing;\
+  \ it has been developed over time by many contributors, making it a venerable tool.\n\
+  \nTo use it, you point it to the location on your computer where the data is stored.\
+  \ You tell it to load the body trajectories CSV file. CSV stands for comma-separated\
+  \ values, so if you look into that text file, it consists of a series of numbers\
+  \ separated by commas. That's how spreadsheets function at their most basic level;\
+  \ similarly, a Microsoft Word document is just a more complex version of a raw text\
+  \ document. CSV is the raw format that represents what happens in Excel.\n\nOnce\
+  \ you take the data and import it, it will look something like this\u2014this formatted\
+  \ square\u2014thanks to pandas, which handles these types of data. You extract the\
+  \ center of mass trajectories and print them out to ensure everything is correct.\
+  \ These are the names of the markers we are tracking. It\u2019s important, but you\
+  \ don\u2019t have to worry about the details. Each of those points has a trajectory\
+  \ over time. For example, this shows the x, y position of the nose on the x-axis\
+  \ in meters, and the y-axis indicates time, where, in our case, time is represented\
+  \ by the frame number. We could convert this to seconds by multiplying the frame\
+  \ number by the frame rate, but the shape would remain the same; only the scale\
+  \ would change. We calculated those Newtons assuming that this was a meter; you\
+  \ would get a certain number until you realize I misled you\u2014this is not a meter,\
+  \ it's actually 1.2 meters. The point to make is that those distinctions are arbitrary\
+  \ until you want to compare your notes to somebody else who actually used a ruler.\
+  \ Oftentimes, units are just like scalars; they really affect the shape of the data.\
+  \ So, this is the path that my nose took on the x-axis of whatever you're looking\
+  \ at. Pull it out; same thing, except this is now the XYZ. You see me jumping over\
+  \ here, and the same thing applies for the center of mass. So basically, things\
+  \ like the nose are raw measured points. Things like the center of mass are calculated\
+  \ from all of those trajectories plus the kinematic tables. You just shuffle it\
+  \ around to make a visualization. This is showing, for each point at every frame\
+  \ that we have, the XYZ position of all relevant dots. The purple dot here represents\
+  \ the center of mass. This is basically what scientific data visualization often\
+  \ looks like. It's very raw and not really set up for this type of stuff; it's not\
+  \ even scaling properly here. This could be cleaned up, and we'll do that going\
+  \ forward. One of the huge advantages of using something like Blender is that this\
+  \ is a visualization tool for professional visualizers. It can take the exact same\
+  \ data; the difference is that this is being presented in something designed for\
+  \ aesthetic visual output, whereas the other is something designed to plot two-dimensional\
+  \ data, which begrudgingly added a 3D viewer. It's also good to sort of show that\
+  \ you're not crazy because you can plot it, and it looks like a person. Also, notice\
+  \ the dots are not connected because the connections between the dots are not a\
+  \ measured part of the dataset. We know that the shoulder connects to the elbow,\
+  \ but we measured the shoulder and we measured the elbow. So this is just a raw\
+  \ representation. If you wanted to draw stick figures, you would need to have additional\
+  \ information indicating how to connect the dots, which we are not providing at\
+  \ this juncture. Now, we go through and pull out. We are going to look for the ground\
+  \ projection, right? We're comparing the center of mass to support, so we don't\
+  \ care about the Z height number anymore, as we did before when we were talking\
+  \ about jumping. Now, we are looking at the ground. In projection, we discard the\
+  \ Z-height number because in our world, following the right-hand rule, Z is up.\
+  \ In some cases, Y is up, but no one says that X is up. So, we throw Z away. We\
+  \ only take the center of mass in the X and Y directions, along with the points\
+  \ that define the basic support: left heel, right heel, left foot, right foot, and\
+  \ toe. This particular model has a very simplistic foot, with just a heel and a\
+  \ toe. However, we extract those points, and that's enough to create a rectangle\
+  \ on the ground. After doing some visualization coding and shuffling, you get this\
+  \ nice animation, which we will play in a second. If you ever need to color-code\
+  \ parts of the body, always make the right side red since it starts with 'R'. People\
+  \ often get this wrong; from a moral standpoint, they are incorrect\u2014if you're\
+  \ color coding the body, the right side must be red, while the left side should\
+  \ be any color that isn\u2019t green, as red can confuse color perception. The right\
+  \ foot, left foot, and center of mass are represented from a top-down view. This\
+  \ is the control case; you can see me leaning back and forth. I encourage you to\
+  \ stand up and lean to see what that feels like. Pay attention to how you can sense\
+  \ when you're at the edge and notice that your heels have far less influence than\
+  \ your toes. You develop a sense of the relationship between your base of support\
+  \ and your center of mass, even if you don't fully realize it. Now, you can see\
+  \ what's happening from the top down. You can observe how I'm shifting over, and\
+  \ even though this is a simplified perspective of complex data, you still get a\
+  \ good sense of what's occurring. You can also note that this is the moment when\
+  \ I'm not holding the weight. I think my computer can handle this, and you can plot\
+  \ the entire thing. It can become somewhat of a smear, which, if you're considering\
+  \ dynamics, isn\u2019t an optimal way to visualize it, since it appears squished\
+  \ over time. However, if you're interested in what space I covered, this is a great\
+  \ way to illustrate all the positions that my foot has reached. Recording to see\
+  \ if it works. It doesn't, but that's not your fault. Although I think it will work.\
+  \ Oh, see, this is why it's good to have an external LIC nervous system. Okay, so\
+  \ this is a Panda notebook, which I don't like in many ways, but they do the job.\
+  \ I like that they're really good for simple tasks like this in an educational context,\
+  \ but they don't scale in complexity at all. So people wind up getting especially\
+  \ student-like objects stuck in Panda's notebooks for a long time in their trajectory.\
+  \ Oh, that's the morning we calculated it in my dark mode. Looking good so far.\
+  \ This is the same data where I'm holding 20% of my body mass in my can. I wasn't\
+  \ careful; I realized that actually the better way to represent this would be to\
+  \ hold it statically on one side and try to hold it out away from me because I was\
+  \ shifting it around a lot. So you might have to just kind of gut check it. It would\
+  \ also be nice if this was playing alongside the bigger visualization, which we\
+  \ can do. Andre actually wrote some code to make that easily doable. And yeah, so\
+  \ that's it. So, basically, the fact is, here I'm at my center of mass, which is\
+  \ still my right. But when I shift over to my left, you can see that my foot is\
+  \ moving, and you can see the center of mass has just shifted a little bit to the\
+  \ outside. This is one of those things where I would like to actually show this\
+  \ data more to make the point about this distinction. This is kind of like, oh yeah,\
+  \ the effect is there, it could be measured, it could be done, but the behavior\
+  \ was not well set up to produce good data. However, we can go back and record new\
+  \ data, or we could just give ourselves more time standing there. We could take\
+  \ this representation and couple it to the bigger visualization so we can actually\
+  \ verify it. We could make the pause button work and then pause it to show that,\
+  \ yes, I'm standing here, stable and supported, but my center of mass is outside\
+  \ of my base of support. Because this center of mass is not the actual center of\
+  \ mass, since we're not accounting for the fact that my hand, which instead of being\
+  \ one percent of my body mass, is now twenty-one percent of my body mass. We would\
+  \ have to recalculate the center of mass with that in mind, and then theoretically,\
+  \ it would shift back and start looking like the regular control condition. Okay,\
+  \ got that? Good, great. As per usual, I've also gone longer than I intended to,\
+  \ but that's okay; good stuff. We have another twenty minutes, which I think is\
+  \ enough time to sort of get started with some things. So, by a show of hands, who\
+  \ likes code and data? Who is interested in code and data? You don't have to be\
+  \ good at it, you don't have to have done it before, and you don't have to expect\
+  \ that you will be successful at it, but who is at least interested in seeing what\
+  \ it would look like? We can get you to the point where you can click the buttons\
+  \ and have the squiddle show up. Who is interested in that versus who is less interested?\
+  \ Code people? Okay, cool. And then non-code people? Great. The biggest problem\
+  \ would have been if everybody said they wanted to do code, so this is great. Code\
+  \ people, I guess push back, and then, Eron, can you just try to get them as far\
+  \ as you can? You can get towards this, like mostly just probably best to code.\
+  \ CL Theo, this notebook is now great. Other people, we're going to... I want you\
+  \ to do the same kind of group work thing again. Probably by next week, I will be\
+  \ able to have some sort of more feedback loop with the pod, but right now we\u2019\
+  re still just passively pouring into it. Basically, ask it the questions that come\
+  \ up for you when you were watching me talk about all this stuff. If you are interested\
+  \ in the mechanics of it, you can ask more about the robotics, control theory, analog\
+  \ systems, and P stuff. If you're more of a biologist, just think about the types\
+  \ of neural systems that would have to be in place for this to work, like you do\
+  \ not have a center of mass detector; that's not a thing that exists in your nervous\
+  \ system. You have a bunch of other modalities that give you other types of information,\
+  \ and that has the sort of effective reality that we could call functional equivalencies\
+  \ for those. I always had a professor say that philosophy of mind is so hard that\
+  \ it makes functionalism look interesting, which I will not explain. I will just\
+  \ say you can chew on that if you want. So, let's get started; we have about 15\
+  \ minutes. Do these chats in the channel for this lecture and just pop some open.\
+  \ Again, whatever you found interesting, whatever you wanted to know more about,\
+  \ whatever sort of thing I said... don't work alone; work in groups. Clump up according\
+  \ to your local environment. Code people, go to the back, and Aon will meet you\
+  \ there. If you're not a code person and you're in the back, you might want to move\
+  \ forward. Do it! This may be your only chance. If you\u2019re interested in both,\
+  \ do coding for now and you can come back to this later. If you're interested in\
+  \ doing both, this is not an either/or situation; you will be able to drop this\
+  \ opinion later. At your earliest convenience, there is a benefit if you have a\
+  \ clump that is congealing in a reliable way. There's a benefit to having at least\
+  \ one person from your clump gaining some code experience, but you will not be evaluated\
+  \ on anything. Okay, I'm going to stop this report now."
+title: HMN24 - 03 - Intro to Balance (Center of Mass vs Base of Support)
+transcript_chunks:
+- dur: 180.0
+  end: 180.0
+  start: 0.0
+  text: "Okay, great. Hello, and welcome to October. If you already had one of those,\
+    \ welcome to October 8th. So, today we're going to talk about balance, the center\
+    \ of mass, and base of support. After about an hour of discussing these topics,\
+    \ we'll do some group activities again. This will be our first technical split\
+    \ option. If you are interested in code and programming, you'll have the opportunity\
+    \ to focus on that. If you're not interested in that area, you can hang out, and\
+    \ we'll do more literature review-type activities. If you've never done it but\
+    \ are curious, then you can still participate, as interest and experience are\
+    \ separate matters. \n\nThe first thing I want to show before we get into the\
+    \ meat of today's discussion is a rolling checkpoint throughout the semester.\
+    \ This involves the AI aspect of the class, where I have now an initial example\
+    \ of scraping the server. This means pulling all of the chats you've been having\
+    \ with the bot. Effectively, I extract the markdown text file attached to the\
+    \ top of each chat, run it through the AI to summarize it, and pull out the main\
+    \ points and topics. I do this for each chat, each channel, each category, and\
+    \ then for the whole server. The idea is to use this to get a sense of what you\
+    \ are all working on and what interests you. For now, it\u2019s descriptive; it\
+    \ reflects what you are doing, and you can look at it if you want. \n\nIn the\
+    \ second half of class, we will start to steer this a bit more. We\u2019ll look\
+    \ at what topics seem to be coming up for many of you and gather more details\
+    \ about those subjects. We can analyze and say, 'Oh, they are really interested\
+    \ in this topic. Let's discuss it in the next lecture.' This process is more of\
+    \ a feedback type of approach. The results will be provided as a ZIP file, which\
+    \ you can download to your downloads folder, whatever that may be for you."
+- dur: 180.0
+  end: 360.0
+  start: 180.0
+  text: "You can unzip that so that it's just a regular folder. Oh, come on now. Is\
+    \ it giving you that invalid message? So, it's here. In the server, in the resources\
+    \ channel at the top, there's a thread called \"Server Scrape Checkpoints\" and\
+    \ there's a zip file. I am totally happy saying that this checkpoint zip file\
+    \ is corrupted, and we'll figure that out later. Cool! So, if you can figure it\
+    \ out, great. If not, it's basically a bunch of poorly formatted summaries of\
+    \ the things we've been talking about, and we just call this foreshadowing.\n\n\
+    There are a couple of other things in that resources channel too that I added.\
+    \ One is this link up here to a YouTube playlist of these videos, except for the\
+    \ last video's video, because I forgot to save it. I forgot to hit save at the\
+    \ end of this, and I wasn't saving to a video format that is forgiving of closing\
+    \ the thing mid-recording, so that video was lost. RIP lost data; it happens.\n\
+    \nAnd then, yeah, that's another one of those like maybe we'll get to the point\
+    \ where I can scrape the video, pull the transcript, and get the topics out to\
+    \ put that into the notes, but we'll see about that. There's also this link to\
+    \ another playlist called \"AI Stuff,\" where I talk about things like building\
+    \ Skelly Bot and using it in classroom settings like this, so if you're interested\
+    \ in that kind of meta AI ed-tech stuff, watch that.\n\nYeah, and then the third\
+    \ thing I added to the server is in this lectures category over here. This one\
+    \ down here has a string of numbers which is the date: 2024-01-08. That's just\
+    \ a way to write your date concisely; it's called little-endian, meaning the little\
+    \ things are at the end of the number. So, big-endian, little-endian\u2014that's\
+    \ what that means if you ever come across it again. Composite people might know\
+    \ it; no one else will.\n\nIn that, I put a link to an outline of what I'm going\
+    \ to talk about today, which is some tutorial notes. These links don\u2019t work,\
+    \ but maybe you can figure it out. They\u2019re over here. Okay, cool. Well, so\
+    \ far I don\u2019t really give you any options. Um, yeah, so Obsidian calls folders."
+- dur: 180.0
+  end: 540.0
+  start: 360.0
+  text: "Vaults. You want to be opening that folder as a vault. If you feel like playing\
+    \ with that stuff, go to any chat and just download the MBB, which stands for\
+    \ markdown. It's the thing that turns plain text into formatted text. You just\
+    \ type it out in the raw, and then if the .md thing that you're looking at knows\
+    \ how to process markdown files, it turns it into that. So, download any chat\
+    \ at the top or download this markdown file. I feel it is the seed of the resolution\
+    \ revolution because we have just generally internalized this idea that text is\
+    \ like Microsoft or Google, when it really isn\u2019t. Text is like a behavior\
+    \ that you do on a keyboard, and we want it to look nice, but this is the raw\
+    \ that we actually care about. It's also the first sort of entry point to acknowledge\
+    \ that there\u2019s such a thing as interpreted text. You type this thing, and\
+    \ the computer knows how to make it pretty. Also, Google Aaron Schwartz. If you\
+    \ don\u2019t know who that is, he\u2019s one of the people who came up with the\
+    \ original definitions for markdown. You should look up who he is and then steal\
+    \ every paper ever published. A lot of professors say, \"Be careful; don\u2019\
+    t go to HUB or you\u2019ll accidentally steal papers.\" I'm telling you explicitly,\
+    \ go to sci-hub, steal papers, steal textbooks from LibGen. As a scientist operating\
+    \ under my academic freedom, it is the best thing I can do for you to say steal\
+    \ everything from the publishing industry. They think it's their intellectual\
+    \ property; it's not. It's ours to take back. None of that is relevant though.\
+    \ We\u2019ve been talking a lot about the center of mass. I\u2019ve sort of described\
+    \ it at various levels, and today I\u2019ve brought a series of props to help\
+    \ present that. Aaron, could you screw that together? Thank you. Part of the pattern\
+    \ that\u2019s emerging is that I show up late, setting up takes a while, I get\
+    \ frustrated and sweaty. I eventually get it working, I give a little update on\
+    \ the technical backend and AI nonsense, I have some sort of moral outrage moment,\
+    \ and then I talk a little bit about the philosophy of science before we get into\
+    \ the actual topic of discussion. This is the philosophy of science part. I\u2019\
+    ve talked about the concept of reductionism, which is one of those things where\
+    \ it\u2019s such a fundamental aspect of the way we live in this society and the\
+    \ way\u2026"
+- dur: 180.0
+  end: 720.0
+  start: 540.0
+  text: "Basically, the way that we do science in the Western tradition is a heavily\
+    \ reductionist tradition. This means that you take a big, complicated thing and\
+    \ chop it up into tiny, tiny pieces. Then you look at those pieces in isolated\
+    \ environments and hope that the things you learn about those small-scale isolated\
+    \ items will scale up to the larger actual desideratum of your study. Generally\
+    \ speaking, it does. That's why we do cell biology, genetics, particle physics,\
+    \ and study periodic tables. These are all fundamentally reductionist approaches\
+    \ to science. Reductionism may sound like an insult, but it's not; it's just a\
+    \ description of a way of looking at things. \n\nThe counter to that doesn't really\
+    \ have a defined name, but I generally think of it as more of a holism. Instead\
+    \ of taking the thing and chopping it into little parts\u2014because the problem\
+    \ that reductionism solves is that science is impossible; rule number one: it\
+    \ can't be done. We mere primates do not have access to capital T true facts of\
+    \ the world. We can only approximate them with a bunch of sloppy empirical measurements\
+    \ and then statistics. The problem of induction and black swans are related concepts\
+    \ you might want to dig into. \n\nSince we can't actually achieve true knowledge\
+    \ of the real world, we have to cheat and take various side steps. The traditional\
+    \ Western reductionist view of science is to chop things up into little pieces\
+    \ and hope those pieces fit together into something that resembles the whole.\
+    \ A more holistic approach cheats in a different way. Instead of taking the whole\
+    \ thing and chopping it into smaller parts to consider in isolation, you take\
+    \ the whole complicated thing and try to squish it down into what you think is\
+    \ the simplest possible model that captures the dynamics of the whole system.\
+    \ \n\nFor example, the concept of center of mass, which I'll show pictures of\
+    \ in a moment, fundamentally illustrates this approach. I've mentioned before\
+    \ that this is not something you're likely to find in specific textbooks; it\u2019\
+    s more about ideas I've cobbled together in my research, inspired largely by robotics\
+    \ approaches. If you look up passive dynamic walkers, that's a classic case\u2014\
+    Andy Ruina, Steve Collins, and others have explored how taking a complex object\
+    \ and reducing it down to a single point mass can be very helpful in trying to\
+    \ understand its dynamics."
+- dur: 180.0
+  end: 900.0
+  start: 720.0
+  text: "What's going on there? I think I forgot to mention that I brought a stick.\
+    \ This stick is like the middle part of a floor lamp, and I found it on the street.\
+    \ I tried to use it, but it didn't really work right. Then I realized that the\
+    \ middle part not only comes apart, allowing me to put it in my backpack and bring\
+    \ it to class, but it also pulls up very nicely. It turns out to be actually one\
+    \ meter long. I think somewhere at some factory, someone ordered a bunch of meter-long\
+    \ poles and cut them up, and now this is a meter stick. \n\nIt is aluminum or\
+    \ actually metal and roughly straight. It has some bends, but we can ignore that.\
+    \ It also has an even section; this part here is the geometric center of the stick.\
+    \ If I place this little thing here, then I can know that this is both the geometric\
+    \ center of the stick and the center of mass of the stick. \n\nIf I take this\
+    \ object and focus on it, basically, if I take this stick and chop it up into\
+    \ 1 cm sections, there would be 100 in a row. I would take the average position\
+    \ of each of those points: literally, just take the XYZ of this one, then the\
+    \ XYZ of that one, and the XYZ of that one. I would add up all the X's, add up\
+    \ all the Y's, and then divide them by the number of chunks. The resulting average\
+    \ position will be here, and it turns out that from the point of view of balance\
+    \ physics, that is the point you need to support to keep the thing from falling\
+    \ down.\n\nSo, that is true when you're supporting it from the bottom. It is also\
+    \ true if you pull the loop through itself; that's called a dirt pitch. If you\
+    \ pull it through again, it's called a pric, and it tends to stay. I have trusted\
+    \ my life and the lives of many people I love to knots in various contexts. A\
+    \ pric can nicely go over that little yellow spot and be cranked down so it will\
+    \ stay, in the same way that balancing..."
+- dur: 180.0
+  end: 1080.0
+  start: 900.0
+  text: "The center of mass keeps the object in the right position. From above, it's\
+    \ the same basic idea. There is more mass on this side than there is on that side,\
+    \ so when I move it over a little bit, it bounces back into place. In this case,\
+    \ because this is a uniformly massed object, the geometric center and the center\
+    \ of mass are the same location. I also found these on the street; there are a\
+    \ lot of fun things on the street if you know where to look. These are like old-school\
+    \ ankle weights, and you put them on your ankle. This is carpet padding, so it\
+    \ has high friction. By changing both the geometry and mass distribution, I\u2019\
+    ve altered the dynamics. The geometry along the long axis of this object hasn't\
+    \ changed much at all; it remains the same length. For any 3D object, there is\
+    \ a long axis, a middle axis\u2014sometimes referred to as the intermediate axis\u2014\
+    and a short axis. Often, they are symmetric, and in this case, the middle and\
+    \ intermediate axes are symmetric. You can also Google the intermediate axis theorem,\
+    \ otherwise known as the tennis racket theorem, which states that you can spin\
+    \ the object around the short axis, the long axis, and the middle axis. It flips\
+    \ midair, which is not directly relevant but interesting. There are some cool\
+    \ videos of people doing experiments on the space station, though that's not important\
+    \ right now. Essentially, I've changed the geometry a little bit, but not in a\
+    \ significant dimension; however, I've significantly changed the physics. Now,\
+    \ one side is much heavier than the other side. Previously, we were taking the\
+    \ geometric mean by averaging the positions of the mass points, which aligned\
+    \ with the center of mass. But in this case, that approach doesn't work because\
+    \ all the added points do not have the same density. For example, this is filled\
+    \ with sand or something similar. I can position the object accordingly, and that\
+    \ should be about right. There we go; now this is the center of mass. Although\
+    \ the geometry for our basic approximations hasn't changed, the physics has changed\
+    \ considerably, and consequently, the center of mass and balance point have also\
+    \ changed."
+- dur: 180.0
+  end: 1260.0
+  start: 1080.0
+  text: 'Both when you''re supporting it from the bottom and when you''re supporting
+    it from the top, the basic idea is that if I wanted to do another one, I think
+    there are two of them. Here we go, once again, even heavier, so I can move it
+    basically all the way over here. It''s not quite right, but now the center of
+    mass of the whole stick system is very close to the big bob at the end. Notice
+    that the first time I moved it, I had to move it all the way over here. The second
+    time, I had to move it far less. That''s because torque is a thing. This is really
+    hard. This is really easy. When we talk about the musculoskeletal system, this
+    will come up again. If you''re curious about how... Notice that my arm also resembles
+    a long stick, and my shoulder, which is the main thing lifting it up, is this
+    long and attached right here. So it''s much more like doing this than doing this.
+    Spoiler alert: Your muscles are unbelievably strong relative to the tasks they
+    can perform because they''re operating on a massive mechanical disadvantage. That''s
+    not important right now. So, okay, this is the intuitive center of mass. There
+    is a difference between the geometric center of a rigid object and the center
+    of mass. The center of mass, which you''ll often hear referred to as the center
+    of gravity, are the same thing. This is gravity being used in the term like density.
+    The center of gravity just feels a little more old school to me, or in space,
+    like in all contexts that matter for us, the center of mass and center of gravity
+    are the same thing. So if you ever see COG in a paper, it''s the same thing; it''s
+    just using a different term. Yeah, the center of... it''s like, yeah, basically,
+    the center of density would be another way to say that, but that''s not quite
+    right. Okay, so this is a stick made of trash I found on the street. Excuse me,
+    this is a little wooden fellow, and it also has a center of mass, which I could
+    measure if I wanted to. I''m allowed to chop this up, but I don''t want to. But
+    it is here. If our friend did one of those... Oh look, it tips over! So I have
+    to move it sort of more this way, in the abdominal area. So as you move the...'
+- dur: 180.0
+  end: 1440.0
+  start: 1260.0
+  text: "The mass of your body and the center of mass shift, as I said last time.\
+    \ The center of mass is not a part of your body; it is a description of your body.\
+    \ If you have one of these types of shapes, the center of mass can be outside\
+    \ your body. So, the center of mass is here because it's below that point of rotation.\
+    \ It becomes passively stable, which can kind of reject perturbations, and we'll\
+    \ talk about this shortly. This would be linked, but it's not. I placed it over\
+    \ here. So, this center of mass approximation is, I think, a very important and\
+    \ very useful hyper-simplification of the full complex object. It falls under\
+    \ the general heading of classical mechanics, which is a part of mechanical engineering\
+    \ if you can find the right building to walk into. Specifically, it falls under\
+    \ what I believe is called the finite element theorem, which basically says that\
+    \ you're allowed to look at the center of mass as a proxy for the dynamics of\
+    \ the whole object. So, you take this complicated object, chop it up into finite\
+    \ elements, which are small but not zero, and then examining the mean of those\
+    \ points can tell you things about the dynamics of the full complex object. I\
+    \ find this concept helpful to think about because the setup can be complex and\
+    \ gangly. However, if you do throw it, regardless of what you do, it still follows\
+    \ a nicely ballistic trajectory. You can also use this to show that even if it\u2019\
+    s spinning, it will spin around its center of mass and follow a ballistic trajectory.\
+    \ Each of these keys is a rigid body, connected by rigid bodies. Therefore, there\
+    \ is no stretch or strain or anything like that in the ballistic case; it wouldn't\
+    \ matter. But it's worth doing this with people. In this case, I don\u2019t know\
+    \ how much this stick weighs. I know that it is one meter long, and I don\u2019\
+    t know how much these ankle weights weigh, but if we wanted to, we could determine\
+    \ the mass of the weights in units of stick mass, using this kind of math, and\
+    \ learn things about the forces at play and other relevant factors."
+- dur: 180.0
+  end: 1620.0
+  start: 1440.0
+  text: "Controlling this with muscles, that information would be very relevant to\
+    \ us. If you want to do that for a human person, basically, I want to be able\
+    \ to calculate the center of mass of a person. But how do I get those numbers?\
+    \ Well, it turns out someone chopped up a bunch of dead people, weighed them,\
+    \ and we have these anthropometry tables. A really common one is Winter, which\
+    \ is from a biomechanics book. I think these tables show where they came from.\
+    \ It was like Air Force data; they chopped up cadavers and looked at the relative\
+    \ densities, did a bunch of statistical analyses, and you get numbers. This is\
+    \ the geometry of it. These numbers here, like .52H, where H is the total height\
+    \ of the person, are estimates of the relative proportions of different body segments\
+    \ in terms of units of height. Importantly, all the dead people they chopped up\
+    \ were men and they were old men because they were deceased. There\u2019s often\
+    \ a correlation between age and time. There are newer anthropometry tables that\
+    \ look at a broader demographic\u2014different genders, different body mass indices\u2014\
+    but by and large, a lot of those differences are small. Relative to the scales\
+    \ that I tend to look at in my research, they don\u2019t really shift the numbers\
+    \ that much, so I just kind of use these because it's a standard and it\u2019\
+    s around. These names here correspond roughly to the anatomy above, and they give\
+    \ you the name of the thing, the definition in terms of anatomical axes. For example,\
+    \ the foot is defined as the lateral malleolus to the head of the second metatarsal.\
+    \ The malleolus is on the outside; the metatarsal refers to your toe knuckle.\
+    \ It gives you the segment weight as a proportion of total body weight. For a\
+    \ standard-sized hand, your hand is roughly 6% of your body mass. The forearm\
+    \ and upper arm proportions can vary, and your foot is about 14%, which seems\
+    \ high, but I don\u2019t know. Your leg is\u2026"
+- dur: 180.0
+  end: 1800.0
+  start: 1620.0
+  text: "Oh sorry, 4%. Yeah, the thigh is 10%, and then it gives you the foot and\
+    \ leg, which are added up from the ones above it. In the center of mass calculation,\
+    \ I was showing last time with the blender demonstration, that little ball moving\
+    \ around was calculated using these numbers. We will talk about that in a little\
+    \ bit, but I just wanted to show roughly where that information comes from. \n\
+    \nI also, some time ago, in a different life, made a bunch of GIFs and posted\
+    \ them on Reddit. In fact, this was before Reddit was as it is now; it was still\
+    \ a cesspit, but a different kind. Basically, I would find videos of people doing\
+    \ interesting things and overlay them with basic center of mass analyses. \n\n\
+    This is the hand forearm in a planar view, meaning it's a view from straight down\
+    \ one of the x, y, or z axes. So you get to ignore the 3D aspect of it and just\
+    \ focus on the 2D. The vertical lines show the extent of the base of support,\
+    \ which is where the hand is. The important thing to notice is that the center\
+    \ of mass always stays within that boundary because if it didn't, it would fall\
+    \ over. \n\nThere are a bunch of these GIFs. This one is wacky. I was getting\
+    \ fancier with stabilizing the image, and this athlete is very good at this type\
+    \ of movement. Again, the center of mass always stays within that boundary. He\
+    \ shifts his hands, and you can see how complicated this is. Yes, he's extraordinary.\
+    \ \n\nUsing dynamics, he pops himself up but keeps it within this range. The important\
+    \ thing to note is that his hand can only push on the ground. If the center of\
+    \ mass ever leaves those boundaries, he cannot pull it back; he can only push\
+    \ it farther away. \n\nThis next example is a violation of that rule. This is\
+    \ a balance beam, otherwise known as the hardest thing in sports. She does this\
+    \ cool move, but oh no, she falls. However, she manages to pull it back in. The\
+    \ most important part of that video for me is this moment right here, where she\
+    \ goes out but has a grip on the bar, allowing her to pull back in. This is the\
+    \ same basic principle."
+- dur: 180.0
+  end: 1980.0
+  start: 1800.0
+  text: "The idea of the wobble in the center of mass is noise in the estimates. All\
+    \ right, so those links are all there. There's a bunch of them; click through\
+    \ them. We will talk about them at some later date. So, roughly speaking, the\
+    \ important thing there is the center of mass. We did talk about the concept of\
+    \ the base of support. Your base of support is just the shape on the ground of\
+    \ your support surface. My base of support is defined by my feet, while this object's\
+    \ base of support is defined by that little point. It is not passively stable.\n\
+    \nOkay, so real quick, physics: Newton was a guy; he did a thing. Among other\
+    \ things, he came up with this sort of theory of mechanics, which is embodied\
+    \ by Newton's three laws of motion. These laws are false and wrong theoretical\
+    \ models of reality. I think this is a great example of how wrong theories can\
+    \ still be useful. Newton had a theory of reality where there was such a thing\
+    \ as position and velocity, but it wasn't until far later that a guy named Einstein\
+    \ came along and wrote some papers.\n\nI really don't like ascribing these thoughts\
+    \ to specific people because they are just the first humans who wrote them down.\
+    \ People say Newton invented calculus, but Leibniz also invented calculus at the\
+    \ same time in Germany, using better notations. Oftentimes, these are just ideas\
+    \ that are ready to be discovered. So, Newton's theory of classical mechanics\
+    \ is false on a scientific theoretical basis. If we wanted to actually calculate\
+    \ things like momentum, we would have to take into account things like relativity\
+    \ theory and E=mc\xB2 and whatnot. However, we tend to move at speeds that are\
+    \ so much slower than the speed of light that it would be not only insane to require\
+    \ that level of..."
+- dur: 180.0
+  end: 2160.0
+  start: 1980.0
+  text: "Precision is crucial, but it's impossible to measure at that level of precision,\
+    \ so we instead use the three regular laws of motion. Basically, law one is that\
+    \ inertia exists. Things that are moving in a straight line tend to keep moving\
+    \ unless acted upon by an outside force. An object in motion tends to stay in\
+    \ motion unless acted upon by a force. Law two, which is really our best friend\
+    \ here, is F = ma, or force equals mass times acceleration. If you have a mass\
+    \ that is accelerating, that is called a force. Mass is measured in kilograms,\
+    \ acceleration is measured in meters per second squared. Distance is measured\
+    \ in meters, and time is measured in seconds. So, acceleration can be expressed\
+    \ as meters per second squared, and therefore, we call that Newtons. Law three\
+    \ states that for every action, there is an equal and opposite reaction. So, if\
+    \ you push on something, it pushes back.\n\nI spent a lot of my earlier academic\
+    \ life thinking about pendulums. I even brought a children's book called \"Seven\
+    \ Tales of the Pendulum.\" It's great; it's about seven cases where pendulums\
+    \ have been core to the way we do science for a very long time. There are all\
+    \ sorts of fascinating stories in there, such as using clocks to traverse the\
+    \ Atlantic Ocean. You had to invent the clock before you could traverse an ocean,\
+    \ using changes in the period of a pendulum to determine the density of the ground\
+    \ below you to find iron, and Foucault pendulums, which are the ones in museums\
+    \ that knock sticks down if they go in a circle.\n\nThis is called a free-body\
+    \ diagram, and this is a hanging pendulum. Let's call this 'L.' So, that\u2019\
+    s basically it. We have a point mass dangling below a point of rotation, and we're\
+    \ going to pretend that this stick has no mass, which we approximate by considering\
+    \ that the mass is heavily concentrated toward this side. I'm going to relate\
+    \ this to balance and posture shortly by lifting this up, but let's focus on the\
+    \ basics for now. This is the mass, and then this is..."
+- dur: 180.0
+  end: 2340.0
+  start: 2160.0
+  text: "Gravity is 9.8 meters per second squared; let's call it 10. So, gravity is\
+    \ pulling down, which means that this string is pulling up. Because gravity is\
+    \ pulling down at 10 meters per second squared, but this thing isn't moving, we\
+    \ know that if there's a force acting on a mass, then it has to be moving. If\
+    \ there's a force acting on the mass and it's not moving, there has to be an equal\
+    \ and opposite force acting; it's statically stable.\n\nGreat, so now let's push\
+    \ it up here. This is still the same length; let's call this A. You don't have\
+    \ to worry about it. Gravity is still pulling down with the same force and the\
+    \ same mass that it has, except now we know that it will pull. This will now accelerate,\
+    \ so gravity is pulling like this. Then we do some vector decomposition thing,\
+    \ right? The string is still pulling on it, but it's not aligned with the axis\
+    \ of gravity. So, there's this leftover vector, and that vector is pushing this\
+    \ way, which means it's going to accelerate that way.\n\nIt does like this. So,\
+    \ details, details; but the important thing here is just to note that basically\
+    \ you have a mass here that you can lift when it's at its zero point. Right now,\
+    \ we can look at it. So, the angle, when it's here, is zero. Let's say the angle\
+    \ of deflection from the vertical point is zero. Great. Then we move it over here\
+    \ and say the angle is Theta, which is just some arbitrary angular number\u2014\
+    it could be 12 degrees, could be one radian, doesn't matter. When we put it over\
+    \ here and let it go, it will swing back. Intuitively, we kind of know this; we've\
+    \ probably seen the demo where you pull the thing, let it go, and it comes back\
+    \ and hits your face\u2014whatever! Unless, of course, the internet edited the\
+    \ video and I didn't get hit in the face.\n\nAs it goes over here, it will pick\
+    \ up speed, it'll pick up momentum, and it'll get back to the same point that\
+    \ it was before. Except now, instead of its angle being zero and its velocity\
+    \ being zero, its angle will still be zero, but its velocity will be high because\
+    \ it's swinging. Then that will sort of take it up over here until it bleeds off\
+    \ all that speed. And then, spoiler alert, that will be negative Theta if there's\
+    \ no friction or whatever in the system. Now we're over here, and we're in the\
+    \ same place we were before, so we're going to go back, and so we..."
+- dur: 180.0
+  end: 2520.0
+  start: 2340.0
+  text: "Swing back and forth, and there are two main things to note here. First,\
+    \ think about mechanics; you essentially have potential and kinetic energy. If\
+    \ you don't, you're not considering things like stretch and strain. When I take\
+    \ an object and throw it up, and then catch it, when it leaves my hand, it has\
+    \ kinetic energy going up. But potential and kinetic energy\u2014potential energy\
+    \ is mass times gravity times height. Mass doesn't change, and gravity doesn't\
+    \ change. Let's just say potential energy is the same as height. Kinetic energy\
+    \ is one half of mass times speed squared. Mass doesn't change; who cares about\
+    \ the square? Let's just say kinetic energy is the same thing as speed. So, you\
+    \ have your height and your speed, which essentially define your mechanics. When\
+    \ you throw something into the air, you start out with a lot of kinetic energy\
+    \ pointing up. As you go up to the next time step, gravity will pull down, bleeding\
+    \ off some of your vertical height. Eventually, it will take all of your upward\
+    \ kinetic energy, and then you'll be at this Apex Point, at maximum height with\
+    \ zero velocity vertically. Then, it repeats that process, following a nice parabolic\
+    \ trajectory. If you want it to be nicely parabolic, you have to care about the\
+    \ square, but that's not important right now.\n\nNow, regarding hanging pendulums\u2014\
+    I'll just mention this for the sake of symmetry, as it may come up later, especially\
+    \ with jumping and similar concepts. When you have a pendulum that is a simple\
+    \ harmonic oscillator swinging back and forth, there are typically two to three\
+    \ key points to consider. One is at the apex where it has maximum height but zero\
+    \ velocity, another is down at the minimum height where it has maximum velocity,\
+    \ and then there's the opposite on the other side. If you want to delve into state\
+    \ spaces, you can see the height here and the velocity there; a nice pendulum\
+    \ will trace a beautiful ellipse. I recommend looking up the Wikipedia page on\
+    \ pendulums; you'll find some fascinating GIFs of the state space diagrams of\
+    \ hanging pendulums. The most important and relevant aspect for the standing posture\
+    \ case is..."
+- dur: 180.0
+  end: 2700.0
+  start: 2520.0
+  text: "What we're here to talk about is that this system is passively stable. If\
+    \ I perturb it from its sort of happy zero point, the resulting acceleration will\
+    \ pull it back towards that stable point. Because there's damping, and energy\
+    \ gets lost in the system, it will eventually return back to where it is. So,\
+    \ if this is time, we're doing dynamical systems modeling because I put time on\
+    \ the axis. Congratulations, you now know how to do that. Now, this is Theta.\
+    \ If I deflect this thing down to whatever Theta is, it will pull itself back\
+    \ towards theta equals zero. It will pass through it because of the momentum and\
+    \ will oscillate back and forth. If there's no friction, it will just do that\
+    \ forever. If there is friction, it will return to its stable point.\n\nNow, all\
+    \ of these same dynamics work if you flip it upside down, except it is no longer\
+    \ friendly and passively stable. This is where it becomes Neuroscience. So now\
+    \ this is the floor. We were doing a regular pendulum; we're now going to do an\
+    \ inverted pendulum. This is another highly Google-able term: inverted pendulum\
+    \ human movement. You can find all sorts of information regarding locomotion.\
+    \ \n\nSo now we have the same structure attached to a point on the floor. We still\
+    \ have length L and mass M. I forgot to mention that if you wanted to calculate\
+    \ the forces, like the Newtons and so forth, since this is a meter, you could\
+    \ calculate those in units, although you might not know kilograms either, but\
+    \ you could come up with a peculiar unit that is equivalent. So, let's call the\
+    \ center M and the base of support. Remember, with this type of system, I drew\
+    \ the vertical lines showing where the extent of the base of support is. This\
+    \ area defines the region of controllability."
+- dur: 180.0
+  end: 2880.0
+  start: 2700.0
+  text: "Infimal, a non-existent thing, is basically this deflection point here where\
+    \ Thea equals Z. Whereas before, with a hanging pendulum, if I perturb it from\
+    \ that point, the resulting acceleration will pull it back towards that point,\
+    \ and it will cycle through there. If you're up here, you're not quite so lucky.\
+    \ This is the place where\u2014this is called the vertical projection of the thing\u2014\
+    if this was X, Y, let's say Y equals Z, and now this is X, that's the vertical\
+    \ projection. Just like before, at some point in my life, I started erasing things\
+    \ on a board, which is always fun. So, kind of like before, you have gravity pulling\
+    \ down on this thing here, which means you have gravity pulling down here, and\
+    \ you have the structure of the stick pushing up. If it's balanced here happily,\
+    \ then these things cancel each other out perfectly and nothing bad happens. Now,\
+    \ if there's a little bit of deflection from that point, in the same way, gravity\
+    \ is still pulling down, the stick is doing its best, but they're misaligned.\
+    \ So, there's a resulting force. Yeah, that's right. There are some geometry concepts\
+    \ you can apply here, like trigonometry. But basically, the amount that they are\
+    \ separated from each other means that the force\u2014basically, this stick is\
+    \ doing its best to keep you up, but now it is also pushing you away. Gravity\
+    \ is pulling and also leading to a force in a direction away from that happy,\
+    \ stable point. So with a hanging pendulum, a deflection leads to a nice result,\
+    \ you know, relaxing back to zero. This is even a small deflection that will push\
+    \ it."
+- dur: 180.0
+  end: 3060.0
+  start: 2880.0
+  text: "A passively unstable system is one that, if disturbed, may not return to\
+    \ its original position. For example, if you consider the ground as a reference\
+    \ point, when you hit the ground or move around the angle, it tends to go back\
+    \ down to the bottom and is ultimately pulled to the attractor point, which is\
+    \ the bottom. This is technically a stable point; however, any infinitesimal shift\
+    \ will cause accumulating error, and it will be pushed away. If you examine a\
+    \ state space diagram, you will notice regions of the space that can be analyzed.\
+    \ I won't explain the details here, but you can look for pictures or ask a bot\
+    \ about it. It's called beta, and there are both periodic and non-periodic orbits\
+    \ within this space. In our particular case, a non-periodic orbit implies that\
+    \ you fall over and hit the ground, or you have to change your base of support\
+    \ to avoid hitting the floor. Much like science, standing can be impossible in\
+    \ this context because it is a passively unstable system that cannot be reconciled.\
+    \ Fortunately, we do have nervous systems that provide passive stability. Congratulations!\
+    \ It can maintain balance, and it still behaves like an inverted pendulum\u2014\
+    it's just that the center of mass is so close to the ground that you have to perturb\
+    \ it significantly to push it out of the stable zone, yet it can still fall off.\
+    \ The center of the base of support remains a point with some extent. However,\
+    \ if I let go, it will slowly accelerate. This is one of those compounding errors:\
+    \ it starts with a small acceleration, but with each time step, the acceleration\
+    \ increases slightly, causing it to pick up speed until it finally falls over.\
+    \ If that were the whole story, that would be quite limiting. Luckily for us,\
+    \ we have a nonzero base of support and a whole nervous system connected to various\
+    \ feedback mechanisms that we can use to actively control it. This phenomenon\
+    \ is something many have experienced while balancing a broom; if you haven't tried\
+    \ it, you should."
+- dur: 180.0
+  end: 3240.0
+  start: 3060.0
+  text: "I am monitoring the error in the deflection from zero, using a combination\
+    \ of the weight in my hand and observing the movement. I am actively moving the\
+    \ base of support; if it is accelerating in one direction, I move the base of\
+    \ support in that direction. I'm trying to keep it as close to zero as possible.\
+    \ I could allow it to swing back and forth, but it's an active process that I'm\
+    \ engaged in, which allows the system to stay upright, even though it is passively\
+    \ unstable. \n\nThe best video I have about that shows a person standing on a\
+    \ ball. This is similar to the wobble board concept. I put a link to that part;\
+    \ I'll fix it later. Since she is on her toes, her anatomical base of support\
+    \ is very small. However, being on the ball allows her to spread out the center\
+    \ of pressure, which enables her to maneuver her center of pressure effectively\
+    \ to counteract movement.  \n\nWhen I see someone standing on that ball, I think\
+    \ it's so impressive. It is impressive, but it's actually easier than standing\
+    \ on solid ground because it extends her ability to move her base of support.\
+    \ If I had an overlay, I would illustrate that. It\u2019s quite a lot of information,\
+    \ and while it will all be on the test, there is actually no test. But do look\
+    \ up the Wikipedia page about pendulums; it\u2019s surprisingly in-depth. Wikipedia\
+    \ is the greatest intellectual achievement of humankind up to the present moment,\
+    \ and anyone who says otherwise is mistaken. \n\nNow we will look very briefly\
+    \ at what we discussed last time when I was here recording."
+- dur: 180.0
+  end: 3420.0
+  start: 3240.0
+  text: We had the two recordings of me balancing on my feet. On the one hand, I was
+    balancing; I was standing on two feet, leaning all the way forward, all the way
+    back, all the way to the right, and all the way to the left, and then sitting
+    on one foot. I'm going to play this; we will probably be able to tell which one
+    it is. You can see that the ball here represents the center of mass calculated
+    in the ways that we do that. The sticks are the rigid body segments that we used
+    to make approximations. The mass of each one has been calculated according to
+    a table, with the center based off a point on that table that shows where the
+    mass is relative to the proximal and distal joints. Proximal is close to the center,
+    and distal is far away from the center. You can sort of see stuff happening there.
+    I'm going to go back to this at a later date to show some additional information.
+    This is the Blender stuff, and Aaron was kind enough to pull in the raw data and
+    get started showing basic representations that are better equipped to illustrate
+    the differences between those two conditions. You can eyeball this, and you might
+    see some differences, but that's not really the results, and the effects are actually
+    small and hard to see with the naked eye. So, I'm going to show you more about
+    this.
+- dur: 180.0
+  end: 3600.0
+  start: 3420.0
+  text: "It doesn't actually show that distinction, but it provides a quick presentation\
+    \ of the kinds of ways we can start analyzing this data to explore those distinctions.\
+    \ People who want to know more about this can split off and learn about that.\
+    \ For others, we can start discussing the neural systems and anatomical systems\
+    \ that contribute to that type of balance and support.\n\nLong story short, if\
+    \ you're not familiar with coding, just let it wash over you. Remember before\
+    \ I showed you that large spreadsheet of numbers? The first thing you do is install\
+    \ the packages you need. NumPy is for numerical processing in Python, pandas is\
+    \ for handling large spreadsheets, and Plotly is for making plots. Many people\
+    \ have worked on these packages for many years. NumPy, in particular, has a significant\
+    \ place in the history of numerical computing; it has been developed over time\
+    \ by many contributors, making it a venerable tool.\n\nTo use it, you point it\
+    \ to the location on your computer where the data is stored. You tell it to load\
+    \ the body trajectories CSV file. CSV stands for comma-separated values, so if\
+    \ you look into that text file, it consists of a series of numbers separated by\
+    \ commas. That's how spreadsheets function at their most basic level; similarly,\
+    \ a Microsoft Word document is just a more complex version of a raw text document.\
+    \ CSV is the raw format that represents what happens in Excel.\n\nOnce you take\
+    \ the data and import it, it will look something like this\u2014this formatted\
+    \ square\u2014thanks to pandas, which handles these types of data. You extract\
+    \ the center of mass trajectories and print them out to ensure everything is correct.\
+    \ These are the names of the markers we are tracking. It\u2019s important, but\
+    \ you don\u2019t have to worry about the details. Each of those points has a trajectory\
+    \ over time. For example, this shows the x, y position of the nose on the x-axis\
+    \ in meters, and the y-axis indicates time, where, in our case, time is represented\
+    \ by the frame number. We could convert this to seconds by multiplying the frame\
+    \ number by the frame rate, but the shape would remain the same; only the scale\
+    \ would change."
+- dur: 180.0
+  end: 3780.0
+  start: 3600.0
+  text: "We calculated those Newtons assuming that this was a meter; you would get\
+    \ a certain number until you realize I misled you\u2014this is not a meter, it's\
+    \ actually 1.2 meters. The point to make is that those distinctions are arbitrary\
+    \ until you want to compare your notes to somebody else who actually used a ruler.\
+    \ Oftentimes, units are just like scalars; they really affect the shape of the\
+    \ data. So, this is the path that my nose took on the x-axis of whatever you're\
+    \ looking at. Pull it out; same thing, except this is now the XYZ. You see me\
+    \ jumping over here, and the same thing applies for the center of mass. So basically,\
+    \ things like the nose are raw measured points. Things like the center of mass\
+    \ are calculated from all of those trajectories plus the kinematic tables. You\
+    \ just shuffle it around to make a visualization. This is showing, for each point\
+    \ at every frame that we have, the XYZ position of all relevant dots. The purple\
+    \ dot here represents the center of mass. This is basically what scientific data\
+    \ visualization often looks like. It's very raw and not really set up for this\
+    \ type of stuff; it's not even scaling properly here. This could be cleaned up,\
+    \ and we'll do that going forward. One of the huge advantages of using something\
+    \ like Blender is that this is a visualization tool for professional visualizers.\
+    \ It can take the exact same data; the difference is that this is being presented\
+    \ in something designed for aesthetic visual output, whereas the other is something\
+    \ designed to plot two-dimensional data, which begrudgingly added a 3D viewer.\
+    \ It's also good to sort of show that you're not crazy because you can plot it,\
+    \ and it looks like a person. Also, notice the dots are not connected because\
+    \ the connections between the dots are not a measured part of the dataset. We\
+    \ know that the shoulder connects to the elbow, but we measured the shoulder and\
+    \ we measured the elbow. So this is just a raw representation. If you wanted to\
+    \ draw stick figures, you would need to have additional information indicating\
+    \ how to connect the dots, which we are not providing at this juncture. Now, we\
+    \ go through and pull out. We are going to look for the ground projection, right?\
+    \ We're comparing the center of mass to support, so we don't care about the Z\
+    \ height number anymore, as we did before when we were talking about jumping.\
+    \ Now, we are looking at the ground."
+- dur: 180.0
+  end: 3960.0
+  start: 3780.0
+  text: "In projection, we discard the Z-height number because in our world, following\
+    \ the right-hand rule, Z is up. In some cases, Y is up, but no one says that X\
+    \ is up. So, we throw Z away. We only take the center of mass in the X and Y directions,\
+    \ along with the points that define the basic support: left heel, right heel,\
+    \ left foot, right foot, and toe. This particular model has a very simplistic\
+    \ foot, with just a heel and a toe. However, we extract those points, and that's\
+    \ enough to create a rectangle on the ground. After doing some visualization coding\
+    \ and shuffling, you get this nice animation, which we will play in a second.\
+    \ If you ever need to color-code parts of the body, always make the right side\
+    \ red since it starts with 'R'. People often get this wrong; from a moral standpoint,\
+    \ they are incorrect\u2014if you're color coding the body, the right side must\
+    \ be red, while the left side should be any color that isn\u2019t green, as red\
+    \ can confuse color perception. The right foot, left foot, and center of mass\
+    \ are represented from a top-down view. This is the control case; you can see\
+    \ me leaning back and forth. I encourage you to stand up and lean to see what\
+    \ that feels like. Pay attention to how you can sense when you're at the edge\
+    \ and notice that your heels have far less influence than your toes. You develop\
+    \ a sense of the relationship between your base of support and your center of\
+    \ mass, even if you don't fully realize it. Now, you can see what's happening\
+    \ from the top down. You can observe how I'm shifting over, and even though this\
+    \ is a simplified perspective of complex data, you still get a good sense of what's\
+    \ occurring. You can also note that this is the moment when I'm not holding the\
+    \ weight. I think my computer can handle this, and you can plot the entire thing.\
+    \ It can become somewhat of a smear, which, if you're considering dynamics, isn\u2019\
+    t an optimal way to visualize it, since it appears squished over time. However,\
+    \ if you're interested in what space I covered, this is a great way to illustrate\
+    \ all the positions that my foot has reached."
+- dur: 180.0
+  end: 4140.0
+  start: 3960.0
+  text: Recording to see if it works. It doesn't, but that's not your fault. Although
+    I think it will work. Oh, see, this is why it's good to have an external LIC nervous
+    system. Okay, so this is a Panda notebook, which I don't like in many ways, but
+    they do the job. I like that they're really good for simple tasks like this in
+    an educational context, but they don't scale in complexity at all. So people wind
+    up getting especially student-like objects stuck in Panda's notebooks for a long
+    time in their trajectory. Oh, that's the morning we calculated it in my dark mode.
+    Looking good so far. This is the same data where I'm holding 20% of my body mass
+    in my can. I wasn't careful; I realized that actually the better way to represent
+    this would be to hold it statically on one side and try to hold it out away from
+    me because I was shifting it around a lot. So you might have to just kind of gut
+    check it. It would also be nice if this was playing alongside the bigger visualization,
+    which we can do. Andre actually wrote some code to make that easily doable. And
+    yeah, so that's it.
+- dur: 180.0
+  end: 4320.0
+  start: 4140.0
+  text: So, basically, the fact is, here I'm at my center of mass, which is still
+    my right. But when I shift over to my left, you can see that my foot is moving,
+    and you can see the center of mass has just shifted a little bit to the outside.
+    This is one of those things where I would like to actually show this data more
+    to make the point about this distinction. This is kind of like, oh yeah, the effect
+    is there, it could be measured, it could be done, but the behavior was not well
+    set up to produce good data. However, we can go back and record new data, or we
+    could just give ourselves more time standing there. We could take this representation
+    and couple it to the bigger visualization so we can actually verify it. We could
+    make the pause button work and then pause it to show that, yes, I'm standing here,
+    stable and supported, but my center of mass is outside of my base of support.
+    Because this center of mass is not the actual center of mass, since we're not
+    accounting for the fact that my hand, which instead of being one percent of my
+    body mass, is now twenty-one percent of my body mass. We would have to recalculate
+    the center of mass with that in mind, and then theoretically, it would shift back
+    and start looking like the regular control condition. Okay, got that? Good, great.
+    As per usual, I've also gone longer than I intended to, but that's okay; good
+    stuff. We have another twenty minutes, which I think is enough time to sort of
+    get started with some things. So, by a show of hands, who likes code and data?
+    Who is interested in code and data? You don't have to be good at it, you don't
+    have to have done it before, and you don't have to expect that you will be successful
+    at it, but who is at least interested in seeing what it would look like? We can
+    get you to the point where you can click the buttons and have the squiddle show
+    up. Who is interested in that versus who is less interested? Code people? Okay,
+    cool. And then non-code people? Great. The biggest problem would have been if
+    everybody said they wanted to do code, so this is great. Code people, I guess
+    push back, and then, Eron, can you just try to get them as far as you can?
+- dur: 180.0
+  end: 4500.0
+  start: 4320.0
+  text: "You can get towards this, like mostly just probably best to code. CL Theo,\
+    \ this notebook is now great. Other people, we're going to... I want you to do\
+    \ the same kind of group work thing again. Probably by next week, I will be able\
+    \ to have some sort of more feedback loop with the pod, but right now we\u2019\
+    re still just passively pouring into it. Basically, ask it the questions that\
+    \ come up for you when you were watching me talk about all this stuff. If you\
+    \ are interested in the mechanics of it, you can ask more about the robotics,\
+    \ control theory, analog systems, and P stuff. If you're more of a biologist,\
+    \ just think about the types of neural systems that would have to be in place\
+    \ for this to work, like you do not have a center of mass detector; that's not\
+    \ a thing that exists in your nervous system. You have a bunch of other modalities\
+    \ that give you other types of information, and that has the sort of effective\
+    \ reality that we could call functional equivalencies for those. I always had\
+    \ a professor say that philosophy of mind is so hard that it makes functionalism\
+    \ look interesting, which I will not explain. I will just say you can chew on\
+    \ that if you want. So, let's get started; we have about 15 minutes. Do these\
+    \ chats in the channel for this lecture and just pop some open. Again, whatever\
+    \ you found interesting, whatever you wanted to know more about, whatever sort\
+    \ of thing I said... don't work alone; work in groups. Clump up according to your\
+    \ local environment. Code people, go to the back, and Aon will meet you there.\
+    \ If you're not a code person and you're in the back, you might want to move forward.\
+    \ Do it! This may be your only chance. If you\u2019re interested in both, do coding\
+    \ for now and you can come back to this later. If you're interested in doing both,\
+    \ this is not an either/or situation; you will be able to drop this opinion later."
+- dur: 180.0
+  end: 4680.0
+  start: 4500.0
+  text: At your earliest convenience, there is a benefit if you have a clump that
+    is congealing in a reliable way. There's a benefit to having at least one person
+    from your clump gaining some code experience, but you will not be evaluated on
+    anything. Okay, I'm going to stop this report now.
+video_id: iROSFpum15A

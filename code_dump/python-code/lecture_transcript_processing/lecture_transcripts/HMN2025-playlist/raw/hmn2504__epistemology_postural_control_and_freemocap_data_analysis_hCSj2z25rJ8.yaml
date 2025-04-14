@@ -1,0 +1,1900 @@
+full_transcript: let try that again okay hello everybody and welcome to this I guess
+  February um made it to February which is great an additional month um so last time
+  we recorded a bunch of data and today we're going to look at it sort of at various
+  stages of development this is kind of the output of one of the recordings that we
+  can we talk about the kind of like semantic level um semantic meaning like meaning
+  and then syntactic is like structure um before we do that uh just you know sort
+  of standard weekly update on the status of my main project for the semester which
+  is making sense of all the good data you've been pumping into the machine um so
+  just again like a standard scrape the server recalculate stuff um shove it into
+  a zip file you can open it an obsidian this one is slightly different it's I guess
+  speaking of what I just talked about syntactically these is these two are exactly
+  the same they have all the same folders all the same file names probably um but
+  semantically meaning wise this one the most recent one the the the user profile
+  part that kind of like looks at what you've been talking about and guesses what
+  your interests are only looks at your chats in the assignments category so the stuff
+  you've been doing in class and sort of like any of the bot playground stuff um is
+  not getting used as part of that calculation I didn't really like check it too closely
+  for like how that changed things um but if you don't mind pop it open take a look
+  at yours and hypothetically it should be sort of a better match to what your interests
+  are um also uh you can check and see if like if all of if if you have two chats
+  in both places and it's only showing one you know I guess let me know from like
+  a bug report perspective but like don't stress too much about it um we're not going
+  to look at that right now maybe sometime soon um I also have been informed that
+  I am I am required to give you an exam but I'm so we're going to do another Chat
+  thing if that one's going to be an exam so you'll get a grade on whether or not
+  you did it um but I think it's it'll be a little more I I'll put a little more effort
+  into like the prompt to kind of like it'll be asking you questions about your chosen
+  topic and sort of relating it to the kind of like empirical sort of stuff we've
+  been doing before like okay for your topic like what are the units that are involved
+  what are the what are the like the methodological approaches like what kind like
+  what do their measurements look like what do their studies look like and I'll be
+  asking you kind of those like what units are relevant to that domain um so asking
+  questions like the bot will interview you about your chosen topic on the sort of
+  relevant to the convers the stuff we've been talking about before um but you've
+  you've seen how this thing operates now it's not going to be withholding uh it will
+  be asking you those questions but it'll also be like down to help so if you you
+  know if you don't know just like ask it just and do yourself a favor and look it
+  up um and yeah and then so on Wednesday I have a mind for like another kind of group
+  class activity that will be based on again like forming into small groups um and
+  kind of taking turns trying to find an additional paper that's relevant to your
+  chosen topic um and sort of basically trying to intentionally kind of like choose
+  papers that are very dissimilar from the ones that you chose initially but are still
+  within the same domain um in order to kind of like flesh that stuff out and uh and
+  I think after that session I'll do the that sort of pseudo exam Chat thing in the
+  following week um yeah so if anybody asks it's an exam and you're very stressed
+  out and it's difficult and you feel like pressured to perform and out compete your
+  peers so you know just make sure you know if anybody asks you're being rank ordered
+  by human quality which is disgusting but anyways um cool okay uh that sound good
+  anybody any emotional outbursts thoughts feelings great uh cool so uh last time
+  last time we recorded um okay let's make our way towards it by way of review so
+  a couple of times ago we talked about like units and space and stuff like that and
+  sort of like you know ukian geometry and then three dimension stuff and SI units
+  in terms of mass and kilog and seconds which I just often I sort of like notice
+  that it's like kilograms is the SI unit like a thousand grams like why isn't it
+  grams I don't know I think there's some stuff in the history of these things where
+  like they pick a number for like the unit base unit for gram and then lat we decide
+  it's like that's too small let's make it a kilogram it's more viable anyways uh
+  not relevant to the present conversation we talked about mass and kilograms and
+  seconds and derived units like Newtons which is like kilogram oh drive units like
+  speed like milligram like milligrams meters per second and then Newtons which is
+  like kilogram met per seconds and then Jewels which is oh per second squared then
+  Jews Like kilogram met squared per second squared or whatever we talked about all
+  that we talked about pendulums as they swing back and forth and we talked about
+  uh inverted pendulums in terms of like things that can be balanced above the ground
+  uh through a sort of minimally hinge jointy type of thing at the ground and also
+  I guess that's while we're here this this is a nice model of a person where these
+  two things represent muscles in the ankle joint and so this is you trying to stand
+  up look at you go you're doing great [Music] um yeah and so we we sort of laid all
+  that stuff out in terms of like setting up the landscape of the general study of
+  human movement at this sort of like holistic like human scale type of approach so
+  not the sort of zoomed in looking at cells looking at individual muscles much much
+  more zoomed out let's sort of examine this physical system to the level of fidelity
+  that we can sort of record and reconstruct it um and uh this is a software why am
+  I looking at the screen uh this is a software called blender it is a animation software
+  it's free to open source you can download it um I will I'll Endeavor by Wednesday
+  to have the data that we recorded in a place and in a sort of format that is easy
+  for y'all to like download and look at um it's not there yet I but um I'll try to
+  get that up by Wednesday so that you can kind of Click around and then depending
+  on your interests I think Wednesday we'll try to focus on the paper thing but then
+  in a later date we might have some more kind of like individualized work and you
+  kind of decide if you want to sort of dig deeper into this side of things um right
+  and then right and so in service of understanding all of using sort of studying
+  human movement in the natural world where in this context we are presenting that
+  that this sort of rough couple square meters of space is the natural world this
+  is my this is my ecological niche this is the space of the environment where this
+  particular organism operates so it's valid um and I've spent a lot of time in front
+  of cameras so you know not too much artifice there um but we recorded looks like
+  five separate recordings one this doesn't zoom in does it no uh the first one is
+  calibration that was part where I set up the cameras and I sort of showed it that
+  grid uh sort of shape thing an object of known shape and known size that's very
+  easy to track which I could use to kind of like characterize the positions of the
+  cameras and sort of localize them in space which is a necessary thing so again calibration
+  has the general shape where you set up your equipment then you measure something
+  that you already know the answer to the question about what is that thing that I'm
+  measuring and if there's a little more going on in this sort of computational Step
+  but that's the general idea with the sort of principle being if the tool if I use
+  the tool to measure something where I already know the answer if it gives me the
+  answer that I know is right then that's some indication that the tool is actually
+  measuring the world in a way that I care about and so from there I can move on to
+  measuring stuff in the world where I don't know the answer so which is in this case
+  you know a h and moving around in space so from there we started there were these
+  two kind of matched um this is like a little mini baby experiment uh where the First
+  Recording was standing balance sort of a control and that was split into three phases
+  one is sort of two feet one foot left and then one foot right so standing on two
+  feet standing on one foot standing on standing on one foot which is my left foot
+  and standing on the other foot which is my right foot and then the sort of kind
+  of more experimental condition which is you know it's not a particularly like exciting
+  experiment sort of this is like a classic case where I'm like I'm choosing the experiment
+  that I where I I'm pretty sure I know what the answer will be because I'm trying
+  to make a particular point in relation to this sort of particular um theoretical
+  description of the desideratum of my research study which in this case is the explication
+  of the neural control of human balance so this one is we call I called it standing
+  with support uh and these are these has matched conditions where I do all the same
+  things in the manipulated condition forget I forget the op like control is the one
+  where you didn't change anything I forget the name of the one where you change something
+  but in this one uh I am doing the same same behaviors except now I'm using that
+  stick as like a point of support um and in this so with this sort of difference
+  in the behaviors and the sort of measurement Fidelity that I expect to be able to
+  get and the theoretical framework of this sort of like this strange idea that we
+  can boil down a human into to a singular Point Mass since that might be informative
+  about the behavior in question these things all kind of like form into something
+  where you can make predictions about the future and then we can you know using the
+  data that we have sort of check those predictions so I'm not going to uh spoil the
+  game just yet but I'll bet you can I'll bet you can make some guesses about how
+  these conditions will vary um oh and importantly for the two feet standing I didn't
+  just stand here straight uh I was like leaning as far as I could in in all the directions
+  that I could sort of based off of my internal sense of like how far I can lean without
+  having to go so far that I need to take a step to stay upright uh then there are
+  these two other conditions one which I call three big jumps um putting three in
+  the title is just kind of like a hint for me because eventually you want to you
+  want to sort of chop this up into smaller pieces so telling myself that there are
+  three here helps me sort of know how many to look for um and then the second one
+  is repeated jumps um for some amount of time I don't know uh I also just to be clear
+  I am calling out the fact that I'm calling that I'm calling this three big jumps
+  not is not to say like this is a good way to name your trials and record data um
+  this is actually not a good way to like you don't want to bake that kind of stuff
+  into the title of it but this is kind of just easy like you know it's a I'm allowing
+  it because I'm doing it and you can do it too and you will discover through practice
+  why it's not a good idea and I'll leave that as an exercise to your future um great
+  do we feel caught up do we feel aware of the situation great um I'll leave that
+  there so today I think I'm going to focus on the two standing ones um we'll see
+  how far we get with that we talked we showed the the jumping data from last time
+  at least the big jump data um but we'll get sort of back to it uh actually there's
+  one more distinction I want to highlight here uh and this is less about the the
+  data that we recorded and sort of like the purposes for recording it and more just
+  something I want to point out about like a a difference between these behaviors
+  so specific the B the balance and posture Behavior versus like a jumping behavior
+  um and then it gets from the big jumps versus the repeated jumps where with the
+  standing posture it's a it's like a continuous control problem so I'm standing here
+  my feet are on the ground my base of support is a certain you know space and I'm
+  continuously trying to keep my center of mass sort of within that base of support
+  by using sort of a you know whatever I'm doing with my leg muscles in my sort of
+  equilibrium sense um it's a continuous overtime um behavior um this is different
+  from something like a jump where a jump is a more of like a discreet momentary Behavior
+  like there's a period of time before there's the thing itself and then there's a
+  period of time after so this is like the you know wind up this is the jump itself
+  and this is landing so that unlike this one where sort of like you're controlling
+  it continuously over time with this one there's like a discreet behavior that you're
+  doing once um in this case it's jumping off the ground and so you know there's all
+  the physics there's like the moment of liftoff there's the moment of contact um
+  but you know you could compare that to something like you know throwing something
+  in the air um either throwing it and then catching it or just throwing it at a Target
+  where that's more of a Contin like a a discreet singular targeted behavior um where
+  you know if I'm trying to throw this at a Target and hit the target I aim I set
+  up I wind up I throw and then at some point the thing leaves my hand and then it's
+  off it's out of my control um versus like a more of a pin the tail on the donkey
+  where I might might be trying to like steer it in where I'm sort of controlling
+  it the entire time um there's kind of there's there's a lot of deeper layers there
+  that's that's one of those things that's like it's it's a very intuitive distinction
+  but there's a lot of differences once you start getting down to like you know thinking
+  about this in terms of like Robotics and kind of like control systems this starts
+  getting you into like continuous control starts getting into things like feedback
+  control versus this more discreet control stuff gets you into like feed forward
+  control and model based predictions and blah blah blah blah blah um none of which
+  we're really going to talk much about but just so you know those are the the Deep
+  ER layers there um and also just in a distinction between like three biget jumps
+  where I sort of wind up put everything I can into the ground land reset and then
+  do it again versus a like repeated jump thing where it's sort of a continuous process
+  where the force of compression from Landing of the previous jump becomes the the
+  force that will carry me on to the next one so there's not that period of kind of
+  like reset and reestablish um with the three big jumps you can you can look at each
+  of them individually aside from like fatigue factors and stuff like that with things
+  like repeated jumps they carry into each other so well that you can't consider one
+  without considering the thing that came before it so this is more you know I think
+  like walking or running or juggling or some kind of like continuous Behavior running
+  in particular also has this case where like you were coming off of the ground at
+  discrete intervals and then the force of Landing from one step compresses is your
+  the spring of your body which is what which is part of the energy that sort of bounces
+  you into the next step um and yeah a lot of deep layers there there's sort of at
+  a layer of sort of the motor the neural control of like movement and motor control
+  um there are distinctions and sort of thoughts about where different of these types
+  of control may live in your cortex in your subcortex in your sort of spinal region
+  and you know like the thing of like the the the compression from one jump leading
+  you into the next one the the forces from one step setting you up for the next the
+  step that comes after it that sort of stuff is very gets very close to the physics
+  and the closer you are to the physics the sort of the lower in that motor hierarchy
+  you tend to operate so a lot of things like Locomotion um are thought to have a
+  lot of their control down like the spinal level like in spinal Central pattern generators
+  um which are thought to be kind of you know like the upper the higher regions of
+  your motor hierarchy kind of our our thought to the C remember speaking in cartoon
+  terms kind of like they kick off a process that kind of then once it started it
+  gets kind of like shunted down to the lower layers of your nervous system um so
+  things like walking for example um as far as I understand haven't checked in a while
+  um the thinking it this is like one of my sort of pet questions as a grad student
+  was like how much of things like how much of things like local motion are controlled
+  by the motor cortex versus being controlled by like the lower lower levels of the
+  nervous system and I believe the last I my my last I checked in my sort of you know
+  in that exploration I think it was like when you start like gate initiation like
+  when you start walking you see a lot of activity in the motor cortex but on but
+  during like continuous Locomotion like when you're walking from one part of Campus
+  to the other you're in you're happily in Locomotion mode moving at a relatively
+  constant preferred walking speed there's not a lot happening in the cortex at that
+  point like if you start getting onto like Rocky trains where you're like picking
+  your step it might show back up um but sort of the idea is that the motor cortex
+  initiates the gate Behavior Uh terminates the gate Behavior so you start walking
+  you come to a stop but during it sort of standard operation a lot of the basic control
+  is handled by lower parts of your nervous system U and then your vision is kind
+  of like I think it's sort of it's thought that a lot of that like the vision goes
+  through subcortical Pathways like keep looking for tripping hazards and you know
+  some like you know avoiding stepping on the stick type of stuff there's some indication
+  like keeping balance not falling over there's some indication that that visual path
+  it goes subcortical so it it doesn't actually go into the pink wrinkly thing up
+  top it kind of bypasses that um but now we are I think directly at the Forefront
+  of how much we know about that kind of stuff so uh I'll just leave it there great
+  question um so there's such a thing as the What's called the startle response and
+  it's the thing that we all know it's kind of like ah and I think that's um that's
+  one of those places where like this the cartoon kind of starts to break down between
+  like oh this part is controlled by the higher level this part is controlled by the
+  lower level because things like a startle response it's very basic like like all
+  vertebrates startle and it's one of those things like it's triggered by these sort
+  of like looming objects and sort of like oh no I'm slipping kind of things but so
+  which would make you think that it's sort of like a lower level of control but it
+  has these sort of characteristics that that are more sophisticated than you expect
+  like I'm falling I reach out and I grab something so whatever system is controlling
+  those kind of like like startle responses and like balance correction responses
+  has some access to like the things we tend to associate with the high levels um
+  and so it's just kind of it it starts to get like that's that's one of like that's
+  one of those question question that you could ask the bot more like a lot about
+  it and it would say a lot of things but I wouldn't trust anything it says in the
+  specifics because that's the kind of question that's like as an expert in that area
+  I'm like ah that gets that gets complicated and murky and like try to find recent
+  papers about it um you could probably find stuff in like rodents about strle responses
+  but then when you start looking at stuff in humans just like the quality of research
+  is it's just harder to study that because we because it's hard to study humans and
+  you can't crack them open so um but yeah sort of like that yeah that's uh there's
+  some there's a study that I saw that was looking at it was like walking in VR and
+  every so often the VR world would just like rotate as if you were falling over and
+  they measured like responses at like you know at the full body level at the muscular
+  level stuff like that and they found that there were these responses in the ankle
+  musculature that happened like 120 milliseconds after the perturbation which is
+  way too fast to go through the visual cortex because that's thought to be a much
+  slower process um there's also some like there people running on a treadmill and
+  they sort of drop a plate that they have to step over and you see responses within
+  like 5 50 to 50 to 100 milliseconds which again is kind of evidence that there's
+  a sort of like subcortical path subcortical meaning below the cortex so bypassing
+  the pink wrinkly thing um but the these are cartoons these are never it's never
+  like we're talking about like bundles of like millions of fibers of neurons like
+  and we when we say oh it bypasses this part of the cortex we mean most of those
+  fibers don't project onto the cortex but you know if 20,000 fibers go back to like
+  you know it's like we're talking in statistics here so it gets really murky really
+  fast um so yeah I don't know that's like a great question that I don't have a great
+  answer to because I don't think anyone does if there might be like some people who
+  could give you like a few extra layers but very quickly you get into out of no space
+  which is a great space to be that's where all the work is okay cool any other thoughts
+  questions yes great um so let's look at standing the noblest of behaviors outstanding
+  in our Fields um so first things first let's look at actually first things first
+  let's take a moment to mourn the reality that we will never actually know the true
+  answers to what it was that I was doing here here or here these are we are we going
+  to be looking at and sort of thinking about and analyzing and sort of considering
+  events that happened like last week they're those they're gone we are going to try
+  to be making inferences about things like you know what was my muscular doing what
+  was my nervous system doing where was the state of my body and sort of what was
+  the mass distribution at different points in time these are the questions you want
+  to answer but the reality is is that the true answer to those questions is lost
+  it's gone it's like it it happened and then it then it's gone dissolves into the
+  past thermodynamic foam and all that good stuff and and so any questions that we
+  might want to ask about it there there will be many questions we might going to
+  ask about that where we can never know the answer to what that event of the past
+  was um and the only reason why we can say anything about it is that we happened
+  to have a empirical apparatus set up calibrated and recording and that recording
+  was able to save some bare Shadows of data that we believe are correlated to the
+  hypothetical true fact of the universe of what I was doing in this space in that
+  point of the past um and this particular case the the data that we collected is
+  in the form of videos um where a video is one of these things I don't know if you've
+  heard of them they're great super useful um super dark so the recordings themselves
+  were not not my greatest work sort of like some of the camera setups were not great
+  it's super dark um which I think you know so the Fidelity of the data that we're
+  getting is not going to be the best in the universe um but it's fine enough um and
+  so this is a video this is a record of the data that we recorded and the empirical
+  measurement that this represents is samples from a particular cone of light from
+  a particular location in space so a video it this is 30 frames per second which
+  is pretty slow for scientific data but standard for most sort of videos that you
+  encounter um 30 frames per second 720p uh hey hey calm down um so the video is let's
+  see 720p by 1280p 1280 yeah P meaning pixels so if you see things like HD high def
+  1080p by 1920 4K is like whatever whatever 1080 * 2 is divided by whatever 1920
+  X2 is and this is a raster plot a raster recording raster image where the 720 is
+  if you count if you zoom way into these tiny little pixels and you count them there
+  will be 720 in this direction and then there be 1,280 in that direction and at each
+  of these little squares there's actually three recordings one is in the red channel
+  one is in the green channel one is in the blue Channel and the pixel itself represent
+  a number between 0 and 255 which is 2 to 8 and if it's zero it means that that tiny
+  little section of that whatever sensor is on the back of the camera recorded zero
+  intensities of photons um I guess the S would be Candelas I don't really know how
+  that works but this little the the number in this spot it will be between zero and
+  some let's even let's not worry about the number let's just say between zero and
+  one if that seems too complicated to you we can say between 0 and 100% or 100% is
+  the maximum value that that little sensor at that little section of this of the
+  video was able to record so this is roughly speaking white so that's going to be
+  100% active this is roughly speaking black that's going to be 0% active so we get
+  one of these images every 33 milliseconds which at the end results in a a weird
+  thing called a video. MP4 where the before it's just a file format it's just like
+  an instruction set that the computer uses to be able to turn this into something
+  that our sort of primate eyes like to look at um yeah and then there's three of
+  them and sort of analogously to the way I've talked about Vision before and the
+  sort of these truc moments where environmental energy gets transduced into sort
+  of a different form of energy um and your eyes that's light is gets absorbed by
+  the opsin and converted into like electrochemical potentials or whatever in a camera
+  the light is absorbed by some weird Crystal of silicone and then turned into a pattern
+  of voltages that gets measured and recorded and converted into this picture and
+  we believe that there's something in the pattern of activation on the back of the
+  camera sensor at the different time points of recording that is correlated with
+  the reality of what's going on in the real world um the reason why we believe that
+  is because when we look at it we say yeah that looks like a person that looks not
+  only does that look like a person it looks like the person that was standing in
+  front of the camera at the time that I saw the person in front of the camera standing
+  there and then the person pushed record so I look at it and I say yeah that seems
+  right I think that I understand how cameras roughly work and it's that sort of weird
+  intuitive gut check of yeah this seems like a vaguely valid recording that's the
+  empirical basis of everything that's going to come after this everything else I'm
+  going to show you is going to be computations that happen on top of on the basis
+  of these sort of Bas level initial empirical measurements and it's kind of fun to
+  talk about this in the context of like lowquality videos from webcams but I promise
+  you every empirical investigation you do from here on out will have a similar form
+  where there is some empirical measurement unless it's like a computational study
+  which a whole other thing um well whatever different thought um there will be some
+  piece of equipment that you will have calibrated against some known value it will
+  be recording some either a singular or a Time series of empirical measurements that
+  you will have some degree of trust about whether or not that thing maps onto some
+  true fact reality of the world which typically speaking will be some true fact reality
+  of the world that has gone into the past and may or may not be able to be recorded
+  again in this case you could record me doing the same behavior again but you will
+  never again have the opportunity to record this particular moment in time so this
+  is sort of just like practically speaking as a researcher um this is not particularly
+  precious data because I can just always do it again if this was like a patient like
+  a like an amputee that I had to recruit and they sort of came across town and they
+  came and stand in front of the thing I did the recording and and if I did that one
+  and it was too dark and I had the cameras kind of in the wrong spot that's a much
+  bigger bummer because that's a that's a much harder data recording to recreate but
+  yeah so yeah learn your equipment learn your equipment because when you get to the
+  place where you're recording data you really care about you want to know all the
+  ways it can go wrong um okay great so oh yeah I have some other technically speaking
+  there's another empirical measurement here which is in the form of the time stamps
+  from the videos so I have measures of like the computer's like sort of hypothetically
+  nanc scale time stamps from each one of the recorded frames I don't trust it down
+  to NS but I do trust it down to like milliseconds microsc question mark who knows
+  um this is another thing where if I deleted these time stamps I could also never
+  recreate those timestamps because videos tend not to actually encode the specific
+  time that the image was recorded they tend to just sort of say this is a 30 FPS
+  video and then play it at 30 frames per second regardless of the variations in time
+  so there's a many many deeper layers of the freeo cap software which we will never
+  bring up in this context relate to this stupid time stamp recording and getting
+  everything nicely temporarily synced between the multiple cameras so so this is
+  the base data videos from multiple locations um we also have this calibration data
+  which tells us where the cameras were in space um so camera one was trip rotation
+  translation is like position rotation is rotation put them together you have something
+  like orientation 6 degrees of freedom and this is the positions of the cameras this
+  is another one of those cases where if I didn't have the calibration data for where
+  those cameras were I can't recreate it I I proba it would be very difficult to recreate
+  I I actually if I really desperately needed to I could write some code that would
+  allow me to reconstruct the camera positions um um without the the checker board
+  just using a bunch of like like I could use like marks on the board and stuff like
+  that but I really don't want to do that so I consider this to also kind of be part
+  of the base data here like if I hadn't done the calibration or if I had done the
+  calibration wrong um very difficult to recreate that um so like for example if I
+  had if I was using like the wrong checker board or if I had like mistakenly had
+  like another checkerboard in the background and not noticing it then that process
+  would break and I would either have to come through and figure out how to fix it
+  or record the data again this is a so this is another thing that someday this may
+  come up in your life but my personal belief and advice to you is it is typically
+  speaking a much much better idea if you record some data and it's not good data
+  learn the lesson and record it again don't spend a lot of time trying to fix bad
+  data if you could at all avoid it you can't always avoid that but in general given
+  the option just figure out what you did wrong and then record it again that's my
+  personal advice uh as a Del leaguered scientist okay so but let's forget all those
+  and just say the base data is the videos so if that's the base data and then this
+  is the other side of that equation this is the output data this is the approximation
+  let's turn off the the mesh which is mostly for visuals and let's this is the that's
+  this guy that's roughly speaking right this is the level of fidelity that we have
+  reconstructed the the human body to um and look there was a lot of work that went
+  into recreating it to this level like it was years of my life and years to come
+  was to produce this data and I'm quite proud of it but also it's garbage there is
+  nothing like this is such an impoverished Recreation of this like this thing is
+  like a couple chunks of wood um and I am several trillion cells and billions of
+  neurons and you know thoughts dreams and histories and stuff like that um the feet
+  here are just like solid blocks whereas my feet have this like very complicated
+  muscular skeletal structure um and you know this thing doesn't have any neurons
+  it's all very it's extremely impoverished um but it's the best we got yeah uh and
+  then all of this ah this point is not worth the time I'm taking to make it yeah
+  yeah and then this this is the actual data model that we're looking at here this
+  is the whole thing boiled down to a singular Center of mass it doesn't even have
+  rotation it just has position and so this is the it's a long way to make it down
+  to an extremely condensed form an extremely low dimensional representation of something
+  that is reality infinitely dimensional you would require like like I don't know
+  how many numbers so this thing requires three numbers to perfectly Define its position
+  and space at any moment in time I don't know how many numbers it would take to Define
+  me as a person at any moment in time but it's a very very large number this thing
+  I think 1 two 3 4 five 6 7 8 9 10 11 12 13 14 14 * 3 42 so this is 13 joints three
+  degrees of freedom this requires 42 numbers to Define at any moment in time um so
+  yeah if you want to know questions about things like joint angles this is not sufficient
+  um but if you're just looking at things like Center of mass versus BAS of support
+  it's nice to have the low dimensional output and then I do that I'll come back I
+  do this it go away great okay so how do we get how do we sort of get from point
+  A to point B here um well the first thing we have to do is just just like a little
+  bit of magic just like a tiny a tiny chunk of magic um where by magic of course
+  I mean some form of stochastic process involving machine learning these days in
+  in year of Our Lord 2025 a lot of AI talk everywhere if you've been paying attention
+  there's been a lot of machine learning talk for quite a long time since then for
+  as long as you've been alive easily um but you know I think if you're looking for
+  a specific date like 1986 rumel Hart and some other guy uh came up with back propagation
+  which is a very important technique that basically makes uh neural networks sort
+  of work um and so there lot so and everything since then it's sort of now now everything
+  has the term AI in it which is basically just like a marketing term that means a
+  neural network that has language capacity um and this is kind of a problem like
+  I obviously like AI we're using in this class like a lot um but it's a problem it's
+  a problem empirically because machine learning will sort of I think by definition
+  involve some form of trained networks trained neural network where there's some
+  form of uh empirical data that gets smooshed together with some machine learning
+  processes and it produces a neural network that produces an output of some kind
+  so when you talk to the bot on Discord behind the scenes several several many layers
+  behind the scenes the thing that's actually producing the words that come back onto
+  the to the screen and sort of feel like a a human a humanik response those words
+  are being generated probabilistically from a neural network that was trained on
+  language data um and importantly I'm saying probabilistically because the neural
+  neural networks machine learning algorithms machine Learning noral Network based
+  computations only operate in that probabilistic stochastic space they they do not
+  do hard computation um that will give you uh deterministic responses so things so
+  an example of a deterministic thing is like the distance between two points right
+  you use Pythagorean theorem for that you know whatever is that X Y you know L sure
+  and then L = the square < TK of x^2 - y^2 right that's a^2 plus I don't know Pythagorean
+  theorem right so you want to measure the distance between these two points you can
+  do this computation and it it is like a like you will always get the same number
+  if you put it in the same numbers here um Mach uh machine learning algorithms neural
+  networks any AI based solution as the marketing folks would like to say does not
+  have that characteristic there's always going to be some squishiness and stochastic
+  aspect to it in this pipeline I have very carefully there is a there's only a singular
+  point in the process that involves a machine learning algorithm and it is this part
+  right here it this the step of the process where we convert the video into something
+  that's a lower dimensional and directly related to the thing that we care about
+  involves bit of jargon here um a convolutional neural network which is basically
+  lives in the it's a trained model that was trained on many many many hand labeled
+  videos hand labeled images where people went through images of people and then marked
+  out these are where the shoulders are this is where the hips are this is where the
+  the the wrist is and so the the neural network and the convolutional part just means
+  that it's sort of like running this kind of like search pattern over the image looking
+  for something so like the ankle detector is just looking for ankles at all times
+  and when it gets down here it's actually more it's like a right ankle they have
+  like a right ankle detector and a left ankle detector and so it says oh there's
+  probably an ankle in this part of the screen and then you take the peak of that
+  probability curve you draw a DOT on it and then we say that's where the ankle is
+  um this is weird magic this is one of those things that like shouldn't be possible
+  and yet here we are um before 2007 it wasn't sorry 2017 it wasn't POS you couldn't
+  do this then in 2017 some folks from Carnegie melon published a paper called open
+  open pose released a model called open pose um and it was the first it they were
+  building on existing models and existing techniques and they produced an output
+  that sort of could reliably draw a two-dimensional stick figure on a picture of
+  a person in the screen if you just Google open pose now you'll find the repo it's
+  a bit of a nightmare to use but very useful thing to come out um and so that is
+  the the weird jumping technology that makes any of the rest of this possible because
+  video has always been kind of been a very strange form of data because for us as
+  visually gifted primates we are exceptionally good at looking at videos and extracting
+  a lot of information and we you do that all the time every you're look when you're
+  looking at a video you're looking at a a rectangle of light flickering around and
+  thinking oh yeah that that person is petting a cat that person is you're riding
+  a bike like you're very very good at that and you can say you can tell you can say
+  many many truth preserving things about an image with your giant human brain um
+  so scientifically it's videos been used for a long time but it's always been very
+  challenging to convert that sort of qualitative gut checky sense of what's going
+  on in the video into something that's empirically grounded enough to actually do
+  scientific investigations on it um historically one of the best methods that we
+  had was hand coding so you would train a group of typically like undergraduates
+  to look at videos um a lot of like developmental psychology um involves like just
+  watching videos of babies doing stuff and having undergrads who just are like watching
+  okay at time equals 12 seconds the baby grabbed the toy at 13 seconds they handed
+  it to the mom at 14 seconds you know da da da da and so you have that sort of like
+  manual labeling of videos as as the thing that produces the base data of like oh
+  the you know babies like to reach to toys you know is this child looking at their
+  mother and what's the odds of sort of autism spectrum on the basis of like shared
+  attention and da d da um so valid but obviously huge bottleneck like if if if if
+  us for us to to look at this data if we had to give it to a human and have them
+  hand draw points on the screen that's a massive bottleneck but because of the Advent
+  of that sort of convolutional neural network stuff we can now send our images at
+  30 30 frames per second from multiple cameras to the machine and it will draw the
+  the dots on the screen and then critically for the sort of empirical validity of
+  this thing that step which is the only sort of machine learning stochastic Magic
+  Box step produces data that lives in the form of a stick figure drawn on top of
+  a picture of a person so if you are trying to evaluate how well this thing did at
+  drawing a stick figure on this image of a person you can tap back into that several
+  billion years of evolution of your visual cortex to look at it and say oh yeah that's
+  doing a pretty good job and so now we even though we have the magic box step in
+  our process we can gut check ourselves and sort of like regain some of the like
+  the trust that we have in processes like Pythagorean theorem that we do not have
+  when with processes involving a neural network or a machine learning algorithm or
+  an AI or something like that so this is sort of part of the epistemology of it so
+  epistemology study of knowledge study of you know like how do you how do you feel
+  like you know things um and the reason why I trust this data is because the step
+  of the process that I trust the least is visually verifiable and I have looked like
+  I don't because I I know this process well enough I no longer have to spot check
+  all the videos to trust them um because I've done that enough that I can say okay
+  this is a vaguely big word here not important term here uh this is a truth preserving
+  process I believe that this step is not throwing fake into my computational engine
+  so I now trust the output there's a lot of there are other paid softwares that do
+  marketless motion capture um and as far as I understand it most or all of them we
+  don't really know because they're closed Source but I have like various people on
+  the inside they have a step in their process where they use a machine learning algorithm
+  to clean their data so where there's like Jiggles and wiggles and like weird stuff
+  going on they have a neural network that that is trained to clean that data for
+  them and produce data that doesn't have that noise in it that is a nontruth preserving
+  process because you can't spot check it but that's okay for them because they're
+  generally producing this for like artists and stuff like that but you cannot do
+  that if you want the data to come out scientifically and empirically valid um anyways
+  moving on so um great so we've done this this is the high technology part this is
+  the weird Magic Box part um and the output of that is where are we we crashing what's
+  going on great oh well so the output of that is going to be so let ignoring ignoring
+  the face it's going to be XY positions of I think it's I forget how many there are
+  like 32 not counting the face and hands I think there's like 32 points in this particular
+  uh stick figure guy um and so on each frame of each video there's going to be 32
+  * 2 numbers produced and those numbers are going to be with an image 0 0 is at the
+  upper left so you sort of you count you start here and you count that way um so
+  that's why we tend to think of X as this way and Y as that way but for image coordinates
+  it's X is this way and Y is that way so it it's confusing because the top left corner
+  is zero and then the bottom corner is 1280 so you count upwards going down you get
+  used to it um this it's like it's like that so the Z is the depth plane into the
+  thing um so X Y pixel X pixel y so for one frame for one joint you get you know
+  the the position of that joint in two Dimensions with the units in this case are
+  pixels um you then do uh once you have that two-dimensional data and you have you
+  already have the position of the cameras that's when you can do the triangulation
+  step where you got camera One camera two so camera 1 2 3 this is me and then camera
+  one sees the position of this there camera 2 sees it there camera 3 sees it there
+  and then using epipolar geometry which is you know this is like old school geometry
+  um I'm not sure where epipolar geometry exactly what era that is from but this gets
+  down to like similar triangles and like uid and like like like old school geometry
+  um is how you sort of you do this kind of like triangulation math where you kind
+  of like by because you know the position of each camera if you can if you can identify
+  the location of the pixel from the point of view of that camera you can do the math
+  and figure out the 3D location so the way to think about that is like imagine you're
+  standing on a a rooftop somewhere and you have a laser pointer and you're pointing
+  it at some Target you can know from your position it's like okay I had to move like
+  over this far and then down this far so you know the direction that that thing is
+  in but you can't tell how far away it is because your laser doesn't tell you that
+  so if you have a friend on another rooftop and they are also pointing their laser
+  at that Target they know that I had to turn this way and down that way um they also
+  know the the the direction of the target but they don't know the depth so now imagine
+  it's like a foggy night and you're standing on still another third rooftop and you
+  can see those two laser paths and you can see where they cross over that place where
+  those two lasers cross over that's the position of the thing that that that's that
+  they're targeting um and so if you know where those two people are in space and
+  you know the direction that they're pointing the lasers you can calculate the XY
+  Z threedimensional position of the the the object in question and then again you
+  do that 30 times per second uh several hundred times per frame and you get these
+  numbers out so again this part is all this is all computation this is truth preserving
+  math this is um yeah hard numbers hard math do the same thing you'd get the same
+  number get the same answer every time um yeah and I guess I should say um assuming
+  perfect data from the two-dimensional stuff the accuracy of this data is going to
+  be dependent on the accuracy of your calibration so if you were off in the calibration
+  then you're going to be off in the position of the cameras and so you're going to
+  be off in the pedist position of the estimated position of the threedimensional
+  object um that's called what do we call that uh accumulating error it's not accumulating
+  error but yeah it's it's whatever it's you know the the the the verasity the truth
+  value of this measurement derives its truthiness from the validity of the camera
+  position estimation and the validity of the position in the image um yeah and let's
+  not even start asking questions around like when you say that my shoulder is here
+  why is it here or is it here or is it here or is it here what what are we targeting
+  there is it some anatomical thing is it the is it the muscle is it the meat is it
+  let's not even ask those questions yet um orever well maybe someday uh so uh now
+  after all of this we have the on every frame why I look over there we have the 3D
+  position of the body in space and it looks something like that not like that um
+  so actually I wanted to see the mesh where is the mesh mesh mesh and so looking
+  at this point that point and then the point over there triangulated gives you this
+  point right here which is the XYZ position of my shoulder which in this particular
+  case looks like its position is uh 1.6 M up and then 2728 M on the ground so I'm
+  like roughly 1.8 m tall so seems to check out there um oh I didn't mention there
+  there's a conversion into meter step that comes from the fact that I know the size
+  of the squares on that board otherwise these would come out in like arbitrary numbers
+  that are based off of like pixels and stuff like that actually it would come out
+  in units of the size of the square on that board so at some point in the process
+  I literally just multiply the numbers that come out of the triangulation by 58 which
+  is the millimeter distance millimeter scale of that square and then divide that
+  by a thousand and you get meters so roughly accurate but also for most of the things
+  that I do in my life the number doesn't super matter um like the specific units
+  the number doesn't matter what matters is like you know where is it on on frame
+  one versus frame 10 and you know what's the relative difference like this one is
+  twice as many as that one and stuff like that um okay so now this is also one of
+  those places where there's a there's a certain intuition thing that I did which
+  you may or may not have been offended by where I was talking about these computational
+  measurements and then I said and here you go that's the data and and I pointed to
+  the output of what is clearly a visualization software this is not data in the sense
+  of like I can't do math on this this is like a DOT floating in space you can tell
+  that it's related to some like hard numbers which must come from somewhere but this
+  is not the data this is a visual representation of the data which is a very very
+  very useful thing to have but the actual data in this particular case lives in this
+  such a thing let's make this this type of a file called a CSV which stands for comma
+  separated value uh which is here you go so Knows X knows y knows Z there's a number
+  there's a comma there's a number there's a comma there's number there's a comma
+  and there's there's a lot of these things there's a lot of these numbers look at
+  all these numbers oh boy and so we have and then so CSV is a very standard data
+  format um you probably know it in its Microsoft proprietary form which is XLS which
+  is an Excel spreadsheet an Excel spreadsheet under the hood just csvs with a bunch
+  of for formatting um so in the same way that I rail against uh like what's it called
+  um a dockx file and I say I prefer things like markdown this is where I rail against
+  things like xlsx and say I prefer CSV but it is also kind of annoying to view it
+  like that um so we can open it and this is Libre office version of excel I don't
+  really use Excel or Excel like objects for anything um except for once or twice
+  a year opening it up to show to a room full of undergrads and be like ooh look at
+  all the numbers um default file format not whatever go to town um oh why am I looking
+  over there um so again so libbre office cal um Microsoft Excel uh Google Sheets
+  sheets um these are all applications that can that can slurp up um so CSV is comma
+  separated value can also have tab separated value these are all just the limited
+  values whatever doesn't matter um and so this is just a nice format that takes the
+  values where the columns are the names of one of the kinds of data that you have
+  and then in this case the row is the frame number although I'm looking at this now
+  it's like this shouldn't be there and there should be a column called frame number
+  and another one called time stamp but we'll get there um and yeah and then there's
+  as many rows as there are frames in the video and the reason why I like sort of
+  pulling this stuff up is to do kind of like like this little journey we're going
+  on is meant to kind of do multiple things to your brain one is that there there
+  should be a level of this that just makes total sense like it you know like sure
+  maybe you know the the the geometry maybe don't know the math you know maybe you're
+  not familiar with how convolutional neural networks work um but generally speaking
+  it's like okay sure like what you're what you're describing makes some vague kind
+  of sense if I desperately needed to I could go through with a marker and just Mark
+  frame by frame and measure the distance from the sides and the pixels and if I desperately
+  needed to I could do that by hand I could go through and I could figure out this
+  geometry and calculate It Out by hand I could do all that kind of stuff um but never
+  in a 100 lifetimes could I do it this many times could I do it this fast and uh
+  and I certainly couldn't then take that and then draw whatever 392 images that I
+  can then flip book from as many angles as I want so I can and look at the data and
+  interrogate the data this is just long story short why computers are very useful
+  things to have it's not because they're smart it's because they're dumb super fast
+  like they can only do exactly what you tell them to do but they can do it very very
+  quickly so for you for those of y'all who may encounter some depths of computers
+  at some point in your life if you write program write code stuff like that um there
+  will come a time actually out all of you there will come a time when you think man
+  this computer is really either this computer's really smart in which case it's not
+  humans were smart and they made the dumb box of rocks do very clever things um or
+  you'll get if you're writing code you'll be mad at the computer because it did something
+  you didn't want it to do I am here to promise you the computer did exactly what
+  you told it to it followed its instructions precisely to the letter and if the output
+  was not what you wanted it is in fact your fault so yeah so these are this is a
+  big W of numbers and uh and that's not even all of them um that's just the body
+  there are other similar data structures for the face the left hand the right hand
+  and then still another for the Center of mass where this one is remember if I did
+  that yeah so this is the center of mass data just the center of mass data and this
+  one instead of being a big square of numbers this is just a three column Vector
+  three column thing you still have the same number of rows as there are frames in
+  the video but now there's only Center of mass X Y and Z so it's again we have when
+  I say we've we've we've decreased the dimensionality this is what I mean this is
+  instead of being so 720 by let's see uh actually have 720 * 12 720 * 12 80 is 921
+  921,000 pixels per per image per frame per camera and so for each of those pixels
+  you need three numbers to Define its its state because red green and blue um so
+  we go from that unbelievably High dimensional data down to this much smaller um
+  but still fairly intractable amount of data here uh actually really like I like
+  this this here is a zoomed out picture of the full document so each of these columns
+  is one of the data types there and so from all of that we go down even further to
+  this there you go um and the nice thing about this is that my this starts to get
+  to the place where your brain might start thinking yeah I can okay I can handle
+  this this is more tractable this is something I can fit into my head um and and
+  so and so from that place of kind of like mental comfort you can start asking scientific
+  questions that sort of relate to the thing that you actually care about which is
+  how does this thing stand up right let's make some assumptions that somewhere between
+  this hyper simplified model of the thing and the true facts of reality there is
+  such a thing as a nervous system and that that that has such characteristics as
+  peripheral and Central and motor hierarchy and cortex and cerebellums and brain
+  stems and all that stuff let's assume that this is sort of happening in in the context
+  of all that sort of fancy Neuroscience stuff which luckily we in this room um we
+  don't have to do all that research ourselves because we can go and look at what
+  other people have said about it we like I don't have to do research on the cerebellum
+  directly I can just read about the people who are doing the much more constrained
+  kind of biological wetwear like let's look at rabbits in uncomfortable positions
+  sort of um like like like hardcore low-level reductionist neuroscience and I can
+  incorporate what they tell me about these sort of n neural systems and subsystems
+  into my attempts to understand and represent this data at a scale that's just not
+  amenable to that level of sort of like neural biological Precision let's do it so
+  okay so with all of that context I have 20 minutes left uh which I think is just
+  barely enough time to kind of like make the main point of differentiation between
+  the data from those two recordings um so before we do that I think that's I think
+  that's enough time to do that anyone to have is there anything to say about all
+  the nonsense I said before before this a lot of it's kind of like intuition pump
+  there a little bit of like there's like a song and dance happening um again kind
+  of in that space of like I'm trying to say a bunch of stuff that just makes sense
+  and kind of you already knew at some intuitive level but just like making that very
+  very specific point about the data flow and sort of the computational pipeline from
+  the sort of empirical measurement in the form of this transduction of environmental
+  energy into electrons and voltages and then the various sort of conversions and
+  computations and calculations that we have to take that sort of Base data to to
+  get it to the place where we can sort of start doing the actual Empirical research
+  investigation and again let not sort of let's not also shy away from the fact that
+  I skipped an unbelievable number of steps at a lot of that part not just in the
+  part where I'm actually doing the calculations myself but just in the basics of
+  like how a freaking camera works like the I know vaguely how a camera works at an
+  engineering level but not not that specifically let alone like how it sends signals
+  down like a wire and that gets absorbed by the USB port which is handled by the
+  USB Foundation which is some unknown cabal of probably hundreds to thousands of
+  humans who have been working on how do you read data out of a voltage pin of a little
+  rectangular port on a computer um for decades now then it goes into the computer
+  and there's CPUs and there's RAM and there's hard drives like the processes that
+  go into all of this stuff this is why you know this is this is why like no human
+  ever operates alone because we are all standing on each other's shoulders and we
+  are all using the lifetimes of Labor of other people in our vicinity to be able
+  to with any luck ignore that part and focus on the things that we're actually looking
+  at Also let's not speak about blender itself this visualization software which is
+  an open source software that's been developed in public by mostly volunteers for
+  free since like 1993 um or python which is the code that I use to write the analysis
+  code which is another open source project that's been around for decades or any
+  or any of the history of computation and sort of how we got to that point or the
+  Metallurgy to make the stand or the plastic or the glass God even knows it's overwhelming
+  so we boil it down and we move on um yes great it's the existential crises where
+  the real learning happens okay here I am a fun little skeleton and let's see let's
+  let say in range round frame let say 150 to 150 display custom color great okay
+  so look at me go here I am I am standing this is this is Skelly this is Skelly skelly's
+  the logo freeat Foundation good job buddy um I have roughly similar bones in my
+  body so there you go um and this is a mesh it's sort of like a like a animation
+  thing it's not really data it's more just for eyeballs but um this these are the
+  rigid bodies so these are the um this the the simplified sort of Chunk segments
+  that we're going to call those parts of my body and then this is my center of mass
+  calculated with those anthropometry tables talked about PR prior um and so and then
+  this sort of red line here let's make that pink yeah um this represents the vertical
+  projection of that threedimensional point now you see the these terms like vertical
+  projection and it's sounds very mathy and complex it kind of is but also this is
+  the ground let's say the ground is where zero where Z is zero let's just you could
+  just Define anything the way you want let's just say the ground is zero height so
+  if I am here and I have x y z location let's say Z is like whatever one or 1.2 height
+  if I want to know the vertical projection of that thing I just say x y0 so that's
+  how I take the vertical projection of that I just set X I set the height to zero
+  and now this has the same ground XY horizontal position but it's just directly underneath
+  the thing that I care about why do I want to see that it's like well because I'm
+  talking about balance whenever I talk about balance I keep using these terms like
+  you know Center of mass and base of support in base of support is on the ground
+  so I'm C I'm not I don't really want to I don't I can even I'm boiling this down
+  even farther I can say I actually don't care for this task for the jumping task
+  I care very much about the height of it for the balance task I don't care about
+  the height at all I only care about its position on the ground plane so I'm going
+  to project it down onto the ground plane and I want to compare it to the base of
+  support where what is the base of support here um there's a thing that's supposed
+  to make it show up here but I I just can never make that work maybe next semester
+  um but in here very intuitively the base of support is where my feet are it's the
+  extent of where my feet are behold my base of support on the ground and so everywhere
+  I can sort of yeah that's where my feet go that's that's the the the region of the
+  ground where I can abser pressure and sort of change the forces to sort of affect
+  my center of mass I can push it outside of my center of my base of support but when
+  I do that I have to move my other foot or I will hit the deck um and for this task
+  as we have defined it I told myself as a research participant that my goal was to
+  lean without moving my feet so we can assume in this context that if my feet move
+  then I have failed the task at hand and so we can assume that the the neural control
+  that I'm exhibiting is in the service of completing that task so we've defined success
+  and failure in this task again giving us a little bit more leverage to interpret
+  this weird squiggly wiggly line here in terms of how it relates to things like balance
+  and posture um and I'm going to say I'm going to say 300 z uh update I'll paths
+  great um so this the pink line now is showing the um the previous 10 seconds that's
+  too many bye going move his Bas of support no nervous system my's fault um okay
+  now I'm trying to I brought a mouse today because it's hard enough to navigate these
+  3D spaces but with a trackpad it's like Jesus Christ um so this is also so so I
+  start out outside of the screen this is what we call invalid data this is not I
+  didn't do this you were all here if I did you would have noticed but this is what
+  it happens when there's nothing in the in the screen on the on the the the CSV thing
+  this data looks just the same as the data where it's actually like a stick figure
+  it's just not real um and so I come in and I say oh yeah then it snaps on top of
+  me and let's see here and so here I am I'm standing and leaning forward and there's
+  something oh let's do it like that oh there we go and so I'm leaning all the way
+  over it's a little bit outside so there's another layer of this where I'm like there's
+  a calculation here of like figuring out how to orient myself on the ground which
+  I don't 100% trust so I don't 100% trust these data um but theoretically the theory
+  predicts that I should be right at the edge of my foot when I'm leaning all the
+  way this way um although again if we look at the data of what's being traed on my
+  feet it's like okay but it's a very very very impoverished model of the foot I have
+  heel I have toe I don't have this outer extent of my foot so even though I can put
+  Force into the ground all the way out to here the data that we has show of my foot
+  as just being a thin line on the ground and furthermore because you know this was
+  not really made to be like a scientific software those predictions are going to
+  be slightly different for each of the viewpoints of the cameras so there's a whole
+  layer upon layer of like how much do you trust things like the the the very specific
+  data about like where the feet are versus the full body data of where the body is
+  um but you know we kind of it's like close enough um it's also kind of hard because
+  that's hard for a lot of reasons um okay so generally speaking when you're studying
+  human behavior the harder the task is the easier it is to interpret because the
+  harder the task is the fewer options are available that complete the task so if
+  you assume that I can do the task then the harder it is the easier it is to interpret
+  um so for example standing on two feet is easier than standing on one foot because
+  of that the base of support is larger so making predictions about where the center
+  that base of that Center of mass is going to be within that base of support necessarily
+  more difficult CU you're picking from a larger region uh when I'm on one foot the
+  base of support is much smaller like this big and so the ability to predict if assuming
+  that I'm successfully standing on one foot the ability to predict where the center
+  mass will be in this region is easier because it's a smaller region and there's
+  just there's fewer things that I could be doing that would successfully complete
+  the task because the task is harder and so in this case if we look here at this
+  sort of nice moment where I'm standing on my right foot and you look at that vertical
+  projection of the center of mass let's see so here okay so 11:37 11:37 so from frame
+  1137 rice picked up my foot to let's say 2058 uh so for these thousand frames I
+  am standing over my right foot and what do you know the vertical projection is right
+  over my right foot hooray science Works physics Works mechanics are true you can
+  this isn't enough to tell me about like my hip torqus like the center of Mass on
+  its own isn't going to tell me about things like my hip torque or my knee flexion
+  and stuff like that but in terms of like the base level task of am I keeping my
+  foot in the right location relative to my body to keep up right sure enough am and
+  there we go and you can see again this is sort of like easy to belittle or easy
+  to sort of not like like this is cool this is a cool thing just so you know this
+  is very cool and uh and I'm proud of it so you're welcome uh sorry sorry I said
+  that um okay so base standing posture we could look at the left fo foot but I don't
+  really we're running out of time very quickly and let's assume for practical purposes
+  that the left side of my body and the right side of my body are similar enough that
+  we don't have to care about the left side versus the right side um that's not true
+  because there's handedness and footedness and I'm I think I'm I'm better on my right
+  foot than I am on my left foot or vice versa I can't remember um but for the sake
+  of expedience this is what it looks like when I'm standing under my own powers and
+  my own sort of like anatomical base of support So prediction wise um how might this
+  change is if if I'm holding something additional like something else outside of
+  my body well you can ask the question what aspects of the description of this this
+  physical model no longer apply when there's something that I'm touching that's outside
+  of my body so there's a lot of things one of them is that first thing that I said
+  where my ability to put Force into the world to move my body is constrained to that
+  where my feet are when I'm standing on the ground like this that my basis support
+  is defined by my feet because that's where I can put Force that's Newton's third
+  law for every I put action in the world the world does a reaction pushes me back
+  in this context that's called the ground reaction force which is very very use useful
+  you you use it every day um and so and so I say because of that constraint on my
+  ability to put Force into the world sort of being attached to where my feet are
+  um in order for me to stay upright I have to keep my center of mass above the base
+  of support um if now I'm touching something else that thing that I just said is
+  no longer true I can now get Force in reaction force from the table which is not
+  noticeably where my foot is and also in this data recording I have no record of
+  where the table was so if I'm looking at this I can't make that same prediction
+  about where the center of mass would be I can make a prediction about which direction
+  I'm allowed to go out of that base of support from and which direction would require
+  me to to fall over um real quick I'll just say it though I don't have any time uh
+  2015 they they had a DARPA robotics challenge bunch of bipeds walking around and
+  they did sort of hilariously bad but it was still a big advance for the field um
+  one of the things that they really struggled with was was calculating the reaction
+  forces because they had really good sensors on the ground um but they didn't have
+  good sensors elsewhere so there was at least one case where one of the robots was
+  like standing in a doorway trying to figure out what to do and they're they're calculating
+  the force it needs to put to sort of move in the right direction and they didn't
+  realize that its arm was touching the door frame and so when they're calculating
+  the forces that it needed they weren't accounting for this force and so then when
+  they tried to sort of make the right step it like it fell over and then had like
+  a a a balanc response which was also wrong because that also didn't have this calculated
+  into it and then if you just Google 2015 darer robotics challenges there's a lot
+  of like really great blue reels of bipeds falling over dramatically and reminding
+  us how how powerful of a motor you need to move something with such an incredible
+  mechanical disadvantage anyway uh 3 minutes not enough time um but we'll do it anyways
+  real quick hopefully we can get this in um yeah Center of Mass sorry uh standing
+  supported so this is now the other recording um same basic structure uh except now
+  I am holding this stick and I'm holding it on my well let's see where I'm holding
+  it I think it was on my right hand and yeah so my right hand so I do I hide you
+  I hide you I say I do this yes and I grab I don't think we need the Tails um and
+  so now we should be able to make a nice prediction especially because I was there
+  we go so let's see 1182 1182 to oh actually I do want that about 2,000 and I do
+  want to put okay round frame uh 50 500 before zero after calculate the whole thing
+  and display no key frames color is going to be green great and what do you know
+  sure enough it's on the outside of the foot so understandably before we said this
+  it's like oh we don't really trust the locations of the foot to this high of level
+  of fidelity which is a fair point but we also saw in that control condition that
+  when I'm standing on one foot it's pretty close to that like line between the heel
+  and the toe and now that I have this unmeasured balance Support over here my actual
+  base of support is no longer foot it's foot plus little balance point over there
+  and the reality is is that like you know I weigh like 200ish PBS of of person that's
+  a lot of force I can't really put an appreciable percentage of that Force into that
+  little little we weenie stick um so it's not like the the the point is as good as
+  the foot but mathematically I can pull some force from this direction so my my actual
+  effective Bas of support is going to extend outside of my foot in the direction
+  of that support uh and there you go empirical measurement result on the fly in person
+  hooray and yeah okay that's yeah cool feel good about that very close timing uh
+  um we'll probably talk about this just a touch more on next Wednesday and then we'll
+  do that uh that work that group thing um keep an eye on the Discord server if I
+  announce anything but I probably won't before Wednesday so thank you enjoy the rest
+  of your lives thank you bye
+metadata:
+  author: Jon Matthis
+  channel_id: UCOOQxlTCtUz9mr1NPWlJyYQ
+  description: (ai gen'd description)\nThis video explores a human movement study,
+    focusing on data analysis, technical details of data collection, and concepts
+    of human balance and control, with plans for future analysis and class activities.\n\n**Chapters:**  \n00:00
+    - Introduction and Project Update  \n02:02 - Exam and Class Activities  \n04:54
+    - Discussion on Units and Measurements  \n07:01 - Human Movement Study Overview  \n09:00
+    - Data Collection and Calibration  \n14:53 - Technical Aspects of Data Collection  \n18:04
+    - Empirical Validation and Machine Learning  \n21:00 - Human Balance and Control  \n22:56
+    - Conclusion and Future Plans  \n\n**Pull Quotes:**  \n- \
+  duration: '5595'
+  like_count: ''
+  publish_date: '2025-02-05T17:06:00-08:00'
+  tags: ''
+  title: HMN25-04 - Epistemology, postural control, and FreeMoCap data analysis
+  view_count: '107'
+transcript_chunks:
+- dur: 180.0
+  end: 180.0
+  start: 0.0
+  text: let try that again okay hello everybody and welcome to this I guess February
+    um made it to February which is great an additional month um so last time we recorded
+    a bunch of data and today we're going to look at it sort of at various stages
+    of development this is kind of the output of one of the recordings that we can
+    we talk about the kind of like semantic level um semantic meaning like meaning
+    and then syntactic is like structure um before we do that uh just you know sort
+    of standard weekly update on the status of my main project for the semester which
+    is making sense of all the good data you've been pumping into the machine um so
+    just again like a standard scrape the server recalculate stuff um shove it into
+    a zip file you can open it an obsidian this one is slightly different it's I guess
+    speaking of what I just talked about syntactically these is these two are exactly
+    the same they have all the same folders all the same file names probably um but
+    semantically meaning wise this one the most recent one the the the user profile
+    part that kind of like looks at what you've been talking about and guesses what
+    your interests are only looks at your chats in the assignments category so the
+    stuff you've been doing in class and sort of like any of the bot playground stuff
+    um is not getting used as part of that calculation I didn't really like check
+    it too closely for like how that changed things um but if you don't mind pop it
+    open take a look at yours and hypothetically it should be sort of a better match
+    to what your interests are um also uh you can check and see if like if all of
+    if if you have two chats in both places and it's only showing one you know I guess
+    let me know from like a bug report perspective but like don't stress too much
+    about it um we're not going to look at that right now maybe sometime soon um I
+    also have been informed that I am I am required to give you an exam but I'm so
+    we're going to do another Chat thing if that one's going to be an exam so you'll
+    get a grade on whether or not you did it um but I think it's it'll be a little
+    more I I'll put a little more effort into like the prompt to kind of like it'll
+    be asking you questions about your chosen topic and sort of relating it to the
+    kind of like empirical sort of stuff we've been doing before like okay for your
+    topic like what are the units that are involved what are the what are the like
+    the methodological approaches like what kind like what do their measurements look
+    like what do their studies look like and I'll be asking you kind of those like
+    what units are relevant to that domain um so asking
+- dur: 180.0
+  end: 360.0
+  start: 180.0
+  text: questions like the bot will interview you about your chosen topic on the sort
+    of relevant to the convers the stuff we've been talking about before um but you've
+    you've seen how this thing operates now it's not going to be withholding uh it
+    will be asking you those questions but it'll also be like down to help so if you
+    you know if you don't know just like ask it just and do yourself a favor and look
+    it up um and yeah and then so on Wednesday I have a mind for like another kind
+    of group class activity that will be based on again like forming into small groups
+    um and kind of taking turns trying to find an additional paper that's relevant
+    to your chosen topic um and sort of basically trying to intentionally kind of
+    like choose papers that are very dissimilar from the ones that you chose initially
+    but are still within the same domain um in order to kind of like flesh that stuff
+    out and uh and I think after that session I'll do the that sort of pseudo exam
+    Chat thing in the following week um yeah so if anybody asks it's an exam and you're
+    very stressed out and it's difficult and you feel like pressured to perform and
+    out compete your peers so you know just make sure you know if anybody asks you're
+    being rank ordered by human quality which is disgusting but anyways um cool okay
+    uh that sound good anybody any emotional outbursts thoughts feelings great uh
+    cool so uh last time last time we recorded um okay let's make our way towards
+    it by way of review so a couple of times ago we talked about like units and space
+    and stuff like that and sort of like you know ukian geometry and then three dimension
+    stuff and SI units in terms of mass and kilog and seconds which I just often I
+    sort of like notice that it's like kilograms is the SI unit like a thousand grams
+    like why isn't it grams I don't know I think there's some stuff in the history
+    of these things where like they pick a number for like the unit base unit for
+    gram and then lat we decide it's like that's too small let's make it a kilogram
+    it's more viable anyways uh not relevant to the present conversation
+- dur: 180.0
+  end: 540.0
+  start: 360.0
+  text: we talked about mass and kilograms and seconds and derived units like Newtons
+    which is like kilogram oh drive units like speed like milligram like milligrams
+    meters per second and then Newtons which is like kilogram met per seconds and
+    then Jewels which is oh per second squared then Jews Like kilogram met squared
+    per second squared or whatever we talked about all that we talked about pendulums
+    as they swing back and forth and we talked about uh inverted pendulums in terms
+    of like things that can be balanced above the ground uh through a sort of minimally
+    hinge jointy type of thing at the ground and also I guess that's while we're here
+    this this is a nice model of a person where these two things represent muscles
+    in the ankle joint and so this is you trying to stand up look at you go you're
+    doing great [Music] um yeah and so we we sort of laid all that stuff out in terms
+    of like setting up the landscape of the general study of human movement at this
+    sort of like holistic like human scale type of approach so not the sort of zoomed
+    in looking at cells looking at individual muscles much much more zoomed out let's
+    sort of examine this physical system to the level of fidelity that we can sort
+    of record and reconstruct it um and uh this is a software why am I looking at
+    the screen uh this is a software called blender it is a animation software it's
+    free to open source you can download it um I will I'll Endeavor by Wednesday to
+    have the data that we recorded in a place and in a sort of format that is easy
+    for y'all to like download and look at um it's not there yet I but um I'll try
+    to get that up by Wednesday so that you can kind of Click around and then depending
+    on your interests I think Wednesday we'll try to focus on the paper thing but
+    then in a later date we might have some more kind of like individualized work
+    and you kind of decide if you want to sort of dig deeper into this side of things
+    um right and then right and so in service of understanding all of using sort of
+    studying human movement in the natural world where in this context we are presenting
+    that that this sort of rough couple square meters of space is the natural world
+    this is my this is my ecological niche this is the space of the environment where
+    this particular organism operates so it's valid um and I've spent a lot of time
+    in front of cameras so
+- dur: 180.0
+  end: 720.0
+  start: 540.0
+  text: you know not too much artifice there um but we recorded looks like five separate
+    recordings one this doesn't zoom in does it no uh the first one is calibration
+    that was part where I set up the cameras and I sort of showed it that grid uh
+    sort of shape thing an object of known shape and known size that's very easy to
+    track which I could use to kind of like characterize the positions of the cameras
+    and sort of localize them in space which is a necessary thing so again calibration
+    has the general shape where you set up your equipment then you measure something
+    that you already know the answer to the question about what is that thing that
+    I'm measuring and if there's a little more going on in this sort of computational
+    Step but that's the general idea with the sort of principle being if the tool
+    if I use the tool to measure something where I already know the answer if it gives
+    me the answer that I know is right then that's some indication that the tool is
+    actually measuring the world in a way that I care about and so from there I can
+    move on to measuring stuff in the world where I don't know the answer so which
+    is in this case you know a h and moving around in space so from there we started
+    there were these two kind of matched um this is like a little mini baby experiment
+    uh where the First Recording was standing balance sort of a control and that was
+    split into three phases one is sort of two feet one foot left and then one foot
+    right so standing on two feet standing on one foot standing on standing on one
+    foot which is my left foot and standing on the other foot which is my right foot
+    and then the sort of kind of more experimental condition which is you know it's
+    not a particularly like exciting experiment sort of this is like a classic case
+    where I'm like I'm choosing the experiment that I where I I'm pretty sure I know
+    what the answer will be because I'm trying to make a particular point in relation
+    to this sort of particular um theoretical description of the desideratum of my
+    research study which in this case is the explication of the neural control of
+    human balance so this one is we call I called it standing with support uh and
+    these are these has matched conditions where I do all the same things in the manipulated
+    condition forget I forget the op like control is
+- dur: 180.0
+  end: 900.0
+  start: 720.0
+  text: the one where you didn't change anything I forget the name of the one where
+    you change something but in this one uh I am doing the same same behaviors except
+    now I'm using that stick as like a point of support um and in this so with this
+    sort of difference in the behaviors and the sort of measurement Fidelity that
+    I expect to be able to get and the theoretical framework of this sort of like
+    this strange idea that we can boil down a human into to a singular Point Mass
+    since that might be informative about the behavior in question these things all
+    kind of like form into something where you can make predictions about the future
+    and then we can you know using the data that we have sort of check those predictions
+    so I'm not going to uh spoil the game just yet but I'll bet you can I'll bet you
+    can make some guesses about how these conditions will vary um oh and importantly
+    for the two feet standing I didn't just stand here straight uh I was like leaning
+    as far as I could in in all the directions that I could sort of based off of my
+    internal sense of like how far I can lean without having to go so far that I need
+    to take a step to stay upright uh then there are these two other conditions one
+    which I call three big jumps um putting three in the title is just kind of like
+    a hint for me because eventually you want to you want to sort of chop this up
+    into smaller pieces so telling myself that there are three here helps me sort
+    of know how many to look for um and then the second one is repeated jumps um for
+    some amount of time I don't know uh I also just to be clear I am calling out the
+    fact that I'm calling that I'm calling this three big jumps not is not to say
+    like this is a good way to name your trials and record data um this is actually
+    not a good way to like you don't want to bake that kind of stuff into the title
+    of it but this is kind of just easy like you know it's a I'm allowing it because
+    I'm doing it and you can do it too and you will discover through practice why
+    it's not a good idea and I'll leave that as an exercise to your future um great
+    do we feel caught up do we feel aware of the situation great um I'll leave that
+    there so today I think I'm going to focus on the two standing ones um we'll see
+    how far we get with that we talked we showed the the jumping data from last time
+    at
+- dur: 180.0
+  end: 1080.0
+  start: 900.0
+  text: least the big jump data um but we'll get sort of back to it uh actually there's
+    one more distinction I want to highlight here uh and this is less about the the
+    data that we recorded and sort of like the purposes for recording it and more
+    just something I want to point out about like a a difference between these behaviors
+    so specific the B the balance and posture Behavior versus like a jumping behavior
+    um and then it gets from the big jumps versus the repeated jumps where with the
+    standing posture it's a it's like a continuous control problem so I'm standing
+    here my feet are on the ground my base of support is a certain you know space
+    and I'm continuously trying to keep my center of mass sort of within that base
+    of support by using sort of a you know whatever I'm doing with my leg muscles
+    in my sort of equilibrium sense um it's a continuous overtime um behavior um this
+    is different from something like a jump where a jump is a more of like a discreet
+    momentary Behavior like there's a period of time before there's the thing itself
+    and then there's a period of time after so this is like the you know wind up this
+    is the jump itself and this is landing so that unlike this one where sort of like
+    you're controlling it continuously over time with this one there's like a discreet
+    behavior that you're doing once um in this case it's jumping off the ground and
+    so you know there's all the physics there's like the moment of liftoff there's
+    the moment of contact um but you know you could compare that to something like
+    you know throwing something in the air um either throwing it and then catching
+    it or just throwing it at a Target where that's more of a Contin like a a discreet
+    singular targeted behavior um where you know if I'm trying to throw this at a
+    Target and hit the target I aim I set up I wind up I throw and then at some point
+    the thing leaves my hand and then it's off it's out of my control um versus like
+    a more of a pin the tail on the donkey where I might might be trying to like steer
+    it in where I'm sort of controlling it the entire time um there's kind of there's
+    there's a lot of deeper layers there that's that's one of those things that's
+    like it's it's a very intuitive distinction but there's a lot of differences once
+    you start getting down to like you know thinking about this in terms of like Robotics
+    and kind of like control systems this starts getting you into like continuous
+    control starts getting into things like feedback control versus this more discreet
+    control stuff gets you into like feed forward control and model based predictions
+    and blah blah blah blah blah um none of which we're really going to talk much
+    about but just so you know those are the the Deep ER layers there um and also
+    just in a
+- dur: 180.0
+  end: 1260.0
+  start: 1080.0
+  text: distinction between like three biget jumps where I sort of wind up put everything
+    I can into the ground land reset and then do it again versus a like repeated jump
+    thing where it's sort of a continuous process where the force of compression from
+    Landing of the previous jump becomes the the force that will carry me on to the
+    next one so there's not that period of kind of like reset and reestablish um with
+    the three big jumps you can you can look at each of them individually aside from
+    like fatigue factors and stuff like that with things like repeated jumps they
+    carry into each other so well that you can't consider one without considering
+    the thing that came before it so this is more you know I think like walking or
+    running or juggling or some kind of like continuous Behavior running in particular
+    also has this case where like you were coming off of the ground at discrete intervals
+    and then the force of Landing from one step compresses is your the spring of your
+    body which is what which is part of the energy that sort of bounces you into the
+    next step um and yeah a lot of deep layers there there's sort of at a layer of
+    sort of the motor the neural control of like movement and motor control um there
+    are distinctions and sort of thoughts about where different of these types of
+    control may live in your cortex in your subcortex in your sort of spinal region
+    and you know like the thing of like the the the compression from one jump leading
+    you into the next one the the forces from one step setting you up for the next
+    the step that comes after it that sort of stuff is very gets very close to the
+    physics and the closer you are to the physics the sort of the lower in that motor
+    hierarchy you tend to operate so a lot of things like Locomotion um are thought
+    to have a lot of their control down like the spinal level like in spinal Central
+    pattern generators um which are thought to be kind of you know like the upper
+    the higher regions of your motor hierarchy kind of our our thought to the C remember
+    speaking in cartoon terms kind of like they kick off a process that kind of then
+    once it started it gets kind of like shunted down to the lower layers of your
+    nervous system um so things like walking for example um as far as I understand
+    haven't checked in a while um the thinking it this is like one of my sort of pet
+    questions as a grad student was like how much of things like how much of things
+    like local motion are controlled by the motor cortex versus being controlled by
+    like the lower lower levels of the nervous system and I believe the last I my
+    my last I checked in my sort of you know in that exploration I think it was like
+    when you start like gate initiation like when you start walking you see a lot
+    of activity in the motor cortex but on but during like continuous Locomotion like
+    when you're walking from one part of Campus to the other you're in you're
+- dur: 180.0
+  end: 1440.0
+  start: 1260.0
+  text: happily in Locomotion mode moving at a relatively constant preferred walking
+    speed there's not a lot happening in the cortex at that point like if you start
+    getting onto like Rocky trains where you're like picking your step it might show
+    back up um but sort of the idea is that the motor cortex initiates the gate Behavior
+    Uh terminates the gate Behavior so you start walking you come to a stop but during
+    it sort of standard operation a lot of the basic control is handled by lower parts
+    of your nervous system U and then your vision is kind of like I think it's sort
+    of it's thought that a lot of that like the vision goes through subcortical Pathways
+    like keep looking for tripping hazards and you know some like you know avoiding
+    stepping on the stick type of stuff there's some indication like keeping balance
+    not falling over there's some indication that that visual path it goes subcortical
+    so it it doesn't actually go into the pink wrinkly thing up top it kind of bypasses
+    that um but now we are I think directly at the Forefront of how much we know about
+    that kind of stuff so uh I'll just leave it there great question um so there's
+    such a thing as the What's called the startle response and it's the thing that
+    we all know it's kind of like ah and I think that's um that's one of those places
+    where like this the cartoon kind of starts to break down between like oh this
+    part is controlled by the higher level this part is controlled by the lower level
+    because things like a startle response it's very basic like like all vertebrates
+    startle and it's one of those things like it's triggered by these sort of like
+    looming objects and sort of like oh no I'm slipping kind of things but so which
+    would make you think that it's sort of like a lower level of control but it has
+    these sort of characteristics that that are more sophisticated than you expect
+    like I'm falling I reach out and I grab something so whatever system is controlling
+    those kind of like like startle responses and like balance correction responses
+    has some access to like the things we tend to associate with the high levels um
+    and so it's just kind of it it starts to get like that's that's one of like that's
+    one of those question question that you could ask the bot more like a lot about
+    it and it would say a lot of things but I wouldn't trust anything it says in the
+    specifics because that's the kind of question that's like as an expert in that
+    area I'm like ah that gets that gets complicated and murky and like try to find
+    recent papers about it um you could probably find stuff in like rodents about
+    strle responses but then when you start looking at stuff in humans just like the
+    quality of research is it's just harder to study that because we because it's
+    hard to study humans and you can't crack them open so
+- dur: 180.0
+  end: 1620.0
+  start: 1440.0
+  text: um but yeah sort of like that yeah that's uh there's some there's a study
+    that I saw that was looking at it was like walking in VR and every so often the
+    VR world would just like rotate as if you were falling over and they measured
+    like responses at like you know at the full body level at the muscular level stuff
+    like that and they found that there were these responses in the ankle musculature
+    that happened like 120 milliseconds after the perturbation which is way too fast
+    to go through the visual cortex because that's thought to be a much slower process
+    um there's also some like there people running on a treadmill and they sort of
+    drop a plate that they have to step over and you see responses within like 5 50
+    to 50 to 100 milliseconds which again is kind of evidence that there's a sort
+    of like subcortical path subcortical meaning below the cortex so bypassing the
+    pink wrinkly thing um but the these are cartoons these are never it's never like
+    we're talking about like bundles of like millions of fibers of neurons like and
+    we when we say oh it bypasses this part of the cortex we mean most of those fibers
+    don't project onto the cortex but you know if 20,000 fibers go back to like you
+    know it's like we're talking in statistics here so it gets really murky really
+    fast um so yeah I don't know that's like a great question that I don't have a
+    great answer to because I don't think anyone does if there might be like some
+    people who could give you like a few extra layers but very quickly you get into
+    out of no space which is a great space to be that's where all the work is okay
+    cool any other thoughts questions yes great um so let's look at standing the noblest
+    of behaviors outstanding in our Fields um so first things first let's look at
+    actually first things first let's take a moment to mourn the reality that we will
+    never actually know the true answers to what it was that I was doing here here
+    or here these are we are we going to be looking at and sort of thinking about
+    and analyzing and sort of considering events that happened like last week they're
+    those they're gone we are going to try to be making inferences about things like
+    you know what was my muscular doing what was my nervous system doing where was
+    the state of my body and sort of what was the mass distribution at different points
+    in time these are the questions you want to answer but the reality is is that
+    the true answer to those questions is lost it's gone it's like it it
+- dur: 180.0
+  end: 1800.0
+  start: 1620.0
+  text: happened and then it then it's gone dissolves into the past thermodynamic
+    foam and all that good stuff and and so any questions that we might want to ask
+    about it there there will be many questions we might going to ask about that where
+    we can never know the answer to what that event of the past was um and the only
+    reason why we can say anything about it is that we happened to have a empirical
+    apparatus set up calibrated and recording and that recording was able to save
+    some bare Shadows of data that we believe are correlated to the hypothetical true
+    fact of the universe of what I was doing in this space in that point of the past
+    um and this particular case the the data that we collected is in the form of videos
+    um where a video is one of these things I don't know if you've heard of them they're
+    great super useful um super dark so the recordings themselves were not not my
+    greatest work sort of like some of the camera setups were not great it's super
+    dark um which I think you know so the Fidelity of the data that we're getting
+    is not going to be the best in the universe um but it's fine enough um and so
+    this is a video this is a record of the data that we recorded and the empirical
+    measurement that this represents is samples from a particular cone of light from
+    a particular location in space so a video it this is 30 frames per second which
+    is pretty slow for scientific data but standard for most sort of videos that you
+    encounter um 30 frames per second 720p uh hey hey calm down um so the video is
+    let's see 720p by 1280p 1280 yeah P meaning pixels so if you see things like HD
+    high def 1080p by 1920 4K is like whatever whatever 1080 * 2 is divided by whatever
+    1920 X2 is and this is a raster plot a raster recording raster image where the
+    720 is if you count if you zoom way into these tiny little pixels and you count
+    them there will be 720 in this direction and then there be 1,280 in that
+- dur: 180.0
+  end: 1980.0
+  start: 1800.0
+  text: direction and at each of these little squares there's actually three recordings
+    one is in the red channel one is in the green channel one is in the blue Channel
+    and the pixel itself represent a number between 0 and 255 which is 2 to 8 and
+    if it's zero it means that that tiny little section of that whatever sensor is
+    on the back of the camera recorded zero intensities of photons um I guess the
+    S would be Candelas I don't really know how that works but this little the the
+    number in this spot it will be between zero and some let's even let's not worry
+    about the number let's just say between zero and one if that seems too complicated
+    to you we can say between 0 and 100% or 100% is the maximum value that that little
+    sensor at that little section of this of the video was able to record so this
+    is roughly speaking white so that's going to be 100% active this is roughly speaking
+    black that's going to be 0% active so we get one of these images every 33 milliseconds
+    which at the end results in a a weird thing called a video. MP4 where the before
+    it's just a file format it's just like an instruction set that the computer uses
+    to be able to turn this into something that our sort of primate eyes like to look
+    at um yeah and then there's three of them and sort of analogously to the way I've
+    talked about Vision before and the sort of these truc moments where environmental
+    energy gets transduced into sort of a different form of energy um and your eyes
+    that's light is gets absorbed by the opsin and converted into like electrochemical
+    potentials or whatever in a camera the light is absorbed by some weird Crystal
+    of silicone and then turned into a pattern of voltages that gets measured and
+    recorded and converted into this picture and we believe that there's something
+    in the pattern of activation on the back of the camera sensor at the different
+    time points of recording that is correlated with the reality of what's going on
+    in the real world um the reason why we believe that is because when we look at
+    it we say yeah that looks like a person that looks not only does that look like
+    a person it looks like the person that was standing in front of the camera at
+    the time that I saw the person in front of the camera standing there and then
+    the person pushed record so I look at it and I say yeah that seems right I think
+    that I understand how cameras roughly work and it's that sort of weird intuitive
+    gut check of yeah this seems like a vaguely valid recording that's the empirical
+    basis of everything that's
+- dur: 180.0
+  end: 2160.0
+  start: 1980.0
+  text: going to come after this everything else I'm going to show you is going to
+    be computations that happen on top of on the basis of these sort of Bas level
+    initial empirical measurements and it's kind of fun to talk about this in the
+    context of like lowquality videos from webcams but I promise you every empirical
+    investigation you do from here on out will have a similar form where there is
+    some empirical measurement unless it's like a computational study which a whole
+    other thing um well whatever different thought um there will be some piece of
+    equipment that you will have calibrated against some known value it will be recording
+    some either a singular or a Time series of empirical measurements that you will
+    have some degree of trust about whether or not that thing maps onto some true
+    fact reality of the world which typically speaking will be some true fact reality
+    of the world that has gone into the past and may or may not be able to be recorded
+    again in this case you could record me doing the same behavior again but you will
+    never again have the opportunity to record this particular moment in time so this
+    is sort of just like practically speaking as a researcher um this is not particularly
+    precious data because I can just always do it again if this was like a patient
+    like a like an amputee that I had to recruit and they sort of came across town
+    and they came and stand in front of the thing I did the recording and and if I
+    did that one and it was too dark and I had the cameras kind of in the wrong spot
+    that's a much bigger bummer because that's a that's a much harder data recording
+    to recreate but yeah so yeah learn your equipment learn your equipment because
+    when you get to the place where you're recording data you really care about you
+    want to know all the ways it can go wrong um okay great so oh yeah I have some
+    other technically speaking there's another empirical measurement here which is
+    in the form of the time stamps from the videos so I have measures of like the
+    computer's like sort of hypothetically nanc scale time stamps from each one of
+    the recorded frames I don't trust it down to NS but I do trust it down to like
+    milliseconds microsc question mark who knows um this is another thing where if
+    I deleted these time stamps I could also never recreate those timestamps because
+    videos tend not to actually encode the specific time that the image was recorded
+    they tend to just sort of say this is a 30 FPS video and then play it at 30 frames
+    per second regardless of the variations in time so there's a many many deeper
+    layers of the freeo cap software which we will never bring up in this context
+    relate to this stupid time stamp
+- dur: 180.0
+  end: 2340.0
+  start: 2160.0
+  text: recording and getting everything nicely temporarily synced between the multiple
+    cameras so so this is the base data videos from multiple locations um we also
+    have this calibration data which tells us where the cameras were in space um so
+    camera one was trip rotation translation is like position rotation is rotation
+    put them together you have something like orientation 6 degrees of freedom and
+    this is the positions of the cameras this is another one of those cases where
+    if I didn't have the calibration data for where those cameras were I can't recreate
+    it I I proba it would be very difficult to recreate I I actually if I really desperately
+    needed to I could write some code that would allow me to reconstruct the camera
+    positions um um without the the checker board just using a bunch of like like
+    I could use like marks on the board and stuff like that but I really don't want
+    to do that so I consider this to also kind of be part of the base data here like
+    if I hadn't done the calibration or if I had done the calibration wrong um very
+    difficult to recreate that um so like for example if I had if I was using like
+    the wrong checker board or if I had like mistakenly had like another checkerboard
+    in the background and not noticing it then that process would break and I would
+    either have to come through and figure out how to fix it or record the data again
+    this is a so this is another thing that someday this may come up in your life
+    but my personal belief and advice to you is it is typically speaking a much much
+    better idea if you record some data and it's not good data learn the lesson and
+    record it again don't spend a lot of time trying to fix bad data if you could
+    at all avoid it you can't always avoid that but in general given the option just
+    figure out what you did wrong and then record it again that's my personal advice
+    uh as a Del leaguered scientist okay so but let's forget all those and just say
+    the base data is the videos so if that's the base data and then this is the other
+    side of that equation this is the output data this is the approximation let's
+    turn off the the mesh which is mostly for visuals and let's this is the that's
+    this guy that's roughly speaking right this is the level of fidelity that we have
+    reconstructed the the human body to um and look there was a lot of work that went
+    into recreating it to this level like it was years of my
+- dur: 180.0
+  end: 2520.0
+  start: 2340.0
+  text: life and years to come was to produce this data and I'm quite proud of it
+    but also it's garbage there is nothing like this is such an impoverished Recreation
+    of this like this thing is like a couple chunks of wood um and I am several trillion
+    cells and billions of neurons and you know thoughts dreams and histories and stuff
+    like that um the feet here are just like solid blocks whereas my feet have this
+    like very complicated muscular skeletal structure um and you know this thing doesn't
+    have any neurons it's all very it's extremely impoverished um but it's the best
+    we got yeah uh and then all of this ah this point is not worth the time I'm taking
+    to make it yeah yeah and then this this is the actual data model that we're looking
+    at here this is the whole thing boiled down to a singular Center of mass it doesn't
+    even have rotation it just has position and so this is the it's a long way to
+    make it down to an extremely condensed form an extremely low dimensional representation
+    of something that is reality infinitely dimensional you would require like like
+    I don't know how many numbers so this thing requires three numbers to perfectly
+    Define its position and space at any moment in time I don't know how many numbers
+    it would take to Define me as a person at any moment in time but it's a very very
+    large number this thing I think 1 two 3 4 five 6 7 8 9 10 11 12 13 14 14 * 3 42
+    so this is 13 joints three degrees of freedom this requires 42 numbers to Define
+    at any moment in time um so yeah if you want to know questions about things like
+    joint angles this is not sufficient um but if you're just looking at things like
+    Center of mass versus BAS of support it's nice to have the low dimensional
+- dur: 180.0
+  end: 2700.0
+  start: 2520.0
+  text: output and then I do that I'll come back I do this it go away great okay so
+    how do we get how do we sort of get from point A to point B here um well the first
+    thing we have to do is just just like a little bit of magic just like a tiny a
+    tiny chunk of magic um where by magic of course I mean some form of stochastic
+    process involving machine learning these days in in year of Our Lord 2025 a lot
+    of AI talk everywhere if you've been paying attention there's been a lot of machine
+    learning talk for quite a long time since then for as long as you've been alive
+    easily um but you know I think if you're looking for a specific date like 1986
+    rumel Hart and some other guy uh came up with back propagation which is a very
+    important technique that basically makes uh neural networks sort of work um and
+    so there lot so and everything since then it's sort of now now everything has
+    the term AI in it which is basically just like a marketing term that means a neural
+    network that has language capacity um and this is kind of a problem like I obviously
+    like AI we're using in this class like a lot um but it's a problem it's a problem
+    empirically because machine learning will sort of I think by definition involve
+    some form of trained networks trained neural network where there's some form of
+    uh empirical data that gets smooshed together with some machine learning processes
+    and it produces a neural network that produces an output of some kind so when
+    you talk to the bot on Discord behind the scenes several several many layers behind
+    the scenes the thing that's actually producing the words that come back onto the
+    to the screen and sort of feel like a a human a humanik response those words are
+    being generated probabilistically from a neural network that was trained on language
+    data um and importantly I'm saying probabilistically because the neural neural
+    networks machine learning algorithms machine Learning noral Network based computations
+    only operate in that probabilistic stochastic space they they do not do hard computation
+    um that will give you uh deterministic responses so things so an example of a
+    deterministic thing is like the distance between two points right you use Pythagorean
+    theorem for that you know whatever is that X Y you know L sure and then L = the
+    square < TK of x^2 - y^2 right that's a^2 plus I don't know
+- dur: 180.0
+  end: 2880.0
+  start: 2700.0
+  text: Pythagorean theorem right so you want to measure the distance between these
+    two points you can do this computation and it it is like a like you will always
+    get the same number if you put it in the same numbers here um Mach uh machine
+    learning algorithms neural networks any AI based solution as the marketing folks
+    would like to say does not have that characteristic there's always going to be
+    some squishiness and stochastic aspect to it in this pipeline I have very carefully
+    there is a there's only a singular point in the process that involves a machine
+    learning algorithm and it is this part right here it this the step of the process
+    where we convert the video into something that's a lower dimensional and directly
+    related to the thing that we care about involves bit of jargon here um a convolutional
+    neural network which is basically lives in the it's a trained model that was trained
+    on many many many hand labeled videos hand labeled images where people went through
+    images of people and then marked out these are where the shoulders are this is
+    where the hips are this is where the the the wrist is and so the the neural network
+    and the convolutional part just means that it's sort of like running this kind
+    of like search pattern over the image looking for something so like the ankle
+    detector is just looking for ankles at all times and when it gets down here it's
+    actually more it's like a right ankle they have like a right ankle detector and
+    a left ankle detector and so it says oh there's probably an ankle in this part
+    of the screen and then you take the peak of that probability curve you draw a
+    DOT on it and then we say that's where the ankle is um this is weird magic this
+    is one of those things that like shouldn't be possible and yet here we are um
+    before 2007 it wasn't sorry 2017 it wasn't POS you couldn't do this then in 2017
+    some folks from Carnegie melon published a paper called open open pose released
+    a model called open pose um and it was the first it they were building on existing
+    models and existing techniques and they produced an output that sort of could
+    reliably draw a two-dimensional stick figure on a picture of a person in the screen
+    if you just Google open pose now you'll find the repo it's a bit of a nightmare
+    to use but very useful thing to come out um and so that is the the weird jumping
+    technology that makes any of the rest of this possible because video has always
+    been kind of been a very strange form of data because for us as visually gifted
+    primates we are exceptionally good at looking at videos and extracting a lot of
+    information and we you do that all the time every you're look when you're looking
+    at a video you're looking at a a rectangle of light flickering around and thinking
+    oh yeah that that person is
+- dur: 180.0
+  end: 3060.0
+  start: 2880.0
+  text: petting a cat that person is you're riding a bike like you're very very good
+    at that and you can say you can tell you can say many many truth preserving things
+    about an image with your giant human brain um so scientifically it's videos been
+    used for a long time but it's always been very challenging to convert that sort
+    of qualitative gut checky sense of what's going on in the video into something
+    that's empirically grounded enough to actually do scientific investigations on
+    it um historically one of the best methods that we had was hand coding so you
+    would train a group of typically like undergraduates to look at videos um a lot
+    of like developmental psychology um involves like just watching videos of babies
+    doing stuff and having undergrads who just are like watching okay at time equals
+    12 seconds the baby grabbed the toy at 13 seconds they handed it to the mom at
+    14 seconds you know da da da da and so you have that sort of like manual labeling
+    of videos as as the thing that produces the base data of like oh the you know
+    babies like to reach to toys you know is this child looking at their mother and
+    what's the odds of sort of autism spectrum on the basis of like shared attention
+    and da d da um so valid but obviously huge bottleneck like if if if if us for
+    us to to look at this data if we had to give it to a human and have them hand
+    draw points on the screen that's a massive bottleneck but because of the Advent
+    of that sort of convolutional neural network stuff we can now send our images
+    at 30 30 frames per second from multiple cameras to the machine and it will draw
+    the the dots on the screen and then critically for the sort of empirical validity
+    of this thing that step which is the only sort of machine learning stochastic
+    Magic Box step produces data that lives in the form of a stick figure drawn on
+    top of a picture of a person so if you are trying to evaluate how well this thing
+    did at drawing a stick figure on this image of a person you can tap back into
+    that several billion years of evolution of your visual cortex to look at it and
+    say oh yeah that's doing a pretty good job and so now we even though we have the
+    magic box step in our process we can gut check ourselves and sort of like regain
+    some of the like the trust that we have in processes like Pythagorean theorem
+    that we do not have when with processes involving a neural network or a machine
+    learning algorithm or an AI or something like that so this is sort of part of
+    the epistemology of it so epistemology study of knowledge study of you know like
+    how do you how do you feel like you know things um and the reason why I trust
+    this data is because the step of the process that I trust the least is visually
+    verifiable and I have looked like I
+- dur: 180.0
+  end: 3240.0
+  start: 3060.0
+  text: don't because I I know this process well enough I no longer have to spot check
+    all the videos to trust them um because I've done that enough that I can say okay
+    this is a vaguely big word here not important term here uh this is a truth preserving
+    process I believe that this step is not throwing fake into my computational engine
+    so I now trust the output there's a lot of there are other paid softwares that
+    do marketless motion capture um and as far as I understand it most or all of them
+    we don't really know because they're closed Source but I have like various people
+    on the inside they have a step in their process where they use a machine learning
+    algorithm to clean their data so where there's like Jiggles and wiggles and like
+    weird stuff going on they have a neural network that that is trained to clean
+    that data for them and produce data that doesn't have that noise in it that is
+    a nontruth preserving process because you can't spot check it but that's okay
+    for them because they're generally producing this for like artists and stuff like
+    that but you cannot do that if you want the data to come out scientifically and
+    empirically valid um anyways moving on so um great so we've done this this is
+    the high technology part this is the weird Magic Box part um and the output of
+    that is where are we we crashing what's going on great oh well so the output of
+    that is going to be so let ignoring ignoring the face it's going to be XY positions
+    of I think it's I forget how many there are like 32 not counting the face and
+    hands I think there's like 32 points in this particular uh stick figure guy um
+    and so on each frame of each video there's going to be 32 * 2 numbers produced
+    and those numbers are going to be with an image 0 0 is at the upper left so you
+    sort of you count you start here and you count that way um so that's why we tend
+    to think of X as this way and Y as that way but for image coordinates it's X is
+    this way and Y is that way so it it's confusing because the top left corner is
+    zero and then the bottom corner is 1280 so you count upwards going down you get
+    used to it um this it's like it's like that so the Z is the depth plane into the
+    thing um
+- dur: 180.0
+  end: 3420.0
+  start: 3240.0
+  text: so X Y pixel X pixel y so for one frame for one joint you get you know the
+    the position of that joint in two Dimensions with the units in this case are pixels
+    um you then do uh once you have that two-dimensional data and you have you already
+    have the position of the cameras that's when you can do the triangulation step
+    where you got camera One camera two so camera 1 2 3 this is me and then camera
+    one sees the position of this there camera 2 sees it there camera 3 sees it there
+    and then using epipolar geometry which is you know this is like old school geometry
+    um I'm not sure where epipolar geometry exactly what era that is from but this
+    gets down to like similar triangles and like uid and like like like old school
+    geometry um is how you sort of you do this kind of like triangulation math where
+    you kind of like by because you know the position of each camera if you can if
+    you can identify the location of the pixel from the point of view of that camera
+    you can do the math and figure out the 3D location so the way to think about that
+    is like imagine you're standing on a a rooftop somewhere and you have a laser
+    pointer and you're pointing it at some Target you can know from your position
+    it's like okay I had to move like over this far and then down this far so you
+    know the direction that that thing is in but you can't tell how far away it is
+    because your laser doesn't tell you that so if you have a friend on another rooftop
+    and they are also pointing their laser at that Target they know that I had to
+    turn this way and down that way um they also know the the the direction of the
+    target but they don't know the depth so now imagine it's like a foggy night and
+    you're standing on still another third rooftop and you can see those two laser
+    paths and you can see where they cross over that place where those two lasers
+    cross over that's the position of the thing that that that's that they're targeting
+    um and so if you know where those two people are in space and you know the direction
+    that they're pointing the lasers you can calculate the XY Z threedimensional position
+    of the the the object in question and then again you do that 30 times per second
+    uh several hundred times per frame and you get these numbers out so
+- dur: 180.0
+  end: 3600.0
+  start: 3420.0
+  text: again this part is all this is all computation this is truth preserving math
+    this is um yeah hard numbers hard math do the same thing you'd get the same number
+    get the same answer every time um yeah and I guess I should say um assuming perfect
+    data from the two-dimensional stuff the accuracy of this data is going to be dependent
+    on the accuracy of your calibration so if you were off in the calibration then
+    you're going to be off in the position of the cameras and so you're going to be
+    off in the pedist position of the estimated position of the threedimensional object
+    um that's called what do we call that uh accumulating error it's not accumulating
+    error but yeah it's it's whatever it's you know the the the the verasity the truth
+    value of this measurement derives its truthiness from the validity of the camera
+    position estimation and the validity of the position in the image um yeah and
+    let's not even start asking questions around like when you say that my shoulder
+    is here why is it here or is it here or is it here or is it here what what are
+    we targeting there is it some anatomical thing is it the is it the muscle is it
+    the meat is it let's not even ask those questions yet um orever well maybe someday
+    uh so uh now after all of this we have the on every frame why I look over there
+    we have the 3D position of the body in space and it looks something like that
+    not like that um so actually I wanted to see the mesh where is the mesh mesh mesh
+    and so looking at this point that point and then the point over there triangulated
+    gives you this point right here which is the XYZ position of my shoulder which
+    in this particular case looks like its position
+- dur: 180.0
+  end: 3780.0
+  start: 3600.0
+  text: is uh 1.6 M up and then 2728 M on the ground so I'm like roughly 1.8 m tall
+    so seems to check out there um oh I didn't mention there there's a conversion
+    into meter step that comes from the fact that I know the size of the squares on
+    that board otherwise these would come out in like arbitrary numbers that are based
+    off of like pixels and stuff like that actually it would come out in units of
+    the size of the square on that board so at some point in the process I literally
+    just multiply the numbers that come out of the triangulation by 58 which is the
+    millimeter distance millimeter scale of that square and then divide that by a
+    thousand and you get meters so roughly accurate but also for most of the things
+    that I do in my life the number doesn't super matter um like the specific units
+    the number doesn't matter what matters is like you know where is it on on frame
+    one versus frame 10 and you know what's the relative difference like this one
+    is twice as many as that one and stuff like that um okay so now this is also one
+    of those places where there's a there's a certain intuition thing that I did which
+    you may or may not have been offended by where I was talking about these computational
+    measurements and then I said and here you go that's the data and and I pointed
+    to the output of what is clearly a visualization software this is not data in
+    the sense of like I can't do math on this this is like a DOT floating in space
+    you can tell that it's related to some like hard numbers which must come from
+    somewhere but this is not the data this is a visual representation of the data
+    which is a very very very useful thing to have but the actual data in this particular
+    case lives in this such a thing let's make this this type of a file called a CSV
+    which stands for comma separated value uh which is here you go so Knows X knows
+    y knows Z there's a number there's a comma there's a number there's a comma there's
+    number there's a comma and there's there's a lot of these things there's a lot
+    of these numbers look at all these numbers oh boy and so we have and then so CSV
+    is a very standard data format um you probably know it in its Microsoft proprietary
+    form which is XLS which is an Excel spreadsheet an Excel spreadsheet under the
+    hood just csvs with a bunch of for formatting um so in the same way that I rail
+    against
+- dur: 180.0
+  end: 3960.0
+  start: 3780.0
+  text: uh like what's it called um a dockx file and I say I prefer things like markdown
+    this is where I rail against things like xlsx and say I prefer CSV but it is also
+    kind of annoying to view it like that um so we can open it and this is Libre office
+    version of excel I don't really use Excel or Excel like objects for anything um
+    except for once or twice a year opening it up to show to a room full of undergrads
+    and be like ooh look at all the numbers um default file format not whatever go
+    to town um oh why am I looking over there um so again so libbre office cal um
+    Microsoft Excel uh Google Sheets sheets um these are all applications that can
+    that can slurp up um so CSV is comma separated value can also have tab separated
+    value these are all just the limited values whatever doesn't matter um and so
+    this is just a nice format that takes the values where the columns are the names
+    of one of the kinds of data that you have and then in this case the row is the
+    frame number although I'm looking at this now it's like this shouldn't be there
+    and there should be a column called frame number and another one called time stamp
+    but we'll get there um and yeah and then there's as many rows as there are frames
+    in the video and the reason why I like sort of pulling this stuff up is to do
+    kind of like like this little journey we're going on is meant to kind of do multiple
+    things to your brain one is that there there should be a level of this that just
+    makes total sense like it you know like sure maybe you know the the the geometry
+    maybe don't know the math you know maybe you're not familiar with how convolutional
+    neural networks work um but generally speaking it's like okay sure like what you're
+    what you're describing makes some vague kind of sense if I desperately needed
+    to I could go through with a marker and just Mark frame by frame and measure the
+    distance from the sides and the pixels and if I desperately needed to I could
+    do that by hand I could go through and I could figure out this geometry and calculate
+    It Out by hand I could do all that kind of stuff um but never in a 100 lifetimes
+    could I do it this many times could I do it this fast and uh and I certainly couldn't
+    then take that and then draw whatever 392 images that I can then flip book from
+    as many angles as I want so I can and look at the data and interrogate the data
+    this is just long story short why
+- dur: 180.0
+  end: 4140.0
+  start: 3960.0
+  text: computers are very useful things to have it's not because they're smart it's
+    because they're dumb super fast like they can only do exactly what you tell them
+    to do but they can do it very very quickly so for you for those of y'all who may
+    encounter some depths of computers at some point in your life if you write program
+    write code stuff like that um there will come a time actually out all of you there
+    will come a time when you think man this computer is really either this computer's
+    really smart in which case it's not humans were smart and they made the dumb box
+    of rocks do very clever things um or you'll get if you're writing code you'll
+    be mad at the computer because it did something you didn't want it to do I am
+    here to promise you the computer did exactly what you told it to it followed its
+    instructions precisely to the letter and if the output was not what you wanted
+    it is in fact your fault so yeah so these are this is a big W of numbers and uh
+    and that's not even all of them um that's just the body there are other similar
+    data structures for the face the left hand the right hand and then still another
+    for the Center of mass where this one is remember if I did that yeah so this is
+    the center of mass data just the center of mass data and this one instead of being
+    a big square of numbers this is just a three column Vector three column thing
+    you still have the same number of rows as there are frames in the video but now
+    there's only Center of mass X Y and Z so it's again we have when I say we've we've
+    we've decreased the dimensionality this is what I mean this is instead of being
+    so 720 by let's see uh actually have 720 * 12 720 * 12 80 is 921 921,000 pixels
+    per per image per frame per camera and so for each of those pixels you need three
+    numbers to Define its its state because red green and blue um so we go from that
+    unbelievably High dimensional data down to this much smaller um but still fairly
+    intractable amount of data here uh actually really like I like this this here
+    is a zoomed out picture
+- dur: 180.0
+  end: 4320.0
+  start: 4140.0
+  text: of the full document so each of these columns is one of the data types there
+    and so from all of that we go down even further to this there you go um and the
+    nice thing about this is that my this starts to get to the place where your brain
+    might start thinking yeah I can okay I can handle this this is more tractable
+    this is something I can fit into my head um and and so and so from that place
+    of kind of like mental comfort you can start asking scientific questions that
+    sort of relate to the thing that you actually care about which is how does this
+    thing stand up right let's make some assumptions that somewhere between this hyper
+    simplified model of the thing and the true facts of reality there is such a thing
+    as a nervous system and that that that has such characteristics as peripheral
+    and Central and motor hierarchy and cortex and cerebellums and brain stems and
+    all that stuff let's assume that this is sort of happening in in the context of
+    all that sort of fancy Neuroscience stuff which luckily we in this room um we
+    don't have to do all that research ourselves because we can go and look at what
+    other people have said about it we like I don't have to do research on the cerebellum
+    directly I can just read about the people who are doing the much more constrained
+    kind of biological wetwear like let's look at rabbits in uncomfortable positions
+    sort of um like like like hardcore low-level reductionist neuroscience and I can
+    incorporate what they tell me about these sort of n neural systems and subsystems
+    into my attempts to understand and represent this data at a scale that's just
+    not amenable to that level of sort of like neural biological Precision let's do
+    it so okay so with all of that context I have 20 minutes left uh which I think
+    is just barely enough time to kind of like make the main point of differentiation
+    between the data from those two recordings um so before we do that I think that's
+    I think that's enough time to do that anyone to have is there anything to say
+    about all the nonsense I said before before this a lot of it's kind of like intuition
+    pump there a little bit of like there's like a song and dance happening um again
+    kind of in that space of like I'm trying to say a bunch of stuff that just makes
+    sense and kind of you already knew at some intuitive level but just like making
+    that very very specific point about the data flow and
+- dur: 180.0
+  end: 4500.0
+  start: 4320.0
+  text: sort of the computational pipeline from the sort of empirical measurement
+    in the form of this transduction of environmental energy into electrons and voltages
+    and then the various sort of conversions and computations and calculations that
+    we have to take that sort of Base data to to get it to the place where we can
+    sort of start doing the actual Empirical research investigation and again let
+    not sort of let's not also shy away from the fact that I skipped an unbelievable
+    number of steps at a lot of that part not just in the part where I'm actually
+    doing the calculations myself but just in the basics of like how a freaking camera
+    works like the I know vaguely how a camera works at an engineering level but not
+    not that specifically let alone like how it sends signals down like a wire and
+    that gets absorbed by the USB port which is handled by the USB Foundation which
+    is some unknown cabal of probably hundreds to thousands of humans who have been
+    working on how do you read data out of a voltage pin of a little rectangular port
+    on a computer um for decades now then it goes into the computer and there's CPUs
+    and there's RAM and there's hard drives like the processes that go into all of
+    this stuff this is why you know this is this is why like no human ever operates
+    alone because we are all standing on each other's shoulders and we are all using
+    the lifetimes of Labor of other people in our vicinity to be able to with any
+    luck ignore that part and focus on the things that we're actually looking at Also
+    let's not speak about blender itself this visualization software which is an open
+    source software that's been developed in public by mostly volunteers for free
+    since like 1993 um or python which is the code that I use to write the analysis
+    code which is another open source project that's been around for decades or any
+    or any of the history of computation and sort of how we got to that point or the
+    Metallurgy to make the stand or the plastic or the glass God even knows it's overwhelming
+    so we boil it down and we move on um yes great it's the existential crises where
+    the real learning happens okay here I am a fun little skeleton and let's see let's
+    let say in range round frame let
+- dur: 180.0
+  end: 4680.0
+  start: 4500.0
+  text: say 150 to 150 display custom color great okay so look at me go here I am
+    I am standing this is this is Skelly this is Skelly skelly's the logo freeat Foundation
+    good job buddy um I have roughly similar bones in my body so there you go um and
+    this is a mesh it's sort of like a like a animation thing it's not really data
+    it's more just for eyeballs but um this these are the rigid bodies so these are
+    the um this the the simplified sort of Chunk segments that we're going to call
+    those parts of my body and then this is my center of mass calculated with those
+    anthropometry tables talked about PR prior um and so and then this sort of red
+    line here let's make that pink yeah um this represents the vertical projection
+    of that threedimensional point now you see the these terms like vertical projection
+    and it's sounds very mathy and complex it kind of is but also this is the ground
+    let's say the ground is where zero where Z is zero let's just you could just Define
+    anything the way you want let's just say the ground is zero height so if I am
+    here and I have x y z location let's say Z is like whatever one or 1.2 height
+    if I want to know the vertical projection of that thing I just say x y0 so that's
+    how I take the vertical projection of that I just set X I set the height to zero
+    and now this has the same ground XY horizontal position but it's just directly
+    underneath the thing that I care about why do I want to see that it's like well
+    because I'm talking about balance whenever I talk about balance I keep using these
+    terms like you know Center of mass and base of support in base of support is on
+    the ground so I'm C I'm not I don't really want to I don't I can even I'm boiling
+    this down even farther I can say I actually don't care for this task for the jumping
+    task I care very much about the height of it for the balance task I don't care
+    about the height at all I only care about its position on the ground plane so
+    I'm going to project it down onto the ground plane and I want to compare it to
+    the base of support where what is the base of support here um there's a thing
+    that's supposed to make it show up here but I I just can
+- dur: 180.0
+  end: 4860.0
+  start: 4680.0
+  text: never make that work maybe next semester um but in here very intuitively the
+    base of support is where my feet are it's the extent of where my feet are behold
+    my base of support on the ground and so everywhere I can sort of yeah that's where
+    my feet go that's that's the the the region of the ground where I can abser pressure
+    and sort of change the forces to sort of affect my center of mass I can push it
+    outside of my center of my base of support but when I do that I have to move my
+    other foot or I will hit the deck um and for this task as we have defined it I
+    told myself as a research participant that my goal was to lean without moving
+    my feet so we can assume in this context that if my feet move then I have failed
+    the task at hand and so we can assume that the the neural control that I'm exhibiting
+    is in the service of completing that task so we've defined success and failure
+    in this task again giving us a little bit more leverage to interpret this weird
+    squiggly wiggly line here in terms of how it relates to things like balance and
+    posture um and I'm going to say I'm going to say 300 z uh update I'll paths great
+    um so this the pink line now is showing the um the previous 10 seconds that's
+    too many bye going move his Bas of support no nervous system my's fault um okay
+    now I'm trying to I brought a mouse today because it's hard enough to navigate
+    these 3D spaces but with a trackpad it's like Jesus Christ um so this is also
+    so so I start out outside of the screen this is what we call invalid data this
+    is not I didn't do this you were all here if I did you would have noticed but
+    this is what it happens when there's nothing in the in the screen on the on the
+    the the CSV thing this data looks just the same as the data where it's actually
+    like a stick figure it's just not real um and so I come in and I say oh yeah then
+    it snaps on top of me and let's see here and so here I am I'm standing and leaning
+    forward and there's something oh let's do it like that oh there we
+- dur: 180.0
+  end: 5040.0
+  start: 4860.0
+  text: go and so I'm leaning all the way over it's a little bit outside so there's
+    another layer of this where I'm like there's a calculation here of like figuring
+    out how to orient myself on the ground which I don't 100% trust so I don't 100%
+    trust these data um but theoretically the theory predicts that I should be right
+    at the edge of my foot when I'm leaning all the way this way um although again
+    if we look at the data of what's being traed on my feet it's like okay but it's
+    a very very very impoverished model of the foot I have heel I have toe I don't
+    have this outer extent of my foot so even though I can put Force into the ground
+    all the way out to here the data that we has show of my foot as just being a thin
+    line on the ground and furthermore because you know this was not really made to
+    be like a scientific software those predictions are going to be slightly different
+    for each of the viewpoints of the cameras so there's a whole layer upon layer
+    of like how much do you trust things like the the the very specific data about
+    like where the feet are versus the full body data of where the body is um but
+    you know we kind of it's like close enough um it's also kind of hard because that's
+    hard for a lot of reasons um okay so generally speaking when you're studying human
+    behavior the harder the task is the easier it is to interpret because the harder
+    the task is the fewer options are available that complete the task so if you assume
+    that I can do the task then the harder it is the easier it is to interpret um
+    so for example standing on two feet is easier than standing on one foot because
+    of that the base of support is larger so making predictions about where the center
+    that base of that Center of mass is going to be within that base of support necessarily
+    more difficult CU you're picking from a larger region uh when I'm on one foot
+    the base of support is much smaller like this big and so the ability to predict
+    if assuming that I'm successfully standing on one foot the ability to predict
+    where the center mass will be in this region is easier because it's a smaller
+    region and there's just there's fewer things that I could be doing that would
+    successfully complete the task because the task is harder and so in this case
+    if we look here at this sort of nice moment where I'm standing on my right foot
+    and you look at that vertical projection of the center of mass let's see so here
+    okay so
+- dur: 180.0
+  end: 5220.0
+  start: 5040.0
+  text: 11:37 11:37 so from frame 1137 rice picked up my foot to let's say 2058 uh
+    so for these thousand frames I am standing over my right foot and what do you
+    know the vertical projection is right over my right foot hooray science Works
+    physics Works mechanics are true you can this isn't enough to tell me about like
+    my hip torqus like the center of Mass on its own isn't going to tell me about
+    things like my hip torque or my knee flexion and stuff like that but in terms
+    of like the base level task of am I keeping my foot in the right location relative
+    to my body to keep up right sure enough am and there we go and you can see again
+    this is sort of like easy to belittle or easy to sort of not like like this is
+    cool this is a cool thing just so you know this is very cool and uh and I'm proud
+    of it so you're welcome uh sorry sorry I said that um okay so base standing posture
+    we could look at the left fo foot but I don't really we're running out of time
+    very quickly and let's assume for practical purposes that the left side of my
+    body and the right side of my body are similar enough that we don't have to care
+    about the left side versus the right side um that's not true because there's handedness
+    and footedness and I'm I think I'm I'm better on my right foot than I am on my
+    left foot or vice versa I can't remember um but for the sake of expedience this
+    is what it looks like when I'm standing under my own powers and my own sort of
+    like anatomical base of support So prediction wise um how might this change is
+    if if I'm holding something additional like something else outside of my body
+    well you can ask the question what aspects of the description of this this physical
+    model no longer apply when there's something that I'm touching that's outside
+    of my body so there's a lot of things one of them is that first thing that I said
+    where my ability to put Force into the world to move my body is constrained to
+    that where my feet are when I'm standing on the ground like this that my basis
+    support is defined by my feet because that's where I can put Force that's Newton's
+    third law for every I put action in the world the world does a reaction pushes
+    me back in this context that's called the ground reaction force which is very
+    very use useful you you use it every day um and so and so I say
+- dur: 180.0
+  end: 5400.0
+  start: 5220.0
+  text: because of that constraint on my ability to put Force into the world sort
+    of being attached to where my feet are um in order for me to stay upright I have
+    to keep my center of mass above the base of support um if now I'm touching something
+    else that thing that I just said is no longer true I can now get Force in reaction
+    force from the table which is not noticeably where my foot is and also in this
+    data recording I have no record of where the table was so if I'm looking at this
+    I can't make that same prediction about where the center of mass would be I can
+    make a prediction about which direction I'm allowed to go out of that base of
+    support from and which direction would require me to to fall over um real quick
+    I'll just say it though I don't have any time uh 2015 they they had a DARPA robotics
+    challenge bunch of bipeds walking around and they did sort of hilariously bad
+    but it was still a big advance for the field um one of the things that they really
+    struggled with was was calculating the reaction forces because they had really
+    good sensors on the ground um but they didn't have good sensors elsewhere so there
+    was at least one case where one of the robots was like standing in a doorway trying
+    to figure out what to do and they're they're calculating the force it needs to
+    put to sort of move in the right direction and they didn't realize that its arm
+    was touching the door frame and so when they're calculating the forces that it
+    needed they weren't accounting for this force and so then when they tried to sort
+    of make the right step it like it fell over and then had like a a a balanc response
+    which was also wrong because that also didn't have this calculated into it and
+    then if you just Google 2015 darer robotics challenges there's a lot of like really
+    great blue reels of bipeds falling over dramatically and reminding us how how
+    powerful of a motor you need to move something with such an incredible mechanical
+    disadvantage anyway uh 3 minutes not enough time um but we'll do it anyways real
+    quick hopefully we can get this in um yeah Center of Mass sorry uh standing supported
+    so this is now the other recording um same basic structure uh except now I am
+    holding this stick and I'm holding it on my well let's see where I'm holding it
+    I think it was on my right hand and yeah so my right hand
+- dur: 180.0
+  end: 5580.0
+  start: 5400.0
+  text: so I do I hide you I hide you I say I do this yes and I grab I don't think
+    we need the Tails um and so now we should be able to make a nice prediction especially
+    because I was there we go so let's see 1182 1182 to oh actually I do want that
+    about 2,000 and I do want to put okay round frame uh 50 500 before zero after
+    calculate the whole thing and display no key frames color is going to be green
+    great and what do you know sure enough it's on the outside of the foot so understandably
+    before we said this it's like oh we don't really trust the locations of the foot
+    to this high of level of fidelity which is a fair point but we also saw in that
+    control condition that when I'm standing on one foot it's pretty close to that
+    like line between the heel and the toe and now that I have this unmeasured balance
+    Support over here my actual base of support is no longer foot it's foot plus little
+    balance point over there and the reality is is that like you know I weigh like
+    200ish PBS of of person that's a lot of force I can't really put an appreciable
+    percentage of that Force into that little little we weenie stick um so it's not
+    like the the the point is as good as the foot but mathematically I can pull some
+    force from this direction so my my actual effective Bas of support is going to
+    extend outside of my foot in the direction of that support uh and there you go
+    empirical measurement result on the fly in person hooray and yeah okay that's
+    yeah cool feel good about that very close timing uh um we'll probably talk about
+    this just a touch more on next Wednesday and then we'll do that uh that work that
+    group thing um keep an
+- dur: 180.0
+  end: 5760.0
+  start: 5580.0
+  text: eye on the Discord server if I announce anything but I probably won't before
+    Wednesday so thank you enjoy the rest of your lives thank you bye
+video_id: hCSj2z25rJ8

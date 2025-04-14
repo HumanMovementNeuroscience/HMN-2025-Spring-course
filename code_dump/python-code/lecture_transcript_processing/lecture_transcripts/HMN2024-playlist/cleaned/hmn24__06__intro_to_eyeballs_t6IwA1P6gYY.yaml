@@ -1,0 +1,1492 @@
+full_transcript: "Hello everybody, welcome to whatever today may bring. Today the\
+  \ topic will be eyeballs, specifically the basic biology and neuroscience of how\
+  \ your eyeballs work and connect to your brain, all that kind of stuff. We're going\
+  \ to get to that, but this will be another kind of discussion, similar to the motor\
+  \ hierarchy, where I have less prepared because I was making these materials. However,\
+  \ this is a topic I know a lot about, and my goal is to give a large-scale overview\
+  \ of all the relevant parts to vision that we can cover. We'll see where that takes\
+  \ us. Next week, we'll talk about evolution, and then we'll take stock from there\
+  \ because there are a couple of other things I want to get done this semester.\n\
+  \nAt this point in the semester, you all are probably wondering about your grades.\
+  \ Don't worry about your grades; just show up and check the boxes, and you will\
+  \ be fine. The concept of grading is about ranking you relative to your peers, and\
+  \ I don't think that's a valuable form of education. There is a really awful but\
+  \ formative paper written in 1970 called \"Higher Education as a Filter\" by Kenneth\
+  \ Arrow. The premise is that what we are supposed to do in higher education is give\
+  \ you a chance to outcompete your peers so that employers can determine which of\
+  \ you are the qualified ones worth the investment. That's not what I like doing\
+  \ in my job. I do not care about your performance relative to each other; I don't\
+  \ even know what performance would mean in this context.\n\nSo, don't worry about\
+  \ it. Talk to the bot. As long as you have at least a thousand words written in\
+  \ this class, which I\u2019m pretty sure almost all of you already do, you're fine.\
+  \ Even if that\u2019s all you've done, you'll be fine. If there's a problem, I'll\
+  \ let you know and say, 'Hey, just check some boxes,' so I can stand up to an audit\
+  \ if needed, as long as I don't record it and put it online anywhere. Yeah, so don't\
+  \ stress about that. I'm sure you have plenty of other parts of your life that are\
+  \ adding stress, so focus on those. Education doesn't have to hurt; learning doesn't\
+  \ have to be a painful process. If you feel that here, you're doing great. Okay,\
+  \ where are we? I did a big refactor of the AI code. \"Refactor\" in the context\
+  \ of code and software basically means redoing it, rewriting it, changing the structure,\
+  \ and cleaning things out. A lot of the code I wrote was done under duress over\
+  \ the past several years in various classes. There\u2019s a very important rule\
+  \ that you, unfortunately, are not really prepared for; it\u2019s not really part\
+  \ of undergraduate education to focus on things that last longer than a semester.\
+  \ You are given what I think is a pretty flawed approach to productivity, which\
+  \ is to have short-term hard deadlines: get it over with, throw it away, and start\
+  \ again from scratch. If you are going to be working on something, you should work\
+  \ on it a lot for a long time, and then it will get better and better. However,\
+  \ that\u2019s not really how the world tends to work. Typically, things are much\
+  \ more iterative, and you sort of work on the same thing over and over again. When\
+  \ that happens, you can reach a point where you feel blocked by your own work. In\
+  \ software, they call it tech debt; every little sloppy decision you made along\
+  \ the way builds up. Therefore, it\u2019s crucial to take a step back and kind of\
+  \ restart. It\u2019s a counterintuitive idea that throwing all your work away and\
+  \ starting again from scratch can often be a productive way to approach your work.\
+  \ When you start a project, it\u2019s more about discovery, and once you understand\
+  \ the structure, recreating it with both the endpoint and starting point known can\
+  \ lead to much cleaner work. All that said, I rewrote the code, and now it does\
+  \ some neat stuff. Well, it has similar functionality, but now it's cleaner, allowing\
+  \ for better development. One of the things I built upon was looking at data per\
+  \ student, among some other things that I will show you shortly. So, let\u2019s\
+  \ take a quick look at that. Okay, I'm not going to get too deep into the details\
+  \ here. The most recent server thing is the same as before; just download it from\
+  \ here. There might be a couple of extra things in the zip file, but don\u2019t\
+  \ stress about that. Grab that, and if you open it now in Obsidian, open the folder\
+  \ as a vault and paste that in. Probably actually this one. Yeah, select that. It's\
+  \ white; always white. I don't know why. Actually, not always white. Always white\
+  \ on this computer when I open a new one, while my other computer doesn't do that\
+  \ dark mode, because light is effort. \n\nOkay, so it's quite similar to before.\
+  \ The main difference is I've also changed the way I do the call to OpenAI for the\
+  \ AI analysis stuff. The new way should be cleaner; it should have less slop. It's\
+  \ hard to tell numerically, but generally, it should be more robust. \n\nNow there's\
+  \ this server, there's this little folder called 'by user', which is basically me\
+  \ going through every chat that your IDE appeared in, and it's sort of smushed into\
+  \ there. I didn't really do anything beyond that. There's a bunch of files in there,\
+  \ like your ID and your Discord user ID. \n\nThe other thing I did is, with the\
+  \ way this weird world of AI text analysis works, you can kind of do the scale of\
+  \ the text. You can be pretty goal-oriented about it. You just make kind of a machine\
+  \ to analyze the text, and you throw different blobs of text into it. \n\nUp until\
+  \ this point, the only analysis done was at the chat level. So at the level of those\
+  \ threads, you were sort of doing summaries and pulling out things that look like\
+  \ this. Part of the refactoring was making it more generic, which is often what\
+  \ happens. \n\nNow, it's also set up that instead of dropping in a chat, I can also\
+  \ drop in every blob of text in a particular category. So, I'm actually not sure.\
+  \ This is basically like the summary of the text channels category, which is not\
+  \ a very exciting one. Every folder in the category also has a thing called 'category\
+  \ index', and this is the summary of everything that happened in that category.\
+  \ You can also go into individual channels and channel index; it's the same thing.\
+  \ \n\nThere's this multiscale thing happening here, which I think is a very general\
+  \ idea in a lot of the natural world, where you have this kind of scale-free structure.\
+  \ You can do the same analysis on a zoomed-in version of the thing as well as the\
+  \ zoomed-out version. \n\nSo, that does sort of interesting things to it. Yeah,\
+  \ so then by user, or I don't know what this is going to look like. Yeah, I need\
+  \ to look at that. I don't actually see this person. It looks like this person only\
+  \ has one chat, but I don't trust the code enough to trust that. So if that is you\
+  \ and you have more, we'll probably clean that up. But yeah, theoretically, you\
+  \ should be in there. If you look at the graph view, we again get just the white\
+  \ dots of nothing until we add tags. Now we get this kind of thing. We can also\
+  \ do groups, new group, and then we look for file: user ID. Then we can look for\
+  \ file: channel, channel index. Actually, just do index, and we're getting sort\
+  \ of this interesting kind of structure. There's still not a ton of navigability\
+  \ here, largely because of how Obsidian works. But basically, I can do a search\
+  \ now. In the filters, I do file: user ID. User is just a kind of generic term for\
+  \ anybody using a thing. In this context, user kind of means student. I'm also in\
+  \ there. But yeah, so now the blue dots here are the chats for a given one of you,\
+  \ and I think if you just search for your user ID, you'll find yourself. I'll make\
+  \ better ways to navigate this, but oh, come on now. Dang it. Right. So groups,\
+  \ file, user, pink, bright pink. Theoretically, this is also a place that I wish\
+  \ I had more control over what is visible at which point. I wish I could make the\
+  \ tags have less pull than the other ones, but that's kind of a limitation of Obsidian.\
+  \ This is you doing that. Oh, text fate distance be brighter. Okay, center force.\
+  \ So this is now starting to get at like a map of your actual proper interests.\
+  \ If I hover over one of these pink ones, which represent the students, this particular\
+  \ person has interests in things like neuroscience, which are obviously very highly\
+  \ connected because everyone has been talking about neuroscience. Just to be clear,\
+  \ this sort of summary of a given person includes every single chat, all the text\
+  \ of every chat that they have even been tangentially a part of. So if you even\
+  \ just sent one message in a 50-message chat, that's all in here. It runs through\
+  \ and generates a title, provides an extremely short summary, and highlights a very\
+  \ short summary, and so on. So these are the things that emerge from the statistics\
+  \ of what you were talking to the machine about.  And, again, that is so annoying.\
+  \ A file user. Alright, it's fine. Apologies to any red-green colorblind people\
+  \ in the room. For example, good old user 12830, 95453, 45953, 3792 has the main\
+  \ tags that came out of them. Don't worry if your favorite thing didn\u2019t come\
+  \ out, or if you don\u2019t think this is a good representation of you. Just know\
+  \ that the bot is kind of dumb; it can\u2019t tell if you\u2019re excited or if,\
+  \ for example, you said something and it produced a bunch of information about something\
+  \ you don\u2019t care about. It can\u2019t discern that because those words are\
+  \ in the data. So, this person\u201453792, which are the last digits\u2014has interests\
+  \ in neuroscience, epidemiology, public health, and hallucinations. This is one\
+  \ of those cases where that\u2019s the only epidemiology information that I know\
+  \ isn\u2019t true. I know that you all have been discussing that, but pick this\
+  \ person over here. So they are now\u2014we see that the motor hierarchy tag is\
+  \ connecting these two people. All of these people... I have said enough about biomechanics\
+  \ that it showed up in their message or in their summary. This is about motor control.\
+  \ Theoretically, not quite yet, but this is kind of a landscape of like an interest\
+  \ map. It's different; these are not because if you guys are interested, there is\
+  \ a larger scale involved in all of this. This is everything that was discussed;\
+  \ this was the total conversation. A lot of this could be cleaned up. Here, the\
+  \ gray dots represent any chat. However, once you start looking at the statistics\
+  \ of the user-based data, we begin to see things that, hypothetically, if you are\
+  \ in a chat and mention epidemiology, it would show up here differently than in\
+  \ the general statistics because we are now grouping by particular factors. That\
+  \ particular factor is roughly one per human, which is interesting. We can navigate\
+  \ that, and I need to create a better interface for navigating that, but it is technically\
+  \ there. The other thing I did is related to this concept. This is the place where\
+  \ I'm not going to go down this rabbit hole, although I will explore it later in\
+  \ the semester. We've talked a bit about 3D space and how objects exist there. You\
+  \ can have XYZ data in spatial dimensions. If you're thinking about data, if you\
+  \ have up to three dimensions, you can plot that spatially by just putting XYZ as\
+  \ length, width, and height, or whatever. If you have two data points in a three-dimensional\
+  \ space, you can measure the distances between them, which is Euclidean geometry.\
+  \ It's not particularly exciting, though it is exciting; it\u2019s probably familiar.\
+  \ There is a strange corollary to this in the world of AI and natural language processing\
+  \ that relates to the concept of an embedding. Basically, just as each one of those\
+  \ blobs of text can be run through that summarization scheme, you can also obtain\
+  \ the embedding of that blob of text within the very high-dimensional space that\
+  \ the language model has access to. I won't be able to explain this in a simple\
+  \ way quickly, but instead of being like three-dimensional, each blob of text that\
+  \ an AI, like an OpenAI large language model processes, is embedded in a 1532-dimensional\
+  \ space. Given a blob of text, it gets put into that space, and that location in\
+  \ the super high dimensional space has something to do with its meaning. In that\
+  \ space, you can also measure distances, and you can see that things that are close\
+  \ together are similar in meaning, while things that are far apart are dissimilar\
+  \ in meaning. This is how search engines work; it's a little complex. What that\
+  \ means is that you can take all of the text that was generated and get these embedding\
+  \ vectors, which are these 1500-long numbers. You can do some mathematical transformations\
+  \ to collapse it down into three dimensions and then look at the spatial representation\
+  \ of the conversations we've been having in that strange spatial dimension.\n\n\
+  So, I did that. Again, this may not make a ton of sense; it will make a strange,\
+  \ abstract kind of sense. But we will come back to this, and I will make it clearer.\
+  \ Basically, this strange orb\u2014one of the many strange orbs I have shown you\
+  \ this semester\u2014represents the three-dimensional projection of the 1500-dimensional\
+  \ vectors associated with each of the chats that have happened in this class. Each\
+  \ one of these little markers and dots represents one chat and its position.\n\n\
+  I think how I did this was, each channel-category pair has a unique color and symbol\
+  \ pair. So, all of the blue dots are things that happened in the general text channel,\
+  \ while all of the purple squares are from the center of mass balance channel in\
+  \ the lectures category. You can see that they tend to cluster together. The purple\
+  \ dots are all close to each other, and some of the overlaps are interpretable.\
+  \ For example, this orange dot is from the motor hierarchy lecture; it reflects\
+  \ a chat about motor hierarchies in basal ganglia, which shows up here. By the way,\
+  \ in the zip file, there's an HTML that will open the sphere part of that; it won't\
+  \ show this part because I don't know if that runs from my computer. I will figure\
+  \ out how to share that. But if you just open that HTML, it will just be that and\
+  \ won't have this associated with it. \n\nSo, this is a chat in the channel about\
+  \ motor hierarchies and basal ganglia. The one right next to it, I don't know what\
+  \ it is, but it's likely related to Huntington's disease and motor control. Happening\
+  \ in the general text channel, I lost some time to it this morning. This is the\
+  \ Sea of Bot playground. I tried to remove some messages, and it caused some problems.\
+  \ Now, there's a blob of chats that are not related to the topic of the course.\
+  \ You can see they are all kind of stuffed down here in this sad little zone. I\
+  \ want to remove them because that space is not being utilized.\n\nThe general space\
+  \ here is called cluster analysis. I'm looking for lumps and clusters in large unstructured\
+  \ data. I think the next phase will be to clean up some of the technical details.\
+  \ As I mentioned before, we also have your individual user self, so it wouldn't\
+  \ be too hard, though I wasn't able to do it today, to take each of your associated\
+  \ text goals, calculate the vector embedding of them, and then plot those markers\
+  \ on this sphere. We can look for a distance score and say, \"Okay, students that\
+  \ are within this range of each other have similar interests.\" Chats that are related\
+  \ might show up together. It would be similar to a recommendation system, much like\
+  \ how Netflix works.\n\nAdditionally, I want to plot the individual messages within\
+  \ the chat, specifically what I've been calling couplets\u2014 where you say something,\
+  \ and the bot responds. That two-message couplet would be interesting to include.\
+  \ This is my assignment: trying to figure out how to wrangle this large unstructured\
+  \ data. Another thing I could definitely do, which I've mentioned before, is conduct\
+  \ a second pass through the data. Right now, it's processing each text blob independently,\
+  \ extracting various elements separately. Specifically, it\u2019s extracting the\
+  \ tags independently, which is not ideal because it means there may be synonyms\
+  \ that could lead to better structure. I think if I were to go through and do the\
+  \ first pass, getting all the tags, then run that through and say, \"Hey AI, condense\
+  \ these down into like 40 or 50,\" and then replace the ones that are sort of covered\
+  \ so that there\u2019s a total of about 50 tags, then this would be a much more\
+  \ structured mess. But, is that hand... what\u2019s that? So, the red dots are what\
+  \ happens if I type, if I hit Groups, New Group, and in the group I type file: user\
+  \ ID, which is basically just coloring all the dots associated with files that have\
+  \ user ID in the name as red. If I filter by that and I say, \"Only show those,\"\
+  \ then this is showing the red dots, which are the notes. Damn it, I always do that;\
+  \ it doesn\u2019t remember.\n\nThe green ones are the tags, or the hashtag words,\
+  \ yes. Each... I checked the number. I didn\u2019t actually connect it to your actual\
+  \ identities, so I don\u2019t know which one of these is which. But hypothetically,\
+  \ there\u2019s one dot per human, and there\u2019s also one dot per markdown file\
+  \ in this user folder. If I turn on the tags and just view them, those will show\
+  \ up as green. The ones that are connecting are those that are shared. All of these\
+  \ connected red dots are people who talked about neuroscience enough to get a neuroscience\
+  \ tag.\n\nThe limitations in how this is visualized are significant; there\u2019\
+  s only so much I can do with it. The big ones are those that are more connected,\
+  \ and the small ones are those that would be called orphans because they aren't\
+  \ connected. Only this user has talked about surgery enough for that to be extracted\
+  \ as a tag. So, if you ask what all of that means, it\u2019s like I don\u2019t know.\
+  \ I\u2019m working on that. This is part of the joy of discovery; I don\u2019t know\
+  \ either. This whole thing is basically an experiment in experimental pedagogy,\
+  \ which means the teaching of children. I don\u2019t like that term because it\u2019\
+  s weird. Andragogy is the teaching of adults, which I think is more relevant to\
+  \ what I\u2019m considering. The distinction is that I think pedagogy is much more\
+  \ hand-holding, whereas Andrei approaches teaching as, \"I'm going to teach you\
+  \ how to do stuff, and then you do that stuff.\" So, Andrei's method is more suited\
+  \ for adults. I don't know. This is basically trial four in my continued exploration\
+  \ of how we can use AI to teach better and burn the world to the ground. But that's\
+  \ a topic for later, not out of scope for this class. \n\nGreat! Okay, so you can\
+  \ explore the Obsidian stuff. You can also theoretically open this HTML file, and\
+  \ it will partially open that sphere. You are supposed to be confused at this point;\
+  \ if you're thinking, \"I don't know what's going on,\" that's correct. We are exploring,\
+  \ and confusion is the proper state when examining anything related to the natural\
+  \ world.\n\nOh, and if you're a CODI person\u2014oh, you actually may not have this\u2014\
+  never mind. The full server data is now 180 megabytes of just numbers and letters,\
+  \ which is not currently available to you. I wouldn't really recommend trying to\
+  \ dig through it anyway; it's mostly repeated text and those many instances of that\
+  \ 1500-digit number.\n\nOkay, cool. So, eyeballs, right? Got that. I realized that\
+  \ I actually have a video of myself wearing an eye tracker from a previous life\
+  \ that I can share to remind ourselves how eyeballs look. I have put a lot of stuff\
+  \ on this YouTube account\u2014John Math\u2014is probably linked in the server somewhere.\
+  \ It's kind of a way for me to communicate with other researchers; the numbers are\
+  \ small but consistent. However, there was a time in my life when I was making more\
+  \ internet public appealing stuff, and one of those was this video of me playing\
+  \ OverWatch. In my living room in Texas, that video has 300,000 views. I think it's\
+  \ from a different iteration of my life where I was much worse at making these kinds\
+  \ of visuals. Is it playing? I guess it's playing at full speed. This is the same\
+  \ basic eye tracker, slightly different visual, and I\u2019m in my apartment in\
+  \ Austin, Texas. As a post-doctoral researcher, I'm calibrating to this little laser\
+  \ pointer. I used it to look at the point, and I calibrated it after the fact. This\
+  \ is the data that I wish I had been able to show in real time last time. It shows\
+  \ the X position; the horizontal position is in blue, so if I look from left to\
+  \ right, the blue will go up and down. The orange represents the Y position. I'm\
+  \ playing Overwatch, a game where you shoot characters, and I'm playing as Roadhog,\
+  \ who is a character in that game. Has anyone played Overwatch? Thank you, great,\
+  \ I appreciate it. Video games are really interesting; I think they are perceptual-motor\
+  \ tasks because they are visually complex, but the motor commands are quite limited\
+  \ and the task is often very well defined. In this competitive game, for example,\
+  \ you have people trying to shoot each other. You know where the bullets go, there's\
+  \ your health bar, and these are your abilities that you use until they cool down.\
+  \ This particular character is big and slow and has powerful capabilities. The task\
+  \ is clear: win the game and don\u2019t get shot enough to make your health go to\
+  \ zero, while using the abilities to stay alive. First of all, you can see that,\
+  \ as I mentioned, people don't blink when they're doing tasks that are hard. All\
+  \ of these gaps here represent what's happening before the game starts, and you\
+  \ can see I\u2019m blinking all over the place. Eventually, people will show up,\
+  \ and then I start blinking a lot less. Here, you can go frame by frame on YouTube\
+  \ using the period and comma keys, if you didn't know that. As I\u2019m coming around\
+  \ this corner, I sort of glance over, and you can see the jumps down here. I'm recording\
+  \ this at 30 FPS, which is unfortunate, so those little jumps are sad. You can see\
+  \ here, there is a big jump in X and Y at the same time, which shows a diagonal\
+  \ movement. It's going to be positive x negative y, so it's going to be, I guess,\
+  \ in that direction. Yeah, so that's the first time I looked down here at the ability.\
+  \ This shape is going to become more familiar because this is a diagonal down that\
+  \ way. And then making a blink during an AOD, like we do, and then this is checking\
+  \ the other side, which is the health bar, and then back to center. We tend to really\
+  \ like our eyes to be in the middle of our head; this is our strong preference.\
+  \ So when we're making eye movements in the real world, there is a pattern, a stereotypical\
+  \ pattern, that if I'm trying to redirect my body in a particular direction, my\
+  \ eyes will go there, then my head will go there, and then my body will go there,\
+  \ and then I'll move. There's kind of a trade-off where you want to get the information\
+  \ before you initiate the action, and you move the fastest moving things first.\
+  \ But this is, yeah, then, so, oops, and I'm shooting this guy here. I see another\
+  \ one of those shapes coming up. That's going to be, because they tend to start\
+  \ from the middle, those are positional. So if the two dots are here and here, that's\
+  \ going to be the same place every time. So this one is going to be to the same\
+  \ location as that one, and this, you could see, 33 milliseconds per gap there.\
+  \ Because I think I had already thrown the hook, and so I'm fighting this big scary\
+  \ one, and I have to, like, am I ready? Can I do it again? So I look down, and then,\
+  \ yeah, actually, that's that same pattern. So it's like center to the bottom left.\
+  \ And then making these CADs here, so this four in a row is a big jump happening.\
+  \ So that's 120 milliseconds, and you're sort of traveling, so that's a big CAD.\
+  \ The actual image on my retina is blurring when that happens, because of just the\
+  \ movements occurring there. Okay, I'll let this play a little more. Here we have\
+  \ one, two, three, three little sads. Oh, so this is as I'm turning around a corner.\
+  \ So another thing I find, I've mentioned this before, is that the amount of information\
+  \ we get in a very small amount of time is enough to change our behavior. So each\
+  \ of these little steps. It has four dots on it, which is about 150 milliseconds,\
+  \ roughly as fast as you can move your eyes, but enough time to get the information\
+  \ from that part of the visual field. Here I am blinking in this empty space, feeling\
+  \ like there's nothing going on, and I have time to blink. Now I have this little\
+  \ curve, and I'm not moving my head, so it's not a visual issue, but I am moving\
+  \ the stick on the controller, causing the world to move smoothly. I'm going to\
+  \ be tracking whatever this is, but nope, guess not. So, running up here, this guy\
+  \ runs out, I shoot him. This kind of stuff here, like the swoopy things, I associate\
+  \ with it; it's kind of like a visual tracking. It's the head stabilization one,\
+  \ or V, where it's not a big catch-up, and it's not even a small one; it\u2019s\
+  \ more of a tracking behavior. There is an object on the screen that I am smoothly\
+  \ tracking, and then making these little adjustments. It's hard to know exactly\
+  \ what that is, but those are sometimes called catch-up saccades. In the context\
+  \ of smooth pursuit, your eyes can track the object, but sometimes they track it\
+  \ a bit slower, so you'll periodically make little catch-up saccades. This is to\
+  \ ensure I'm tracking this, and as it moves, my eye lags behind, so I jump ahead\
+  \ to stay on top of it. You can kind of see that happening here as I come around\
+  \ the corner, trying to shoot this mean ninja. Here's that same pattern again, double-checking.\
+  \ I don't need to watch the entire thing necessarily, but this is a visual-motor\
+  \ task I performed several years ago. I don't even know when that was, maybe 20\
+  \ something, and the nature of the data provides interesting insight into the cognitive\
+  \ task being performed. I had this vague intuition and intention to do this for\
+  \ different characters and sort of... We get different patterns for each of the\
+  \ different play styles, and it didn't quite work out because for most players,\
+  \ you're mostly just staring at the center of the screen the whole time, so you\
+  \ don't notice the big jumps. This particular character has a huge health pool and\
+  \ slow cooldowns, which gives you that really standard triangle shape that I enjoy.\
+  \ It's interesting because the ability to point a camera at your eyes and the screen\
+  \ gives you a readout of the physical movements associated with the information-gathering\
+  \ process that your visual system is designed for. \n\nSo, yes, here I am blinking\
+  \ a lot. This is an interesting one with little jagged bits. This is what it looked\
+  \ like when I was making those big turns. My head is not actually moving, so it's\
+  \ not the same behavior, but it is related. I am turning in this case, but it's\
+  \ kind of like my eyes are attaching to a particular part of the world and then\
+  \ shifting around from there. I'll let this play out because there are only a couple\
+  \ more minutes, and I'll just talk over it. \n\nI like approaching the question\
+  \ of how vision works from the perspective of looking at how it is used in real\
+  \ life, or, not exactly real life but a simulated version of it. In that approach,\
+  \ it becomes very apparent. It's hard not to look at it this way. The concept is\
+  \ tied to my post-doctoral adviser, who taught me how to use an eye tracker and\
+  \ came up with the idea. Her name is Mary Heho, and her main focus is on task dynamics.\n\
+  \nMary has been around for a while; I think she is in her 70s at this point, possibly\
+  \ late 70s. She was one of the first people to start studying natural behavior and\
+  \ how people move in real scenarios. Notice now, too, that now that I\u2019m not\
+  \ engaging, Mary studied natural behavior and still does. When she started studying\
+  \ it in the 1980s, a lot of people told her it wasn't possible. They claimed you\
+  \ cannot study natural behavior; it\u2019s too noisy and not controlled. The data\
+  \ you would get would be messy nonsense with no clear way to interpret it. At that\
+  \ time, and even still today, the standard mode of research was highly controlled.\
+  \ Experiments conducted with people in dark rooms, where their heads are attached\
+  \ to a vice of some kind, involve very simple tasks, such as looking to the left\
+  \ if the thing is blue and looking to the right if the thing is red. The idea that\
+  \ Mary was going to study people who were less constrained was met with derision\
+  \ because the prevailing belief was that one would never be able to obtain anything\
+  \ meaningful from such data. The behavior observed was considered too complex. Mary's\
+  \ approach was to focus on task dynamics, which means rather than concentrating\
+  \ on the biological system alone, one should consider the context of the task that\
+  \ the organism is trying to complete, as well as the factors that define success\
+  \ and failure in that task. If we analyze things in that context, the data suddenly\
+  \ makes much more sense. For example, if I didn't know that the health bar was down\
+  \ here and the cool downs are down here, this unusual shape that keeps appearing\
+  \ would appear to be just that\u2014an unusual shape. However, knowing the task\
+  \ allows me to interpret what that shape represents. Additionally, if we wanted\
+  \ to, we could examine how that shape corresponds to various stats and others, while\
+  \ also posing questions about the speed at which these events occur. For instance,\
+  \ if we find that the fastest events occur only at a 150-millisecond rate, we can\
+  \ deduce that if they are accelerating that quickly, it is more important to gather\
+  \ information from multiple sources rather than obtain comprehensive information\
+  \ from one source. I wanted to illustrate this concept at the end of my discussion.\
+  \ When I am not actively engaged in a particular task, my eye movements are far\
+  \ more erratic and less stereotyped; I do not see the same shapes appearing. If\
+  \ you wanted to, you could certainly come up with narratives about what I am gazing\
+  \ at. Even in the same exact task and environment, you would have to make various\
+  \ guesses about why I choose to look in one direction versus another. Every time\
+  \ you are in a situation, you are performing a task, but if that task is not time-constrained\
+  \ or particularly difficult, it becomes challenging to interpret my focus. For example,\
+  \ I enjoy looking at people, particularly their faces and hands, and observing the\
+  \ complete figure and body language. Research in this area attempts to interpret\
+  \ data by simply watching complex tasks, videos, and people engaging in different\
+  \ activities. This is related to pupilometry, where researchers track eye movement\
+  \ to gain insight into attention and cognitive processes. You can get the data and\
+  \ you can look at it. It's the same data type, but actually interpreting it becomes\
+  \ much more difficult because you don't actually know the context of what people\
+  \ were doing. I'm trying to do it in time order. Let's try to... yeah, okay.\n\n\
+  So, task dynamics and the study of neuroscience and natural behavior are all good\
+  \ terms to look up. Now, let's look at how there are kind of these two sides to\
+  \ the question. One is how the physiological system of vision is used in natural\
+  \ tasks, and the other is what the actual structure of that system is and how these\
+  \ two aspects influence each other. I often tend to struggle with the ordering in\
+  \ this class because these are all chicken and egg questions; there is no real linear\
+  \ progression that I think makes sense. Talking about physiology absent of behavior\
+  \ is just as unproductive as the other way around.\n\nSo, let's think about eyeballs.\
+  \ Should I draw this? I\u2019ll get a picture before I draw it. Why are you going\
+  \ so slow? Oh, it's because... come on, man. Oh wait, yeah, so... open image in\
+  \ a new tab. So that's an eyeball; that's the side view cutout of the thing we've\
+  \ been looking at from the front. The most important thing to notice when you look\
+  \ at human eye tracking data is that we point our eyes at things and we move them\
+  \ a lot. We tend to focus the center of our vision, represented by a little cross,\
+  \ on the thing that we care the most about. Where's this line? I'm not sure what\
+  \ that line is, but this line here is called the fovea centralis. Your fovea is\
+  \ a very important part of your visual system. When you point your eyes at something,\
+  \ you're directing this area at that object. It is an area of extremely high density\
+  \ of visual receptors. [Music] Phobia. Yeah, so your phobia means pit, and is basically\
+  \ a place where we've moved the goop out of the way so that we have a better view\
+  \ of the actual photoreceptors in the eye. I mentioned at one point that your eyes\
+  \ are backwards, which is true. Rods and cones - so we've heard of rods and cones;\
+  \ these are the things that are... let me do this, let's zoom back out here. Okay,\
+  \ so you have your eyeball, you have your pupil, and light comes into the pupil\
+  \ and hits the back of your eye. The rods and cones are basically like your rods\
+  \ are little sticks, and the cones are a little bit pointier. Inside of them, they\
+  \ have a bunch of things, but the most important one... Okay, I have to turn this\
+  \ off; I was still running that other thing. So the opsins in your eye are the chemicals\
+  \ that actually respond to the light, and they look like standard hexagons with\
+  \ a sort of long tail coming off of them. You have different types of opsins that\
+  \ respond to different types of light. When a photon comes and hits the opsin, it\
+  \ changes shape. One of the sections becomes... what if it is cis-retinal or whatever,\
+  \ and sort of changes shape and gets a kink in it. Actually, I think I did this\
+  \ backwards; I think it starts with a kink and then straightens out when it absorbs\
+  \ light. But the idea is that the energy of the photon of light induces this change\
+  \ in the physical, chemical structure of the opsin, and that changes its charge.\
+  \ That charge is what sort of becomes the neurochemical cascade, the cascade of\
+  \ neural firings, that leads to your perception of... Light is a weird process.\
+  \ There are many options; you have short, medium, and long cones that correspond\
+  \ roughly to red, blue, and green. Your rods don't have the three colors, but they\
+  \ only respond to green. Your night vision relies on your rods, and there's a perinatal\
+  \ shift that happens when they're transitioning from one to another. It's a whole\
+  \ complex thing. Basically, the lumpy part of the rods and cones houses those opsins\
+  \ in this sort of peak area. You might reasonably assume that we would want to point\
+  \ that photosensitive part towards the source of light, but that is not how our\
+  \ eyes are set up. The photoreceptors actually point backward, and then the wiring\
+  \ attached to them goes back out. When light is coming in, it has to pass through\
+  \ the axons of the neurons attached to the rods and cones before it can actually\
+  \ be absorbed by the opsins in your eye. This is why the fovea exists; it pushes\
+  \ that cellular material to the side so that there\u2019s an unobstructed path for\
+  \ the light to get through. The idea of why this setup is the way it is relates\
+  \ to when we crawled out of the ocean. Our eyes had to adapt to carry some water\
+  \ with us so we could focus light better, and something in that process inverted\
+  \ things. I don\u2019t fully understand that, but cephalopods, like squids, octopuses,\
+  \ and cuttlefish, have their eyes facing the right way; their photoreceptors face\
+  \ towards the source of light. There's another troubling aspect of this: all of\
+  \ the wiring coming off the back of your photoreceptors goes back to the top of\
+  \ your retina\u2014the thing at the back with the photoreceptors is called the retina.\
+  \ It has to punch back through to become the optic nerve, which actually takes the\
+  \ data\u2014the pattern of neural activity associated with the light in the environment\u2014\
+  back through your retina to the rest of your nervous system. This means that there\
+  \ is a blind spot on your retina where you don't have vision. You can find it if\
+  \ you close your left eye and look at your thumb at arm's length with your right\
+  \ eye. Then, with your other hand, put your thumb up and move it to where your knuckle\
+  \ is while maintaining your fixation on that thumb. Watch me: I'm looking at my\
+  \ thumb and I never stop looking at it. I line up my thumb here and then I move\
+  \ my thumb to where my knuckle was. If you do it right, your thumb will disappear.\
+  \ It takes a little practice, but for me, when I'm looking at this thumb, my thumb\
+  \ is not visible in this area; it's just an empty block in space.\n\nAnother way\
+  \ to do it is to hold your thumbs together. Pick the left one, and with your right\
+  \ eye, focus on this one. Slowly move the other one out while maintaining fixation\
+  \ on that thumb, and it should disappear. Is anyone getting it? It just sort of\
+  \ evaporates. It's hard to maintain fixation on the thing without looking over,\
+  \ and also your brain fills in the gap, so you kind of have to notice that it isn't\
+  \ there. When you're done here, just look up a 'blind spot demo' and there are some\
+  \ other resources that will show you this. It's one of those classic examples of\
+  \ a blind spot where you don't receive visual information but you get information\
+  \ from all around it. Because we have two blind spots and they're not in the same\
+  \ area, we can fill in the gaps. There is interesting research on how, if you give\
+  \ people patterns in the blind spot, the brain will fill in the pattern. So, here's\
+  \ just another example of that. This chunky BET right here is your optic nerve,\
+  \ which is the part that travels from your eye to your brain. When you're looking\
+  \ at stuff, you're looking at it with your fovea. Peripheral Vision Wikipedia. I'm\
+  \ looking for a particular image here. This is roughly speaking your field of view.\
+  \ I think this is peripherally, in this central zone right here. It's actually not\
+  \ going to be visible here. So this is 30, 20, 10, probably 5. So probably right\
+  \ around this circle here, that's roughly speaking your fovea. You also have your\
+  \ fovea, which is like a smaller area within that space, and then sort of other\
+  \ zones. We have pretty wide vision; I can see my hands out to here. If I wave my\
+  \ finger, there are interesting games you can play with yourself. Just kind of move\
+  \ your hands until you can't see them, and then wiggle your fingers. You can see\
+  \ them because we are more sensitive to motion in the periphery. Also, notice that\
+  \ this is not a circle; it's not isosceles. The central part is circular, but the\
+  \ whole field of view is laterally oriented because we live in a world that tends\
+  \ to be laterally oriented. Our sensitivity is not arranged in a sort of circle\
+  \ around our fovea; it is horizontally distributed. We are also vision-oriented\
+  \ predators, so we have a different field of view than if we were rodents or equines.\
+  \ Goats have rectangular eyes; mice have eyes that point out to the side. All these\
+  \ cases of the ecology of how an animal uses vision in its ecological niche shape\
+  \ how the visual system is set up. As I said before, I think, I\u2019m not sure\
+  \ if I mentioned it today, but it bears repeating that the fovea is again roughly\
+  \ the size of your thumbnail at arm\u2019s length. It takes up roughly 1% of your\
+  \ visual field; roughly 50% of your visual cortex is devoted to processing information\
+  \ from that small spot. That concept is called cortical magnification. It\u2019\
+  s kind of why I feel somewhat comfortable with these representations. As I said,\
+  \ this circle is roughly the size of the fovea, plus or minus one visual degree.\
+  \ I think representations like this overemphasize that foveal perspective because\
+  \ we are getting information from the whole field of view. Nonetheless, I think\
+  \ it's valuable to look at the location of that directed visual focus because that\
+  \ is basically an indication of the part of the visual field from which my nervous\
+  \ system wanted information at this time. I think that concept is very important.\
+  \ This is important because I could have looked anywhere, but I have to look somewhere.\
+  \ My cognitive system makes decisions about where in the world I want to pull information\
+  \ from. If I am just sitting around, those decisions are not particularly costly.\
+  \ However, as the task becomes harder and I start doing more complex and difficult\
+  \ behaviors, the choices of where to look, one place versus another, become very\
+  \ critical. I will show this briefly. Then, I will consider our time; I won't show\
+  \ this right now, but I will come back to it later in the semester.\n\nMy main research\
+  \ from this era focused on the visual control of foot placement and examining the\
+  \ patterns of path on the ground when choosing footholds while walking over rough\
+  \ terrain. In that context, you only have about 400 milliseconds per step to find\
+  \ a location on very rough terrain that can support your whole body; otherwise,\
+  \ you'll fall into a river and break your leg.\n\nThere is an aspect where you can\
+  \ get a readout of that cognitive question: where in the environment do I want information\
+  \ from? Because we are highly visual predators, we have this nice feature where\
+  \ we can point a camera at the eyeballs and use some old-school computer vision\
+  \ to get the pupil center. This allows us to measure not only where the eyes are\
+  \ pointing but also where my central nervous system wants to gather information\
+  \ to complete whatever task I am doing.\n\nI think I can draw fast enough for this.\
+  \ The internet has already drawn all the pictures I could care about. Stop it with\
+  \ the AI. So, you have your eyeballs and the optic nerves that come in. There is\
+  \ a part in the middle where things split apart, and that is called the optic chiasm.\
+  \ Imam was an Islamic scholar in 7th century Iraq, and he discovered optics by doing\
+  \ old-school physiology. Imam has been called the father of optics; he essentially\
+  \ invented optics. He is credited with the discovery that light is something measurable,\
+  \ allowing for scientific exploration of refraction and similar phenomena. His work\
+  \ was later rediscovered by Ren\xE9 Descartes, who was one of the famous figures\
+  \ associated with Cartesian coordinates. Descartes was a polyglot who spoke many\
+  \ languages, and a significant part of his acclaim came from translating old records\
+  \ written in Arabic into Latin. Once in Latin, Europeans were amazed and praised\
+  \ Descartes as profoundly intelligent.\n\nNow, this is a model of the eye. You can\
+  \ see it has the vitreous humor, cornea, and the lens. Imam got a lot of things\
+  \ correct, but he did not fully understand how the lens worked. He suggested that\
+  \ there was probably some demon living in there bending the light, because back\
+  \ in the day, when people did not know how something worked, they would attribute\
+  \ it to a little demon doing that part. For the rest of it, they could manage the\
+  \ math.\n\nYou can see the different parts of the eye, along with the muscles and\
+  \ other components. It's important to note that Imam's Arabic name is Alhazen, and\
+  \ for some reason, that term is used in English. This is a good representation showing\
+  \ how light splits, highlighting the distinction between visual fields and how they\
+  \ map to different areas of the brain. I will illustrate this because it can be\
+  \ helpful. We tend to think of our vision as coming from one right eye and one left\
+  \ eye\u2014which is quite obvious. So, here\u2019s one eye and here\u2019s the other\
+  \ eye. Oops, this is our brain as seen from above. You have the left hemisphere\
+  \ and the right hemisphere. I don't know why my text stack is struggling. There\
+  \ is lateralization in the brain, so your right hand is controlled by your left\
+  \ hemisphere for some reason. A naive view might be to think that it's the same\
+  \ for your eyes; that your left eye connects to your right hemisphere, but that\
+  \ is not actually how it works. Your visual cortex is in the back, and your left\
+  \ hemisphere handles the right visual field, not the right eye. If I want to know\
+  \ about the things that are over here, I don't necessarily want to know about what's\
+  \ going on in this eye. As I move my eyes, they will project images; from the right\
+  \ side, it will project onto the left side of each eyeball. So, the projections\
+  \ from the right visual field need to make it to the left visual cortex. These projections\
+  \ can go straight back, while others have to cross over. If you want to know about\
+  \ stuff happening in the left visual field, there is an object in my left visual\
+  \ field that projects onto the right side of each eye. That projection has to get\
+  \ to the right hemisphere. These ones can go straight back, and this one has to\
+  \ cross over at the optic chiasm. The chiasm is actually the crossing part. This\
+  \ is how the literal wiring works\u2014back in the 7th century, they would cut open\
+  \ heads and look at where the optic nerve is. It was a tough thing; if you ever\
+  \ find yourself in a butcher shop or a pig. If you're feeling like being weird and\
+  \ gross, you can go check out the roast. It's a very fibrous and dense thing. If\
+  \ you open up the head and see where it goes, you'll notice that it splits apart\
+  \ and then crosses over. These little structures right here are the thalamus. I\
+  \ think that is the thalamus, which acts as a way station for all your senses, except\
+  \ for smell. Smell is a chemosensation, which is the sensation of chemicals in the\
+  \ environment. The story goes that smell is the oldest sense; even bacteria have\
+  \ smell because they detect chemical gradients. That's why it is the only sense\
+  \ that doesn't go through the thalamus.  \n\nHowever, there are other things that\
+  \ happen at this level, such as motion sensitivity. The whole concept of being more\
+  \ sensitive to certain stimuli is at play here. Some tracks are going back to the\
+  \ visual cortex, which is located at the back of your brain. Interestingly, some\
+  \ of these tracks do not go to your cortex; I don't think some of them even go to\
+  \ the thalamus. Instead, they might bypass the cortex and go straight into the spine,\
+  \ triggering responses like the startle reflex, where visual information prompts\
+  \ you to react. A lot of balance-related functions have subcortical pathways that\
+  \ bypass the brain and head straight into the spine.  \n\nThis image that I was\
+  \ looking for is that of the lateral geniculate body. This is generally what you\
+  \ will see as the visual pathway, but remember that there are subcortical pathways\
+  \ that bypass all of the big pink wrinkly parts on top. You also have a blind spot\
+  \ because of your nose, creating an area in your visual field that doesn't really\
+  \ receive any information, which I find funny.  \n\nSubcortical pathways are interesting.\
+  \ I'm trying to check off some things here because the main concept to remember\
+  \ is the visual field's relationship with the retina. They have a complicated relationship\
+  \ with a lot of mirroring that occurs. For example, you'll see a picture where the\
+  \ tree is upside down. Because of how lenses work, you can see that the lower visual\
+  \ field here is at the top down there. There is a sort of spatial correspondence\
+  \ between the anatomical structure of the eye itself and the visual field relative\
+  \ to your body. For instance, if I'm sitting here moving my eyes around, my visual\
+  \ field kind of moves with my eyes, but my visual environment does not. There is\
+  \ a complicated interplay there. This structure is maintained as it goes back through\
+  \ good old-fashioned physics and optics and into the complex neural substrates.\
+  \ The spatial structure of the visual environment is sort of preserved in these\
+  \ intricate and split-apart forms so that by the time you get back to the V1 visual\
+  \ cortex, the visual cortex expands. I was looking for cortical expansion. Am I\
+  \ not finding this picture? I feel like I'm being let down by people who put pictures\
+  \ in neuroscience books. What am I missing here? Why am I not able to find this?\
+  \ Retinotopy, that's the term I was looking for. Sorry, retinotopy, that's the term\
+  \ I was looking for and not able to find. The main concept to think about here is\
+  \ that there is a retinotopic map, kind of similar to the cartoon of the sensory\
+  \ motor cortex, the horrible guy that lives in your motor cortex who has giant hands\
+  \ and a giant mouth because that's where we have our most sensitivity in terms of\
+  \ sensation and movement. There is also a kind of map in your visual cortex that\
+  \ corresponds to your visual field, and the cartoons that we draw about it look\
+  \ a lot like this. Similar to the horrible man that lives in your head, this cartoon\
+  \ monster represents your sensory motor sensitivity. We love this story; it's a\
+  \ great story, and it's in every textbook, and it's true to a certain extent, but\
+  \ the data looks more complex than that. It's not this perfect beautiful map; it's\
+  \ more of this type of thing. The representation of the brain shows that the black\
+  \ spots are the pits and the white spots are the tops, so you basically take the\
+  \ brain and expand it out\u2014that's what this represents. Stimulating the visual\
+  \ field, you can see that there is kind of a striation that happens, where different\
+  \ parts tend to correspond to different parts of the visual field, but it is complicated.\
+  \ This is a very famous image; I think it may have won a Nobel Prize, I'm not quite\
+  \ sure. It shows the superior colliculus of a monkey and their retinotopic organization.\
+  \ What they did was stimulate little electrical signals to the cortex, which generated\
+  \ eye movements that mapped that pattern. In the same way that there's both the\
+  \ sensory cortex and the motor cortex paired to each other, the visual perception\
+  \ system and the ocular motor movement system are also paired through these retinotopic\
+  \ maps, because if I'm looking here and there's something in the periphery that\
+  \ I want... To see this retinotopic location, I'm fixating here, but there's a bright\
+  \ little shiny thing that shows up in the upper right. That is also the coordinates\
+  \ I need to know to make an eye movement to fixate on that thing. There is a linked\
+  \ map that I've been talking about, V1, which is the part of the brain responsible\
+  \ for perception. This is not your oculomotor system; the oculomotor system is more\
+  \ spread out and complicated. We will talk more about that in the next class and\
+  \ briefly discuss it during the evolution chat. Different animals have different\
+  \ shaped visual fields, but there is a complicated relationship between the physiology\
+  \ of the eye and the optical characteristics of how light bends. The physiology\
+  \ of the retina responds to incoming light; that's the part of your eye that contains\
+  \ neurons. There is an argument that your eyeballs should be considered part of\
+  \ your central nervous system because, even though we think of them as peripheral,\
+  \ they perform computations on the retinal ganglion cells. Processing occurs in\
+  \ these middle layers of the retina. In the retina, you have photoreceptors, the\
+  \ optic nerve, and these middle layers that contain over 60 different cell types.\
+  \ Some connect the photoreceptors to the optic nerve, others connect to each other\
+  \ with varying distances. It was recently discovered that some of these middle layer\
+  \ cells are sensitive to light, specifically blue light, and they are believed to\
+  \ be related to our circadian rhythms. There are also horizontal cells that connect\
+  \ them to each other. is like processing that happens here, and it has to do with\
+  \ a number of different aspects. It's a little mysterious what all is actually happening\
+  \ in there, but it leads to a lot of famous illusions, such as the Hermann grid\
+  \ illusion. For some of you with Mac computers, this may be directly available.\
+  \ For example, if you open an image in a new tab, each one of these circles is white,\
+  \ but as you look at one of them, the periphery appears dark. The Hermann grid is\
+  \ a famous illusion that occurs at the level of your retina because of lateral inhibition.\
+  \ In the periphery, the black of the squares overlaps with the white, leading to\
+  \ suppression. However, this suppression only occurs in the periphery because when\
+  \ you are fixating on it, your fovea is small enough to provide adequate resolution.\
+  \ There are many strange little illusions happening there.\n\nSo, I think I'll leave\
+  \ that brain dump here; that\u2019s probably enough to chew on, and there are several\
+  \ relevant terms to consider. You have the task dynamics in terms of actual usage,\
+  \ the physiology of the eye, the concept of lateralization, the optic chiasm, and\
+  \ the retinotopic mapping between your visual fields and your visual cortex. You\
+  \ have the middle layers related to the strange cacophony of your retina, the blind\
+  \ spot, and the various neurons involved. Additionally, you have the ocular motor\
+  \ system, particularly the superior colliculus, which handles the oculomotor retinotopy.\
+  \ This is about the relationship between the retinotopic aspects of your perceptual\
+  \ system and the retinotopic aspects of your oculomotor system, and how those things\
+  \ interact.\n\nNone of that has much to do with movement; I guess eye movements\
+  \ do have something to do with movement. Often, people talk about eye movements\
+  \ as body movements. Technically, they are, but the question remains about how this\
+  \ information actually makes it into your body and allows you to understand how\
+  \ the information... The process of getting information from your visual system\
+  \ down to the parts of your brain that handle throws and catches involves the parietal\
+  \ lobe, likely the parietal cortex. It also involves a range of subcortical pathways\
+  \ and the corticospinal tract. I realized I misspoke earlier when I said that only\
+  \ humans have the corticospinal tract; that's not true. Many animals have it, but\
+  \ to varying degrees. For example, quadrupeds like cats and dogs have a very minimal\
+  \ version, while animals that utilize their forelimbs more extensively tend to have\
+  \ a more developed tract.\n\nAdditionally, it relates to sensation. There is a direct\
+  \ mapping from your motor cortex to the spinal cord through the corticospinal tract,\
+  \ which allows for a very short synaptic loop between the sensory information received\
+  \ from your body and the motor commands that respond to it. This enables quick reactions\
+  \ without needing to route everything through the complex network in the brain,\
+  \ which can be a slow process. Things that go through the cortex can take approximately\
+  \ 200 milliseconds to fully transmit.\n\nThis visual representation illustrates\
+  \ the concepts I've mentioned before. Now, I will pause, and let's engage in what\
+  \ has now become somewhat of a stereotypical activity in the 2024 visual neuroscience\
+  \ course. In the ten minutes we have left, please feel free to interact by asking\
+  \ questions regarding the topics I\u2019ve discussed. I have covered a lot of material\
+  \ across different layers of complexity, so you can see how this format is evolving.\
+  \ It shifts from seeking specific high-quality text to providing you with the opportunity\
+  \ to filter what I\u2019ve said through your own understanding, which helps me gauge\
+  \ your interests.\n\nAs we know, the system can become overwhelmed when flooded\
+  \ with questions, so please give it a moment to catch up. Let\u2019s take about\
+  \ ten minutes for this interaction. I\u2019ve noticed that not all chat messages\
+  \ come from class time, which I appreciate. So, feel free to engage and contribute\
+  \ to the discussion as we explore these concepts further. Much as you can. I think\
+  \ by the end of the semester, we're getting some good structures out. Okay, cool."
+title: HMN24 - 06 - Intro to Eyeballs
+transcript_chunks:
+- dur: 180.0
+  end: 180.0
+  start: 0.0
+  text: "Hello everybody, welcome to whatever today may bring. Today the topic will\
+    \ be eyeballs, specifically the basic biology and neuroscience of how your eyeballs\
+    \ work and connect to your brain, all that kind of stuff. We're going to get to\
+    \ that, but this will be another kind of discussion, similar to the motor hierarchy,\
+    \ where I have less prepared because I was making these materials. However, this\
+    \ is a topic I know a lot about, and my goal is to give a large-scale overview\
+    \ of all the relevant parts to vision that we can cover. We'll see where that\
+    \ takes us. Next week, we'll talk about evolution, and then we'll take stock from\
+    \ there because there are a couple of other things I want to get done this semester.\n\
+    \nAt this point in the semester, you all are probably wondering about your grades.\
+    \ Don't worry about your grades; just show up and check the boxes, and you will\
+    \ be fine. The concept of grading is about ranking you relative to your peers,\
+    \ and I don't think that's a valuable form of education. There is a really awful\
+    \ but formative paper written in 1970 called \"Higher Education as a Filter\"\
+    \ by Kenneth Arrow. The premise is that what we are supposed to do in higher education\
+    \ is give you a chance to outcompete your peers so that employers can determine\
+    \ which of you are the qualified ones worth the investment. That's not what I\
+    \ like doing in my job. I do not care about your performance relative to each\
+    \ other; I don't even know what performance would mean in this context.\n\nSo,\
+    \ don't worry about it. Talk to the bot. As long as you have at least a thousand\
+    \ words written in this class, which I\u2019m pretty sure almost all of you already\
+    \ do, you're fine. Even if that\u2019s all you've done, you'll be fine. If there's\
+    \ a problem, I'll let you know and say, 'Hey, just check some boxes,' so I can\
+    \ stand up to an audit if needed, as long as I don't record it and put it online\
+    \ anywhere. Yeah, so don't stress about that. I'm sure you have plenty of other\
+    \ parts of your life that are adding stress, so focus on those. Education doesn't\
+    \ have to hurt; learning doesn't have to be a painful process. If you feel that\
+    \ here, you're doing great. Okay, where are we?"
+- dur: 180.0
+  end: 360.0
+  start: 180.0
+  text: "I did a big refactor of the AI code. \"Refactor\" in the context of code\
+    \ and software basically means redoing it, rewriting it, changing the structure,\
+    \ and cleaning things out. A lot of the code I wrote was done under duress over\
+    \ the past several years in various classes. There\u2019s a very important rule\
+    \ that you, unfortunately, are not really prepared for; it\u2019s not really part\
+    \ of undergraduate education to focus on things that last longer than a semester.\
+    \ You are given what I think is a pretty flawed approach to productivity, which\
+    \ is to have short-term hard deadlines: get it over with, throw it away, and start\
+    \ again from scratch. If you are going to be working on something, you should\
+    \ work on it a lot for a long time, and then it will get better and better. However,\
+    \ that\u2019s not really how the world tends to work. Typically, things are much\
+    \ more iterative, and you sort of work on the same thing over and over again.\
+    \ When that happens, you can reach a point where you feel blocked by your own\
+    \ work. In software, they call it tech debt; every little sloppy decision you\
+    \ made along the way builds up. Therefore, it\u2019s crucial to take a step back\
+    \ and kind of restart. It\u2019s a counterintuitive idea that throwing all your\
+    \ work away and starting again from scratch can often be a productive way to approach\
+    \ your work. When you start a project, it\u2019s more about discovery, and once\
+    \ you understand the structure, recreating it with both the endpoint and starting\
+    \ point known can lead to much cleaner work. All that said, I rewrote the code,\
+    \ and now it does some neat stuff. Well, it has similar functionality, but now\
+    \ it's cleaner, allowing for better development. One of the things I built upon\
+    \ was looking at data per student, among some other things that I will show you\
+    \ shortly. So, let\u2019s take a quick look at that. Okay, I'm not going to get\
+    \ too deep into the details here. The most recent server thing is the same as\
+    \ before; just download it from here. There might be a couple of extra things\
+    \ in the zip file, but don\u2019t stress about that. Grab that, and if you open\
+    \ it now in Obsidian, open the folder as a vault and paste that in."
+- dur: 180.0
+  end: 540.0
+  start: 360.0
+  text: "Probably actually this one. Yeah, select that. It's white; always white.\
+    \ I don't know why. Actually, not always white. Always white on this computer\
+    \ when I open a new one, while my other computer doesn't do that dark mode, because\
+    \ light is effort. \n\nOkay, so it's quite similar to before. The main difference\
+    \ is I've also changed the way I do the call to OpenAI for the AI analysis stuff.\
+    \ The new way should be cleaner; it should have less slop. It's hard to tell numerically,\
+    \ but generally, it should be more robust. \n\nNow there's this server, there's\
+    \ this little folder called 'by user', which is basically me going through every\
+    \ chat that your IDE appeared in, and it's sort of smushed into there. I didn't\
+    \ really do anything beyond that. There's a bunch of files in there, like your\
+    \ ID and your Discord user ID. \n\nThe other thing I did is, with the way this\
+    \ weird world of AI text analysis works, you can kind of do the scale of the text.\
+    \ You can be pretty goal-oriented about it. You just make kind of a machine to\
+    \ analyze the text, and you throw different blobs of text into it. \n\nUp until\
+    \ this point, the only analysis done was at the chat level. So at the level of\
+    \ those threads, you were sort of doing summaries and pulling out things that\
+    \ look like this. Part of the refactoring was making it more generic, which is\
+    \ often what happens. \n\nNow, it's also set up that instead of dropping in a\
+    \ chat, I can also drop in every blob of text in a particular category. So, I'm\
+    \ actually not sure. This is basically like the summary of the text channels category,\
+    \ which is not a very exciting one. Every folder in the category also has a thing\
+    \ called 'category index', and this is the summary of everything that happened\
+    \ in that category. You can also go into individual channels and channel index;\
+    \ it's the same thing. \n\nThere's this multiscale thing happening here, which\
+    \ I think is a very general idea in a lot of the natural world, where you have\
+    \ this kind of scale-free structure. You can do the same analysis on a zoomed-in\
+    \ version of the thing as well as the zoomed-out version. \n\nSo, that does sort\
+    \ of interesting things to it. Yeah, so then by user, or I don't know what this\
+    \ is going to look like. Yeah, I need to look at that."
+- dur: 180.0
+  end: 720.0
+  start: 540.0
+  text: 'I don''t actually see this person. It looks like this person only has one
+    chat, but I don''t trust the code enough to trust that. So if that is you and
+    you have more, we''ll probably clean that up. But yeah, theoretically, you should
+    be in there. If you look at the graph view, we again get just the white dots of
+    nothing until we add tags. Now we get this kind of thing. We can also do groups,
+    new group, and then we look for file: user ID. Then we can look for file: channel,
+    channel index. Actually, just do index, and we''re getting sort of this interesting
+    kind of structure. There''s still not a ton of navigability here, largely because
+    of how Obsidian works. But basically, I can do a search now. In the filters, I
+    do file: user ID. User is just a kind of generic term for anybody using a thing.
+    In this context, user kind of means student. I''m also in there. But yeah, so
+    now the blue dots here are the chats for a given one of you, and I think if you
+    just search for your user ID, you''ll find yourself. I''ll make better ways to
+    navigate this, but oh, come on now. Dang it. Right. So groups, file, user, pink,
+    bright pink. Theoretically, this is also a place that I wish I had more control
+    over what is visible at which point. I wish I could make the tags have less pull
+    than the other ones, but that''s kind of a limitation of Obsidian.'
+- dur: 180.0
+  end: 900.0
+  start: 720.0
+  text: "This is you doing that. Oh, text fate distance be brighter. Okay, center\
+    \ force. So this is now starting to get at like a map of your actual proper interests.\
+    \ If I hover over one of these pink ones, which represent the students, this particular\
+    \ person has interests in things like neuroscience, which are obviously very highly\
+    \ connected because everyone has been talking about neuroscience. Just to be clear,\
+    \ this sort of summary of a given person includes every single chat, all the text\
+    \ of every chat that they have even been tangentially a part of. So if you even\
+    \ just sent one message in a 50-message chat, that's all in here. It runs through\
+    \ and generates a title, provides an extremely short summary, and highlights a\
+    \ very short summary, and so on. So these are the things that emerge from the\
+    \ statistics of what you were talking to the machine about.  And, again, that\
+    \ is so annoying. A file user. Alright, it's fine. Apologies to any red-green\
+    \ colorblind people in the room. For example, good old user 12830, 95453, 45953,\
+    \ 3792 has the main tags that came out of them. Don't worry if your favorite thing\
+    \ didn\u2019t come out, or if you don\u2019t think this is a good representation\
+    \ of you. Just know that the bot is kind of dumb; it can\u2019t tell if you\u2019\
+    re excited or if, for example, you said something and it produced a bunch of information\
+    \ about something you don\u2019t care about. It can\u2019t discern that because\
+    \ those words are in the data. So, this person\u201453792, which are the last\
+    \ digits\u2014has interests in neuroscience, epidemiology, public health, and\
+    \ hallucinations. This is one of those cases where that\u2019s the only epidemiology\
+    \ information that I know isn\u2019t true. I know that you all have been discussing\
+    \ that, but pick this person over here. So they are now\u2014we see that the motor\
+    \ hierarchy tag is connecting these two people. All of these people..."
+- dur: 180.0
+  end: 1080.0
+  start: 900.0
+  text: "I have said enough about biomechanics that it showed up in their message\
+    \ or in their summary. This is about motor control. Theoretically, not quite yet,\
+    \ but this is kind of a landscape of like an interest map. It's different; these\
+    \ are not because if you guys are interested, there is a larger scale involved\
+    \ in all of this. This is everything that was discussed; this was the total conversation.\
+    \ A lot of this could be cleaned up. Here, the gray dots represent any chat. However,\
+    \ once you start looking at the statistics of the user-based data, we begin to\
+    \ see things that, hypothetically, if you are in a chat and mention epidemiology,\
+    \ it would show up here differently than in the general statistics because we\
+    \ are now grouping by particular factors. That particular factor is roughly one\
+    \ per human, which is interesting. We can navigate that, and I need to create\
+    \ a better interface for navigating that, but it is technically there. The other\
+    \ thing I did is related to this concept. This is the place where I'm not going\
+    \ to go down this rabbit hole, although I will explore it later in the semester.\
+    \ We've talked a bit about 3D space and how objects exist there. You can have\
+    \ XYZ data in spatial dimensions. If you're thinking about data, if you have up\
+    \ to three dimensions, you can plot that spatially by just putting XYZ as length,\
+    \ width, and height, or whatever. If you have two data points in a three-dimensional\
+    \ space, you can measure the distances between them, which is Euclidean geometry.\
+    \ It's not particularly exciting, though it is exciting; it\u2019s probably familiar.\
+    \ There is a strange corollary to this in the world of AI and natural language\
+    \ processing that relates to the concept of an embedding. Basically, just as each\
+    \ one of those blobs of text can be run through that summarization scheme, you\
+    \ can also obtain the embedding of that blob of text within the very high-dimensional\
+    \ space that the language model has access to. I won't be able to explain this\
+    \ in a simple way quickly, but instead of being like three-dimensional, each blob\
+    \ of text that an AI, like an OpenAI large language model processes, is embedded\
+    \ in a 1532-dimensional space."
+- dur: 180.0
+  end: 1260.0
+  start: 1080.0
+  text: "Given a blob of text, it gets put into that space, and that location in the\
+    \ super high dimensional space has something to do with its meaning. In that space,\
+    \ you can also measure distances, and you can see that things that are close together\
+    \ are similar in meaning, while things that are far apart are dissimilar in meaning.\
+    \ This is how search engines work; it's a little complex. What that means is that\
+    \ you can take all of the text that was generated and get these embedding vectors,\
+    \ which are these 1500-long numbers. You can do some mathematical transformations\
+    \ to collapse it down into three dimensions and then look at the spatial representation\
+    \ of the conversations we've been having in that strange spatial dimension.\n\n\
+    So, I did that. Again, this may not make a ton of sense; it will make a strange,\
+    \ abstract kind of sense. But we will come back to this, and I will make it clearer.\
+    \ Basically, this strange orb\u2014one of the many strange orbs I have shown you\
+    \ this semester\u2014represents the three-dimensional projection of the 1500-dimensional\
+    \ vectors associated with each of the chats that have happened in this class.\
+    \ Each one of these little markers and dots represents one chat and its position.\n\
+    \nI think how I did this was, each channel-category pair has a unique color and\
+    \ symbol pair. So, all of the blue dots are things that happened in the general\
+    \ text channel, while all of the purple squares are from the center of mass balance\
+    \ channel in the lectures category. You can see that they tend to cluster together.\
+    \ The purple dots are all close to each other, and some of the overlaps are interpretable.\
+    \ For example, this orange dot is from the motor hierarchy lecture; it reflects\
+    \ a chat about motor hierarchies in basal ganglia, which shows up here. By the\
+    \ way, in the zip file, there's an HTML that will open the sphere part of that;\
+    \ it won't show this part because I don't know if that runs from my computer.\
+    \ I will figure out how to share that. But if you just open that HTML, it will\
+    \ just be that and won't have this associated with it. \n\nSo, this is a chat\
+    \ in the channel about motor hierarchies and basal ganglia. The one right next\
+    \ to it, I don't know what it is, but it's likely related to Huntington's disease\
+    \ and motor control."
+- dur: 180.0
+  end: 1440.0
+  start: 1260.0
+  text: "Happening in the general text channel, I lost some time to it this morning.\
+    \ This is the Sea of Bot playground. I tried to remove some messages, and it caused\
+    \ some problems. Now, there's a blob of chats that are not related to the topic\
+    \ of the course. You can see they are all kind of stuffed down here in this sad\
+    \ little zone. I want to remove them because that space is not being utilized.\n\
+    \nThe general space here is called cluster analysis. I'm looking for lumps and\
+    \ clusters in large unstructured data. I think the next phase will be to clean\
+    \ up some of the technical details. As I mentioned before, we also have your individual\
+    \ user self, so it wouldn't be too hard, though I wasn't able to do it today,\
+    \ to take each of your associated text goals, calculate the vector embedding of\
+    \ them, and then plot those markers on this sphere. We can look for a distance\
+    \ score and say, \"Okay, students that are within this range of each other have\
+    \ similar interests.\" Chats that are related might show up together. It would\
+    \ be similar to a recommendation system, much like how Netflix works.\n\nAdditionally,\
+    \ I want to plot the individual messages within the chat, specifically what I've\
+    \ been calling couplets\u2014 where you say something, and the bot responds. That\
+    \ two-message couplet would be interesting to include. This is my assignment:\
+    \ trying to figure out how to wrangle this large unstructured data. Another thing\
+    \ I could definitely do, which I've mentioned before, is conduct a second pass\
+    \ through the data. Right now, it's processing each text blob independently, extracting\
+    \ various elements separately. Specifically, it\u2019s extracting the tags independently,\
+    \ which is not ideal because it means there may be synonyms that could lead to\
+    \ better structure."
+- dur: 180.0
+  end: 1620.0
+  start: 1440.0
+  text: "I think if I were to go through and do the first pass, getting all the tags,\
+    \ then run that through and say, \"Hey AI, condense these down into like 40 or\
+    \ 50,\" and then replace the ones that are sort of covered so that there\u2019\
+    s a total of about 50 tags, then this would be a much more structured mess. But,\
+    \ is that hand... what\u2019s that? So, the red dots are what happens if I type,\
+    \ if I hit Groups, New Group, and in the group I type file: user ID, which is\
+    \ basically just coloring all the dots associated with files that have user ID\
+    \ in the name as red. If I filter by that and I say, \"Only show those,\" then\
+    \ this is showing the red dots, which are the notes. Damn it, I always do that;\
+    \ it doesn\u2019t remember.\n\nThe green ones are the tags, or the hashtag words,\
+    \ yes. Each... I checked the number. I didn\u2019t actually connect it to your\
+    \ actual identities, so I don\u2019t know which one of these is which. But hypothetically,\
+    \ there\u2019s one dot per human, and there\u2019s also one dot per markdown file\
+    \ in this user folder. If I turn on the tags and just view them, those will show\
+    \ up as green. The ones that are connecting are those that are shared. All of\
+    \ these connected red dots are people who talked about neuroscience enough to\
+    \ get a neuroscience tag.\n\nThe limitations in how this is visualized are significant;\
+    \ there\u2019s only so much I can do with it. The big ones are those that are\
+    \ more connected, and the small ones are those that would be called orphans because\
+    \ they aren't connected. Only this user has talked about surgery enough for that\
+    \ to be extracted as a tag. So, if you ask what all of that means, it\u2019s like\
+    \ I don\u2019t know. I\u2019m working on that. This is part of the joy of discovery;\
+    \ I don\u2019t know either. This whole thing is basically an experiment in experimental\
+    \ pedagogy, which means the teaching of children. I don\u2019t like that term\
+    \ because it\u2019s weird. Andragogy is the teaching of adults, which I think\
+    \ is more relevant to what I\u2019m considering."
+- dur: 180.0
+  end: 1800.0
+  start: 1620.0
+  text: "The distinction is that I think pedagogy is much more hand-holding, whereas\
+    \ Andrei approaches teaching as, \"I'm going to teach you how to do stuff, and\
+    \ then you do that stuff.\" So, Andrei's method is more suited for adults. I don't\
+    \ know. This is basically trial four in my continued exploration of how we can\
+    \ use AI to teach better and burn the world to the ground. But that's a topic\
+    \ for later, not out of scope for this class. \n\nGreat! Okay, so you can explore\
+    \ the Obsidian stuff. You can also theoretically open this HTML file, and it will\
+    \ partially open that sphere. You are supposed to be confused at this point; if\
+    \ you're thinking, \"I don't know what's going on,\" that's correct. We are exploring,\
+    \ and confusion is the proper state when examining anything related to the natural\
+    \ world.\n\nOh, and if you're a CODI person\u2014oh, you actually may not have\
+    \ this\u2014never mind. The full server data is now 180 megabytes of just numbers\
+    \ and letters, which is not currently available to you. I wouldn't really recommend\
+    \ trying to dig through it anyway; it's mostly repeated text and those many instances\
+    \ of that 1500-digit number.\n\nOkay, cool. So, eyeballs, right? Got that. I realized\
+    \ that I actually have a video of myself wearing an eye tracker from a previous\
+    \ life that I can share to remind ourselves how eyeballs look. I have put a lot\
+    \ of stuff on this YouTube account\u2014John Math\u2014is probably linked in the\
+    \ server somewhere. It's kind of a way for me to communicate with other researchers;\
+    \ the numbers are small but consistent. However, there was a time in my life when\
+    \ I was making more internet public appealing stuff, and one of those was this\
+    \ video of me playing OverWatch."
+- dur: 180.0
+  end: 1980.0
+  start: 1800.0
+  text: "In my living room in Texas, that video has 300,000 views. I think it's from\
+    \ a different iteration of my life where I was much worse at making these kinds\
+    \ of visuals. Is it playing? I guess it's playing at full speed. This is the same\
+    \ basic eye tracker, slightly different visual, and I\u2019m in my apartment in\
+    \ Austin, Texas. As a post-doctoral researcher, I'm calibrating to this little\
+    \ laser pointer. I used it to look at the point, and I calibrated it after the\
+    \ fact. This is the data that I wish I had been able to show in real time last\
+    \ time. It shows the X position; the horizontal position is in blue, so if I look\
+    \ from left to right, the blue will go up and down. The orange represents the\
+    \ Y position. I'm playing Overwatch, a game where you shoot characters, and I'm\
+    \ playing as Roadhog, who is a character in that game. Has anyone played Overwatch?\
+    \ Thank you, great, I appreciate it. Video games are really interesting; I think\
+    \ they are perceptual-motor tasks because they are visually complex, but the motor\
+    \ commands are quite limited and the task is often very well defined. In this\
+    \ competitive game, for example, you have people trying to shoot each other. You\
+    \ know where the bullets go, there's your health bar, and these are your abilities\
+    \ that you use until they cool down. This particular character is big and slow\
+    \ and has powerful capabilities. The task is clear: win the game and don\u2019\
+    t get shot enough to make your health go to zero, while using the abilities to\
+    \ stay alive. First of all, you can see that, as I mentioned, people don't blink\
+    \ when they're doing tasks that are hard. All of these gaps here represent what's\
+    \ happening before the game starts, and you can see I\u2019m blinking all over\
+    \ the place. Eventually, people will show up, and then I start blinking a lot\
+    \ less. Here, you can go frame by frame on YouTube using the period and comma\
+    \ keys, if you didn't know that. As I\u2019m coming around this corner, I sort\
+    \ of glance over, and you can see the jumps down here. I'm recording this at 30\
+    \ FPS, which is unfortunate, so those little jumps are sad. You can see here,\
+    \ there is a big jump in X and Y at the same time, which shows a diagonal movement."
+- dur: 180.0
+  end: 2160.0
+  start: 1980.0
+  text: It's going to be positive x negative y, so it's going to be, I guess, in that
+    direction. Yeah, so that's the first time I looked down here at the ability. This
+    shape is going to become more familiar because this is a diagonal down that way.
+    And then making a blink during an AOD, like we do, and then this is checking the
+    other side, which is the health bar, and then back to center. We tend to really
+    like our eyes to be in the middle of our head; this is our strong preference.
+    So when we're making eye movements in the real world, there is a pattern, a stereotypical
+    pattern, that if I'm trying to redirect my body in a particular direction, my
+    eyes will go there, then my head will go there, and then my body will go there,
+    and then I'll move. There's kind of a trade-off where you want to get the information
+    before you initiate the action, and you move the fastest moving things first.
+    But this is, yeah, then, so, oops, and I'm shooting this guy here. I see another
+    one of those shapes coming up. That's going to be, because they tend to start
+    from the middle, those are positional. So if the two dots are here and here, that's
+    going to be the same place every time. So this one is going to be to the same
+    location as that one, and this, you could see, 33 milliseconds per gap there.
+    Because I think I had already thrown the hook, and so I'm fighting this big scary
+    one, and I have to, like, am I ready? Can I do it again? So I look down, and then,
+    yeah, actually, that's that same pattern. So it's like center to the bottom left.
+    And then making these CADs here, so this four in a row is a big jump happening.
+    So that's 120 milliseconds, and you're sort of traveling, so that's a big CAD.
+    The actual image on my retina is blurring when that happens, because of just the
+    movements occurring there. Okay, I'll let this play a little more. Here we have
+    one, two, three, three little sads. Oh, so this is as I'm turning around a corner.
+    So another thing I find, I've mentioned this before, is that the amount of information
+    we get in a very small amount of time is enough to change our behavior. So each
+    of these little steps.
+- dur: 180.0
+  end: 2340.0
+  start: 2160.0
+  text: "It has four dots on it, which is about 150 milliseconds, roughly as fast\
+    \ as you can move your eyes, but enough time to get the information from that\
+    \ part of the visual field. Here I am blinking in this empty space, feeling like\
+    \ there's nothing going on, and I have time to blink. Now I have this little curve,\
+    \ and I'm not moving my head, so it's not a visual issue, but I am moving the\
+    \ stick on the controller, causing the world to move smoothly. I'm going to be\
+    \ tracking whatever this is, but nope, guess not. So, running up here, this guy\
+    \ runs out, I shoot him. This kind of stuff here, like the swoopy things, I associate\
+    \ with it; it's kind of like a visual tracking. It's the head stabilization one,\
+    \ or V, where it's not a big catch-up, and it's not even a small one; it\u2019\
+    s more of a tracking behavior. There is an object on the screen that I am smoothly\
+    \ tracking, and then making these little adjustments. It's hard to know exactly\
+    \ what that is, but those are sometimes called catch-up saccades. In the context\
+    \ of smooth pursuit, your eyes can track the object, but sometimes they track\
+    \ it a bit slower, so you'll periodically make little catch-up saccades. This\
+    \ is to ensure I'm tracking this, and as it moves, my eye lags behind, so I jump\
+    \ ahead to stay on top of it. You can kind of see that happening here as I come\
+    \ around the corner, trying to shoot this mean ninja. Here's that same pattern\
+    \ again, double-checking. I don't need to watch the entire thing necessarily,\
+    \ but this is a visual-motor task I performed several years ago. I don't even\
+    \ know when that was, maybe 20 something, and the nature of the data provides\
+    \ interesting insight into the cognitive task being performed. I had this vague\
+    \ intuition and intention to do this for different characters and sort of..."
+- dur: 180.0
+  end: 2520.0
+  start: 2340.0
+  text: "We get different patterns for each of the different play styles, and it didn't\
+    \ quite work out because for most players, you're mostly just staring at the center\
+    \ of the screen the whole time, so you don't notice the big jumps. This particular\
+    \ character has a huge health pool and slow cooldowns, which gives you that really\
+    \ standard triangle shape that I enjoy. It's interesting because the ability to\
+    \ point a camera at your eyes and the screen gives you a readout of the physical\
+    \ movements associated with the information-gathering process that your visual\
+    \ system is designed for. \n\nSo, yes, here I am blinking a lot. This is an interesting\
+    \ one with little jagged bits. This is what it looked like when I was making those\
+    \ big turns. My head is not actually moving, so it's not the same behavior, but\
+    \ it is related. I am turning in this case, but it's kind of like my eyes are\
+    \ attaching to a particular part of the world and then shifting around from there.\
+    \ I'll let this play out because there are only a couple more minutes, and I'll\
+    \ just talk over it. \n\nI like approaching the question of how vision works from\
+    \ the perspective of looking at how it is used in real life, or, not exactly real\
+    \ life but a simulated version of it. In that approach, it becomes very apparent.\
+    \ It's hard not to look at it this way. The concept is tied to my post-doctoral\
+    \ adviser, who taught me how to use an eye tracker and came up with the idea.\
+    \ Her name is Mary Heho, and her main focus is on task dynamics.\n\nMary has been\
+    \ around for a while; I think she is in her 70s at this point, possibly late 70s.\
+    \ She was one of the first people to start studying natural behavior and how people\
+    \ move in real scenarios. Notice now, too, that now that I\u2019m not engaging,\
+    \ Mary studied natural behavior and still does. When she started studying it in\
+    \ the 1980s, a lot of people told her it wasn't possible. They claimed you cannot\
+    \ study natural behavior; it\u2019s too noisy and not controlled. The data you\
+    \ would get would be messy nonsense with no clear way to interpret it. At that\
+    \ time, and even still today, the standard mode of research was highly controlled."
+- dur: 180.0
+  end: 2700.0
+  start: 2520.0
+  text: "Experiments conducted with people in dark rooms, where their heads are attached\
+    \ to a vice of some kind, involve very simple tasks, such as looking to the left\
+    \ if the thing is blue and looking to the right if the thing is red. The idea\
+    \ that Mary was going to study people who were less constrained was met with derision\
+    \ because the prevailing belief was that one would never be able to obtain anything\
+    \ meaningful from such data. The behavior observed was considered too complex.\
+    \ Mary's approach was to focus on task dynamics, which means rather than concentrating\
+    \ on the biological system alone, one should consider the context of the task\
+    \ that the organism is trying to complete, as well as the factors that define\
+    \ success and failure in that task. If we analyze things in that context, the\
+    \ data suddenly makes much more sense. For example, if I didn't know that the\
+    \ health bar was down here and the cool downs are down here, this unusual shape\
+    \ that keeps appearing would appear to be just that\u2014an unusual shape. However,\
+    \ knowing the task allows me to interpret what that shape represents. Additionally,\
+    \ if we wanted to, we could examine how that shape corresponds to various stats\
+    \ and others, while also posing questions about the speed at which these events\
+    \ occur. For instance, if we find that the fastest events occur only at a 150-millisecond\
+    \ rate, we can deduce that if they are accelerating that quickly, it is more important\
+    \ to gather information from multiple sources rather than obtain comprehensive\
+    \ information from one source. I wanted to illustrate this concept at the end\
+    \ of my discussion. When I am not actively engaged in a particular task, my eye\
+    \ movements are far more erratic and less stereotyped; I do not see the same shapes\
+    \ appearing. If you wanted to, you could certainly come up with narratives about\
+    \ what I am gazing at. Even in the same exact task and environment, you would\
+    \ have to make various guesses about why I choose to look in one direction versus\
+    \ another. Every time you are in a situation, you are performing a task, but if\
+    \ that task is not time-constrained or particularly difficult, it becomes challenging\
+    \ to interpret my focus. For example, I enjoy looking at people, particularly\
+    \ their faces and hands, and observing the complete figure and body language.\
+    \ Research in this area attempts to interpret data by simply watching complex\
+    \ tasks, videos, and people engaging in different activities. This is related\
+    \ to pupilometry, where researchers track eye movement to gain insight into attention\
+    \ and cognitive processes."
+- dur: 180.0
+  end: 2880.0
+  start: 2700.0
+  text: "You can get the data and you can look at it. It's the same data type, but\
+    \ actually interpreting it becomes much more difficult because you don't actually\
+    \ know the context of what people were doing. I'm trying to do it in time order.\
+    \ Let's try to... yeah, okay.\n\nSo, task dynamics and the study of neuroscience\
+    \ and natural behavior are all good terms to look up. Now, let's look at how there\
+    \ are kind of these two sides to the question. One is how the physiological system\
+    \ of vision is used in natural tasks, and the other is what the actual structure\
+    \ of that system is and how these two aspects influence each other. I often tend\
+    \ to struggle with the ordering in this class because these are all chicken and\
+    \ egg questions; there is no real linear progression that I think makes sense.\
+    \ Talking about physiology absent of behavior is just as unproductive as the other\
+    \ way around.\n\nSo, let's think about eyeballs. Should I draw this? I\u2019ll\
+    \ get a picture before I draw it. Why are you going so slow? Oh, it's because...\
+    \ come on, man. Oh wait, yeah, so... open image in a new tab. So that's an eyeball;\
+    \ that's the side view cutout of the thing we've been looking at from the front.\
+    \ The most important thing to notice when you look at human eye tracking data\
+    \ is that we point our eyes at things and we move them a lot. We tend to focus\
+    \ the center of our vision, represented by a little cross, on the thing that we\
+    \ care the most about. Where's this line? I'm not sure what that line is, but\
+    \ this line here is called the fovea centralis. Your fovea is a very important\
+    \ part of your visual system. When you point your eyes at something, you're directing\
+    \ this area at that object. It is an area of extremely high density of visual\
+    \ receptors."
+- dur: 180.0
+  end: 3060.0
+  start: 2880.0
+  text: '[Music] Phobia. Yeah, so your phobia means pit, and is basically a place
+    where we''ve moved the goop out of the way so that we have a better view of the
+    actual photoreceptors in the eye. I mentioned at one point that your eyes are
+    backwards, which is true. Rods and cones - so we''ve heard of rods and cones;
+    these are the things that are... let me do this, let''s zoom back out here. Okay,
+    so you have your eyeball, you have your pupil, and light comes into the pupil
+    and hits the back of your eye. The rods and cones are basically like your rods
+    are little sticks, and the cones are a little bit pointier. Inside of them, they
+    have a bunch of things, but the most important one... Okay, I have to turn this
+    off; I was still running that other thing. So the opsins in your eye are the chemicals
+    that actually respond to the light, and they look like standard hexagons with
+    a sort of long tail coming off of them. You have different types of opsins that
+    respond to different types of light. When a photon comes and hits the opsin, it
+    changes shape. One of the sections becomes... what if it is cis-retinal or whatever,
+    and sort of changes shape and gets a kink in it. Actually, I think I did this
+    backwards; I think it starts with a kink and then straightens out when it absorbs
+    light. But the idea is that the energy of the photon of light induces this change
+    in the physical, chemical structure of the opsin, and that changes its charge.
+    That charge is what sort of becomes the neurochemical cascade, the cascade of
+    neural firings, that leads to your perception of...'
+- dur: 180.0
+  end: 3240.0
+  start: 3060.0
+  text: "Light is a weird process. There are many options; you have short, medium,\
+    \ and long cones that correspond roughly to red, blue, and green. Your rods don't\
+    \ have the three colors, but they only respond to green. Your night vision relies\
+    \ on your rods, and there's a perinatal shift that happens when they're transitioning\
+    \ from one to another. It's a whole complex thing. Basically, the lumpy part of\
+    \ the rods and cones houses those opsins in this sort of peak area. You might\
+    \ reasonably assume that we would want to point that photosensitive part towards\
+    \ the source of light, but that is not how our eyes are set up. The photoreceptors\
+    \ actually point backward, and then the wiring attached to them goes back out.\
+    \ When light is coming in, it has to pass through the axons of the neurons attached\
+    \ to the rods and cones before it can actually be absorbed by the opsins in your\
+    \ eye. This is why the fovea exists; it pushes that cellular material to the side\
+    \ so that there\u2019s an unobstructed path for the light to get through. The\
+    \ idea of why this setup is the way it is relates to when we crawled out of the\
+    \ ocean. Our eyes had to adapt to carry some water with us so we could focus light\
+    \ better, and something in that process inverted things. I don\u2019t fully understand\
+    \ that, but cephalopods, like squids, octopuses, and cuttlefish, have their eyes\
+    \ facing the right way; their photoreceptors face towards the source of light.\
+    \ There's another troubling aspect of this: all of the wiring coming off the back\
+    \ of your photoreceptors goes back to the top of your retina\u2014the thing at\
+    \ the back with the photoreceptors is called the retina."
+- dur: 180.0
+  end: 3420.0
+  start: 3240.0
+  text: "It has to punch back through to become the optic nerve, which actually takes\
+    \ the data\u2014the pattern of neural activity associated with the light in the\
+    \ environment\u2014back through your retina to the rest of your nervous system.\
+    \ This means that there is a blind spot on your retina where you don't have vision.\
+    \ You can find it if you close your left eye and look at your thumb at arm's length\
+    \ with your right eye. Then, with your other hand, put your thumb up and move\
+    \ it to where your knuckle is while maintaining your fixation on that thumb. Watch\
+    \ me: I'm looking at my thumb and I never stop looking at it. I line up my thumb\
+    \ here and then I move my thumb to where my knuckle was. If you do it right, your\
+    \ thumb will disappear. It takes a little practice, but for me, when I'm looking\
+    \ at this thumb, my thumb is not visible in this area; it's just an empty block\
+    \ in space.\n\nAnother way to do it is to hold your thumbs together. Pick the\
+    \ left one, and with your right eye, focus on this one. Slowly move the other\
+    \ one out while maintaining fixation on that thumb, and it should disappear. Is\
+    \ anyone getting it? It just sort of evaporates. It's hard to maintain fixation\
+    \ on the thing without looking over, and also your brain fills in the gap, so\
+    \ you kind of have to notice that it isn't there. When you're done here, just\
+    \ look up a 'blind spot demo' and there are some other resources that will show\
+    \ you this. It's one of those classic examples of a blind spot where you don't\
+    \ receive visual information but you get information from all around it. Because\
+    \ we have two blind spots and they're not in the same area, we can fill in the\
+    \ gaps. There is interesting research on how, if you give people patterns in the\
+    \ blind spot, the brain will fill in the pattern. So, here's just another example\
+    \ of that. This chunky BET right here is your optic nerve, which is the part that\
+    \ travels from your eye to your brain. When you're looking at stuff, you're looking\
+    \ at it with your fovea."
+- dur: 180.0
+  end: 3600.0
+  start: 3420.0
+  text: "Peripheral Vision Wikipedia. I'm looking for a particular image here. This\
+    \ is roughly speaking your field of view. I think this is peripherally, in this\
+    \ central zone right here. It's actually not going to be visible here. So this\
+    \ is 30, 20, 10, probably 5. So probably right around this circle here, that's\
+    \ roughly speaking your fovea. You also have your fovea, which is like a smaller\
+    \ area within that space, and then sort of other zones. We have pretty wide vision;\
+    \ I can see my hands out to here. If I wave my finger, there are interesting games\
+    \ you can play with yourself. Just kind of move your hands until you can't see\
+    \ them, and then wiggle your fingers. You can see them because we are more sensitive\
+    \ to motion in the periphery. Also, notice that this is not a circle; it's not\
+    \ isosceles. The central part is circular, but the whole field of view is laterally\
+    \ oriented because we live in a world that tends to be laterally oriented. Our\
+    \ sensitivity is not arranged in a sort of circle around our fovea; it is horizontally\
+    \ distributed. We are also vision-oriented predators, so we have a different field\
+    \ of view than if we were rodents or equines. Goats have rectangular eyes; mice\
+    \ have eyes that point out to the side. All these cases of the ecology of how\
+    \ an animal uses vision in its ecological niche shape how the visual system is\
+    \ set up. As I said before, I think, I\u2019m not sure if I mentioned it today,\
+    \ but it bears repeating that the fovea is again roughly the size of your thumbnail\
+    \ at arm\u2019s length. It takes up roughly 1% of your visual field; roughly 50%\
+    \ of your visual cortex is devoted to processing information from that small spot.\
+    \ That concept is called cortical magnification. It\u2019s kind of why I feel\
+    \ somewhat comfortable with these representations. As I said, this circle is roughly\
+    \ the size of the fovea, plus or minus one visual degree. I think representations\
+    \ like this overemphasize that foveal perspective because we are getting information\
+    \ from the whole field of view. Nonetheless, I think it's valuable to look at\
+    \ the location of that directed visual focus because that is basically an indication\
+    \ of the part of the visual field from which my nervous system wanted information\
+    \ at this time. I think that concept is very important."
+- dur: 180.0
+  end: 3780.0
+  start: 3600.0
+  text: 'This is important because I could have looked anywhere, but I have to look
+    somewhere. My cognitive system makes decisions about where in the world I want
+    to pull information from. If I am just sitting around, those decisions are not
+    particularly costly. However, as the task becomes harder and I start doing more
+    complex and difficult behaviors, the choices of where to look, one place versus
+    another, become very critical. I will show this briefly. Then, I will consider
+    our time; I won''t show this right now, but I will come back to it later in the
+    semester.
+
+
+    My main research from this era focused on the visual control of foot placement
+    and examining the patterns of path on the ground when choosing footholds while
+    walking over rough terrain. In that context, you only have about 400 milliseconds
+    per step to find a location on very rough terrain that can support your whole
+    body; otherwise, you''ll fall into a river and break your leg.
+
+
+    There is an aspect where you can get a readout of that cognitive question: where
+    in the environment do I want information from? Because we are highly visual predators,
+    we have this nice feature where we can point a camera at the eyeballs and use
+    some old-school computer vision to get the pupil center. This allows us to measure
+    not only where the eyes are pointing but also where my central nervous system
+    wants to gather information to complete whatever task I am doing.
+
+
+    I think I can draw fast enough for this. The internet has already drawn all the
+    pictures I could care about. Stop it with the AI. So, you have your eyeballs and
+    the optic nerves that come in. There is a part in the middle where things split
+    apart, and that is called the optic chiasm.'
+- dur: 180.0
+  end: 3960.0
+  start: 3780.0
+  text: "Imam was an Islamic scholar in 7th century Iraq, and he discovered optics\
+    \ by doing old-school physiology. Imam has been called the father of optics; he\
+    \ essentially invented optics. He is credited with the discovery that light is\
+    \ something measurable, allowing for scientific exploration of refraction and\
+    \ similar phenomena. His work was later rediscovered by Ren\xE9 Descartes, who\
+    \ was one of the famous figures associated with Cartesian coordinates. Descartes\
+    \ was a polyglot who spoke many languages, and a significant part of his acclaim\
+    \ came from translating old records written in Arabic into Latin. Once in Latin,\
+    \ Europeans were amazed and praised Descartes as profoundly intelligent.\n\nNow,\
+    \ this is a model of the eye. You can see it has the vitreous humor, cornea, and\
+    \ the lens. Imam got a lot of things correct, but he did not fully understand\
+    \ how the lens worked. He suggested that there was probably some demon living\
+    \ in there bending the light, because back in the day, when people did not know\
+    \ how something worked, they would attribute it to a little demon doing that part.\
+    \ For the rest of it, they could manage the math.\n\nYou can see the different\
+    \ parts of the eye, along with the muscles and other components. It's important\
+    \ to note that Imam's Arabic name is Alhazen, and for some reason, that term is\
+    \ used in English. This is a good representation showing how light splits, highlighting\
+    \ the distinction between visual fields and how they map to different areas of\
+    \ the brain. I will illustrate this because it can be helpful. We tend to think\
+    \ of our vision as coming from one right eye and one left eye\u2014which is quite\
+    \ obvious. So, here\u2019s one eye and here\u2019s the other eye."
+- dur: 180.0
+  end: 4140.0
+  start: 3960.0
+  text: "Oops, this is our brain as seen from above. You have the left hemisphere\
+    \ and the right hemisphere. I don't know why my text stack is struggling. There\
+    \ is lateralization in the brain, so your right hand is controlled by your left\
+    \ hemisphere for some reason. A naive view might be to think that it's the same\
+    \ for your eyes; that your left eye connects to your right hemisphere, but that\
+    \ is not actually how it works. Your visual cortex is in the back, and your left\
+    \ hemisphere handles the right visual field, not the right eye. If I want to know\
+    \ about the things that are over here, I don't necessarily want to know about\
+    \ what's going on in this eye. As I move my eyes, they will project images; from\
+    \ the right side, it will project onto the left side of each eyeball. So, the\
+    \ projections from the right visual field need to make it to the left visual cortex.\
+    \ These projections can go straight back, while others have to cross over. If\
+    \ you want to know about stuff happening in the left visual field, there is an\
+    \ object in my left visual field that projects onto the right side of each eye.\
+    \ That projection has to get to the right hemisphere. These ones can go straight\
+    \ back, and this one has to cross over at the optic chiasm. The chiasm is actually\
+    \ the crossing part. This is how the literal wiring works\u2014back in the 7th\
+    \ century, they would cut open heads and look at where the optic nerve is. It\
+    \ was a tough thing; if you ever find yourself in a butcher shop or a pig."
+- dur: 180.0
+  end: 4320.0
+  start: 4140.0
+  text: "If you're feeling like being weird and gross, you can go check out the roast.\
+    \ It's a very fibrous and dense thing. If you open up the head and see where it\
+    \ goes, you'll notice that it splits apart and then crosses over. These little\
+    \ structures right here are the thalamus. I think that is the thalamus, which\
+    \ acts as a way station for all your senses, except for smell. Smell is a chemosensation,\
+    \ which is the sensation of chemicals in the environment. The story goes that\
+    \ smell is the oldest sense; even bacteria have smell because they detect chemical\
+    \ gradients. That's why it is the only sense that doesn't go through the thalamus.\
+    \  \n\nHowever, there are other things that happen at this level, such as motion\
+    \ sensitivity. The whole concept of being more sensitive to certain stimuli is\
+    \ at play here. Some tracks are going back to the visual cortex, which is located\
+    \ at the back of your brain. Interestingly, some of these tracks do not go to\
+    \ your cortex; I don't think some of them even go to the thalamus. Instead, they\
+    \ might bypass the cortex and go straight into the spine, triggering responses\
+    \ like the startle reflex, where visual information prompts you to react. A lot\
+    \ of balance-related functions have subcortical pathways that bypass the brain\
+    \ and head straight into the spine.  \n\nThis image that I was looking for is\
+    \ that of the lateral geniculate body. This is generally what you will see as\
+    \ the visual pathway, but remember that there are subcortical pathways that bypass\
+    \ all of the big pink wrinkly parts on top. You also have a blind spot because\
+    \ of your nose, creating an area in your visual field that doesn't really receive\
+    \ any information, which I find funny.  \n\nSubcortical pathways are interesting.\
+    \ I'm trying to check off some things here because the main concept to remember\
+    \ is the visual field's relationship with the retina. They have a complicated\
+    \ relationship with a lot of mirroring that occurs. For example, you'll see a\
+    \ picture where the tree is upside down."
+- dur: 180.0
+  end: 4500.0
+  start: 4320.0
+  text: Because of how lenses work, you can see that the lower visual field here is
+    at the top down there. There is a sort of spatial correspondence between the anatomical
+    structure of the eye itself and the visual field relative to your body. For instance,
+    if I'm sitting here moving my eyes around, my visual field kind of moves with
+    my eyes, but my visual environment does not. There is a complicated interplay
+    there. This structure is maintained as it goes back through good old-fashioned
+    physics and optics and into the complex neural substrates. The spatial structure
+    of the visual environment is sort of preserved in these intricate and split-apart
+    forms so that by the time you get back to the V1 visual cortex, the visual cortex
+    expands. I was looking for cortical expansion. Am I not finding this picture?
+    I feel like I'm being let down by people who put pictures in neuroscience books.
+    What am I missing here? Why am I not able to find this?
+- dur: 180.0
+  end: 4680.0
+  start: 4500.0
+  text: "Retinotopy, that's the term I was looking for. Sorry, retinotopy, that's\
+    \ the term I was looking for and not able to find. The main concept to think about\
+    \ here is that there is a retinotopic map, kind of similar to the cartoon of the\
+    \ sensory motor cortex, the horrible guy that lives in your motor cortex who has\
+    \ giant hands and a giant mouth because that's where we have our most sensitivity\
+    \ in terms of sensation and movement. There is also a kind of map in your visual\
+    \ cortex that corresponds to your visual field, and the cartoons that we draw\
+    \ about it look a lot like this. Similar to the horrible man that lives in your\
+    \ head, this cartoon monster represents your sensory motor sensitivity. We love\
+    \ this story; it's a great story, and it's in every textbook, and it's true to\
+    \ a certain extent, but the data looks more complex than that. It's not this perfect\
+    \ beautiful map; it's more of this type of thing. The representation of the brain\
+    \ shows that the black spots are the pits and the white spots are the tops, so\
+    \ you basically take the brain and expand it out\u2014that's what this represents.\
+    \ Stimulating the visual field, you can see that there is kind of a striation\
+    \ that happens, where different parts tend to correspond to different parts of\
+    \ the visual field, but it is complicated. This is a very famous image; I think\
+    \ it may have won a Nobel Prize, I'm not quite sure. It shows the superior colliculus\
+    \ of a monkey and their retinotopic organization. What they did was stimulate\
+    \ little electrical signals to the cortex, which generated eye movements that\
+    \ mapped that pattern. In the same way that there's both the sensory cortex and\
+    \ the motor cortex paired to each other, the visual perception system and the\
+    \ ocular motor movement system are also paired through these retinotopic maps,\
+    \ because if I'm looking here and there's something in the periphery that I want..."
+- dur: 180.0
+  end: 4860.0
+  start: 4680.0
+  text: To see this retinotopic location, I'm fixating here, but there's a bright
+    little shiny thing that shows up in the upper right. That is also the coordinates
+    I need to know to make an eye movement to fixate on that thing. There is a linked
+    map that I've been talking about, V1, which is the part of the brain responsible
+    for perception. This is not your oculomotor system; the oculomotor system is more
+    spread out and complicated. We will talk more about that in the next class and
+    briefly discuss it during the evolution chat. Different animals have different
+    shaped visual fields, but there is a complicated relationship between the physiology
+    of the eye and the optical characteristics of how light bends. The physiology
+    of the retina responds to incoming light; that's the part of your eye that contains
+    neurons. There is an argument that your eyeballs should be considered part of
+    your central nervous system because, even though we think of them as peripheral,
+    they perform computations on the retinal ganglion cells. Processing occurs in
+    these middle layers of the retina. In the retina, you have photoreceptors, the
+    optic nerve, and these middle layers that contain over 60 different cell types.
+    Some connect the photoreceptors to the optic nerve, others connect to each other
+    with varying distances. It was recently discovered that some of these middle layer
+    cells are sensitive to light, specifically blue light, and they are believed to
+    be related to our circadian rhythms. There are also horizontal cells that connect
+    them to each other.
+- dur: 180.0
+  end: 5040.0
+  start: 4860.0
+  text: "is like processing that happens here, and it has to do with a number of different\
+    \ aspects. It's a little mysterious what all is actually happening in there, but\
+    \ it leads to a lot of famous illusions, such as the Hermann grid illusion. For\
+    \ some of you with Mac computers, this may be directly available. For example,\
+    \ if you open an image in a new tab, each one of these circles is white, but as\
+    \ you look at one of them, the periphery appears dark. The Hermann grid is a famous\
+    \ illusion that occurs at the level of your retina because of lateral inhibition.\
+    \ In the periphery, the black of the squares overlaps with the white, leading\
+    \ to suppression. However, this suppression only occurs in the periphery because\
+    \ when you are fixating on it, your fovea is small enough to provide adequate\
+    \ resolution. There are many strange little illusions happening there.\n\nSo,\
+    \ I think I'll leave that brain dump here; that\u2019s probably enough to chew\
+    \ on, and there are several relevant terms to consider. You have the task dynamics\
+    \ in terms of actual usage, the physiology of the eye, the concept of lateralization,\
+    \ the optic chiasm, and the retinotopic mapping between your visual fields and\
+    \ your visual cortex. You have the middle layers related to the strange cacophony\
+    \ of your retina, the blind spot, and the various neurons involved. Additionally,\
+    \ you have the ocular motor system, particularly the superior colliculus, which\
+    \ handles the oculomotor retinotopy. This is about the relationship between the\
+    \ retinotopic aspects of your perceptual system and the retinotopic aspects of\
+    \ your oculomotor system, and how those things interact.\n\nNone of that has much\
+    \ to do with movement; I guess eye movements do have something to do with movement.\
+    \ Often, people talk about eye movements as body movements. Technically, they\
+    \ are, but the question remains about how this information actually makes it into\
+    \ your body and allows you to understand how the information..."
+- dur: 180.0
+  end: 5220.0
+  start: 5040.0
+  text: "The process of getting information from your visual system down to the parts\
+    \ of your brain that handle throws and catches involves the parietal lobe, likely\
+    \ the parietal cortex. It also involves a range of subcortical pathways and the\
+    \ corticospinal tract. I realized I misspoke earlier when I said that only humans\
+    \ have the corticospinal tract; that's not true. Many animals have it, but to\
+    \ varying degrees. For example, quadrupeds like cats and dogs have a very minimal\
+    \ version, while animals that utilize their forelimbs more extensively tend to\
+    \ have a more developed tract.\n\nAdditionally, it relates to sensation. There\
+    \ is a direct mapping from your motor cortex to the spinal cord through the corticospinal\
+    \ tract, which allows for a very short synaptic loop between the sensory information\
+    \ received from your body and the motor commands that respond to it. This enables\
+    \ quick reactions without needing to route everything through the complex network\
+    \ in the brain, which can be a slow process. Things that go through the cortex\
+    \ can take approximately 200 milliseconds to fully transmit.\n\nThis visual representation\
+    \ illustrates the concepts I've mentioned before. Now, I will pause, and let's\
+    \ engage in what has now become somewhat of a stereotypical activity in the 2024\
+    \ visual neuroscience course. In the ten minutes we have left, please feel free\
+    \ to interact by asking questions regarding the topics I\u2019ve discussed. I\
+    \ have covered a lot of material across different layers of complexity, so you\
+    \ can see how this format is evolving. It shifts from seeking specific high-quality\
+    \ text to providing you with the opportunity to filter what I\u2019ve said through\
+    \ your own understanding, which helps me gauge your interests.\n\nAs we know,\
+    \ the system can become overwhelmed when flooded with questions, so please give\
+    \ it a moment to catch up. Let\u2019s take about ten minutes for this interaction.\
+    \ I\u2019ve noticed that not all chat messages come from class time, which I appreciate.\
+    \ So, feel free to engage and contribute to the discussion as we explore these\
+    \ concepts further."
+- dur: 180.0
+  end: 5400.0
+  start: 5220.0
+  text: Much as you can. I think by the end of the semester, we're getting some good
+    structures out. Okay, cool.
+video_id: t6IwA1P6gYY

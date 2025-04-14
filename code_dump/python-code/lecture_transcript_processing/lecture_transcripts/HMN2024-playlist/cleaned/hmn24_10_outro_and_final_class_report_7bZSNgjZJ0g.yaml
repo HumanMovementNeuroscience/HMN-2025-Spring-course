@@ -1,0 +1,1044 @@
+full_transcript: "Okay, hello everybody and welcome to the last class of the semester.\
+  \ Right? Good. Yeah, it went very fast. So, thanks for showing up and for sticking\
+  \ around. There's no final; you're all good. Today, I'm mostly going to be talking\
+  \ about some wrap-up stuff. I'll be presenting my final project, which I hope will\
+  \ meet your approval. My final project is making sense of the massive amounts of\
+  \ text you all put into the machine, and I\u2019m thinking about what that looks\
+  \ like. It pulls out a sort of weird report for each of you based on what you have\
+  \ been talking about. I don't think I'll take up nearly the entire class, so my\
+  \ intention is to situate you to that data and show you some little fun things I\
+  \ just added to the machine. For the remainder of the time, I will do a small group\
+  \ activity, where you can look over what the bot thinks you're interested in and\
+  \ discuss it in your groups. I'll come around and chat with you a bit about what's\
+  \ going on there. Then we'll be roughly good. \n\nI'm also going to talk a little\
+  \ bit about the research that I do in my life and in my lab, and I'll discuss a\
+  \ couple of avenues you can take to involve yourself in future semesters if you're\
+  \ interested in this type of thing. So, let's see what order we should do this in.\
+  \ First, I want to do a quick tutorial on how to set up your own Skelly bot server,\
+  \ because it's very easy to do\u2014just a couple of clicks\u2014and you can have\
+  \ your own version of this thing and run it until I shut it down, which probably\
+  \ won't be very soon, as I'm going to be continuously working on it. We'll do that\
+  \ before the second half of class. If anyone has questions or wants to set that\
+  \ up, you can do so. Please don't use it to cheat, but it's no different than any\
+  \ other AI tool, so I don't feel like I'm giving you any forbidden weaponry that\
+  \ wouldn't already be available. So, yeah, I'll stand by that. Let's start with\
+  \ the procedural stuff. If you are curious about this type of research, this general\
+  \ domain, and you would like to stay affiliated with the unusual work I do in my\
+  \ life, the easiest way to do that is to join the research server I run for my lab.\
+  \ You can find people there, including various iterations of my students. It's a\
+  \ human research lab, which is basically an acronym for human movement neuroscience.\
+  \ The specific tag I use for Northeastern students is \"Numans\"\u2014NE M O N\u2014\
+  just because it's funny.\n\nTo invite people, I need to generate a link. I will\
+  \ do that now. Here\u2019s the link: \n[insert link]. You can go to our server,\
+  \ find the announcements, and click on the link to join my research lab server.\
+  \ Once you click it, you\u2019ll pop up in the server. It's used in a functional\
+  \ way, so the conversations might feel a bit like you are jumping in the middle\
+  \ of discussions.\n\nI'll make announcements there regarding general events on campus,\
+  \ including an open lab meeting type of thing that I conduct. I will put the schedule\
+  \ there as well. Generally, the on-campus lab I run has an open invite policy and\
+  \ a flexible schedule. If you see a time when it's going on and can only show up\
+  \ for a part of that time, that's perfectly fine\u2014just show up without needing\
+  \ to ask. Even if you show up in a year and a half, I may not be here, but if you\
+  \ come back in six months, just show up; it will be good.\n\nAlso, regarding the\
+  \ voice channel, if anyone here is in it accidentally, you can exit by clicking\
+  \ on the leave button, which you will find easily.\n\nFor those interested specifically\
+  \ in the free MOAP side of things, the free MOAP refers to the MOAP mapping project\
+  \ we initiated at the beginning. This server is related to that and is more public-facing.\
+  \ Last I checked, there were about 2,500 individuals hanging out there, and at this\
+  \ point, I think it\u2019s a pretty even mix of people participating. Students and\
+  \ researchers in neuroscience, robotics, and clinical work, as well as an equal\
+  \ mix of animators and game designers, mostly on the indie side of things, are involved.\
+  \ If you're curious about this, you can join the free MOAP project public server\
+  \ by clicking here. This public-facing space has a different vibe, so feel free\
+  \ to get involved and see what's happening there. \n\nThinking about next semester,\
+  \ I am not completely sure what the schedule will look like over winter break; it's\
+  \ always a bit unpredictable. However, in the spring semester, I will have a lab\
+  \ meeting type of event once a week on campus. It will mostly be Aaron and me meeting\
+  \ up and focusing on the research side of things, primarily in Richard's 453. I\
+  \ will post the schedule sometime during the winter break, but it depends on what\
+  \ my class schedule ends up being, which I haven't checked yet. I think it will\
+  \ likely be on Tuesday or Thursday afternoons, so please keep an eye out for updates.\n\
+  \nJust a reminder about the basic rules: the white dots on the channels indicate\
+  \ that a message has been posted, and a red number means that you've been specifically\
+  \ tagged. If you see a red dot appearing from the lab server, it's likely because\
+  \ I've tagged the Numan role, indicating that there is open conversation or announcements\
+  \ for all student-affiliated participants. \n\nIn addition, I will make an announcement\
+  \ about what I will be doing in my class next semester. It's going to be an inquiry\
+  \ session, similar to the first semester for freshmen, which you all presumably\
+  \ experienced at some level. This will be essentially the same course but split\
+  \ into twice a week sessions. I will cover mostly the same topics in a shorter format.\
+  \ The sessions will be divided: one will focus on lecture-type material, while the\
+  \ other will be more research-oriented, providing time for actual data analysis\
+  \ and other related activities. I think the way that you usually conduct inquiries\
+  \ is that you are supposed to present a paper at the end of the semester. However,\
+  \ I do it more like a mini research project. If anyone is interested and the timing\
+  \ works out, this will also be an open invitation for upperclassmen who want to\
+  \ attend and have an opportunity to dig a little deeper into the material. They\
+  \ can participate in a more structured research project to help some freshmen understand\
+  \ what papers are. You have seen how this works; there is a lot of surface area,\
+  \ and there aren\u2019t many people with the specific areas of knowledge that I\
+  \ am teaching, except for me, since I am the one standing here. In terms of the\
+  \ research aspect, if you wanted to show up, you would have the ability to mix and\
+  \ match and help out others who are doing projects, maybe steer some people in directions\
+  \ that you care about. Then they will present at the end of the semester. Anyone\
+  \ you helped will have your name on the poster, and I include a section for undergraduate\
+  \ research involvement, which is a nice way to enhance your resume with legitimate\
+  \ lines stating that you assisted with research projects. I don\u2019t know if anyone\
+  \ feels like attending an additional class for which you will receive no credit,\
+  \ but you might enjoy the experience. I will also make an announcement once I know\
+  \ more about what that schedule will be. Additionally, you are free to come and\
+  \ go throughout the semester, which is true, but the way the class goes may not\
+  \ always go as I anticipate. I will provide an announcement before the semester\
+  \ begins about what I think the vibe will be, and if it shifts, just ask about it\
+  \ or show up anyway\u2014it doesn't matter. On a similar note, I know that for a\
+  \ lot of your degrees, you need a research lab. You can also complete independent\
+  \ studies, but you would need to talk to your advisor about the specific rules.\
+  \ I am open to a lot of that type of work, though I probably don\u2019t have much\
+  \ available time for truly independent studies. However, if you wanted to do something\
+  \ like that, I am open to discussing it further. In order to cover a research credit,\
+  \ I would be happy to work something out that overlaps with the work I'm doing in\
+  \ the inquiries class. We can find a way for you to choose a project and interact\
+  \ that way. I have heard that finding space in those research classes can be difficult,\
+  \ and often the domain of inquiry may not align with your specific interests, particularly\
+  \ for those focused on data science. \n\nAdditionally, I want to note again that\
+  \ there is a link in the resources channel to a playlist of YouTube recordings.\
+  \ These recordings are of the lectures, except for one where I encountered a problem\
+  \ and the video was corrupted. However, they are available online and will likely\
+  \ remain online until either Google ceases to exist or the sun burns out\u2014whichever\
+  \ comes first. It's more probable that Google would go first, but we will see. You\
+  \ can check in on all the content I've mentioned; the lecture from last time is\
+  \ available for the majority of you who weren't here.\n\nAt some point, hopefully\
+  \ before the end of the semester or before the winter break, Skybot will have the\
+  \ capability to process YouTube URLs. You will be able to provide a URL, and it\
+  \ will pull a transcript and generate a summary. This will allow you to review what\
+  \ we've been discussing. One of the interesting aspects of teaching this class with\
+  \ a tech tool that I've developed is that each class builds on the functionalities\
+  \ of the previous one.\n\nIn this semester, I did not add new functionalities to\
+  \ the bot, but I worked on enhancing the backend in terms of analyzing and processing\
+  \ data and producing reports that we will discuss. For the next semester, I want\
+  \ to add the ability for the bot to pull information into a chat. For example, if\
+  \ you have a PDF, a DOI, a YouTube video, a website, or a research paper, the bot\
+  \ will be able to integrate those resources. You could ask about any of those resources\
+  \ in the chat, and the bot would be able to provide relevant information. That will\
+  \ be exciting! I'm sure there are questions about this, and the second half of this\
+  \ session will be focused on that. I hope so. Roughly, it sort of depends. A lot\
+  \ of this, I like that both of those tasks are pretty similar at a certain level.\
+  \ It's like adding to the context, and particularly for large things, there's a\
+  \ vector search type of thing that wants to happen. Otherwise, if you pull in a\
+  \ 300-page document, that's so much text that it'll kind of overwhelm the conversation.\
+  \ So, there are things you need to do to make that more efficient. At a certain\
+  \ level, the difference between pulling a transcript from a YouTube video and chopping\
+  \ up a PDF is not that significant relative to the core task of adding that functionality\
+  \ to the bot itself. So, it sort of depends. I have other things to do, and the\
+  \ ability to judge the scale of a task is an impossible forever task. I hope to\
+  \ add stuff like that before next semester, but time will tell.\n\nFor the moment,\
+  \ the bot has mostly been just something that I make and play with. Some people\
+  \ and other professors have used it, but it hasn't really been a public-facing project\
+  \ like Free Moap is. I'm going to start doing that for this project, probably starting\
+  \ next semester. I want it to be a kind of slow roll, so that will change the vibe\
+  \ a lot. It will hopefully become something of a proper open-source project as opposed\
+  \ to just a toy that I'm hanging onto and playing with.\n\nIn general, I think there\
+  \ are some very interesting teaching methods emerging. You know, the stuff we're\
+  \ going to talk about shortly, about this fascinating process where I can give incredibly\
+  \ dense lectures and then walk around, allowing you all to focus on whichever part\
+  \ piques your interest. You get to explore that to some extent. I think there's\
+  \ something interesting there that I'm curious about continuing to push and explore,\
+  \ and then making that available to other educational individuals, whether they\
+  \ are teachers or just people who like to learn things. Incidentally, I\u2019m kind\
+  \ of talking backward here, but I often do. Part of the reason why I want to focus\
+  \ on pulling external context into conversations is related to this realization\
+  \ I had when I was wrapping up the kind of oroboros nature. of AI text where there\
+  \ were a lot of conversations. I know from experience that they were all mostly\
+  \ on point, mostly accurate, and mostly saying the right things. However, no one\
+  \ is checking the work here. I hope you all were sort of looking into this on your\
+  \ own, but I wasn't. I was thinking about the order of or distances from a human\
+  \ and distances from empirical measurement\u2014this chain of reasoning we've talked\
+  \ about in a lot of research settings. In these settings, the human asks a question,\
+  \ and the bot produces an answer. You have a conversation with these human-bot couplets,\
+  \ and then you summarize that. You say, \"Okay, here's the summary of that conversation,\"\
+  \ and then you summarize the summaries. At that point, you have a report on the\
+  \ topic. But at some point, the AI text begins analyzing the AI text, which progresses\
+  \ farther and farther from the real natural world. Therefore, I think it's not too\
+  \ insane to imagine a setting where the bot can look at the questions, pull some\
+  \ review articles from PubMed, and instead of just stating what it thinks it should\
+  \ say based on its training, it can provide a response informed by its training\
+  \ plus articles pulled from humans who presumably have qualifications and peer review\
+  \ and empirical measurements behind them at some level. With that in mind, let's\
+  \ talk about where we got with this thing. As before, in the resources channel,\
+  \ there are server scrape checkpoints. The last one here is the last one I intend\
+  \ to produce. But before we go into that, I learned how to do this, didn't I? Is\
+  \ it forward or backward to pull it out? I can't remember if it was pull it out\
+  \ or push it in. So, here's a quick overview of the basic algorithm that happened.\
+  \ You, as a human, congratulations, and here\u2019s the bot doing its best. That's\
+  \ the international sign for bot, and you ask a question, and the bot... produces\
+  \ an answer, whatever, and then we have a couple of those. We're going to call this\
+  \ a chat, a thread, or a conversation. This is sort of the basic unit that you've\
+  \ been producing this whole time. There are these linked blobs of text representing\
+  \ human questions. I know there were different formats; it wasn't always just question\
+  \ and answer. It was a lot of question and answer, but you know, human query, bot\
+  \ response, human query, bot response. Each of these is a chat. Then we have the\
+  \ structural aspect of this: we have the server, which is the Discord server. The\
+  \ Discord server has categories, such as the lectures, the bodies, and the eyeballs.\
+  \ We didn't really end up using a lot of this structure other than the lectures,\
+  \ but that's okay. Each category has a certain set of channels. Channels are named,\
+  \ and again, there's a prompting feature that we didn't really use much of, which\
+  \ is also okay. Within each of these categories, there are chats, and each chat\
+  \ has messages. These are the basic units of the conversation. Let's see, do I have\
+  \ the numbers here? This is one of those things where what you're seeing is what\
+  \ I got done. I'm sure you are familiar with working under a deadline, and the difference\
+  \ between the things you hope you can get done and the things that actually get\
+  \ done is often quite dramatic. But like, I should know things like we had this\
+  \ many chats and this many words; however, I don't know those numbers off the top\
+  \ of my head. They might just be shoved in here somewhere. But the answer is, it\
+  \ was a lot. The word count was high, mostly bot talk, in terms of human produced\
+  \ text versus bot produced text. The bot talked a lot more, because asking a question\
+  \ like \"What is the cortico-spinal tract?\" is not very many words, but the response\
+  \ is often quite a lot. I\u2019m just going to see if I can do that. Is that working?\
+  \ I don't think it's going to give it to me. Yes, I mean, that's 20,000, no, 200,000\
+  \ lines of text, but mostly it's not like functional text, so I don't really have\
+  \ those hard numbers there. Okay, so most of the things that we've been showing\
+  \ so far, like when I would sort of produce these checkpoints, you load them into\
+  \ Obsidian. The analyses that we were looking at were basically iterating through\
+  \ each of these chats. For every server, there were three categories: a bunch of\
+  \ channels, a bunch of chats. You get these units of chat, and I would basically\
+  \ feed them back into GPT-4, which is the same LLM that's driving Skelly Bot, the\
+  \ main guy. It would do things like produce a summary, highlights, or whatever.\
+  \ Then importantly, it would produce these tags, which were the sort of hashtag\
+  \ topics. Up until this point, that's what we had: a bunch of summaries and AI analyses\
+  \ of the chats themselves.\n\nI added in this round, so you might consider this\
+  \ kind of like a first-order summary because you're going through each conversation.\
+  \ We'll call this a zeroth order because it's human to bot each time. This sort\
+  \ of chat summary is kind of like a first-order analysis of that. We're looking\
+  \ over, lumping up all the conversations, and examining what's going on in there.\
+  \ However, there's nothing that we can do at this level that will group across different\
+  \ conversations. Each one of these measurements is sort of independent of anything\
+  \ else that might be going on in the server.\n\nNow, there are two additional categories:\
+  \ one is by user and another is by topic. By user, that's all of you guys. Basically,\
+  \ at that point, what I did is I cycled through all of the conversations. I iterated\
+  \ through each one of you, so every ID that showed up in the Discord server, and\
+  \ then I iterated through all of the available chats. I think there were like 300\
+  \ and something of these; I can't remember exactly what the number was. I grouped\
+  \ all of the chats that you as an individual person contributed to, and I counted\
+  \ any chat where you sent a single message as a chat that you were a part of. I\
+  \ pulled this up because it was a place where I could have done a little extra work.\
+  \ I ran the exact same summary, so you get a sort of AI-generated summary of all\
+  \ the topics and tags related to this person. This is kind of a report about yourself.\
+  \ However, I don't fully trust that it's going to do a good job because if you had\
+  \ a lot of conversations, that's a lot of text to summarize. You might receive wonky\
+  \ results. The main issue is that there's a huge initialization bias. The first\
+  \ text it receives is over-represented in the summary. For example, if the first\
+  \ conversation you had was about dogs, and then you had several other conversations\
+  \ about topics that aren't dogs, the summary will indicate that this person really\
+  \ likes dogs simply due to that initial conversation. There are ways to address\
+  \ this bias, but they are more sophisticated than what I did, so you get what you\
+  \ get.\n\nThe other thing I looked at was by topic. I went through and grabbed each\
+  \ of the tags from all the summaries. I believe not just from the chats. I didn't\
+  \ examine the tags individually; presumably, there shouldn't be many additional\
+  \ tags appearing here because the list of all users is just a reshuffling of the\
+  \ server structure. All the chats that are in the server are also represented here.\
+  \ There might be duplications since if you participate in the same chat multiple\
+  \ times, the same tags would appear.\n\nI found roughly 1,500 unique tags that showed\
+  \ up across all conversations in the entire server. Many of these tags were redundant,\
+  \ for example, one tag might be \"ACL recovery\" while another is \"ACL repair\"\
+  \u2014those should really be combined into one. Rather than producing something\
+  \ for every single tag, I only created documents for tags that had a rank of at\
+  \ least five, where rank means the number of times they were mentioned. Thus, every\
+  \ tag that showed up at least five times was included. Conversations got this special\
+  \ treatment, and that one is a little different from this summary. I asked it to\
+  \ make a Wikipedia-style article, so I grabbed the topics, let's say biomech, and\
+  \ I collected every thread that mentioned that had this tag in it. I grouped all\
+  \ of these together and sent it to a prompt that said, \"Create a Wikipedia-style\
+  \ article about this.\" The prompt I made was literally going to the Wikipedia style\
+  \ guide, copying the whole thing, giving it to the bot, and telling it to create\
+  \ a good prompt out of this style guide. It made a pretty good one, and now we have\
+  \ that. So, yeah, what we're about to see should look very similar. Everything we\
+  \ have been seeing up until this point is going to be under a folder called 'by\
+  \ server,' obviously. Then there are going to be two additional ones: one by topic\
+  \ and one by user, where user is synonymous with student. That totally makes sense,\
+  \ I'm sure everyone is following fully. This is one of those things where a lot\
+  \ of that explanation was for me and for anyone curious about what's about to show\
+  \ up. As before, I don't know which one that one is from. Let's see, in downloads,\
+  \ okay, yeah; this is one of those places where a lot of work happened that is just\
+  \ going to be completely invisible from the outside. There was a lot of stuff that\
+  \ you're just never going to see because it was about organization and the ability\
+  \ to do this amount of information and have it be reasonable and maintain any kind\
+  \ of confidence about what's going on. It's mostly an organizational task. You'll\
+  \ also never see all the things that were tried and never completed, and the dead\
+  \ ends and stuff like that. So, c'est la vie. Okay, so I'll download the thing,\
+  \ open the zip, go into Obsidian. It should be straightforward at this point. Open\
+  \ the thing; the markdown folder is the one with all the actual documents in it.\
+  \ The other ones just have JSON files, and it's white for some reason. Always prefer\
+  \ dark mode, and let's see what it looks like. Unlike before, there are actually\
+  \ links between the articles now. It shows up as some links here, and if you add\
+  \ the tags and look at all those weird entries, we have definitely at this point\
+  \ overwhelmed what Obsidian was intended for. There's also one of the things I tried\
+  \ that I didn't quite get working, which was building out a better 3D version of\
+  \ this so you can rotate it. I never quite got that working, but you can. In Obsidian,\
+  \ click the little gear box at the bottom, go to community plugins, turn on community\
+  \ plugins, and browse for 3D. I think that none of these are quite what I want them\
+  \ to be, but they're better than what I have, which is nothing. I just searched\
+  \ for 3D and turned on the top three because they're all not quite what I want in\
+  \ slightly different ways. So you can at least look at them, and mostly it's just\
+  \ that this is not going to be useful; it's just going to be something like, \"\
+  Oh look!\" Those show up. Do that one. So this one is fun, but it doesn't show the\
+  \ tags. However, you can start to see how some of these things work. For example,\
+  \ neuroscience is attached to everything, and movement is attached to many things,\
+  \ while a lot of these other ones just aren't linked properly because they didn't\
+  \ generate the tags and links correctly. This one is a little better; it also doesn't\
+  \ show tags, but it gets a special place in my heart because it plotted the XYZ\
+  \ in the origin there. It does a better job of showing the titles, but it also doesn't\
+  \ show the tags. This one shows the tags, but it's also a bit of a horror show.\
+  \ Someone got too excited about Bloom, which is that brightness effect, and then\
+  \ there are commands here for display control. You can turn the Bloom down but not\
+  \ off, so it does show the route to the tags. It's in green, I believe. Yeah, so\
+  \ that one\u2014oh, this one's by a user. So again, there's not much more to say\
+  \ about this representation of the graph structure other than to kind of just note\
+  \ the general vibe of it, which is that these are a bunch of very... interconnected\
+  \ topics, and this exploration, even though it's not particularly functionally organized,\
+  \ is representative of the shape of your collective curiosity about the topic of\
+  \ human movement neuroscience. If you were to click through, which we will in a\
+  \ second here, you would see a bunch of different conversations\u2014hundreds of\
+  \ different conversations\u2014of each of you asking some kinds of questions about\
+  \ some things that you wanted to know more about. Although the topic itself constrains\
+  \ the questions to some extent, if I were to teach this class again with a different\
+  \ group of people, you would see a lot of overlap in the questions that were asked,\
+  \ but it wouldn't be complete overlap. If it was a different room full of people,\
+  \ you would have asked different questions, and then the results would have different\
+  \ components. There's something really neat about that. I remember at one point\
+  \ in the semester, after I gave a very dense run-through of a bunch of different\
+  \ parts of your nervous system in the motor hierarchy lecture, I went around to\
+  \ talk to people afterward. Every single group that I talked to was asking about\
+  \ something different. There was no overlap between the things that you were curious\
+  \ about, which was really cool and surprising to me. You kind of expect that, oh,\
+  \ they're all going to be interested in this or they're all going to be interested\
+  \ in that, but every one of you was interested in something different about that\
+  \ lecture. Because of the friendly machine, you were all able to explore that curiosity\
+  \ in a way that was constrained by the lecture, constrained by the topic, constrained\
+  \ by the reality of the human nervous system, but shaped specifically by the questions\
+  \ that you asked and the curiosities that you brought to the table. That's something\
+  \ I think is very indicative of a lot of the world and the way that we do scientific\
+  \ research. To some extent, there is this very incorrect view of science that it\
+  \ is an objective thing and that there\u2019s no human element to it. You hear people\
+  \ say things like, 'Oh, if we deleted all the scientific textbooks, in a thousand\
+  \ years we\u2019d have the same textbooks.' That's not entirely false; we would\
+  \ certainly discover the same things. We would discover that there's a spinal cord\
+  \ and that there's a big lumpy pink thing on top. We would discover things like\
+  \ Rodman's areas and that the occipital lobe is where the vision stuff happens.\
+  \ However, the concepts that evolve and arise from scientific research are shaped\
+  \ by the people who do the researching. The terms, terminology, and frameworks that\
+  \ we develop are human creations that help us understand the world. A part of it\
+  \ is that they're shaped by the world. You can't just make them up; there are rules\
+  \ about the things you can say, but it's a very human endeavor. It's something that\
+  \ I think is really important to think about. This is not directly related to this,\
+  \ but there's a concept in the philosophy of science, which I think is one of the\
+  \ more core concepts. It's called the Quinian web of belief, named after W.V.O.\
+  \ Quine. The idea is that your knowledge of the world\u2014your knowledge as an\
+  \ individual, as a collective, as a culture, as a community, and as a species\u2014\
+  is an interconnected web of beliefs. Each part of it overlaps with everything else.\
+  \ When you explore new things and learn new knowledge, you have to integrate any\
+  \ new piece of information into that web of beliefs. If the new piece of knowledge\
+  \ is consistent with that web, then there's no problem; you can add it in and connect\
+  \ it with other things, and then you understand the world better. However, if you\
+  \ learn a new fact that conflicts with something else in your web, you have to choose\
+  \ to either reject the new fact and say, 'This must not be true,' or go in and adjust\
+  \ your web by figuring out what parts are in contradiction. You have to consider\
+  \ the cost: is it more costly to reject the new fact or to reshuffle your beliefs\
+  \ in a way that may have reverberating effects? I think that concept is very core\
+  \ to how we do science and how we integrate information. For example, if a particular\
+  \ node in the web turned out to be based on a user ID, say 1126223, and that represents\
+  \ all the research that that scientist had done, along with the links to what they\
+  \ contributed to the web of knowledge, we would need to reassess everything if we\
+  \ found out that this person was a fraud who falsified their data. We would have\
+  \ to delete this node and determine how much of the surrounding knowledge can stand\
+  \ independently versus how much relies on that person's work. I'm mentioning this\
+  \ in the context of human falsification of science, which is never great, but it\
+  \ also relates to how theories evolve. You know, Thomas Kuhn had insights about\
+  \ this as well. The structure of scientific revolutions, things like that, which\
+  \ we're not going to talk about because I'm already getting distracted. But I like\
+  \ graphs and nodes, and I think it's running a little late. So, this is the markdown\
+  \ folder where we have all of our different things organized by server. The top\
+  \ level consists of categories, and then the channel, and then there are all of\
+  \ the conversations that stemmed from that. It takes a second to load; I should\
+  \ close this. So, this is someone who was asking about, oh, this is not a good choice.\
+  \ Let's say reflex balance and ear infection. Someone is asking about ear infections\
+  \ and how that could affect balance. The answer is, yes, it can for sure. The vestibular\
+  \ system gets involved there, and hopefully the bot said something similar\u2014\
+  yes, vestibular rehab therapy. There you go. These are the tags that show up, and\
+  \ the backlinks don't work, so if you click on them, it won't work. This is that\
+  \ whole conversation there. And then, this is the new topic section, which has a\
+  \ bunch of these. Each one of these tags, let's look at something; let's look at\
+  \ SADs. There you go. This one has a tag link count of nine, meaning there were\
+  \ nine chats that earned the SAD tag. There you go. This is the Wikipedia-style\
+  \ article that the bot generated, and I think I included, yeah, these are links\
+  \ to the chat. Again, the links don't work, but the names are accurate, so you can\
+  \ search for the name to find it. This would have been the users that had the tag,\
+  \ but that part also didn't work. And then, we can create a new group file. There,\
+  \ all the red ones are the by-topic ones. Oh, wait. Then there\u2019s the file for\
+  \ users, and all of the, let's see, what color should these be? Magenta. And these\
+  \ ones should be blue. So, all the magenta ones are for the users, so you can. Search\
+  \ for yourself in here. The ID is your Discord ID, so just right-click your name\
+  \ and get the user ID. You can search for it. This is good old 12831DAAD736; just\
+  \ take the last six digits and you can search for that. That will be just as useful\
+  \ as the whole ID for these purposes. This is a person who hopefully had something\
+  \ to say. The order is a little bit weird here; how do I do that? So, this person\
+  \ participated in 10 conversations on these various topics. I have a suspicion that\
+  \ a lot of these will show up a little more generic than intended because of the\
+  \ smear effect that happens when you lump everything together. But this is hypothetically\
+  \ a summary of whoever this person is. This is an overview of their interests and\
+  \ what they are sort of looking at. As I said, there's the iterative nature of teaching\
+  \ a class like this. This is the kind of thing I wish I could have done throughout\
+  \ the entire semester, providing this automatically as you go, and developing an\
+  \ understanding of what each of you are interested in. I would try to steer, group,\
+  \ and lump things together based on this information. Unfortunately, as is often\
+  \ the case in open-source software, the vibe is better than it has ever been and\
+  \ worse than it will ever be. So, you have gotten the best version of this class\
+  \ that has existed up until this point, and with any luck, you've also gotten the\
+  \ worst version that will ever exist going forward. Hopefully, it was viable within\
+  \ that bound. So, first things first, I think it would be best to find the topics\
+  \ you\u2019re interested in and then just find yourself in this thing. Look at what\
+  \ it found about you, what it thought you were doing, and what it said your interests\
+  \ were versus what you're actually into. We'll come back to that in a second. The\
+  \ last thing I wanted to show you is something that is on the scale of being more\
+  \ fun and a little bit horrifying, which is image generation. One of the things\
+  \ that these AI can do is generate kind of unsettling images. Horrific imagery,\
+  \ particularly on the topic of biology, is something I believe you have seen at\
+  \ this point. One of the main themes of this class is learning how to use AI, using\
+  \ it to explore various topics, and hopefully recognizing AI-generated speech and\
+  \ text. AI has a certain characteristic to it, and you can start to learn, and I\
+  \ believe you have already begun to internalize, what it feels like to engage with\
+  \ something that is not a human being. The general philosophical term related to\
+  \ this is the grounding problem, which refers to the slightly abstract nature of\
+  \ the conversations. AI is just as likely to produce something totally reasonable\
+  \ as it is to generate something completely outrageous because you are conversing\
+  \ with a statistical model of numbers. Learning how to recognize those differences\
+  \ is a valuable life skill. Similarly, the images generated by AI use almost the\
+  \ exact same technology that generates text, just in two dimensions instead of one.\
+  \ By this point, you've likely seen AI-generated imagery everywhere. The question\
+  \ is, were you aware that you were looking at images created by AI? I'm trying to\
+  \ find an example now. Here's a conversation from Caroline that includes 14 messages,\
+  \ so I assume you discussed something interesting. Every time you engage in a chat,\
+  \ it costs me 4 cents, so be mindful of that. I haven't yet reached the stage of\
+  \ running AI locally, but with the command slash image, you can provide a prompt.\
+  \ There's a default prompt that requests a picture from the text, and you can set\
+  \ context to true, which refers to the environment you are in. If I hit this button,\
+  \ it will send something to DALL-E 3. The text is processed, generating a visual\
+  \ representation, and shortly, it will produce an image\u2014or it might not. Let's\
+  \ see... there we go. A picture based on the conversation has been created. They\
+  \ will likely look similar to this. However, this is not a very accurate representation,\
+  \ and this is not how brains function. Let's look at a different example. Here\u2019\
+  s another 14-message conversation from Sal Matu. I am going to give it a prompt\
+  \ and say, \"Focus, add dolphins to the imagery\" just to see if it's working. Then,\
+  \ I will use the context as true, and it will do the same thing it did before, but\
+  \ now it will presumably have some kind of a dolphin theme to it. Please try that\
+  \ with any conversation you've been part of that seems fun. If you want to do that,\
+  \ do it in the bot playground. You can also, if you don't use context, just do image\
+  \ generation and tell it, \"Show me.\" \n\nIt doesn't really know. I think this\
+  \ was a conversation about Parkinson's, so it's a bunch of happy, horrifying older\
+  \ ladies with brain hats and dolphins. Look at them go. Look how happy they are!\
+  \ Another thing I really hope you can get from this is that these are not brains.\
+  \ You should be horrified at the biology of what it thinks a brain looks like.\n\
+  \nYou can just say, \"Image prompt, show me the neuromotor hierarchy key,\" and\
+  \ I'm not going to give it the context; we'll just see what shows up. It will probably\
+  \ be something terrible, but you can play around with that. I will probably put\
+  \ some kind of limit on it because the text doesn't really cost any money, but the\
+  \ image does because it's a bigger computation\u2014it costs four cents. At some\
+  \ point, we'll have it running locally, so it won't cost me any money.\n\nRight\
+  \ now, it can't do words, so it produces these horrible things. It's kind of like\
+  \ the term \"uncanny\"\u2014it's close, but this person is not doing okay. Things\
+  \ are backwards; a lot of the parts that need to exist aren't there, but you can\
+  \ kind of recognize where it came from. There's some sympathetic trunk stuff going\
+  \ on here; that is the cerebellum, which it wants to represent. That's the medulla\
+  \ oblongata; that's the cortex, but the details are off. Neuromotor images are like\
+  \ getting in a fight in your dreams\u2014the parts don't really connect. If I were\
+  \ a different kind of teacher, I would have assignments that involved labeling all\
+  \ the things that are wrong with images like that, but I'm not that type of person,\
+  \ so do it on your own. Your own left is an exercise to the reader. The main thing\
+  \ I was supposed to do, I actually forgot to do. I will pretend like this is an\
+  \ assignment, even though I know it's helpful to pretend these types of things.\
+  \ I'm going to make another channel; I'll do it by the end of the day. It will be\
+  \ a sort of pairing of the introductions channel that you did when you started,\
+  \ like asking you to introduce yourself and talk about this, that, and the other.\
+  \ But it'll be more of an outro rather than an intro. I will ask you to... I won't\
+  \ do it in class, but I'll do it afterwards. If you can, grab your summary, plop\
+  \ it in there, and then have kind of an exit interview with the bot about the things\
+  \ you covered and the things you liked. I'll come up with a prompt for that, so\
+  \ it'll be a semi-guided conversation. I'll put it on Canvas, and it will look like\
+  \ an assignment. Let's pretend like I care about that and just do it for your own\
+  \ edification and also mine. Yeah, I think that's about it. I hope you enjoy this\
+  \ strange experience. We're not ready to leave quite yet. I think in the remainder\
+  \ of this time, let's pull up your stuff, the final scraping, and look at the things\
+  \ it was discussing with you. Talk amongst your friends about it. I'll come back\
+  \ through and chat until class is over in 35 minutes. So, I suppose this concludes\
+  \ the part of the course where I stand up here and talk to you. I hope you have\
+  \ enjoyed everything up to and including this portion of the course. Thanks for\
+  \ showing up, participating, and being... I don\u2019t know how happily willing\
+  \ you were, but at least no one complained too loudly about the strange and wacky\
+  \ structure of this course. I hope you got something out of it. I hope you enjoyed\
+  \ seeing a little bit about how the sausage is made, as they say. I hope to see\
+  \ you all around. Thank you for that. With that, I will turn off the recorder and\
+  \ call it a semester. Almost. There's still about 35 minutes left, but no record\
+  \ of that will exist, so, bye."
+title: '[HMN24 #10] Outro and final class report'
+transcript_chunks:
+- dur: 180.0
+  end: 180.0
+  start: 0.0
+  text: "Okay, hello everybody and welcome to the last class of the semester. Right?\
+    \ Good. Yeah, it went very fast. So, thanks for showing up and for sticking around.\
+    \ There's no final; you're all good. Today, I'm mostly going to be talking about\
+    \ some wrap-up stuff. I'll be presenting my final project, which I hope will meet\
+    \ your approval. My final project is making sense of the massive amounts of text\
+    \ you all put into the machine, and I\u2019m thinking about what that looks like.\
+    \ It pulls out a sort of weird report for each of you based on what you have been\
+    \ talking about. I don't think I'll take up nearly the entire class, so my intention\
+    \ is to situate you to that data and show you some little fun things I just added\
+    \ to the machine. For the remainder of the time, I will do a small group activity,\
+    \ where you can look over what the bot thinks you're interested in and discuss\
+    \ it in your groups. I'll come around and chat with you a bit about what's going\
+    \ on there. Then we'll be roughly good. \n\nI'm also going to talk a little bit\
+    \ about the research that I do in my life and in my lab, and I'll discuss a couple\
+    \ of avenues you can take to involve yourself in future semesters if you're interested\
+    \ in this type of thing. So, let's see what order we should do this in. First,\
+    \ I want to do a quick tutorial on how to set up your own Skelly bot server, because\
+    \ it's very easy to do\u2014just a couple of clicks\u2014and you can have your\
+    \ own version of this thing and run it until I shut it down, which probably won't\
+    \ be very soon, as I'm going to be continuously working on it. We'll do that before\
+    \ the second half of class. If anyone has questions or wants to set that up, you\
+    \ can do so. Please don't use it to cheat, but it's no different than any other\
+    \ AI tool, so I don't feel like I'm giving you any forbidden weaponry that wouldn't\
+    \ already be available. So, yeah, I'll stand by that."
+- dur: 180.0
+  end: 360.0
+  start: 180.0
+  text: "Let's start with the procedural stuff. If you are curious about this type\
+    \ of research, this general domain, and you would like to stay affiliated with\
+    \ the unusual work I do in my life, the easiest way to do that is to join the\
+    \ research server I run for my lab. You can find people there, including various\
+    \ iterations of my students. It's a human research lab, which is basically an\
+    \ acronym for human movement neuroscience. The specific tag I use for Northeastern\
+    \ students is \"Numans\"\u2014NE M O N\u2014just because it's funny.\n\nTo invite\
+    \ people, I need to generate a link. I will do that now. Here\u2019s the link:\
+    \ \n[insert link]. You can go to our server, find the announcements, and click\
+    \ on the link to join my research lab server. Once you click it, you\u2019ll pop\
+    \ up in the server. It's used in a functional way, so the conversations might\
+    \ feel a bit like you are jumping in the middle of discussions.\n\nI'll make announcements\
+    \ there regarding general events on campus, including an open lab meeting type\
+    \ of thing that I conduct. I will put the schedule there as well. Generally, the\
+    \ on-campus lab I run has an open invite policy and a flexible schedule. If you\
+    \ see a time when it's going on and can only show up for a part of that time,\
+    \ that's perfectly fine\u2014just show up without needing to ask. Even if you\
+    \ show up in a year and a half, I may not be here, but if you come back in six\
+    \ months, just show up; it will be good.\n\nAlso, regarding the voice channel,\
+    \ if anyone here is in it accidentally, you can exit by clicking on the leave\
+    \ button, which you will find easily.\n\nFor those interested specifically in\
+    \ the free MOAP side of things, the free MOAP refers to the MOAP mapping project\
+    \ we initiated at the beginning. This server is related to that and is more public-facing.\
+    \ Last I checked, there were about 2,500 individuals hanging out there, and at\
+    \ this point, I think it\u2019s a pretty even mix of people participating."
+- dur: 180.0
+  end: 540.0
+  start: 360.0
+  text: "Students and researchers in neuroscience, robotics, and clinical work, as\
+    \ well as an equal mix of animators and game designers, mostly on the indie side\
+    \ of things, are involved. If you're curious about this, you can join the free\
+    \ MOAP project public server by clicking here. This public-facing space has a\
+    \ different vibe, so feel free to get involved and see what's happening there.\
+    \ \n\nThinking about next semester, I am not completely sure what the schedule\
+    \ will look like over winter break; it's always a bit unpredictable. However,\
+    \ in the spring semester, I will have a lab meeting type of event once a week\
+    \ on campus. It will mostly be Aaron and me meeting up and focusing on the research\
+    \ side of things, primarily in Richard's 453. I will post the schedule sometime\
+    \ during the winter break, but it depends on what my class schedule ends up being,\
+    \ which I haven't checked yet. I think it will likely be on Tuesday or Thursday\
+    \ afternoons, so please keep an eye out for updates.\n\nJust a reminder about\
+    \ the basic rules: the white dots on the channels indicate that a message has\
+    \ been posted, and a red number means that you've been specifically tagged. If\
+    \ you see a red dot appearing from the lab server, it's likely because I've tagged\
+    \ the Numan role, indicating that there is open conversation or announcements\
+    \ for all student-affiliated participants. \n\nIn addition, I will make an announcement\
+    \ about what I will be doing in my class next semester. It's going to be an inquiry\
+    \ session, similar to the first semester for freshmen, which you all presumably\
+    \ experienced at some level. This will be essentially the same course but split\
+    \ into twice a week sessions. I will cover mostly the same topics in a shorter\
+    \ format. The sessions will be divided: one will focus on lecture-type material,\
+    \ while the other will be more research-oriented, providing time for actual data\
+    \ analysis and other related activities."
+- dur: 180.0
+  end: 720.0
+  start: 540.0
+  text: "I think the way that you usually conduct inquiries is that you are supposed\
+    \ to present a paper at the end of the semester. However, I do it more like a\
+    \ mini research project. If anyone is interested and the timing works out, this\
+    \ will also be an open invitation for upperclassmen who want to attend and have\
+    \ an opportunity to dig a little deeper into the material. They can participate\
+    \ in a more structured research project to help some freshmen understand what\
+    \ papers are. You have seen how this works; there is a lot of surface area, and\
+    \ there aren\u2019t many people with the specific areas of knowledge that I am\
+    \ teaching, except for me, since I am the one standing here. In terms of the research\
+    \ aspect, if you wanted to show up, you would have the ability to mix and match\
+    \ and help out others who are doing projects, maybe steer some people in directions\
+    \ that you care about. Then they will present at the end of the semester. Anyone\
+    \ you helped will have your name on the poster, and I include a section for undergraduate\
+    \ research involvement, which is a nice way to enhance your resume with legitimate\
+    \ lines stating that you assisted with research projects. I don\u2019t know if\
+    \ anyone feels like attending an additional class for which you will receive no\
+    \ credit, but you might enjoy the experience. I will also make an announcement\
+    \ once I know more about what that schedule will be. Additionally, you are free\
+    \ to come and go throughout the semester, which is true, but the way the class\
+    \ goes may not always go as I anticipate. I will provide an announcement before\
+    \ the semester begins about what I think the vibe will be, and if it shifts, just\
+    \ ask about it or show up anyway\u2014it doesn't matter. On a similar note, I\
+    \ know that for a lot of your degrees, you need a research lab. You can also complete\
+    \ independent studies, but you would need to talk to your advisor about the specific\
+    \ rules. I am open to a lot of that type of work, though I probably don\u2019\
+    t have much available time for truly independent studies. However, if you wanted\
+    \ to do something like that, I am open to discussing it further."
+- dur: 180.0
+  end: 900.0
+  start: 720.0
+  text: "In order to cover a research credit, I would be happy to work something out\
+    \ that overlaps with the work I'm doing in the inquiries class. We can find a\
+    \ way for you to choose a project and interact that way. I have heard that finding\
+    \ space in those research classes can be difficult, and often the domain of inquiry\
+    \ may not align with your specific interests, particularly for those focused on\
+    \ data science. \n\nAdditionally, I want to note again that there is a link in\
+    \ the resources channel to a playlist of YouTube recordings. These recordings\
+    \ are of the lectures, except for one where I encountered a problem and the video\
+    \ was corrupted. However, they are available online and will likely remain online\
+    \ until either Google ceases to exist or the sun burns out\u2014whichever comes\
+    \ first. It's more probable that Google would go first, but we will see. You can\
+    \ check in on all the content I've mentioned; the lecture from last time is available\
+    \ for the majority of you who weren't here.\n\nAt some point, hopefully before\
+    \ the end of the semester or before the winter break, Skybot will have the capability\
+    \ to process YouTube URLs. You will be able to provide a URL, and it will pull\
+    \ a transcript and generate a summary. This will allow you to review what we've\
+    \ been discussing. One of the interesting aspects of teaching this class with\
+    \ a tech tool that I've developed is that each class builds on the functionalities\
+    \ of the previous one.\n\nIn this semester, I did not add new functionalities\
+    \ to the bot, but I worked on enhancing the backend in terms of analyzing and\
+    \ processing data and producing reports that we will discuss. For the next semester,\
+    \ I want to add the ability for the bot to pull information into a chat. For example,\
+    \ if you have a PDF, a DOI, a YouTube video, a website, or a research paper, the\
+    \ bot will be able to integrate those resources. You could ask about any of those\
+    \ resources in the chat, and the bot would be able to provide relevant information.\
+    \ That will be exciting! I'm sure there are questions about this, and the second\
+    \ half of this session will be focused on that."
+- dur: 180.0
+  end: 1080.0
+  start: 900.0
+  text: "I hope so. Roughly, it sort of depends. A lot of this, I like that both of\
+    \ those tasks are pretty similar at a certain level. It's like adding to the context,\
+    \ and particularly for large things, there's a vector search type of thing that\
+    \ wants to happen. Otherwise, if you pull in a 300-page document, that's so much\
+    \ text that it'll kind of overwhelm the conversation. So, there are things you\
+    \ need to do to make that more efficient. At a certain level, the difference between\
+    \ pulling a transcript from a YouTube video and chopping up a PDF is not that\
+    \ significant relative to the core task of adding that functionality to the bot\
+    \ itself. So, it sort of depends. I have other things to do, and the ability to\
+    \ judge the scale of a task is an impossible forever task. I hope to add stuff\
+    \ like that before next semester, but time will tell.\n\nFor the moment, the bot\
+    \ has mostly been just something that I make and play with. Some people and other\
+    \ professors have used it, but it hasn't really been a public-facing project like\
+    \ Free Moap is. I'm going to start doing that for this project, probably starting\
+    \ next semester. I want it to be a kind of slow roll, so that will change the\
+    \ vibe a lot. It will hopefully become something of a proper open-source project\
+    \ as opposed to just a toy that I'm hanging onto and playing with.\n\nIn general,\
+    \ I think there are some very interesting teaching methods emerging. You know,\
+    \ the stuff we're going to talk about shortly, about this fascinating process\
+    \ where I can give incredibly dense lectures and then walk around, allowing you\
+    \ all to focus on whichever part piques your interest. You get to explore that\
+    \ to some extent. I think there's something interesting there that I'm curious\
+    \ about continuing to push and explore, and then making that available to other\
+    \ educational individuals, whether they are teachers or just people who like to\
+    \ learn things. Incidentally, I\u2019m kind of talking backward here, but I often\
+    \ do. Part of the reason why I want to focus on pulling external context into\
+    \ conversations is related to this realization I had when I was wrapping up the\
+    \ kind of oroboros nature."
+- dur: 180.0
+  end: 1260.0
+  start: 1080.0
+  text: "of AI text where there were a lot of conversations. I know from experience\
+    \ that they were all mostly on point, mostly accurate, and mostly saying the right\
+    \ things. However, no one is checking the work here. I hope you all were sort\
+    \ of looking into this on your own, but I wasn't. I was thinking about the order\
+    \ of or distances from a human and distances from empirical measurement\u2014\
+    this chain of reasoning we've talked about in a lot of research settings. In these\
+    \ settings, the human asks a question, and the bot produces an answer. You have\
+    \ a conversation with these human-bot couplets, and then you summarize that. You\
+    \ say, \"Okay, here's the summary of that conversation,\" and then you summarize\
+    \ the summaries. At that point, you have a report on the topic. But at some point,\
+    \ the AI text begins analyzing the AI text, which progresses farther and farther\
+    \ from the real natural world. Therefore, I think it's not too insane to imagine\
+    \ a setting where the bot can look at the questions, pull some review articles\
+    \ from PubMed, and instead of just stating what it thinks it should say based\
+    \ on its training, it can provide a response informed by its training plus articles\
+    \ pulled from humans who presumably have qualifications and peer review and empirical\
+    \ measurements behind them at some level. With that in mind, let's talk about\
+    \ where we got with this thing. As before, in the resources channel, there are\
+    \ server scrape checkpoints. The last one here is the last one I intend to produce.\
+    \ But before we go into that, I learned how to do this, didn't I? Is it forward\
+    \ or backward to pull it out? I can't remember if it was pull it out or push it\
+    \ in. So, here's a quick overview of the basic algorithm that happened. You, as\
+    \ a human, congratulations, and here\u2019s the bot doing its best. That's the\
+    \ international sign for bot, and you ask a question, and the bot..."
+- dur: 180.0
+  end: 1440.0
+  start: 1260.0
+  text: "produces an answer, whatever, and then we have a couple of those. We're going\
+    \ to call this a chat, a thread, or a conversation. This is sort of the basic\
+    \ unit that you've been producing this whole time. There are these linked blobs\
+    \ of text representing human questions. I know there were different formats; it\
+    \ wasn't always just question and answer. It was a lot of question and answer,\
+    \ but you know, human query, bot response, human query, bot response. Each of\
+    \ these is a chat. Then we have the structural aspect of this: we have the server,\
+    \ which is the Discord server. The Discord server has categories, such as the\
+    \ lectures, the bodies, and the eyeballs. We didn't really end up using a lot\
+    \ of this structure other than the lectures, but that's okay. Each category has\
+    \ a certain set of channels. Channels are named, and again, there's a prompting\
+    \ feature that we didn't really use much of, which is also okay. Within each of\
+    \ these categories, there are chats, and each chat has messages. These are the\
+    \ basic units of the conversation. Let's see, do I have the numbers here? This\
+    \ is one of those things where what you're seeing is what I got done. I'm sure\
+    \ you are familiar with working under a deadline, and the difference between the\
+    \ things you hope you can get done and the things that actually get done is often\
+    \ quite dramatic. But like, I should know things like we had this many chats and\
+    \ this many words; however, I don't know those numbers off the top of my head.\
+    \ They might just be shoved in here somewhere. But the answer is, it was a lot.\
+    \ The word count was high, mostly bot talk, in terms of human produced text versus\
+    \ bot produced text. The bot talked a lot more, because asking a question like\
+    \ \"What is the cortico-spinal tract?\" is not very many words, but the response\
+    \ is often quite a lot. I\u2019m just going to see if I can do that. Is that working?\
+    \ I don't think it's going to give it to me."
+- dur: 180.0
+  end: 1620.0
+  start: 1440.0
+  text: 'Yes, I mean, that''s 20,000, no, 200,000 lines of text, but mostly it''s
+    not like functional text, so I don''t really have those hard numbers there. Okay,
+    so most of the things that we''ve been showing so far, like when I would sort
+    of produce these checkpoints, you load them into Obsidian. The analyses that we
+    were looking at were basically iterating through each of these chats. For every
+    server, there were three categories: a bunch of channels, a bunch of chats. You
+    get these units of chat, and I would basically feed them back into GPT-4, which
+    is the same LLM that''s driving Skelly Bot, the main guy. It would do things like
+    produce a summary, highlights, or whatever. Then importantly, it would produce
+    these tags, which were the sort of hashtag topics. Up until this point, that''s
+    what we had: a bunch of summaries and AI analyses of the chats themselves.
+
+
+    I added in this round, so you might consider this kind of like a first-order summary
+    because you''re going through each conversation. We''ll call this a zeroth order
+    because it''s human to bot each time. This sort of chat summary is kind of like
+    a first-order analysis of that. We''re looking over, lumping up all the conversations,
+    and examining what''s going on in there. However, there''s nothing that we can
+    do at this level that will group across different conversations. Each one of these
+    measurements is sort of independent of anything else that might be going on in
+    the server.
+
+
+    Now, there are two additional categories: one is by user and another is by topic.
+    By user, that''s all of you guys. Basically, at that point, what I did is I cycled
+    through all of the conversations. I iterated through each one of you, so every
+    ID that showed up in the Discord server, and then I iterated through all of the
+    available chats. I think there were like 300 and something of these; I can''t
+    remember exactly what the number was. I grouped all of the chats that you as an
+    individual person contributed to, and I counted any chat where you sent a single
+    message as a chat that you were a part of.'
+- dur: 180.0
+  end: 1800.0
+  start: 1620.0
+  text: "I pulled this up because it was a place where I could have done a little\
+    \ extra work. I ran the exact same summary, so you get a sort of AI-generated\
+    \ summary of all the topics and tags related to this person. This is kind of a\
+    \ report about yourself. However, I don't fully trust that it's going to do a\
+    \ good job because if you had a lot of conversations, that's a lot of text to\
+    \ summarize. You might receive wonky results. The main issue is that there's a\
+    \ huge initialization bias. The first text it receives is over-represented in\
+    \ the summary. For example, if the first conversation you had was about dogs,\
+    \ and then you had several other conversations about topics that aren't dogs,\
+    \ the summary will indicate that this person really likes dogs simply due to that\
+    \ initial conversation. There are ways to address this bias, but they are more\
+    \ sophisticated than what I did, so you get what you get.\n\nThe other thing I\
+    \ looked at was by topic. I went through and grabbed each of the tags from all\
+    \ the summaries. I believe not just from the chats. I didn't examine the tags\
+    \ individually; presumably, there shouldn't be many additional tags appearing\
+    \ here because the list of all users is just a reshuffling of the server structure.\
+    \ All the chats that are in the server are also represented here. There might\
+    \ be duplications since if you participate in the same chat multiple times, the\
+    \ same tags would appear.\n\nI found roughly 1,500 unique tags that showed up\
+    \ across all conversations in the entire server. Many of these tags were redundant,\
+    \ for example, one tag might be \"ACL recovery\" while another is \"ACL repair\"\
+    \u2014those should really be combined into one. Rather than producing something\
+    \ for every single tag, I only created documents for tags that had a rank of at\
+    \ least five, where rank means the number of times they were mentioned. Thus,\
+    \ every tag that showed up at least five times was included."
+- dur: 180.0
+  end: 1980.0
+  start: 1800.0
+  text: 'Conversations got this special treatment, and that one is a little different
+    from this summary. I asked it to make a Wikipedia-style article, so I grabbed
+    the topics, let''s say biomech, and I collected every thread that mentioned that
+    had this tag in it. I grouped all of these together and sent it to a prompt that
+    said, "Create a Wikipedia-style article about this." The prompt I made was literally
+    going to the Wikipedia style guide, copying the whole thing, giving it to the
+    bot, and telling it to create a good prompt out of this style guide. It made a
+    pretty good one, and now we have that. So, yeah, what we''re about to see should
+    look very similar. Everything we have been seeing up until this point is going
+    to be under a folder called ''by server,'' obviously. Then there are going to
+    be two additional ones: one by topic and one by user, where user is synonymous
+    with student. That totally makes sense, I''m sure everyone is following fully.
+    This is one of those things where a lot of that explanation was for me and for
+    anyone curious about what''s about to show up. As before, I don''t know which
+    one that one is from. Let''s see, in downloads, okay, yeah; this is one of those
+    places where a lot of work happened that is just going to be completely invisible
+    from the outside. There was a lot of stuff that you''re just never going to see
+    because it was about organization and the ability to do this amount of information
+    and have it be reasonable and maintain any kind of confidence about what''s going
+    on. It''s mostly an organizational task. You''ll also never see all the things
+    that were tried and never completed, and the dead ends and stuff like that. So,
+    c''est la vie. Okay, so I''ll download the thing, open the zip, go into Obsidian.
+    It should be straightforward at this point. Open the thing; the markdown folder
+    is the one with all the actual documents in it. The other ones just have JSON
+    files, and it''s white for some reason.'
+- dur: 180.0
+  end: 2160.0
+  start: 1980.0
+  text: "Always prefer dark mode, and let's see what it looks like. Unlike before,\
+    \ there are actually links between the articles now. It shows up as some links\
+    \ here, and if you add the tags and look at all those weird entries, we have definitely\
+    \ at this point overwhelmed what Obsidian was intended for. There's also one of\
+    \ the things I tried that I didn't quite get working, which was building out a\
+    \ better 3D version of this so you can rotate it. I never quite got that working,\
+    \ but you can. In Obsidian, click the little gear box at the bottom, go to community\
+    \ plugins, turn on community plugins, and browse for 3D. I think that none of\
+    \ these are quite what I want them to be, but they're better than what I have,\
+    \ which is nothing. I just searched for 3D and turned on the top three because\
+    \ they're all not quite what I want in slightly different ways. So you can at\
+    \ least look at them, and mostly it's just that this is not going to be useful;\
+    \ it's just going to be something like, \"Oh look!\" Those show up. Do that one.\
+    \ So this one is fun, but it doesn't show the tags. However, you can start to\
+    \ see how some of these things work. For example, neuroscience is attached to\
+    \ everything, and movement is attached to many things, while a lot of these other\
+    \ ones just aren't linked properly because they didn't generate the tags and links\
+    \ correctly. This one is a little better; it also doesn't show tags, but it gets\
+    \ a special place in my heart because it plotted the XYZ in the origin there.\
+    \ It does a better job of showing the titles, but it also doesn't show the tags.\
+    \ This one shows the tags, but it's also a bit of a horror show. Someone got too\
+    \ excited about Bloom, which is that brightness effect, and then there are commands\
+    \ here for display control. You can turn the Bloom down but not off, so it does\
+    \ show the route to the tags. It's in green, I believe. Yeah, so that one\u2014\
+    oh, this one's by a user. So again, there's not much more to say about this representation\
+    \ of the graph structure other than to kind of just note the general vibe of it,\
+    \ which is that these are a bunch of very..."
+- dur: 180.0
+  end: 2340.0
+  start: 2160.0
+  text: "interconnected topics, and this exploration, even though it's not particularly\
+    \ functionally organized, is representative of the shape of your collective curiosity\
+    \ about the topic of human movement neuroscience. If you were to click through,\
+    \ which we will in a second here, you would see a bunch of different conversations\u2014\
+    hundreds of different conversations\u2014of each of you asking some kinds of questions\
+    \ about some things that you wanted to know more about. Although the topic itself\
+    \ constrains the questions to some extent, if I were to teach this class again\
+    \ with a different group of people, you would see a lot of overlap in the questions\
+    \ that were asked, but it wouldn't be complete overlap. If it was a different\
+    \ room full of people, you would have asked different questions, and then the\
+    \ results would have different components. There's something really neat about\
+    \ that. I remember at one point in the semester, after I gave a very dense run-through\
+    \ of a bunch of different parts of your nervous system in the motor hierarchy\
+    \ lecture, I went around to talk to people afterward. Every single group that\
+    \ I talked to was asking about something different. There was no overlap between\
+    \ the things that you were curious about, which was really cool and surprising\
+    \ to me. You kind of expect that, oh, they're all going to be interested in this\
+    \ or they're all going to be interested in that, but every one of you was interested\
+    \ in something different about that lecture. Because of the friendly machine,\
+    \ you were all able to explore that curiosity in a way that was constrained by\
+    \ the lecture, constrained by the topic, constrained by the reality of the human\
+    \ nervous system, but shaped specifically by the questions that you asked and\
+    \ the curiosities that you brought to the table. That's something I think is very\
+    \ indicative of a lot of the world and the way that we do scientific research.\
+    \ To some extent, there is this very incorrect view of science that it is an objective\
+    \ thing and that there\u2019s no human element to it. You hear people say things\
+    \ like, 'Oh, if we deleted all the scientific textbooks, in a thousand years we\u2019\
+    d have the same textbooks.' That's not entirely false; we would certainly discover\
+    \ the same things. We would discover that there's a spinal cord and that there's\
+    \ a big lumpy pink thing on top. We would discover things like Rodman's areas\
+    \ and that the occipital lobe is where the vision stuff happens. However, the\
+    \ concepts that evolve and arise from scientific research are shaped by the people\
+    \ who do the researching. The terms, terminology, and frameworks that we develop\
+    \ are human creations that help us understand the world."
+- dur: 180.0
+  end: 2520.0
+  start: 2340.0
+  text: "A part of it is that they're shaped by the world. You can't just make them\
+    \ up; there are rules about the things you can say, but it's a very human endeavor.\
+    \ It's something that I think is really important to think about. This is not\
+    \ directly related to this, but there's a concept in the philosophy of science,\
+    \ which I think is one of the more core concepts. It's called the Quinian web\
+    \ of belief, named after W.V.O. Quine. The idea is that your knowledge of the\
+    \ world\u2014your knowledge as an individual, as a collective, as a culture, as\
+    \ a community, and as a species\u2014is an interconnected web of beliefs. Each\
+    \ part of it overlaps with everything else. When you explore new things and learn\
+    \ new knowledge, you have to integrate any new piece of information into that\
+    \ web of beliefs. If the new piece of knowledge is consistent with that web, then\
+    \ there's no problem; you can add it in and connect it with other things, and\
+    \ then you understand the world better. However, if you learn a new fact that\
+    \ conflicts with something else in your web, you have to choose to either reject\
+    \ the new fact and say, 'This must not be true,' or go in and adjust your web\
+    \ by figuring out what parts are in contradiction. You have to consider the cost:\
+    \ is it more costly to reject the new fact or to reshuffle your beliefs in a way\
+    \ that may have reverberating effects? I think that concept is very core to how\
+    \ we do science and how we integrate information. For example, if a particular\
+    \ node in the web turned out to be based on a user ID, say 1126223, and that represents\
+    \ all the research that that scientist had done, along with the links to what\
+    \ they contributed to the web of knowledge, we would need to reassess everything\
+    \ if we found out that this person was a fraud who falsified their data. We would\
+    \ have to delete this node and determine how much of the surrounding knowledge\
+    \ can stand independently versus how much relies on that person's work. I'm mentioning\
+    \ this in the context of human falsification of science, which is never great,\
+    \ but it also relates to how theories evolve. You know, Thomas Kuhn had insights\
+    \ about this as well."
+- dur: 180.0
+  end: 2700.0
+  start: 2520.0
+  text: "The structure of scientific revolutions, things like that, which we're not\
+    \ going to talk about because I'm already getting distracted. But I like graphs\
+    \ and nodes, and I think it's running a little late. So, this is the markdown\
+    \ folder where we have all of our different things organized by server. The top\
+    \ level consists of categories, and then the channel, and then there are all of\
+    \ the conversations that stemmed from that. It takes a second to load; I should\
+    \ close this. So, this is someone who was asking about, oh, this is not a good\
+    \ choice. Let's say reflex balance and ear infection. Someone is asking about\
+    \ ear infections and how that could affect balance. The answer is, yes, it can\
+    \ for sure. The vestibular system gets involved there, and hopefully the bot said\
+    \ something similar\u2014yes, vestibular rehab therapy. There you go. These are\
+    \ the tags that show up, and the backlinks don't work, so if you click on them,\
+    \ it won't work. This is that whole conversation there. And then, this is the\
+    \ new topic section, which has a bunch of these. Each one of these tags, let's\
+    \ look at something; let's look at SADs. There you go. This one has a tag link\
+    \ count of nine, meaning there were nine chats that earned the SAD tag. There\
+    \ you go. This is the Wikipedia-style article that the bot generated, and I think\
+    \ I included, yeah, these are links to the chat. Again, the links don't work,\
+    \ but the names are accurate, so you can search for the name to find it. This\
+    \ would have been the users that had the tag, but that part also didn't work.\
+    \ And then, we can create a new group file. There, all the red ones are the by-topic\
+    \ ones. Oh, wait. Then there\u2019s the file for users, and all of the, let's\
+    \ see, what color should these be? Magenta. And these ones should be blue. So,\
+    \ all the magenta ones are for the users, so you can."
+- dur: 180.0
+  end: 2880.0
+  start: 2700.0
+  text: "Search for yourself in here. The ID is your Discord ID, so just right-click\
+    \ your name and get the user ID. You can search for it. This is good old 12831DAAD736;\
+    \ just take the last six digits and you can search for that. That will be just\
+    \ as useful as the whole ID for these purposes. This is a person who hopefully\
+    \ had something to say. The order is a little bit weird here; how do I do that?\
+    \ So, this person participated in 10 conversations on these various topics. I\
+    \ have a suspicion that a lot of these will show up a little more generic than\
+    \ intended because of the smear effect that happens when you lump everything together.\
+    \ But this is hypothetically a summary of whoever this person is. This is an overview\
+    \ of their interests and what they are sort of looking at. As I said, there's\
+    \ the iterative nature of teaching a class like this. This is the kind of thing\
+    \ I wish I could have done throughout the entire semester, providing this automatically\
+    \ as you go, and developing an understanding of what each of you are interested\
+    \ in. I would try to steer, group, and lump things together based on this information.\
+    \ Unfortunately, as is often the case in open-source software, the vibe is better\
+    \ than it has ever been and worse than it will ever be. So, you have gotten the\
+    \ best version of this class that has existed up until this point, and with any\
+    \ luck, you've also gotten the worst version that will ever exist going forward.\
+    \ Hopefully, it was viable within that bound. So, first things first, I think\
+    \ it would be best to find the topics you\u2019re interested in and then just\
+    \ find yourself in this thing. Look at what it found about you, what it thought\
+    \ you were doing, and what it said your interests were versus what you're actually\
+    \ into. We'll come back to that in a second. The last thing I wanted to show you\
+    \ is something that is on the scale of being more fun and a little bit horrifying,\
+    \ which is image generation. One of the things that these AI can do is generate\
+    \ kind of unsettling images."
+- dur: 180.0
+  end: 3060.0
+  start: 2880.0
+  text: "Horrific imagery, particularly on the topic of biology, is something I believe\
+    \ you have seen at this point. One of the main themes of this class is learning\
+    \ how to use AI, using it to explore various topics, and hopefully recognizing\
+    \ AI-generated speech and text. AI has a certain characteristic to it, and you\
+    \ can start to learn, and I believe you have already begun to internalize, what\
+    \ it feels like to engage with something that is not a human being. The general\
+    \ philosophical term related to this is the grounding problem, which refers to\
+    \ the slightly abstract nature of the conversations. AI is just as likely to produce\
+    \ something totally reasonable as it is to generate something completely outrageous\
+    \ because you are conversing with a statistical model of numbers. Learning how\
+    \ to recognize those differences is a valuable life skill. Similarly, the images\
+    \ generated by AI use almost the exact same technology that generates text, just\
+    \ in two dimensions instead of one. By this point, you've likely seen AI-generated\
+    \ imagery everywhere. The question is, were you aware that you were looking at\
+    \ images created by AI? I'm trying to find an example now. Here's a conversation\
+    \ from Caroline that includes 14 messages, so I assume you discussed something\
+    \ interesting. Every time you engage in a chat, it costs me 4 cents, so be mindful\
+    \ of that. I haven't yet reached the stage of running AI locally, but with the\
+    \ command slash image, you can provide a prompt. There's a default prompt that\
+    \ requests a picture from the text, and you can set context to true, which refers\
+    \ to the environment you are in. If I hit this button, it will send something\
+    \ to DALL-E 3. The text is processed, generating a visual representation, and\
+    \ shortly, it will produce an image\u2014or it might not. Let's see... there we\
+    \ go. A picture based on the conversation has been created. They will likely look\
+    \ similar to this. However, this is not a very accurate representation, and this\
+    \ is not how brains function. Let's look at a different example. Here\u2019s another\
+    \ 14-message conversation from Sal Matu."
+- dur: 180.0
+  end: 3240.0
+  start: 3060.0
+  text: "I am going to give it a prompt and say, \"Focus, add dolphins to the imagery\"\
+    \ just to see if it's working. Then, I will use the context as true, and it will\
+    \ do the same thing it did before, but now it will presumably have some kind of\
+    \ a dolphin theme to it. Please try that with any conversation you've been part\
+    \ of that seems fun. If you want to do that, do it in the bot playground. You\
+    \ can also, if you don't use context, just do image generation and tell it, \"\
+    Show me.\" \n\nIt doesn't really know. I think this was a conversation about Parkinson's,\
+    \ so it's a bunch of happy, horrifying older ladies with brain hats and dolphins.\
+    \ Look at them go. Look how happy they are! Another thing I really hope you can\
+    \ get from this is that these are not brains. You should be horrified at the biology\
+    \ of what it thinks a brain looks like.\n\nYou can just say, \"Image prompt, show\
+    \ me the neuromotor hierarchy key,\" and I'm not going to give it the context;\
+    \ we'll just see what shows up. It will probably be something terrible, but you\
+    \ can play around with that. I will probably put some kind of limit on it because\
+    \ the text doesn't really cost any money, but the image does because it's a bigger\
+    \ computation\u2014it costs four cents. At some point, we'll have it running locally,\
+    \ so it won't cost me any money.\n\nRight now, it can't do words, so it produces\
+    \ these horrible things. It's kind of like the term \"uncanny\"\u2014it's close,\
+    \ but this person is not doing okay. Things are backwards; a lot of the parts\
+    \ that need to exist aren't there, but you can kind of recognize where it came\
+    \ from. There's some sympathetic trunk stuff going on here; that is the cerebellum,\
+    \ which it wants to represent. That's the medulla oblongata; that's the cortex,\
+    \ but the details are off. Neuromotor images are like getting in a fight in your\
+    \ dreams\u2014the parts don't really connect. If I were a different kind of teacher,\
+    \ I would have assignments that involved labeling all the things that are wrong\
+    \ with images like that, but I'm not that type of person, so do it on your own."
+- dur: 180.0
+  end: 3420.0
+  start: 3240.0
+  text: "Your own left is an exercise to the reader. The main thing I was supposed\
+    \ to do, I actually forgot to do. I will pretend like this is an assignment, even\
+    \ though I know it's helpful to pretend these types of things. I'm going to make\
+    \ another channel; I'll do it by the end of the day. It will be a sort of pairing\
+    \ of the introductions channel that you did when you started, like asking you\
+    \ to introduce yourself and talk about this, that, and the other. But it'll be\
+    \ more of an outro rather than an intro. I will ask you to... I won't do it in\
+    \ class, but I'll do it afterwards. If you can, grab your summary, plop it in\
+    \ there, and then have kind of an exit interview with the bot about the things\
+    \ you covered and the things you liked. I'll come up with a prompt for that, so\
+    \ it'll be a semi-guided conversation. I'll put it on Canvas, and it will look\
+    \ like an assignment. Let's pretend like I care about that and just do it for\
+    \ your own edification and also mine. Yeah, I think that's about it. I hope you\
+    \ enjoy this strange experience. We're not ready to leave quite yet. I think in\
+    \ the remainder of this time, let's pull up your stuff, the final scraping, and\
+    \ look at the things it was discussing with you. Talk amongst your friends about\
+    \ it. I'll come back through and chat until class is over in 35 minutes. So, I\
+    \ suppose this concludes the part of the course where I stand up here and talk\
+    \ to you. I hope you have enjoyed everything up to and including this portion\
+    \ of the course. Thanks for showing up, participating, and being... I don\u2019\
+    t know how happily willing you were, but at least no one complained too loudly\
+    \ about the strange and wacky structure of this course. I hope you got something\
+    \ out of it. I hope you enjoyed seeing a little bit about how the sausage is made,\
+    \ as they say. I hope to see you all around. Thank you for that. With that, I\
+    \ will turn off the recorder and call it a semester. Almost. There's still about\
+    \ 35 minutes left, but no record of that will exist, so, bye."
+video_id: 7bZSNgjZJ0g

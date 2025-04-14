@@ -1,0 +1,1272 @@
+full_transcript: hello we're recording now spectacular but that's not I mean so yeah
+  fmri is great kind of uh I have doubts but um it is like the best tool that we have
+  for looking inside of a person's brain without opening it up um there's also things
+  like EEG there's also stuff like f near I don't really like or trust any of those
+  either because they're all just so abstracted away from the thing that we actually
+  hypothetically care about which is the desum desum desat Des of the kind of research
+  that's multiple yeah um the desideratum of a given research area is the thing that
+  you want to know why' you come here why' you show up what's your goal that is the
+  desideratum of the field of inquiry and I would argue that the field of Neuroscience
+  is largely designed to help us understand what the hell this is like this this stuff
+  right I left my house got on a bike did a bunch of this somehow my dinner from last
+  night fueled the energy cost somehow and now I'm here and I'm talking to you and
+  I'm telling you that that happened um and a lot of the scientific world that we
+  live in this sort of has this very reductionist feel and sort of underlying philosophy
+  of reductionism where the goal is to measure things with increasing Precision at
+  the at finer and finer levels with the hopes that we'll someday get to the bottom
+  of it and figure it all out um and so because of that it's kind of somewhat by necessity
+  of technology and somewhat by you know sort of feedback loops driven there um the
+  tools that we use to measure research often come at the cost of the ecological validity
+  of the data meaning that you're putting me in a tube and shooting big magnets at
+  my head and saying oh look at what your brain is doing that tells me something about
+  you out in the world um over evolutionary time and over you know course of your
+  day and it does to some extent because you're measuring the same engine that's driving
+  the behavior when I'm out doing stuff but this you're getting a very precise measurement
+  of the thing doing something different from the thing that you actually care about
+  which is behaving out in the real world right so it's kind of there's often a trade-off
+  in fact there's perhaps necessarily A trade-off between empirical precision and
+  God in heaven and ecological validity one second I got this so if we can't record
+  what's going on in my brain because it's unfortunately 2024 and we just can't do
+  that yet and some people will say oh no you can put e EEG on people uh you can do
+  fmri on people and it's like yeah you can but I don't but yeah let me phrase that
+  no you can't but a lot of people believe that you can and we respect their efforts
+  um so if we are talking about trade-offs between like empirical precision and ecological
+  validity anytime there's a trade-off there's often two sides to that so I'd say
+  all the way on the farthest side of like empirical Precision um reductionist philosophy
+  is the eiz measurements that's like you're sticking a a electrode into the the goop
+  itself and looking at how it spikes and you get unbelievably precise measurements
+  typically on nonhuman animals but sometimes you get to do that um but in those situations
+  in particular the animal or whatever that you're well it's always an animal um human
+  or non-human animal is never doing anything particularly interesting it's just usually
+  attached to something because the technology requires it there are new technologies
+  coming online that allow animals to move around as they're being measured but and
+  I'm like working on some of those things with some people but those are new types
+  of studies new types of tools new types of equipment an alternative approach is
+  to say let's go the other way and let's just measure the behavior as closely as
+  we can to the desired the desideratum the sort of the case study the ecologically
+  valid measurements uh the ecologically valid behaviors let's record those as well
+  as we can and then we can make inferences about what's going on and the inner parts
+  the hidden variables the parts that we can't actually measure directly and if we're
+  lucky then the people who are out there cracking open skulls and taking like electrical
+  recordings we'll share their notes and we can and they can say oh hey we found this
+  part and that part and we think this does this other thing and I can say oh well
+  I saw this behavior and that behavior and those two things kind of line up these
+  things don't but those things do and in a perfect world we all get to do nice good
+  happy research end of class we're done um but yeah no unfortunately it's actually
+  slightly more complicated than that um yeah so let's sort of for the moment put
+  the reductionists to the side there's more than enough of them they're very well
+  funded they'll be fine and let's work on this other part where we try to figure
+  out so that that thing I said before where I was like you just measure the real
+  behavior and then you study that and you're good to go it turns out that part also
+  quite difficult and you saw in that lab some of the big fancy tools that we use
+  to do that and it measures the environmental forces excuse me for pushing into your
+  space um yeah so we can measure things like Movement we can measure things like
+  forces we use these big fancy tools to do it actually uh you want to help me out
+  but yeah guess yeah just go ahead and start setting things up just freeo cap it
+  regular and I'll keep blathering about stuff do you have on here yeah no I got it
+  cond activate that's why I was late I was like oh it's been a while since I've used
+  that computer to do anything ah and I'm gonna move this up do we know how to raise
+  that thing it's probably over here cam privacy manual control I don't see anything
+  obvious oh it might be stupid and just well unlikely but it might be like pull it
+  down when it comes up oh maybe it's got the thing on it no it's probably powered
+  um it might be like it turns it off when this thing turns off uh it's fine we'll
+  figure it out that's good enough for no oh uh yeah and also turn this off yeah so
+  this is connected but because it's being it's being held by OBS these things turn
+  off so there's an order of operations that you have to do if it's like if you if
+  you turn OBS on and it grabs that camera then you can do free mo cap and it only
+  sees these otherwise it gets weird Okay so as I mentioned I spent a lot of my time
+  over the past half decade or so uh messing with cheap cameras because I had a whole
+  crisis of conscience around how freaking expensive that lab was and even if I wasn't
+  like morally perturbed by it I hate that equipment it's garbage that software is
+  the worst like as in terms of like physical measurement apparati spectacular the
+  force plates are great the cameras are very fast and precise but the software is
+  abysmal and it's super duper duper expensive um and even if it wasn't it like sucks
+  to use and there's a lot of manual effort manual labor it's basically 90s Tech um
+  which I haven't been doing this since the 9s but I have been doing this since that
+  was less of a dig um and yeah so cool nice so also there's been a lot of technological
+  advancement since the 90s uh and a lot of them has focused on these weird objects
+  this is called camera cameras measure light uh light is trying to get a sense of
+  color I might have to take my shoes off because they're yeah I'll take I'll do it
+  later um oh yeah right so basically uh long story short so this is free moap it's
+  a free open source markless motion capture system that works in conceptually very
+  similar way to the big fancy space in the lab um did you guys see that they show
+  you like the 2D views with the intensi you see like you move the thing around it's
+  like oh look at those dots on the on the screen and then they get triangulated remember
+  because they triangles it's mostly triangles um uh and then you get the 3D information
+  based off of that so those old systems I say old like say the traditional marker
+  based motion capture system basically constrains the world that it's measuring to
+  make it easier to measure you take a you put a marker like a DOT specially designed
+  dot that uses retrolective stuff which is the the things on your shoes which have
+  interesting Optical properties um and you put those on the person on the thing that
+  you're trying to measure and that thing is designed to work with the cameras to
+  make the cameras able to track that thing in 2D and then there's a bunch of fancy
+  secret expensive software doing 20 thou 20 uh like 2 to 3,000-year Old math um to
+  figure out where that dot is in space um um so again you kind of have that theme
+  where you're constraining the world a bit to make it easier to measure in the fmri
+  or in the eiz world you can strain the behavior by telling the person not to move
+  you constrain the behavior by like removing the skull from the thing that's getting
+  in the because the little electrodes are wimpy um but you're you're changing the
+  thing that you're measuring in order to make it easier to measure meure by necessity
+  because of the because of the um that's probably good uh and there's typically kind
+  of like a tradeoff there like as a general rule the more you constrain the environment
+  that you're measuring the easier it is to measure because you are exerting your
+  like you're looking at the thing and you're saying I'm going to make this easier
+  for myself and that typically works if you're good at what you're doing but you
+  also wind up affecting the thing that you're trying to measure and that may or may
+  not matter for the desert orom of the research that you're trying to do um so for
+  example if I was trying to like to do the traditional map thing I have to bring
+  people into the lab so that's its own kind of difficulty um I have to put them in
+  the spandex suit I have to put the dots on them I have to Cali the room you know
+  all these things may or may not matter um but I had to do that for a long time because
+  that was the only way to get a camera to track an object in two dimensions and nowadays
+  we have other ways of doing that so I'm going to go through a bit of a process right
+  now and in what will be a recurring theme uh just going to move this over there
+  so I don't trip on it and kill myself this is going to be one of those things where
+  um it's going to make more sense later what's happening uh because ideally if it
+  all works out we're going to use this data for the rest of the semester and sort
+  of look at it and try to understand what's going on and try to sort of get a sense
+  of how we can use measurements of what happened in the past to make inferences about
+  what may or may not be going on in the meat in the goop on the basis of the measurements
+  we manag to get uh because I'm going to go out here in a second it's going to take
+  I'm not like that but um there's a whole process I guess we can turn off the projector
+  when it's ready to go or we can turn it to that it probably won't pick up yeah um
+  yeah could you maybe just tune it so it yeah that one might need want to go like
+  behind those desks or something um yeah because one of the realities is that if
+  I wanted to know about what let's say it was Michael who was moving the triangle
+  around and I wanted to know something about what like what were the motor commands
+  that were going to his muscle parts um my ability to answer that question is dependent
+  on what I managed to record like the true fact answer of that question of what were
+  the motor commands that were sent the that information is dead and gone fuzzed off
+  into the past it went to the same place that the dot data went after you didn't
+  record it and you can never get it back it dissolves into the foam of whatever happens
+  when time goes forward um and so what that means is that the actual moment of recording
+  is very very important this is the moment all this data is going away um but because
+  we're not recording it because I didn't click the big red button but when I do that
+  will be the only record that we have of whatever was going on and we're going to
+  try to use it to understand what was going on in this weird goopy thing there are
+  two the two weirdest things in the universe are light and human behavior and we're
+  going to try to use the one to understand the other basically impossible but we
+  can approximate it iteratively over time okay let's see yeah could you like tilt
+  them down and Center this one yeah just a little bit less height sorry thank you
+  and yeah that's right okay right I forgot like angles matter here and uh try to
+  get it like straight like this straight if you can yeah so this is because this
+  is the part you can't do again except that you can you can do it again I can just
+  record myself twice um but this is the moment of transduction transduction is a
+  great word that means when energy changes from one form to another uh in this particular
+  case light is going through the lens bending hitting a sensor which is a weird rectangle
+  and being transformed into a pattern of electrical impulses if that sounds familiar
+  it's because that's what you are that's what you do at least in this rough region
+  your eyes are not cameras but there are similarities at some level and so yeah so
+  we're going to be measuring rectangles of light we're going to be measuring three
+  rectangles of light taking samples from three light cones from Three locations and
+  we're going to be pulling one measurement of light intensity at three wavelengths
+  r g and B red green and blue uh 30 times per second from three three devices um
+  actually we don't the device's loccation unfortunately we can we're going to try
+  to guess later by cheating and measuring something that we know what the answer
+  is this is called calibration and then we're going to guess what the location of
+  those devices were and then we're going to look at the rectangles of colors we're
+  going to call them colors even though it's pretty abstract um and then try to go
+  from there down some strange epistemic path with various forms of computation in
+  math most of which you will not have to worry about because it'll all happen very
+  quickly um and then try to make inferences about what brains do central nervous
+  systems really cool yeah thanks what's that want meay here buttons or yeah uh yeah
+  yeah um I guess I'll I'll calibrate first and then I'll sort of make a plan um f8
+  looking there uh all right shoes are coming off I apologize but this will not be
+  the last time I'm taking my shoes off cuz my shoes are black and my socks are white
+  and the ground is dark and we care about where my feet are so we're measuring light
+  remember like we're not measuring feet we're measuring light and then we're inferring
+  feet so we're going to make our job a little bit easier by putting these things
+  there if I cared about the grippiness of these shoes I would that would this would
+  be a mistake in terms of this experiment but I don't don't care about the grippiness
+  of shoes so this manipulation of reality I think is forgivable okay there now it's
+  always the feet and okay so if you recall we're going to measure we're going to
+  record stuff from cameras right there's subtle hints in the environment that that's
+  what's going to happen you're going to this guy follows me if I ask him to nice
+  good job that's a two axis gimbal you have a three AIS gimbal we have two of them
+  right here we'll talk about that later uh so we're going to be recording from the
+  cameras cameras measure light we talked about that we're going to want to know where
+  the cameras are that's going to be pretty important CU we're going to be trying
+  to measure space uh and so we're going to so we're going to do a a thing we call
+  calibration which is basically a fancy word for trying to measure where all the
+  cameras are relative to each other so the way that we do that is we cheat because
+  later we're going to record something that's a weird unknown goopy wobbly object
+  one of these and that thing is going to be really hard to measure and so the first
+  thing we want to do is confirm to our ourselves that the tool is actually doing
+  what we think it's doing and so we're going to cheat by measuring something where
+  we know the answer to the question this is a grid see all the squares it's the the
+  squares are 58 mm on a side you can see I wrote that right there obviously you can
+  see that from the back and it's got these little patterns here that are custom made
+  to be easy to track by cameras so we're going to start by showing a camera is this
+  friendly calibration object and then they're going to use that and sort of infer
+  well based off math that a combination of me and tens of thousands of my closest
+  friends wrote over the past 30 to 40 years or so based off math that's we've been
+  doing for thousands of years um and the result of that will be an estimate about
+  the location of each camera measured in uh six it's the six degree of Freedom estimate
+  of where the cameras are six degrees of freedom means that there's six numbers involved
+  three positions XYZ and three rotations XY Z with position and rotation you can
+  measure the location and rotation of a rigid body in space but don't worry about
+  that it won't be on the test there won't be a test you'll just just let it wash
+  over you okay um yeah like there's a a spot you I think we turn the projector off
+  okay there was like a a a white bar across this uh from the projector and that it
+  tends not to like that um oh I lied oh that was So Graceful I can leave it up there
+  so the next person who's shorter than me will just be screwed no we won't do that
+  um okay so once they calibrate them you and you don't touch that camera you don't
+  touch that camera nobody touch any cameras deal great because if you do I'll have
+  to do this again okay um I guess it's not I don't know about how yeah you want to
+  I guess we have another Spotlight too yeah I don't know is it around is it is it
+  is it available yeah um yeah you might as well ah let's see yub yub yub is there
+  a a plug on this side of the room anywhere no NOP H yeah let's don't eat that here
+  I'm going to write out stuff that we're going to do just basically just like feed
+  the cable as far as it'll go the last time I recorded data in class it became the
+  test data for this project for like two years so I'm not saying that's what we're
+  going to do now but I have learned over the course of my life that oh there's no
+  plug over here either how does anybody plug anything in in this [Music] world oh
+  yeah that's not going to make it that far but that's fine better than nothing um
+  1238 okay so when I actually get to the point of recording stuff I'm going to stand
+  do a range of motion do a lean do a one foot stand uh then I'm gonna let's do this
+  separately and that'll be that and then we'll do another one where I do lean and
+  one foot stand with the kettle bell writing this down don't don't it's not important
+  yeah it's not this is for me um and I'm going to do another one where I jump time
+  10 and then big jump great um it is a known effect if you have anything that has
+  a record button when you push record your cognitive facilities go so you need to
+  do everything you can to externalize thoughts before you push the record button
+  um so just kind of taken that time yeah that's good thank you okay light is very
+  important for cameras um that one isn't going to have any oh I guess I can just
+  get closer oh okay yeah I was confused because they're in a different order on that
+  screen um okay go ahead and cool so now I am basically just showing the board to
+  all of the cameras and the most important thing here is that each of the cameras
+  has friends that there are uh sufficient frames where each camera can see the board
+  along with one of its compatriots um shared views probably good and wish I could
+  turn the projector on and off but it's slow so I guess we'll see see now I know
+  how to do it oh see other professors just show up and like give PowerPoints that's
+  like I don't know how to do that um could you pull up the terminal so okay so it's
+  thinking and what it's doing here is can you like Control Plus IG it does it work
+  no well anyways if you so basically this is like just readouts of like what it's
+  doing under the hood and it's basically just doing a bunch of geometry and right
+  now this number here we probably can't read it says 8.95 that is the number of frames
+  that were recorded from all of the cameras uh there's two things to worry about
+  time and space time we handle through synchronization and there's a bunch of many
+  gallons of my life poured into making sure that this thing records frames from each
+  camera synchronously like it within it's a 30fps camera which means it every frame
+  you get a new frame every 33 milliseconds I use frame interchangeably with image
+  um because of like the history of Cinema I guess but so we have 895 synchronized
+  frames from each camera and that synchronization is sort of how we do the time synchrony
+  if I compared the frame that happened at T time equals 12 from this one and compared
+  that to the one that this one got at time equals 13 I can't use those to figure
+  out where the thing I'm measuring is because that's you know they'll get different
+  times so we do okay this is where we tell when this third one finishes it will either
+  fail or not fail and we'll find out together um yeah so you have synchronization
+  between you get synchronized measurements from Three locations three locations which
+  are not moving that's important this guy would not be a good tool camera because
+  it moves so I could do the calibration thing but then I would it would move around
+  and then I can't get good measurements um we're good anyone here done any like optimization
+  stuff and would touch that in your life people heard the term optimization like
+  weird math um this is doing optimization right now to figure out basically use the
+  measure measurements that we got to figure out where each camera was in space and
+  it says it was successful could you uh find that and pop it open yeah yeah just
+  you can do that in there think I think just double click that yeah okay so this
+  is where the cameras presumably are camera zero 1 and two because we start counting
+  from zero because we someone decided that was a good idea uh Matrix size is that
+  that's the pixels so we're it's a low resolution image but that's okay uh rotation
+  so this is camera zero so the translation translation is like moving so basically
+  it's position um translation from the origin 0 because it's camera 0 great uh this
+  one's camera 1 it's - 2719 516 these are millimeters so roughly 2.7 M away if this
+  said 20,000 I'd be like oh  something messed up but I don't know if it I don't know
+  if this is right but it gut check scale is that it's close to enough so that's we
+  we like that and then this one down here 1160 so it looks like the order is 0 1
+  2 is that right doesn't really matter is that right oh and also there's these other
+  guys which matter a lot and then these rotation variables those are Oiler angles
+  um when you see it written down it's spelled e u l e r and youd probably think ooler
+  uler and then you hear people say oer those are the same guy so FYI um XYZ rotation
+  so this is the x axis this is the y axis this is the z- axis rotation around X rotation
+  around y rotation around Z these are radians I trust that that's where those cameras
+  live great so we we have an estimate of where the cameras are um now we can try
+  to measure more interesting Behavior Uh yeah I guess turn it off how did I do it
+  was there oh no my hubris H the back is the answer we'll see okay so I'm Huck Finning
+  my pants so that more of my body will be visible ible um cuz it's too cold to wear
+  shorts and remember we're going to be pretending like I'm one of these and so like
+  it's better if the joints are visible because these pants are kind of open so if
+  I were to we down here it's harder to tell what my knee is doing right it's harder
+  for you as a human to do it so it would definitely be harder for a rectangle silicone
+  to do it silicon whatever um okay so let's just do let's do four separate recordings
+  so we'll call the first one Ro and then the second one uh balance control second
+  uh third one balance kettle bell and then jumping so yeah nice at start uh yes where
+  and I need yeah a pose a pose a pose a pose it helps me uh because okay so yeah
+  so I'm going to we're going to take four recordings and the first one's kind of
+  like again kind of calibration I'm going to be doing kind of like boring stuff like
+  simple control standing stuff just to sort of make sure things look right in later
+  stuff because in these later ones are going to be moving more and doing more interesting
+  stuff so start with something simple so we're going to start with an a pose which
+  is T pose we've heard of that it was like a joke for a while this is the uh this
+  happens because under the hood and all your favorite animation things it's it's
+  these guys and if you set all the joint angles to zero it's that so whenever the
+  code up under the hood and the data becomes Unbound to the Model T pose so that's
+  why that happens um T pose a pose because get it because of um we tend to do an
+  A Pose in this world because it takes up less space and uh oh right yeah um I'm
+  going to put this like here try get it just like give me a sense of where to stand
+  yeah let's move me first and then cool oh there's a plug the whole time oh well
+  you should have stopped me what's no no I never said bet that's called gaslighting
+  very effective uh it's good to like practice recognizing that because just shows
+  up uh okay what are we doing in class who are you people Jesus Christ uh the top
+  one okay helpful see it's really helpful to have like an externalized nervous system
+  to handle certain tasks and a pose standing range of motion I'll just count it off
+  okay can you swing like you're do with range motion h oh well so this one oh I see
+  yeah right backwards you guys can't see that unfortunately but it looks like this
+  but but three of them okay uh yes okay 1 1,00 2 1,00 3 1,00 4 1,00 5 1,000 and I
+  guess I'm still standing I think yeah standing is fine um range of motion so this
+  is the top one then we got these ones and we got those ones they only go one way
+  got these wrist got hands which which is cool uh got a waist which is neat we got
+  one leg that goes like this we got another leg that goes like that uh if I missed
+  anything that'll definitely get it okay good um we should I wish we had told it
+  not to Auto process because then we could keep recording shut it down let it let
+  it finish synchronizing first yeah let it finish synchronizing then Loop it through
+  yeah so from that we're going to be able to measure the first thing is going to
+  be the the well this happens every recording but the first one's kind of a simpler
+  one um we will get the length of the rigid bodies so I tried to go through the catalog
+  of wobbly bits and move my rigid body through roughly their full range of motion
+  um and if we wanted to use that later actually don't have any pipelines that really
+  use that data but useful to look at um and now we're restarting it to get another
+  one because we forgot to click the button that says Don't Auto process just so had
+  yeah I was so close to using like the new trying to use the new one for this class
+  but that seemed like a bad idea uh freeo cap en dash EnV yeah um yes so the next
+  Parts we're going to look are going to be about posture and balance and standing
+  and balance and whatnot so it's weird as hell that we're bipeds first thing it's
+  wild move to just use two little feet it's pretty much it's us Birds angry bears
+  and kangaroos at a full hop are the only guys that really stand on two feet um there's
+  a long weird story about how we got here long story short we used to be basically
+  squirrels lived in the trees so we were doing this on the branches and then someday
+  we were like let's stand up and go over there and the rest the rest is history got
+  way complicated after that but bold move um so this is one of those things where
+  like we look animals do stuff and we're like oh my God I can't believe that fish
+  is good at swimming but then we don't notice that we're basically like gracefully
+  gliding and Teeter tottering all over the world and the way that we control that
+  is sort of Highly complex from both a sort of physical perspective and also from
+  a Balan perspective or like a neural perspective great um let's call this uh balance
+  control and so where are we on time 1255 someday I won't talk the entire time I
+  promise uh yeah so I'll just say it out loud there's a concept called the base of
+  support it's exactly what you think it is there's also a concept called the center
+  of mass it's roughly what you think it is the if the base of support is if the B
+  if the center of mass is above the base of support we're good if it goes outside
+  we fall over if we're so static equilibrium doing great oh my God I'm falling it's
+  okay I have two feet I do this all the time this is called walking I'm going from
+  point A to point B every following is pretty high complex stuff great Okay so one
+  of the things my body's really good at is that and I'm very good at just standing
+  and keeping upright and I tend not to fall over especially if I'm not doing anything
+  interesting I can make it harder and do this my Bas of support just got way smaller
+  it's a little harder I feel my body working at it but again I've been here before
+  I can do this not all day but I can do it for a while great that's good um yeah
+  so I'll start in an a pose also it doesn't record sound so I can just talk while
+  I'm doing it uh yeah start with a pose thank you um and keep an ey on the time let
+  me know if it goes over a minute just say minute all right and now we're recording
+  look at me I'm doing it I'm standing here but I don't just have to stand in here
+  I can also lean I can lean pretty far forward I can lean all the way to the right
+  I can lean all the way to the left and my I know when to stop my body just kind
+  of like stops and there's this certain Sensation that I have I can't go any farther
+  uh because my center of Mass is at limit of my base of support my arms are a part
+  of that if I go forward I can't I have to lean my butt back the whole thing great
+  um now I'm doing one foot this is harder but I'm doing it look at me go and I can
+  jump wow I did all that how we doing on time 10 seconds look at me go great T okay
+  that's probably good it looks much more impressive when it's in the when it's data
+  uh did you turn that thing off nice okay I weigh roughly speaking one body mass
+  give or take and when I'm controlling my body sort of throwing arrows into the ground
+  in order to like push the meat in the desired Direction I put the arrow in the opposite
+  way that I want to go I'm putting those forces into the ground appropriately for
+  the mass now if you wanted to compare me to something saying that I weigh one body
+  mass is not particularly helpful uh so if you wanted to compare me to some external
+  reference I weigh roughly 95 lers of water which is the same thing as 95 kilograms
+  because metric is cool like that this am Michael bring this over look at you so
+  Aaron did a farmer carry of this object across campus um this weighs 45 lbs so you
+  can convert that was that like 20-ish kilograms which is like a fifth of my body
+  weight but look at me standing I have not even fallen over how in God's name am
+  I able to do that with difficulty and possible injury but yeah so we're do kind
+  of a similar thing probably less jumping uh if I die on camera analyze the data
+  you want call uh balance kettlebell KB or kettlebell okay so I'm going to start
+  in the a pose then I'm going to pick up the who's it 1 1,00 2 1,00 3 1000 and now
+  here I am standing what do you think this data looks like relative to the other
+  data so I'm going all the way over here to this side again and I'm going to go all
+  the way over there to that side I'm all the way forward backwards I don't know if
+  this going to track the system doesn't track kettle bells just to be clear it only
+  tracks human bodies or human body-shaped objects God Jesus  okay that's Jesus okay
+  there we go so before if we're measuring Center of mass relative to base of support
+  and we do that again here is what what's it going to look like what's that answer
+  going to look like especially considering that we're not measuring the kettle bell
+  we're just measuring the body me Jesus okay good the things I do oo what's that
+  data going to look like so we can ask the question qualitatively what's it going
+  to look like like it's going to be this shifted no there wow we can ask the question
+  quantitatively which has numbers in it you start with a qualitative estimate and
+  then you measure the quantitative thing and if they don't line up something went
+  wrong either in your measurement or in your Intuition or both okay so I we roughly
+  one body mass multiply that by one g that's one body weight so I'm now pushing down
+  on the ground with one body weight of force the arrow that's pointing into the Earth
+  is the same that it's thing so I'm M that's a kilogram uh G is m/ second squared
+  so if you accept you move so yeah meter if you move it over time and it goes it
+  was here and then 1 second later it's there that's 1 meter per second if it this
+  is 1 m/ second and then 1 second later it goes 2 m then it's accelerating at two
+  1 m/ second per second so 1 meter per second great 1 meter per second per second
+  great we can combine these apparently and get 1 m/s squared wow and then if we multiply
+  a kilogram by a meter second squared you get a Newton which is the name for that
+  great easy don't worry about it the machine knows how to do that so you don't have
+  to the important thing is that I weigh one and my weight is also one just divide
+  this all by numbers I don't actually care how waterways so if I'm standing here
+  I'm putting Force into the ground that's the same as how much I weigh if I'm doing
+  this posture there's some weird stuff going on in my joints we don't have to worry
+  about that now I can put more Force into the ground than I weigh and if I do what
+  will happen I go into the Earth I go to the side where will I go amazing spectacular
+  yeah that's called jumping and basically what that means is for a period of time
+  I put more Force into the ground then I we so I was periodically freed from the
+  tyranny of Earth but then it comes back and grabs me and if you measured it it would
+  be what what this was but with better handwriting I'm going to a pose I'll do a
+  big jump I'll do 10 small jumps I'll try to do another big jump and then I'll try
+  to jump on one foot and then if I'm not dead we can call it there okay God damn
+  it okay okay 1 1,00 2 1,00 3 1,00 1 2 3 4 five 6 7 8 9 10 11 12 oh that's too many
+  okay God damn it one 2 three four five 6 7 8 9 10 two three four five six seven
+  eight nine 10  one of the rules of being a professor is if you want underg think
+  you're cool just say in front of them just like one time but I say it a lot so you'll
+  be all right okay uh I guess let that one ride or just yeah ah okay uh could you
+  pull up the terminal again is that good is it is it is it running or do you have
+  to tell it to I have to okay yeah so those are the videos there are three of them
+  um and now it will do a lot of math and as these things scroll by um some of this
+  yeah this is this is a guy doing the math uh 7% and this is all stacked up so this
+  is all three processing at once the amount of human labor boiled into this little
+  pink line is tremendous there's like human labor from me from Aaron from other people
+  from like people using the software around the world but like that's nothing compared
+  to all the other stuff cuz I didn't invent computers I didn't write like the the
+  amount of code that goes into this where code is just math written in English uh
+  is mostly spent like importing other people's packages like you import numpy and
+  then you get to do linear algebra you you install Python and then you get to write
+  stuff that looks like this and as you do like and it's so code is just text files
+  it's that live on your computer and they get converted into binary and that crunches
+  numbers and blah blah blah um and it winds up comprising like gigabytes of text
+  files go into writing the the numbers that are being crunched on this thing and
+  that is work that's being that was done by people over the past let's say 40 to
+  50 years arguably back to I mean you got Claude Shannon making basically writing
+  down information Theory and then you got uh what's his name blle Park guy um Turing
+  Allen Turing back in the 50s and you got like ad love lace going back to alisi who
+  was a Iraqi um guy who invented the algorithm um back to Babylonians crunching numbers
+  um and it all kind of goes together and luckily for us unlike the that made the
+  motion capture system everybody that wrote the code that went into this pink line
+  shared it they allowed other people to use it and they allowed their effort to make
+  the world a generally better place where any human can do more things than they
+  could have done before that person did that work the other alternative the standard
+  practice and most of the software that you lose you use in your life is to do a
+  bunch of work based off an understanding and a knowledge and a capacity that you
+  have greater than the people around you then once you've made something useful exploit
+  the disparity that you have created to extract resources from the people around
+  you I don't like that option as a person anyways so what that was doing it was crunch
+  so the pink line is really where most of the work was happening the white line is
+  doing the simpler triangulation stuff the pink line is where we are trying to extract
+  skeletons from rectangles of light and this is where we are triangulating comparing
+  the two dimensional estimates because cameras get 2D View and have that marker camera
+  camera person triangulation see how that works wow if you decided to point a laser
+  at me and then you also pointed a laser me and then you told each other where you
+  were sitting and what angle you were pointing the laser and as long as you both
+  confirmed that it was like overlapping here you could do the math to figure out
+  what the distance is even though you have no idea how far your laser is actually
+  going conceptually make sense qualitative understanding I promise you the part where
+  you know the math is not relevant to that Baseline understanding great so we did
+  the 2D stuff we looked at the rectangle of of pixels and we did the this is the
+  the part where it draws the Skeleton on top I guess you probably haven't see much
+  of that data yet so I'll show it to you in a second remember what all this stuff
+  is oh you might need to run it again oh never mind I lied so that part is where
+  it gets shoved into blender uh did you all download blender a thing so blender is
+  a free open source animation software again made for free and given to you the world
+  as a gift freely given and it's made for animators and artists and people like that
+  who are artists who specifically tra in the world of uh creating extremely precise
+  3D renderings of hypothetical worlds um is it still working oh it's thinking Yeah
+  Yeah so basically yeah cool so we take there we go here I'll drive thank you you
+  want see uh yeah okay behold je come on check it out it's the world you live in
+  sort of oh I'm so Le having a mouse yeah oh oh there we go so that's Skelly and
+  we ah oh I guess I kept going I have to figure out how to rotate alt there we go
+  so not as high because I'm tired so this thing right here woo calm down that is
+  my center of mass such as it is and if I do that I say in range I say round frame
+  I say plus or minus 30 30 no 30 30 uh calculate uh yes haha oh and then I say uh
+  don't show the frame numbers make it red no don't show the frame numbers look at
+  it go so if you look so here I am standing man standing look at this rectangle of
+  pixels and then look at this unbelievable gob smacky magic of being able to draw
+  a DOT on my left shoulder and it's kind of correct this is the part that's kind
+  of AI it's not I this is machine learning uses convolutional neural networks it's
+  roughly the same math as what's the bot when you're talking to it but it's for pictures
+  somehow don't worry about it this is the magical step this is the part that like
+  shouldn't be possible it's also the part that's the hardest to like um understand
+  from the outside the trigonometry and linear algebra stuff I do that all day I can
+  know that it's right when I do it this one I can't luckily this weird magic step
+  draws a skeleton on top of a picture of a person and I happen to have roughly 12
+  billion years of evolution that lets me be real good at telling you where the picture
+  of the person is in the image so I can look at it and say yeah that's right that's
+  working pretty good so that's very important that the only magical step in this
+  pipeline is the part that you can confirm with your eyeball qualitatively and if
+  you want to quantitatively understand if it's actually measured anything good you
+  have to get like a PhD that's like literally what he's doing is like validating
+  it beyond the gut check is like that's pretty good but if you want real numbers
+  it's like a lot of work and then who how are we doing on time we're doing okay so
+  now that's a silly skeleton um okay do that do that we say graph editor then we
+  click on this guy again hey hey and then we say normalize and then oh and then we
+  say I will data look at me go uh this tool this so blender is not a scientific tool
+  it was not made to be a scientific tool I am abusing it into being a scientific
+  tool uh and it's it is grateful for the experience um select grab grab ha so this
+  is a complicated thing it's got ribs it's got a pelvis it's got this skull all these
+  parts have weird shapes I didn't actually measure these things I didn't measure
+  where the hips were I didn't measure much of anything uh I only measured these little
+  dotos here and even that's pretty abstract and we're making inferences about what
+  the more complicated shapes were doing by tracking those dots because we are going
+  to pretend that things like pelvises and the associated meat are rigid bodies and
+  because they are rigid bodies you only need to track a couple of points on them
+  to know what the other ones are doing wobbly bodies don't have that property rigid
+  bodies do so we like rigid bodies this skeleton is kind of aesthetic we can also
+  look at huh these little stick o these sticks are the actual rigid bodies that we
+  are inferring as the thing that connects the actual dots or the dots are the the
+  3D positions that are triangulated from the things in the image so we we measured
+  some rectangles of light we inferred some stick figures in 2D we constructed some
+  Doos in 3D we put sticks on and we put a skeleton on them and now it's doing all
+  this weird stuff but I got to be honest that's still pretty complicated it's got
+  things like joints those joints have angles I don't want to have to deal with any
+  of that so what we're going to do just going to take all of these things ah and
+  shift all you guys not you hide you see control anyways let's see get you hide don't
+  do that no who cares anyways yeah this cuz this is the trajectory of the whole body
+  I don't want to analyze that I so luckily we can boil this whole guy down into just
+  this and we can look at things like so I want to know what my like we talked about
+  like putting those arrows into the ground in order to like launch ourselves off
+  the floor if we're into that type of thing how how hard did I push off of the ground
+  like how much force did I put into the ground when I did that jump I forgot the
+  force plate and unfortunately that moment is gone forever right lost into the past
+  all we have is the measurements that we had and those measurements are kind of these
+  impoverished web Camy who's itss very abstract and I want to know how hard I pushed
+  right I I care about that for some reason luckily physics is pretty rigid and I
+  can make a lot of estimates about what was going on at some approximation by just
+  looking at this weird shape because one of the interesting things about complicated
+  bodies is no matter how complicated you are if I put you in a catapult I can predict
+  your location very directly doesn't matter how complicated it is is it follows the
+  same rules in the air um so even though I can't tell you what each knee was doing
+  from this type of measurement I can't tell you what my hips and stuff were doing
+  I can tell you in a broad stroke how many newtons my body is going to have to absorb
+  when it gets from this point down to that point Boo and then you can also show I
+  don't know if this is real real data if you really squint and believe me there's
+  a little bit of a cuz I'm it's a lot of meat I got to throw around and I'll bet
+  if you measured this it would be somehow worse than this what's worse hard to know
+  we also know uh so now I'm doing this on my the ground I now so before I don't know
+  which knee is doing what now I do because I've constrained the behavior to be easier
+  to measure I can also see I'm kind of like bouncing around like I'm not staying
+  in one place there's some control Loop that's happening I'm I'm guiding something
+  there's something that's being steered whatever that thing is it's probably it feels
+  like it should be related to whoever it was that lets me do this right seems like
+  it should maybe maybe not this one's in my arm that one's in my leg this one's static
+  that one's moving it's hard to know I couldn't really I could get this data in the
+  big fancy lab but it would honestly be difficult it's not made for this type of
+  stuff um you to put the full body on I couldn't have gotten that much data while
+  standing in front of a classroom both because there's no cameras on the walls here
+  and also just because it takes longer than that and I certainly couldn't have shown
+  you how to do it because even if I could requisite aspect of that is start with
+  a quarter million dollars that you're going to spend to record people whereas now
+  it's spend 20 bucks on some webcams and figure out how to run stuff from command
+  line you have to type and then push enter and that's the class so uh thank you for
+  watching and um between now and next week somebody it's unclear who is going to
+  take this data and kind of package it up and put it somewhere online that you can
+  watch it and use it you might not then next week we'll get into like actually how
+  to open the things look at the data and uh there's going to be an assignment for
+  this week which is basically like talk to the bot about what the hell that was all
+  about because every one of you watched every one of you saw something different
+  when I did all that stuff and I am very curious about what comes out when you talk
+  about it to the rectangle that is so friendly and polite okay thank you now we have
+  10 minutes to break down before someone gets mad at us question I sent you an email
+  that saw I probably not okay is that like a good method to no uh I I just get so
+  much email so you can absolutely send email but if I'll probably miss it shoot me
+  a message on Discord it's the easiest way I didn't know if Discord is like too like
+  informal it a little bit is um but like for the first message I was like I'm gonna
+  be safe that's Wise Wise uh what was the question and also if if if I if it's important
+  just send it again okay U I was just wondering about the ATT policy um if I like
+  had to miss a class or like Thanksgiving break um is there like a zoom option no
+  you're out sorry I e e e for
+metadata:
+  author: Jon Matthis
+  channel_id: UCOOQxlTCtUz9mr1NPWlJyYQ
+  description: https://github.com/HumanMovementNeuroscience/HMN24-course
+  duration: '4687'
+  like_count: ''
+  publish_date: '2024-09-24T17:33:01-07:00'
+  tags: ''
+  title: HMN24 - 01 - Intro to Data Collection
+  view_count: '288'
+transcript_chunks:
+- dur: 180.0
+  end: 180.0
+  start: 0.0
+  text: hello we're recording now spectacular but that's not I mean so yeah fmri is
+    great kind of uh I have doubts but um it is like the best tool that we have for
+    looking inside of a person's brain without opening it up um there's also things
+    like EEG there's also stuff like f near I don't really like or trust any of those
+    either because they're all just so abstracted away from the thing that we actually
+    hypothetically care about which is the desum desum desat Des of the kind of research
+    that's multiple yeah um the desideratum of a given research area is the thing
+    that you want to know why' you come here why' you show up what's your goal that
+    is the desideratum of the field of inquiry and I would argue that the field of
+    Neuroscience is largely designed to help us understand what the hell this is like
+    this this stuff right I left my house got on a bike did a bunch of this somehow
+    my dinner from last night fueled the energy cost somehow and now I'm here and
+    I'm talking to you and I'm telling you that that happened um and a lot of the
+    scientific world that we live in this sort of has this very reductionist feel
+    and sort of underlying philosophy of reductionism where the goal is to measure
+    things with increasing Precision at the at finer and finer levels with the hopes
+    that we'll someday get to the bottom of it and figure it all out um and so because
+    of that it's kind of somewhat by necessity of technology and somewhat by you know
+    sort of feedback loops driven there um the tools that we use to measure research
+    often come at the cost of the ecological validity of the data meaning that you're
+    putting me in a tube and shooting big magnets at my head and saying oh look at
+    what your brain is doing that tells me something about you out in the world um
+    over evolutionary time and over you know course of your day and it does to some
+    extent because you're measuring the same engine that's driving the behavior when
+    I'm out doing stuff but this you're getting a very precise measurement of the
+    thing doing something different from the thing that you actually care about which
+    is behaving out in the real world right so it's kind of there's often a trade-off
+    in fact there's perhaps necessarily A trade-off between empirical precision and
+    God in heaven and ecological validity
+- dur: 180.0
+  end: 360.0
+  start: 180.0
+  text: one second I got this so if we can't record what's going on in my brain because
+    it's unfortunately 2024 and we just can't do that yet and some people will say
+    oh no you can put e EEG on people uh you can do fmri on people and it's like yeah
+    you can but I don't but yeah let me phrase that no you can't but a lot of people
+    believe that you can and we respect their efforts um so if we are talking about
+    trade-offs between like empirical precision and ecological validity anytime there's
+    a trade-off there's often two sides to that so I'd say all the way on the farthest
+    side of like empirical Precision um reductionist philosophy is the eiz measurements
+    that's like you're sticking a a electrode into the the goop itself and looking
+    at how it spikes and you get unbelievably precise measurements typically on nonhuman
+    animals but sometimes you get to do that um but in those situations in particular
+    the animal or whatever that you're well it's always an animal um human or non-human
+    animal is never doing anything particularly interesting it's just usually attached
+    to something because the technology requires it there are new technologies coming
+    online that allow animals to move around as they're being measured but and I'm
+    like working on some of those things with some people but those are new types
+    of studies new types of tools new types of equipment an alternative approach is
+    to say let's go the other way and let's just measure the behavior as closely as
+    we can to the desired the desideratum the sort of the case study the ecologically
+    valid measurements uh the ecologically valid behaviors let's record those as well
+    as we can and then we can make inferences about what's going on and the inner
+    parts the hidden variables the parts that we can't actually measure directly and
+    if we're lucky then the people who are out there cracking open skulls and taking
+    like electrical recordings we'll share their notes and we can and they can say
+    oh hey we found this part and that part and we think this does this other thing
+    and I can say oh well I saw this behavior and that behavior and those two things
+    kind of line up these things don't but those things do and in a perfect world
+    we all get to do nice good happy research end of class we're done um but yeah
+    no unfortunately it's actually slightly more complicated than that um
+- dur: 180.0
+  end: 540.0
+  start: 360.0
+  text: yeah so let's sort of for the moment put the reductionists to the side there's
+    more than enough of them they're very well funded they'll be fine and let's work
+    on this other part where we try to figure out so that that thing I said before
+    where I was like you just measure the real behavior and then you study that and
+    you're good to go it turns out that part also quite difficult and you saw in that
+    lab some of the big fancy tools that we use to do that and it measures the environmental
+    forces excuse me for pushing into your space um yeah so we can measure things
+    like Movement we can measure things like forces we use these big fancy tools to
+    do it actually uh you want to help me out but yeah guess yeah just go ahead and
+    start setting things up just freeo cap it regular and I'll keep blathering about
+    stuff do you have on here yeah no I got it cond activate that's why I was late
+    I was like oh it's been a while since I've used that computer to do anything ah
+    and I'm gonna move this up do we know how to raise that thing it's probably over
+    here cam privacy manual control I don't see anything obvious oh it might be stupid
+    and just well unlikely but it might be like pull it down when it comes up oh maybe
+    it's got the thing on it no it's probably powered um it might be like it turns
+    it off when this thing turns off uh it's fine we'll figure it out that's good
+    enough for no oh uh yeah and also turn this off yeah so this is connected but
+    because it's being it's being held by OBS these things turn off so there's an
+    order of operations that you have to do if it's like if you if you turn OBS on
+    and it grabs that camera then you can do free mo cap and it only sees these otherwise
+    it gets weird Okay so as I mentioned I spent a lot of my time over the past half
+    decade or so uh messing with cheap cameras because I
+- dur: 180.0
+  end: 720.0
+  start: 540.0
+  text: had a whole crisis of conscience around how freaking expensive that lab was
+    and even if I wasn't like morally perturbed by it I hate that equipment it's garbage
+    that software is the worst like as in terms of like physical measurement apparati
+    spectacular the force plates are great the cameras are very fast and precise but
+    the software is abysmal and it's super duper duper expensive um and even if it
+    wasn't it like sucks to use and there's a lot of manual effort manual labor it's
+    basically 90s Tech um which I haven't been doing this since the 9s but I have
+    been doing this since that was less of a dig um and yeah so cool nice so also
+    there's been a lot of technological advancement since the 90s uh and a lot of
+    them has focused on these weird objects this is called camera cameras measure
+    light uh light is trying to get a sense of color I might have to take my shoes
+    off because they're yeah I'll take I'll do it later um oh yeah right so basically
+    uh long story short so this is free moap it's a free open source markless motion
+    capture system that works in conceptually very similar way to the big fancy space
+    in the lab um did you guys see that they show you like the 2D views with the intensi
+    you see like you move the thing around it's like oh look at those dots on the
+    on the screen and then they get triangulated remember because they triangles it's
+    mostly triangles um uh and then you get the 3D information based off of that so
+    those old systems I say old like say the traditional marker based motion capture
+    system basically constrains the world that it's measuring to make it easier to
+    measure you take a you put a marker like a DOT specially designed dot that uses
+    retrolective stuff which is the the things on your shoes which have interesting
+    Optical properties um and you put those on the person on the thing that you're
+    trying to measure and that thing is designed to work with the cameras to make
+    the cameras able to track that thing in 2D and then there's a bunch of fancy secret
+    expensive software doing 20 thou 20 uh like 2 to 3,000-year Old math um to figure
+    out where that dot is in space um um so again you kind of have that theme
+- dur: 180.0
+  end: 900.0
+  start: 720.0
+  text: where you're constraining the world a bit to make it easier to measure in
+    the fmri or in the eiz world you can strain the behavior by telling the person
+    not to move you constrain the behavior by like removing the skull from the thing
+    that's getting in the because the little electrodes are wimpy um but you're you're
+    changing the thing that you're measuring in order to make it easier to measure
+    meure by necessity because of the because of the um that's probably good uh and
+    there's typically kind of like a tradeoff there like as a general rule the more
+    you constrain the environment that you're measuring the easier it is to measure
+    because you are exerting your like you're looking at the thing and you're saying
+    I'm going to make this easier for myself and that typically works if you're good
+    at what you're doing but you also wind up affecting the thing that you're trying
+    to measure and that may or may not matter for the desert orom of the research
+    that you're trying to do um so for example if I was trying to like to do the traditional
+    map thing I have to bring people into the lab so that's its own kind of difficulty
+    um I have to put them in the spandex suit I have to put the dots on them I have
+    to Cali the room you know all these things may or may not matter um but I had
+    to do that for a long time because that was the only way to get a camera to track
+    an object in two dimensions and nowadays we have other ways of doing that so I'm
+    going to go through a bit of a process right now and in what will be a recurring
+    theme uh just going to move this over there so I don't trip on it and kill myself
+    this is going to be one of those things where um it's going to make more sense
+    later what's happening uh because ideally if it all works out we're going to use
+    this data for the rest of the semester and sort of look at it and try to understand
+    what's going on and try to sort of get a sense of how we can use measurements
+    of what happened in the past to make inferences about what may or may not be going
+    on in the meat in the goop on the basis of the measurements we manag to get uh
+    because I'm going to go out here in a second it's going to take I'm not like that
+    but um there's a whole process I guess we can turn off the projector when it's
+    ready to go or we can turn it to that it probably won't pick
+- dur: 180.0
+  end: 1080.0
+  start: 900.0
+  text: up yeah um yeah could you maybe just tune it so it yeah that one might need
+    want to go like behind those desks or something um yeah because one of the realities
+    is that if I wanted to know about what let's say it was Michael who was moving
+    the triangle around and I wanted to know something about what like what were the
+    motor commands that were going to his muscle parts um my ability to answer that
+    question is dependent on what I managed to record like the true fact answer of
+    that question of what were the motor commands that were sent the that information
+    is dead and gone fuzzed off into the past it went to the same place that the dot
+    data went after you didn't record it and you can never get it back it dissolves
+    into the foam of whatever happens when time goes forward um and so what that means
+    is that the actual moment of recording is very very important this is the moment
+    all this data is going away um but because we're not recording it because I didn't
+    click the big red button but when I do that will be the only record that we have
+    of whatever was going on and we're going to try to use it to understand what was
+    going on in this weird goopy thing there are two the two weirdest things in the
+    universe are light and human behavior and we're going to try to use the one to
+    understand the other basically impossible but we can approximate it iteratively
+    over time okay let's see yeah could you like tilt them down and Center this one
+    yeah just a little bit less height sorry thank you and yeah that's right okay
+    right I forgot like angles matter here and uh try to get it like straight like
+    this straight if you can yeah so this is because this is the part you can't do
+    again except that you can you can do it again I can just record myself twice um
+    but this is the moment of transduction transduction is a great word that means
+    when energy changes from one form to another uh in this particular case
+- dur: 180.0
+  end: 1260.0
+  start: 1080.0
+  text: light is going through the lens bending hitting a sensor which is a weird
+    rectangle and being transformed into a pattern of electrical impulses if that
+    sounds familiar it's because that's what you are that's what you do at least in
+    this rough region your eyes are not cameras but there are similarities at some
+    level and so yeah so we're going to be measuring rectangles of light we're going
+    to be measuring three rectangles of light taking samples from three light cones
+    from Three locations and we're going to be pulling one measurement of light intensity
+    at three wavelengths r g and B red green and blue uh 30 times per second from
+    three three devices um actually we don't the device's loccation unfortunately
+    we can we're going to try to guess later by cheating and measuring something that
+    we know what the answer is this is called calibration and then we're going to
+    guess what the location of those devices were and then we're going to look at
+    the rectangles of colors we're going to call them colors even though it's pretty
+    abstract um and then try to go from there down some strange epistemic path with
+    various forms of computation in math most of which you will not have to worry
+    about because it'll all happen very quickly um and then try to make inferences
+    about what brains do central nervous systems really cool yeah thanks what's that
+    want meay here buttons or yeah uh yeah yeah um I guess I'll I'll calibrate first
+    and then I'll sort of make a plan um f8 looking there uh all right shoes are coming
+    off I apologize but this will not be the last time I'm taking my shoes off cuz
+    my shoes are black and my socks are white and the ground is dark and we care about
+    where my feet are so we're measuring light remember like we're not measuring feet
+    we're measuring light and then we're inferring feet so we're going to make our
+    job a little bit easier by putting these things there if I cared about the grippiness
+    of these shoes I would that would this would be a mistake in terms of this experiment
+    but I don't don't care about the grippiness of shoes so
+- dur: 180.0
+  end: 1440.0
+  start: 1260.0
+  text: this manipulation of reality I think is forgivable okay there now it's always
+    the feet and okay so if you recall we're going to measure we're going to record
+    stuff from cameras right there's subtle hints in the environment that that's what's
+    going to happen you're going to this guy follows me if I ask him to nice good
+    job that's a two axis gimbal you have a three AIS gimbal we have two of them right
+    here we'll talk about that later uh so we're going to be recording from the cameras
+    cameras measure light we talked about that we're going to want to know where the
+    cameras are that's going to be pretty important CU we're going to be trying to
+    measure space uh and so we're going to so we're going to do a a thing we call
+    calibration which is basically a fancy word for trying to measure where all the
+    cameras are relative to each other so the way that we do that is we cheat because
+    later we're going to record something that's a weird unknown goopy wobbly object
+    one of these and that thing is going to be really hard to measure and so the first
+    thing we want to do is confirm to our ourselves that the tool is actually doing
+    what we think it's doing and so we're going to cheat by measuring something where
+    we know the answer to the question this is a grid see all the squares it's the
+    the squares are 58 mm on a side you can see I wrote that right there obviously
+    you can see that from the back and it's got these little patterns here that are
+    custom made to be easy to track by cameras so we're going to start by showing
+    a camera is this friendly calibration object and then they're going to use that
+    and sort of infer well based off math that a combination of me and tens of thousands
+    of my closest friends wrote over the past 30 to 40 years or so based off math
+    that's we've been doing for thousands of years um and the result of that will
+    be an estimate about the location of each camera measured in uh six it's the six
+    degree of Freedom estimate of where the cameras are six degrees of freedom means
+    that there's six numbers involved three positions XYZ and three rotations XY Z
+    with position and rotation you can measure the location and rotation of a rigid
+    body in space but don't worry about that it won't be on the test there won't be
+    a test you'll just just let it wash over you okay um yeah like there's a a spot
+    you I think we turn the projector off
+- dur: 180.0
+  end: 1620.0
+  start: 1440.0
+  text: okay there was like a a a white bar across this uh from the projector and
+    that it tends not to like that um oh I lied oh that was So Graceful I can leave
+    it up there so the next person who's shorter than me will just be screwed no we
+    won't do that um okay so once they calibrate them you and you don't touch that
+    camera you don't touch that camera nobody touch any cameras deal great because
+    if you do I'll have to do this again okay um I guess it's not I don't know about
+    how yeah you want to I guess we have another Spotlight too yeah I don't know is
+    it around is it is it is it available yeah um yeah you might as well ah let's
+    see yub yub yub is there a a plug on this side of the room anywhere no NOP H yeah
+    let's don't eat that here I'm going to write out stuff that we're going to do
+    just basically just like feed the cable as far as it'll go the last time I recorded
+    data in class it became the test data for this project for like two years so I'm
+    not saying that's what we're going to do now but I have learned over the course
+    of my life that oh there's no plug over here either how does anybody plug anything
+    in in this [Music] world oh yeah that's not going to make it that far but that's
+    fine better than nothing um
+- dur: 180.0
+  end: 1800.0
+  start: 1620.0
+  text: 1238 okay so when I actually get to the point of recording stuff I'm going
+    to stand do a range of motion do a lean do a one foot stand uh then I'm gonna
+    let's do this separately and that'll be that and then we'll do another one where
+    I do lean and one foot stand with the kettle bell writing this down don't don't
+    it's not important yeah it's not this is for me um and I'm going to do another
+    one where I jump time 10 and then big jump great um it is a known effect if you
+    have anything that has a record button when you push record your cognitive facilities
+    go so you need to do everything you can to externalize thoughts before you push
+    the record button um so just kind of taken that time yeah that's good thank you
+    okay light is very important for cameras um that one isn't going to have any oh
+    I guess I can just get closer oh okay yeah I was confused because they're in a
+    different order on that screen um okay go ahead and cool so now I am basically
+    just showing the board to all of the cameras and the most important thing here
+    is that each of the cameras has friends that there are uh sufficient frames where
+    each camera can see the board along with one of its compatriots um shared views
+    probably good and wish I could turn the projector on and off but it's slow so
+    I guess we'll see see now I know how to do it
+- dur: 180.0
+  end: 1980.0
+  start: 1800.0
+  text: oh see other professors just show up and like give PowerPoints that's like
+    I don't know how to do that um could you pull up the terminal so okay so it's
+    thinking and what it's doing here is can you like Control Plus IG it does it work
+    no well anyways if you so basically this is like just readouts of like what it's
+    doing under the hood and it's basically just doing a bunch of geometry and right
+    now this number here we probably can't read it says 8.95 that is the number of
+    frames that were recorded from all of the cameras uh there's two things to worry
+    about time and space time we handle through synchronization and there's a bunch
+    of many gallons of my life poured into making sure that this thing records frames
+    from each camera synchronously like it within it's a 30fps camera which means
+    it every frame you get a new frame every 33 milliseconds I use frame interchangeably
+    with image um because of like the history of Cinema I guess but so we have 895
+    synchronized frames from each camera and that synchronization is sort of how we
+    do the time synchrony if I compared the frame that happened at T time equals 12
+    from this one and compared that to the one that this one got at time equals 13
+    I can't use those to figure out where the thing I'm measuring is because that's
+    you know they'll get different times so we do okay this is where we tell when
+    this third one finishes it will either fail or not fail and we'll find out together
+    um yeah so you have synchronization between you get synchronized measurements
+    from Three locations three locations which are not moving that's important this
+    guy would not be a good tool camera because it moves so I could do the calibration
+    thing but then I would it would move around and then I can't get good measurements
+    um we're good anyone here done any like optimization stuff and would touch that
+    in your life people heard the term optimization like weird math um this is doing
+    optimization right now to figure out basically use the measure measurements that
+    we got to figure out where each camera was in space and it
+- dur: 180.0
+  end: 2160.0
+  start: 1980.0
+  text: says it was successful could you uh find that and pop it open yeah yeah just
+    you can do that in there think I think just double click that yeah okay so this
+    is where the cameras presumably are camera zero 1 and two because we start counting
+    from zero because we someone decided that was a good idea uh Matrix size is that
+    that's the pixels so we're it's a low resolution image but that's okay uh rotation
+    so this is camera zero so the translation translation is like moving so basically
+    it's position um translation from the origin 0 because it's camera 0 great uh
+    this one's camera 1 it's - 2719 516 these are millimeters so roughly 2.7 M away
+    if this said 20,000 I'd be like oh  something messed up but I don't know if it
+    I don't know if this is right but it gut check scale is that it's close to enough
+    so that's we we like that and then this one down here 1160 so it looks like the
+    order is 0 1 2 is that right doesn't really matter is that right oh and also there's
+    these other guys which matter a lot and then these rotation variables those are
+    Oiler angles um when you see it written down it's spelled e u l e r and youd probably
+    think ooler uler and then you hear people say oer those are the same guy so FYI
+    um XYZ rotation so this is the x axis this is the y axis this is the z- axis rotation
+    around X rotation around y rotation around Z these are radians I trust that that's
+    where those cameras live great so we we have an estimate of where the cameras
+    are um now we can try to measure more interesting Behavior Uh yeah I guess turn
+    it off how did I do it was there oh no my hubris H the back is the answer we'll
+    see okay so I'm Huck Finning my pants so that more of my body will be visible
+    ible um cuz it's too cold to wear
+- dur: 180.0
+  end: 2340.0
+  start: 2160.0
+  text: shorts and remember we're going to be pretending like I'm one of these and
+    so like it's better if the joints are visible because these pants are kind of
+    open so if I were to we down here it's harder to tell what my knee is doing right
+    it's harder for you as a human to do it so it would definitely be harder for a
+    rectangle silicone to do it silicon whatever um okay so let's just do let's do
+    four separate recordings so we'll call the first one Ro and then the second one
+    uh balance control second uh third one balance kettle bell and then jumping so
+    yeah nice at start uh yes where and I need yeah a pose a pose a pose a pose it
+    helps me uh because okay so yeah so I'm going to we're going to take four recordings
+    and the first one's kind of like again kind of calibration I'm going to be doing
+    kind of like boring stuff like simple control standing stuff just to sort of make
+    sure things look right in later stuff because in these later ones are going to
+    be moving more and doing more interesting stuff so start with something simple
+    so we're going to start with an a pose which is T pose we've heard of that it
+    was like a joke for a while this is the uh this happens because under the hood
+    and all your favorite animation things it's it's these guys and if you set all
+    the joint angles to zero it's that so whenever the code up under the hood and
+    the data becomes Unbound to the Model T pose so that's why that happens um T pose
+    a pose because get it because of um we tend to do an A Pose in this world because
+    it takes up less space and uh oh right yeah um I'm going to put this like here
+    try get it just like give me a sense of where to
+- dur: 180.0
+  end: 2520.0
+  start: 2340.0
+  text: stand yeah let's move me first and then cool oh there's a plug the whole time
+    oh well you should have stopped me what's no no I never said bet that's called
+    gaslighting very effective uh it's good to like practice recognizing that because
+    just shows up uh okay what are we doing in class who are you people Jesus Christ
+    uh the top one okay helpful see it's really helpful to have like an externalized
+    nervous system to handle certain tasks and a pose standing range of motion I'll
+    just count it off okay can you swing like you're do with range motion h oh well
+    so this one oh I see yeah right backwards you guys can't see that unfortunately
+    but it looks like this but but three of them okay uh yes okay 1 1,00 2 1,00 3
+    1,00 4 1,00 5 1,000 and I guess I'm still standing I think yeah standing is fine
+    um range of motion so this is the top one then we got these ones and we got those
+    ones they only go one way got these wrist got hands which which is cool uh got
+    a waist which is neat we got one leg that goes like this we got another leg that
+    goes like that uh if I missed anything that'll definitely get it okay good um
+    we should I wish we had told it not to Auto process because then we could keep
+    recording shut it down let it let it finish synchronizing first yeah let it finish
+    synchronizing then Loop it through yeah so from that we're going to be able to
+    measure the first thing is going to be the the well this happens every recording
+    but the first one's kind of a simpler one um we will get the length of the rigid
+    bodies so I tried to go
+- dur: 180.0
+  end: 2700.0
+  start: 2520.0
+  text: through the catalog of wobbly bits and move my rigid body through roughly
+    their full range of motion um and if we wanted to use that later actually don't
+    have any pipelines that really use that data but useful to look at um and now
+    we're restarting it to get another one because we forgot to click the button that
+    says Don't Auto process just so had yeah I was so close to using like the new
+    trying to use the new one for this class but that seemed like a bad idea uh freeo
+    cap en dash EnV yeah um yes so the next Parts we're going to look are going to
+    be about posture and balance and standing and balance and whatnot so it's weird
+    as hell that we're bipeds first thing it's wild move to just use two little feet
+    it's pretty much it's us Birds angry bears and kangaroos at a full hop are the
+    only guys that really stand on two feet um there's a long weird story about how
+    we got here long story short we used to be basically squirrels lived in the trees
+    so we were doing this on the branches and then someday we were like let's stand
+    up and go over there and the rest the rest is history got way complicated after
+    that but bold move um so this is one of those things where like we look animals
+    do stuff and we're like oh my God I can't believe that fish is good at swimming
+    but then we don't notice that we're basically like gracefully gliding and Teeter
+    tottering all over the world and the way that we control that is sort of Highly
+    complex from both a sort of physical perspective and also from a Balan perspective
+    or like a neural perspective great um let's call this uh balance control and so
+    where are we on time 1255 someday I won't talk the entire time I promise uh yeah
+    so I'll just say it out loud there's a concept called the base of support it's
+    exactly what you think it is there's also a concept called the center of mass
+    it's roughly what you think it is the if the base of support
+- dur: 180.0
+  end: 2880.0
+  start: 2700.0
+  text: is if the B if the center of mass is above the base of support we're good
+    if it goes outside we fall over if we're so static equilibrium doing great oh
+    my God I'm falling it's okay I have two feet I do this all the time this is called
+    walking I'm going from point A to point B every following is pretty high complex
+    stuff great Okay so one of the things my body's really good at is that and I'm
+    very good at just standing and keeping upright and I tend not to fall over especially
+    if I'm not doing anything interesting I can make it harder and do this my Bas
+    of support just got way smaller it's a little harder I feel my body working at
+    it but again I've been here before I can do this not all day but I can do it for
+    a while great that's good um yeah so I'll start in an a pose also it doesn't record
+    sound so I can just talk while I'm doing it uh yeah start with a pose thank you
+    um and keep an ey on the time let me know if it goes over a minute just say minute
+    all right and now we're recording look at me I'm doing it I'm standing here but
+    I don't just have to stand in here I can also lean I can lean pretty far forward
+    I can lean all the way to the right I can lean all the way to the left and my
+    I know when to stop my body just kind of like stops and there's this certain Sensation
+    that I have I can't go any farther uh because my center of Mass is at limit of
+    my base of support my arms are a part of that if I go forward I can't I have to
+    lean my butt back the whole thing great um now I'm doing one foot this is harder
+    but I'm doing it look at me go and I can jump wow I did all that how we doing
+    on time 10 seconds look at me go great T okay that's probably good it looks much
+    more impressive when it's in the when it's data uh did you turn that thing off
+    nice okay I weigh roughly speaking one body mass give or take and when I'm controlling
+    my body sort of throwing arrows into the ground in order to like push the meat
+    in the desired Direction I put the arrow in the opposite way that I want to go
+    I'm putting those forces into the ground appropriately for the mass now if you
+    wanted to compare me to something saying that I weigh one body mass is not
+- dur: 180.0
+  end: 3060.0
+  start: 2880.0
+  text: particularly helpful uh so if you wanted to compare me to some external reference
+    I weigh roughly 95 lers of water which is the same thing as 95 kilograms because
+    metric is cool like that this am Michael bring this over look at you so Aaron
+    did a farmer carry of this object across campus um this weighs 45 lbs so you can
+    convert that was that like 20-ish kilograms which is like a fifth of my body weight
+    but look at me standing I have not even fallen over how in God's name am I able
+    to do that with difficulty and possible injury but yeah so we're do kind of a
+    similar thing probably less jumping uh if I die on camera analyze the data you
+    want call uh balance kettlebell KB or kettlebell okay so I'm going to start in
+    the a pose then I'm going to pick up the who's it 1 1,00 2 1,00 3 1000 and now
+    here I am standing what do you think this data looks like relative to the other
+    data so I'm going all the way over here to this side again and I'm going to go
+    all the way over there to that side I'm all the way forward backwards I don't
+    know if this going to track the system doesn't track kettle bells just to be clear
+    it only tracks human bodies or human body-shaped objects God Jesus  okay that's
+    Jesus okay there we go so before if we're measuring Center of mass relative to
+    base of support and we do that again here is what what's it going to look like
+    what's that answer going to look like especially considering that we're not measuring
+    the kettle bell we're just measuring the body me Jesus okay good the things I
+    do oo what's that data going to look like so we can ask the question qualitatively
+    what's it going to look like like it's going to be this shifted no there wow we
+    can ask the question quantitatively which has numbers in it you start with a qualitative
+    estimate and then you measure the quantitative thing and if they don't line up
+- dur: 180.0
+  end: 3240.0
+  start: 3060.0
+  text: something went wrong either in your measurement or in your Intuition or both
+    okay so I we roughly one body mass multiply that by one g that's one body weight
+    so I'm now pushing down on the ground with one body weight of force the arrow
+    that's pointing into the Earth is the same that it's thing so I'm M that's a kilogram
+    uh G is m/ second squared so if you accept you move so yeah meter if you move
+    it over time and it goes it was here and then 1 second later it's there that's
+    1 meter per second if it this is 1 m/ second and then 1 second later it goes 2
+    m then it's accelerating at two 1 m/ second per second so 1 meter per second great
+    1 meter per second per second great we can combine these apparently and get 1
+    m/s squared wow and then if we multiply a kilogram by a meter second squared you
+    get a Newton which is the name for that great easy don't worry about it the machine
+    knows how to do that so you don't have to the important thing is that I weigh
+    one and my weight is also one just divide this all by numbers I don't actually
+    care how waterways so if I'm standing here I'm putting Force into the ground that's
+    the same as how much I weigh if I'm doing this posture there's some weird stuff
+    going on in my joints we don't have to worry about that now I can put more Force
+    into the ground than I weigh and if I do what will happen I go into the Earth
+    I go to the side where will I go amazing spectacular yeah that's called jumping
+    and basically what that means is for a period of time I put more Force into the
+    ground then I we so I was periodically freed from the tyranny of Earth but then
+    it comes back and grabs me and if you measured it it would be what what this was
+    but with better handwriting
+- dur: 180.0
+  end: 3420.0
+  start: 3240.0
+  text: I'm going to a pose I'll do a big jump I'll do 10 small jumps I'll try to
+    do another big jump and then I'll try to jump on one foot and then if I'm not
+    dead we can call it there okay God damn it okay okay 1 1,00 2 1,00 3 1,00 1 2
+    3 4 five 6 7 8 9 10 11 12 oh that's too many okay God damn it one 2 three four
+    five 6 7 8 9 10 two three four five six seven eight nine 10  one of the rules
+    of being a professor is if you want underg think you're cool just say in front
+    of them just like one time but I say it a lot so you'll be all right okay uh I
+    guess let that one ride or just yeah ah okay uh could you pull up the terminal
+    again is that good is it is it is it running or do you have to tell it to I have
+    to okay yeah so those are the videos there are three of them um and now it will
+    do a lot of math and as these things scroll by um some of
+- dur: 180.0
+  end: 3600.0
+  start: 3420.0
+  text: this yeah this is this is a guy doing the math uh 7% and this is all stacked
+    up so this is all three processing at once the amount of human labor boiled into
+    this little pink line is tremendous there's like human labor from me from Aaron
+    from other people from like people using the software around the world but like
+    that's nothing compared to all the other stuff cuz I didn't invent computers I
+    didn't write like the the amount of code that goes into this where code is just
+    math written in English uh is mostly spent like importing other people's packages
+    like you import numpy and then you get to do linear algebra you you install Python
+    and then you get to write stuff that looks like this and as you do like and it's
+    so code is just text files it's that live on your computer and they get converted
+    into binary and that crunches numbers and blah blah blah um and it winds up comprising
+    like gigabytes of text files go into writing the the numbers that are being crunched
+    on this thing and that is work that's being that was done by people over the past
+    let's say 40 to 50 years arguably back to I mean you got Claude Shannon making
+    basically writing down information Theory and then you got uh what's his name
+    blle Park guy um Turing Allen Turing back in the 50s and you got like ad love
+    lace going back to alisi who was a Iraqi um guy who invented the algorithm um
+    back to Babylonians crunching numbers um and it all kind of goes together and
+    luckily for us unlike the that made the motion capture system everybody that wrote
+    the code that went into this pink line shared it they allowed other people to
+    use it and they allowed their effort to make the world a generally better place
+    where any human can do more things than they could have done before that person
+    did that work the other alternative the standard practice and most of the software
+    that you lose you use in your life is to do a bunch of work based off an understanding
+    and a knowledge and a capacity that you have greater than the people around you
+    then once you've made something useful exploit the disparity that you have created
+    to extract resources from the people around you I don't like that option as a
+    person anyways so what that was doing it was crunch so the pink line is really
+    where
+- dur: 180.0
+  end: 3780.0
+  start: 3600.0
+  text: most of the work was happening the white line is doing the simpler triangulation
+    stuff the pink line is where we are trying to extract skeletons from rectangles
+    of light and this is where we are triangulating comparing the two dimensional
+    estimates because cameras get 2D View and have that marker camera camera person
+    triangulation see how that works wow if you decided to point a laser at me and
+    then you also pointed a laser me and then you told each other where you were sitting
+    and what angle you were pointing the laser and as long as you both confirmed that
+    it was like overlapping here you could do the math to figure out what the distance
+    is even though you have no idea how far your laser is actually going conceptually
+    make sense qualitative understanding I promise you the part where you know the
+    math is not relevant to that Baseline understanding great so we did the 2D stuff
+    we looked at the rectangle of of pixels and we did the this is the the part where
+    it draws the Skeleton on top I guess you probably haven't see much of that data
+    yet so I'll show it to you in a second remember what all this stuff is oh you
+    might need to run it again oh never mind I lied so that part is where it gets
+    shoved into blender uh did you all download blender a thing so blender is a free
+    open source animation software again made for free and given to you the world
+    as a gift freely given and it's made for animators and artists and people like
+    that who are artists who specifically tra in the world of uh creating extremely
+    precise 3D renderings of hypothetical worlds um is it still working oh it's thinking
+    Yeah Yeah so basically yeah cool so we take there we go here I'll drive thank
+    you you want see uh yeah okay
+- dur: 180.0
+  end: 3960.0
+  start: 3780.0
+  text: behold je come on check it out it's the world you live in sort of oh I'm so
+    Le having a mouse yeah oh oh there we go so that's Skelly and we ah oh I guess
+    I kept going I have to figure out how to rotate alt there we go so not as high
+    because I'm tired so this thing right here woo calm down that is my center of
+    mass such as it is and if I do that I say in range I say round frame I say plus
+    or minus 30 30 no 30 30 uh calculate uh yes haha oh and then I say uh don't show
+    the frame numbers make it red no don't show the frame numbers look at it go so
+    if you look so here I am standing man standing look at this rectangle of pixels
+    and then look at this unbelievable gob smacky magic of being able to draw a DOT
+    on my left shoulder and it's kind of correct this is the part that's kind of AI
+    it's not I this is machine learning uses convolutional neural networks it's roughly
+    the same math as what's the bot when you're talking to it but it's for pictures
+    somehow don't worry about it this is the magical step this is the part that like
+    shouldn't be possible it's also the part that's the hardest to like um understand
+    from the outside the trigonometry and linear algebra stuff I do that all day I
+    can know that it's right when I do it
+- dur: 180.0
+  end: 4140.0
+  start: 3960.0
+  text: this one I can't luckily this weird magic step draws a skeleton on top of
+    a picture of a person and I happen to have roughly 12 billion years of evolution
+    that lets me be real good at telling you where the picture of the person is in
+    the image so I can look at it and say yeah that's right that's working pretty
+    good so that's very important that the only magical step in this pipeline is the
+    part that you can confirm with your eyeball qualitatively and if you want to quantitatively
+    understand if it's actually measured anything good you have to get like a PhD
+    that's like literally what he's doing is like validating it beyond the gut check
+    is like that's pretty good but if you want real numbers it's like a lot of work
+    and then who how are we doing on time we're doing okay so now that's a silly skeleton
+    um okay do that do that we say graph editor then we click on this guy again hey
+    hey and then we say normalize and then oh and then we say I will data look at
+    me go uh this tool this so blender is not a scientific tool it was not made to
+    be a scientific tool I am abusing it into being a scientific tool uh and it's
+    it is grateful for the experience um select grab grab ha so this is a complicated
+    thing it's got ribs it's got a pelvis it's got this skull all these parts have
+    weird shapes I didn't actually measure these things I didn't measure where the
+    hips were I didn't measure much of anything uh I only measured these little dotos
+    here and even that's pretty abstract and we're making inferences about what the
+    more complicated shapes were doing by tracking those dots because we are going
+    to pretend that things like pelvises and the associated meat are rigid bodies
+    and because they are rigid bodies you only need to track a couple of points on
+    them to know what the other ones are doing wobbly bodies don't have that property
+    rigid bodies do so we like rigid bodies this skeleton is kind of aesthetic we
+    can also look at huh these little stick o these sticks are the actual rigid bodies
+    that we are
+- dur: 180.0
+  end: 4320.0
+  start: 4140.0
+  text: inferring as the thing that connects the actual dots or the dots are the the
+    3D positions that are triangulated from the things in the image so we we measured
+    some rectangles of light we inferred some stick figures in 2D we constructed some
+    Doos in 3D we put sticks on and we put a skeleton on them and now it's doing all
+    this weird stuff but I got to be honest that's still pretty complicated it's got
+    things like joints those joints have angles I don't want to have to deal with
+    any of that so what we're going to do just going to take all of these things ah
+    and shift all you guys not you hide you see control anyways let's see get you
+    hide don't do that no who cares anyways yeah this cuz this is the trajectory of
+    the whole body I don't want to analyze that I so luckily we can boil this whole
+    guy down into just this and we can look at things like so I want to know what
+    my like we talked about like putting those arrows into the ground in order to
+    like launch ourselves off the floor if we're into that type of thing how how hard
+    did I push off of the ground like how much force did I put into the ground when
+    I did that jump I forgot the force plate and unfortunately that moment is gone
+    forever right lost into the past all we have is the measurements that we had and
+    those measurements are kind of these impoverished web Camy who's itss very abstract
+    and I want to know how hard I pushed right I I care about that for some reason
+    luckily physics is pretty rigid and I can make a lot of estimates about what was
+    going on at some approximation by just looking at this weird shape because one
+    of the interesting things about complicated bodies is no matter how complicated
+    you are if I put you in a catapult I can predict your location very directly doesn't
+    matter how complicated it is is it follows the same rules in the air um so even
+    though
+- dur: 180.0
+  end: 4500.0
+  start: 4320.0
+  text: I can't tell you what each knee was doing from this type of measurement I
+    can't tell you what my hips and stuff were doing I can tell you in a broad stroke
+    how many newtons my body is going to have to absorb when it gets from this point
+    down to that point Boo and then you can also show I don't know if this is real
+    real data if you really squint and believe me there's a little bit of a cuz I'm
+    it's a lot of meat I got to throw around and I'll bet if you measured this it
+    would be somehow worse than this what's worse hard to know we also know uh so
+    now I'm doing this on my the ground I now so before I don't know which knee is
+    doing what now I do because I've constrained the behavior to be easier to measure
+    I can also see I'm kind of like bouncing around like I'm not staying in one place
+    there's some control Loop that's happening I'm I'm guiding something there's something
+    that's being steered whatever that thing is it's probably it feels like it should
+    be related to whoever it was that lets me do this right seems like it should maybe
+    maybe not this one's in my arm that one's in my leg this one's static that one's
+    moving it's hard to know I couldn't really I could get this data in the big fancy
+    lab but it would honestly be difficult it's not made for this type of stuff um
+    you to put the full body on I couldn't have gotten that much data while standing
+    in front of a classroom both because there's no cameras on the walls here and
+    also just because it takes longer than that and I certainly couldn't have shown
+    you how to do it because even if I could requisite aspect of that is start with
+    a quarter million dollars that you're going to spend to record people whereas
+    now it's spend 20 bucks on some webcams and figure out how to run stuff from command
+    line you have to type and then push enter and that's the class so uh thank you
+    for watching and um between now and next week somebody it's unclear who is going
+    to take this data and kind of package it up and put it somewhere online that you
+    can watch it and use it you might not then next week we'll get into like actually
+    how to open the things look at the data and uh there's going to be an assignment
+    for this week which is basically like talk to the bot about what the hell that
+    was
+- dur: 180.0
+  end: 4680.0
+  start: 4500.0
+  text: all about because every one of you watched every one of you saw something
+    different when I did all that stuff and I am very curious about what comes out
+    when you talk about it to the rectangle that is so friendly and polite okay thank
+    you now we have 10 minutes to break down before someone gets mad at us question
+    I sent you an email that saw I probably not okay is that like a good method to
+    no uh I I just get so much email so you can absolutely send email but if I'll
+    probably miss it shoot me a message on Discord it's the easiest way I didn't know
+    if Discord is like too like informal it a little bit is um but like for the first
+    message I was like I'm gonna be safe that's Wise Wise uh what was the question
+    and also if if if I if it's important just send it again okay U I was just wondering
+    about the ATT policy um if I like had to miss a class or like Thanksgiving break
+    um is there like a zoom option no you're out sorry I e e e for
+video_id: VfSQ43VBG28
