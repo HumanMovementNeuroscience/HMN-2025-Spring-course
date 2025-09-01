@@ -1,3 +1,6 @@
 {
-    "gitdoc.enabled": true
+    "gitdoc.enabled": true,
+    "workbench.colorTheme": "GitHub Blue",
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": false,
+    "workbench.preferredDarkColorTheme": "Abyss"
 }

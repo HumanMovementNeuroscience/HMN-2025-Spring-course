@@ -54,15 +54,7 @@ def main(recording_path):
 
 if __name__ == "__main__":
     # Hardcoded default path
-    DEFAULT_RECORDING_PATH = r"C:\Users\jonma\recordings\2025_03_10\001\exports\000\pupil_positions.csv"
+    RECORDING_PATH = r"C:\Users\jonma\recordings\2025_03_10\001\exports\000\pupil_positions.csv"
 
-    parser = argparse.ArgumentParser(description='Analyze pupil tracking data')
-    parser.add_argument(
-        'recording_path',
-        nargs='?',
-        default=DEFAULT_RECORDING_PATH,
-        help='Path to pupil_positions.csv file (default: %(default)s)'
-    )
-    args = parser.parse_args()
 
-    main(args.recording_path)
+    main(RECORDING_PATH)

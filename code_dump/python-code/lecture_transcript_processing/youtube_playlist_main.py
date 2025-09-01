@@ -5,7 +5,7 @@ from helpers.ai_yt_transcript_processor import AITranscriptProcessor
 from helpers.youtube_playlist_extractor import YouTubePlaylistExtractor
 
 logging.basicConfig(level=logging.INFO,
-                    format='%(asctime)s | %(levelname)s | %(message)s')
+                    format='%(asctime)s | %(levelname)s | %(name)s | %(lineno)d | %(message)s',)
 logger = logging.getLogger(__name__)
 
 # Suppress some external loggers
@@ -33,7 +33,8 @@ async def main(playlist_url: str, force_refresh: bool = False):
         raise
 
 if __name__ == "__main__":
-    # DEFAULT_PLAYLIST = "https://youtube.com/playlist?list=PLWxH2Ov17q5HDfMBJxD_cE1lowM1cr_BV" #HMN25
-    DEFAULT_PLAYLIST = "https://youtube.com/playlist?list=PLWxH2Ov17q5HRyRc7_HD5baSYB6kBgsTj" #HMN24
-    logger.info(f"Using playlist URL: {DEFAULT_PLAYLIST}")
-    asyncio.run(main(playlist_url=DEFAULT_PLAYLIST, force_refresh=True))
+    # YOUTUBE_PLAYLIST = "https://youtube.com/playlist?list=PLWxH2Ov17q5HDfMBJxD_cE1lowM1cr_BV" #HMN25
+    # YOUTUBE_PLAYLIST = "https://youtube.com/playlist?list=PLWxH2Ov17q5HRyRc7_HD5baSYB6kBgsTj" #HMN24
+    YOUTUBE_PLAYLIST = "https://www.youtube.com/playlist?list=PLWxH2Ov17q5EQlt0L5bja56tK6xT1U7ws" # FMC LIVESTREAMS
+    logger.info(f"Using playlist URL: {YOUTUBE_PLAYLIST}")
+    asyncio.run(main(playlist_url=YOUTUBE_PLAYLIST, force_refresh=True))

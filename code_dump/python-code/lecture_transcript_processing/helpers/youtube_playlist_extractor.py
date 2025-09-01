@@ -42,7 +42,9 @@ class YouTubePlaylistExtractor(BaseModel):
             # Add successful results to the dictionary
             for result in results:
                 if isinstance(result, Exception):
-                    logger.error(f"Error processing video: {result}")
+                    logger.error(f"Error processing video: `{result}`")
+                    logger.exception("Exception details:" , exc_info=result)
+
                 elif result:
                     video_data_by_id[result.key_name] = result
 
